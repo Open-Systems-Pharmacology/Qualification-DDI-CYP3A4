@@ -12,7 +12,7 @@ The following perpetrator compounds were selected:
 -	fluvoxamine (weak/moderate CYP3A4 inhibitor), 
 -	erythromycin (moderate CYP3A4 inhibitor), 
 -	clarithromycin (strong CYP 3A4 inhibitor), 
--	itraconazole including metabolites (strong CYP3A4 inhibitior). 
+-	itraconazole including metabolites (strong CYP3A4 inhibitor). 
 
 
 
