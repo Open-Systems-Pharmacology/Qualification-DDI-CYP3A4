@@ -6,8 +6,8 @@ clear all
 close all
 tic
 
-REInput_path = 'reporting_engine_input';
-REOutput_path = 'reporting_engine_output';
+REInput_path = 'D:\Qualification\Qualification-DDI-CYP3A4\reporting_engine_input';
+REOutput_path = 'D:\Qualification\Qualification-DDI-CYP3A4\reporting_engine_output';
 
 % REInput_path = 'QualificationPlanTests\examples\Qualification-Ontogeny-Distribution-GFR-master\re_input';
 

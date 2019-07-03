@@ -1502,7 +1502,7 @@
           "Scaling": "Linear"
         },
         {
-          "Unit": "µg/ml",
+          "Unit": "ng/ml",
           "Dimension": "Concentration (mass)",
           "Type": "Y",
           "GridLines": false,
@@ -1543,14 +1543,14 @@
       ],
       "GOFMergedPlotsPredictedVsObserved": [
         {
-          "Unit": "µg/ml",
+          "Unit": "ng/ml",
           "Dimension": "Concentration (mass)",
           "Type": "X",
           "GridLines": false,
           "Scaling": "Log"
         },
         {
-          "Unit": "µg/ml",
+          "Unit": "ng/ml",
           "Dimension": "Concentration (mass)",
           "Type": "Y",
           "GridLines": false,
