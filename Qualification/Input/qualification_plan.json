@@ -3,11 +3,11 @@
   "Projects": [
     {
       "Id": "Midazolam",
-      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Midazolam-Model/master/Midazolam-Model.json"
+      "Path": "https://raw.githubusercontent.com/sfrechen/Midazolam-Model/master/Midazolam-Model.json"
     },
     {
       "Id": "Itraconazole",
-      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Itraconazole-Model/master/Itraconazole-Model.json",
+      "Path": "https://raw.githubusercontent.com/sfrechen/Itraconazole-Model/master/Itraconazole-Model.json",
       "BuildingBlocks": [
         {
           "Type": "Individual",
@@ -18,7 +18,7 @@
     },
     {
       "Id": "Rifampicin",
-      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Rifampicin-Model/master/Rifampicin-Model.json",
+      "Path": "https://raw.githubusercontent.com/sfrechen/Rifampicin-Model/master/Rifampicin-Model.json",
       "BuildingBlocks": [
         {
           "Type": "Individual",
@@ -29,7 +29,7 @@
     },
     {
       "Id": "Itraconazole-Midazolam-DDI",
-      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Itraconazole-Midazolam-DDI/master/Itraconazole-Midazolam-DDI.json",
+      "Path": "https://raw.githubusercontent.com/sfrechen/Itraconazole-Midazolam-DDI/master/Itraconazole-Midazolam-DDI.json",
       "BuildingBlocks": [
         {
           "Type": "Individual",
@@ -522,7 +522,7 @@
     },
     {
       "Id": "Rifampicin-Midazolam-DDI",
-      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Rifampicin-Midazolam-DDI/master/Rifampicin-Midazolam-DDI.json",
+      "Path": "https://raw.githubusercontent.com/sfrechen/Rifampicin-Midazolam-DDI/master/Rifampicin-Midazolam-DDI.json",
       "BuildingBlocks": [
         {
           "Type": "Individual",
@@ -2512,6 +2512,12 @@
         "Title": "CYP3A4 DDI",
         "PKParameter": "AUC|CMAX",
         "PlotType": "predictedVsObserved|residualsVsObserved",
+        "Artifacts": [
+          "Plot",
+          "GMFE",
+          "Measure",
+          "Table"
+        ],
         "Groups": [
           {
             "Caption": "Itra+Mida (Mida iv)",
@@ -3277,12 +3283,12 @@
         {
           "Id": 11,
           "Title": "1.1 Objective",
-          "Content": "Content/Qualification_DDI_UGT1A9_objective.md"
+          "Content": "Content/Qualification_DDI_CYP3A4_objective.md"
         },
         {
           "Id": 12,
           "Title": "1.2 CYP3A4 DDI Network",
-          "Content": "Content/Qualification_DDI_UGT1A9_network_description.md"
+          "Content": "Content/Qualification_DDI_CYP3A4_network_description.md"
         }
       ]
     },
