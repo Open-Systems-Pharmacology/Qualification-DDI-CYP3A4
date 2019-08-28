@@ -2508,7 +2508,7 @@
     ],
     "DDIRatioPlots": [
       {
-        "SectionId": 5,
+        "SectionId": 2,
         "Title": "CYP3A4 DDI",
         "PKParameter": "AUC|CMAX",
         "PlotType": "predictedVsObserved|residualsVsObserved",
