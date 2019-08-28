@@ -23,7 +23,7 @@ jsonFile = 'report-configuration-plan.json';
 % --------------------------------------------------------------
 %OPTIONAL: replace qualificationRunnerPath and qualificationPlan with your paths and call the qualification runner first
 qualificationRunnerPath = fullfile(cd,'..','..','..','_software','QualificationRunner');
-qualificationPlan = fullfile(cd,'Input','evaluation_plan.json');
+qualificationPlan = fullfile(cd,'Input','qualification_plan.json');
 
 startQualificationRunner(qualificationRunnerPath, qualificationPlan, REInput_path);
 

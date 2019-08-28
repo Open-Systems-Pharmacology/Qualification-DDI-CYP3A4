@@ -2920,7 +2920,7 @@
             "Symbol": "Circle",
             "DDIRatios": [
               {
-                "Output": "Organism|PeripheralVenousBlood|Midazolam|Whole Blood (Peripheral Venous Blood)",
+                "Output": "Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
                 "ObservedData": "DDI Ratios",
                 "ObservedDataRecordId": 54,
                 "SimulationControl": {
@@ -2939,7 +2939,7 @@
                 }
               },
               {
-                "Output": "Organism|PeripheralVenousBlood|Midazolam|Whole Blood (Peripheral Venous Blood)",
+                "Output": "Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
                 "ObservedData": "DDI Ratios",
                 "ObservedDataRecordId": 56,
                 "SimulationControl": {
@@ -2958,7 +2958,7 @@
                 }
               },
               {
-                "Output": "Organism|PeripheralVenousBlood|Midazolam|Whole Blood (Peripheral Venous Blood)",
+                "Output": "Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
                 "ObservedData": "DDI Ratios",
                 "ObservedDataRecordId": 57,
                 "SimulationControl": {
@@ -3271,57 +3271,70 @@
   "Sections": [
     {
       "Id": 1,
-      "Title": "Introduction",
+      "Title": "1 Introduction",
       "Content": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Qualification-text-modules/master/Empty.md",
       "Sections": [
         {
           "Id": 11,
-          "Title": "Objective",
-          "Content": "Content/Qualification_DDI_CYP3A4_objective.md"
+          "Title": "1.1 Objective",
+          "Content": "Content/Qualification_DDI_UGT1A9_objective.md"
         },
         {
           "Id": 12,
-          "Title": "Open Systems Pharmacology Suite (OSPS) Introduction",
-          "Content": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Qualification-text-modules/master/OSPS_Introduction.md"
-        },
-        {
-          "Id": 13,
-          "Title": "Mathematical Implementation of drug-drug interactions",
-          "Content": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Qualification-text-modules/master/Mathematical_Implementation_of_DDI.md"
-        },
-        {
-          "Id": 14,
-          "Title": "CYP3A4 DDI Network",
-          "Content": "Content/Qualification_DDI_CYP3A4_network_description.md"
-        },
-        {
-          "Id": 15,
-          "Title": "Qualification Workflow",
-          "Content": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Qualification-text-modules/master/Qualification_Workflow.md"
+          "Title": "1.2 CYP3A4 DDI Network",
+          "Content": "Content/Qualification_DDI_UGT1A9_network_description.md"
         }
       ]
     },
     {
       "Id": 2,
-      "Title": "Qualification of Use Case CYP3A4-mediated DDI",
+      "Title": "2 Qualification of Use Case CYP3A4-mediated DDI",
       "Content": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Qualification-text-modules/master/Empty.md"
     },
     {
       "Id": 3,
-      "Title": "Evaluation of DDI network (coupled perpetrator / victim simulations)",
+      "Title": "3 Evaluation of DDI network (coupled perpetrator / victim simulations)",
       "Content": "Content/Intro_evaluation_DDI_network.md",
       "Sections": [
         {
           "Id": 31,
-          "Title": "Itraconazole-midazolam DDI",
-          "Content": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Itraconazole-Midazolam-DDI/master/text-modules/Intro_Itraconazole-midazolam_DDI.md"
+          "Title": "3.1 Itraconazole - Midazolam DDI",
+          "Content": "https://raw.githubusercontent.com/sfrechen/Itraconazole-Midazolam-DDI/master/text-modules/Itraconazole-midazolam_DDI.md"
         },
         {
           "Id": 32,
-          "Title": "Rifampicin-midazolam DDI",
-          "Content": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Rifampicin-Midazolam-DDI/master/text-modules/Intro_Rifampicin-midazolam_DDI.md"
+          "Title": "3.2 Rifampicin - Midazolam DDI",
+          "Content": "https://raw.githubusercontent.com/sfrechen/Rifampicin-Midazolam-DDI/master/text-modules/Rifampicin-midazolam_DDI.md"
         }
       ]
+    },
+    {
+      "Id": 4,
+      "Title": "4 Appendix",
+      "Content": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Qualification-text-modules/master/Empty.md",
+      "Sections": [
+        {
+          "Id": 41,
+          "Title": "4.1 Open Systems Pharmacology Suite (OSPS) Introduction",
+          "Content": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Qualification-text-modules/master/OSPS_Introduction.md"
+        },
+        {
+          "Id": 42,
+          "Title": "4.2 Mathematical Implementation of Drug-Drug Interactions",
+          "Content": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Qualification-text-modules/master/Mathematical_Implementation_of_DDI.md"
+        },
+        {
+          "Id": 43,
+          "Title": "4.3 Automatic (re)-qualification workflow",
+          "Content": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Qualification-text-modules/master/Qualification_Workflow.md"
+        }
+      ]
+    },
+    {
+      "Id": 5,
+      "Title": "5 References",
+      "Content": "Content/References.md",
+      "Sections": []
     }
   ],
   "Intro": [
