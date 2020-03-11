@@ -3288,7 +3288,19 @@
         {
           "Id": 12,
           "Title": "1.2 CYP3A4 DDI Network",
-          "Content": "Content/Qualification_DDI_CYP3A4_network_description.md"
+          "Content": "Content/Qualification_DDI_CYP3A4_network_description.md",
+          "Sections": [
+            {
+              "Id": 121,
+              "Title": "Itraconazole - Midazolam DDI",
+              "Content": "Content/Itraconazole-Midazolam-DDI.md"
+            },
+            {
+              "Id": 122,
+              "Title": "Rifampicin - Midazolam DDI",
+              "Content": "Content/Rifampicin-Midazolam-DDI.md"
+            }
+          ]
         }
       ]
     },
@@ -3305,12 +3317,12 @@
         {
           "Id": 31,
           "Title": "3.1 Itraconazole - Midazolam DDI",
-          "Content": "https://raw.githubusercontent.com/sfrechen/Itraconazole-Midazolam-DDI/master/text-modules/Itraconazole-midazolam_DDI.md"
+          "Content": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Qualification-text-modules/master/Empty.md"
         },
         {
           "Id": 32,
           "Title": "3.2 Rifampicin - Midazolam DDI",
-          "Content": "https://raw.githubusercontent.com/sfrechen/Rifampicin-Midazolam-DDI/master/text-modules/Rifampicin-midazolam_DDI.md"
+          "Content": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Qualification-text-modules/master/Empty.md"
         }
       ]
     },
