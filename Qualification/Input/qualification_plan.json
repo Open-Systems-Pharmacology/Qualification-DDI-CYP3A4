@@ -1,13 +1,13 @@
 {
-  "$schema": "https://github.com/Open-Systems-Pharmacology/QualificationPlan/releases/download/v2.0/OSP_Qualification_Plan_Schema.json",
+  "$schema": "https://github.com/Open-Systems-Pharmacology/QualificationPlan/releases/download/v2.1/OSP_Qualification_Plan_Schema.json",
   "Projects": [
     {
       "Id": "Midazolam",
-      "Path": "https://raw.githubusercontent.com/sfrechen/Midazolam-Model/master/Midazolam-Model.json"
+      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Midazolam-Model/master/Midazolam-Model.json"
     },
     {
       "Id": "Itraconazole",
-      "Path": "https://raw.githubusercontent.com/sfrechen/Itraconazole-Model/master/Itraconazole-Model.json",
+      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Itraconazole-Model/master/Itraconazole-Model.json",
       "BuildingBlocks": [
         {
           "Type": "Individual",
@@ -29,7 +29,7 @@
     },
     {
       "Id": "Itraconazole-Midazolam-DDI",
-      "Path": "https://raw.githubusercontent.com/sfrechen/Itraconazole-Midazolam-DDI/master/Itraconazole-Midazolam-DDI.json",
+      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Itraconazole-Midazolam-DDI/master/Itraconazole-Midazolam-DDI.json",
       "BuildingBlocks": [
         {
           "Type": "Individual",
@@ -1476,7 +1476,7 @@
   "ObservedDataSets": [
     {
       "Id": "DDI Ratios",
-      "Path": "https://raw.githubusercontent.com/sfrechen/Database-for-observed-data/master/DDI.csv",
+      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Database-for-observed-data/master/DDI.csv",
       "Type": "DDIRatio"
     }
   ],
@@ -1777,6 +1777,36 @@
             "Output": "Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
             "ObservedData": "Olkkola 1996 - day 6 (po) with Perpetrator (Itraconazole) - Midazolam - PO - 7.5 mg - Plasma - agg. (n=12)",
             "StartTime": 122,
+            "TimeUnit": "h",
+            "Color": "#b2182b",
+            "Caption": "Treatment (with Itraconazole)",
+            "Symbol": "Square"
+          }
+        ]
+      },
+      {
+        "SectionId": 31,
+        "Title": "Prueksaritanont 2017",
+        "SimulationDuration": 72,
+        "TimeUnit": "h",
+        "OutputMappings": [
+          {
+            "Project": "Itraconazole-Midazolam-DDI",
+            "Simulation": "DDI Control - Midazolam - Prueksaritanont 2017",
+            "Output": "Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
+            "ObservedData": "Prueksaritanont 2017 - Midazolam in microdosecocktail alone - Midazolam - PO - 10 µg - Plasma - agg. (n=12)",
+            "StartTime": 0,
+            "TimeUnit": "h",
+            "Color": "#2166ac",
+            "Caption": "Control (without Itraconazole)",
+            "Symbol": "Circle"
+          },
+          {
+            "Project": "Itraconazole-Midazolam-DDI",
+            "Simulation": "DDI Treatment - Itraconazole/Midazolam - Prueksaritanont 2017",
+            "Output": "Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
+            "ObservedData": "Prueksaritanont 2017 - Midazolam in microdosecocktail + Itraconazole - Midazolam - PO - 10 µg - Plasma - agg. (n=8)",
+            "StartTime": 72,
             "TimeUnit": "h",
             "Color": "#b2182b",
             "Caption": "Treatment (with Itraconazole)",
@@ -2717,6 +2747,25 @@
                   "Project": "Itraconazole-Midazolam-DDI",
                   "Simulation": "DDI Treatment - Itraconazole/Midazolam - Templeton 2010 (400 mg)",
                   "StartTime": 4,
+                  "EndTime": 9999,
+                  "TimeUnit": "h"
+                }
+              },
+              {
+                "Output": "Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
+                "ObservedData": "DDI Ratios",
+                "ObservedDataRecordId": 1097,
+                "SimulationControl": {
+                  "Project": "Itraconazole-Midazolam-DDI",
+                  "Simulation": "DDI Control - Midazolam - Prueksaritanont 2017",
+                  "StartTime": 0,
+                  "EndTime": 9999,
+                  "TimeUnit": "h"
+                },
+                "SimulationDDI": {
+                  "Project": "Itraconazole-Midazolam-DDI",
+                  "Simulation": "DDI Treatment - Itraconazole/Midazolam - Prueksaritanont 2017",
+                  "StartTime": 72,
                   "EndTime": 9999,
                   "TimeUnit": "h"
                 }
