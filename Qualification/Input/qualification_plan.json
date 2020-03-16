@@ -33,6 +33,22 @@
       ]
     },
     {
+      "Id": "Triazolam",
+      "Path": "https://raw.githubusercontent.com/AndreDlm/Alprazolam-Model/master/Triazolam.json",
+      "BuildingBlocks": [
+        {
+          "Type": "Compound",
+          "Name": "Triazolam",
+          "Project": "Triazolam"
+        },
+        {
+          "Type": "Formulation",
+          "Name": "Halcion",
+          "Project": "Triazolam"
+        }
+      ]
+    },
+    {
       "Id": "Itraconazole",
       "Path": "https://raw.githubusercontent.com/sfrechen/Itraconazole-Model/master/Itraconazole-Model.json",
       "BuildingBlocks": [
@@ -1751,6 +1767,261 @@
           ]
         }
       ]
+    },
+    {
+      "Id": "Erythromycin-Triazolam-DDI",
+      "Path": "https://raw.githubusercontent.com/AndreDlm/Erythromycin-Triazolam-DDI/master/Erythromycin-Triazolam-DDI.json",
+      "BuildingBlocks": [
+        {
+          "Type": "Individual",
+          "Name": "European (P-gp modified, CYP3A4 36 h)",
+          "Project": "Erythromycin-Triazolam-DDI"
+        }
+      ],
+      "SimulationParameters": [
+        {
+          "Project": "Triazolam",
+          "Simulation": "PO_0.125mg",
+          "Path": "Neighborhoods|Duodenum_int_Duodenum_cell|Triazolam|P (interstitial->intracellular)",
+          "TargetSimulations": [
+            "Greenblatt1998_Control",
+            "Greenblatt1998_Perpetrator",
+            "Phillips1986_Control",
+            "Phillips1986_Perpetrator"
+          ]
+        },
+        {
+          "Project": "Triazolam",
+          "Simulation": "PO_0.125mg",
+          "Path": "Neighborhoods|UpperJejunum_int_UpperJejunum_cell|Triazolam|P (interstitial->intracellular)",
+          "TargetSimulations": [
+            "Greenblatt1998_Control",
+            "Greenblatt1998_Perpetrator",
+            "Phillips1986_Control",
+            "Phillips1986_Perpetrator"
+          ]
+        },
+        {
+          "Project": "Triazolam",
+          "Simulation": "PO_0.125mg",
+          "Path": "Neighborhoods|LowerJejunum_int_LowerJejunum_cell|Triazolam|P (interstitial->intracellular)",
+          "TargetSimulations": [
+            "Greenblatt1998_Control",
+            "Greenblatt1998_Perpetrator",
+            "Phillips1986_Control",
+            "Phillips1986_Perpetrator"
+          ]
+        },
+        {
+          "Project": "Triazolam",
+          "Simulation": "PO_0.125mg",
+          "Path": "Neighborhoods|UpperIleum_int_UpperIleum_cell|Triazolam|P (interstitial->intracellular)",
+          "TargetSimulations": [
+            "Greenblatt1998_Control",
+            "Greenblatt1998_Perpetrator",
+            "Phillips1986_Control",
+            "Phillips1986_Perpetrator"
+          ]
+        },
+        {
+          "Project": "Triazolam",
+          "Simulation": "PO_0.125mg",
+          "Path": "Neighborhoods|LowerIleum_int_LowerIleum_cell|Triazolam|P (interstitial->intracellular)",
+          "TargetSimulations": [
+            "Greenblatt1998_Control",
+            "Greenblatt1998_Perpetrator",
+            "Phillips1986_Control",
+            "Phillips1986_Perpetrator"
+          ]
+        },
+        {
+          "Project": "Triazolam",
+          "Simulation": "PO_0.125mg",
+          "Path": "Neighborhoods|Caecum_int_Caecum_cell|Triazolam|P (interstitial->intracellular)",
+          "TargetSimulations": [
+            "Greenblatt1998_Control",
+            "Greenblatt1998_Perpetrator",
+            "Phillips1986_Control",
+            "Phillips1986_Perpetrator"
+          ]
+        },
+        {
+          "Project": "Triazolam",
+          "Simulation": "PO_0.125mg",
+          "Path": "Neighborhoods|ColonAscendens_int_ColonAscendens_cell|Triazolam|P (interstitial->intracellular)",
+          "TargetSimulations": [
+            "Greenblatt1998_Control",
+            "Greenblatt1998_Perpetrator",
+            "Phillips1986_Control",
+            "Phillips1986_Perpetrator"
+          ]
+        },
+        {
+          "Project": "Triazolam",
+          "Simulation": "PO_0.125mg",
+          "Path": "Neighborhoods|ColonTransversum_int_ColonTransversum_cell|Triazolam|P (interstitial->intracellular)",
+          "TargetSimulations": [
+            "Greenblatt1998_Control",
+            "Greenblatt1998_Perpetrator",
+            "Phillips1986_Control",
+            "Phillips1986_Perpetrator"
+          ]
+        },
+        {
+          "Project": "Triazolam",
+          "Simulation": "PO_0.125mg",
+          "Path": "Neighborhoods|ColonDescendens_int_ColonDescendens_cell|Triazolam|P (interstitial->intracellular)",
+          "TargetSimulations": [
+            "Greenblatt1998_Control",
+            "Greenblatt1998_Perpetrator",
+            "Phillips1986_Control",
+            "Phillips1986_Perpetrator"
+          ]
+        },
+        {
+          "Project": "Triazolam",
+          "Simulation": "PO_0.125mg",
+          "Path": "Neighborhoods|ColonSigmoid_int_ColonSigmoid_cell|Triazolam|P (interstitial->intracellular)",
+          "TargetSimulations": [
+            "Greenblatt1998_Control",
+            "Greenblatt1998_Perpetrator",
+            "Phillips1986_Control",
+            "Phillips1986_Perpetrator"
+          ]
+        },
+        {
+          "Project": "Triazolam",
+          "Simulation": "PO_0.125mg",
+          "Path": "Neighborhoods|Rectum_int_Rectum_cell|Triazolam|P (interstitial->intracellular)",
+          "TargetSimulations": [
+            "Greenblatt1998_Control",
+            "Greenblatt1998_Perpetrator",
+            "Phillips1986_Control",
+            "Phillips1986_Perpetrator"
+          ]
+        },
+        {
+          "Project": "Triazolam",
+          "Simulation": "PO_0.125mg",
+          "Path": "Neighborhoods|Duodenum_int_Duodenum_cell|Triazolam|P (intracellular->interstitial)",
+          "TargetSimulations": [
+            "Greenblatt1998_Control",
+            "Greenblatt1998_Perpetrator",
+            "Phillips1986_Control",
+            "Phillips1986_Perpetrator"
+          ]
+        },
+        {
+          "Project": "Triazolam",
+          "Simulation": "PO_0.125mg",
+          "Path": "Neighborhoods|UpperJejunum_int_UpperJejunum_cell|Triazolam|P (intracellular->interstitial)",
+          "TargetSimulations": [
+            "Greenblatt1998_Control",
+            "Greenblatt1998_Perpetrator",
+            "Phillips1986_Control",
+            "Phillips1986_Perpetrator"
+          ]
+        },
+        {
+          "Project": "Triazolam",
+          "Simulation": "PO_0.125mg",
+          "Path": "Neighborhoods|LowerJejunum_int_LowerJejunum_cell|Triazolam|P (intracellular->interstitial)",
+          "TargetSimulations": [
+            "Greenblatt1998_Control",
+            "Greenblatt1998_Perpetrator",
+            "Phillips1986_Control",
+            "Phillips1986_Perpetrator"
+          ]
+        },
+        {
+          "Project": "Triazolam",
+          "Simulation": "PO_0.125mg",
+          "Path": "Neighborhoods|UpperIleum_int_UpperIleum_cell|Triazolam|P (intracellular->interstitial)",
+          "TargetSimulations": [
+            "Greenblatt1998_Control",
+            "Greenblatt1998_Perpetrator",
+            "Phillips1986_Control",
+            "Phillips1986_Perpetrator"
+          ]
+        },
+        {
+          "Project": "Triazolam",
+          "Simulation": "PO_0.125mg",
+          "Path": "Neighborhoods|LowerIleum_int_LowerIleum_cell|Triazolam|P (intracellular->interstitial)",
+          "TargetSimulations": [
+            "Greenblatt1998_Control",
+            "Greenblatt1998_Perpetrator",
+            "Phillips1986_Control",
+            "Phillips1986_Perpetrator"
+          ]
+        },
+        {
+          "Project": "Triazolam",
+          "Simulation": "PO_0.125mg",
+          "Path": "Neighborhoods|Caecum_int_Caecum_cell|Triazolam|P (intracellular->interstitial)",
+          "TargetSimulations": [
+            "Greenblatt1998_Control",
+            "Greenblatt1998_Perpetrator",
+            "Phillips1986_Control",
+            "Phillips1986_Perpetrator"
+          ]
+        },
+        {
+          "Project": "Triazolam",
+          "Simulation": "PO_0.125mg",
+          "Path": "Neighborhoods|ColonAscendens_int_ColonAscendens_cell|Triazolam|P (intracellular->interstitial)",
+          "TargetSimulations": [
+            "Greenblatt1998_Control",
+            "Greenblatt1998_Perpetrator",
+            "Phillips1986_Control",
+            "Phillips1986_Perpetrator"
+          ]
+        },
+        {
+          "Project": "Triazolam",
+          "Simulation": "PO_0.125mg",
+          "Path": "Neighborhoods|ColonTransversum_int_ColonTransversum_cell|Triazolam|P (intracellular->interstitial)",
+          "TargetSimulations": [
+            "Greenblatt1998_Control",
+            "Greenblatt1998_Perpetrator",
+            "Phillips1986_Control",
+            "Phillips1986_Perpetrator"
+          ]
+        },
+        {
+          "Project": "Triazolam",
+          "Simulation": "PO_0.125mg",
+          "Path": "Neighborhoods|ColonDescendens_int_ColonDescendens_cell|Triazolam|P (intracellular->interstitial)",
+          "TargetSimulations": [
+            "Greenblatt1998_Control",
+            "Greenblatt1998_Perpetrator",
+            "Phillips1986_Control",
+            "Phillips1986_Perpetrator"
+          ]
+        },
+        {
+          "Project": "Triazolam",
+          "Simulation": "PO_0.125mg",
+          "Path": "Neighborhoods|ColonSigmoid_int_ColonSigmoid_cell|Triazolam|P (intracellular->interstitial)",
+          "TargetSimulations": [
+            "Greenblatt1998_Control",
+            "Greenblatt1998_Perpetrator",
+            "Phillips1986_Control",
+            "Phillips1986_Perpetrator"
+          ]
+        },
+        {
+          "Project": "Triazolam",
+          "Simulation": "PO_0.125mg",
+          "Path": "Neighborhoods|Rectum_int_Rectum_cell|Triazolam|P (intracellular->interstitial)",
+          "TargetSimulations": [
+            "Greenblatt1998_Control",
+            "Greenblatt1998_Perpetrator",
+            "Phillips1986_Control",
+            "Phillips1986_Perpetrator"
+          ]
+        }
+      ]
     }
   ],
   "ObservedDataSets": [
@@ -2888,6 +3159,66 @@
             "Symbol": "Square"
           }
         ]
+      },
+      {
+        "SectionId": 35,
+        "Title": "Greenblatt 1998",
+        "SimulationDuration": 24,
+        "TimeUnit": "h",
+        "OutputMappings": [
+          {
+            "Project": "Erythromycin-Triazolam-DDI",
+            "Simulation": "Greenblatt1998_Control",
+            "Output": "Organism|PeripheralVenousBlood|Triazolam|Plasma (Peripheral Venous Blood)",
+            "ObservedData": "Greenblatt 1998a - Triazolam + Placebo (Trial B) - Triazolam - PO - 0.125 mg - Plasma - agg. (n=12)",
+            "StartTime": 0,
+            "TimeUnit": "h",
+            "Color": "#2166ac",
+            "Caption": "Control (without erythromycin)",
+            "Symbol": "Circle"
+          },
+          {
+            "Project": "Erythromycin-Triazolam-DDI",
+            "Simulation": "Greenblatt1998_Perpetrator",
+            "Output": "Organism|PeripheralVenousBlood|Triazolam|Plasma (Peripheral Venous Blood)",
+            "ObservedData": "Greenblatt 1998a - Triazolam + Erythromycin (Trial D) - Triazolam - PO - 0.125 mg - Plasma - agg. (n=12)",
+            "StartTime": 170,
+            "TimeUnit": "h",
+            "Color": "#b2182b",
+            "Caption": "Treatment with erythromycin",
+            "Symbol": "Square"
+          }
+        ]
+      },
+      {
+        "SectionId": 35,
+        "Title": "Phillips 1986",
+        "SimulationDuration": 24,
+        "TimeUnit": "h",
+        "OutputMappings": [
+          {
+            "Project": "Erythromycin-Triazolam-DDI",
+            "Simulation": "Phillips1986_Control",
+            "Output": "Organism|PeripheralVenousBlood|Triazolam|Plasma (Peripheral Venous Blood)",
+            "ObservedData": "Phillips 1986 - Triazolam alone - Triazolam - PO - 0.5 mg - Plasma - agg. (n=16)",
+            "StartTime": 0,
+            "TimeUnit": "h",
+            "Color": "#2166ac",
+            "Caption": "Control (without erythromycin)",
+            "Symbol": "Circle"
+          },
+          {
+            "Project": "Erythromycin-Triazolam-DDI",
+            "Simulation": "Phillips1986_Perpetrator",
+            "Output": "Organism|PeripheralVenousBlood|Triazolam|Plasma (Peripheral Venous Blood)",
+            "ObservedData": "Phillips 1986 - Triazolam after 3 days of erythromycin - Triazolam - PO - 0.5 mg - Plasma - agg. (n=16)",
+            "StartTime": 170,
+            "TimeUnit": "h",
+            "Color": "#b2182b",
+            "Caption": "Treatment with erythromycin",
+            "Symbol": "Square"
+          }
+        ]
       }
     ],
     "DDIRatioPlots": [
@@ -3723,6 +4054,51 @@
                 }
               }
             ]
+          },
+          {
+            "Caption": "Erythromycin + Triazolam",
+            "Color": "#FF0000",
+            "Symbol": "Square",
+            "DDIRatios": [
+              {
+                "Output": "Organism|PeripheralVenousBlood|Triazolam|Plasma (Peripheral Venous Blood)",
+                "ObservedData": "DDI Ratios",
+                "ObservedDataRecordId": 781,
+                "SimulationControl": {
+                  "Project": "Erythromycin-Triazolam-DDI",
+                  "Simulation": "Greenblatt1998_Control",
+                  "StartTime": 0,
+                  "EndTime": "Inf",
+                  "TimeUnit": "h"
+                },
+                "SimulationDDI": {
+                  "Project": "Erythromycin-Triazolam-DDI",
+                  "Simulation": "Greenblatt1998_Perpetrator",
+                  "StartTime": 25,
+                  "EndTime": "Inf",
+                  "TimeUnit": "h"
+                }
+              },
+              {
+                "Output": "Organism|PeripheralVenousBlood|Triazolam|Plasma (Peripheral Venous Blood)",
+                "ObservedData": "DDI Ratios",
+                "ObservedDataRecordId": 757,
+                "SimulationControl": {
+                  "Project": "Erythromycin-Triazolam-DDI",
+                  "Simulation": "Phillips1986_Control",
+                  "StartTime": 0,
+                  "EndTime": "Inf",
+                  "TimeUnit": "h"
+                },
+                "SimulationDDI": {
+                  "Project": "Erythromycin-Triazolam-DDI",
+                  "Simulation": "Phillips1986_Perpetrator",
+                  "StartTime": 64,
+                  "EndTime": "Inf",
+                  "TimeUnit": "h"
+                }
+              }
+            ]
           }
         ]
       }
@@ -3764,6 +4140,11 @@
               "Id": 124,
               "Title": "Erythromycin - Alprazolam DDI",
               "Content": "Content/Erythromycin-Alprazolam-DDI.md"
+            },
+            {
+              "Id": 125,
+              "Title": "Erythromycin - Triazolam DDI",
+              "Content": "Content/Erythromycin-Triazolam-DDI.md"
             }
           ]
         }
@@ -3797,6 +4178,11 @@
         {
           "Id": 34,
           "Title": "3.3 Erythromycin - Alprazolam DDI",
+          "Content": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Qualification-text-modules/master/Empty.md"
+        },
+        {
+          "Id": 35,
+          "Title": "3.3 Erythromycin - Triazolam DDI",
           "Content": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Qualification-text-modules/master/Empty.md"
         }
       ]
