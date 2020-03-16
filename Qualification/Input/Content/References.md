@@ -28,7 +28,7 @@
 
 
 
-***Erythromycin-Midazolam-DDI***
+## ***Erythromycin-Midazolam-DDI***
 
 **Carls 2014** Carls, A., Jedamzik, J., Witt, L., Hohmann, N., Burhenne, J., & Mikus, G. (2014). Systemic exposure of topical erythromycin in comparison to oral administration and the effect on cytochrome P450 3A4 activity. *British journal of clinical pharmacology*, *78*(6), 1433-1440.
 
@@ -42,7 +42,7 @@
 
 
 
-***Erythromycin-Triazolam-DDI***
+## ***Erythromycin-Triazolam-DDI***
 
 **Greenblatt 1998** Greenblatt, D. J., von Moltke, L. L., Harmatz, J. S., Counihan, M., Graf, J. A., Durol, A. L. B., ... & Shader, R. I. (1998). Inhibition of triazolam clearance by macrolide antimicrobial agents: in vitro correlates and dynamic consequences. *Clinical Pharmacology & Therapeutics*, *64*(3), 278-285.
 
