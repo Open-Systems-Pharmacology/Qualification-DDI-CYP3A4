@@ -1,7 +1,7 @@
 The respective model repository can be found in:
 https://github.com/Open-Systems-Pharmacology/Itraconazole-Midazolam-DDI
 
-The itraconazole / midazolam interaction was evaluated using six clinical DDI studies including 11 different clinical settings ([Ahonen 1995](#4-References), [Backman 1998](#4-References), [Olkkola 1994](#4-References), [Olkkola 1996](#4-References), [Templeton 2010](#4-References), [Prueksaritanont 2017](#4-References) ).
+The itraconazole / midazolam interaction was evaluated using six clinical DDI studies including 11 different clinical settings ([Ahonen 1995](#4-References), [Backman 1998](#4-References), [Olkkola 1994](#4-References), [Olkkola 1996](#4-References), [Prueksaritanont 2017](#4-References),  [Templeton 2010](#4-References)).
 
 
 
