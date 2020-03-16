@@ -4106,6 +4106,36 @@
         ]
       },
       {
+        "SectionId": 32,
+        "Title": "van Dyk 2018",
+        "SimulationDuration": 24,
+        "TimeUnit": "h",
+        "OutputMappings": [
+          {
+            "Project": "Rifampicin-Midazolam-DDI",
+            "Simulation": "DDI Control - Midazolam - van Dyk 2018",
+            "Output": "Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
+            "ObservedData": "van Dyk 2018 - Midazolam in Caucasian at baseline - Midazolam - PO - 1 mg - Plasma - agg. (n=19)",
+            "StartTime": 0,
+            "TimeUnit": "h",
+            "Color": "#2166ac",
+            "Caption": "Control (without Rifampicin)",
+            "Symbol": "Circle"
+          },
+          {
+            "Project": "Rifampicin-Midazolam-DDI",
+            "Simulation": "DDI Treatment - Rifampicin/Midazolam - van Dyk 2018",
+            "Output": "Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
+            "ObservedData": [],
+            "StartTime": 156,
+            "TimeUnit": "h",
+            "Color": "#b2182b",
+            "Caption": "Treatment (with Rifampicin)",
+            "Symbol": "Square"
+          }
+        ]
+      },  
+      {
         "SectionId": 33,
         "Title": "Bartkowski 1989",
         "SimulationDuration": 8,
@@ -4500,37 +4530,7 @@
             "Symbol": "Square"
           }
         ]
-      },
-      {
-        "SectionId": 32,
-        "Title": "van Dyk 2018",
-        "SimulationDuration": 24,
-        "TimeUnit": "h",
-        "OutputMappings": [
-          {
-            "Project": "Rifampicin-Midazolam-DDI",
-            "Simulation": "DDI Control - Midazolam - van Dyk 2018",
-            "Output": "Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
-            "ObservedData": "van Dyk 2018 - Midazolam in Caucasian at baseline - Midazolam - PO - 1 mg - Plasma - agg. (n=19)",
-            "StartTime": 0,
-            "TimeUnit": "h",
-            "Color": "#2166ac",
-            "Caption": "Control (without Rifampicin)",
-            "Symbol": "Circle"
-          },
-          {
-            "Project": "Rifampicin-Midazolam-DDI",
-            "Simulation": "DDI Treatment - Rifampicin/Midazolam - van Dyk 2018",
-            "Output": "Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
-            "ObservedData": [],
-            "StartTime": 156,
-            "TimeUnit": "h",
-            "Color": "#b2182b",
-            "Caption": "Treatment (with Rifampicin)",
-            "Symbol": "Square"
-          }
-        ]
-      }      
+      }          
     ],
     "DDIRatioPlots": [
       {
