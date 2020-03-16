@@ -6,6 +6,17 @@
       "Path": "https://raw.githubusercontent.com/sfrechen/Midazolam-Model/master/Midazolam-Model.json"
     },
     {
+      "Id": "Alfentanil",
+      "Path": "https://raw.githubusercontent.com/TWendl/Alfentanil-Model/master/Alfentanil.json",
+      "BuildingBlocks": [
+        {
+          "Type": "Compound",
+          "Name": "Alfentanil",
+          "Project": "Alfentanil"
+        }
+      ]
+    },
+    {
       "Id": "Itraconazole",
       "Path": "https://raw.githubusercontent.com/sfrechen/Itraconazole-Model/master/Itraconazole-Model.json",
       "BuildingBlocks": [
@@ -24,6 +35,48 @@
           "Type": "Individual",
           "Name": "European (P-gp modified, CYP3A4 36 h)",
           "Project": "Midazolam"
+        }
+      ]
+    },
+    {
+      "Id": "Erythromycin",
+      "Path": "https://raw.githubusercontent.com/AndreDlm/Erythromycin-Model/master/Erythromycin.json",
+      "BuildingBlocks": [
+        {
+          "Type": "Compound",
+          "Name": "Erythromycin",
+          "Project": "Erythromycin"
+        },
+        {
+          "Type": "Formulation",
+          "Name": "Erythromycin_Weibull_filmtablet",
+          "Project": "Erythromycin"
+        },
+        {
+          "Type": "Formulation",
+          "Name": "Erythromycin_Weibull_filmtablet_250mg",
+          "Project": "Erythromycin"
+        },
+        {
+          "Type": "Formulation",
+          "Name": "Erythromycin_Weibull_enteric-coated-tablet",
+          "Project": "Erythromycin"
+        },
+        {
+          "Type": "Formulation",
+          "Name": "Erythromycin_Weibull_enteric-coated-pellets",
+          "Project": "Erythromycin"
+        }
+      ]
+    },
+    {
+      "Id": "Erythromycin-Alfentanil-DDI",
+      "Path": "https://raw.githubusercontent.com/AndreDlm/Erythromycin-Alfentanil-DDI/master/Erythromycin-Alfentanil-DDI.json",
+      "BuildingBlocks": [
+        {
+          "Type": "Individual",
+          "Name": "European (P-gp modified, CYP3A4 36 h)",
+          "Project": "Erythromycin-Alfentanil-DDI"
         }
       ]
     },
@@ -2504,6 +2557,80 @@
             "Symbol": "Square"
           }
         ]
+      },
+      {
+        "SectionId": 33,
+        "Title": "Bartkowski 1989",
+        "SimulationDuration": 8,
+        "TimeUnit": "h",
+        "OutputMappings": [
+          {
+            "Project": "Erythromycin-Alfentanil-DDI",
+            "Simulation": "Bartkowski1989_Control",
+            "Output": "Organism|PeripheralVenousBlood|Alfentanil|Plasma (Peripheral Venous Blood)",
+            "ObservedData": "Bartkowski 1989 - Control - Alfentanil - IV - 50 µg/kg - Serum - indiv.",
+            "StartTime": 0,
+            "TimeUnit": "h",
+            "Color": "#2166ac",
+            "Caption": "Control (without erythromycin)",
+            "Symbol": "Circle"
+          },
+          {
+            "Project": "Erythromycin-Alfentanil-DDI",
+            "Simulation": "Bartkowski1989_Control",
+            "Output": "Organism|PeripheralVenousBlood|Alfentanil|Plasma (Peripheral Venous Blood)",
+            "ObservedData": "Bartkowski 1993 - Control - Alfentanil - IV - 50 µg/kg - Serum - indiv.",
+            "StartTime": 0,
+            "TimeUnit": "h",
+            "Color": "#1cdee8",
+            "Caption": "Control (without erythromycin)",
+            "Symbol": "Circle"
+          },
+          {
+            "Project": "Erythromycin-Alfentanil-DDI",
+            "Simulation": "Bartkowski1989_Perpetrator_Day1",
+            "Output": "Organism|PeripheralVenousBlood|Alfentanil|Plasma (Peripheral Venous Blood)",
+            "ObservedData": "Bartkowski 1989 - Treatment Day 1 - Alfentanil - IV - 50 µg/kg - Serum - indiv.",
+            "StartTime": 1.5,
+            "TimeUnit": "h",
+            "Color": "#eb3113",
+            "Caption": "Treatment with erythromycin (Day 1)",
+            "Symbol": "Square"
+          },
+          {
+            "Project": "Erythromycin-Alfentanil-DDI",
+            "Simulation": "Bartkowski1989_Perpetrator_Day1",
+            "Output": "Organism|PeripheralVenousBlood|Alfentanil|Plasma (Peripheral Venous Blood)",
+            "ObservedData": "Bartkowski 1989 - Treatment Day 7 - Alfentanil - IV - 50 µg/kg - Serum - indiv.",
+            "StartTime": 1.5,
+            "TimeUnit": "h",
+            "Color": "#fa8405",
+            "Caption": "Treatment with erythromycin (Day 1)",
+            "Symbol": "Square"
+          },
+          {
+            "Project": "Erythromycin-Alfentanil-DDI",
+            "Simulation": "Bartkowski1989_Perpetrator_Day7",
+            "Output": "Organism|PeripheralVenousBlood|Alfentanil|Plasma (Peripheral Venous Blood)",
+            "ObservedData": "Bartkowski 1989 - Treatment Day 7 - Alfentanil - IV - 50 µg/kg - Serum - indiv.",
+            "StartTime": 145.5,
+            "TimeUnit": "h",
+            "Color": "#eb3113",
+            "Caption": "Treatment with erythromycin (Day 7)",
+            "Symbol": "Square"
+          },
+          {
+            "Project": "Erythromycin-Alfentanil-DDI",
+            "Simulation": "Bartkowski1989_Perpetrator_Day7",
+            "Output": "Organism|PeripheralVenousBlood|Alfentanil|Plasma (Peripheral Venous Blood)",
+            "ObservedData": "Bartkowski 1989 - Treatment Day 7 - Alfentanil - IV - 50 µg/kg - Serum - indiv.",
+            "StartTime": 145.5,
+            "TimeUnit": "h",
+            "Color": "#fa8405",
+            "Caption": "Treatment with erythromycin (Day 7)",
+            "Symbol": "Square"
+          }
+        ]
       }
     ],
     "DDIRatioPlots": [
@@ -3268,6 +3395,51 @@
                 }
               }
             ]
+          },
+          {
+            "Caption": "Erythromycin + Alfentanil (Alfentanil IV)",
+            "Color": "#FF0000",
+            "Symbol": "Square",
+            "DDIRatios": [
+              {
+                "Output": "Organism|PeripheralVenousBlood|Alfentanil|Plasma (Peripheral Venous Blood)",
+                "ObservedData": "DDI Ratios",
+                "ObservedDataRecordId": 779,
+                "SimulationControl": {
+                  "Project": "Erythromycin-Alfentanil-DDI",
+                  "Simulation": "Bartkowski1989_Control",
+                  "StartTime": 0,
+                  "EndTime": 9999,
+                  "TimeUnit": "h"
+                },
+                "SimulationDDI": {
+                  "Project": "Erythromycin-Alfentanil-DDI",
+                  "Simulation": "Bartkowski1989_Perpetrator_Day1",
+                  "StartTime": 1.5,
+                  "EndTime": 9999,
+                  "TimeUnit": "h"
+                }
+              },
+              {
+                "Output": "Organism|PeripheralVenousBlood|Alfentanil|Plasma (Peripheral Venous Blood)",
+                "ObservedData": "DDI Ratios",
+                "ObservedDataRecordId": 780,
+                "SimulationControl": {
+                  "Project": "Erythromycin-Alfentanil-DDI",
+                  "Simulation": "Bartkowski1989_Control",
+                  "StartTime": 0,
+                  "EndTime": 9999,
+                  "TimeUnit": "h"
+                },
+                "SimulationDDI": {
+                  "Project": "Erythromycin-Alfentanil-DDI",
+                  "Simulation": "Bartkowski1989_Perpetrator_Day7",
+                  "StartTime": 145.5,
+                  "EndTime": 9999,
+                  "TimeUnit": "h"
+                }
+              }
+            ]
           }
         ]
       }
@@ -3299,6 +3471,11 @@
               "Id": 122,
               "Title": "Rifampicin - Midazolam DDI",
               "Content": "Content/Rifampicin-Midazolam-DDI.md"
+            },
+            {
+              "Id": 123,
+              "Title": "Erythromycin - Alfentanil DDI",
+              "Content": "Content/Erythromycin-Alfentanil-DDI.md"
             }
           ]
         }
@@ -3322,6 +3499,11 @@
         {
           "Id": 32,
           "Title": "3.2 Rifampicin - Midazolam DDI",
+          "Content": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Qualification-text-modules/master/Empty.md"
+        },
+        {
+          "Id": 33,
+          "Title": "3.3 Erythromycin - Alfentanil DDI",
           "Content": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Qualification-text-modules/master/Empty.md"
         }
       ]
