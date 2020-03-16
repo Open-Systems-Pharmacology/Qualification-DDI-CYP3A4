@@ -1,9 +1,9 @@
 {
-  "$schema": "https://github.com/Open-Systems-Pharmacology/QualificationPlan/releases/download/v2.0/OSP_Qualification_Plan_Schema.json",
+  "$schema": "https://github.com/Open-Systems-Pharmacology/QualificationPlan/releases/download/v2.1/OSP_Qualification_Plan_Schema.json",
   "Projects": [
     {
       "Id": "Midazolam",
-      "Path": "https://raw.githubusercontent.com/sfrechen/Midazolam-Model/master/Midazolam-Model.json"
+      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Midazolam-Model/master/Midazolam-Model.json"
     },
     {
       "Id": "Alfentanil",
@@ -50,7 +50,7 @@
     },
     {
       "Id": "Itraconazole",
-      "Path": "https://raw.githubusercontent.com/sfrechen/Itraconazole-Model/master/Itraconazole-Model.json",
+      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Itraconazole-Model/master/Itraconazole-Model.json",
       "BuildingBlocks": [
         {
           "Type": "Individual",
@@ -61,7 +61,7 @@
     },
     {
       "Id": "Rifampicin",
-      "Path": "https://raw.githubusercontent.com/sfrechen/Rifampicin-Model/master/Rifampicin-Model.json",
+      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Rifampicin-Model/master/Rifampicin-Model.json",
       "BuildingBlocks": [
         {
           "Type": "Individual",
@@ -103,7 +103,7 @@
     },
     {
       "Id": "Itraconazole-Midazolam-DDI",
-      "Path": "https://raw.githubusercontent.com/sfrechen/Itraconazole-Midazolam-DDI/master/Itraconazole-Midazolam-DDI.json",
+      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Itraconazole-Midazolam-DDI/master/Itraconazole-Midazolam-DDI.json",
       "BuildingBlocks": [
         {
           "Type": "Individual",
@@ -169,7 +169,9 @@
             "DDI Treatment - Itraconazole/Midazolam - Templeton 2010 (50 mg)",
             "DDI Treatment - Itraconazole/Midazolam - Templeton 2010 (200 mg)",
             "DDI Treatment - Itraconazole/Midazolam - Templeton 2010 (400 mg)",
-            "DDI Control - Midazolam - Olkkola 1996 (iv, day 4)"
+            "DDI Control - Midazolam - Olkkola 1996 (iv, day 4)",
+            "Prueksaritanont 2017 - Midazolam - 0.01 mg (Control)",
+            "Prueksaritanont 2017 - Midazolam - 0.01 mg (with Itraconazole)"
           ]
         },
         {
@@ -189,7 +191,9 @@
             "DDI Treatment - Itraconazole/Midazolam - Templeton 2010 (50 mg)",
             "DDI Treatment - Itraconazole/Midazolam - Templeton 2010 (200 mg)",
             "DDI Treatment - Itraconazole/Midazolam - Templeton 2010 (400 mg)",
-            "DDI Control - Midazolam - Olkkola 1996 (iv, day 4)"
+            "DDI Control - Midazolam - Olkkola 1996 (iv, day 4)",
+            "Prueksaritanont 2017 - Midazolam - 0.01 mg (Control)",
+            "Prueksaritanont 2017 - Midazolam - 0.01 mg (with Itraconazole)"
           ]
         },
         {
@@ -209,7 +213,9 @@
             "DDI Treatment - Itraconazole/Midazolam - Templeton 2010 (50 mg)",
             "DDI Treatment - Itraconazole/Midazolam - Templeton 2010 (200 mg)",
             "DDI Treatment - Itraconazole/Midazolam - Templeton 2010 (400 mg)",
-            "DDI Control - Midazolam - Olkkola 1996 (iv, day 4)"
+            "DDI Control - Midazolam - Olkkola 1996 (iv, day 4)",
+            "Prueksaritanont 2017 - Midazolam - 0.01 mg (Control)",
+            "Prueksaritanont 2017 - Midazolam - 0.01 mg (with Itraconazole)"
           ]
         },
         {
@@ -229,7 +235,9 @@
             "DDI Treatment - Itraconazole/Midazolam - Templeton 2010 (50 mg)",
             "DDI Treatment - Itraconazole/Midazolam - Templeton 2010 (200 mg)",
             "DDI Treatment - Itraconazole/Midazolam - Templeton 2010 (400 mg)",
-            "DDI Control - Midazolam - Olkkola 1996 (iv, day 4)"
+            "DDI Control - Midazolam - Olkkola 1996 (iv, day 4)",
+            "Prueksaritanont 2017 - Midazolam - 0.01 mg (Control)",
+            "Prueksaritanont 2017 - Midazolam - 0.01 mg (with Itraconazole)"
           ]
         },
         {
@@ -249,7 +257,9 @@
             "DDI Treatment - Itraconazole/Midazolam - Templeton 2010 (50 mg)",
             "DDI Treatment - Itraconazole/Midazolam - Templeton 2010 (200 mg)",
             "DDI Treatment - Itraconazole/Midazolam - Templeton 2010 (400 mg)",
-            "DDI Control - Midazolam - Olkkola 1996 (iv, day 4)"
+            "DDI Control - Midazolam - Olkkola 1996 (iv, day 4)",
+            "Prueksaritanont 2017 - Midazolam - 0.01 mg (Control)",
+            "Prueksaritanont 2017 - Midazolam - 0.01 mg (with Itraconazole)"
           ]
         },
         {
@@ -269,7 +279,9 @@
             "DDI Treatment - Itraconazole/Midazolam - Templeton 2010 (50 mg)",
             "DDI Treatment - Itraconazole/Midazolam - Templeton 2010 (200 mg)",
             "DDI Treatment - Itraconazole/Midazolam - Templeton 2010 (400 mg)",
-            "DDI Control - Midazolam - Olkkola 1996 (iv, day 4)"
+            "DDI Control - Midazolam - Olkkola 1996 (iv, day 4)",
+            "Prueksaritanont 2017 - Midazolam - 0.01 mg (Control)",
+            "Prueksaritanont 2017 - Midazolam - 0.01 mg (with Itraconazole)"
           ]
         },
         {
@@ -289,7 +301,9 @@
             "DDI Treatment - Itraconazole/Midazolam - Templeton 2010 (50 mg)",
             "DDI Treatment - Itraconazole/Midazolam - Templeton 2010 (200 mg)",
             "DDI Treatment - Itraconazole/Midazolam - Templeton 2010 (400 mg)",
-            "DDI Control - Midazolam - Olkkola 1996 (iv, day 4)"
+            "DDI Control - Midazolam - Olkkola 1996 (iv, day 4)",
+            "Prueksaritanont 2017 - Midazolam - 0.01 mg (Control)",
+            "Prueksaritanont 2017 - Midazolam - 0.01 mg (with Itraconazole)"
           ]
         },
         {
@@ -309,7 +323,9 @@
             "DDI Treatment - Itraconazole/Midazolam - Templeton 2010 (50 mg)",
             "DDI Treatment - Itraconazole/Midazolam - Templeton 2010 (200 mg)",
             "DDI Treatment - Itraconazole/Midazolam - Templeton 2010 (400 mg)",
-            "DDI Control - Midazolam - Olkkola 1996 (iv, day 4)"
+            "DDI Control - Midazolam - Olkkola 1996 (iv, day 4)",
+            "Prueksaritanont 2017 - Midazolam - 0.01 mg (Control)",
+            "Prueksaritanont 2017 - Midazolam - 0.01 mg (with Itraconazole)"
           ]
         },
         {
@@ -329,7 +345,9 @@
             "DDI Treatment - Itraconazole/Midazolam - Templeton 2010 (50 mg)",
             "DDI Treatment - Itraconazole/Midazolam - Templeton 2010 (200 mg)",
             "DDI Treatment - Itraconazole/Midazolam - Templeton 2010 (400 mg)",
-            "DDI Control - Midazolam - Olkkola 1996 (iv, day 4)"
+            "DDI Control - Midazolam - Olkkola 1996 (iv, day 4)",
+            "Prueksaritanont 2017 - Midazolam - 0.01 mg (Control)",
+            "Prueksaritanont 2017 - Midazolam - 0.01 mg (with Itraconazole)"
           ]
         },
         {
@@ -349,7 +367,9 @@
             "DDI Treatment - Itraconazole/Midazolam - Templeton 2010 (50 mg)",
             "DDI Treatment - Itraconazole/Midazolam - Templeton 2010 (200 mg)",
             "DDI Treatment - Itraconazole/Midazolam - Templeton 2010 (400 mg)",
-            "DDI Control - Midazolam - Olkkola 1996 (iv, day 4)"
+            "DDI Control - Midazolam - Olkkola 1996 (iv, day 4)",
+            "Prueksaritanont 2017 - Midazolam - 0.01 mg (Control)",
+            "Prueksaritanont 2017 - Midazolam - 0.01 mg (with Itraconazole)"
           ]
         },
         {
@@ -369,7 +389,9 @@
             "DDI Treatment - Itraconazole/Midazolam - Templeton 2010 (50 mg)",
             "DDI Treatment - Itraconazole/Midazolam - Templeton 2010 (200 mg)",
             "DDI Treatment - Itraconazole/Midazolam - Templeton 2010 (400 mg)",
-            "DDI Control - Midazolam - Olkkola 1996 (iv, day 4)"
+            "DDI Control - Midazolam - Olkkola 1996 (iv, day 4)",
+            "Prueksaritanont 2017 - Midazolam - 0.01 mg (Control)",
+            "Prueksaritanont 2017 - Midazolam - 0.01 mg (with Itraconazole)"
           ]
         },
         {
@@ -389,7 +411,9 @@
             "DDI Treatment - Itraconazole/Midazolam - Templeton 2010 (50 mg)",
             "DDI Treatment - Itraconazole/Midazolam - Templeton 2010 (200 mg)",
             "DDI Treatment - Itraconazole/Midazolam - Templeton 2010 (400 mg)",
-            "DDI Control - Midazolam - Olkkola 1996 (iv, day 4)"
+            "DDI Control - Midazolam - Olkkola 1996 (iv, day 4)",
+            "Prueksaritanont 2017 - Midazolam - 0.01 mg (Control)",
+            "Prueksaritanont 2017 - Midazolam - 0.01 mg (with Itraconazole)"
           ]
         },
         {
@@ -409,7 +433,9 @@
             "DDI Treatment - Itraconazole/Midazolam - Templeton 2010 (50 mg)",
             "DDI Treatment - Itraconazole/Midazolam - Templeton 2010 (200 mg)",
             "DDI Treatment - Itraconazole/Midazolam - Templeton 2010 (400 mg)",
-            "DDI Control - Midazolam - Olkkola 1996 (iv, day 4)"
+            "DDI Control - Midazolam - Olkkola 1996 (iv, day 4)",
+            "Prueksaritanont 2017 - Midazolam - 0.01 mg (Control)",
+            "Prueksaritanont 2017 - Midazolam - 0.01 mg (with Itraconazole)"
           ]
         },
         {
@@ -429,7 +455,9 @@
             "DDI Treatment - Itraconazole/Midazolam - Templeton 2010 (50 mg)",
             "DDI Treatment - Itraconazole/Midazolam - Templeton 2010 (200 mg)",
             "DDI Treatment - Itraconazole/Midazolam - Templeton 2010 (400 mg)",
-            "DDI Control - Midazolam - Olkkola 1996 (iv, day 4)"
+            "DDI Control - Midazolam - Olkkola 1996 (iv, day 4)",
+            "Prueksaritanont 2017 - Midazolam - 0.01 mg (Control)",
+            "Prueksaritanont 2017 - Midazolam - 0.01 mg (with Itraconazole)"
           ]
         },
         {
@@ -449,7 +477,9 @@
             "DDI Treatment - Itraconazole/Midazolam - Templeton 2010 (50 mg)",
             "DDI Treatment - Itraconazole/Midazolam - Templeton 2010 (200 mg)",
             "DDI Treatment - Itraconazole/Midazolam - Templeton 2010 (400 mg)",
-            "DDI Control - Midazolam - Olkkola 1996 (iv, day 4)"
+            "DDI Control - Midazolam - Olkkola 1996 (iv, day 4)",
+            "Prueksaritanont 2017 - Midazolam - 0.01 mg (Control)",
+            "Prueksaritanont 2017 - Midazolam - 0.01 mg (with Itraconazole)"
           ]
         },
         {
@@ -469,7 +499,9 @@
             "DDI Treatment - Itraconazole/Midazolam - Templeton 2010 (50 mg)",
             "DDI Treatment - Itraconazole/Midazolam - Templeton 2010 (200 mg)",
             "DDI Treatment - Itraconazole/Midazolam - Templeton 2010 (400 mg)",
-            "DDI Control - Midazolam - Olkkola 1996 (iv, day 4)"
+            "DDI Control - Midazolam - Olkkola 1996 (iv, day 4)",
+            "Prueksaritanont 2017 - Midazolam - 0.01 mg (Control)",
+            "Prueksaritanont 2017 - Midazolam - 0.01 mg (with Itraconazole)"
           ]
         },
         {
@@ -489,7 +521,9 @@
             "DDI Treatment - Itraconazole/Midazolam - Templeton 2010 (50 mg)",
             "DDI Treatment - Itraconazole/Midazolam - Templeton 2010 (200 mg)",
             "DDI Treatment - Itraconazole/Midazolam - Templeton 2010 (400 mg)",
-            "DDI Control - Midazolam - Olkkola 1996 (iv, day 4)"
+            "DDI Control - Midazolam - Olkkola 1996 (iv, day 4)",
+            "Prueksaritanont 2017 - Midazolam - 0.01 mg (Control)",
+            "Prueksaritanont 2017 - Midazolam - 0.01 mg (with Itraconazole)"
           ]
         },
         {
@@ -509,7 +543,9 @@
             "DDI Treatment - Itraconazole/Midazolam - Templeton 2010 (50 mg)",
             "DDI Treatment - Itraconazole/Midazolam - Templeton 2010 (200 mg)",
             "DDI Treatment - Itraconazole/Midazolam - Templeton 2010 (400 mg)",
-            "DDI Control - Midazolam - Olkkola 1996 (iv, day 4)"
+            "DDI Control - Midazolam - Olkkola 1996 (iv, day 4)",
+            "Prueksaritanont 2017 - Midazolam - 0.01 mg (Control)",
+            "Prueksaritanont 2017 - Midazolam - 0.01 mg (with Itraconazole)"
           ]
         },
         {
@@ -529,7 +565,9 @@
             "DDI Treatment - Itraconazole/Midazolam - Templeton 2010 (50 mg)",
             "DDI Treatment - Itraconazole/Midazolam - Templeton 2010 (200 mg)",
             "DDI Treatment - Itraconazole/Midazolam - Templeton 2010 (400 mg)",
-            "DDI Control - Midazolam - Olkkola 1996 (iv, day 4)"
+            "DDI Control - Midazolam - Olkkola 1996 (iv, day 4)",
+            "Prueksaritanont 2017 - Midazolam - 0.01 mg (Control)",
+            "Prueksaritanont 2017 - Midazolam - 0.01 mg (with Itraconazole)"
           ]
         },
         {
@@ -549,7 +587,9 @@
             "DDI Treatment - Itraconazole/Midazolam - Templeton 2010 (50 mg)",
             "DDI Treatment - Itraconazole/Midazolam - Templeton 2010 (200 mg)",
             "DDI Treatment - Itraconazole/Midazolam - Templeton 2010 (400 mg)",
-            "DDI Control - Midazolam - Olkkola 1996 (iv, day 4)"
+            "DDI Control - Midazolam - Olkkola 1996 (iv, day 4)",
+            "Prueksaritanont 2017 - Midazolam - 0.01 mg (Control)",
+            "Prueksaritanont 2017 - Midazolam - 0.01 mg (with Itraconazole)"
           ]
         },
         {
@@ -569,7 +609,9 @@
             "DDI Treatment - Itraconazole/Midazolam - Templeton 2010 (50 mg)",
             "DDI Treatment - Itraconazole/Midazolam - Templeton 2010 (200 mg)",
             "DDI Treatment - Itraconazole/Midazolam - Templeton 2010 (400 mg)",
-            "DDI Control - Midazolam - Olkkola 1996 (iv, day 4)"
+            "DDI Control - Midazolam - Olkkola 1996 (iv, day 4)",
+            "Prueksaritanont 2017 - Midazolam - 0.01 mg (Control)",
+            "Prueksaritanont 2017 - Midazolam - 0.01 mg (with Itraconazole)"
           ]
         },
         {
@@ -589,14 +631,16 @@
             "DDI Treatment - Itraconazole/Midazolam - Templeton 2010 (50 mg)",
             "DDI Treatment - Itraconazole/Midazolam - Templeton 2010 (200 mg)",
             "DDI Treatment - Itraconazole/Midazolam - Templeton 2010 (400 mg)",
-            "DDI Control - Midazolam - Olkkola 1996 (iv, day 4)"
+            "DDI Control - Midazolam - Olkkola 1996 (iv, day 4)",
+            "Prueksaritanont 2017 - Midazolam - 0.01 mg (Control)",
+            "Prueksaritanont 2017 - Midazolam - 0.01 mg (with Itraconazole)"
           ]
         }
       ]
     },
     {
       "Id": "Rifampicin-Midazolam-DDI",
-      "Path": "https://raw.githubusercontent.com/sfrechen/Rifampicin-Midazolam-DDI/master/Rifampicin-Midazolam-DDI.json",
+      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Rifampicin-Midazolam-DDI/master/Rifampicin-Midazolam-DDI.json",
       "BuildingBlocks": [
         {
           "Type": "Individual",
@@ -659,7 +703,15 @@
             "DDI Treatment - Rifampicin/Midazolam - Phimmasone 2001",
             "DDI Treatment - Rifampicin/Midazolam - Reitman 2011",
             "DDI Treatment - Rifampicin/Midazolam - Szalat 2007",
-            "DDI Control - Midazolam - Szalat 2007"
+            "DDI Control - Midazolam - Szalat 2007",
+            "DDI Control - Midazolam - van Dyk 2018",
+            "DDI Treatment - Rifampicin/Midazolam - van Dyk 2018",
+            "DDI Control - Midazolam - Prueksaritanont 2017",
+            "DDI Treatment - Rifampicin/Midazolam - Prueksaritanont 2017",
+            "DDI Control - Midazolam - Shin 2013",
+            "DDI Control - Midazolam - Shin 2016",
+            "DDI Treatment - Rifampicin/Midazolam - Shin 2013",
+            "DDI Treatment - Rifampicin/Midazolam - Shin 2016"
           ]
         },
         {
@@ -701,7 +753,15 @@
             "DDI Treatment - Rifampicin/Midazolam - Phimmasone 2001",
             "DDI Treatment - Rifampicin/Midazolam - Reitman 2011",
             "DDI Treatment - Rifampicin/Midazolam - Szalat 2007",
-            "DDI Control - Midazolam - Szalat 2007"
+            "DDI Control - Midazolam - Szalat 2007",
+            "DDI Control - Midazolam - van Dyk 2018",
+            "DDI Treatment - Rifampicin/Midazolam - van Dyk 2018",
+            "DDI Control - Midazolam - Prueksaritanont 2017",
+            "DDI Treatment - Rifampicin/Midazolam - Prueksaritanont 2017",
+            "DDI Control - Midazolam - Shin 2013",
+            "DDI Control - Midazolam - Shin 2016",
+            "DDI Treatment - Rifampicin/Midazolam - Shin 2013",
+            "DDI Treatment - Rifampicin/Midazolam - Shin 2016"
           ]
         },
         {
@@ -743,7 +803,15 @@
             "DDI Treatment - Rifampicin/Midazolam - Phimmasone 2001",
             "DDI Treatment - Rifampicin/Midazolam - Reitman 2011",
             "DDI Treatment - Rifampicin/Midazolam - Szalat 2007",
-            "DDI Control - Midazolam - Szalat 2007"
+            "DDI Control - Midazolam - Szalat 2007",
+            "DDI Control - Midazolam - van Dyk 2018",
+            "DDI Treatment - Rifampicin/Midazolam - van Dyk 2018",
+            "DDI Control - Midazolam - Prueksaritanont 2017",
+            "DDI Treatment - Rifampicin/Midazolam - Prueksaritanont 2017",
+            "DDI Control - Midazolam - Shin 2013",
+            "DDI Control - Midazolam - Shin 2016",
+            "DDI Treatment - Rifampicin/Midazolam - Shin 2013",
+            "DDI Treatment - Rifampicin/Midazolam - Shin 2016"
           ]
         },
         {
@@ -785,7 +853,15 @@
             "DDI Treatment - Rifampicin/Midazolam - Phimmasone 2001",
             "DDI Treatment - Rifampicin/Midazolam - Reitman 2011",
             "DDI Treatment - Rifampicin/Midazolam - Szalat 2007",
-            "DDI Control - Midazolam - Szalat 2007"
+            "DDI Control - Midazolam - Szalat 2007",
+            "DDI Control - Midazolam - van Dyk 2018",
+            "DDI Treatment - Rifampicin/Midazolam - van Dyk 2018",
+            "DDI Control - Midazolam - Prueksaritanont 2017",
+            "DDI Treatment - Rifampicin/Midazolam - Prueksaritanont 2017",
+            "DDI Control - Midazolam - Shin 2013",
+            "DDI Control - Midazolam - Shin 2016",
+            "DDI Treatment - Rifampicin/Midazolam - Shin 2013",
+            "DDI Treatment - Rifampicin/Midazolam - Shin 2016"
           ]
         },
         {
@@ -827,7 +903,15 @@
             "DDI Treatment - Rifampicin/Midazolam - Phimmasone 2001",
             "DDI Treatment - Rifampicin/Midazolam - Reitman 2011",
             "DDI Treatment - Rifampicin/Midazolam - Szalat 2007",
-            "DDI Control - Midazolam - Szalat 2007"
+            "DDI Control - Midazolam - Szalat 2007",
+            "DDI Control - Midazolam - van Dyk 2018",
+            "DDI Treatment - Rifampicin/Midazolam - van Dyk 2018",
+            "DDI Control - Midazolam - Prueksaritanont 2017",
+            "DDI Treatment - Rifampicin/Midazolam - Prueksaritanont 2017",
+            "DDI Control - Midazolam - Shin 2013",
+            "DDI Control - Midazolam - Shin 2016",
+            "DDI Treatment - Rifampicin/Midazolam - Shin 2013",
+            "DDI Treatment - Rifampicin/Midazolam - Shin 2016"
           ]
         },
         {
@@ -869,7 +953,15 @@
             "DDI Treatment - Rifampicin/Midazolam - Phimmasone 2001",
             "DDI Treatment - Rifampicin/Midazolam - Reitman 2011",
             "DDI Treatment - Rifampicin/Midazolam - Szalat 2007",
-            "DDI Control - Midazolam - Szalat 2007"
+            "DDI Control - Midazolam - Szalat 2007",
+            "DDI Control - Midazolam - van Dyk 2018",
+            "DDI Treatment - Rifampicin/Midazolam - van Dyk 2018",
+            "DDI Control - Midazolam - Prueksaritanont 2017",
+            "DDI Treatment - Rifampicin/Midazolam - Prueksaritanont 2017",
+            "DDI Control - Midazolam - Shin 2013",
+            "DDI Control - Midazolam - Shin 2016",
+            "DDI Treatment - Rifampicin/Midazolam - Shin 2013",
+            "DDI Treatment - Rifampicin/Midazolam - Shin 2016"
           ]
         },
         {
@@ -911,7 +1003,15 @@
             "DDI Treatment - Rifampicin/Midazolam - Phimmasone 2001",
             "DDI Treatment - Rifampicin/Midazolam - Reitman 2011",
             "DDI Treatment - Rifampicin/Midazolam - Szalat 2007",
-            "DDI Control - Midazolam - Szalat 2007"
+            "DDI Control - Midazolam - Szalat 2007",
+            "DDI Control - Midazolam - van Dyk 2018",
+            "DDI Treatment - Rifampicin/Midazolam - van Dyk 2018",
+            "DDI Control - Midazolam - Prueksaritanont 2017",
+            "DDI Treatment - Rifampicin/Midazolam - Prueksaritanont 2017",
+            "DDI Control - Midazolam - Shin 2013",
+            "DDI Control - Midazolam - Shin 2016",
+            "DDI Treatment - Rifampicin/Midazolam - Shin 2013",
+            "DDI Treatment - Rifampicin/Midazolam - Shin 2016"
           ]
         },
         {
@@ -953,7 +1053,15 @@
             "DDI Treatment - Rifampicin/Midazolam - Phimmasone 2001",
             "DDI Treatment - Rifampicin/Midazolam - Reitman 2011",
             "DDI Treatment - Rifampicin/Midazolam - Szalat 2007",
-            "DDI Control - Midazolam - Szalat 2007"
+            "DDI Control - Midazolam - Szalat 2007",
+            "DDI Control - Midazolam - van Dyk 2018",
+            "DDI Treatment - Rifampicin/Midazolam - van Dyk 2018",
+            "DDI Control - Midazolam - Prueksaritanont 2017",
+            "DDI Treatment - Rifampicin/Midazolam - Prueksaritanont 2017",
+            "DDI Control - Midazolam - Shin 2013",
+            "DDI Control - Midazolam - Shin 2016",
+            "DDI Treatment - Rifampicin/Midazolam - Shin 2013",
+            "DDI Treatment - Rifampicin/Midazolam - Shin 2016"
           ]
         },
         {
@@ -995,7 +1103,15 @@
             "DDI Treatment - Rifampicin/Midazolam - Phimmasone 2001",
             "DDI Treatment - Rifampicin/Midazolam - Reitman 2011",
             "DDI Treatment - Rifampicin/Midazolam - Szalat 2007",
-            "DDI Control - Midazolam - Szalat 2007"
+            "DDI Control - Midazolam - Szalat 2007",
+            "DDI Control - Midazolam - van Dyk 2018",
+            "DDI Treatment - Rifampicin/Midazolam - van Dyk 2018",
+            "DDI Control - Midazolam - Prueksaritanont 2017",
+            "DDI Treatment - Rifampicin/Midazolam - Prueksaritanont 2017",
+            "DDI Control - Midazolam - Shin 2013",
+            "DDI Control - Midazolam - Shin 2016",
+            "DDI Treatment - Rifampicin/Midazolam - Shin 2013",
+            "DDI Treatment - Rifampicin/Midazolam - Shin 2016"
           ]
         },
         {
@@ -1037,7 +1153,15 @@
             "DDI Treatment - Rifampicin/Midazolam - Phimmasone 2001",
             "DDI Treatment - Rifampicin/Midazolam - Reitman 2011",
             "DDI Treatment - Rifampicin/Midazolam - Szalat 2007",
-            "DDI Control - Midazolam - Szalat 2007"
+            "DDI Control - Midazolam - Szalat 2007",
+            "DDI Control - Midazolam - van Dyk 2018",
+            "DDI Treatment - Rifampicin/Midazolam - van Dyk 2018",
+            "DDI Control - Midazolam - Prueksaritanont 2017",
+            "DDI Treatment - Rifampicin/Midazolam - Prueksaritanont 2017",
+            "DDI Control - Midazolam - Shin 2013",
+            "DDI Control - Midazolam - Shin 2016",
+            "DDI Treatment - Rifampicin/Midazolam - Shin 2013",
+            "DDI Treatment - Rifampicin/Midazolam - Shin 2016"
           ]
         },
         {
@@ -1079,7 +1203,15 @@
             "DDI Treatment - Rifampicin/Midazolam - Phimmasone 2001",
             "DDI Treatment - Rifampicin/Midazolam - Reitman 2011",
             "DDI Treatment - Rifampicin/Midazolam - Szalat 2007",
-            "DDI Control - Midazolam - Szalat 2007"
+            "DDI Control - Midazolam - Szalat 2007",
+            "DDI Control - Midazolam - van Dyk 2018",
+            "DDI Treatment - Rifampicin/Midazolam - van Dyk 2018",
+            "DDI Control - Midazolam - Prueksaritanont 2017",
+            "DDI Treatment - Rifampicin/Midazolam - Prueksaritanont 2017",
+            "DDI Control - Midazolam - Shin 2013",
+            "DDI Control - Midazolam - Shin 2016",
+            "DDI Treatment - Rifampicin/Midazolam - Shin 2013",
+            "DDI Treatment - Rifampicin/Midazolam - Shin 2016"
           ]
         },
         {
@@ -1121,7 +1253,15 @@
             "DDI Treatment - Rifampicin/Midazolam - Phimmasone 2001",
             "DDI Treatment - Rifampicin/Midazolam - Reitman 2011",
             "DDI Treatment - Rifampicin/Midazolam - Szalat 2007",
-            "DDI Control - Midazolam - Szalat 2007"
+            "DDI Control - Midazolam - Szalat 2007",
+            "DDI Control - Midazolam - van Dyk 2018",
+            "DDI Treatment - Rifampicin/Midazolam - van Dyk 2018",
+            "DDI Control - Midazolam - Prueksaritanont 2017",
+            "DDI Treatment - Rifampicin/Midazolam - Prueksaritanont 2017",
+            "DDI Control - Midazolam - Shin 2013",
+            "DDI Control - Midazolam - Shin 2016",
+            "DDI Treatment - Rifampicin/Midazolam - Shin 2013",
+            "DDI Treatment - Rifampicin/Midazolam - Shin 2016"
           ]
         },
         {
@@ -1163,7 +1303,15 @@
             "DDI Treatment - Rifampicin/Midazolam - Phimmasone 2001",
             "DDI Treatment - Rifampicin/Midazolam - Reitman 2011",
             "DDI Treatment - Rifampicin/Midazolam - Szalat 2007",
-            "DDI Control - Midazolam - Szalat 2007"
+            "DDI Control - Midazolam - Szalat 2007",
+            "DDI Control - Midazolam - van Dyk 2018",
+            "DDI Treatment - Rifampicin/Midazolam - van Dyk 2018",
+            "DDI Control - Midazolam - Prueksaritanont 2017",
+            "DDI Treatment - Rifampicin/Midazolam - Prueksaritanont 2017",
+            "DDI Control - Midazolam - Shin 2013",
+            "DDI Control - Midazolam - Shin 2016",
+            "DDI Treatment - Rifampicin/Midazolam - Shin 2013",
+            "DDI Treatment - Rifampicin/Midazolam - Shin 2016"
           ]
         },
         {
@@ -1205,7 +1353,15 @@
             "DDI Treatment - Rifampicin/Midazolam - Phimmasone 2001",
             "DDI Treatment - Rifampicin/Midazolam - Reitman 2011",
             "DDI Treatment - Rifampicin/Midazolam - Szalat 2007",
-            "DDI Control - Midazolam - Szalat 2007"
+            "DDI Control - Midazolam - Szalat 2007",
+            "DDI Control - Midazolam - van Dyk 2018",
+            "DDI Treatment - Rifampicin/Midazolam - van Dyk 2018",
+            "DDI Control - Midazolam - Prueksaritanont 2017",
+            "DDI Treatment - Rifampicin/Midazolam - Prueksaritanont 2017",
+            "DDI Control - Midazolam - Shin 2013",
+            "DDI Control - Midazolam - Shin 2016",
+            "DDI Treatment - Rifampicin/Midazolam - Shin 2013",
+            "DDI Treatment - Rifampicin/Midazolam - Shin 2016"
           ]
         },
         {
@@ -1247,7 +1403,15 @@
             "DDI Treatment - Rifampicin/Midazolam - Phimmasone 2001",
             "DDI Treatment - Rifampicin/Midazolam - Reitman 2011",
             "DDI Treatment - Rifampicin/Midazolam - Szalat 2007",
-            "DDI Control - Midazolam - Szalat 2007"
+            "DDI Control - Midazolam - Szalat 2007",
+            "DDI Control - Midazolam - van Dyk 2018",
+            "DDI Treatment - Rifampicin/Midazolam - van Dyk 2018",
+            "DDI Control - Midazolam - Prueksaritanont 2017",
+            "DDI Treatment - Rifampicin/Midazolam - Prueksaritanont 2017",
+            "DDI Control - Midazolam - Shin 2013",
+            "DDI Control - Midazolam - Shin 2016",
+            "DDI Treatment - Rifampicin/Midazolam - Shin 2013",
+            "DDI Treatment - Rifampicin/Midazolam - Shin 2016"
           ]
         },
         {
@@ -1289,7 +1453,15 @@
             "DDI Treatment - Rifampicin/Midazolam - Phimmasone 2001",
             "DDI Treatment - Rifampicin/Midazolam - Reitman 2011",
             "DDI Treatment - Rifampicin/Midazolam - Szalat 2007",
-            "DDI Control - Midazolam - Szalat 2007"
+            "DDI Control - Midazolam - Szalat 2007",
+            "DDI Control - Midazolam - van Dyk 2018",
+            "DDI Treatment - Rifampicin/Midazolam - van Dyk 2018",
+            "DDI Control - Midazolam - Prueksaritanont 2017",
+            "DDI Treatment - Rifampicin/Midazolam - Prueksaritanont 2017",
+            "DDI Control - Midazolam - Shin 2013",
+            "DDI Control - Midazolam - Shin 2016",
+            "DDI Treatment - Rifampicin/Midazolam - Shin 2013",
+            "DDI Treatment - Rifampicin/Midazolam - Shin 2016"
           ]
         },
         {
@@ -1331,7 +1503,15 @@
             "DDI Treatment - Rifampicin/Midazolam - Phimmasone 2001",
             "DDI Treatment - Rifampicin/Midazolam - Reitman 2011",
             "DDI Treatment - Rifampicin/Midazolam - Szalat 2007",
-            "DDI Control - Midazolam - Szalat 2007"
+            "DDI Control - Midazolam - Szalat 2007",
+            "DDI Control - Midazolam - van Dyk 2018",
+            "DDI Treatment - Rifampicin/Midazolam - van Dyk 2018",
+            "DDI Control - Midazolam - Prueksaritanont 2017",
+            "DDI Treatment - Rifampicin/Midazolam - Prueksaritanont 2017",
+            "DDI Control - Midazolam - Shin 2013",
+            "DDI Control - Midazolam - Shin 2016",
+            "DDI Treatment - Rifampicin/Midazolam - Shin 2013",
+            "DDI Treatment - Rifampicin/Midazolam - Shin 2016"
           ]
         },
         {
@@ -1373,7 +1553,15 @@
             "DDI Treatment - Rifampicin/Midazolam - Phimmasone 2001",
             "DDI Treatment - Rifampicin/Midazolam - Reitman 2011",
             "DDI Treatment - Rifampicin/Midazolam - Szalat 2007",
-            "DDI Control - Midazolam - Szalat 2007"
+            "DDI Control - Midazolam - Szalat 2007",
+            "DDI Control - Midazolam - van Dyk 2018",
+            "DDI Treatment - Rifampicin/Midazolam - van Dyk 2018",
+            "DDI Control - Midazolam - Prueksaritanont 2017",
+            "DDI Treatment - Rifampicin/Midazolam - Prueksaritanont 2017",
+            "DDI Control - Midazolam - Shin 2013",
+            "DDI Control - Midazolam - Shin 2016",
+            "DDI Treatment - Rifampicin/Midazolam - Shin 2013",
+            "DDI Treatment - Rifampicin/Midazolam - Shin 2016"
           ]
         },
         {
@@ -1415,7 +1603,15 @@
             "DDI Treatment - Rifampicin/Midazolam - Phimmasone 2001",
             "DDI Treatment - Rifampicin/Midazolam - Reitman 2011",
             "DDI Treatment - Rifampicin/Midazolam - Szalat 2007",
-            "DDI Control - Midazolam - Szalat 2007"
+            "DDI Control - Midazolam - Szalat 2007",
+            "DDI Control - Midazolam - van Dyk 2018",
+            "DDI Treatment - Rifampicin/Midazolam - van Dyk 2018",
+            "DDI Control - Midazolam - Prueksaritanont 2017",
+            "DDI Treatment - Rifampicin/Midazolam - Prueksaritanont 2017",
+            "DDI Control - Midazolam - Shin 2013",
+            "DDI Control - Midazolam - Shin 2016",
+            "DDI Treatment - Rifampicin/Midazolam - Shin 2013",
+            "DDI Treatment - Rifampicin/Midazolam - Shin 2016"
           ]
         },
         {
@@ -1457,7 +1653,15 @@
             "DDI Treatment - Rifampicin/Midazolam - Phimmasone 2001",
             "DDI Treatment - Rifampicin/Midazolam - Reitman 2011",
             "DDI Treatment - Rifampicin/Midazolam - Szalat 2007",
-            "DDI Control - Midazolam - Szalat 2007"
+            "DDI Control - Midazolam - Szalat 2007",
+            "DDI Control - Midazolam - van Dyk 2018",
+            "DDI Treatment - Rifampicin/Midazolam - van Dyk 2018",
+            "DDI Control - Midazolam - Prueksaritanont 2017",
+            "DDI Treatment - Rifampicin/Midazolam - Prueksaritanont 2017",
+            "DDI Control - Midazolam - Shin 2013",
+            "DDI Control - Midazolam - Shin 2016",
+            "DDI Treatment - Rifampicin/Midazolam - Shin 2013",
+            "DDI Treatment - Rifampicin/Midazolam - Shin 2016"
           ]
         },
         {
@@ -1499,7 +1703,15 @@
             "DDI Treatment - Rifampicin/Midazolam - Phimmasone 2001",
             "DDI Treatment - Rifampicin/Midazolam - Reitman 2011",
             "DDI Treatment - Rifampicin/Midazolam - Szalat 2007",
-            "DDI Control - Midazolam - Szalat 2007"
+            "DDI Control - Midazolam - Szalat 2007",
+            "DDI Control - Midazolam - van Dyk 2018",
+            "DDI Treatment - Rifampicin/Midazolam - van Dyk 2018",
+            "DDI Control - Midazolam - Prueksaritanont 2017",
+            "DDI Treatment - Rifampicin/Midazolam - Prueksaritanont 2017",
+            "DDI Control - Midazolam - Shin 2013",
+            "DDI Control - Midazolam - Shin 2016",
+            "DDI Treatment - Rifampicin/Midazolam - Shin 2013",
+            "DDI Treatment - Rifampicin/Midazolam - Shin 2016"
           ]
         },
         {
@@ -1541,7 +1753,15 @@
             "DDI Treatment - Rifampicin/Midazolam - Phimmasone 2001",
             "DDI Treatment - Rifampicin/Midazolam - Reitman 2011",
             "DDI Treatment - Rifampicin/Midazolam - Szalat 2007",
-            "DDI Control - Midazolam - Szalat 2007"
+            "DDI Control - Midazolam - Szalat 2007",
+            "DDI Control - Midazolam - van Dyk 2018",
+            "DDI Treatment - Rifampicin/Midazolam - van Dyk 2018",
+            "DDI Control - Midazolam - Prueksaritanont 2017",
+            "DDI Treatment - Rifampicin/Midazolam - Prueksaritanont 2017",
+            "DDI Control - Midazolam - Shin 2013",
+            "DDI Control - Midazolam - Shin 2016",
+            "DDI Treatment - Rifampicin/Midazolam - Shin 2013",
+            "DDI Treatment - Rifampicin/Midazolam - Shin 2016"
           ]
         }
       ]
@@ -3076,6 +3296,36 @@
       },
       {
         "SectionId": 31,
+        "Title": "Prueksaritanont 2017",
+        "SimulationDuration": 72,
+        "TimeUnit": "h",
+        "OutputMappings": [
+          {
+            "Project": "Itraconazole-Midazolam-DDI",
+            "Simulation": "DDI Control - Midazolam - Prueksaritanont 2017",
+            "Output": "Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
+            "ObservedData": "Prueksaritanont 2017 - Midazolam in microdosecocktail alone - Midazolam - PO - 10 µg - Plasma - agg. (n=12)",
+            "StartTime": 0,
+            "TimeUnit": "h",
+            "Color": "#2166ac",
+            "Caption": "Control (without Itraconazole)",
+            "Symbol": "Circle"
+          },
+          {
+            "Project": "Itraconazole-Midazolam-DDI",
+            "Simulation": "DDI Treatment - Itraconazole/Midazolam - Prueksaritanont 2017",
+            "Output": "Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
+            "ObservedData": "Prueksaritanont 2017 - Midazolam in microdosecocktail + Itraconazole - Midazolam - PO - 10 µg - Plasma - agg. (n=8)",
+            "StartTime": 72,
+            "TimeUnit": "h",
+            "Color": "#b2182b",
+            "Caption": "Treatment (with Itraconazole)",
+            "Symbol": "Square"
+          }
+        ]
+      },
+      {
+        "SectionId": 31,
         "Title": "Templeton 2010",
         "SimulationDuration": 20,
         "TimeUnit": "h",
@@ -3158,7 +3408,7 @@
       },
       {
         "SectionId": 32,
-        "Title": "Backman 1998 (Phase IV)",
+        "Title": "Backman 1998 (Phase IV and V vs. I)",
         "SimulationDuration": 24,
         "TimeUnit": "h",
         "OutputMappings": [
@@ -3625,6 +3875,36 @@
       },
       {
         "SectionId": 32,
+        "Title": "Kim 2018",
+        "SimulationDuration": 24,
+        "TimeUnit": "h",
+        "OutputMappings": [
+          {
+            "Project": "Rifampicin-Midazolam-DDI",
+            "Simulation": "DDI Control - Midazolam - Kim 2018 (male)",
+            "Output": "Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
+            "ObservedData": [],
+            "StartTime": 0,
+            "TimeUnit": "h",
+            "Color": "#2166ac",
+            "Caption": "Control (without Rifampicin)",
+            "Symbol": "Circle"
+          },
+          {
+            "Project": "Rifampicin-Midazolam-DDI",
+            "Simulation": "DDI Treatment - Rifampicin/Midazolam - Kim 2018 (male)",
+            "Output": "Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
+            "ObservedData": [],
+            "StartTime": 216,
+            "TimeUnit": "h",
+            "Color": "#b2182b",
+            "Caption": "Treatment (with Rifampicin)",
+            "Symbol": "Square"
+          }
+        ]
+      },
+      {
+        "SectionId": 32,
         "Title": "Link 2008 (iv)",
         "SimulationDuration": 24,
         "TimeUnit": "h",
@@ -3706,6 +3986,36 @@
             "Output": "Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
             "ObservedData": "Phimmasone 2001 - with Perpetrator (Rifampicin) - Midazolam - IV - 1 mg - Plasma - agg. (n=6)",
             "StartTime": 106,
+            "TimeUnit": "h",
+            "Color": "#b2182b",
+            "Caption": "Treatment (with Rifampicin)",
+            "Symbol": "Square"
+          }
+        ]
+      },
+      {
+        "SectionId": 32,
+        "Title": "Prueksaritanont 2017",
+        "SimulationDuration": 24,
+        "TimeUnit": "h",
+        "OutputMappings": [
+          {
+            "Project": "Rifampicin-Midazolam-DDI",
+            "Simulation": "DDI Control - Midazolam - Prueksaritanont 2017",
+            "Output": "Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
+            "ObservedData": "Prueksaritanont 2017 - Midazolam in microdosecocktail alone - Midazolam - PO - 10 µg - Plasma - agg. (n=12)",
+            "StartTime": 0,
+            "TimeUnit": "h",
+            "Color": "#2166ac",
+            "Caption": "Control (without Rifampicin)",
+            "Symbol": "Circle"
+          },
+          {
+            "Project": "Rifampicin-Midazolam-DDI",
+            "Simulation": "DDI Treatment - Rifampicin/Midazolam - Prueksaritanont 2017",
+            "Output": "Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
+            "ObservedData": "Prueksaritanont 2017 - Midazolam in microdosecocktail + Rifampin - Midazolam - PO - 10 µg - Plasma - agg. (n=8)",
+            "StartTime": 0,
             "TimeUnit": "h",
             "Color": "#b2182b",
             "Caption": "Treatment (with Rifampicin)",
@@ -4190,7 +4500,37 @@
             "Symbol": "Square"
           }
         ]
-      }
+      },
+      {
+        "SectionId": 32,
+        "Title": "van Dyk 2018",
+        "SimulationDuration": 24,
+        "TimeUnit": "h",
+        "OutputMappings": [
+          {
+            "Project": "Rifampicin-Midazolam-DDI",
+            "Simulation": "DDI Control - Midazolam - van Dyk 2018",
+            "Output": "Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
+            "ObservedData": "van Dyk 2018 - Midazolam in Caucasian at baseline - Midazolam - PO - 1 mg - Plasma - agg. (n=19)",
+            "StartTime": 0,
+            "TimeUnit": "h",
+            "Color": "#2166ac",
+            "Caption": "Control (without Rifampicin)",
+            "Symbol": "Circle"
+          },
+          {
+            "Project": "Rifampicin-Midazolam-DDI",
+            "Simulation": "DDI Treatment - Rifampicin/Midazolam - van Dyk 2018",
+            "Output": "Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
+            "ObservedData": [],
+            "StartTime": 156,
+            "TimeUnit": "h",
+            "Color": "#b2182b",
+            "Caption": "Treatment (with Rifampicin)",
+            "Symbol": "Square"
+          }
+        ]
+      }      
     ],
     "DDIRatioPlots": [
       {
@@ -4353,6 +4693,25 @@
               {
                 "Output": "Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
                 "ObservedData": "DDI Ratios",
+                "ObservedDataRecordId": 1097,
+                "SimulationControl": {
+                  "Project": "Itraconazole-Midazolam-DDI",
+                  "Simulation": "DDI Control - Midazolam - Prueksaritanont 2017",
+                  "StartTime": 0,
+                  "EndTime": 9999,
+                  "TimeUnit": "h"
+                },
+                "SimulationDDI": {
+                  "Project": "Itraconazole-Midazolam-DDI",
+                  "Simulation": "DDI Treatment - Itraconazole/Midazolam - Prueksaritanont 2017",
+                  "StartTime": 72,
+                  "EndTime": 9999,
+                  "TimeUnit": "h"
+                }
+              },
+              {
+                "Output": "Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
+                "ObservedData": "DDI Ratios",
                 "ObservedDataRecordId": 424,
                 "SimulationControl": {
                   "Project": "Itraconazole-Midazolam-DDI",
@@ -4411,7 +4770,7 @@
           },
           {
             "Caption": "Rifa+Mida (Mida iv)",
-            "Color": "#FF0000",
+            "Color": "#1B64AE",
             "Symbol": "Square",
             "DDIRatios": [
               {
@@ -4550,6 +4909,25 @@
               {
                 "Output": "Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
                 "ObservedData": "DDI Ratios",
+                "ObservedDataRecordId": 2036,
+                "SimulationControl": {
+                  "Project": "Rifampicin-Midazolam-DDI",
+                  "Simulation": "DDI Control - Midazolam - Kim 2018 (male)",
+                  "StartTime": 0,
+                  "EndTime": 9999,
+                  "TimeUnit": "h"
+                },
+                "SimulationDDI": {
+                  "Project": "Rifampicin-Midazolam-DDI",
+                  "Simulation": "DDI Treatment - Rifampicin/Midazolam - Kim 2018 (male)",
+                  "StartTime": 108,
+                  "EndTime": 132,
+                  "TimeUnit": "h"
+                }
+              },
+              {
+                "Output": "Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
+                "ObservedData": "DDI Ratios",
                 "ObservedDataRecordId": 342,
                 "SimulationControl": {
                   "Project": "Rifampicin-Midazolam-DDI",
@@ -4588,6 +4966,44 @@
               {
                 "Output": "Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
                 "ObservedData": "DDI Ratios",
+                "ObservedDataRecordId": 1092,
+                "SimulationControl": {
+                  "Project": "Rifampicin-Midazolam-DDI",
+                  "Simulation": "DDI Control - Midazolam - Shin 2013",
+                  "StartTime": 0,
+                  "EndTime": 9999,
+                  "TimeUnit": "h"
+                },
+                "SimulationDDI": {
+                  "Project": "Rifampicin-Midazolam-DDI",
+                  "Simulation": "DDI Treatment - Rifampicin/Midazolam - Shin 2013",
+                  "StartTime": 216,
+                  "EndTime": 9999,
+                  "TimeUnit": "h"
+                }
+              },
+              {
+                "Output": "Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
+                "ObservedData": "DDI Ratios",
+                "ObservedDataRecordId": 1095,
+                "SimulationControl": {
+                  "Project": "Rifampicin-Midazolam-DDI",
+                  "Simulation": "DDI Control - Midazolam - Shin 2016",
+                  "StartTime": 0,
+                  "EndTime": 9999,
+                  "TimeUnit": "h"
+                },
+                "SimulationDDI": {
+                  "Project": "Rifampicin-Midazolam-DDI",
+                  "Simulation": "DDI Treatment - Rifampicin/Midazolam - Shin 2016",
+                  "StartTime": 216,
+                  "EndTime": 9999,
+                  "TimeUnit": "h"
+                }
+              },
+              {
+                "Output": "Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
+                "ObservedData": "DDI Ratios",
                 "ObservedDataRecordId": 422,
                 "SimulationControl": {
                   "Project": "Rifampicin-Midazolam-DDI",
@@ -4608,7 +5024,7 @@
           },
           {
             "Caption": "Rifa+Mida (Mida po)",
-            "Color": "#FF0000",
+            "Color": "#1B64AE",
             "Symbol": "Circle",
             "DDIRatios": [
               {
@@ -4899,6 +5315,25 @@
               {
                 "Output": "Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
                 "ObservedData": "DDI Ratios",
+                "ObservedDataRecordId": 1098,
+                "SimulationControl": {
+                  "Project": "Rifampicin-Midazolam-DDI",
+                  "Simulation": "DDI Control - Midazolam - Prueksaritanont 2017",
+                  "StartTime": 0,
+                  "EndTime": 9999,
+                  "TimeUnit": "h"
+                },
+                "SimulationDDI": {
+                  "Project": "Rifampicin-Midazolam-DDI",
+                  "Simulation": "DDI Treatment - Rifampicin/Midazolam - Prueksaritanont 2017",
+                  "StartTime": 0,
+                  "EndTime": 9999,
+                  "TimeUnit": "h"
+                }
+              },
+              {
+                "Output": "Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
+                "ObservedData": "DDI Ratios",
                 "ObservedDataRecordId": 392,
                 "SimulationControl": {
                   "Project": "Rifampicin-Midazolam-DDI",
@@ -4950,6 +5385,25 @@
                   "Simulation": "DDI Treatment - Rifampicin/Midazolam - Reitman 2011",
                   "StartTime": 984,
                   "EndTime": 1320,
+                  "TimeUnit": "h"
+                }
+              },              
+              {
+                "Output": "Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
+                "ObservedData": "DDI Ratios",
+                "ObservedDataRecordId": 2002,
+                "SimulationControl": {
+                  "Project": "Rifampicin-Midazolam-DDI",
+                  "Simulation": "DDI Control - Midazolam - van Dyk 2018",
+                  "StartTime": 0,
+                  "EndTime": 6,
+                  "TimeUnit": "h"
+                },
+                "SimulationDDI": {
+                  "Project": "Rifampicin-Midazolam-DDI",
+                  "Simulation": "DDI Treatment - Rifampicin/Midazolam - van Dyk 2018",
+                  "StartTime": 162,
+                  "EndTime": 168,
                   "TimeUnit": "h"
                 }
               }
