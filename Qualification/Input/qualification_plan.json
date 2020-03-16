@@ -1547,6 +1547,22 @@
       ]
     },
     {
+      "Id": "Fluvoxamine",
+      "Path": "https://raw.githubusercontent.com/LMFuhr/Fluvoxamine-Model/Fluvoxamine-Model.json",
+      "BuildingBlocks": [
+        {
+          "Type": "Compound",
+          "Name": "Fluvoxamine",
+          "Project": "Fluvoxamine"
+        },
+        {
+          "Type": "Formulation",
+          "Name": "Solution",
+          "Project": "Fluvoxamine"
+        }
+      ]
+    },
+    {
       "Id": "Erythromycin-Midazolam-DDI",
       "Path": "https://raw.githubusercontent.com/AndreDlm/Erythromycin-Midazolam-DDI/master/Erythromycin-Midazolam-DDI.json",
       "BuildingBlocks": [
@@ -2531,6 +2547,217 @@
             "Greenblatt1998_Perpetrator",
             "Phillips1986_Control",
             "Phillips1986_Perpetrator"
+          ]
+        }
+      ]
+    },
+    {
+      "Id": "Fluvoxamine-Alprazolam-DDI",
+      "Path": "C:/Users/GDUTJ/OneDrive - Bayer/Projects/GitHub/AndreDlm/Fluvoxamine-Alprazolam-DDI/Fluvoxamine-Alprazolam-DDI.json",
+      "BuildingBlocks": [
+        {
+          "Type": "Individual",
+          "Name": "Fleishaker 1994",
+          "Project": "Fluvoxamine-Alprazolam-DDI"
+        }
+      ],
+      "SimulationParameters": [
+        {
+          "Project": "Alprazolam",
+          "Simulation": "PO_0.5mg",
+          "Path": "Neighborhoods|Duodenum_int_Duodenum_cell|Alprazolam|P (interstitial->intracellular)",
+          "TargetSimulations": [
+            "Fleishaker1994_Alprazolam",
+            "Fleishaker1994_Fluvoxamine_Alprazolam"
+          ]
+        },
+        {
+          "Project": "Alprazolam",
+          "Simulation": "PO_0.5mg",
+          "Path": "Neighborhoods|UpperJejunum_int_UpperJejunum_cell|Alprazolam|P (interstitial->intracellular)",
+          "TargetSimulations": [
+            "Fleishaker1994_Alprazolam",
+            "Fleishaker1994_Fluvoxamine_Alprazolam"
+          ]
+        },
+        {
+          "Project": "Alprazolam",
+          "Simulation": "PO_0.5mg",
+          "Path": "Neighborhoods|LowerJejunum_int_LowerJejunum_cell|Alprazolam|P (interstitial->intracellular)",
+          "TargetSimulations": [
+            "Fleishaker1994_Alprazolam",
+            "Fleishaker1994_Fluvoxamine_Alprazolam"
+          ]
+        },
+        {
+          "Project": "Alprazolam",
+          "Simulation": "PO_0.5mg",
+          "Path": "Neighborhoods|UpperIleum_int_UpperIleum_cell|Alprazolam|P (interstitial->intracellular)",
+          "TargetSimulations": [
+            "Fleishaker1994_Alprazolam",
+            "Fleishaker1994_Fluvoxamine_Alprazolam"
+          ]
+        },
+        {
+          "Project": "Alprazolam",
+          "Simulation": "PO_0.5mg",
+          "Path": "Neighborhoods|LowerIleum_int_LowerIleum_cell|Alprazolam|P (interstitial->intracellular)",
+          "TargetSimulations": [
+            "Fleishaker1994_Alprazolam",
+            "Fleishaker1994_Fluvoxamine_Alprazolam"
+          ]
+        },
+        {
+          "Project": "Alprazolam",
+          "Simulation": "PO_0.5mg",
+          "Path": "Neighborhoods|Caecum_int_Caecum_cell|Alprazolam|P (interstitial->intracellular)",
+          "TargetSimulations": [
+            "Fleishaker1994_Alprazolam",
+            "Fleishaker1994_Fluvoxamine_Alprazolam"
+          ]
+        },
+        {
+          "Project": "Alprazolam",
+          "Simulation": "PO_0.5mg",
+          "Path": "Neighborhoods|ColonAscendens_int_ColonAscendens_cell|Alprazolam|P (interstitial->intracellular)",
+          "TargetSimulations": [
+            "Fleishaker1994_Alprazolam",
+            "Fleishaker1994_Fluvoxamine_Alprazolam"
+          ]
+        },
+        {
+          "Project": "Alprazolam",
+          "Simulation": "PO_0.5mg",
+          "Path": "Neighborhoods|ColonTransversum_int_ColonTransversum_cell|Alprazolam|P (interstitial->intracellular)",
+          "TargetSimulations": [
+            "Fleishaker1994_Alprazolam",
+            "Fleishaker1994_Fluvoxamine_Alprazolam"
+          ]
+        },
+        {
+          "Project": "Alprazolam",
+          "Simulation": "PO_0.5mg",
+          "Path": "Neighborhoods|ColonDescendens_int_ColonDescendens_cell|Alprazolam|P (interstitial->intracellular)",
+          "TargetSimulations": [
+            "Fleishaker1994_Alprazolam",
+            "Fleishaker1994_Fluvoxamine_Alprazolam"
+          ]
+        },
+        {
+          "Project": "Alprazolam",
+          "Simulation": "PO_0.5mg",
+          "Path": "Neighborhoods|ColonSigmoid_int_ColonSigmoid_cell|Alprazolam|P (interstitial->intracellular)",
+          "TargetSimulations": [
+            "Fleishaker1994_Alprazolam",
+            "Fleishaker1994_Fluvoxamine_Alprazolam"
+          ]
+        },
+        {
+          "Project": "Alprazolam",
+          "Simulation": "PO_0.5mg",
+          "Path": "Neighborhoods|Rectum_int_Rectum_cell|Alprazolam|P (interstitial->intracellular)",
+          "TargetSimulations": [
+            "Fleishaker1994_Alprazolam",
+            "Fleishaker1994_Fluvoxamine_Alprazolam"
+          ]
+        },
+        {
+          "Project": "Alprazolam",
+          "Simulation": "PO_0.5mg",
+          "Path": "Neighborhoods|Duodenum_int_Duodenum_cell|Alprazolam|P (intracellular->interstitial)",
+          "TargetSimulations": [
+            "Fleishaker1994_Alprazolam",
+            "Fleishaker1994_Fluvoxamine_Alprazolam"
+          ]
+        },
+        {
+          "Project": "Alprazolam",
+          "Simulation": "PO_0.5mg",
+          "Path": "Neighborhoods|UpperJejunum_int_UpperJejunum_cell|Alprazolam|P (intracellular->interstitial)",
+          "TargetSimulations": [
+            "Fleishaker1994_Alprazolam",
+            "Fleishaker1994_Fluvoxamine_Alprazolam"
+          ]
+        },
+        {
+          "Project": "Alprazolam",
+          "Simulation": "PO_0.5mg",
+          "Path": "Neighborhoods|LowerJejunum_int_LowerJejunum_cell|Alprazolam|P (intracellular->interstitial)",
+          "TargetSimulations": [
+            "Fleishaker1994_Alprazolam",
+            "Fleishaker1994_Fluvoxamine_Alprazolam"
+          ]
+        },
+        {
+          "Project": "Alprazolam",
+          "Simulation": "PO_0.5mg",
+          "Path": "Neighborhoods|UpperIleum_int_UpperIleum_cell|Alprazolam|P (intracellular->interstitial)",
+          "TargetSimulations": [
+            "Fleishaker1994_Alprazolam",
+            "Fleishaker1994_Fluvoxamine_Alprazolam"
+          ]
+        },
+        {
+          "Project": "Alprazolam",
+          "Simulation": "PO_0.5mg",
+          "Path": "Neighborhoods|LowerIleum_int_LowerIleum_cell|Alprazolam|P (intracellular->interstitial)",
+          "TargetSimulations": [
+            "Fleishaker1994_Alprazolam",
+            "Fleishaker1994_Fluvoxamine_Alprazolam"
+          ]
+        },
+        {
+          "Project": "Alprazolam",
+          "Simulation": "PO_0.5mg",
+          "Path": "Neighborhoods|Caecum_int_Caecum_cell|Alprazolam|P (intracellular->interstitial)",
+          "TargetSimulations": [
+            "Fleishaker1994_Alprazolam",
+            "Fleishaker1994_Fluvoxamine_Alprazolam"
+          ]
+        },
+        {
+          "Project": "Alprazolam",
+          "Simulation": "PO_0.5mg",
+          "Path": "Neighborhoods|ColonAscendens_int_ColonAscendens_cell|Alprazolam|P (intracellular->interstitial)",
+          "TargetSimulations": [
+            "Fleishaker1994_Alprazolam",
+            "Fleishaker1994_Fluvoxamine_Alprazolam"
+          ]
+        },
+        {
+          "Project": "Alprazolam",
+          "Simulation": "PO_0.5mg",
+          "Path": "Neighborhoods|ColonTransversum_int_ColonTransversum_cell|Alprazolam|P (intracellular->interstitial)",
+          "TargetSimulations": [
+            "Fleishaker1994_Alprazolam",
+            "Fleishaker1994_Fluvoxamine_Alprazolam"
+          ]
+        },
+        {
+          "Project": "Alprazolam",
+          "Simulation": "PO_0.5mg",
+          "Path": "Neighborhoods|ColonDescendens_int_ColonDescendens_cell|Alprazolam|P (intracellular->interstitial)",
+          "TargetSimulations": [
+            "Fleishaker1994_Alprazolam",
+            "Fleishaker1994_Fluvoxamine_Alprazolam"
+          ]
+        },
+        {
+          "Project": "Alprazolam",
+          "Simulation": "PO_0.5mg",
+          "Path": "Neighborhoods|ColonSigmoid_int_ColonSigmoid_cell|Alprazolam|P (intracellular->interstitial)",
+          "TargetSimulations": [
+            "Fleishaker1994_Alprazolam",
+            "Fleishaker1994_Fluvoxamine_Alprazolam"
+          ]
+        },
+        {
+          "Project": "Alprazolam",
+          "Simulation": "PO_0.5mg",
+          "Path": "Neighborhoods|Rectum_int_Rectum_cell|Alprazolam|P (intracellular->interstitial)",
+          "TargetSimulations": [
+            "Fleishaker1994_Alprazolam",
+            "Fleishaker1994_Fluvoxamine_Alprazolam"
           ]
         }
       ]
@@ -3733,7 +3960,7 @@
         ]
       },
       {
-        "SectionId": 35,
+        "SectionId": 36,
         "Title": "Okudaira 2007",
         "SimulationDuration": 22,
         "TimeUnit": "h",
@@ -3785,7 +4012,7 @@
         ]
       },
       {
-        "SectionId": 35,
+        "SectionId": 36,
         "Title": "Olkkola 1993 (midazolam IV)",
         "SimulationDuration": 18,
         "TimeUnit": "h",
@@ -3815,7 +4042,7 @@
         ]
       },
       {
-        "SectionId": 35,
+        "SectionId": 36,
         "Title": "Olkkola 1993 (midazolam po)",
         "SimulationDuration": 18,
         "TimeUnit": "h",
@@ -3845,7 +4072,7 @@
         ]
       },
       {
-        "SectionId": 35,
+        "SectionId": 36,
         "Title": "Swart 2002",
         "SimulationDuration": 4,
         "TimeUnit": "h",
@@ -3875,7 +4102,7 @@
         ]
       },
       {
-        "SectionId": 35,
+        "SectionId": 36,
         "Title": "Zimmermann 1996",
         "SimulationDuration": 24,
         "TimeUnit": "h",
@@ -3900,6 +4127,66 @@
             "TimeUnit": "h",
             "Color": "#b2182b",
             "Caption": "Treatment (with erythromycin)",
+            "Symbol": "Square"
+          }
+        ]
+      },
+      {
+        "SectionId": 37,
+        "Title": "Fleishaker 1994 (Day 1, first dose)",
+        "SimulationDuration": 5,
+        "TimeUnit": "h",
+        "OutputMappings": [
+          {
+            "Project": "Fluvoxamine-Alprazolam-DDI",
+            "Simulation": "Fleishaker1994_Alprazolam",
+            "Output": "Organism|PeripheralVenousBlood|Alprazolam|Plasma (Peripheral Venous Blood)",
+            "ObservedData": "Fleishaker 1994 - Alprazolam alone - Alprazolam - PO - 1 mg - Plasma - agg. (n=20)",
+            "StartTime": 0,
+            "TimeUnit": "h",
+            "Color": "#2166ac",
+            "Caption": "Control (without Fluvoxamine)",
+            "Symbol": "Circle"
+          },
+          {
+            "Project": "Fluvoxamine-Alprazolam-DDI",
+            "Simulation": "Fleishaker1994_Fluvoxamine_Alprazolam",
+            "Output": "Organism|PeripheralVenousBlood|Alprazolam|Plasma (Peripheral Venous Blood)",
+            "ObservedData": "Fleishaker 1994 - Alprazolam + fluvoxamine - Alprazolam - PO - 1 mg - Plasma - agg. (n=20)",
+            "StartTime": 144,
+            "TimeUnit": "h",
+            "Color": "#b2182b",
+            "Caption": "Treatment with Fluvoxamine",
+            "Symbol": "Square"
+          }
+        ]
+      },
+      {
+        "SectionId": 37,
+        "Title": "Fleishaker 1994 (Day 10)",
+        "SimulationDuration": 24,
+        "TimeUnit": "h",
+        "OutputMappings": [
+          {
+            "Project": "Fluvoxamine-Alprazolam-DDI",
+            "Simulation": "Fleishaker1994_Alprazolam",
+            "Output": "Organism|PeripheralVenousBlood|Alprazolam|Plasma (Peripheral Venous Blood)",
+            "ObservedData": "Fleishaker 1994 - Alprazolam alone - Alprazolam - PO - 1 mg - Plasma - agg. (n=20)",
+            "StartTime": 72,
+            "TimeUnit": "h",
+            "Color": "#2166ac",
+            "Caption": "Control (without Fluvoxamine)",
+            "Symbol": "Circle"
+          },
+          {
+            "Project": "Fluvoxamine-Alprazolam-DDI",
+            "Simulation": "Fleishaker1994_Fluvoxamine_Alprazolam",
+            "Output": "Organism|PeripheralVenousBlood|Alprazolam|Plasma (Peripheral Venous Blood)",
+            "ObservedData": "Fleishaker 1994 - Alprazolam + fluvoxamine - Alprazolam - PO - 1 mg - Plasma - agg. (n=20)",
+            "StartTime": 216,
+            "TimeUnit": "h",
+            "Color": "#b2182b",
+            "Caption": "Treatment with Fluvoxamine",
             "Symbol": "Square"
           }
         ]
@@ -4968,6 +5255,51 @@
                 }
               }
             ]
+          },
+          {
+            "Caption": "Fluvoxamine + Alprazolam",
+            "Color": "#FF0000",
+            "Symbol": "Square",
+            "DDIRatios": [
+              {
+                "Output": "Organism|PeripheralVenousBlood|Alprazolam|Plasma (Peripheral Venous Blood)",
+                "ObservedData": "DDI Ratios",
+                "ObservedDataRecordId": 1104,
+                "SimulationControl": {
+                  "Project": "Fluvoxamine-Alprazolam-DDI",
+                  "Simulation": "Fleishaker1994_Alprazolam",
+                  "StartTime": 0,
+                  "EndTime": 5,
+                  "TimeUnit": "h"
+                },
+                "SimulationDDI": {
+                  "Project": "Fluvoxamine-Alprazolam-DDI",
+                  "Simulation": "Fleishaker1994_Fluvoxamine_Alprazolam",
+                  "StartTime": 144,
+                  "EndTime": 149,
+                  "TimeUnit": "h"
+                }
+              },
+              {
+                "Output": "Organism|PeripheralVenousBlood|Alprazolam|Plasma (Peripheral Venous Blood)",
+                "ObservedData": "DDI Ratios",
+                "ObservedDataRecordId": 1113,
+                "SimulationControl": {
+                  "Project": "Fluvoxamine-Alprazolam-DDI",
+                  "Simulation": "Fleishaker1994_Alprazolam",
+                  "StartTime": 72,
+                  "EndTime": 96,
+                  "TimeUnit": "h"
+                },
+                "SimulationDDI": {
+                  "Project": "Fluvoxamine-Alprazolam-DDI",
+                  "Simulation": "Fleishaker1994_Fluvoxamine_Alprazolam",
+                  "StartTime": 216,
+                  "EndTime": 240,
+                  "TimeUnit": "h"
+                }
+              }
+            ]
           }
         ]
       }
@@ -5019,6 +5351,11 @@
               "Id": 126,
               "Title": "Erythromycin - Midazolam DDI",
               "Content": "Content/Erythromycin-Midazolam-DDI.md"
+            },
+            {
+              "Id": 127,
+              "Title": "Fluvoxamine - Alprazolam DDI",
+              "Content": "Content/Fluvoxamine-Alprazolam-DDI.md"
             }
           ]
         }
@@ -5062,6 +5399,11 @@
         {
           "Id": 36,
           "Title": "3.3 Erythromycin - Midazolam DDI",
+          "Content": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Qualification-text-modules/master/Empty.md"
+        },
+        {
+          "Id": 37,
+          "Title": "3.3 Fluvoxamine - Alprazolam DDI",
           "Content": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Qualification-text-modules/master/Empty.md"
         }
       ]
