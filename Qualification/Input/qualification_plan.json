@@ -7,7 +7,7 @@
     },
     {
       "Id": "Alfentanil",
-      "Path": "https://raw.githubusercontent.com/AndreDlm/Alfentanil-Model/master/Alfentanil.json",
+      "Path": "https://raw.githubusercontent.com/TWendl/Alfentanil-Model/master/Alfentanil.json",
       "BuildingBlocks": [
         {
           "Type": "Compound",
@@ -34,7 +34,7 @@
     },
     {
       "Id": "Triazolam",
-      "Path": "https://raw.githubusercontent.com/AndreDlm/Alprazolam-Model/master/Triazolam.json",
+      "Path": "https://raw.githubusercontent.com/AndreDlm/Triazolam-Model/master/Triazolam.json",
       "BuildingBlocks": [
         {
           "Type": "Compound",
@@ -1812,7 +1812,7 @@
     },
     {
       "Id": "Fluvoxamine",
-      "Path": "https://raw.githubusercontent.com/LMFuhr/Fluvoxamine-Model/Fluvoxamine-Model.json",
+      "Path": "https://raw.githubusercontent.com/LMFuhr/Fluvoxamine-Model/master/Fluvoxamine-Model.json",
       "BuildingBlocks": [
         {
           "Type": "Compound",
@@ -2351,7 +2351,7 @@
     },
     {
       "Id": "Erythromycin-Alprazolam-DDI",
-      "Path": "https://raw.githubusercontent.com/AndreDlm/Erythromycin-Alfentanil-DDI/master/Erythromycin-Alprazolam-DDI.json",
+      "Path": "https://raw.githubusercontent.com/AndreDlm/Erythromycin-Alprazolam-DDI/master/Erythromycin-Alprazolam-DDI.json",
       "BuildingBlocks": [
         {
           "Type": "Individual",
