@@ -7,12 +7,28 @@
     },
     {
       "Id": "Alfentanil",
-      "Path": "https://raw.githubusercontent.com/TWendl/Alfentanil-Model/master/Alfentanil.json",
+      "Path": "https://raw.githubusercontent.com/AndreDlm/Alfentanil-Model/master/Alfentanil.json",
       "BuildingBlocks": [
         {
           "Type": "Compound",
           "Name": "Alfentanil",
           "Project": "Alfentanil"
+        }
+      ]
+    },
+    {
+      "Id": "Alprazolam",
+      "Path": "https://raw.githubusercontent.com/AndreDlm/Alprazolam-Model/master/Alprazolam.json",
+      "BuildingBlocks": [
+        {
+          "Type": "Compound",
+          "Name": "Alprazolam",
+          "Project": "Alprazolam"
+        },
+        {
+          "Type": "Formulation",
+          "Name": "Xanax_IR",
+          "Project": "Alprazolam"
         }
       ]
     },
@@ -66,17 +82,6 @@
           "Type": "Formulation",
           "Name": "Erythromycin_Weibull_enteric-coated-pellets",
           "Project": "Erythromycin"
-        }
-      ]
-    },
-    {
-      "Id": "Erythromycin-Alfentanil-DDI",
-      "Path": "https://raw.githubusercontent.com/AndreDlm/Erythromycin-Alfentanil-DDI/master/Erythromycin-Alfentanil-DDI.json",
-      "BuildingBlocks": [
-        {
-          "Type": "Individual",
-          "Name": "European (P-gp modified, CYP3A4 36 h)",
-          "Project": "Erythromycin-Alfentanil-DDI"
         }
       ]
     },
@@ -1524,6 +1529,228 @@
           ]
         }
       ]
+    },
+    {
+      "Id": "Erythromycin-Alfentanil-DDI",
+      "Path": "https://raw.githubusercontent.com/AndreDlm/Erythromycin-Alfentanil-DDI/master/Erythromycin-Alfentanil-DDI.json",
+      "BuildingBlocks": [
+        {
+          "Type": "Individual",
+          "Name": "European (P-gp modified, CYP3A4 36 h)",
+          "Project": "Erythromycin-Alfentanil-DDI"
+        }
+      ]
+    },
+    {
+      "Id": "Erythromycin-Alprazolam-DDI",
+      "Path": "https://raw.githubusercontent.com/AndreDlm/Erythromycin-Alfentanil-DDI/master/Erythromycin-Alprazolam-DDI.json",
+      "BuildingBlocks": [
+        {
+          "Type": "Individual",
+          "Name": "European (P-gp modified, CYP3A4 36 h)",
+          "Project": "Erythromycin-Alprazolam-DDI"
+        }
+      ],
+      "SimulationParameters": [
+        {
+          "Project": "Alprazolam",
+          "Simulation": "PO_0.5mg",
+          "Path": "Neighborhoods|Duodenum_int_Duodenum_cell|Alprazolam|P (interstitial->intracellular)",
+          "TargetSimulations": [
+            "Yasui1996_Control",
+            "Yasui1996_Perpetrator"
+          ]
+        },
+        {
+          "Project": "Alprazolam",
+          "Simulation": "PO_0.5mg",
+          "Path": "Neighborhoods|UpperJejunum_int_UpperJejunum_cell|Alprazolam|P (interstitial->intracellular)",
+          "TargetSimulations": [
+            "Yasui1996_Control",
+            "Yasui1996_Perpetrator"
+          ]
+        },
+        {
+          "Project": "Alprazolam",
+          "Simulation": "PO_0.5mg",
+          "Path": "Neighborhoods|LowerJejunum_int_LowerJejunum_cell|Alprazolam|P (interstitial->intracellular)",
+          "TargetSimulations": [
+            "Yasui1996_Control",
+            "Yasui1996_Perpetrator"
+          ]
+        },
+        {
+          "Project": "Alprazolam",
+          "Simulation": "PO_0.5mg",
+          "Path": "Neighborhoods|UpperIleum_int_UpperIleum_cell|Alprazolam|P (interstitial->intracellular)",
+          "TargetSimulations": [
+            "Yasui1996_Control",
+            "Yasui1996_Perpetrator"
+          ]
+        },
+        {
+          "Project": "Alprazolam",
+          "Simulation": "PO_0.5mg",
+          "Path": "Neighborhoods|LowerIleum_int_LowerIleum_cell|Alprazolam|P (interstitial->intracellular)",
+          "TargetSimulations": [
+            "Yasui1996_Control",
+            "Yasui1996_Perpetrator"
+          ]
+        },
+        {
+          "Project": "Alprazolam",
+          "Simulation": "PO_0.5mg",
+          "Path": "Neighborhoods|Caecum_int_Caecum_cell|Alprazolam|P (interstitial->intracellular)",
+          "TargetSimulations": [
+            "Yasui1996_Control",
+            "Yasui1996_Perpetrator"
+          ]
+        },
+        {
+          "Project": "Alprazolam",
+          "Simulation": "PO_0.5mg",
+          "Path": "Neighborhoods|ColonAscendens_int_ColonAscendens_cell|Alprazolam|P (interstitial->intracellular)",
+          "TargetSimulations": [
+            "Yasui1996_Control",
+            "Yasui1996_Perpetrator"
+          ]
+        },
+        {
+          "Project": "Alprazolam",
+          "Simulation": "PO_0.5mg",
+          "Path": "Neighborhoods|ColonTransversum_int_ColonTransversum_cell|Alprazolam|P (interstitial->intracellular)",
+          "TargetSimulations": [
+            "Yasui1996_Control",
+            "Yasui1996_Perpetrator"
+          ]
+        },
+        {
+          "Project": "Alprazolam",
+          "Simulation": "PO_0.5mg",
+          "Path": "Neighborhoods|ColonDescendens_int_ColonDescendens_cell|Alprazolam|P (interstitial->intracellular)",
+          "TargetSimulations": [
+            "Yasui1996_Control",
+            "Yasui1996_Perpetrator"
+          ]
+        },
+        {
+          "Project": "Alprazolam",
+          "Simulation": "PO_0.5mg",
+          "Path": "Neighborhoods|ColonSigmoid_int_ColonSigmoid_cell|Alprazolam|P (interstitial->intracellular)",
+          "TargetSimulations": [
+            "Yasui1996_Control",
+            "Yasui1996_Perpetrator"
+          ]
+        },
+        {
+          "Project": "Alprazolam",
+          "Simulation": "PO_0.5mg",
+          "Path": "Neighborhoods|Rectum_int_Rectum_cell|Alprazolam|P (interstitial->intracellular)",
+          "TargetSimulations": [
+            "Yasui1996_Control",
+            "Yasui1996_Perpetrator"
+          ]
+        },
+        {
+          "Project": "Alprazolam",
+          "Simulation": "PO_0.5mg",
+          "Path": "Neighborhoods|Duodenum_int_Duodenum_cell|Alprazolam|P (intracellular->interstitial)",
+          "TargetSimulations": [
+            "Yasui1996_Control",
+            "Yasui1996_Perpetrator"
+          ]
+        },
+        {
+          "Project": "Alprazolam",
+          "Simulation": "PO_0.5mg",
+          "Path": "Neighborhoods|UpperJejunum_int_UpperJejunum_cell|Alprazolam|P (intracellular->interstitial)",
+          "TargetSimulations": [
+            "Yasui1996_Control",
+            "Yasui1996_Perpetrator"
+          ]
+        },
+        {
+          "Project": "Alprazolam",
+          "Simulation": "PO_0.5mg",
+          "Path": "Neighborhoods|LowerJejunum_int_LowerJejunum_cell|Alprazolam|P (intracellular->interstitial)",
+          "TargetSimulations": [
+            "Yasui1996_Control",
+            "Yasui1996_Perpetrator"
+          ]
+        },
+        {
+          "Project": "Alprazolam",
+          "Simulation": "PO_0.5mg",
+          "Path": "Neighborhoods|UpperIleum_int_UpperIleum_cell|Alprazolam|P (intracellular->interstitial)",
+          "TargetSimulations": [
+            "Yasui1996_Control",
+            "Yasui1996_Perpetrator"
+          ]
+        },
+        {
+          "Project": "Alprazolam",
+          "Simulation": "PO_0.5mg",
+          "Path": "Neighborhoods|LowerIleum_int_LowerIleum_cell|Alprazolam|P (intracellular->interstitial)",
+          "TargetSimulations": [
+            "Yasui1996_Control",
+            "Yasui1996_Perpetrator"
+          ]
+        },
+        {
+          "Project": "Alprazolam",
+          "Simulation": "PO_0.5mg",
+          "Path": "Neighborhoods|Caecum_int_Caecum_cell|Alprazolam|P (intracellular->interstitial)",
+          "TargetSimulations": [
+            "Yasui1996_Control",
+            "Yasui1996_Perpetrator"
+          ]
+        },
+        {
+          "Project": "Alprazolam",
+          "Simulation": "PO_0.5mg",
+          "Path": "Neighborhoods|ColonAscendens_int_ColonAscendens_cell|Alprazolam|P (intracellular->interstitial)",
+          "TargetSimulations": [
+            "Yasui1996_Control",
+            "Yasui1996_Perpetrator"
+          ]
+        },
+        {
+          "Project": "Alprazolam",
+          "Simulation": "PO_0.5mg",
+          "Path": "Neighborhoods|ColonTransversum_int_ColonTransversum_cell|Alprazolam|P (intracellular->interstitial)",
+          "TargetSimulations": [
+            "Yasui1996_Control",
+            "Yasui1996_Perpetrator"
+          ]
+        },
+        {
+          "Project": "Alprazolam",
+          "Simulation": "PO_0.5mg",
+          "Path": "Neighborhoods|ColonDescendens_int_ColonDescendens_cell|Alprazolam|P (intracellular->interstitial)",
+          "TargetSimulations": [
+            "Yasui1996_Control",
+            "Yasui1996_Perpetrator"
+          ]
+        },
+        {
+          "Project": "Alprazolam",
+          "Simulation": "PO_0.5mg",
+          "Path": "Neighborhoods|ColonSigmoid_int_ColonSigmoid_cell|Alprazolam|P (intracellular->interstitial)",
+          "TargetSimulations": [
+            "Yasui1996_Control",
+            "Yasui1996_Perpetrator"
+          ]
+        },
+        {
+          "Project": "Alprazolam",
+          "Simulation": "PO_0.5mg",
+          "Path": "Neighborhoods|Rectum_int_Rectum_cell|Alprazolam|P (intracellular->interstitial)",
+          "TargetSimulations": [
+            "Yasui1996_Control",
+            "Yasui1996_Perpetrator"
+          ]
+        }
+      ]
     }
   ],
   "ObservedDataSets": [
@@ -2631,6 +2858,36 @@
             "Symbol": "Square"
           }
         ]
+      },
+      {
+        "SectionId": 34,
+        "Title": "Yasui 1996",
+        "SimulationDuration": 48,
+        "TimeUnit": "h",
+        "OutputMappings": [
+          {
+            "Project": "Erythromycin-Alprazolam-DDI",
+            "Simulation": "Yasui1996_Control",
+            "Output": "Organism|PeripheralVenousBlood|Alprazolam|Plasma (Peripheral Venous Blood)",
+            "ObservedData": "Yasui 1996 - Treatment with placebo - Alprazolam - PO - 0.8 mg - Plasma - agg. (n=12)",
+            "StartTime": 0,
+            "TimeUnit": "h",
+            "Color": "#2166ac",
+            "Caption": "Control (without erythromycin)",
+            "Symbol": "Circle"
+          },
+          {
+            "Project": "Erythromycin-Alprazolam-DDI",
+            "Simulation": "Yasui1996_Perpetrator",
+            "Output": "Organism|PeripheralVenousBlood|Alprazolam|Plasma (Peripheral Venous Blood)",
+            "ObservedData": "Yasui 1996 - Treatment with erythromycin - Alprazolam - PO - 0.8 mg - Plasma - agg. (n=12)",
+            "StartTime": 170,
+            "TimeUnit": "h",
+            "Color": "#b2182b",
+            "Caption": "Treatment with erythromycin",
+            "Symbol": "Square"
+          }
+        ]
       }
     ],
     "DDIRatioPlots": [
@@ -3409,14 +3666,14 @@
                   "Project": "Erythromycin-Alfentanil-DDI",
                   "Simulation": "Bartkowski1989_Control",
                   "StartTime": 0,
-                  "EndTime": 9999,
+                  "EndTime": "Inf",
                   "TimeUnit": "h"
                 },
                 "SimulationDDI": {
                   "Project": "Erythromycin-Alfentanil-DDI",
                   "Simulation": "Bartkowski1989_Perpetrator_Day1",
                   "StartTime": 1.5,
-                  "EndTime": 9999,
+                  "EndTime": "inf",
                   "TimeUnit": "h"
                 }
               },
@@ -3428,14 +3685,40 @@
                   "Project": "Erythromycin-Alfentanil-DDI",
                   "Simulation": "Bartkowski1989_Control",
                   "StartTime": 0,
-                  "EndTime": 9999,
+                  "EndTime": "Inf",
                   "TimeUnit": "h"
                 },
                 "SimulationDDI": {
                   "Project": "Erythromycin-Alfentanil-DDI",
                   "Simulation": "Bartkowski1989_Perpetrator_Day7",
                   "StartTime": 145.5,
-                  "EndTime": 9999,
+                  "EndTime": "Inf",
+                  "TimeUnit": "h"
+                }
+              }
+            ]
+          },
+          {
+            "Caption": "Erythromycin + Alprazolam",
+            "Color": "#FF0000",
+            "Symbol": "Square",
+            "DDIRatios": [
+              {
+                "Output": "Organism|PeripheralVenousBlood|Alprazolam|Plasma (Peripheral Venous Blood)",
+                "ObservedData": "DDI Ratios",
+                "ObservedDataRecordId": 777,
+                "SimulationControl": {
+                  "Project": "Erythromycin-Alprazolam-DDI",
+                  "Simulation": "Yasui1996_Control",
+                  "StartTime": 0,
+                  "EndTime": "Inf",
+                  "TimeUnit": "h"
+                },
+                "SimulationDDI": {
+                  "Project": "Erythromycin-Alprazolam-DDI",
+                  "Simulation": "Yasui1996_Perpetrator",
+                  "StartTime": 170,
+                  "EndTime": "Inf",
                   "TimeUnit": "h"
                 }
               }
@@ -3476,6 +3759,11 @@
               "Id": 123,
               "Title": "Erythromycin - Alfentanil DDI",
               "Content": "Content/Erythromycin-Alfentanil-DDI.md"
+            },
+            {
+              "Id": 124,
+              "Title": "Erythromycin - Alprazolam DDI",
+              "Content": "Content/Erythromycin-Alprazolam-DDI.md"
             }
           ]
         }
@@ -3504,6 +3792,11 @@
         {
           "Id": 33,
           "Title": "3.3 Erythromycin - Alfentanil DDI",
+          "Content": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Qualification-text-modules/master/Empty.md"
+        },
+        {
+          "Id": 34,
+          "Title": "3.3 Erythromycin - Alprazolam DDI",
           "Content": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Qualification-text-modules/master/Empty.md"
         }
       ]
