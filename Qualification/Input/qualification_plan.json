@@ -1547,6 +1547,518 @@
       ]
     },
     {
+      "Id": "Erythromycin-Midazolam-DDI",
+      "Path": "https://raw.githubusercontent.com/AndreDlm/Erythromycin-Midazolam-DDI/master/Erythromycin-Midazolam-DDI.json",
+      "BuildingBlocks": [
+        {
+          "Type": "Individual",
+          "Name": "Okudaira2007",
+          "Project": "Erythromycin-Midazolam-DDI"
+        },
+        {
+          "Type": "Individual",
+          "Name": "Olkkola1993",
+          "Project": "Erythromycin-Midazolam-DDI"
+        },
+        {
+          "Type": "Individual",
+          "Name": "Swart2002",
+          "Project": "Erythromycin-Midazolam-DDI"
+        },
+        {
+          "Type": "Individual",
+          "Name": "Zimmermann1996",
+          "Project": "Erythromycin-Midazolam-DDI"
+        }
+      ],
+      "SimulationParameters": [
+        {
+          "Project": "Midazolam",
+          "Simulation": "po 0.075 mg (solution)",
+          "Path": "Neighborhoods|Duodenum_int_Duodenum_cell|Midazolam|P (interstitial->intracellular)",
+          "TargetSimulations": [
+            "Control_Carls2014",
+            "Control_Okudaira2007_EM0",
+            "Control_Olkkola1993_IV",
+            "Control_Olkkola1993_Oral",
+            "Control_Swart2002",
+            "Control_Zimmermann1996",
+            "Treatment_Carls2014_1000mg",
+            "Treatment_Carls2014_250mg",
+            "Treatment_Okudaira2007_EM2",
+            "Treatment_Okudaira2007_EM4",
+            "Treatment_Okudaira2007_EM7",
+            "Treatment_Olkkola1993_IV",
+            "Treatment_Olkkola1993_Oral",
+            "Treatment_Swart2002",
+            "Treatment_Zimmermann1996"
+          ]
+        },
+        {
+          "Project": "Midazolam",
+          "Simulation": "po 0.075 mg (solution)",
+          "Path": "Neighborhoods|UpperJejunum_int_UpperJejunum_cell|Midazolam|P (interstitial->intracellular)",
+          "TargetSimulations": [
+            "Control_Carls2014",
+            "Control_Okudaira2007_EM0",
+            "Control_Olkkola1993_IV",
+            "Control_Olkkola1993_Oral",
+            "Control_Swart2002",
+            "Control_Zimmermann1996",
+            "Treatment_Carls2014_1000mg",
+            "Treatment_Carls2014_250mg",
+            "Treatment_Okudaira2007_EM2",
+            "Treatment_Okudaira2007_EM4",
+            "Treatment_Okudaira2007_EM7",
+            "Treatment_Olkkola1993_IV",
+            "Treatment_Olkkola1993_Oral",
+            "Treatment_Swart2002",
+            "Treatment_Zimmermann1996"
+          ]
+        },
+        {
+          "Project": "Midazolam",
+          "Simulation": "po 0.075 mg (solution)",
+          "Path": "Neighborhoods|LowerJejunum_int_LowerJejunum_cell|Midazolam|P (interstitial->intracellular)",
+          "TargetSimulations": [
+            "Control_Carls2014",
+            "Control_Okudaira2007_EM0",
+            "Control_Olkkola1993_IV",
+            "Control_Olkkola1993_Oral",
+            "Control_Swart2002",
+            "Control_Zimmermann1996",
+            "Treatment_Carls2014_1000mg",
+            "Treatment_Carls2014_250mg",
+            "Treatment_Okudaira2007_EM2",
+            "Treatment_Okudaira2007_EM4",
+            "Treatment_Okudaira2007_EM7",
+            "Treatment_Olkkola1993_IV",
+            "Treatment_Olkkola1993_Oral",
+            "Treatment_Swart2002",
+            "Treatment_Zimmermann1996"
+          ]
+        },
+        {
+          "Project": "Midazolam",
+          "Simulation": "po 0.075 mg (solution)",
+          "Path": "Neighborhoods|UpperIleum_int_UpperIleum_cell|Midazolam|P (interstitial->intracellular)",
+          "TargetSimulations": [
+            "Control_Carls2014",
+            "Control_Okudaira2007_EM0",
+            "Control_Olkkola1993_IV",
+            "Control_Olkkola1993_Oral",
+            "Control_Swart2002",
+            "Control_Zimmermann1996",
+            "Treatment_Carls2014_1000mg",
+            "Treatment_Carls2014_250mg",
+            "Treatment_Okudaira2007_EM2",
+            "Treatment_Okudaira2007_EM4",
+            "Treatment_Okudaira2007_EM7",
+            "Treatment_Olkkola1993_IV",
+            "Treatment_Olkkola1993_Oral",
+            "Treatment_Swart2002",
+            "Treatment_Zimmermann1996"
+          ]
+        },
+        {
+          "Project": "Midazolam",
+          "Simulation": "po 0.075 mg (solution)",
+          "Path": "Neighborhoods|LowerIleum_int_LowerIleum_cell|Midazolam|P (interstitial->intracellular)",
+          "TargetSimulations": [
+            "Control_Carls2014",
+            "Control_Okudaira2007_EM0",
+            "Control_Olkkola1993_IV",
+            "Control_Olkkola1993_Oral",
+            "Control_Swart2002",
+            "Control_Zimmermann1996",
+            "Treatment_Carls2014_1000mg",
+            "Treatment_Carls2014_250mg",
+            "Treatment_Okudaira2007_EM2",
+            "Treatment_Okudaira2007_EM4",
+            "Treatment_Okudaira2007_EM7",
+            "Treatment_Olkkola1993_IV",
+            "Treatment_Olkkola1993_Oral",
+            "Treatment_Swart2002",
+            "Treatment_Zimmermann1996"
+          ]
+        },
+        {
+          "Project": "Midazolam",
+          "Simulation": "po 0.075 mg (solution)",
+          "Path": "Neighborhoods|Caecum_int_Caecum_cell|Midazolam|P (interstitial->intracellular)",
+          "TargetSimulations": [
+            "Control_Carls2014",
+            "Control_Okudaira2007_EM0",
+            "Control_Olkkola1993_IV",
+            "Control_Olkkola1993_Oral",
+            "Control_Swart2002",
+            "Control_Zimmermann1996",
+            "Treatment_Carls2014_1000mg",
+            "Treatment_Carls2014_250mg",
+            "Treatment_Okudaira2007_EM2",
+            "Treatment_Okudaira2007_EM4",
+            "Treatment_Okudaira2007_EM7",
+            "Treatment_Olkkola1993_IV",
+            "Treatment_Olkkola1993_Oral",
+            "Treatment_Swart2002",
+            "Treatment_Zimmermann1996"
+          ]
+        },
+        {
+          "Project": "Midazolam",
+          "Simulation": "po 0.075 mg (solution)",
+          "Path": "Neighborhoods|ColonAscendens_int_ColonAscendens_cell|Midazolam|P (interstitial->intracellular)",
+          "TargetSimulations": [
+            "Control_Carls2014",
+            "Control_Okudaira2007_EM0",
+            "Control_Olkkola1993_IV",
+            "Control_Olkkola1993_Oral",
+            "Control_Swart2002",
+            "Control_Zimmermann1996",
+            "Treatment_Carls2014_1000mg",
+            "Treatment_Carls2014_250mg",
+            "Treatment_Okudaira2007_EM2",
+            "Treatment_Okudaira2007_EM4",
+            "Treatment_Okudaira2007_EM7",
+            "Treatment_Olkkola1993_IV",
+            "Treatment_Olkkola1993_Oral",
+            "Treatment_Swart2002",
+            "Treatment_Zimmermann1996"
+          ]
+        },
+        {
+          "Project": "Midazolam",
+          "Simulation": "po 0.075 mg (solution)",
+          "Path": "Neighborhoods|ColonTransversum_int_ColonTransversum_cell|Midazolam|P (interstitial->intracellular)",
+          "TargetSimulations": [
+            "Control_Carls2014",
+            "Control_Okudaira2007_EM0",
+            "Control_Olkkola1993_IV",
+            "Control_Olkkola1993_Oral",
+            "Control_Swart2002",
+            "Control_Zimmermann1996",
+            "Treatment_Carls2014_1000mg",
+            "Treatment_Carls2014_250mg",
+            "Treatment_Okudaira2007_EM2",
+            "Treatment_Okudaira2007_EM4",
+            "Treatment_Okudaira2007_EM7",
+            "Treatment_Olkkola1993_IV",
+            "Treatment_Olkkola1993_Oral",
+            "Treatment_Swart2002",
+            "Treatment_Zimmermann1996"
+          ]
+        },
+        {
+          "Project": "Midazolam",
+          "Simulation": "po 0.075 mg (solution)",
+          "Path": "Neighborhoods|ColonDescendens_int_ColonDescendens_cell|Midazolam|P (interstitial->intracellular)",
+          "TargetSimulations": [
+            "Control_Carls2014",
+            "Control_Okudaira2007_EM0",
+            "Control_Olkkola1993_IV",
+            "Control_Olkkola1993_Oral",
+            "Control_Swart2002",
+            "Control_Zimmermann1996",
+            "Treatment_Carls2014_1000mg",
+            "Treatment_Carls2014_250mg",
+            "Treatment_Okudaira2007_EM2",
+            "Treatment_Okudaira2007_EM4",
+            "Treatment_Okudaira2007_EM7",
+            "Treatment_Olkkola1993_IV",
+            "Treatment_Olkkola1993_Oral",
+            "Treatment_Swart2002",
+            "Treatment_Zimmermann1996"
+          ]
+        },
+        {
+          "Project": "Midazolam",
+          "Simulation": "po 0.075 mg (solution)",
+          "Path": "Neighborhoods|ColonSigmoid_int_ColonSigmoid_cell|Midazolam|P (interstitial->intracellular)",
+          "TargetSimulations": [
+            "Control_Carls2014",
+            "Control_Okudaira2007_EM0",
+            "Control_Olkkola1993_IV",
+            "Control_Olkkola1993_Oral",
+            "Control_Swart2002",
+            "Control_Zimmermann1996",
+            "Treatment_Carls2014_1000mg",
+            "Treatment_Carls2014_250mg",
+            "Treatment_Okudaira2007_EM2",
+            "Treatment_Okudaira2007_EM4",
+            "Treatment_Okudaira2007_EM7",
+            "Treatment_Olkkola1993_IV",
+            "Treatment_Olkkola1993_Oral",
+            "Treatment_Swart2002",
+            "Treatment_Zimmermann1996"
+          ]
+        },
+        {
+          "Project": "Midazolam",
+          "Simulation": "po 0.075 mg (solution)",
+          "Path": "Neighborhoods|Rectum_int_Rectum_cell|Midazolam|P (interstitial->intracellular)",
+          "TargetSimulations": [
+            "Control_Carls2014",
+            "Control_Okudaira2007_EM0",
+            "Control_Olkkola1993_IV",
+            "Control_Olkkola1993_Oral",
+            "Control_Swart2002",
+            "Control_Zimmermann1996",
+            "Treatment_Carls2014_1000mg",
+            "Treatment_Carls2014_250mg",
+            "Treatment_Okudaira2007_EM2",
+            "Treatment_Okudaira2007_EM4",
+            "Treatment_Okudaira2007_EM7",
+            "Treatment_Olkkola1993_IV",
+            "Treatment_Olkkola1993_Oral",
+            "Treatment_Swart2002",
+            "Treatment_Zimmermann1996"
+          ]
+        },
+        {
+          "Project": "Midazolam",
+          "Simulation": "po 0.075 mg (solution)",
+          "Path": "Neighborhoods|Duodenum_int_Duodenum_cell|Midazolam|P (intracellular->interstitial)",
+          "TargetSimulations": [
+            "Control_Carls2014",
+            "Control_Okudaira2007_EM0",
+            "Control_Olkkola1993_IV",
+            "Control_Olkkola1993_Oral",
+            "Control_Swart2002",
+            "Control_Zimmermann1996",
+            "Treatment_Carls2014_1000mg",
+            "Treatment_Carls2014_250mg",
+            "Treatment_Okudaira2007_EM2",
+            "Treatment_Okudaira2007_EM4",
+            "Treatment_Okudaira2007_EM7",
+            "Treatment_Olkkola1993_IV",
+            "Treatment_Olkkola1993_Oral",
+            "Treatment_Swart2002",
+            "Treatment_Zimmermann1996"
+          ]
+        },
+        {
+          "Project": "Midazolam",
+          "Simulation": "po 0.075 mg (solution)",
+          "Path": "Neighborhoods|UpperJejunum_int_UpperJejunum_cell|Midazolam|P (intracellular->interstitial)",
+          "TargetSimulations": [
+            "Control_Carls2014",
+            "Control_Okudaira2007_EM0",
+            "Control_Olkkola1993_IV",
+            "Control_Olkkola1993_Oral",
+            "Control_Swart2002",
+            "Control_Zimmermann1996",
+            "Treatment_Carls2014_1000mg",
+            "Treatment_Carls2014_250mg",
+            "Treatment_Okudaira2007_EM2",
+            "Treatment_Okudaira2007_EM4",
+            "Treatment_Okudaira2007_EM7",
+            "Treatment_Olkkola1993_IV",
+            "Treatment_Olkkola1993_Oral",
+            "Treatment_Swart2002",
+            "Treatment_Zimmermann1996"
+          ]
+        },
+        {
+          "Project": "Midazolam",
+          "Simulation": "po 0.075 mg (solution)",
+          "Path": "Neighborhoods|LowerJejunum_int_LowerJejunum_cell|Midazolam|P (intracellular->interstitial)",
+          "TargetSimulations": [
+            "Control_Carls2014",
+            "Control_Okudaira2007_EM0",
+            "Control_Olkkola1993_IV",
+            "Control_Olkkola1993_Oral",
+            "Control_Swart2002",
+            "Control_Zimmermann1996",
+            "Treatment_Carls2014_1000mg",
+            "Treatment_Carls2014_250mg",
+            "Treatment_Okudaira2007_EM2",
+            "Treatment_Okudaira2007_EM4",
+            "Treatment_Okudaira2007_EM7",
+            "Treatment_Olkkola1993_IV",
+            "Treatment_Olkkola1993_Oral",
+            "Treatment_Swart2002",
+            "Treatment_Zimmermann1996"
+          ]
+        },
+        {
+          "Project": "Midazolam",
+          "Simulation": "po 0.075 mg (solution)",
+          "Path": "Neighborhoods|UpperIleum_int_UpperIleum_cell|Midazolam|P (intracellular->interstitial)",
+          "TargetSimulations": [
+            "Control_Carls2014",
+            "Control_Okudaira2007_EM0",
+            "Control_Olkkola1993_IV",
+            "Control_Olkkola1993_Oral",
+            "Control_Swart2002",
+            "Control_Zimmermann1996",
+            "Treatment_Carls2014_1000mg",
+            "Treatment_Carls2014_250mg",
+            "Treatment_Okudaira2007_EM2",
+            "Treatment_Okudaira2007_EM4",
+            "Treatment_Okudaira2007_EM7",
+            "Treatment_Olkkola1993_IV",
+            "Treatment_Olkkola1993_Oral",
+            "Treatment_Swart2002",
+            "Treatment_Zimmermann1996"
+          ]
+        },
+        {
+          "Project": "Midazolam",
+          "Simulation": "po 0.075 mg (solution)",
+          "Path": "Neighborhoods|LowerIleum_int_LowerIleum_cell|Midazolam|P (intracellular->interstitial)",
+          "TargetSimulations": [
+            "Control_Carls2014",
+            "Control_Okudaira2007_EM0",
+            "Control_Olkkola1993_IV",
+            "Control_Olkkola1993_Oral",
+            "Control_Swart2002",
+            "Control_Zimmermann1996",
+            "Treatment_Carls2014_1000mg",
+            "Treatment_Carls2014_250mg",
+            "Treatment_Okudaira2007_EM2",
+            "Treatment_Okudaira2007_EM4",
+            "Treatment_Okudaira2007_EM7",
+            "Treatment_Olkkola1993_IV",
+            "Treatment_Olkkola1993_Oral",
+            "Treatment_Swart2002",
+            "Treatment_Zimmermann1996"
+          ]
+        },
+        {
+          "Project": "Midazolam",
+          "Simulation": "po 0.075 mg (solution)",
+          "Path": "Neighborhoods|Caecum_int_Caecum_cell|Midazolam|P (intracellular->interstitial)",
+          "TargetSimulations": [
+            "Control_Carls2014",
+            "Control_Okudaira2007_EM0",
+            "Control_Olkkola1993_IV",
+            "Control_Olkkola1993_Oral",
+            "Control_Swart2002",
+            "Control_Zimmermann1996",
+            "Treatment_Carls2014_1000mg",
+            "Treatment_Carls2014_250mg",
+            "Treatment_Okudaira2007_EM2",
+            "Treatment_Okudaira2007_EM4",
+            "Treatment_Okudaira2007_EM7",
+            "Treatment_Olkkola1993_IV",
+            "Treatment_Olkkola1993_Oral",
+            "Treatment_Swart2002",
+            "Treatment_Zimmermann1996"
+          ]
+        },
+        {
+          "Project": "Midazolam",
+          "Simulation": "po 0.075 mg (solution)",
+          "Path": "Neighborhoods|ColonAscendens_int_ColonAscendens_cell|Midazolam|P (intracellular->interstitial)",
+          "TargetSimulations": [
+            "Control_Carls2014",
+            "Control_Okudaira2007_EM0",
+            "Control_Olkkola1993_IV",
+            "Control_Olkkola1993_Oral",
+            "Control_Swart2002",
+            "Control_Zimmermann1996",
+            "Treatment_Carls2014_1000mg",
+            "Treatment_Carls2014_250mg",
+            "Treatment_Okudaira2007_EM2",
+            "Treatment_Okudaira2007_EM4",
+            "Treatment_Okudaira2007_EM7",
+            "Treatment_Olkkola1993_IV",
+            "Treatment_Olkkola1993_Oral",
+            "Treatment_Swart2002",
+            "Treatment_Zimmermann1996"
+          ]
+        },
+        {
+          "Project": "Midazolam",
+          "Simulation": "po 0.075 mg (solution)",
+          "Path": "Neighborhoods|ColonTransversum_int_ColonTransversum_cell|Midazolam|P (intracellular->interstitial)",
+          "TargetSimulations": [
+            "Control_Carls2014",
+            "Control_Okudaira2007_EM0",
+            "Control_Olkkola1993_IV",
+            "Control_Olkkola1993_Oral",
+            "Control_Swart2002",
+            "Control_Zimmermann1996",
+            "Treatment_Carls2014_1000mg",
+            "Treatment_Carls2014_250mg",
+            "Treatment_Okudaira2007_EM2",
+            "Treatment_Okudaira2007_EM4",
+            "Treatment_Okudaira2007_EM7",
+            "Treatment_Olkkola1993_IV",
+            "Treatment_Olkkola1993_Oral",
+            "Treatment_Swart2002",
+            "Treatment_Zimmermann1996"
+          ]
+        },
+        {
+          "Project": "Midazolam",
+          "Simulation": "po 0.075 mg (solution)",
+          "Path": "Neighborhoods|ColonDescendens_int_ColonDescendens_cell|Midazolam|P (intracellular->interstitial)",
+          "TargetSimulations": [
+            "Control_Carls2014",
+            "Control_Okudaira2007_EM0",
+            "Control_Olkkola1993_IV",
+            "Control_Olkkola1993_Oral",
+            "Control_Swart2002",
+            "Control_Zimmermann1996",
+            "Treatment_Carls2014_1000mg",
+            "Treatment_Carls2014_250mg",
+            "Treatment_Okudaira2007_EM2",
+            "Treatment_Okudaira2007_EM4",
+            "Treatment_Okudaira2007_EM7",
+            "Treatment_Olkkola1993_IV",
+            "Treatment_Olkkola1993_Oral",
+            "Treatment_Swart2002",
+            "Treatment_Zimmermann1996"
+          ]
+        },
+        {
+          "Project": "Midazolam",
+          "Simulation": "po 0.075 mg (solution)",
+          "Path": "Neighborhoods|ColonSigmoid_int_ColonSigmoid_cell|Midazolam|P (intracellular->interstitial)",
+          "TargetSimulations": [
+            "Control_Carls2014",
+            "Control_Okudaira2007_EM0",
+            "Control_Olkkola1993_IV",
+            "Control_Olkkola1993_Oral",
+            "Control_Swart2002",
+            "Control_Zimmermann1996",
+            "Treatment_Carls2014_1000mg",
+            "Treatment_Carls2014_250mg",
+            "Treatment_Okudaira2007_EM2",
+            "Treatment_Okudaira2007_EM4",
+            "Treatment_Okudaira2007_EM7",
+            "Treatment_Olkkola1993_IV",
+            "Treatment_Olkkola1993_Oral",
+            "Treatment_Swart2002",
+            "Treatment_Zimmermann1996"
+          ]
+        },
+        {
+          "Project": "Midazolam",
+          "Simulation": "po 0.075 mg (solution)",
+          "Path": "Neighborhoods|Rectum_int_Rectum_cell|Midazolam|P (intracellular->interstitial)",
+          "TargetSimulations": [
+            "Control_Carls2014",
+            "Control_Okudaira2007_EM0",
+            "Control_Olkkola1993_IV",
+            "Control_Olkkola1993_Oral",
+            "Control_Swart2002",
+            "Control_Zimmermann1996",
+            "Treatment_Carls2014_1000mg",
+            "Treatment_Carls2014_250mg",
+            "Treatment_Okudaira2007_EM2",
+            "Treatment_Okudaira2007_EM4",
+            "Treatment_Okudaira2007_EM7",
+            "Treatment_Olkkola1993_IV",
+            "Treatment_Olkkola1993_Oral",
+            "Treatment_Swart2002",
+            "Treatment_Zimmermann1996"
+          ]
+        }
+      ]
+    },
+    {
       "Id": "Erythromycin-Alfentanil-DDI",
       "Path": "https://raw.githubusercontent.com/AndreDlm/Erythromycin-Alfentanil-DDI/master/Erythromycin-Alfentanil-DDI.json",
       "BuildingBlocks": [
@@ -3219,6 +3731,178 @@
             "Symbol": "Square"
           }
         ]
+      },
+      {
+        "SectionId": 35,
+        "Title": "Okudaira 2007",
+        "SimulationDuration": 22,
+        "TimeUnit": "h",
+        "OutputMappings": [
+          {
+            "Project": "Erythromycin-Midazolam-DDI",
+            "Simulation": "Control_Okudaira2007_EM0",
+            "Output": "Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
+            "ObservedData": "Okudaira 2007 - EM 0 Control (Perpetrator Placebo) - Midazolam - PO - 2.5 (actually 5) mg - Plasma - agg. (n=12)",
+            "StartTime": 0,
+            "TimeUnit": "h",
+            "Color": "#2166ac",
+            "Caption": "Control (without erythromycin)",
+            "Symbol": "Circle"
+          },
+          {
+            "Project": "Erythromycin-Midazolam-DDI",
+            "Simulation": "Treatment_Okudaira2007_EM2",
+            "Output": "Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
+            "ObservedData": "Okudaira 2007 - EM 2 with Perpetrator (Erythromycin) - Midazolam - PO - 2.5 mg - Plasma - agg. (n=12)",
+            "StartTime": 25,
+            "TimeUnit": "h",
+            "Color": "#b2182b",
+            "Caption": "Treatment with erythromycin for 2 days",
+            "Symbol": "Square"
+          },
+          {
+            "Project": "Erythromycin-Midazolam-DDI",
+            "Simulation": "Treatment_Okudaira2007_EM4",
+            "Output": "Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
+            "ObservedData": "Okudaira 2007 - EM 4 with Perpetrator (Erythromycin) - Midazolam - PO - 2.5 mg - Plasma - agg. (n=12)",
+            "StartTime": 73,
+            "TimeUnit": "h",
+            "Color": "#d6604d",
+            "Caption": "Treatment with erythromycin for 4 days",
+            "Symbol": "Triangle"
+          },
+          {
+            "Project": "Erythromycin-Midazolam-DDI",
+            "Simulation": "Treatment_Okudaira2007_EM7",
+            "Output": "Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
+            "ObservedData": "Okudaira 2007 - EM 7 with Perpetrator (Erythromycin) - Midazolam - PO - 2.5 mg - Plasma - agg. (n=12)",
+            "StartTime": 145,
+            "TimeUnit": "h",
+            "Color": "#fca61c",
+            "Caption": "Treatment with erythromycin for 7 days",
+            "Symbol": "Diamond"
+          }
+        ]
+      },
+      {
+        "SectionId": 35,
+        "Title": "Olkkola 1993 (midazolam IV)",
+        "SimulationDuration": 18,
+        "TimeUnit": "h",
+        "OutputMappings": [
+          {
+            "Project": "Erythromycin-Midazolam-DDI",
+            "Simulation": "Control_Olkkola1993_IV",
+            "Output": "Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
+            "ObservedData": "Olkkola 1993 - iv Control (Perpetrator Placebo) - Midazolam - IV - 0.05 mg/kg - Plasma - agg. (n=6)",
+            "StartTime": 0,
+            "TimeUnit": "h",
+            "Color": "#2166ac",
+            "Caption": "Control (without erythromycin)",
+            "Symbol": "Circle"
+          },
+          {
+            "Project": "Erythromycin-Midazolam-DDI",
+            "Simulation": "Treatment_Olkkola1993_IV",
+            "Output": "Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
+            "ObservedData": "Olkkola 1993 - iv with Perpetrator (Erythromycin) - Midazolam - IV - 0.05 mg/kg - Plasma - agg. (n=6)",
+            "StartTime": 128,
+            "TimeUnit": "h",
+            "Color": "#b2182b",
+            "Caption": "Treatment (with erythromycin)",
+            "Symbol": "Square"
+          }
+        ]
+      },
+      {
+        "SectionId": 35,
+        "Title": "Olkkola 1993 (midazolam po)",
+        "SimulationDuration": 18,
+        "TimeUnit": "h",
+        "OutputMappings": [
+          {
+            "Project": "Erythromycin-Midazolam-DDI",
+            "Simulation": "Control_Olkkola1993_Oral",
+            "Output": "Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
+            "ObservedData": "Olkkola 1993 - po Control (Perpetrator Placebo) - Midazolam - PO - 15 mg - Plasma - agg. (n=12)",
+            "StartTime": 0,
+            "TimeUnit": "h",
+            "Color": "#2166ac",
+            "Caption": "Control (without erythromycin)",
+            "Symbol": "Circle"
+          },
+          {
+            "Project": "Erythromycin-Midazolam-DDI",
+            "Simulation": "Treatment_Olkkola1993_Oral",
+            "Output": "Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
+            "ObservedData": "Olkkola 1993 - po with Perpetrator (Erythromycin) - Midazolam - PO - 15 mg - Plasma - agg. (n=12)",
+            "StartTime": 128,
+            "TimeUnit": "h",
+            "Color": "#b2182b",
+            "Caption": "Treatment (with erythromycin)",
+            "Symbol": "Square"
+          }
+        ]
+      },
+      {
+        "SectionId": 35,
+        "Title": "Swart 2002",
+        "SimulationDuration": 4,
+        "TimeUnit": "h",
+        "OutputMappings": [
+          {
+            "Project": "Erythromycin-Midazolam-DDI",
+            "Simulation": "Control_Swart2002",
+            "Output": "Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
+            "ObservedData": "Swart 2002 - day 5 Control (Perpetrator Placebo) - Midazolam - IV - 0.075 mg/kg - Plasma - agg. (n=8)",
+            "StartTime": 0,
+            "TimeUnit": "h",
+            "Color": "#2166ac",
+            "Caption": "Control (without erythromycin)",
+            "Symbol": "Circle"
+          },
+          {
+            "Project": "Erythromycin-Midazolam-DDI",
+            "Simulation": "Treatment_Swart2002",
+            "Output": "Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
+            "ObservedData": "Swart 2002 - day 10 Control with Perpetrator (Erythromycin) - Midazolam - IV - 0.075 mg/kg - Plasma - agg. (n=8)",
+            "StartTime": 96,
+            "TimeUnit": "h",
+            "Color": "#b2182b",
+            "Caption": "Treatment (with erythromycin)",
+            "Symbol": "Square"
+          }
+        ]
+      },
+      {
+        "SectionId": 35,
+        "Title": "Zimmermann 1996",
+        "SimulationDuration": 24,
+        "TimeUnit": "h",
+        "OutputMappings": [
+          {
+            "Project": "Erythromycin-Midazolam-DDI",
+            "Simulation": "Control_Zimmermann1996",
+            "Output": "Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
+            "ObservedData": "Zimmermann 1996 - Control (Perpetrator Placebo) - Midazolam - PO - 15 mg - Plasma - agg. (n=12)",
+            "StartTime": 0,
+            "TimeUnit": "h",
+            "Color": "#2166ac",
+            "Caption": "Control (without erythromycin)",
+            "Symbol": "Circle"
+          },
+          {
+            "Project": "Erythromycin-Midazolam-DDI",
+            "Simulation": "Treatment_Zimmermann1996",
+            "Output": "Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
+            "ObservedData": "Zimmermann 1996 - with Perpetrator (Erythromycin) - Midazolam - PO - 15 mg - Plasma - agg. (n=12)",
+            "StartTime": 97.5,
+            "TimeUnit": "h",
+            "Color": "#b2182b",
+            "Caption": "Treatment (with erythromycin)",
+            "Symbol": "Square"
+          }
+        ]
       }
     ],
     "DDIRatioPlots": [
@@ -4099,6 +4783,191 @@
                 }
               }
             ]
+          },
+          {
+            "Caption": "Erythromycin + Midazolam (Midazolam IV)",
+            "Color": "#FF0000",
+            "Symbol": "Square",
+            "DDIRatios": [
+              {
+                "Output": "Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
+                "ObservedData": "DDI Ratios",
+                "ObservedDataRecordId": 420,
+                "SimulationControl": {
+                  "Project": "Erythromycin-Midazolam-DDI",
+                  "Simulation": "Control_Swart2002",
+                  "StartTime": 0,
+                  "EndTime": "Inf",
+                  "TimeUnit": "h"
+                },
+                "SimulationDDI": {
+                  "Project": "Erythromycin-Midazolam-DDI",
+                  "Simulation": "Treatment_Swart2002",
+                  "StartTime": 96,
+                  "EndTime": "Inf",
+                  "TimeUnit": "h"
+                }
+              },
+              {
+                "Output": "Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
+                "ObservedData": "DDI Ratios",
+                "ObservedDataRecordId": 368,
+                "SimulationControl": {
+                  "Project": "Erythromycin-Midazolam-DDI",
+                  "Simulation": "Control_Olkkola1993_IV",
+                  "StartTime": 0,
+                  "EndTime": "Inf",
+                  "TimeUnit": "h"
+                },
+                "SimulationDDI": {
+                  "Project": "Erythromycin-Midazolam-DDI",
+                  "Simulation": "Treatment_Olkkola1993_IV",
+                  "StartTime": 128,
+                  "EndTime": "Inf",
+                  "TimeUnit": "h"
+                }
+              }
+            ]
+          },
+          {
+            "Caption": "Erythromycin + Midazolam (Midazolam po)",
+            "Color": "#FF0000",
+            "Symbol": "Circle",
+            "DDIRatios": [
+              {
+                "Output": "Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
+                "ObservedData": "DDI Ratios",
+                "ObservedDataRecordId": 366,
+                "SimulationControl": {
+                  "Project": "Erythromycin-Midazolam-DDI",
+                  "Simulation": "Control_Olkkola1993_Oral",
+                  "StartTime": 0,
+                  "EndTime": "Inf",
+                  "TimeUnit": "h"
+                },
+                "SimulationDDI": {
+                  "Project": "Erythromycin-Midazolam-DDI",
+                  "Simulation": "Treatment_Olkkola1993_Oral",
+                  "StartTime": 128,
+                  "EndTime": "Inf",
+                  "TimeUnit": "h"
+                }
+              },
+              {
+                "Output": "Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
+                "ObservedData": "DDI Ratios",
+                "ObservedDataRecordId": 471,
+                "SimulationControl": {
+                  "Project": "Erythromycin-Midazolam-DDI",
+                  "Simulation": "Control_Zimmermann1996",
+                  "StartTime": 0,
+                  "EndTime": "Inf",
+                  "TimeUnit": "h"
+                },
+                "SimulationDDI": {
+                  "Project": "Erythromycin-Midazolam-DDI",
+                  "Simulation": "Treatment_Zimmermann1996",
+                  "StartTime": 97.5,
+                  "EndTime": "Inf",
+                  "TimeUnit": "h"
+                }
+              },
+              {
+                "Output": "Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
+                "ObservedData": "DDI Ratios",
+                "ObservedDataRecordId": 362,
+                "SimulationControl": {
+                  "Project": "Erythromycin-Midazolam-DDI",
+                  "Simulation": "Control_Okudaira2007_EM0",
+                  "StartTime": 0,
+                  "EndTime": "Inf",
+                  "TimeUnit": "h"
+                },
+                "SimulationDDI": {
+                  "Project": "Erythromycin-Midazolam-DDI",
+                  "Simulation": "Treatment_Okudaira2007_EM2",
+                  "StartTime": 25,
+                  "EndTime": "Inf",
+                  "TimeUnit": "h"
+                }
+              },
+              {
+                "Output": "Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
+                "ObservedData": "DDI Ratios",
+                "ObservedDataRecordId": 363,
+                "SimulationControl": {
+                  "Project": "Erythromycin-Midazolam-DDI",
+                  "Simulation": "Control_Okudaira2007_EM0",
+                  "StartTime": 0,
+                  "EndTime": "Inf",
+                  "TimeUnit": "h"
+                },
+                "SimulationDDI": {
+                  "Project": "Erythromycin-Midazolam-DDI",
+                  "Simulation": "Treatment_Okudaira2007_EM4",
+                  "StartTime": 73,
+                  "EndTime": "Inf",
+                  "TimeUnit": "h"
+                }
+              },
+              {
+                "Output": "Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
+                "ObservedData": "DDI Ratios",
+                "ObservedDataRecordId": 364,
+                "SimulationControl": {
+                  "Project": "Erythromycin-Midazolam-DDI",
+                  "Simulation": "Control_Okudaira2007_EM0",
+                  "StartTime": 0,
+                  "EndTime": "Inf",
+                  "TimeUnit": "h"
+                },
+                "SimulationDDI": {
+                  "Project": "Erythromycin-Midazolam-DDI",
+                  "Simulation": "Treatment_Okudaira2007_EM7",
+                  "StartTime": 145,
+                  "EndTime": "Inf",
+                  "TimeUnit": "h"
+                }
+              },
+              {
+                "Output": "Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
+                "ObservedData": "DDI Ratios",
+                "ObservedDataRecordId": 828,
+                "SimulationControl": {
+                  "Project": "Erythromycin-Midazolam-DDI",
+                  "Simulation": "Control_Carls2014",
+                  "StartTime": 2,
+                  "EndTime": 4,
+                  "TimeUnit": "h"
+                },
+                "SimulationDDI": {
+                  "Project": "Erythromycin-Midazolam-DDI",
+                  "Simulation": "Treatment_Carls2014_250mg",
+                  "StartTime": 3,
+                  "EndTime": 5,
+                  "TimeUnit": "h"
+                }
+              },
+              {
+                "Output": "Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
+                "ObservedData": "DDI Ratios",
+                "ObservedDataRecordId": 829,
+                "SimulationControl": {
+                  "Project": "Erythromycin-Midazolam-DDI",
+                  "Simulation": "Control_Carls2014",
+                  "StartTime": 2,
+                  "EndTime": 4,
+                  "TimeUnit": "h"
+                },
+                "SimulationDDI": {
+                  "Project": "Erythromycin-Midazolam-DDI",
+                  "Simulation": "Treatment_Carls2014_1000mg",
+                  "StartTime": 3,
+                  "EndTime": 5,
+                  "TimeUnit": "h"
+                }
+              }
+            ]
           }
         ]
       }
@@ -4145,6 +5014,11 @@
               "Id": 125,
               "Title": "Erythromycin - Triazolam DDI",
               "Content": "Content/Erythromycin-Triazolam-DDI.md"
+            },
+            {
+              "Id": 126,
+              "Title": "Erythromycin - Midazolam DDI",
+              "Content": "Content/Erythromycin-Midazolam-DDI.md"
             }
           ]
         }
@@ -4183,6 +5057,11 @@
         {
           "Id": 35,
           "Title": "3.3 Erythromycin - Triazolam DDI",
+          "Content": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Qualification-text-modules/master/Empty.md"
+        },
+        {
+          "Id": 36,
+          "Title": "3.3 Erythromycin - Midazolam DDI",
           "Content": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Qualification-text-modules/master/Empty.md"
         }
       ]
