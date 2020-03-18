@@ -1,7 +1,7 @@
 The respective model repository can be found in:
 https://github.com/Open-Systems-Pharmacology/Rifampicn-Midazolam-DDI
 
-The  rifampicn / midazolam interaction was evaluated using 19 clinical DDI studies including 33 different clinical settings ([Backman 1996](5-References), [Backman 1998](5-References), [Chung 2006](5-References), [Eap 2004](5-References), [Gorski 2003](5-References), [Gurley 2006](5-References), [Gurley 2008a](5-References), [Kharasch 1997](5-References), [Kharasch 2004](5-References), [Kharasch 2011](5-References), [Kim 2018](5-References), [Link 2008](5-References), [Phimmasone 2001](5-References), [Prueksaritanont 2017](5-References), [Reitman 2011](5-References), [Shin 2013](5-References), [Shin 2016](5-References), [Szalat 2007](5-References), [van Dyk 2018](5-References)).
+The  rifampicin / midazolam interaction was evaluated using 19 clinical DDI studies including 33 different clinical settings ([Backman 1996](5-References), [Backman 1998](5-References), [Chung 2006](5-References), [Eap 2004](5-References), [Gorski 2003](5-References), [Gurley 2006](5-References), [Gurley 2008a](5-References), [Kharasch 1997](5-References), [Kharasch 2004](5-References), [Kharasch 2011](5-References), [Kim 2018](5-References), [Link 2008](5-References), [Phimmasone 2001](5-References), [Prueksaritanont 2017](5-References), [Reitman 2011](5-References), [Shin 2013](5-References), [Shin 2016](5-References), [Szalat 2007](5-References), [van Dyk 2018](5-References)).
 
 
 

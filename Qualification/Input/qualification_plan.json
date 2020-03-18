@@ -8,96 +8,28 @@
     {
       "Id": "Alfentanil",
       "Path": "https://raw.githubusercontent.com/TWendl/Alfentanil-Model/master/Alfentanil.json",
-      "BuildingBlocks": [
-        {
-          "Type": "Compound",
-          "Name": "Alfentanil",
-          "Project": "Alfentanil"
-        }
-      ]
-    },
-    {
-      "Id": "Alprazolam",
-      "Path": "https://raw.githubusercontent.com/AndreDlm/Alprazolam-Model/master/Alprazolam.json",
-      "BuildingBlocks": [
-        {
-          "Type": "Compound",
-          "Name": "Alprazolam",
-          "Project": "Alprazolam"
-        },
-        {
-          "Type": "Formulation",
-          "Name": "Xanax_IR",
-          "Project": "Alprazolam"
-        }
-      ]
-    },
-    {
-      "Id": "Triazolam",
-      "Path": "https://raw.githubusercontent.com/AndreDlm/Triazolam-Model/master/Triazolam.json",
-      "BuildingBlocks": [
-        {
-          "Type": "Compound",
-          "Name": "Triazolam",
-          "Project": "Triazolam"
-        },
-        {
-          "Type": "Formulation",
-          "Name": "Halcion",
-          "Project": "Triazolam"
-        }
-      ]
     },
     {
       "Id": "Itraconazole",
       "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Itraconazole-Model/master/Itraconazole-Model.json",
-      "BuildingBlocks": [
-        {
-          "Type": "Individual",
-          "Name": "European (P-gp modified, CYP3A4 36 h)",
-          "Project": "Midazolam"
-        }
-      ]
     },
     {
       "Id": "Rifampicin",
       "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Rifampicin-Model/master/Rifampicin-Model.json",
-      "BuildingBlocks": [
-        {
-          "Type": "Individual",
-          "Name": "European (P-gp modified, CYP3A4 36 h)",
-          "Project": "Midazolam"
-        }
-      ]
     },
     {
-      "Id": "Erythromycin",
-      "Path": "https://raw.githubusercontent.com/AndreDlm/Erythromycin-Model/master/Erythromycin.json",
+      "Id": "Fluvoxamine",
+      "Path": "https://raw.githubusercontent.com/LMFuhr/Fluvoxamine-Model/master/Fluvoxamine-Model.json",
       "BuildingBlocks": [
         {
           "Type": "Compound",
-          "Name": "Erythromycin",
-          "Project": "Erythromycin"
+          "Name": "Fluvoxamine",
+          "Project": "Fluvoxamine"
         },
         {
           "Type": "Formulation",
-          "Name": "Erythromycin_Weibull_filmtablet",
-          "Project": "Erythromycin"
-        },
-        {
-          "Type": "Formulation",
-          "Name": "Erythromycin_Weibull_filmtablet_250mg",
-          "Project": "Erythromycin"
-        },
-        {
-          "Type": "Formulation",
-          "Name": "Erythromycin_Weibull_enteric-coated-tablet",
-          "Project": "Erythromycin"
-        },
-        {
-          "Type": "Formulation",
-          "Name": "Erythromycin_Weibull_enteric-coated-pellets",
-          "Project": "Erythromycin"
+          "Name": "Solution",
+          "Project": "Fluvoxamine"
         }
       ]
     },
@@ -105,11 +37,6 @@
       "Id": "Itraconazole-Midazolam-DDI",
       "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Itraconazole-Midazolam-DDI/master/Itraconazole-Midazolam-DDI.json",
       "BuildingBlocks": [
-        {
-          "Type": "Individual",
-          "Name": "European (P-gp modified, CYP3A4 36 h)",
-          "Project": "Midazolam"
-        },
         {
           "Type": "Compound",
           "Name": "Midazolam",
@@ -642,11 +569,6 @@
       "Id": "Rifampicin-Midazolam-DDI",
       "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Rifampicin-Midazolam-DDI/master/Rifampicin-Midazolam-DDI.json",
       "BuildingBlocks": [
-        {
-          "Type": "Individual",
-          "Name": "European (P-gp modified, CYP3A4 36 h)",
-          "Project": "Midazolam"
-        },
         {
           "Type": "Compound",
           "Name": "Midazolam",
@@ -1855,44 +1777,18 @@
       ]
     },
     {
-      "Id": "Fluvoxamine",
-      "Path": "https://raw.githubusercontent.com/LMFuhr/Fluvoxamine-Model/master/Fluvoxamine-Model.json",
+      "Id": "Rifampicin-Alfentanil-DDI",
+      "Path": "https://raw.githubusercontent.com/sfrechen/Rifampicin-Alfentanil-DDI/master/Rifampicin-Alfentanil-DDI.json",
       "BuildingBlocks": [
         {
           "Type": "Compound",
-          "Name": "Fluvoxamine",
-          "Project": "Fluvoxamine"
+          "Name": "Alfentanil",
+          "Project": "Alfentanil"
         },
         {
-          "Type": "Formulation",
-          "Name": "Solution",
-          "Project": "Fluvoxamine"
-        }
-      ]
-    },
-    {
-      "Id": "Erythromycin-Midazolam-DDI",
-      "Path": "https://raw.githubusercontent.com/AndreDlm/Erythromycin-Midazolam-DDI/master/Erythromycin-Midazolam-DDI.json",
-      "BuildingBlocks": [
-        {
-          "Type": "Individual",
-          "Name": "Okudaira2007",
-          "Project": "Erythromycin-Midazolam-DDI"
-        },
-        {
-          "Type": "Individual",
-          "Name": "Olkkola1993",
-          "Project": "Erythromycin-Midazolam-DDI"
-        },
-        {
-          "Type": "Individual",
-          "Name": "Swart2002",
-          "Project": "Erythromycin-Midazolam-DDI"
-        },
-        {
-          "Type": "Individual",
-          "Name": "Zimmermann1996",
-          "Project": "Erythromycin-Midazolam-DDI"
+          "Type": "Compound",
+          "Name": "Rifampicin",
+          "Project": "Rifampicin"
         }
       ],
       "SimulationParameters": [
@@ -1901,21 +1797,30 @@
           "Simulation": "po 3 mg (solution)",
           "Path": "Neighborhoods|Duodenum_int_Duodenum_cell|Midazolam|P (interstitial->intracellular)",
           "TargetSimulations": [
-            "Control_Carls2014",
-            "Control_Okudaira2007_EM0",
-            "Control_Olkkola1993_IV",
-            "Control_Olkkola1993_Oral",
-            "Control_Swart2002",
-            "Control_Zimmermann1996",
-            "Treatment_Carls2014_1000mg",
-            "Treatment_Carls2014_250mg",
-            "Treatment_Okudaira2007_EM2",
-            "Treatment_Okudaira2007_EM4",
-            "Treatment_Okudaira2007_EM7",
-            "Treatment_Olkkola1993_IV",
-            "Treatment_Olkkola1993_Oral",
-            "Treatment_Swart2002",
-            "Treatment_Zimmermann1996"
+            "Kharasch 1997 20 µg/kg IV - control",
+            "Kharasch 1997 20 µg/kg IV and Rifampicin",
+            "Kharasch 2004 15 µg/kg IV - control",
+            "Kharasch 2004 15 µg/kg IV and Rifampicin",
+            "Kharasch 2004 60 µg/kg PO - control",
+            "Kharasch 2004 60 µg/kg PO and Rifampicin",
+            "Kharasch 2011 15 µg/kg IV - control",
+            "Kharasch 2011 15 µg/kg IV and 5 mg Rifampicin",
+            "Kharasch 2011 15 µg/kg IV and 10 mg Rifampicin",
+            "Kharasch 2011 15 µg/kg IV and 25 mg Rifampicin",
+            "Kharasch 2011 15 µg/kg IV and 75 mg Rifampicin",
+            "Kharasch 2011 75 µg/kg PO and 5 mg Rifampicin",
+            "Kharasch 2011 75 µg/kg PO - control",
+            "Kharasch 2011 75 µg/kg PO and 10 mg Rifampicin",
+            "Kharasch 2011 75 µg/kg PO and 25 mg Rifampicin",
+            "Kharasch 2011 75 µg/kg PO and 75 mg Rifampicin",
+            "Kharasch 2011b IV 1mg - control",
+            "Kharasch 2011b PO 4mg - control",
+            "Kharasch 2011b 1 mg IV seq and 600 mg Rifampicin",
+            "Kharasch 2011b 1 mg IV simultaneous and 600 mg Rifampicin",
+            "Kharasch 2011b 4 mg PO seq and 600 mg Rifampicin",
+            "Kharasch 2011b 4 mg PO simultaneous and 600 mg Rifampicin",
+            "Phimmasone 2001 15 µg/kg IV - control",
+            "Phimmasone 2001 0.015 µg/kg IV and 600 mg Rifampicin"
           ]
         },
         {
@@ -1923,21 +1828,30 @@
           "Simulation": "po 3 mg (solution)",
           "Path": "Neighborhoods|UpperJejunum_int_UpperJejunum_cell|Midazolam|P (interstitial->intracellular)",
           "TargetSimulations": [
-            "Control_Carls2014",
-            "Control_Okudaira2007_EM0",
-            "Control_Olkkola1993_IV",
-            "Control_Olkkola1993_Oral",
-            "Control_Swart2002",
-            "Control_Zimmermann1996",
-            "Treatment_Carls2014_1000mg",
-            "Treatment_Carls2014_250mg",
-            "Treatment_Okudaira2007_EM2",
-            "Treatment_Okudaira2007_EM4",
-            "Treatment_Okudaira2007_EM7",
-            "Treatment_Olkkola1993_IV",
-            "Treatment_Olkkola1993_Oral",
-            "Treatment_Swart2002",
-            "Treatment_Zimmermann1996"
+            "Kharasch 1997 20 µg/kg IV - control",
+            "Kharasch 1997 20 µg/kg IV and Rifampicin",
+            "Kharasch 2004 15 µg/kg IV - control",
+            "Kharasch 2004 15 µg/kg IV and Rifampicin",
+            "Kharasch 2004 60 µg/kg PO - control",
+            "Kharasch 2004 60 µg/kg PO and Rifampicin",
+            "Kharasch 2011 15 µg/kg IV - control",
+            "Kharasch 2011 15 µg/kg IV and 5 mg Rifampicin",
+            "Kharasch 2011 15 µg/kg IV and 10 mg Rifampicin",
+            "Kharasch 2011 15 µg/kg IV and 25 mg Rifampicin",
+            "Kharasch 2011 15 µg/kg IV and 75 mg Rifampicin",
+            "Kharasch 2011 75 µg/kg PO and 5 mg Rifampicin",
+            "Kharasch 2011 75 µg/kg PO - control",
+            "Kharasch 2011 75 µg/kg PO and 10 mg Rifampicin",
+            "Kharasch 2011 75 µg/kg PO and 25 mg Rifampicin",
+            "Kharasch 2011 75 µg/kg PO and 75 mg Rifampicin",
+            "Kharasch 2011b IV 1mg - control",
+            "Kharasch 2011b PO 4mg - control",
+            "Kharasch 2011b 1 mg IV seq and 600 mg Rifampicin",
+            "Kharasch 2011b 1 mg IV simultaneous and 600 mg Rifampicin",
+            "Kharasch 2011b 4 mg PO seq and 600 mg Rifampicin",
+            "Kharasch 2011b 4 mg PO simultaneous and 600 mg Rifampicin",
+            "Phimmasone 2001 15 µg/kg IV - control",
+            "Phimmasone 2001 0.015 µg/kg IV and 600 mg Rifampicin"
           ]
         },
         {
@@ -1945,21 +1859,30 @@
           "Simulation": "po 3 mg (solution)",
           "Path": "Neighborhoods|LowerJejunum_int_LowerJejunum_cell|Midazolam|P (interstitial->intracellular)",
           "TargetSimulations": [
-            "Control_Carls2014",
-            "Control_Okudaira2007_EM0",
-            "Control_Olkkola1993_IV",
-            "Control_Olkkola1993_Oral",
-            "Control_Swart2002",
-            "Control_Zimmermann1996",
-            "Treatment_Carls2014_1000mg",
-            "Treatment_Carls2014_250mg",
-            "Treatment_Okudaira2007_EM2",
-            "Treatment_Okudaira2007_EM4",
-            "Treatment_Okudaira2007_EM7",
-            "Treatment_Olkkola1993_IV",
-            "Treatment_Olkkola1993_Oral",
-            "Treatment_Swart2002",
-            "Treatment_Zimmermann1996"
+            "Kharasch 1997 20 µg/kg IV - control",
+            "Kharasch 1997 20 µg/kg IV and Rifampicin",
+            "Kharasch 2004 15 µg/kg IV - control",
+            "Kharasch 2004 15 µg/kg IV and Rifampicin",
+            "Kharasch 2004 60 µg/kg PO - control",
+            "Kharasch 2004 60 µg/kg PO and Rifampicin",
+            "Kharasch 2011 15 µg/kg IV - control",
+            "Kharasch 2011 15 µg/kg IV and 5 mg Rifampicin",
+            "Kharasch 2011 15 µg/kg IV and 10 mg Rifampicin",
+            "Kharasch 2011 15 µg/kg IV and 25 mg Rifampicin",
+            "Kharasch 2011 15 µg/kg IV and 75 mg Rifampicin",
+            "Kharasch 2011 75 µg/kg PO and 5 mg Rifampicin",
+            "Kharasch 2011 75 µg/kg PO - control",
+            "Kharasch 2011 75 µg/kg PO and 10 mg Rifampicin",
+            "Kharasch 2011 75 µg/kg PO and 25 mg Rifampicin",
+            "Kharasch 2011 75 µg/kg PO and 75 mg Rifampicin",
+            "Kharasch 2011b IV 1mg - control",
+            "Kharasch 2011b PO 4mg - control",
+            "Kharasch 2011b 1 mg IV seq and 600 mg Rifampicin",
+            "Kharasch 2011b 1 mg IV simultaneous and 600 mg Rifampicin",
+            "Kharasch 2011b 4 mg PO seq and 600 mg Rifampicin",
+            "Kharasch 2011b 4 mg PO simultaneous and 600 mg Rifampicin",
+            "Phimmasone 2001 15 µg/kg IV - control",
+            "Phimmasone 2001 0.015 µg/kg IV and 600 mg Rifampicin"
           ]
         },
         {
@@ -1967,21 +1890,30 @@
           "Simulation": "po 3 mg (solution)",
           "Path": "Neighborhoods|UpperIleum_int_UpperIleum_cell|Midazolam|P (interstitial->intracellular)",
           "TargetSimulations": [
-            "Control_Carls2014",
-            "Control_Okudaira2007_EM0",
-            "Control_Olkkola1993_IV",
-            "Control_Olkkola1993_Oral",
-            "Control_Swart2002",
-            "Control_Zimmermann1996",
-            "Treatment_Carls2014_1000mg",
-            "Treatment_Carls2014_250mg",
-            "Treatment_Okudaira2007_EM2",
-            "Treatment_Okudaira2007_EM4",
-            "Treatment_Okudaira2007_EM7",
-            "Treatment_Olkkola1993_IV",
-            "Treatment_Olkkola1993_Oral",
-            "Treatment_Swart2002",
-            "Treatment_Zimmermann1996"
+            "Kharasch 1997 20 µg/kg IV - control",
+            "Kharasch 1997 20 µg/kg IV and Rifampicin",
+            "Kharasch 2004 15 µg/kg IV - control",
+            "Kharasch 2004 15 µg/kg IV and Rifampicin",
+            "Kharasch 2004 60 µg/kg PO - control",
+            "Kharasch 2004 60 µg/kg PO and Rifampicin",
+            "Kharasch 2011 15 µg/kg IV - control",
+            "Kharasch 2011 15 µg/kg IV and 5 mg Rifampicin",
+            "Kharasch 2011 15 µg/kg IV and 10 mg Rifampicin",
+            "Kharasch 2011 15 µg/kg IV and 25 mg Rifampicin",
+            "Kharasch 2011 15 µg/kg IV and 75 mg Rifampicin",
+            "Kharasch 2011 75 µg/kg PO and 5 mg Rifampicin",
+            "Kharasch 2011 75 µg/kg PO - control",
+            "Kharasch 2011 75 µg/kg PO and 10 mg Rifampicin",
+            "Kharasch 2011 75 µg/kg PO and 25 mg Rifampicin",
+            "Kharasch 2011 75 µg/kg PO and 75 mg Rifampicin",
+            "Kharasch 2011b IV 1mg - control",
+            "Kharasch 2011b PO 4mg - control",
+            "Kharasch 2011b 1 mg IV seq and 600 mg Rifampicin",
+            "Kharasch 2011b 1 mg IV simultaneous and 600 mg Rifampicin",
+            "Kharasch 2011b 4 mg PO seq and 600 mg Rifampicin",
+            "Kharasch 2011b 4 mg PO simultaneous and 600 mg Rifampicin",
+            "Phimmasone 2001 15 µg/kg IV - control",
+            "Phimmasone 2001 0.015 µg/kg IV and 600 mg Rifampicin"
           ]
         },
         {
@@ -1989,21 +1921,30 @@
           "Simulation": "po 3 mg (solution)",
           "Path": "Neighborhoods|LowerIleum_int_LowerIleum_cell|Midazolam|P (interstitial->intracellular)",
           "TargetSimulations": [
-            "Control_Carls2014",
-            "Control_Okudaira2007_EM0",
-            "Control_Olkkola1993_IV",
-            "Control_Olkkola1993_Oral",
-            "Control_Swart2002",
-            "Control_Zimmermann1996",
-            "Treatment_Carls2014_1000mg",
-            "Treatment_Carls2014_250mg",
-            "Treatment_Okudaira2007_EM2",
-            "Treatment_Okudaira2007_EM4",
-            "Treatment_Okudaira2007_EM7",
-            "Treatment_Olkkola1993_IV",
-            "Treatment_Olkkola1993_Oral",
-            "Treatment_Swart2002",
-            "Treatment_Zimmermann1996"
+            "Kharasch 1997 20 µg/kg IV - control",
+            "Kharasch 1997 20 µg/kg IV and Rifampicin",
+            "Kharasch 2004 15 µg/kg IV - control",
+            "Kharasch 2004 15 µg/kg IV and Rifampicin",
+            "Kharasch 2004 60 µg/kg PO - control",
+            "Kharasch 2004 60 µg/kg PO and Rifampicin",
+            "Kharasch 2011 15 µg/kg IV - control",
+            "Kharasch 2011 15 µg/kg IV and 5 mg Rifampicin",
+            "Kharasch 2011 15 µg/kg IV and 10 mg Rifampicin",
+            "Kharasch 2011 15 µg/kg IV and 25 mg Rifampicin",
+            "Kharasch 2011 15 µg/kg IV and 75 mg Rifampicin",
+            "Kharasch 2011 75 µg/kg PO and 5 mg Rifampicin",
+            "Kharasch 2011 75 µg/kg PO - control",
+            "Kharasch 2011 75 µg/kg PO and 10 mg Rifampicin",
+            "Kharasch 2011 75 µg/kg PO and 25 mg Rifampicin",
+            "Kharasch 2011 75 µg/kg PO and 75 mg Rifampicin",
+            "Kharasch 2011b IV 1mg - control",
+            "Kharasch 2011b PO 4mg - control",
+            "Kharasch 2011b 1 mg IV seq and 600 mg Rifampicin",
+            "Kharasch 2011b 1 mg IV simultaneous and 600 mg Rifampicin",
+            "Kharasch 2011b 4 mg PO seq and 600 mg Rifampicin",
+            "Kharasch 2011b 4 mg PO simultaneous and 600 mg Rifampicin",
+            "Phimmasone 2001 15 µg/kg IV - control",
+            "Phimmasone 2001 0.015 µg/kg IV and 600 mg Rifampicin"
           ]
         },
         {
@@ -2011,21 +1952,30 @@
           "Simulation": "po 3 mg (solution)",
           "Path": "Neighborhoods|Caecum_int_Caecum_cell|Midazolam|P (interstitial->intracellular)",
           "TargetSimulations": [
-            "Control_Carls2014",
-            "Control_Okudaira2007_EM0",
-            "Control_Olkkola1993_IV",
-            "Control_Olkkola1993_Oral",
-            "Control_Swart2002",
-            "Control_Zimmermann1996",
-            "Treatment_Carls2014_1000mg",
-            "Treatment_Carls2014_250mg",
-            "Treatment_Okudaira2007_EM2",
-            "Treatment_Okudaira2007_EM4",
-            "Treatment_Okudaira2007_EM7",
-            "Treatment_Olkkola1993_IV",
-            "Treatment_Olkkola1993_Oral",
-            "Treatment_Swart2002",
-            "Treatment_Zimmermann1996"
+            "Kharasch 1997 20 µg/kg IV - control",
+            "Kharasch 1997 20 µg/kg IV and Rifampicin",
+            "Kharasch 2004 15 µg/kg IV - control",
+            "Kharasch 2004 15 µg/kg IV and Rifampicin",
+            "Kharasch 2004 60 µg/kg PO - control",
+            "Kharasch 2004 60 µg/kg PO and Rifampicin",
+            "Kharasch 2011 15 µg/kg IV - control",
+            "Kharasch 2011 15 µg/kg IV and 5 mg Rifampicin",
+            "Kharasch 2011 15 µg/kg IV and 10 mg Rifampicin",
+            "Kharasch 2011 15 µg/kg IV and 25 mg Rifampicin",
+            "Kharasch 2011 15 µg/kg IV and 75 mg Rifampicin",
+            "Kharasch 2011 75 µg/kg PO and 5 mg Rifampicin",
+            "Kharasch 2011 75 µg/kg PO - control",
+            "Kharasch 2011 75 µg/kg PO and 10 mg Rifampicin",
+            "Kharasch 2011 75 µg/kg PO and 25 mg Rifampicin",
+            "Kharasch 2011 75 µg/kg PO and 75 mg Rifampicin",
+            "Kharasch 2011b IV 1mg - control",
+            "Kharasch 2011b PO 4mg - control",
+            "Kharasch 2011b 1 mg IV seq and 600 mg Rifampicin",
+            "Kharasch 2011b 1 mg IV simultaneous and 600 mg Rifampicin",
+            "Kharasch 2011b 4 mg PO seq and 600 mg Rifampicin",
+            "Kharasch 2011b 4 mg PO simultaneous and 600 mg Rifampicin",
+            "Phimmasone 2001 15 µg/kg IV - control",
+            "Phimmasone 2001 0.015 µg/kg IV and 600 mg Rifampicin"
           ]
         },
         {
@@ -2033,21 +1983,30 @@
           "Simulation": "po 3 mg (solution)",
           "Path": "Neighborhoods|ColonAscendens_int_ColonAscendens_cell|Midazolam|P (interstitial->intracellular)",
           "TargetSimulations": [
-            "Control_Carls2014",
-            "Control_Okudaira2007_EM0",
-            "Control_Olkkola1993_IV",
-            "Control_Olkkola1993_Oral",
-            "Control_Swart2002",
-            "Control_Zimmermann1996",
-            "Treatment_Carls2014_1000mg",
-            "Treatment_Carls2014_250mg",
-            "Treatment_Okudaira2007_EM2",
-            "Treatment_Okudaira2007_EM4",
-            "Treatment_Okudaira2007_EM7",
-            "Treatment_Olkkola1993_IV",
-            "Treatment_Olkkola1993_Oral",
-            "Treatment_Swart2002",
-            "Treatment_Zimmermann1996"
+            "Kharasch 1997 20 µg/kg IV - control",
+            "Kharasch 1997 20 µg/kg IV and Rifampicin",
+            "Kharasch 2004 15 µg/kg IV - control",
+            "Kharasch 2004 15 µg/kg IV and Rifampicin",
+            "Kharasch 2004 60 µg/kg PO - control",
+            "Kharasch 2004 60 µg/kg PO and Rifampicin",
+            "Kharasch 2011 15 µg/kg IV - control",
+            "Kharasch 2011 15 µg/kg IV and 5 mg Rifampicin",
+            "Kharasch 2011 15 µg/kg IV and 10 mg Rifampicin",
+            "Kharasch 2011 15 µg/kg IV and 25 mg Rifampicin",
+            "Kharasch 2011 15 µg/kg IV and 75 mg Rifampicin",
+            "Kharasch 2011 75 µg/kg PO and 5 mg Rifampicin",
+            "Kharasch 2011 75 µg/kg PO - control",
+            "Kharasch 2011 75 µg/kg PO and 10 mg Rifampicin",
+            "Kharasch 2011 75 µg/kg PO and 25 mg Rifampicin",
+            "Kharasch 2011 75 µg/kg PO and 75 mg Rifampicin",
+            "Kharasch 2011b IV 1mg - control",
+            "Kharasch 2011b PO 4mg - control",
+            "Kharasch 2011b 1 mg IV seq and 600 mg Rifampicin",
+            "Kharasch 2011b 1 mg IV simultaneous and 600 mg Rifampicin",
+            "Kharasch 2011b 4 mg PO seq and 600 mg Rifampicin",
+            "Kharasch 2011b 4 mg PO simultaneous and 600 mg Rifampicin",
+            "Phimmasone 2001 15 µg/kg IV - control",
+            "Phimmasone 2001 0.015 µg/kg IV and 600 mg Rifampicin"
           ]
         },
         {
@@ -2055,21 +2014,30 @@
           "Simulation": "po 3 mg (solution)",
           "Path": "Neighborhoods|ColonTransversum_int_ColonTransversum_cell|Midazolam|P (interstitial->intracellular)",
           "TargetSimulations": [
-            "Control_Carls2014",
-            "Control_Okudaira2007_EM0",
-            "Control_Olkkola1993_IV",
-            "Control_Olkkola1993_Oral",
-            "Control_Swart2002",
-            "Control_Zimmermann1996",
-            "Treatment_Carls2014_1000mg",
-            "Treatment_Carls2014_250mg",
-            "Treatment_Okudaira2007_EM2",
-            "Treatment_Okudaira2007_EM4",
-            "Treatment_Okudaira2007_EM7",
-            "Treatment_Olkkola1993_IV",
-            "Treatment_Olkkola1993_Oral",
-            "Treatment_Swart2002",
-            "Treatment_Zimmermann1996"
+            "Kharasch 1997 20 µg/kg IV - control",
+            "Kharasch 1997 20 µg/kg IV and Rifampicin",
+            "Kharasch 2004 15 µg/kg IV - control",
+            "Kharasch 2004 15 µg/kg IV and Rifampicin",
+            "Kharasch 2004 60 µg/kg PO - control",
+            "Kharasch 2004 60 µg/kg PO and Rifampicin",
+            "Kharasch 2011 15 µg/kg IV - control",
+            "Kharasch 2011 15 µg/kg IV and 5 mg Rifampicin",
+            "Kharasch 2011 15 µg/kg IV and 10 mg Rifampicin",
+            "Kharasch 2011 15 µg/kg IV and 25 mg Rifampicin",
+            "Kharasch 2011 15 µg/kg IV and 75 mg Rifampicin",
+            "Kharasch 2011 75 µg/kg PO and 5 mg Rifampicin",
+            "Kharasch 2011 75 µg/kg PO - control",
+            "Kharasch 2011 75 µg/kg PO and 10 mg Rifampicin",
+            "Kharasch 2011 75 µg/kg PO and 25 mg Rifampicin",
+            "Kharasch 2011 75 µg/kg PO and 75 mg Rifampicin",
+            "Kharasch 2011b IV 1mg - control",
+            "Kharasch 2011b PO 4mg - control",
+            "Kharasch 2011b 1 mg IV seq and 600 mg Rifampicin",
+            "Kharasch 2011b 1 mg IV simultaneous and 600 mg Rifampicin",
+            "Kharasch 2011b 4 mg PO seq and 600 mg Rifampicin",
+            "Kharasch 2011b 4 mg PO simultaneous and 600 mg Rifampicin",
+            "Phimmasone 2001 15 µg/kg IV - control",
+            "Phimmasone 2001 0.015 µg/kg IV and 600 mg Rifampicin"
           ]
         },
         {
@@ -2077,21 +2045,30 @@
           "Simulation": "po 3 mg (solution)",
           "Path": "Neighborhoods|ColonDescendens_int_ColonDescendens_cell|Midazolam|P (interstitial->intracellular)",
           "TargetSimulations": [
-            "Control_Carls2014",
-            "Control_Okudaira2007_EM0",
-            "Control_Olkkola1993_IV",
-            "Control_Olkkola1993_Oral",
-            "Control_Swart2002",
-            "Control_Zimmermann1996",
-            "Treatment_Carls2014_1000mg",
-            "Treatment_Carls2014_250mg",
-            "Treatment_Okudaira2007_EM2",
-            "Treatment_Okudaira2007_EM4",
-            "Treatment_Okudaira2007_EM7",
-            "Treatment_Olkkola1993_IV",
-            "Treatment_Olkkola1993_Oral",
-            "Treatment_Swart2002",
-            "Treatment_Zimmermann1996"
+            "Kharasch 1997 20 µg/kg IV - control",
+            "Kharasch 1997 20 µg/kg IV and Rifampicin",
+            "Kharasch 2004 15 µg/kg IV - control",
+            "Kharasch 2004 15 µg/kg IV and Rifampicin",
+            "Kharasch 2004 60 µg/kg PO - control",
+            "Kharasch 2004 60 µg/kg PO and Rifampicin",
+            "Kharasch 2011 15 µg/kg IV - control",
+            "Kharasch 2011 15 µg/kg IV and 5 mg Rifampicin",
+            "Kharasch 2011 15 µg/kg IV and 10 mg Rifampicin",
+            "Kharasch 2011 15 µg/kg IV and 25 mg Rifampicin",
+            "Kharasch 2011 15 µg/kg IV and 75 mg Rifampicin",
+            "Kharasch 2011 75 µg/kg PO and 5 mg Rifampicin",
+            "Kharasch 2011 75 µg/kg PO - control",
+            "Kharasch 2011 75 µg/kg PO and 10 mg Rifampicin",
+            "Kharasch 2011 75 µg/kg PO and 25 mg Rifampicin",
+            "Kharasch 2011 75 µg/kg PO and 75 mg Rifampicin",
+            "Kharasch 2011b IV 1mg - control",
+            "Kharasch 2011b PO 4mg - control",
+            "Kharasch 2011b 1 mg IV seq and 600 mg Rifampicin",
+            "Kharasch 2011b 1 mg IV simultaneous and 600 mg Rifampicin",
+            "Kharasch 2011b 4 mg PO seq and 600 mg Rifampicin",
+            "Kharasch 2011b 4 mg PO simultaneous and 600 mg Rifampicin",
+            "Phimmasone 2001 15 µg/kg IV - control",
+            "Phimmasone 2001 0.015 µg/kg IV and 600 mg Rifampicin"
           ]
         },
         {
@@ -2099,21 +2076,30 @@
           "Simulation": "po 3 mg (solution)",
           "Path": "Neighborhoods|ColonSigmoid_int_ColonSigmoid_cell|Midazolam|P (interstitial->intracellular)",
           "TargetSimulations": [
-            "Control_Carls2014",
-            "Control_Okudaira2007_EM0",
-            "Control_Olkkola1993_IV",
-            "Control_Olkkola1993_Oral",
-            "Control_Swart2002",
-            "Control_Zimmermann1996",
-            "Treatment_Carls2014_1000mg",
-            "Treatment_Carls2014_250mg",
-            "Treatment_Okudaira2007_EM2",
-            "Treatment_Okudaira2007_EM4",
-            "Treatment_Okudaira2007_EM7",
-            "Treatment_Olkkola1993_IV",
-            "Treatment_Olkkola1993_Oral",
-            "Treatment_Swart2002",
-            "Treatment_Zimmermann1996"
+            "Kharasch 1997 20 µg/kg IV - control",
+            "Kharasch 1997 20 µg/kg IV and Rifampicin",
+            "Kharasch 2004 15 µg/kg IV - control",
+            "Kharasch 2004 15 µg/kg IV and Rifampicin",
+            "Kharasch 2004 60 µg/kg PO - control",
+            "Kharasch 2004 60 µg/kg PO and Rifampicin",
+            "Kharasch 2011 15 µg/kg IV - control",
+            "Kharasch 2011 15 µg/kg IV and 5 mg Rifampicin",
+            "Kharasch 2011 15 µg/kg IV and 10 mg Rifampicin",
+            "Kharasch 2011 15 µg/kg IV and 25 mg Rifampicin",
+            "Kharasch 2011 15 µg/kg IV and 75 mg Rifampicin",
+            "Kharasch 2011 75 µg/kg PO and 5 mg Rifampicin",
+            "Kharasch 2011 75 µg/kg PO - control",
+            "Kharasch 2011 75 µg/kg PO and 10 mg Rifampicin",
+            "Kharasch 2011 75 µg/kg PO and 25 mg Rifampicin",
+            "Kharasch 2011 75 µg/kg PO and 75 mg Rifampicin",
+            "Kharasch 2011b IV 1mg - control",
+            "Kharasch 2011b PO 4mg - control",
+            "Kharasch 2011b 1 mg IV seq and 600 mg Rifampicin",
+            "Kharasch 2011b 1 mg IV simultaneous and 600 mg Rifampicin",
+            "Kharasch 2011b 4 mg PO seq and 600 mg Rifampicin",
+            "Kharasch 2011b 4 mg PO simultaneous and 600 mg Rifampicin",
+            "Phimmasone 2001 15 µg/kg IV - control",
+            "Phimmasone 2001 0.015 µg/kg IV and 600 mg Rifampicin"
           ]
         },
         {
@@ -2121,21 +2107,30 @@
           "Simulation": "po 3 mg (solution)",
           "Path": "Neighborhoods|Rectum_int_Rectum_cell|Midazolam|P (interstitial->intracellular)",
           "TargetSimulations": [
-            "Control_Carls2014",
-            "Control_Okudaira2007_EM0",
-            "Control_Olkkola1993_IV",
-            "Control_Olkkola1993_Oral",
-            "Control_Swart2002",
-            "Control_Zimmermann1996",
-            "Treatment_Carls2014_1000mg",
-            "Treatment_Carls2014_250mg",
-            "Treatment_Okudaira2007_EM2",
-            "Treatment_Okudaira2007_EM4",
-            "Treatment_Okudaira2007_EM7",
-            "Treatment_Olkkola1993_IV",
-            "Treatment_Olkkola1993_Oral",
-            "Treatment_Swart2002",
-            "Treatment_Zimmermann1996"
+            "Kharasch 1997 20 µg/kg IV - control",
+            "Kharasch 1997 20 µg/kg IV and Rifampicin",
+            "Kharasch 2004 15 µg/kg IV - control",
+            "Kharasch 2004 15 µg/kg IV and Rifampicin",
+            "Kharasch 2004 60 µg/kg PO - control",
+            "Kharasch 2004 60 µg/kg PO and Rifampicin",
+            "Kharasch 2011 15 µg/kg IV - control",
+            "Kharasch 2011 15 µg/kg IV and 5 mg Rifampicin",
+            "Kharasch 2011 15 µg/kg IV and 10 mg Rifampicin",
+            "Kharasch 2011 15 µg/kg IV and 25 mg Rifampicin",
+            "Kharasch 2011 15 µg/kg IV and 75 mg Rifampicin",
+            "Kharasch 2011 75 µg/kg PO and 5 mg Rifampicin",
+            "Kharasch 2011 75 µg/kg PO - control",
+            "Kharasch 2011 75 µg/kg PO and 10 mg Rifampicin",
+            "Kharasch 2011 75 µg/kg PO and 25 mg Rifampicin",
+            "Kharasch 2011 75 µg/kg PO and 75 mg Rifampicin",
+            "Kharasch 2011b IV 1mg - control",
+            "Kharasch 2011b PO 4mg - control",
+            "Kharasch 2011b 1 mg IV seq and 600 mg Rifampicin",
+            "Kharasch 2011b 1 mg IV simultaneous and 600 mg Rifampicin",
+            "Kharasch 2011b 4 mg PO seq and 600 mg Rifampicin",
+            "Kharasch 2011b 4 mg PO simultaneous and 600 mg Rifampicin",
+            "Phimmasone 2001 15 µg/kg IV - control",
+            "Phimmasone 2001 0.015 µg/kg IV and 600 mg Rifampicin"
           ]
         },
         {
@@ -2143,21 +2138,30 @@
           "Simulation": "po 3 mg (solution)",
           "Path": "Neighborhoods|Duodenum_int_Duodenum_cell|Midazolam|P (intracellular->interstitial)",
           "TargetSimulations": [
-            "Control_Carls2014",
-            "Control_Okudaira2007_EM0",
-            "Control_Olkkola1993_IV",
-            "Control_Olkkola1993_Oral",
-            "Control_Swart2002",
-            "Control_Zimmermann1996",
-            "Treatment_Carls2014_1000mg",
-            "Treatment_Carls2014_250mg",
-            "Treatment_Okudaira2007_EM2",
-            "Treatment_Okudaira2007_EM4",
-            "Treatment_Okudaira2007_EM7",
-            "Treatment_Olkkola1993_IV",
-            "Treatment_Olkkola1993_Oral",
-            "Treatment_Swart2002",
-            "Treatment_Zimmermann1996"
+            "Kharasch 1997 20 µg/kg IV - control",
+            "Kharasch 1997 20 µg/kg IV and Rifampicin",
+            "Kharasch 2004 15 µg/kg IV - control",
+            "Kharasch 2004 15 µg/kg IV and Rifampicin",
+            "Kharasch 2004 60 µg/kg PO - control",
+            "Kharasch 2004 60 µg/kg PO and Rifampicin",
+            "Kharasch 2011 15 µg/kg IV - control",
+            "Kharasch 2011 15 µg/kg IV and 5 mg Rifampicin",
+            "Kharasch 2011 15 µg/kg IV and 10 mg Rifampicin",
+            "Kharasch 2011 15 µg/kg IV and 25 mg Rifampicin",
+            "Kharasch 2011 15 µg/kg IV and 75 mg Rifampicin",
+            "Kharasch 2011 75 µg/kg PO and 5 mg Rifampicin",
+            "Kharasch 2011 75 µg/kg PO - control",
+            "Kharasch 2011 75 µg/kg PO and 10 mg Rifampicin",
+            "Kharasch 2011 75 µg/kg PO and 25 mg Rifampicin",
+            "Kharasch 2011 75 µg/kg PO and 75 mg Rifampicin",
+            "Kharasch 2011b IV 1mg - control",
+            "Kharasch 2011b PO 4mg - control",
+            "Kharasch 2011b 1 mg IV seq and 600 mg Rifampicin",
+            "Kharasch 2011b 1 mg IV simultaneous and 600 mg Rifampicin",
+            "Kharasch 2011b 4 mg PO seq and 600 mg Rifampicin",
+            "Kharasch 2011b 4 mg PO simultaneous and 600 mg Rifampicin",
+            "Phimmasone 2001 15 µg/kg IV - control",
+            "Phimmasone 2001 0.015 µg/kg IV and 600 mg Rifampicin"
           ]
         },
         {
@@ -2165,21 +2169,30 @@
           "Simulation": "po 3 mg (solution)",
           "Path": "Neighborhoods|UpperJejunum_int_UpperJejunum_cell|Midazolam|P (intracellular->interstitial)",
           "TargetSimulations": [
-            "Control_Carls2014",
-            "Control_Okudaira2007_EM0",
-            "Control_Olkkola1993_IV",
-            "Control_Olkkola1993_Oral",
-            "Control_Swart2002",
-            "Control_Zimmermann1996",
-            "Treatment_Carls2014_1000mg",
-            "Treatment_Carls2014_250mg",
-            "Treatment_Okudaira2007_EM2",
-            "Treatment_Okudaira2007_EM4",
-            "Treatment_Okudaira2007_EM7",
-            "Treatment_Olkkola1993_IV",
-            "Treatment_Olkkola1993_Oral",
-            "Treatment_Swart2002",
-            "Treatment_Zimmermann1996"
+            "Kharasch 1997 20 µg/kg IV - control",
+            "Kharasch 1997 20 µg/kg IV and Rifampicin",
+            "Kharasch 2004 15 µg/kg IV - control",
+            "Kharasch 2004 15 µg/kg IV and Rifampicin",
+            "Kharasch 2004 60 µg/kg PO - control",
+            "Kharasch 2004 60 µg/kg PO and Rifampicin",
+            "Kharasch 2011 15 µg/kg IV - control",
+            "Kharasch 2011 15 µg/kg IV and 5 mg Rifampicin",
+            "Kharasch 2011 15 µg/kg IV and 10 mg Rifampicin",
+            "Kharasch 2011 15 µg/kg IV and 25 mg Rifampicin",
+            "Kharasch 2011 15 µg/kg IV and 75 mg Rifampicin",
+            "Kharasch 2011 75 µg/kg PO and 5 mg Rifampicin",
+            "Kharasch 2011 75 µg/kg PO - control",
+            "Kharasch 2011 75 µg/kg PO and 10 mg Rifampicin",
+            "Kharasch 2011 75 µg/kg PO and 25 mg Rifampicin",
+            "Kharasch 2011 75 µg/kg PO and 75 mg Rifampicin",
+            "Kharasch 2011b IV 1mg - control",
+            "Kharasch 2011b PO 4mg - control",
+            "Kharasch 2011b 1 mg IV seq and 600 mg Rifampicin",
+            "Kharasch 2011b 1 mg IV simultaneous and 600 mg Rifampicin",
+            "Kharasch 2011b 4 mg PO seq and 600 mg Rifampicin",
+            "Kharasch 2011b 4 mg PO simultaneous and 600 mg Rifampicin",
+            "Phimmasone 2001 15 µg/kg IV - control",
+            "Phimmasone 2001 0.015 µg/kg IV and 600 mg Rifampicin"
           ]
         },
         {
@@ -2187,21 +2200,30 @@
           "Simulation": "po 3 mg (solution)",
           "Path": "Neighborhoods|LowerJejunum_int_LowerJejunum_cell|Midazolam|P (intracellular->interstitial)",
           "TargetSimulations": [
-            "Control_Carls2014",
-            "Control_Okudaira2007_EM0",
-            "Control_Olkkola1993_IV",
-            "Control_Olkkola1993_Oral",
-            "Control_Swart2002",
-            "Control_Zimmermann1996",
-            "Treatment_Carls2014_1000mg",
-            "Treatment_Carls2014_250mg",
-            "Treatment_Okudaira2007_EM2",
-            "Treatment_Okudaira2007_EM4",
-            "Treatment_Okudaira2007_EM7",
-            "Treatment_Olkkola1993_IV",
-            "Treatment_Olkkola1993_Oral",
-            "Treatment_Swart2002",
-            "Treatment_Zimmermann1996"
+            "Kharasch 1997 20 µg/kg IV - control",
+            "Kharasch 1997 20 µg/kg IV and Rifampicin",
+            "Kharasch 2004 15 µg/kg IV - control",
+            "Kharasch 2004 15 µg/kg IV and Rifampicin",
+            "Kharasch 2004 60 µg/kg PO - control",
+            "Kharasch 2004 60 µg/kg PO and Rifampicin",
+            "Kharasch 2011 15 µg/kg IV - control",
+            "Kharasch 2011 15 µg/kg IV and 5 mg Rifampicin",
+            "Kharasch 2011 15 µg/kg IV and 10 mg Rifampicin",
+            "Kharasch 2011 15 µg/kg IV and 25 mg Rifampicin",
+            "Kharasch 2011 15 µg/kg IV and 75 mg Rifampicin",
+            "Kharasch 2011 75 µg/kg PO and 5 mg Rifampicin",
+            "Kharasch 2011 75 µg/kg PO - control",
+            "Kharasch 2011 75 µg/kg PO and 10 mg Rifampicin",
+            "Kharasch 2011 75 µg/kg PO and 25 mg Rifampicin",
+            "Kharasch 2011 75 µg/kg PO and 75 mg Rifampicin",
+            "Kharasch 2011b IV 1mg - control",
+            "Kharasch 2011b PO 4mg - control",
+            "Kharasch 2011b 1 mg IV seq and 600 mg Rifampicin",
+            "Kharasch 2011b 1 mg IV simultaneous and 600 mg Rifampicin",
+            "Kharasch 2011b 4 mg PO seq and 600 mg Rifampicin",
+            "Kharasch 2011b 4 mg PO simultaneous and 600 mg Rifampicin",
+            "Phimmasone 2001 15 µg/kg IV - control",
+            "Phimmasone 2001 0.015 µg/kg IV and 600 mg Rifampicin"
           ]
         },
         {
@@ -2209,21 +2231,30 @@
           "Simulation": "po 3 mg (solution)",
           "Path": "Neighborhoods|UpperIleum_int_UpperIleum_cell|Midazolam|P (intracellular->interstitial)",
           "TargetSimulations": [
-            "Control_Carls2014",
-            "Control_Okudaira2007_EM0",
-            "Control_Olkkola1993_IV",
-            "Control_Olkkola1993_Oral",
-            "Control_Swart2002",
-            "Control_Zimmermann1996",
-            "Treatment_Carls2014_1000mg",
-            "Treatment_Carls2014_250mg",
-            "Treatment_Okudaira2007_EM2",
-            "Treatment_Okudaira2007_EM4",
-            "Treatment_Okudaira2007_EM7",
-            "Treatment_Olkkola1993_IV",
-            "Treatment_Olkkola1993_Oral",
-            "Treatment_Swart2002",
-            "Treatment_Zimmermann1996"
+            "Kharasch 1997 20 µg/kg IV - control",
+            "Kharasch 1997 20 µg/kg IV and Rifampicin",
+            "Kharasch 2004 15 µg/kg IV - control",
+            "Kharasch 2004 15 µg/kg IV and Rifampicin",
+            "Kharasch 2004 60 µg/kg PO - control",
+            "Kharasch 2004 60 µg/kg PO and Rifampicin",
+            "Kharasch 2011 15 µg/kg IV - control",
+            "Kharasch 2011 15 µg/kg IV and 5 mg Rifampicin",
+            "Kharasch 2011 15 µg/kg IV and 10 mg Rifampicin",
+            "Kharasch 2011 15 µg/kg IV and 25 mg Rifampicin",
+            "Kharasch 2011 15 µg/kg IV and 75 mg Rifampicin",
+            "Kharasch 2011 75 µg/kg PO and 5 mg Rifampicin",
+            "Kharasch 2011 75 µg/kg PO - control",
+            "Kharasch 2011 75 µg/kg PO and 10 mg Rifampicin",
+            "Kharasch 2011 75 µg/kg PO and 25 mg Rifampicin",
+            "Kharasch 2011 75 µg/kg PO and 75 mg Rifampicin",
+            "Kharasch 2011b IV 1mg - control",
+            "Kharasch 2011b PO 4mg - control",
+            "Kharasch 2011b 1 mg IV seq and 600 mg Rifampicin",
+            "Kharasch 2011b 1 mg IV simultaneous and 600 mg Rifampicin",
+            "Kharasch 2011b 4 mg PO seq and 600 mg Rifampicin",
+            "Kharasch 2011b 4 mg PO simultaneous and 600 mg Rifampicin",
+            "Phimmasone 2001 15 µg/kg IV - control",
+            "Phimmasone 2001 0.015 µg/kg IV and 600 mg Rifampicin"
           ]
         },
         {
@@ -2231,21 +2262,30 @@
           "Simulation": "po 3 mg (solution)",
           "Path": "Neighborhoods|LowerIleum_int_LowerIleum_cell|Midazolam|P (intracellular->interstitial)",
           "TargetSimulations": [
-            "Control_Carls2014",
-            "Control_Okudaira2007_EM0",
-            "Control_Olkkola1993_IV",
-            "Control_Olkkola1993_Oral",
-            "Control_Swart2002",
-            "Control_Zimmermann1996",
-            "Treatment_Carls2014_1000mg",
-            "Treatment_Carls2014_250mg",
-            "Treatment_Okudaira2007_EM2",
-            "Treatment_Okudaira2007_EM4",
-            "Treatment_Okudaira2007_EM7",
-            "Treatment_Olkkola1993_IV",
-            "Treatment_Olkkola1993_Oral",
-            "Treatment_Swart2002",
-            "Treatment_Zimmermann1996"
+            "Kharasch 1997 20 µg/kg IV - control",
+            "Kharasch 1997 20 µg/kg IV and Rifampicin",
+            "Kharasch 2004 15 µg/kg IV - control",
+            "Kharasch 2004 15 µg/kg IV and Rifampicin",
+            "Kharasch 2004 60 µg/kg PO - control",
+            "Kharasch 2004 60 µg/kg PO and Rifampicin",
+            "Kharasch 2011 15 µg/kg IV - control",
+            "Kharasch 2011 15 µg/kg IV and 5 mg Rifampicin",
+            "Kharasch 2011 15 µg/kg IV and 10 mg Rifampicin",
+            "Kharasch 2011 15 µg/kg IV and 25 mg Rifampicin",
+            "Kharasch 2011 15 µg/kg IV and 75 mg Rifampicin",
+            "Kharasch 2011 75 µg/kg PO and 5 mg Rifampicin",
+            "Kharasch 2011 75 µg/kg PO - control",
+            "Kharasch 2011 75 µg/kg PO and 10 mg Rifampicin",
+            "Kharasch 2011 75 µg/kg PO and 25 mg Rifampicin",
+            "Kharasch 2011 75 µg/kg PO and 75 mg Rifampicin",
+            "Kharasch 2011b IV 1mg - control",
+            "Kharasch 2011b PO 4mg - control",
+            "Kharasch 2011b 1 mg IV seq and 600 mg Rifampicin",
+            "Kharasch 2011b 1 mg IV simultaneous and 600 mg Rifampicin",
+            "Kharasch 2011b 4 mg PO seq and 600 mg Rifampicin",
+            "Kharasch 2011b 4 mg PO simultaneous and 600 mg Rifampicin",
+            "Phimmasone 2001 15 µg/kg IV - control",
+            "Phimmasone 2001 0.015 µg/kg IV and 600 mg Rifampicin"
           ]
         },
         {
@@ -2253,21 +2293,30 @@
           "Simulation": "po 3 mg (solution)",
           "Path": "Neighborhoods|Caecum_int_Caecum_cell|Midazolam|P (intracellular->interstitial)",
           "TargetSimulations": [
-            "Control_Carls2014",
-            "Control_Okudaira2007_EM0",
-            "Control_Olkkola1993_IV",
-            "Control_Olkkola1993_Oral",
-            "Control_Swart2002",
-            "Control_Zimmermann1996",
-            "Treatment_Carls2014_1000mg",
-            "Treatment_Carls2014_250mg",
-            "Treatment_Okudaira2007_EM2",
-            "Treatment_Okudaira2007_EM4",
-            "Treatment_Okudaira2007_EM7",
-            "Treatment_Olkkola1993_IV",
-            "Treatment_Olkkola1993_Oral",
-            "Treatment_Swart2002",
-            "Treatment_Zimmermann1996"
+            "Kharasch 1997 20 µg/kg IV - control",
+            "Kharasch 1997 20 µg/kg IV and Rifampicin",
+            "Kharasch 2004 15 µg/kg IV - control",
+            "Kharasch 2004 15 µg/kg IV and Rifampicin",
+            "Kharasch 2004 60 µg/kg PO - control",
+            "Kharasch 2004 60 µg/kg PO and Rifampicin",
+            "Kharasch 2011 15 µg/kg IV - control",
+            "Kharasch 2011 15 µg/kg IV and 5 mg Rifampicin",
+            "Kharasch 2011 15 µg/kg IV and 10 mg Rifampicin",
+            "Kharasch 2011 15 µg/kg IV and 25 mg Rifampicin",
+            "Kharasch 2011 15 µg/kg IV and 75 mg Rifampicin",
+            "Kharasch 2011 75 µg/kg PO and 5 mg Rifampicin",
+            "Kharasch 2011 75 µg/kg PO - control",
+            "Kharasch 2011 75 µg/kg PO and 10 mg Rifampicin",
+            "Kharasch 2011 75 µg/kg PO and 25 mg Rifampicin",
+            "Kharasch 2011 75 µg/kg PO and 75 mg Rifampicin",
+            "Kharasch 2011b IV 1mg - control",
+            "Kharasch 2011b PO 4mg - control",
+            "Kharasch 2011b 1 mg IV seq and 600 mg Rifampicin",
+            "Kharasch 2011b 1 mg IV simultaneous and 600 mg Rifampicin",
+            "Kharasch 2011b 4 mg PO seq and 600 mg Rifampicin",
+            "Kharasch 2011b 4 mg PO simultaneous and 600 mg Rifampicin",
+            "Phimmasone 2001 15 µg/kg IV - control",
+            "Phimmasone 2001 0.015 µg/kg IV and 600 mg Rifampicin"
           ]
         },
         {
@@ -2275,21 +2324,30 @@
           "Simulation": "po 3 mg (solution)",
           "Path": "Neighborhoods|ColonAscendens_int_ColonAscendens_cell|Midazolam|P (intracellular->interstitial)",
           "TargetSimulations": [
-            "Control_Carls2014",
-            "Control_Okudaira2007_EM0",
-            "Control_Olkkola1993_IV",
-            "Control_Olkkola1993_Oral",
-            "Control_Swart2002",
-            "Control_Zimmermann1996",
-            "Treatment_Carls2014_1000mg",
-            "Treatment_Carls2014_250mg",
-            "Treatment_Okudaira2007_EM2",
-            "Treatment_Okudaira2007_EM4",
-            "Treatment_Okudaira2007_EM7",
-            "Treatment_Olkkola1993_IV",
-            "Treatment_Olkkola1993_Oral",
-            "Treatment_Swart2002",
-            "Treatment_Zimmermann1996"
+            "Kharasch 1997 20 µg/kg IV - control",
+            "Kharasch 1997 20 µg/kg IV and Rifampicin",
+            "Kharasch 2004 15 µg/kg IV - control",
+            "Kharasch 2004 15 µg/kg IV and Rifampicin",
+            "Kharasch 2004 60 µg/kg PO - control",
+            "Kharasch 2004 60 µg/kg PO and Rifampicin",
+            "Kharasch 2011 15 µg/kg IV - control",
+            "Kharasch 2011 15 µg/kg IV and 5 mg Rifampicin",
+            "Kharasch 2011 15 µg/kg IV and 10 mg Rifampicin",
+            "Kharasch 2011 15 µg/kg IV and 25 mg Rifampicin",
+            "Kharasch 2011 15 µg/kg IV and 75 mg Rifampicin",
+            "Kharasch 2011 75 µg/kg PO and 5 mg Rifampicin",
+            "Kharasch 2011 75 µg/kg PO - control",
+            "Kharasch 2011 75 µg/kg PO and 10 mg Rifampicin",
+            "Kharasch 2011 75 µg/kg PO and 25 mg Rifampicin",
+            "Kharasch 2011 75 µg/kg PO and 75 mg Rifampicin",
+            "Kharasch 2011b IV 1mg - control",
+            "Kharasch 2011b PO 4mg - control",
+            "Kharasch 2011b 1 mg IV seq and 600 mg Rifampicin",
+            "Kharasch 2011b 1 mg IV simultaneous and 600 mg Rifampicin",
+            "Kharasch 2011b 4 mg PO seq and 600 mg Rifampicin",
+            "Kharasch 2011b 4 mg PO simultaneous and 600 mg Rifampicin",
+            "Phimmasone 2001 15 µg/kg IV - control",
+            "Phimmasone 2001 0.015 µg/kg IV and 600 mg Rifampicin"
           ]
         },
         {
@@ -2297,21 +2355,30 @@
           "Simulation": "po 3 mg (solution)",
           "Path": "Neighborhoods|ColonTransversum_int_ColonTransversum_cell|Midazolam|P (intracellular->interstitial)",
           "TargetSimulations": [
-            "Control_Carls2014",
-            "Control_Okudaira2007_EM0",
-            "Control_Olkkola1993_IV",
-            "Control_Olkkola1993_Oral",
-            "Control_Swart2002",
-            "Control_Zimmermann1996",
-            "Treatment_Carls2014_1000mg",
-            "Treatment_Carls2014_250mg",
-            "Treatment_Okudaira2007_EM2",
-            "Treatment_Okudaira2007_EM4",
-            "Treatment_Okudaira2007_EM7",
-            "Treatment_Olkkola1993_IV",
-            "Treatment_Olkkola1993_Oral",
-            "Treatment_Swart2002",
-            "Treatment_Zimmermann1996"
+            "Kharasch 1997 20 µg/kg IV - control",
+            "Kharasch 1997 20 µg/kg IV and Rifampicin",
+            "Kharasch 2004 15 µg/kg IV - control",
+            "Kharasch 2004 15 µg/kg IV and Rifampicin",
+            "Kharasch 2004 60 µg/kg PO - control",
+            "Kharasch 2004 60 µg/kg PO and Rifampicin",
+            "Kharasch 2011 15 µg/kg IV - control",
+            "Kharasch 2011 15 µg/kg IV and 5 mg Rifampicin",
+            "Kharasch 2011 15 µg/kg IV and 10 mg Rifampicin",
+            "Kharasch 2011 15 µg/kg IV and 25 mg Rifampicin",
+            "Kharasch 2011 15 µg/kg IV and 75 mg Rifampicin",
+            "Kharasch 2011 75 µg/kg PO and 5 mg Rifampicin",
+            "Kharasch 2011 75 µg/kg PO - control",
+            "Kharasch 2011 75 µg/kg PO and 10 mg Rifampicin",
+            "Kharasch 2011 75 µg/kg PO and 25 mg Rifampicin",
+            "Kharasch 2011 75 µg/kg PO and 75 mg Rifampicin",
+            "Kharasch 2011b IV 1mg - control",
+            "Kharasch 2011b PO 4mg - control",
+            "Kharasch 2011b 1 mg IV seq and 600 mg Rifampicin",
+            "Kharasch 2011b 1 mg IV simultaneous and 600 mg Rifampicin",
+            "Kharasch 2011b 4 mg PO seq and 600 mg Rifampicin",
+            "Kharasch 2011b 4 mg PO simultaneous and 600 mg Rifampicin",
+            "Phimmasone 2001 15 µg/kg IV - control",
+            "Phimmasone 2001 0.015 µg/kg IV and 600 mg Rifampicin"
           ]
         },
         {
@@ -2319,21 +2386,30 @@
           "Simulation": "po 3 mg (solution)",
           "Path": "Neighborhoods|ColonDescendens_int_ColonDescendens_cell|Midazolam|P (intracellular->interstitial)",
           "TargetSimulations": [
-            "Control_Carls2014",
-            "Control_Okudaira2007_EM0",
-            "Control_Olkkola1993_IV",
-            "Control_Olkkola1993_Oral",
-            "Control_Swart2002",
-            "Control_Zimmermann1996",
-            "Treatment_Carls2014_1000mg",
-            "Treatment_Carls2014_250mg",
-            "Treatment_Okudaira2007_EM2",
-            "Treatment_Okudaira2007_EM4",
-            "Treatment_Okudaira2007_EM7",
-            "Treatment_Olkkola1993_IV",
-            "Treatment_Olkkola1993_Oral",
-            "Treatment_Swart2002",
-            "Treatment_Zimmermann1996"
+            "Kharasch 1997 20 µg/kg IV - control",
+            "Kharasch 1997 20 µg/kg IV and Rifampicin",
+            "Kharasch 2004 15 µg/kg IV - control",
+            "Kharasch 2004 15 µg/kg IV and Rifampicin",
+            "Kharasch 2004 60 µg/kg PO - control",
+            "Kharasch 2004 60 µg/kg PO and Rifampicin",
+            "Kharasch 2011 15 µg/kg IV - control",
+            "Kharasch 2011 15 µg/kg IV and 5 mg Rifampicin",
+            "Kharasch 2011 15 µg/kg IV and 10 mg Rifampicin",
+            "Kharasch 2011 15 µg/kg IV and 25 mg Rifampicin",
+            "Kharasch 2011 15 µg/kg IV and 75 mg Rifampicin",
+            "Kharasch 2011 75 µg/kg PO and 5 mg Rifampicin",
+            "Kharasch 2011 75 µg/kg PO - control",
+            "Kharasch 2011 75 µg/kg PO and 10 mg Rifampicin",
+            "Kharasch 2011 75 µg/kg PO and 25 mg Rifampicin",
+            "Kharasch 2011 75 µg/kg PO and 75 mg Rifampicin",
+            "Kharasch 2011b IV 1mg - control",
+            "Kharasch 2011b PO 4mg - control",
+            "Kharasch 2011b 1 mg IV seq and 600 mg Rifampicin",
+            "Kharasch 2011b 1 mg IV simultaneous and 600 mg Rifampicin",
+            "Kharasch 2011b 4 mg PO seq and 600 mg Rifampicin",
+            "Kharasch 2011b 4 mg PO simultaneous and 600 mg Rifampicin",
+            "Phimmasone 2001 15 µg/kg IV - control",
+            "Phimmasone 2001 0.015 µg/kg IV and 600 mg Rifampicin"
           ]
         },
         {
@@ -2341,21 +2417,30 @@
           "Simulation": "po 3 mg (solution)",
           "Path": "Neighborhoods|ColonSigmoid_int_ColonSigmoid_cell|Midazolam|P (intracellular->interstitial)",
           "TargetSimulations": [
-            "Control_Carls2014",
-            "Control_Okudaira2007_EM0",
-            "Control_Olkkola1993_IV",
-            "Control_Olkkola1993_Oral",
-            "Control_Swart2002",
-            "Control_Zimmermann1996",
-            "Treatment_Carls2014_1000mg",
-            "Treatment_Carls2014_250mg",
-            "Treatment_Okudaira2007_EM2",
-            "Treatment_Okudaira2007_EM4",
-            "Treatment_Okudaira2007_EM7",
-            "Treatment_Olkkola1993_IV",
-            "Treatment_Olkkola1993_Oral",
-            "Treatment_Swart2002",
-            "Treatment_Zimmermann1996"
+            "Kharasch 1997 20 µg/kg IV - control",
+            "Kharasch 1997 20 µg/kg IV and Rifampicin",
+            "Kharasch 2004 15 µg/kg IV - control",
+            "Kharasch 2004 15 µg/kg IV and Rifampicin",
+            "Kharasch 2004 60 µg/kg PO - control",
+            "Kharasch 2004 60 µg/kg PO and Rifampicin",
+            "Kharasch 2011 15 µg/kg IV - control",
+            "Kharasch 2011 15 µg/kg IV and 5 mg Rifampicin",
+            "Kharasch 2011 15 µg/kg IV and 10 mg Rifampicin",
+            "Kharasch 2011 15 µg/kg IV and 25 mg Rifampicin",
+            "Kharasch 2011 15 µg/kg IV and 75 mg Rifampicin",
+            "Kharasch 2011 75 µg/kg PO and 5 mg Rifampicin",
+            "Kharasch 2011 75 µg/kg PO - control",
+            "Kharasch 2011 75 µg/kg PO and 10 mg Rifampicin",
+            "Kharasch 2011 75 µg/kg PO and 25 mg Rifampicin",
+            "Kharasch 2011 75 µg/kg PO and 75 mg Rifampicin",
+            "Kharasch 2011b IV 1mg - control",
+            "Kharasch 2011b PO 4mg - control",
+            "Kharasch 2011b 1 mg IV seq and 600 mg Rifampicin",
+            "Kharasch 2011b 1 mg IV simultaneous and 600 mg Rifampicin",
+            "Kharasch 2011b 4 mg PO seq and 600 mg Rifampicin",
+            "Kharasch 2011b 4 mg PO simultaneous and 600 mg Rifampicin",
+            "Phimmasone 2001 15 µg/kg IV - control",
+            "Phimmasone 2001 0.015 µg/kg IV and 600 mg Rifampicin"
           ]
         },
         {
@@ -2363,709 +2448,30 @@
           "Simulation": "po 3 mg (solution)",
           "Path": "Neighborhoods|Rectum_int_Rectum_cell|Midazolam|P (intracellular->interstitial)",
           "TargetSimulations": [
-            "Control_Carls2014",
-            "Control_Okudaira2007_EM0",
-            "Control_Olkkola1993_IV",
-            "Control_Olkkola1993_Oral",
-            "Control_Swart2002",
-            "Control_Zimmermann1996",
-            "Treatment_Carls2014_1000mg",
-            "Treatment_Carls2014_250mg",
-            "Treatment_Okudaira2007_EM2",
-            "Treatment_Okudaira2007_EM4",
-            "Treatment_Okudaira2007_EM7",
-            "Treatment_Olkkola1993_IV",
-            "Treatment_Olkkola1993_Oral",
-            "Treatment_Swart2002",
-            "Treatment_Zimmermann1996"
-          ]
-        }
-      ]
-    },
-    {
-      "Id": "Erythromycin-Alfentanil-DDI",
-      "Path": "https://raw.githubusercontent.com/AndreDlm/Erythromycin-Alfentanil-DDI/master/Erythromycin-Alfentanil-DDI.json",
-      "BuildingBlocks": [
-        {
-          "Type": "Individual",
-          "Name": "European (P-gp modified, CYP3A4 36 h)",
-          "Project": "Erythromycin-Alfentanil-DDI"
-        }
-      ]
-    },
-    {
-      "Id": "Erythromycin-Alprazolam-DDI",
-      "Path": "https://raw.githubusercontent.com/AndreDlm/Erythromycin-Alprazolam-DDI/master/Erythromycin-Alprazolam-DDI.json",
-      "BuildingBlocks": [
-        {
-          "Type": "Individual",
-          "Name": "European (P-gp modified, CYP3A4 36 h)",
-          "Project": "Erythromycin-Alprazolam-DDI"
-        }
-      ],
-      "SimulationParameters": [
-        {
-          "Project": "Alprazolam",
-          "Simulation": "PO_0.5mg",
-          "Path": "Neighborhoods|Duodenum_int_Duodenum_cell|Alprazolam|P (interstitial->intracellular)",
-          "TargetSimulations": [
-            "Yasui1996_Control",
-            "Yasui1996_Perpetrator"
-          ]
-        },
-        {
-          "Project": "Alprazolam",
-          "Simulation": "PO_0.5mg",
-          "Path": "Neighborhoods|UpperJejunum_int_UpperJejunum_cell|Alprazolam|P (interstitial->intracellular)",
-          "TargetSimulations": [
-            "Yasui1996_Control",
-            "Yasui1996_Perpetrator"
-          ]
-        },
-        {
-          "Project": "Alprazolam",
-          "Simulation": "PO_0.5mg",
-          "Path": "Neighborhoods|LowerJejunum_int_LowerJejunum_cell|Alprazolam|P (interstitial->intracellular)",
-          "TargetSimulations": [
-            "Yasui1996_Control",
-            "Yasui1996_Perpetrator"
-          ]
-        },
-        {
-          "Project": "Alprazolam",
-          "Simulation": "PO_0.5mg",
-          "Path": "Neighborhoods|UpperIleum_int_UpperIleum_cell|Alprazolam|P (interstitial->intracellular)",
-          "TargetSimulations": [
-            "Yasui1996_Control",
-            "Yasui1996_Perpetrator"
-          ]
-        },
-        {
-          "Project": "Alprazolam",
-          "Simulation": "PO_0.5mg",
-          "Path": "Neighborhoods|LowerIleum_int_LowerIleum_cell|Alprazolam|P (interstitial->intracellular)",
-          "TargetSimulations": [
-            "Yasui1996_Control",
-            "Yasui1996_Perpetrator"
-          ]
-        },
-        {
-          "Project": "Alprazolam",
-          "Simulation": "PO_0.5mg",
-          "Path": "Neighborhoods|Caecum_int_Caecum_cell|Alprazolam|P (interstitial->intracellular)",
-          "TargetSimulations": [
-            "Yasui1996_Control",
-            "Yasui1996_Perpetrator"
-          ]
-        },
-        {
-          "Project": "Alprazolam",
-          "Simulation": "PO_0.5mg",
-          "Path": "Neighborhoods|ColonAscendens_int_ColonAscendens_cell|Alprazolam|P (interstitial->intracellular)",
-          "TargetSimulations": [
-            "Yasui1996_Control",
-            "Yasui1996_Perpetrator"
-          ]
-        },
-        {
-          "Project": "Alprazolam",
-          "Simulation": "PO_0.5mg",
-          "Path": "Neighborhoods|ColonTransversum_int_ColonTransversum_cell|Alprazolam|P (interstitial->intracellular)",
-          "TargetSimulations": [
-            "Yasui1996_Control",
-            "Yasui1996_Perpetrator"
-          ]
-        },
-        {
-          "Project": "Alprazolam",
-          "Simulation": "PO_0.5mg",
-          "Path": "Neighborhoods|ColonDescendens_int_ColonDescendens_cell|Alprazolam|P (interstitial->intracellular)",
-          "TargetSimulations": [
-            "Yasui1996_Control",
-            "Yasui1996_Perpetrator"
-          ]
-        },
-        {
-          "Project": "Alprazolam",
-          "Simulation": "PO_0.5mg",
-          "Path": "Neighborhoods|ColonSigmoid_int_ColonSigmoid_cell|Alprazolam|P (interstitial->intracellular)",
-          "TargetSimulations": [
-            "Yasui1996_Control",
-            "Yasui1996_Perpetrator"
-          ]
-        },
-        {
-          "Project": "Alprazolam",
-          "Simulation": "PO_0.5mg",
-          "Path": "Neighborhoods|Rectum_int_Rectum_cell|Alprazolam|P (interstitial->intracellular)",
-          "TargetSimulations": [
-            "Yasui1996_Control",
-            "Yasui1996_Perpetrator"
-          ]
-        },
-        {
-          "Project": "Alprazolam",
-          "Simulation": "PO_0.5mg",
-          "Path": "Neighborhoods|Duodenum_int_Duodenum_cell|Alprazolam|P (intracellular->interstitial)",
-          "TargetSimulations": [
-            "Yasui1996_Control",
-            "Yasui1996_Perpetrator"
-          ]
-        },
-        {
-          "Project": "Alprazolam",
-          "Simulation": "PO_0.5mg",
-          "Path": "Neighborhoods|UpperJejunum_int_UpperJejunum_cell|Alprazolam|P (intracellular->interstitial)",
-          "TargetSimulations": [
-            "Yasui1996_Control",
-            "Yasui1996_Perpetrator"
-          ]
-        },
-        {
-          "Project": "Alprazolam",
-          "Simulation": "PO_0.5mg",
-          "Path": "Neighborhoods|LowerJejunum_int_LowerJejunum_cell|Alprazolam|P (intracellular->interstitial)",
-          "TargetSimulations": [
-            "Yasui1996_Control",
-            "Yasui1996_Perpetrator"
-          ]
-        },
-        {
-          "Project": "Alprazolam",
-          "Simulation": "PO_0.5mg",
-          "Path": "Neighborhoods|UpperIleum_int_UpperIleum_cell|Alprazolam|P (intracellular->interstitial)",
-          "TargetSimulations": [
-            "Yasui1996_Control",
-            "Yasui1996_Perpetrator"
-          ]
-        },
-        {
-          "Project": "Alprazolam",
-          "Simulation": "PO_0.5mg",
-          "Path": "Neighborhoods|LowerIleum_int_LowerIleum_cell|Alprazolam|P (intracellular->interstitial)",
-          "TargetSimulations": [
-            "Yasui1996_Control",
-            "Yasui1996_Perpetrator"
-          ]
-        },
-        {
-          "Project": "Alprazolam",
-          "Simulation": "PO_0.5mg",
-          "Path": "Neighborhoods|Caecum_int_Caecum_cell|Alprazolam|P (intracellular->interstitial)",
-          "TargetSimulations": [
-            "Yasui1996_Control",
-            "Yasui1996_Perpetrator"
-          ]
-        },
-        {
-          "Project": "Alprazolam",
-          "Simulation": "PO_0.5mg",
-          "Path": "Neighborhoods|ColonAscendens_int_ColonAscendens_cell|Alprazolam|P (intracellular->interstitial)",
-          "TargetSimulations": [
-            "Yasui1996_Control",
-            "Yasui1996_Perpetrator"
-          ]
-        },
-        {
-          "Project": "Alprazolam",
-          "Simulation": "PO_0.5mg",
-          "Path": "Neighborhoods|ColonTransversum_int_ColonTransversum_cell|Alprazolam|P (intracellular->interstitial)",
-          "TargetSimulations": [
-            "Yasui1996_Control",
-            "Yasui1996_Perpetrator"
-          ]
-        },
-        {
-          "Project": "Alprazolam",
-          "Simulation": "PO_0.5mg",
-          "Path": "Neighborhoods|ColonDescendens_int_ColonDescendens_cell|Alprazolam|P (intracellular->interstitial)",
-          "TargetSimulations": [
-            "Yasui1996_Control",
-            "Yasui1996_Perpetrator"
-          ]
-        },
-        {
-          "Project": "Alprazolam",
-          "Simulation": "PO_0.5mg",
-          "Path": "Neighborhoods|ColonSigmoid_int_ColonSigmoid_cell|Alprazolam|P (intracellular->interstitial)",
-          "TargetSimulations": [
-            "Yasui1996_Control",
-            "Yasui1996_Perpetrator"
-          ]
-        },
-        {
-          "Project": "Alprazolam",
-          "Simulation": "PO_0.5mg",
-          "Path": "Neighborhoods|Rectum_int_Rectum_cell|Alprazolam|P (intracellular->interstitial)",
-          "TargetSimulations": [
-            "Yasui1996_Control",
-            "Yasui1996_Perpetrator"
-          ]
-        }
-      ]
-    },
-    {
-      "Id": "Erythromycin-Triazolam-DDI",
-      "Path": "https://raw.githubusercontent.com/AndreDlm/Erythromycin-Triazolam-DDI/master/Erythromycin-Triazolam-DDI.json",
-      "BuildingBlocks": [
-        {
-          "Type": "Individual",
-          "Name": "European (P-gp modified, CYP3A4 36 h)",
-          "Project": "Erythromycin-Triazolam-DDI"
-        }
-      ],
-      "SimulationParameters": [
-        {
-          "Project": "Triazolam",
-          "Simulation": "PO_0.125mg",
-          "Path": "Neighborhoods|Duodenum_int_Duodenum_cell|Triazolam|P (interstitial->intracellular)",
-          "TargetSimulations": [
-            "Greenblatt1998_Control",
-            "Greenblatt1998_Perpetrator",
-            "Phillips1986_Control",
-            "Phillips1986_Perpetrator"
-          ]
-        },
-        {
-          "Project": "Triazolam",
-          "Simulation": "PO_0.125mg",
-          "Path": "Neighborhoods|UpperJejunum_int_UpperJejunum_cell|Triazolam|P (interstitial->intracellular)",
-          "TargetSimulations": [
-            "Greenblatt1998_Control",
-            "Greenblatt1998_Perpetrator",
-            "Phillips1986_Control",
-            "Phillips1986_Perpetrator"
-          ]
-        },
-        {
-          "Project": "Triazolam",
-          "Simulation": "PO_0.125mg",
-          "Path": "Neighborhoods|LowerJejunum_int_LowerJejunum_cell|Triazolam|P (interstitial->intracellular)",
-          "TargetSimulations": [
-            "Greenblatt1998_Control",
-            "Greenblatt1998_Perpetrator",
-            "Phillips1986_Control",
-            "Phillips1986_Perpetrator"
-          ]
-        },
-        {
-          "Project": "Triazolam",
-          "Simulation": "PO_0.125mg",
-          "Path": "Neighborhoods|UpperIleum_int_UpperIleum_cell|Triazolam|P (interstitial->intracellular)",
-          "TargetSimulations": [
-            "Greenblatt1998_Control",
-            "Greenblatt1998_Perpetrator",
-            "Phillips1986_Control",
-            "Phillips1986_Perpetrator"
-          ]
-        },
-        {
-          "Project": "Triazolam",
-          "Simulation": "PO_0.125mg",
-          "Path": "Neighborhoods|LowerIleum_int_LowerIleum_cell|Triazolam|P (interstitial->intracellular)",
-          "TargetSimulations": [
-            "Greenblatt1998_Control",
-            "Greenblatt1998_Perpetrator",
-            "Phillips1986_Control",
-            "Phillips1986_Perpetrator"
-          ]
-        },
-        {
-          "Project": "Triazolam",
-          "Simulation": "PO_0.125mg",
-          "Path": "Neighborhoods|Caecum_int_Caecum_cell|Triazolam|P (interstitial->intracellular)",
-          "TargetSimulations": [
-            "Greenblatt1998_Control",
-            "Greenblatt1998_Perpetrator",
-            "Phillips1986_Control",
-            "Phillips1986_Perpetrator"
-          ]
-        },
-        {
-          "Project": "Triazolam",
-          "Simulation": "PO_0.125mg",
-          "Path": "Neighborhoods|ColonAscendens_int_ColonAscendens_cell|Triazolam|P (interstitial->intracellular)",
-          "TargetSimulations": [
-            "Greenblatt1998_Control",
-            "Greenblatt1998_Perpetrator",
-            "Phillips1986_Control",
-            "Phillips1986_Perpetrator"
-          ]
-        },
-        {
-          "Project": "Triazolam",
-          "Simulation": "PO_0.125mg",
-          "Path": "Neighborhoods|ColonTransversum_int_ColonTransversum_cell|Triazolam|P (interstitial->intracellular)",
-          "TargetSimulations": [
-            "Greenblatt1998_Control",
-            "Greenblatt1998_Perpetrator",
-            "Phillips1986_Control",
-            "Phillips1986_Perpetrator"
-          ]
-        },
-        {
-          "Project": "Triazolam",
-          "Simulation": "PO_0.125mg",
-          "Path": "Neighborhoods|ColonDescendens_int_ColonDescendens_cell|Triazolam|P (interstitial->intracellular)",
-          "TargetSimulations": [
-            "Greenblatt1998_Control",
-            "Greenblatt1998_Perpetrator",
-            "Phillips1986_Control",
-            "Phillips1986_Perpetrator"
-          ]
-        },
-        {
-          "Project": "Triazolam",
-          "Simulation": "PO_0.125mg",
-          "Path": "Neighborhoods|ColonSigmoid_int_ColonSigmoid_cell|Triazolam|P (interstitial->intracellular)",
-          "TargetSimulations": [
-            "Greenblatt1998_Control",
-            "Greenblatt1998_Perpetrator",
-            "Phillips1986_Control",
-            "Phillips1986_Perpetrator"
-          ]
-        },
-        {
-          "Project": "Triazolam",
-          "Simulation": "PO_0.125mg",
-          "Path": "Neighborhoods|Rectum_int_Rectum_cell|Triazolam|P (interstitial->intracellular)",
-          "TargetSimulations": [
-            "Greenblatt1998_Control",
-            "Greenblatt1998_Perpetrator",
-            "Phillips1986_Control",
-            "Phillips1986_Perpetrator"
-          ]
-        },
-        {
-          "Project": "Triazolam",
-          "Simulation": "PO_0.125mg",
-          "Path": "Neighborhoods|Duodenum_int_Duodenum_cell|Triazolam|P (intracellular->interstitial)",
-          "TargetSimulations": [
-            "Greenblatt1998_Control",
-            "Greenblatt1998_Perpetrator",
-            "Phillips1986_Control",
-            "Phillips1986_Perpetrator"
-          ]
-        },
-        {
-          "Project": "Triazolam",
-          "Simulation": "PO_0.125mg",
-          "Path": "Neighborhoods|UpperJejunum_int_UpperJejunum_cell|Triazolam|P (intracellular->interstitial)",
-          "TargetSimulations": [
-            "Greenblatt1998_Control",
-            "Greenblatt1998_Perpetrator",
-            "Phillips1986_Control",
-            "Phillips1986_Perpetrator"
-          ]
-        },
-        {
-          "Project": "Triazolam",
-          "Simulation": "PO_0.125mg",
-          "Path": "Neighborhoods|LowerJejunum_int_LowerJejunum_cell|Triazolam|P (intracellular->interstitial)",
-          "TargetSimulations": [
-            "Greenblatt1998_Control",
-            "Greenblatt1998_Perpetrator",
-            "Phillips1986_Control",
-            "Phillips1986_Perpetrator"
-          ]
-        },
-        {
-          "Project": "Triazolam",
-          "Simulation": "PO_0.125mg",
-          "Path": "Neighborhoods|UpperIleum_int_UpperIleum_cell|Triazolam|P (intracellular->interstitial)",
-          "TargetSimulations": [
-            "Greenblatt1998_Control",
-            "Greenblatt1998_Perpetrator",
-            "Phillips1986_Control",
-            "Phillips1986_Perpetrator"
-          ]
-        },
-        {
-          "Project": "Triazolam",
-          "Simulation": "PO_0.125mg",
-          "Path": "Neighborhoods|LowerIleum_int_LowerIleum_cell|Triazolam|P (intracellular->interstitial)",
-          "TargetSimulations": [
-            "Greenblatt1998_Control",
-            "Greenblatt1998_Perpetrator",
-            "Phillips1986_Control",
-            "Phillips1986_Perpetrator"
-          ]
-        },
-        {
-          "Project": "Triazolam",
-          "Simulation": "PO_0.125mg",
-          "Path": "Neighborhoods|Caecum_int_Caecum_cell|Triazolam|P (intracellular->interstitial)",
-          "TargetSimulations": [
-            "Greenblatt1998_Control",
-            "Greenblatt1998_Perpetrator",
-            "Phillips1986_Control",
-            "Phillips1986_Perpetrator"
-          ]
-        },
-        {
-          "Project": "Triazolam",
-          "Simulation": "PO_0.125mg",
-          "Path": "Neighborhoods|ColonAscendens_int_ColonAscendens_cell|Triazolam|P (intracellular->interstitial)",
-          "TargetSimulations": [
-            "Greenblatt1998_Control",
-            "Greenblatt1998_Perpetrator",
-            "Phillips1986_Control",
-            "Phillips1986_Perpetrator"
-          ]
-        },
-        {
-          "Project": "Triazolam",
-          "Simulation": "PO_0.125mg",
-          "Path": "Neighborhoods|ColonTransversum_int_ColonTransversum_cell|Triazolam|P (intracellular->interstitial)",
-          "TargetSimulations": [
-            "Greenblatt1998_Control",
-            "Greenblatt1998_Perpetrator",
-            "Phillips1986_Control",
-            "Phillips1986_Perpetrator"
-          ]
-        },
-        {
-          "Project": "Triazolam",
-          "Simulation": "PO_0.125mg",
-          "Path": "Neighborhoods|ColonDescendens_int_ColonDescendens_cell|Triazolam|P (intracellular->interstitial)",
-          "TargetSimulations": [
-            "Greenblatt1998_Control",
-            "Greenblatt1998_Perpetrator",
-            "Phillips1986_Control",
-            "Phillips1986_Perpetrator"
-          ]
-        },
-        {
-          "Project": "Triazolam",
-          "Simulation": "PO_0.125mg",
-          "Path": "Neighborhoods|ColonSigmoid_int_ColonSigmoid_cell|Triazolam|P (intracellular->interstitial)",
-          "TargetSimulations": [
-            "Greenblatt1998_Control",
-            "Greenblatt1998_Perpetrator",
-            "Phillips1986_Control",
-            "Phillips1986_Perpetrator"
-          ]
-        },
-        {
-          "Project": "Triazolam",
-          "Simulation": "PO_0.125mg",
-          "Path": "Neighborhoods|Rectum_int_Rectum_cell|Triazolam|P (intracellular->interstitial)",
-          "TargetSimulations": [
-            "Greenblatt1998_Control",
-            "Greenblatt1998_Perpetrator",
-            "Phillips1986_Control",
-            "Phillips1986_Perpetrator"
-          ]
-        }
-      ]
-    },
-    {
-      "Id": "Fluvoxamine-Alprazolam-DDI",
-      "Path": "C:/Users/GDUTJ/OneDrive - Bayer/Projects/GitHub/AndreDlm/Fluvoxamine-Alprazolam-DDI/Fluvoxamine-Alprazolam-DDI.json",
-      "BuildingBlocks": [
-        {
-          "Type": "Individual",
-          "Name": "Fleishaker 1994",
-          "Project": "Fluvoxamine-Alprazolam-DDI"
-        }
-      ],
-      "SimulationParameters": [
-        {
-          "Project": "Alprazolam",
-          "Simulation": "PO_0.5mg",
-          "Path": "Neighborhoods|Duodenum_int_Duodenum_cell|Alprazolam|P (interstitial->intracellular)",
-          "TargetSimulations": [
-            "Fleishaker1994_Alprazolam",
-            "Fleishaker1994_Fluvoxamine_Alprazolam"
-          ]
-        },
-        {
-          "Project": "Alprazolam",
-          "Simulation": "PO_0.5mg",
-          "Path": "Neighborhoods|UpperJejunum_int_UpperJejunum_cell|Alprazolam|P (interstitial->intracellular)",
-          "TargetSimulations": [
-            "Fleishaker1994_Alprazolam",
-            "Fleishaker1994_Fluvoxamine_Alprazolam"
-          ]
-        },
-        {
-          "Project": "Alprazolam",
-          "Simulation": "PO_0.5mg",
-          "Path": "Neighborhoods|LowerJejunum_int_LowerJejunum_cell|Alprazolam|P (interstitial->intracellular)",
-          "TargetSimulations": [
-            "Fleishaker1994_Alprazolam",
-            "Fleishaker1994_Fluvoxamine_Alprazolam"
-          ]
-        },
-        {
-          "Project": "Alprazolam",
-          "Simulation": "PO_0.5mg",
-          "Path": "Neighborhoods|UpperIleum_int_UpperIleum_cell|Alprazolam|P (interstitial->intracellular)",
-          "TargetSimulations": [
-            "Fleishaker1994_Alprazolam",
-            "Fleishaker1994_Fluvoxamine_Alprazolam"
-          ]
-        },
-        {
-          "Project": "Alprazolam",
-          "Simulation": "PO_0.5mg",
-          "Path": "Neighborhoods|LowerIleum_int_LowerIleum_cell|Alprazolam|P (interstitial->intracellular)",
-          "TargetSimulations": [
-            "Fleishaker1994_Alprazolam",
-            "Fleishaker1994_Fluvoxamine_Alprazolam"
-          ]
-        },
-        {
-          "Project": "Alprazolam",
-          "Simulation": "PO_0.5mg",
-          "Path": "Neighborhoods|Caecum_int_Caecum_cell|Alprazolam|P (interstitial->intracellular)",
-          "TargetSimulations": [
-            "Fleishaker1994_Alprazolam",
-            "Fleishaker1994_Fluvoxamine_Alprazolam"
-          ]
-        },
-        {
-          "Project": "Alprazolam",
-          "Simulation": "PO_0.5mg",
-          "Path": "Neighborhoods|ColonAscendens_int_ColonAscendens_cell|Alprazolam|P (interstitial->intracellular)",
-          "TargetSimulations": [
-            "Fleishaker1994_Alprazolam",
-            "Fleishaker1994_Fluvoxamine_Alprazolam"
-          ]
-        },
-        {
-          "Project": "Alprazolam",
-          "Simulation": "PO_0.5mg",
-          "Path": "Neighborhoods|ColonTransversum_int_ColonTransversum_cell|Alprazolam|P (interstitial->intracellular)",
-          "TargetSimulations": [
-            "Fleishaker1994_Alprazolam",
-            "Fleishaker1994_Fluvoxamine_Alprazolam"
-          ]
-        },
-        {
-          "Project": "Alprazolam",
-          "Simulation": "PO_0.5mg",
-          "Path": "Neighborhoods|ColonDescendens_int_ColonDescendens_cell|Alprazolam|P (interstitial->intracellular)",
-          "TargetSimulations": [
-            "Fleishaker1994_Alprazolam",
-            "Fleishaker1994_Fluvoxamine_Alprazolam"
-          ]
-        },
-        {
-          "Project": "Alprazolam",
-          "Simulation": "PO_0.5mg",
-          "Path": "Neighborhoods|ColonSigmoid_int_ColonSigmoid_cell|Alprazolam|P (interstitial->intracellular)",
-          "TargetSimulations": [
-            "Fleishaker1994_Alprazolam",
-            "Fleishaker1994_Fluvoxamine_Alprazolam"
-          ]
-        },
-        {
-          "Project": "Alprazolam",
-          "Simulation": "PO_0.5mg",
-          "Path": "Neighborhoods|Rectum_int_Rectum_cell|Alprazolam|P (interstitial->intracellular)",
-          "TargetSimulations": [
-            "Fleishaker1994_Alprazolam",
-            "Fleishaker1994_Fluvoxamine_Alprazolam"
-          ]
-        },
-        {
-          "Project": "Alprazolam",
-          "Simulation": "PO_0.5mg",
-          "Path": "Neighborhoods|Duodenum_int_Duodenum_cell|Alprazolam|P (intracellular->interstitial)",
-          "TargetSimulations": [
-            "Fleishaker1994_Alprazolam",
-            "Fleishaker1994_Fluvoxamine_Alprazolam"
-          ]
-        },
-        {
-          "Project": "Alprazolam",
-          "Simulation": "PO_0.5mg",
-          "Path": "Neighborhoods|UpperJejunum_int_UpperJejunum_cell|Alprazolam|P (intracellular->interstitial)",
-          "TargetSimulations": [
-            "Fleishaker1994_Alprazolam",
-            "Fleishaker1994_Fluvoxamine_Alprazolam"
-          ]
-        },
-        {
-          "Project": "Alprazolam",
-          "Simulation": "PO_0.5mg",
-          "Path": "Neighborhoods|LowerJejunum_int_LowerJejunum_cell|Alprazolam|P (intracellular->interstitial)",
-          "TargetSimulations": [
-            "Fleishaker1994_Alprazolam",
-            "Fleishaker1994_Fluvoxamine_Alprazolam"
-          ]
-        },
-        {
-          "Project": "Alprazolam",
-          "Simulation": "PO_0.5mg",
-          "Path": "Neighborhoods|UpperIleum_int_UpperIleum_cell|Alprazolam|P (intracellular->interstitial)",
-          "TargetSimulations": [
-            "Fleishaker1994_Alprazolam",
-            "Fleishaker1994_Fluvoxamine_Alprazolam"
-          ]
-        },
-        {
-          "Project": "Alprazolam",
-          "Simulation": "PO_0.5mg",
-          "Path": "Neighborhoods|LowerIleum_int_LowerIleum_cell|Alprazolam|P (intracellular->interstitial)",
-          "TargetSimulations": [
-            "Fleishaker1994_Alprazolam",
-            "Fleishaker1994_Fluvoxamine_Alprazolam"
-          ]
-        },
-        {
-          "Project": "Alprazolam",
-          "Simulation": "PO_0.5mg",
-          "Path": "Neighborhoods|Caecum_int_Caecum_cell|Alprazolam|P (intracellular->interstitial)",
-          "TargetSimulations": [
-            "Fleishaker1994_Alprazolam",
-            "Fleishaker1994_Fluvoxamine_Alprazolam"
-          ]
-        },
-        {
-          "Project": "Alprazolam",
-          "Simulation": "PO_0.5mg",
-          "Path": "Neighborhoods|ColonAscendens_int_ColonAscendens_cell|Alprazolam|P (intracellular->interstitial)",
-          "TargetSimulations": [
-            "Fleishaker1994_Alprazolam",
-            "Fleishaker1994_Fluvoxamine_Alprazolam"
-          ]
-        },
-        {
-          "Project": "Alprazolam",
-          "Simulation": "PO_0.5mg",
-          "Path": "Neighborhoods|ColonTransversum_int_ColonTransversum_cell|Alprazolam|P (intracellular->interstitial)",
-          "TargetSimulations": [
-            "Fleishaker1994_Alprazolam",
-            "Fleishaker1994_Fluvoxamine_Alprazolam"
-          ]
-        },
-        {
-          "Project": "Alprazolam",
-          "Simulation": "PO_0.5mg",
-          "Path": "Neighborhoods|ColonDescendens_int_ColonDescendens_cell|Alprazolam|P (intracellular->interstitial)",
-          "TargetSimulations": [
-            "Fleishaker1994_Alprazolam",
-            "Fleishaker1994_Fluvoxamine_Alprazolam"
-          ]
-        },
-        {
-          "Project": "Alprazolam",
-          "Simulation": "PO_0.5mg",
-          "Path": "Neighborhoods|ColonSigmoid_int_ColonSigmoid_cell|Alprazolam|P (intracellular->interstitial)",
-          "TargetSimulations": [
-            "Fleishaker1994_Alprazolam",
-            "Fleishaker1994_Fluvoxamine_Alprazolam"
-          ]
-        },
-        {
-          "Project": "Alprazolam",
-          "Simulation": "PO_0.5mg",
-          "Path": "Neighborhoods|Rectum_int_Rectum_cell|Alprazolam|P (intracellular->interstitial)",
-          "TargetSimulations": [
-            "Fleishaker1994_Alprazolam",
-            "Fleishaker1994_Fluvoxamine_Alprazolam"
+            "Kharasch 1997 20 µg/kg IV - control",
+            "Kharasch 1997 20 µg/kg IV and Rifampicin",
+            "Kharasch 2004 15 µg/kg IV - control",
+            "Kharasch 2004 15 µg/kg IV and Rifampicin",
+            "Kharasch 2004 60 µg/kg PO - control",
+            "Kharasch 2004 60 µg/kg PO and Rifampicin",
+            "Kharasch 2011 15 µg/kg IV - control",
+            "Kharasch 2011 15 µg/kg IV and 5 mg Rifampicin",
+            "Kharasch 2011 15 µg/kg IV and 10 mg Rifampicin",
+            "Kharasch 2011 15 µg/kg IV and 25 mg Rifampicin",
+            "Kharasch 2011 15 µg/kg IV and 75 mg Rifampicin",
+            "Kharasch 2011 75 µg/kg PO and 5 mg Rifampicin",
+            "Kharasch 2011 75 µg/kg PO - control",
+            "Kharasch 2011 75 µg/kg PO and 10 mg Rifampicin",
+            "Kharasch 2011 75 µg/kg PO and 25 mg Rifampicin",
+            "Kharasch 2011 75 µg/kg PO and 75 mg Rifampicin",
+            "Kharasch 2011b IV 1mg - control",
+            "Kharasch 2011b PO 4mg - control",
+            "Kharasch 2011b 1 mg IV seq and 600 mg Rifampicin",
+            "Kharasch 2011b 1 mg IV simultaneous and 600 mg Rifampicin",
+            "Kharasch 2011b 4 mg PO seq and 600 mg Rifampicin",
+            "Kharasch 2011b 4 mg PO simultaneous and 600 mg Rifampicin",
+            "Phimmasone 2001 15 µg/kg IV - control",
+            "Phimmasone 2001 0.015 µg/kg IV and 600 mg Rifampicin"
           ]
         }
       ]
@@ -3192,7 +2598,7 @@
     "GOFMergedPlots": [],
     "ComparisonTimeProfilePlots": [
       {
-        "SectionId": 31,
+        "SectionId": 310,
         "Title": "Ahonen 1995",
         "SimulationDuration": 20,
         "TimeUnit": "h",
@@ -3222,7 +2628,7 @@
         ]
       },
       {
-        "SectionId": 31,
+        "SectionId": 310,
         "Title": "Backman 1998",
         "SimulationDuration": 20,
         "TimeUnit": "h",
@@ -3263,7 +2669,7 @@
         ]
       },
       {
-        "SectionId": 31,
+        "SectionId": 310,
         "Title": "Olkkola 1994",
         "SimulationDuration": 20,
         "TimeUnit": "h",
@@ -3293,7 +2699,7 @@
         ]
       },
       {
-        "SectionId": 31,
+        "SectionId": 310,
         "Title": "Olkkola 1996 (day 1 po)",
         "SimulationDuration": 20,
         "TimeUnit": "h",
@@ -3323,7 +2729,7 @@
         ]
       },
       {
-        "SectionId": 31,
+        "SectionId": 310,
         "Title": "Olkkola 1996 (day 4 iv)",
         "SimulationDuration": 20,
         "TimeUnit": "h",
@@ -3353,7 +2759,7 @@
         ]
       },
       {
-        "SectionId": 31,
+        "SectionId": 310,
         "Title": "Olkkola 1996 (day 6 po)",
         "SimulationDuration": 20,
         "TimeUnit": "h",
@@ -3383,7 +2789,7 @@
         ]
       },
       {
-        "SectionId": 31,
+        "SectionId": 310,
         "Title": "Prueksaritanont 2017",
         "SimulationDuration": 72,
         "TimeUnit": "h",
@@ -3413,7 +2819,7 @@
         ]
       },
       {
-        "SectionId": 31,
+        "SectionId": 310,
         "Title": "Templeton 2010",
         "SimulationDuration": 20,
         "TimeUnit": "h",
@@ -3465,7 +2871,7 @@
         ]
       },
       {
-        "SectionId": 32,
+        "SectionId": 317,
         "Title": "Backman 1996",
         "SimulationDuration": 24,
         "TimeUnit": "h",
@@ -3495,7 +2901,7 @@
         ]
       },
       {
-        "SectionId": 32,
+        "SectionId": 317,
         "Title": "Backman 1998 (Phase IV and V vs. I)",
         "SimulationDuration": 24,
         "TimeUnit": "h",
@@ -3536,7 +2942,7 @@
         ]
       },
       {
-        "SectionId": 32,
+        "SectionId": 317,
         "Title": "Chung 2006",
         "SimulationDuration": 24,
         "TimeUnit": "h",
@@ -3566,7 +2972,7 @@
         ]
       },
       {
-        "SectionId": 32,
+        "SectionId": 317,
         "Title": "Eap 2004 (0.075 mg)",
         "SimulationDuration": 24,
         "TimeUnit": "h",
@@ -3596,7 +3002,7 @@
         ]
       },
       {
-        "SectionId": 32,
+        "SectionId": 317,
         "Title": "Eap 2004 (7.5 mg)",
         "SimulationDuration": 24,
         "TimeUnit": "h",
@@ -3626,7 +3032,7 @@
         ]
       },
       {
-        "SectionId": 32,
+        "SectionId": 317,
         "Title": "Gorski 2003 (iv)",
         "SimulationDuration": 24,
         "TimeUnit": "h",
@@ -3656,7 +3062,7 @@
         ]
       },
       {
-        "SectionId": 32,
+        "SectionId": 317,
         "Title": "Gorski 2003 (po)",
         "SimulationDuration": 24,
         "TimeUnit": "h",
@@ -3686,7 +3092,7 @@
         ]
       },
       {
-        "SectionId": 32,
+        "SectionId": 317,
         "Title": "Gurley 2006",
         "SimulationDuration": 24,
         "TimeUnit": "h",
@@ -3716,7 +3122,7 @@
         ]
       },
       {
-        "SectionId": 32,
+        "SectionId": 317,
         "Title": "Gurley 2008",
         "SimulationDuration": 24,
         "TimeUnit": "h",
@@ -3746,7 +3152,7 @@
         ]
       },
       {
-        "SectionId": 32,
+        "SectionId": 317,
         "Title": "Kharasch 1997",
         "SimulationDuration": 24,
         "TimeUnit": "h",
@@ -3776,7 +3182,7 @@
         ]
       },
       {
-        "SectionId": 32,
+        "SectionId": 317,
         "Title": "Kharasch 2004 (iv)",
         "SimulationDuration": 24,
         "TimeUnit": "h",
@@ -3806,7 +3212,7 @@
         ]
       },
       {
-        "SectionId": 32,
+        "SectionId": 317,
         "Title": "Kharasch 2004 (po)",
         "SimulationDuration": 24,
         "TimeUnit": "h",
@@ -3836,7 +3242,7 @@
         ]
       },
       {
-        "SectionId": 32,
+        "SectionId": 317,
         "Title": "Kharasch 2011 (iv, RIF @ 5 mg)",
         "SimulationDuration": 24,
         "TimeUnit": "h",
@@ -3899,7 +3305,7 @@
         ]
       },
       {
-        "SectionId": 32,
+        "SectionId": 317,
         "Title": "Kharasch 2011 (po, RIF @ 5 mg)",
         "SimulationDuration": 24,
         "TimeUnit": "h",
@@ -3962,7 +3368,7 @@
         ]
       },
       {
-        "SectionId": 32,
+        "SectionId": 317,
         "Title": "Kim 2018",
         "SimulationDuration": 24,
         "TimeUnit": "h",
@@ -3992,7 +3398,7 @@
         ]
       },
       {
-        "SectionId": 32,
+        "SectionId": 317,
         "Title": "Link 2008 (iv)",
         "SimulationDuration": 24,
         "TimeUnit": "h",
@@ -4022,7 +3428,7 @@
         ]
       },
       {
-        "SectionId": 32,
+        "SectionId": 317,
         "Title": "Link 2008 (po)",
         "SimulationDuration": 24,
         "TimeUnit": "h",
@@ -4052,7 +3458,7 @@
         ]
       },
       {
-        "SectionId": 32,
+        "SectionId": 317,
         "Title": "Phimmasone 2001",
         "SimulationDuration": 24,
         "TimeUnit": "h",
@@ -4082,7 +3488,7 @@
         ]
       },
       {
-        "SectionId": 32,
+        "SectionId": 317,
         "Title": "Prueksaritanont 2017",
         "SimulationDuration": 24,
         "TimeUnit": "h",
@@ -4112,7 +3518,7 @@
         ]
       },
       {
-        "SectionId": 32,
+        "SectionId": 317,
         "Title": "Reitman 2011",
         "SimulationDuration": 24,
         "TimeUnit": "h",
@@ -4164,7 +3570,7 @@
         ]
       },
       {
-        "SectionId": 32,
+        "SectionId": 317,
         "Title": "Shin 2013",
         "SimulationDuration": 24,
         "TimeUnit": "h",
@@ -4192,8 +3598,9 @@
             "Symbol": "Square"
           }
         ]
-      },{
-        "SectionId": 32,
+      },
+      {
+        "SectionId": 317,
         "Title": "Shin 2016",
         "SimulationDuration": 24,
         "TimeUnit": "h",
@@ -4223,7 +3630,7 @@
         ]
       },
       {
-        "SectionId": 32,
+        "SectionId": 317,
         "Title": "Szalat 2007",
         "SimulationDuration": 24,
         "TimeUnit": "h",
@@ -4253,7 +3660,7 @@
         ]
       },
       {
-        "SectionId": 32,
+        "SectionId": 317,
         "Title": "van Dyk 2018",
         "SimulationDuration": 24,
         "TimeUnit": "h",
@@ -4281,403 +3688,7 @@
             "Symbol": "Square"
           }
         ]
-      },  
-      {
-        "SectionId": 33,
-        "Title": "Bartkowski 1989",
-        "SimulationDuration": 8,
-        "TimeUnit": "h",
-        "OutputMappings": [
-          {
-            "Project": "Erythromycin-Alfentanil-DDI",
-            "Simulation": "Bartkowski1989_Control",
-            "Output": "Organism|PeripheralVenousBlood|Alfentanil|Plasma (Peripheral Venous Blood)",
-            "ObservedData": "Bartkowski 1989 - Control - Alfentanil - IV - 50 µg/kg - Serum - indiv.",
-            "StartTime": 0,
-            "TimeUnit": "h",
-            "Color": "#2166ac",
-            "Caption": "Control (without erythromycin)",
-            "Symbol": "Circle"
-          },
-          {
-            "Project": "Erythromycin-Alfentanil-DDI",
-            "Simulation": "Bartkowski1989_Control",
-            "Output": "Organism|PeripheralVenousBlood|Alfentanil|Plasma (Peripheral Venous Blood)",
-            "ObservedData": "Bartkowski 1993 - Control - Alfentanil - IV - 50 µg/kg - Serum - indiv.",
-            "StartTime": 0,
-            "TimeUnit": "h",
-            "Color": "#1cdee8",
-            "Caption": "Control (without erythromycin)",
-            "Symbol": "Circle"
-          },
-          {
-            "Project": "Erythromycin-Alfentanil-DDI",
-            "Simulation": "Bartkowski1989_Perpetrator_Day1",
-            "Output": "Organism|PeripheralVenousBlood|Alfentanil|Plasma (Peripheral Venous Blood)",
-            "ObservedData": "Bartkowski 1989 - Treatment Day 1 - Alfentanil - IV - 50 µg/kg - Serum - indiv.",
-            "StartTime": 1.5,
-            "TimeUnit": "h",
-            "Color": "#eb3113",
-            "Caption": "Treatment with erythromycin (Day 1)",
-            "Symbol": "Square"
-          },
-          {
-            "Project": "Erythromycin-Alfentanil-DDI",
-            "Simulation": "Bartkowski1989_Perpetrator_Day1",
-            "Output": "Organism|PeripheralVenousBlood|Alfentanil|Plasma (Peripheral Venous Blood)",
-            "ObservedData": "Bartkowski 1989 - Treatment Day 7 - Alfentanil - IV - 50 µg/kg - Serum - indiv.",
-            "StartTime": 1.5,
-            "TimeUnit": "h",
-            "Color": "#fa8405",
-            "Caption": "Treatment with erythromycin (Day 1)",
-            "Symbol": "Square"
-          },
-          {
-            "Project": "Erythromycin-Alfentanil-DDI",
-            "Simulation": "Bartkowski1989_Perpetrator_Day7",
-            "Output": "Organism|PeripheralVenousBlood|Alfentanil|Plasma (Peripheral Venous Blood)",
-            "ObservedData": "Bartkowski 1989 - Treatment Day 7 - Alfentanil - IV - 50 µg/kg - Serum - indiv.",
-            "StartTime": 145.5,
-            "TimeUnit": "h",
-            "Color": "#eb3113",
-            "Caption": "Treatment with erythromycin (Day 7)",
-            "Symbol": "Square"
-          },
-          {
-            "Project": "Erythromycin-Alfentanil-DDI",
-            "Simulation": "Bartkowski1989_Perpetrator_Day7",
-            "Output": "Organism|PeripheralVenousBlood|Alfentanil|Plasma (Peripheral Venous Blood)",
-            "ObservedData": "Bartkowski 1989 - Treatment Day 7 - Alfentanil - IV - 50 µg/kg - Serum - indiv.",
-            "StartTime": 145.5,
-            "TimeUnit": "h",
-            "Color": "#fa8405",
-            "Caption": "Treatment with erythromycin (Day 7)",
-            "Symbol": "Square"
-          }
-        ]
-      },
-      {
-        "SectionId": 34,
-        "Title": "Yasui 1996",
-        "SimulationDuration": 48,
-        "TimeUnit": "h",
-        "OutputMappings": [
-          {
-            "Project": "Erythromycin-Alprazolam-DDI",
-            "Simulation": "Yasui1996_Control",
-            "Output": "Organism|PeripheralVenousBlood|Alprazolam|Plasma (Peripheral Venous Blood)",
-            "ObservedData": "Yasui 1996 - Treatment with placebo - Alprazolam - PO - 0.8 mg - Plasma - agg. (n=12)",
-            "StartTime": 0,
-            "TimeUnit": "h",
-            "Color": "#2166ac",
-            "Caption": "Control (without erythromycin)",
-            "Symbol": "Circle"
-          },
-          {
-            "Project": "Erythromycin-Alprazolam-DDI",
-            "Simulation": "Yasui1996_Perpetrator",
-            "Output": "Organism|PeripheralVenousBlood|Alprazolam|Plasma (Peripheral Venous Blood)",
-            "ObservedData": "Yasui 1996 - Treatment with erythromycin - Alprazolam - PO - 0.8 mg - Plasma - agg. (n=12)",
-            "StartTime": 170,
-            "TimeUnit": "h",
-            "Color": "#b2182b",
-            "Caption": "Treatment with erythromycin",
-            "Symbol": "Square"
-          }
-        ]
-      },
-      {
-        "SectionId": 35,
-        "Title": "Greenblatt 1998",
-        "SimulationDuration": 24,
-        "TimeUnit": "h",
-        "OutputMappings": [
-          {
-            "Project": "Erythromycin-Triazolam-DDI",
-            "Simulation": "Greenblatt1998_Control",
-            "Output": "Organism|PeripheralVenousBlood|Triazolam|Plasma (Peripheral Venous Blood)",
-            "ObservedData": "Greenblatt 1998a - Triazolam + Placebo (Trial B) - Triazolam - PO - 0.125 mg - Plasma - agg. (n=12)",
-            "StartTime": 0,
-            "TimeUnit": "h",
-            "Color": "#2166ac",
-            "Caption": "Control (without erythromycin)",
-            "Symbol": "Circle"
-          },
-          {
-            "Project": "Erythromycin-Triazolam-DDI",
-            "Simulation": "Greenblatt1998_Perpetrator",
-            "Output": "Organism|PeripheralVenousBlood|Triazolam|Plasma (Peripheral Venous Blood)",
-            "ObservedData": "Greenblatt 1998a - Triazolam + Erythromycin (Trial D) - Triazolam - PO - 0.125 mg - Plasma - agg. (n=12)",
-            "StartTime": 170,
-            "TimeUnit": "h",
-            "Color": "#b2182b",
-            "Caption": "Treatment with erythromycin",
-            "Symbol": "Square"
-          }
-        ]
-      },
-      {
-        "SectionId": 35,
-        "Title": "Phillips 1986",
-        "SimulationDuration": 24,
-        "TimeUnit": "h",
-        "OutputMappings": [
-          {
-            "Project": "Erythromycin-Triazolam-DDI",
-            "Simulation": "Phillips1986_Control",
-            "Output": "Organism|PeripheralVenousBlood|Triazolam|Plasma (Peripheral Venous Blood)",
-            "ObservedData": "Phillips 1986 - Triazolam alone - Triazolam - PO - 0.5 mg - Plasma - agg. (n=16)",
-            "StartTime": 0,
-            "TimeUnit": "h",
-            "Color": "#2166ac",
-            "Caption": "Control (without erythromycin)",
-            "Symbol": "Circle"
-          },
-          {
-            "Project": "Erythromycin-Triazolam-DDI",
-            "Simulation": "Phillips1986_Perpetrator",
-            "Output": "Organism|PeripheralVenousBlood|Triazolam|Plasma (Peripheral Venous Blood)",
-            "ObservedData": "Phillips 1986 - Triazolam after 3 days of erythromycin - Triazolam - PO - 0.5 mg - Plasma - agg. (n=16)",
-            "StartTime": 170,
-            "TimeUnit": "h",
-            "Color": "#b2182b",
-            "Caption": "Treatment with erythromycin",
-            "Symbol": "Square"
-          }
-        ]
-      },
-      {
-        "SectionId": 36,
-        "Title": "Okudaira 2007",
-        "SimulationDuration": 22,
-        "TimeUnit": "h",
-        "OutputMappings": [
-          {
-            "Project": "Erythromycin-Midazolam-DDI",
-            "Simulation": "Control_Okudaira2007_EM0",
-            "Output": "Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
-            "ObservedData": "Okudaira 2007 - EM 0 Control (Perpetrator Placebo) - Midazolam - PO - 2.5 (actually 5) mg - Plasma - agg. (n=12)",
-            "StartTime": 0,
-            "TimeUnit": "h",
-            "Color": "#2166ac",
-            "Caption": "Control (without erythromycin)",
-            "Symbol": "Circle"
-          },
-          {
-            "Project": "Erythromycin-Midazolam-DDI",
-            "Simulation": "Treatment_Okudaira2007_EM2",
-            "Output": "Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
-            "ObservedData": "Okudaira 2007 - EM 2 with Perpetrator (Erythromycin) - Midazolam - PO - 2.5 mg - Plasma - agg. (n=12)",
-            "StartTime": 25,
-            "TimeUnit": "h",
-            "Color": "#b2182b",
-            "Caption": "Treatment with erythromycin for 2 days",
-            "Symbol": "Square"
-          },
-          {
-            "Project": "Erythromycin-Midazolam-DDI",
-            "Simulation": "Treatment_Okudaira2007_EM4",
-            "Output": "Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
-            "ObservedData": "Okudaira 2007 - EM 4 with Perpetrator (Erythromycin) - Midazolam - PO - 2.5 mg - Plasma - agg. (n=12)",
-            "StartTime": 73,
-            "TimeUnit": "h",
-            "Color": "#d6604d",
-            "Caption": "Treatment with erythromycin for 4 days",
-            "Symbol": "Triangle"
-          },
-          {
-            "Project": "Erythromycin-Midazolam-DDI",
-            "Simulation": "Treatment_Okudaira2007_EM7",
-            "Output": "Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
-            "ObservedData": "Okudaira 2007 - EM 7 with Perpetrator (Erythromycin) - Midazolam - PO - 2.5 mg - Plasma - agg. (n=12)",
-            "StartTime": 145,
-            "TimeUnit": "h",
-            "Color": "#fca61c",
-            "Caption": "Treatment with erythromycin for 7 days",
-            "Symbol": "Diamond"
-          }
-        ]
-      },
-      {
-        "SectionId": 36,
-        "Title": "Olkkola 1993 (midazolam IV)",
-        "SimulationDuration": 18,
-        "TimeUnit": "h",
-        "OutputMappings": [
-          {
-            "Project": "Erythromycin-Midazolam-DDI",
-            "Simulation": "Control_Olkkola1993_IV",
-            "Output": "Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
-            "ObservedData": "Olkkola 1993 - iv Control (Perpetrator Placebo) - Midazolam - IV - 0.05 mg/kg - Plasma - agg. (n=6)",
-            "StartTime": 0,
-            "TimeUnit": "h",
-            "Color": "#2166ac",
-            "Caption": "Control (without erythromycin)",
-            "Symbol": "Circle"
-          },
-          {
-            "Project": "Erythromycin-Midazolam-DDI",
-            "Simulation": "Treatment_Olkkola1993_IV",
-            "Output": "Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
-            "ObservedData": "Olkkola 1993 - iv with Perpetrator (Erythromycin) - Midazolam - IV - 0.05 mg/kg - Plasma - agg. (n=6)",
-            "StartTime": 128,
-            "TimeUnit": "h",
-            "Color": "#b2182b",
-            "Caption": "Treatment (with erythromycin)",
-            "Symbol": "Square"
-          }
-        ]
-      },
-      {
-        "SectionId": 36,
-        "Title": "Olkkola 1993 (midazolam po)",
-        "SimulationDuration": 18,
-        "TimeUnit": "h",
-        "OutputMappings": [
-          {
-            "Project": "Erythromycin-Midazolam-DDI",
-            "Simulation": "Control_Olkkola1993_Oral",
-            "Output": "Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
-            "ObservedData": "Olkkola 1993 - po Control (Perpetrator Placebo) - Midazolam - PO - 15 mg - Plasma - agg. (n=12)",
-            "StartTime": 0,
-            "TimeUnit": "h",
-            "Color": "#2166ac",
-            "Caption": "Control (without erythromycin)",
-            "Symbol": "Circle"
-          },
-          {
-            "Project": "Erythromycin-Midazolam-DDI",
-            "Simulation": "Treatment_Olkkola1993_Oral",
-            "Output": "Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
-            "ObservedData": "Olkkola 1993 - po with Perpetrator (Erythromycin) - Midazolam - PO - 15 mg - Plasma - agg. (n=12)",
-            "StartTime": 128,
-            "TimeUnit": "h",
-            "Color": "#b2182b",
-            "Caption": "Treatment (with erythromycin)",
-            "Symbol": "Square"
-          }
-        ]
-      },
-      {
-        "SectionId": 36,
-        "Title": "Swart 2002",
-        "SimulationDuration": 4,
-        "TimeUnit": "h",
-        "OutputMappings": [
-          {
-            "Project": "Erythromycin-Midazolam-DDI",
-            "Simulation": "Control_Swart2002",
-            "Output": "Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
-            "ObservedData": "Swart 2002 - day 5 Control (Perpetrator Placebo) - Midazolam - IV - 0.075 mg/kg - Plasma - agg. (n=8)",
-            "StartTime": 0,
-            "TimeUnit": "h",
-            "Color": "#2166ac",
-            "Caption": "Control (without erythromycin)",
-            "Symbol": "Circle"
-          },
-          {
-            "Project": "Erythromycin-Midazolam-DDI",
-            "Simulation": "Treatment_Swart2002",
-            "Output": "Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
-            "ObservedData": "Swart 2002 - day 10 Control with Perpetrator (Erythromycin) - Midazolam - IV - 0.075 mg/kg - Plasma - agg. (n=8)",
-            "StartTime": 96,
-            "TimeUnit": "h",
-            "Color": "#b2182b",
-            "Caption": "Treatment (with erythromycin)",
-            "Symbol": "Square"
-          }
-        ]
-      },
-      {
-        "SectionId": 36,
-        "Title": "Zimmermann 1996",
-        "SimulationDuration": 24,
-        "TimeUnit": "h",
-        "OutputMappings": [
-          {
-            "Project": "Erythromycin-Midazolam-DDI",
-            "Simulation": "Control_Zimmermann1996",
-            "Output": "Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
-            "ObservedData": "Zimmermann 1996 - Control (Perpetrator Placebo) - Midazolam - PO - 15 mg - Plasma - agg. (n=12)",
-            "StartTime": 0,
-            "TimeUnit": "h",
-            "Color": "#2166ac",
-            "Caption": "Control (without erythromycin)",
-            "Symbol": "Circle"
-          },
-          {
-            "Project": "Erythromycin-Midazolam-DDI",
-            "Simulation": "Treatment_Zimmermann1996",
-            "Output": "Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
-            "ObservedData": "Zimmermann 1996 - with Perpetrator (Erythromycin) - Midazolam - PO - 15 mg - Plasma - agg. (n=12)",
-            "StartTime": 97.5,
-            "TimeUnit": "h",
-            "Color": "#b2182b",
-            "Caption": "Treatment (with erythromycin)",
-            "Symbol": "Square"
-          }
-        ]
-      },
-      {
-        "SectionId": 37,
-        "Title": "Fleishaker 1994 (Day 1, first dose)",
-        "SimulationDuration": 5,
-        "TimeUnit": "h",
-        "OutputMappings": [
-          {
-            "Project": "Fluvoxamine-Alprazolam-DDI",
-            "Simulation": "Fleishaker1994_Alprazolam",
-            "Output": "Organism|PeripheralVenousBlood|Alprazolam|Plasma (Peripheral Venous Blood)",
-            "ObservedData": "Fleishaker 1994 - Alprazolam alone - Alprazolam - PO - 1 mg - Plasma - agg. (n=20)",
-            "StartTime": 0,
-            "TimeUnit": "h",
-            "Color": "#2166ac",
-            "Caption": "Control (without Fluvoxamine)",
-            "Symbol": "Circle"
-          },
-          {
-            "Project": "Fluvoxamine-Alprazolam-DDI",
-            "Simulation": "Fleishaker1994_Fluvoxamine_Alprazolam",
-            "Output": "Organism|PeripheralVenousBlood|Alprazolam|Plasma (Peripheral Venous Blood)",
-            "ObservedData": "Fleishaker 1994 - Alprazolam + fluvoxamine - Alprazolam - PO - 1 mg - Plasma - agg. (n=20)",
-            "StartTime": 144,
-            "TimeUnit": "h",
-            "Color": "#b2182b",
-            "Caption": "Treatment with Fluvoxamine",
-            "Symbol": "Square"
-          }
-        ]
-      },
-      {
-        "SectionId": 37,
-        "Title": "Fleishaker 1994 (Day 10)",
-        "SimulationDuration": 24,
-        "TimeUnit": "h",
-        "OutputMappings": [
-          {
-            "Project": "Fluvoxamine-Alprazolam-DDI",
-            "Simulation": "Fleishaker1994_Alprazolam",
-            "Output": "Organism|PeripheralVenousBlood|Alprazolam|Plasma (Peripheral Venous Blood)",
-            "ObservedData": "Fleishaker 1994 - Alprazolam alone - Alprazolam - PO - 1 mg - Plasma - agg. (n=20)",
-            "StartTime": 72,
-            "TimeUnit": "h",
-            "Color": "#2166ac",
-            "Caption": "Control (without Fluvoxamine)",
-            "Symbol": "Circle"
-          },
-          {
-            "Project": "Fluvoxamine-Alprazolam-DDI",
-            "Simulation": "Fleishaker1994_Fluvoxamine_Alprazolam",
-            "Output": "Organism|PeripheralVenousBlood|Alprazolam|Plasma (Peripheral Venous Blood)",
-            "ObservedData": "Fleishaker 1994 - Alprazolam + fluvoxamine - Alprazolam - PO - 1 mg - Plasma - agg. (n=20)",
-            "StartTime": 216,
-            "TimeUnit": "h",
-            "Color": "#b2182b",
-            "Caption": "Treatment with Fluvoxamine",
-            "Symbol": "Square"
-          }
-        ]
-      }          
+      }
     ],
     "DDIRatioPlots": [
       {
@@ -4694,7 +3705,7 @@
         "Groups": [
           {
             "Caption": "Itra+Mida (Mida iv)",
-            "Color": "#FF0000",
+            "Color": "#808080",
             "Symbol": "Square",
             "DDIRatios": [
               {
@@ -4720,7 +3731,7 @@
           },
           {
             "Caption": "Itra+Mida (Mida po)",
-            "Color": "#FF0000",
+            "Color": "#808080",
             "Symbol": "Circle",
             "DDIRatios": [
               {
@@ -4917,7 +3928,7 @@
           },
           {
             "Caption": "Rifa+Mida (Mida iv)",
-            "Color": "#1B64AE",
+            "Color": "#008080",
             "Symbol": "Square",
             "DDIRatios": [
               {
@@ -5171,7 +4182,7 @@
           },
           {
             "Caption": "Rifa+Mida (Mida po)",
-            "Color": "#1B64AE",
+            "Color": "#008080",
             "Symbol": "Circle",
             "DDIRatios": [
               {
@@ -5534,7 +4545,7 @@
                   "EndTime": 1320,
                   "TimeUnit": "h"
                 }
-              },              
+              },
               {
                 "Output": "Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
                 "ObservedData": "DDI Ratios",
@@ -5551,352 +4562,6 @@
                   "Simulation": "DDI Treatment - Rifampicin/Midazolam - van Dyk 2018",
                   "StartTime": 162,
                   "EndTime": 168,
-                  "TimeUnit": "h"
-                }
-              }
-            ]
-          },
-          {
-            "Caption": "Erythromycin + Alfentanil (Alfentanil IV)",
-            "Color": "#FF0000",
-            "Symbol": "Square",
-            "DDIRatios": [
-              {
-                "Output": "Organism|PeripheralVenousBlood|Alfentanil|Plasma (Peripheral Venous Blood)",
-                "ObservedData": "DDI Ratios",
-                "ObservedDataRecordId": 779,
-                "SimulationControl": {
-                  "Project": "Erythromycin-Alfentanil-DDI",
-                  "Simulation": "Bartkowski1989_Control",
-                  "StartTime": 0,
-                  "EndTime": "Inf",
-                  "TimeUnit": "h"
-                },
-                "SimulationDDI": {
-                  "Project": "Erythromycin-Alfentanil-DDI",
-                  "Simulation": "Bartkowski1989_Perpetrator_Day1",
-                  "StartTime": 1.5,
-                  "EndTime": "Inf",
-                  "TimeUnit": "h"
-                }
-              },
-              {
-                "Output": "Organism|PeripheralVenousBlood|Alfentanil|Plasma (Peripheral Venous Blood)",
-                "ObservedData": "DDI Ratios",
-                "ObservedDataRecordId": 780,
-                "SimulationControl": {
-                  "Project": "Erythromycin-Alfentanil-DDI",
-                  "Simulation": "Bartkowski1989_Control",
-                  "StartTime": 0,
-                  "EndTime": "Inf",
-                  "TimeUnit": "h"
-                },
-                "SimulationDDI": {
-                  "Project": "Erythromycin-Alfentanil-DDI",
-                  "Simulation": "Bartkowski1989_Perpetrator_Day7",
-                  "StartTime": 145.5,
-                  "EndTime": "Inf",
-                  "TimeUnit": "h"
-                }
-              }
-            ]
-          },
-          {
-            "Caption": "Erythromycin + Alprazolam",
-            "Color": "#FF0000",
-            "Symbol": "Square",
-            "DDIRatios": [
-              {
-                "Output": "Organism|PeripheralVenousBlood|Alprazolam|Plasma (Peripheral Venous Blood)",
-                "ObservedData": "DDI Ratios",
-                "ObservedDataRecordId": 777,
-                "SimulationControl": {
-                  "Project": "Erythromycin-Alprazolam-DDI",
-                  "Simulation": "Yasui1996_Control",
-                  "StartTime": 0,
-                  "EndTime": "Inf",
-                  "TimeUnit": "h"
-                },
-                "SimulationDDI": {
-                  "Project": "Erythromycin-Alprazolam-DDI",
-                  "Simulation": "Yasui1996_Perpetrator",
-                  "StartTime": 170,
-                  "EndTime": "Inf",
-                  "TimeUnit": "h"
-                }
-              }
-            ]
-          },
-          {
-            "Caption": "Erythromycin + Triazolam",
-            "Color": "#FF0000",
-            "Symbol": "Square",
-            "DDIRatios": [
-              {
-                "Output": "Organism|PeripheralVenousBlood|Triazolam|Plasma (Peripheral Venous Blood)",
-                "ObservedData": "DDI Ratios",
-                "ObservedDataRecordId": 781,
-                "SimulationControl": {
-                  "Project": "Erythromycin-Triazolam-DDI",
-                  "Simulation": "Greenblatt1998_Control",
-                  "StartTime": 0,
-                  "EndTime": "Inf",
-                  "TimeUnit": "h"
-                },
-                "SimulationDDI": {
-                  "Project": "Erythromycin-Triazolam-DDI",
-                  "Simulation": "Greenblatt1998_Perpetrator",
-                  "StartTime": 25,
-                  "EndTime": "Inf",
-                  "TimeUnit": "h"
-                }
-              },
-              {
-                "Output": "Organism|PeripheralVenousBlood|Triazolam|Plasma (Peripheral Venous Blood)",
-                "ObservedData": "DDI Ratios",
-                "ObservedDataRecordId": 757,
-                "SimulationControl": {
-                  "Project": "Erythromycin-Triazolam-DDI",
-                  "Simulation": "Phillips1986_Control",
-                  "StartTime": 0,
-                  "EndTime": "Inf",
-                  "TimeUnit": "h"
-                },
-                "SimulationDDI": {
-                  "Project": "Erythromycin-Triazolam-DDI",
-                  "Simulation": "Phillips1986_Perpetrator",
-                  "StartTime": 64,
-                  "EndTime": "Inf",
-                  "TimeUnit": "h"
-                }
-              }
-            ]
-          },
-          {
-            "Caption": "Erythromycin + Midazolam (Midazolam IV)",
-            "Color": "#FF0000",
-            "Symbol": "Square",
-            "DDIRatios": [
-              {
-                "Output": "Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
-                "ObservedData": "DDI Ratios",
-                "ObservedDataRecordId": 420,
-                "SimulationControl": {
-                  "Project": "Erythromycin-Midazolam-DDI",
-                  "Simulation": "Control_Swart2002",
-                  "StartTime": 0,
-                  "EndTime": "Inf",
-                  "TimeUnit": "h"
-                },
-                "SimulationDDI": {
-                  "Project": "Erythromycin-Midazolam-DDI",
-                  "Simulation": "Treatment_Swart2002",
-                  "StartTime": 96,
-                  "EndTime": "Inf",
-                  "TimeUnit": "h"
-                }
-              },
-              {
-                "Output": "Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
-                "ObservedData": "DDI Ratios",
-                "ObservedDataRecordId": 368,
-                "SimulationControl": {
-                  "Project": "Erythromycin-Midazolam-DDI",
-                  "Simulation": "Control_Olkkola1993_IV",
-                  "StartTime": 0,
-                  "EndTime": "Inf",
-                  "TimeUnit": "h"
-                },
-                "SimulationDDI": {
-                  "Project": "Erythromycin-Midazolam-DDI",
-                  "Simulation": "Treatment_Olkkola1993_IV",
-                  "StartTime": 128,
-                  "EndTime": "Inf",
-                  "TimeUnit": "h"
-                }
-              }
-            ]
-          },
-          {
-            "Caption": "Erythromycin + Midazolam (Midazolam po)",
-            "Color": "#FF0000",
-            "Symbol": "Circle",
-            "DDIRatios": [
-              {
-                "Output": "Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
-                "ObservedData": "DDI Ratios",
-                "ObservedDataRecordId": 366,
-                "SimulationControl": {
-                  "Project": "Erythromycin-Midazolam-DDI",
-                  "Simulation": "Control_Olkkola1993_Oral",
-                  "StartTime": 0,
-                  "EndTime": "Inf",
-                  "TimeUnit": "h"
-                },
-                "SimulationDDI": {
-                  "Project": "Erythromycin-Midazolam-DDI",
-                  "Simulation": "Treatment_Olkkola1993_Oral",
-                  "StartTime": 128,
-                  "EndTime": "Inf",
-                  "TimeUnit": "h"
-                }
-              },
-              {
-                "Output": "Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
-                "ObservedData": "DDI Ratios",
-                "ObservedDataRecordId": 471,
-                "SimulationControl": {
-                  "Project": "Erythromycin-Midazolam-DDI",
-                  "Simulation": "Control_Zimmermann1996",
-                  "StartTime": 0,
-                  "EndTime": "Inf",
-                  "TimeUnit": "h"
-                },
-                "SimulationDDI": {
-                  "Project": "Erythromycin-Midazolam-DDI",
-                  "Simulation": "Treatment_Zimmermann1996",
-                  "StartTime": 97.5,
-                  "EndTime": "Inf",
-                  "TimeUnit": "h"
-                }
-              },
-              {
-                "Output": "Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
-                "ObservedData": "DDI Ratios",
-                "ObservedDataRecordId": 362,
-                "SimulationControl": {
-                  "Project": "Erythromycin-Midazolam-DDI",
-                  "Simulation": "Control_Okudaira2007_EM0",
-                  "StartTime": 0,
-                  "EndTime": "Inf",
-                  "TimeUnit": "h"
-                },
-                "SimulationDDI": {
-                  "Project": "Erythromycin-Midazolam-DDI",
-                  "Simulation": "Treatment_Okudaira2007_EM2",
-                  "StartTime": 25,
-                  "EndTime": "Inf",
-                  "TimeUnit": "h"
-                }
-              },
-              {
-                "Output": "Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
-                "ObservedData": "DDI Ratios",
-                "ObservedDataRecordId": 363,
-                "SimulationControl": {
-                  "Project": "Erythromycin-Midazolam-DDI",
-                  "Simulation": "Control_Okudaira2007_EM0",
-                  "StartTime": 0,
-                  "EndTime": "Inf",
-                  "TimeUnit": "h"
-                },
-                "SimulationDDI": {
-                  "Project": "Erythromycin-Midazolam-DDI",
-                  "Simulation": "Treatment_Okudaira2007_EM4",
-                  "StartTime": 73,
-                  "EndTime": "Inf",
-                  "TimeUnit": "h"
-                }
-              },
-              {
-                "Output": "Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
-                "ObservedData": "DDI Ratios",
-                "ObservedDataRecordId": 364,
-                "SimulationControl": {
-                  "Project": "Erythromycin-Midazolam-DDI",
-                  "Simulation": "Control_Okudaira2007_EM0",
-                  "StartTime": 0,
-                  "EndTime": "Inf",
-                  "TimeUnit": "h"
-                },
-                "SimulationDDI": {
-                  "Project": "Erythromycin-Midazolam-DDI",
-                  "Simulation": "Treatment_Okudaira2007_EM7",
-                  "StartTime": 145,
-                  "EndTime": "Inf",
-                  "TimeUnit": "h"
-                }
-              },
-              {
-                "Output": "Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
-                "ObservedData": "DDI Ratios",
-                "ObservedDataRecordId": 828,
-                "SimulationControl": {
-                  "Project": "Erythromycin-Midazolam-DDI",
-                  "Simulation": "Control_Carls2014",
-                  "StartTime": 2,
-                  "EndTime": 4,
-                  "TimeUnit": "h"
-                },
-                "SimulationDDI": {
-                  "Project": "Erythromycin-Midazolam-DDI",
-                  "Simulation": "Treatment_Carls2014_250mg",
-                  "StartTime": 3,
-                  "EndTime": 5,
-                  "TimeUnit": "h"
-                }
-              },
-              {
-                "Output": "Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
-                "ObservedData": "DDI Ratios",
-                "ObservedDataRecordId": 829,
-                "SimulationControl": {
-                  "Project": "Erythromycin-Midazolam-DDI",
-                  "Simulation": "Control_Carls2014",
-                  "StartTime": 2,
-                  "EndTime": 4,
-                  "TimeUnit": "h"
-                },
-                "SimulationDDI": {
-                  "Project": "Erythromycin-Midazolam-DDI",
-                  "Simulation": "Treatment_Carls2014_1000mg",
-                  "StartTime": 3,
-                  "EndTime": 5,
-                  "TimeUnit": "h"
-                }
-              }
-            ]
-          },
-          {
-            "Caption": "Fluvoxamine + Alprazolam",
-            "Color": "#FF0000",
-            "Symbol": "Square",
-            "DDIRatios": [
-              {
-                "Output": "Organism|PeripheralVenousBlood|Alprazolam|Plasma (Peripheral Venous Blood)",
-                "ObservedData": "DDI Ratios",
-                "ObservedDataRecordId": 1104,
-                "SimulationControl": {
-                  "Project": "Fluvoxamine-Alprazolam-DDI",
-                  "Simulation": "Fleishaker1994_Alprazolam",
-                  "StartTime": 0,
-                  "EndTime": 5,
-                  "TimeUnit": "h"
-                },
-                "SimulationDDI": {
-                  "Project": "Fluvoxamine-Alprazolam-DDI",
-                  "Simulation": "Fleishaker1994_Fluvoxamine_Alprazolam",
-                  "StartTime": 144,
-                  "EndTime": 149,
-                  "TimeUnit": "h"
-                }
-              },
-              {
-                "Output": "Organism|PeripheralVenousBlood|Alprazolam|Plasma (Peripheral Venous Blood)",
-                "ObservedData": "DDI Ratios",
-                "ObservedDataRecordId": 1113,
-                "SimulationControl": {
-                  "Project": "Fluvoxamine-Alprazolam-DDI",
-                  "Simulation": "Fleishaker1994_Alprazolam",
-                  "StartTime": 72,
-                  "EndTime": 96,
-                  "TimeUnit": "h"
-                },
-                "SimulationDDI": {
-                  "Project": "Fluvoxamine-Alprazolam-DDI",
-                  "Simulation": "Fleishaker1994_Fluvoxamine_Alprazolam",
-                  "StartTime": 216,
-                  "EndTime": 240,
                   "TimeUnit": "h"
                 }
               }
@@ -5924,39 +4589,94 @@
           "Content": "Content/Qualification_DDI_CYP3A4_network_description.md",
           "Sections": [
             {
-              "Id": 121,
-              "Title": "Itraconazole - Midazolam DDI",
-              "Content": "Content/Itraconazole-Midazolam-DDI.md"
+              "Id": 1201,
+              "Title": "Clarithromycin - Midazolam DDI",
+              "Content": "Content/Clarithromycin-Midazolam-DDI.md"
             },
             {
-              "Id": 122,
-              "Title": "Rifampicin - Midazolam DDI",
-              "Content": "Content/Rifampicin-Midazolam-DDI.md"
+              "Id": 1202,
+              "Title": "Clarithromycin - Triazolam DDI",
+              "Content": "Content/Clarithromycin-Triazolam-DDI.md"
             },
             {
-              "Id": 123,
+              "Id": 1203,
               "Title": "Erythromycin - Alfentanil DDI",
               "Content": "Content/Erythromycin-Alfentanil-DDI.md"
             },
             {
-              "Id": 124,
+              "Id": 1204,
               "Title": "Erythromycin - Alprazolam DDI",
               "Content": "Content/Erythromycin-Alprazolam-DDI.md"
             },
             {
-              "Id": 125,
-              "Title": "Erythromycin - Triazolam DDI",
-              "Content": "Content/Erythromycin-Triazolam-DDI.md"
-            },
-            {
-              "Id": 126,
+              "Id": 1205,
               "Title": "Erythromycin - Midazolam DDI",
               "Content": "Content/Erythromycin-Midazolam-DDI.md"
             },
             {
-              "Id": 127,
+              "Id": 1206,
+              "Title": "Erythromycin - Triazolam DDI",
+              "Content": "Content/Erythromycin-Triazolam-DDI.md"
+            },
+            {
+              "Id": 1207,
               "Title": "Fluvoxamine - Alprazolam DDI",
               "Content": "Content/Fluvoxamine-Alprazolam-DDI.md"
+            },
+            {
+              "Id": 1208,
+              "Title": "Fluvoxamine - Midazolam DDI",
+              "Content": "Content/Fluvoxamine-Midazolam-DDI.md"
+            },
+            {
+              "Id": 1209,
+              "Title": "Itraconazole - Alprazolam DDI",
+              "Content": "Content/Itraconazole-Alprazolam-DDI.md"
+            },
+            {
+              "Id": 1210,
+              "Title": "Itraconazole - Midazolam DDI",
+              "Content": "Content/Itraconazole-Midazolam-DDI.md"
+            },
+            {
+              "Id": 1211,
+              "Title": "Itraconazole-Triazolam-DDI",
+              "Content": "Content/Itraconazole - Triazolam DDI.md"
+            },
+            {
+              "Id": 1212,
+              "Title": "Verapamil - Midazolam DDI",
+              "Content": "Content/Verapamil-Midazolam-DDI.md"
+            },
+            {
+              "Id": 1213,
+              "Title": "Efavirenz-Alfentanil-DDI",
+              "Content": "Content/Efavirenz - Alfentanil DDI.md"
+            },
+            {
+              "Id": 1214,
+              "Title": "Efavirenz - Midazolam DDI",
+              "Content": "Content/Efavirenz-Midazolam-DDI.md"
+            },
+            {
+              "Id": 1215,
+              "Title": "Rifampicin - Alfentanil DDI",
+              "Content": "Content/Rifampicin-Alfentanil-DDI.md"
+            },
+            {
+              "Id": 1216,
+              "Title": "Rifampicin - Alprazolam DDI",
+              "Content": "Content/Rifampicin-Alprazolam-DDI.md"
+            },
+            {
+              "Id": 1217,
+              "Title": "Rifampicin - Midazolam DDI",
+              "Content": "Content/Rifampicin-Midazolam-DDI.md"
+            },
+            {
+              "Id": 1218,
+              "Title": "Rifampicin - Triazolam DDI",
+              "Content": "Content/Rifampicin-Triazolam-DDI.md"
             }
           ]
         }
@@ -5973,40 +4693,96 @@
       "Content": "Content/Intro_evaluation_DDI_network.md",
       "Sections": [
         {
-          "Id": 31,
-          "Title": "3.1 Itraconazole - Midazolam DDI",
+          "Id": 301,
+          "Title": "3.1 Clarithromycin - Midazolam DDI",
           "Content": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Qualification-text-modules/master/Empty.md"
         },
         {
-          "Id": 32,
-          "Title": "3.2 Rifampicin - Midazolam DDI",
+          "Id": 302,
+          "Title": "3.2 Clarithromycin - Triazolam DDI",
           "Content": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Qualification-text-modules/master/Empty.md"
         },
         {
-          "Id": 33,
+          "Id": 303,
           "Title": "3.3 Erythromycin - Alfentanil DDI",
           "Content": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Qualification-text-modules/master/Empty.md"
         },
         {
-          "Id": 34,
-          "Title": "3.3 Erythromycin - Alprazolam DDI",
+          "Id": 304,
+          "Title": "3.4 Erythromycin - Alprazolam DDI",
           "Content": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Qualification-text-modules/master/Empty.md"
         },
         {
-          "Id": 35,
-          "Title": "3.3 Erythromycin - Triazolam DDI",
+          "Id": 305,
+          "Title": "3.5 Erythromycin - Midazolam DDI",
           "Content": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Qualification-text-modules/master/Empty.md"
         },
         {
-          "Id": 36,
-          "Title": "3.3 Erythromycin - Midazolam DDI",
+          "Id": 306,
+          "Title": "3.6 Erythromycin - Triazolam DDI",
           "Content": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Qualification-text-modules/master/Empty.md"
         },
         {
-          "Id": 37,
-          "Title": "3.3 Fluvoxamine - Alprazolam DDI",
+          "Id": 307,
+          "Title": "3.7 Fluvoxamine - Alprazolam DDI",
+          "Content": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Qualification-text-modules/master/Empty.md"
+        },
+        {
+          "Id": 308,
+          "Title": "3.8 Fluvoxamine - Midazolam DDI",
+          "Content": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Qualification-text-modules/master/Empty.md"
+        },
+        {
+          "Id": 309,
+          "Title": "3.9 Itraconazole - Alprazolam DDI",
+          "Content": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Qualification-text-modules/master/Empty.md"
+        },
+        {
+          "Id": 310,
+          "Title": "3.10 Itraconazole - Midazolam DDI",
+          "Content": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Qualification-text-modules/master/Empty.md"
+        },
+        {
+          "Id": 311,
+          "Title": "3.11 Itraconazole - Triazolam DDI",
+          "Content": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Qualification-text-modules/master/Empty.md"
+        },
+        {
+          "Id": 312,
+          "Title": "3.12 Verapamil - Midazolam DDI",
+          "Content": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Qualification-text-modules/master/Empty.md"
+        },
+        {
+          "Id": 313,
+          "Title": "3.13 Efavirenz - Alfentanil DDI",
+          "Content": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Qualification-text-modules/master/Empty.md"
+        },
+        {
+          "Id": 314,
+          "Title": "3.14 Efavirenz - Midazolam DDI",
+          "Content": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Qualification-text-modules/master/Empty.md"
+        },
+        {
+          "Id": 315,
+          "Title": "3.15 Rifampicin - Alfentanil DDI",
+          "Content": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Qualification-text-modules/master/Empty.md"
+        },
+        {
+          "Id": 316,
+          "Title": "3.16 Rifampicin - Alprazolam DDI",
+          "Content": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Qualification-text-modules/master/Empty.md"
+        },
+        {
+          "Id": 317,
+          "Title": "3.17 Rifampicin - Midazolam DDI",
+          "Content": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Qualification-text-modules/master/Empty.md"
+        },
+        {
+          "Id": 318,
+          "Title": "3.18 Rifampicin - Triazolam DDI",
           "Content": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Qualification-text-modules/master/Empty.md"
         }
+        
       ]
     },
     {
