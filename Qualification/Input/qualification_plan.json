@@ -7,31 +7,19 @@
     },
     {
       "Id": "Alfentanil",
-      "Path": "https://raw.githubusercontent.com/TWendl/Alfentanil-Model/master/Alfentanil.json",
+      "Path": "https://raw.githubusercontent.com/TWendl/Alfentanil-Model/master/Alfentanil.json"
     },
     {
       "Id": "Itraconazole",
-      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Itraconazole-Model/master/Itraconazole-Model.json",
+      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Itraconazole-Model/master/Itraconazole-Model.json"
     },
     {
       "Id": "Rifampicin",
-      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Rifampicin-Model/master/Rifampicin-Model.json",
+      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Rifampicin-Model/master/Rifampicin-Model.json"
     },
     {
       "Id": "Fluvoxamine",
-      "Path": "https://raw.githubusercontent.com/LMFuhr/Fluvoxamine-Model/master/Fluvoxamine-Model.json",
-      "BuildingBlocks": [
-        {
-          "Type": "Compound",
-          "Name": "Fluvoxamine",
-          "Project": "Fluvoxamine"
-        },
-        {
-          "Type": "Formulation",
-          "Name": "Solution",
-          "Project": "Fluvoxamine"
-        }
-      ]
+      "Path": "https://raw.githubusercontent.com/LMFuhr/Fluvoxamine-Model/master/Fluvoxamine-Model.json"
     },
     {
       "Id": "Itraconazole-Midazolam-DDI",
@@ -1778,7 +1766,7 @@
     },
     {
       "Id": "Rifampicin-Alfentanil-DDI",
-      "Path": "https://raw.githubusercontent.com/sfrechen/Rifampicin-Alfentanil-DDI/master/Rifampicin-Alfentanil-DDI.json",
+      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Rifampicin-Alfentanil-DDI/master/Rifampicin-Alfentanil-DDI.json",
       "BuildingBlocks": [
         {
           "Type": "Compound",
@@ -1793,9 +1781,9 @@
       ],
       "SimulationParameters": [
         {
-          "Project": "Midazolam",
-          "Simulation": "po 3 mg (solution)",
-          "Path": "Neighborhoods|Duodenum_int_Duodenum_cell|Midazolam|P (interstitial->intracellular)",
+          "Project": "Alfentanil",
+          "Simulation": "Kharasch 2011b, Alfentanil PO 4 mg",
+          "Path": "Neighborhoods|Duodenum_int_Duodenum_cell|Alfentanil|P (interstitial->intracellular)",
           "TargetSimulations": [
             "Kharasch 1997 20 µg/kg IV - control",
             "Kharasch 1997 20 µg/kg IV and Rifampicin",
@@ -1821,6 +1809,686 @@
             "Kharasch 2011b 4 mg PO simultaneous and 600 mg Rifampicin",
             "Phimmasone 2001 15 µg/kg IV - control",
             "Phimmasone 2001 0.015 µg/kg IV and 600 mg Rifampicin"
+          ]
+        },
+        {
+          "Project": "Alfentanil",
+          "Simulation": "Kharasch 2011b, Alfentanil PO 4 mg",
+          "Path": "Neighborhoods|UpperJejunum_int_UpperJejunum_cell|Alfentanil|P (interstitial->intracellular)",
+          "TargetSimulations": [
+            "Kharasch 1997 20 µg/kg IV - control",
+            "Kharasch 1997 20 µg/kg IV and Rifampicin",
+            "Kharasch 2004 15 µg/kg IV - control",
+            "Kharasch 2004 15 µg/kg IV and Rifampicin",
+            "Kharasch 2004 60 µg/kg PO - control",
+            "Kharasch 2004 60 µg/kg PO and Rifampicin",
+            "Kharasch 2011 15 µg/kg IV - control",
+            "Kharasch 2011 15 µg/kg IV and 5 mg Rifampicin",
+            "Kharasch 2011 15 µg/kg IV and 10 mg Rifampicin",
+            "Kharasch 2011 15 µg/kg IV and 25 mg Rifampicin",
+            "Kharasch 2011 15 µg/kg IV and 75 mg Rifampicin",
+            "Kharasch 2011 75 µg/kg PO and 5 mg Rifampicin",
+            "Kharasch 2011 75 µg/kg PO - control",
+            "Kharasch 2011 75 µg/kg PO and 10 mg Rifampicin",
+            "Kharasch 2011 75 µg/kg PO and 25 mg Rifampicin",
+            "Kharasch 2011 75 µg/kg PO and 75 mg Rifampicin",
+            "Kharasch 2011b IV 1mg - control",
+            "Kharasch 2011b PO 4mg - control",
+            "Kharasch 2011b 1 mg IV seq and 600 mg Rifampicin",
+            "Kharasch 2011b 1 mg IV simultaneous and 600 mg Rifampicin",
+            "Kharasch 2011b 4 mg PO seq and 600 mg Rifampicin",
+            "Kharasch 2011b 4 mg PO simultaneous and 600 mg Rifampicin",
+            "Phimmasone 2001 15 µg/kg IV - control",
+            "Phimmasone 2001 0.015 µg/kg IV and 600 mg Rifampicin"
+          ]
+        },
+        {
+          "Project": "Alfentanil",
+          "Simulation": "Kharasch 2011b, Alfentanil PO 4 mg",
+          "Path": "Neighborhoods|LowerJejunum_int_LowerJejunum_cell|Alfentanil|P (interstitial->intracellular)",
+          "TargetSimulations": [
+            "Kharasch 1997 20 µg/kg IV - control",
+            "Kharasch 1997 20 µg/kg IV and Rifampicin",
+            "Kharasch 2004 15 µg/kg IV - control",
+            "Kharasch 2004 15 µg/kg IV and Rifampicin",
+            "Kharasch 2004 60 µg/kg PO - control",
+            "Kharasch 2004 60 µg/kg PO and Rifampicin",
+            "Kharasch 2011 15 µg/kg IV - control",
+            "Kharasch 2011 15 µg/kg IV and 5 mg Rifampicin",
+            "Kharasch 2011 15 µg/kg IV and 10 mg Rifampicin",
+            "Kharasch 2011 15 µg/kg IV and 25 mg Rifampicin",
+            "Kharasch 2011 15 µg/kg IV and 75 mg Rifampicin",
+            "Kharasch 2011 75 µg/kg PO and 5 mg Rifampicin",
+            "Kharasch 2011 75 µg/kg PO - control",
+            "Kharasch 2011 75 µg/kg PO and 10 mg Rifampicin",
+            "Kharasch 2011 75 µg/kg PO and 25 mg Rifampicin",
+            "Kharasch 2011 75 µg/kg PO and 75 mg Rifampicin",
+            "Kharasch 2011b IV 1mg - control",
+            "Kharasch 2011b PO 4mg - control",
+            "Kharasch 2011b 1 mg IV seq and 600 mg Rifampicin",
+            "Kharasch 2011b 1 mg IV simultaneous and 600 mg Rifampicin",
+            "Kharasch 2011b 4 mg PO seq and 600 mg Rifampicin",
+            "Kharasch 2011b 4 mg PO simultaneous and 600 mg Rifampicin",
+            "Phimmasone 2001 15 µg/kg IV - control",
+            "Phimmasone 2001 0.015 µg/kg IV and 600 mg Rifampicin"
+          ]
+        },
+        {
+          "Project": "Alfentanil",
+          "Simulation": "Kharasch 2011b, Alfentanil PO 4 mg",
+          "Path": "Neighborhoods|UpperIleum_int_UpperIleum_cell|Alfentanil|P (interstitial->intracellular)",
+          "TargetSimulations": [
+            "Kharasch 1997 20 µg/kg IV - control",
+            "Kharasch 1997 20 µg/kg IV and Rifampicin",
+            "Kharasch 2004 15 µg/kg IV - control",
+            "Kharasch 2004 15 µg/kg IV and Rifampicin",
+            "Kharasch 2004 60 µg/kg PO - control",
+            "Kharasch 2004 60 µg/kg PO and Rifampicin",
+            "Kharasch 2011 15 µg/kg IV - control",
+            "Kharasch 2011 15 µg/kg IV and 5 mg Rifampicin",
+            "Kharasch 2011 15 µg/kg IV and 10 mg Rifampicin",
+            "Kharasch 2011 15 µg/kg IV and 25 mg Rifampicin",
+            "Kharasch 2011 15 µg/kg IV and 75 mg Rifampicin",
+            "Kharasch 2011 75 µg/kg PO and 5 mg Rifampicin",
+            "Kharasch 2011 75 µg/kg PO - control",
+            "Kharasch 2011 75 µg/kg PO and 10 mg Rifampicin",
+            "Kharasch 2011 75 µg/kg PO and 25 mg Rifampicin",
+            "Kharasch 2011 75 µg/kg PO and 75 mg Rifampicin",
+            "Kharasch 2011b IV 1mg - control",
+            "Kharasch 2011b PO 4mg - control",
+            "Kharasch 2011b 1 mg IV seq and 600 mg Rifampicin",
+            "Kharasch 2011b 1 mg IV simultaneous and 600 mg Rifampicin",
+            "Kharasch 2011b 4 mg PO seq and 600 mg Rifampicin",
+            "Kharasch 2011b 4 mg PO simultaneous and 600 mg Rifampicin",
+            "Phimmasone 2001 15 µg/kg IV - control",
+            "Phimmasone 2001 0.015 µg/kg IV and 600 mg Rifampicin"
+          ]
+        },
+        {
+          "Project": "Alfentanil",
+          "Simulation": "Kharasch 2011b, Alfentanil PO 4 mg",
+          "Path": "Neighborhoods|LowerIleum_int_LowerIleum_cell|Alfentanil|P (interstitial->intracellular)",
+          "TargetSimulations": [
+            "Kharasch 1997 20 µg/kg IV - control",
+            "Kharasch 1997 20 µg/kg IV and Rifampicin",
+            "Kharasch 2004 15 µg/kg IV - control",
+            "Kharasch 2004 15 µg/kg IV and Rifampicin",
+            "Kharasch 2004 60 µg/kg PO - control",
+            "Kharasch 2004 60 µg/kg PO and Rifampicin",
+            "Kharasch 2011 15 µg/kg IV - control",
+            "Kharasch 2011 15 µg/kg IV and 5 mg Rifampicin",
+            "Kharasch 2011 15 µg/kg IV and 10 mg Rifampicin",
+            "Kharasch 2011 15 µg/kg IV and 25 mg Rifampicin",
+            "Kharasch 2011 15 µg/kg IV and 75 mg Rifampicin",
+            "Kharasch 2011 75 µg/kg PO and 5 mg Rifampicin",
+            "Kharasch 2011 75 µg/kg PO - control",
+            "Kharasch 2011 75 µg/kg PO and 10 mg Rifampicin",
+            "Kharasch 2011 75 µg/kg PO and 25 mg Rifampicin",
+            "Kharasch 2011 75 µg/kg PO and 75 mg Rifampicin",
+            "Kharasch 2011b IV 1mg - control",
+            "Kharasch 2011b PO 4mg - control",
+            "Kharasch 2011b 1 mg IV seq and 600 mg Rifampicin",
+            "Kharasch 2011b 1 mg IV simultaneous and 600 mg Rifampicin",
+            "Kharasch 2011b 4 mg PO seq and 600 mg Rifampicin",
+            "Kharasch 2011b 4 mg PO simultaneous and 600 mg Rifampicin",
+            "Phimmasone 2001 15 µg/kg IV - control",
+            "Phimmasone 2001 0.015 µg/kg IV and 600 mg Rifampicin"
+          ]
+        },
+        {
+          "Project": "Alfentanil",
+          "Simulation": "Kharasch 2011b, Alfentanil PO 4 mg",
+          "Path": "Neighborhoods|Caecum_int_Caecum_cell|Alfentanil|P (interstitial->intracellular)",
+          "TargetSimulations": [
+            "Kharasch 1997 20 µg/kg IV - control",
+            "Kharasch 1997 20 µg/kg IV and Rifampicin",
+            "Kharasch 2004 15 µg/kg IV - control",
+            "Kharasch 2004 15 µg/kg IV and Rifampicin",
+            "Kharasch 2004 60 µg/kg PO - control",
+            "Kharasch 2004 60 µg/kg PO and Rifampicin",
+            "Kharasch 2011 15 µg/kg IV - control",
+            "Kharasch 2011 15 µg/kg IV and 5 mg Rifampicin",
+            "Kharasch 2011 15 µg/kg IV and 10 mg Rifampicin",
+            "Kharasch 2011 15 µg/kg IV and 25 mg Rifampicin",
+            "Kharasch 2011 15 µg/kg IV and 75 mg Rifampicin",
+            "Kharasch 2011 75 µg/kg PO and 5 mg Rifampicin",
+            "Kharasch 2011 75 µg/kg PO - control",
+            "Kharasch 2011 75 µg/kg PO and 10 mg Rifampicin",
+            "Kharasch 2011 75 µg/kg PO and 25 mg Rifampicin",
+            "Kharasch 2011 75 µg/kg PO and 75 mg Rifampicin",
+            "Kharasch 2011b IV 1mg - control",
+            "Kharasch 2011b PO 4mg - control",
+            "Kharasch 2011b 1 mg IV seq and 600 mg Rifampicin",
+            "Kharasch 2011b 1 mg IV simultaneous and 600 mg Rifampicin",
+            "Kharasch 2011b 4 mg PO seq and 600 mg Rifampicin",
+            "Kharasch 2011b 4 mg PO simultaneous and 600 mg Rifampicin",
+            "Phimmasone 2001 15 µg/kg IV - control",
+            "Phimmasone 2001 0.015 µg/kg IV and 600 mg Rifampicin"
+          ]
+        },
+        {
+          "Project": "Alfentanil",
+          "Simulation": "Kharasch 2011b, Alfentanil PO 4 mg",
+          "Path": "Neighborhoods|ColonAscendens_int_ColonAscendens_cell|Alfentanil|P (interstitial->intracellular)",
+          "TargetSimulations": [
+            "Kharasch 1997 20 µg/kg IV - control",
+            "Kharasch 1997 20 µg/kg IV and Rifampicin",
+            "Kharasch 2004 15 µg/kg IV - control",
+            "Kharasch 2004 15 µg/kg IV and Rifampicin",
+            "Kharasch 2004 60 µg/kg PO - control",
+            "Kharasch 2004 60 µg/kg PO and Rifampicin",
+            "Kharasch 2011 15 µg/kg IV - control",
+            "Kharasch 2011 15 µg/kg IV and 5 mg Rifampicin",
+            "Kharasch 2011 15 µg/kg IV and 10 mg Rifampicin",
+            "Kharasch 2011 15 µg/kg IV and 25 mg Rifampicin",
+            "Kharasch 2011 15 µg/kg IV and 75 mg Rifampicin",
+            "Kharasch 2011 75 µg/kg PO and 5 mg Rifampicin",
+            "Kharasch 2011 75 µg/kg PO - control",
+            "Kharasch 2011 75 µg/kg PO and 10 mg Rifampicin",
+            "Kharasch 2011 75 µg/kg PO and 25 mg Rifampicin",
+            "Kharasch 2011 75 µg/kg PO and 75 mg Rifampicin",
+            "Kharasch 2011b IV 1mg - control",
+            "Kharasch 2011b PO 4mg - control",
+            "Kharasch 2011b 1 mg IV seq and 600 mg Rifampicin",
+            "Kharasch 2011b 1 mg IV simultaneous and 600 mg Rifampicin",
+            "Kharasch 2011b 4 mg PO seq and 600 mg Rifampicin",
+            "Kharasch 2011b 4 mg PO simultaneous and 600 mg Rifampicin",
+            "Phimmasone 2001 15 µg/kg IV - control",
+            "Phimmasone 2001 0.015 µg/kg IV and 600 mg Rifampicin"
+          ]
+        },
+        {
+          "Project": "Alfentanil",
+          "Simulation": "Kharasch 2011b, Alfentanil PO 4 mg",
+          "Path": "Neighborhoods|ColonTransversum_int_ColonTransversum_cell|Alfentanil|P (interstitial->intracellular)",
+          "TargetSimulations": [
+            "Kharasch 1997 20 µg/kg IV - control",
+            "Kharasch 1997 20 µg/kg IV and Rifampicin",
+            "Kharasch 2004 15 µg/kg IV - control",
+            "Kharasch 2004 15 µg/kg IV and Rifampicin",
+            "Kharasch 2004 60 µg/kg PO - control",
+            "Kharasch 2004 60 µg/kg PO and Rifampicin",
+            "Kharasch 2011 15 µg/kg IV - control",
+            "Kharasch 2011 15 µg/kg IV and 5 mg Rifampicin",
+            "Kharasch 2011 15 µg/kg IV and 10 mg Rifampicin",
+            "Kharasch 2011 15 µg/kg IV and 25 mg Rifampicin",
+            "Kharasch 2011 15 µg/kg IV and 75 mg Rifampicin",
+            "Kharasch 2011 75 µg/kg PO and 5 mg Rifampicin",
+            "Kharasch 2011 75 µg/kg PO - control",
+            "Kharasch 2011 75 µg/kg PO and 10 mg Rifampicin",
+            "Kharasch 2011 75 µg/kg PO and 25 mg Rifampicin",
+            "Kharasch 2011 75 µg/kg PO and 75 mg Rifampicin",
+            "Kharasch 2011b IV 1mg - control",
+            "Kharasch 2011b PO 4mg - control",
+            "Kharasch 2011b 1 mg IV seq and 600 mg Rifampicin",
+            "Kharasch 2011b 1 mg IV simultaneous and 600 mg Rifampicin",
+            "Kharasch 2011b 4 mg PO seq and 600 mg Rifampicin",
+            "Kharasch 2011b 4 mg PO simultaneous and 600 mg Rifampicin",
+            "Phimmasone 2001 15 µg/kg IV - control",
+            "Phimmasone 2001 0.015 µg/kg IV and 600 mg Rifampicin"
+          ]
+        },
+        {
+          "Project": "Alfentanil",
+          "Simulation": "Kharasch 2011b, Alfentanil PO 4 mg",
+          "Path": "Neighborhoods|ColonDescendens_int_ColonDescendens_cell|Alfentanil|P (interstitial->intracellular)",
+          "TargetSimulations": [
+            "Kharasch 1997 20 µg/kg IV - control",
+            "Kharasch 1997 20 µg/kg IV and Rifampicin",
+            "Kharasch 2004 15 µg/kg IV - control",
+            "Kharasch 2004 15 µg/kg IV and Rifampicin",
+            "Kharasch 2004 60 µg/kg PO - control",
+            "Kharasch 2004 60 µg/kg PO and Rifampicin",
+            "Kharasch 2011 15 µg/kg IV - control",
+            "Kharasch 2011 15 µg/kg IV and 5 mg Rifampicin",
+            "Kharasch 2011 15 µg/kg IV and 10 mg Rifampicin",
+            "Kharasch 2011 15 µg/kg IV and 25 mg Rifampicin",
+            "Kharasch 2011 15 µg/kg IV and 75 mg Rifampicin",
+            "Kharasch 2011 75 µg/kg PO and 5 mg Rifampicin",
+            "Kharasch 2011 75 µg/kg PO - control",
+            "Kharasch 2011 75 µg/kg PO and 10 mg Rifampicin",
+            "Kharasch 2011 75 µg/kg PO and 25 mg Rifampicin",
+            "Kharasch 2011 75 µg/kg PO and 75 mg Rifampicin",
+            "Kharasch 2011b IV 1mg - control",
+            "Kharasch 2011b PO 4mg - control",
+            "Kharasch 2011b 1 mg IV seq and 600 mg Rifampicin",
+            "Kharasch 2011b 1 mg IV simultaneous and 600 mg Rifampicin",
+            "Kharasch 2011b 4 mg PO seq and 600 mg Rifampicin",
+            "Kharasch 2011b 4 mg PO simultaneous and 600 mg Rifampicin",
+            "Phimmasone 2001 15 µg/kg IV - control",
+            "Phimmasone 2001 0.015 µg/kg IV and 600 mg Rifampicin"
+          ]
+        },
+        {
+          "Project": "Alfentanil",
+          "Simulation": "Kharasch 2011b, Alfentanil PO 4 mg",
+          "Path": "Neighborhoods|ColonSigmoid_int_ColonSigmoid_cell|Alfentanil|P (interstitial->intracellular)",
+          "TargetSimulations": [
+            "Kharasch 1997 20 µg/kg IV - control",
+            "Kharasch 1997 20 µg/kg IV and Rifampicin",
+            "Kharasch 2004 15 µg/kg IV - control",
+            "Kharasch 2004 15 µg/kg IV and Rifampicin",
+            "Kharasch 2004 60 µg/kg PO - control",
+            "Kharasch 2004 60 µg/kg PO and Rifampicin",
+            "Kharasch 2011 15 µg/kg IV - control",
+            "Kharasch 2011 15 µg/kg IV and 5 mg Rifampicin",
+            "Kharasch 2011 15 µg/kg IV and 10 mg Rifampicin",
+            "Kharasch 2011 15 µg/kg IV and 25 mg Rifampicin",
+            "Kharasch 2011 15 µg/kg IV and 75 mg Rifampicin",
+            "Kharasch 2011 75 µg/kg PO and 5 mg Rifampicin",
+            "Kharasch 2011 75 µg/kg PO - control",
+            "Kharasch 2011 75 µg/kg PO and 10 mg Rifampicin",
+            "Kharasch 2011 75 µg/kg PO and 25 mg Rifampicin",
+            "Kharasch 2011 75 µg/kg PO and 75 mg Rifampicin",
+            "Kharasch 2011b IV 1mg - control",
+            "Kharasch 2011b PO 4mg - control",
+            "Kharasch 2011b 1 mg IV seq and 600 mg Rifampicin",
+            "Kharasch 2011b 1 mg IV simultaneous and 600 mg Rifampicin",
+            "Kharasch 2011b 4 mg PO seq and 600 mg Rifampicin",
+            "Kharasch 2011b 4 mg PO simultaneous and 600 mg Rifampicin",
+            "Phimmasone 2001 15 µg/kg IV - control",
+            "Phimmasone 2001 0.015 µg/kg IV and 600 mg Rifampicin"
+          ]
+        },
+        {
+          "Project": "Alfentanil",
+          "Simulation": "Kharasch 2011b, Alfentanil PO 4 mg",
+          "Path": "Neighborhoods|Rectum_int_Rectum_cell|Alfentanil|P (interstitial->intracellular)",
+          "TargetSimulations": [
+            "Kharasch 1997 20 µg/kg IV - control",
+            "Kharasch 1997 20 µg/kg IV and Rifampicin",
+            "Kharasch 2004 15 µg/kg IV - control",
+            "Kharasch 2004 15 µg/kg IV and Rifampicin",
+            "Kharasch 2004 60 µg/kg PO - control",
+            "Kharasch 2004 60 µg/kg PO and Rifampicin",
+            "Kharasch 2011 15 µg/kg IV - control",
+            "Kharasch 2011 15 µg/kg IV and 5 mg Rifampicin",
+            "Kharasch 2011 15 µg/kg IV and 10 mg Rifampicin",
+            "Kharasch 2011 15 µg/kg IV and 25 mg Rifampicin",
+            "Kharasch 2011 15 µg/kg IV and 75 mg Rifampicin",
+            "Kharasch 2011 75 µg/kg PO and 5 mg Rifampicin",
+            "Kharasch 2011 75 µg/kg PO - control",
+            "Kharasch 2011 75 µg/kg PO and 10 mg Rifampicin",
+            "Kharasch 2011 75 µg/kg PO and 25 mg Rifampicin",
+            "Kharasch 2011 75 µg/kg PO and 75 mg Rifampicin",
+            "Kharasch 2011b IV 1mg - control",
+            "Kharasch 2011b PO 4mg - control",
+            "Kharasch 2011b 1 mg IV seq and 600 mg Rifampicin",
+            "Kharasch 2011b 1 mg IV simultaneous and 600 mg Rifampicin",
+            "Kharasch 2011b 4 mg PO seq and 600 mg Rifampicin",
+            "Kharasch 2011b 4 mg PO simultaneous and 600 mg Rifampicin",
+            "Phimmasone 2001 15 µg/kg IV - control",
+            "Phimmasone 2001 0.015 µg/kg IV and 600 mg Rifampicin"
+          ]
+        },
+        {
+          "Project": "Alfentanil",
+          "Simulation": "Kharasch 2011b, Alfentanil PO 4 mg",
+          "Path": "Neighborhoods|Duodenum_int_Duodenum_cell|Alfentanil|P (intracellular->interstitial)",
+          "TargetSimulations": [
+            "Kharasch 1997 20 µg/kg IV - control",
+            "Kharasch 1997 20 µg/kg IV and Rifampicin",
+            "Kharasch 2004 15 µg/kg IV - control",
+            "Kharasch 2004 15 µg/kg IV and Rifampicin",
+            "Kharasch 2004 60 µg/kg PO - control",
+            "Kharasch 2004 60 µg/kg PO and Rifampicin",
+            "Kharasch 2011 15 µg/kg IV - control",
+            "Kharasch 2011 15 µg/kg IV and 5 mg Rifampicin",
+            "Kharasch 2011 15 µg/kg IV and 10 mg Rifampicin",
+            "Kharasch 2011 15 µg/kg IV and 25 mg Rifampicin",
+            "Kharasch 2011 15 µg/kg IV and 75 mg Rifampicin",
+            "Kharasch 2011 75 µg/kg PO and 5 mg Rifampicin",
+            "Kharasch 2011 75 µg/kg PO - control",
+            "Kharasch 2011 75 µg/kg PO and 10 mg Rifampicin",
+            "Kharasch 2011 75 µg/kg PO and 25 mg Rifampicin",
+            "Kharasch 2011 75 µg/kg PO and 75 mg Rifampicin",
+            "Kharasch 2011b IV 1mg - control",
+            "Kharasch 2011b PO 4mg - control",
+            "Kharasch 2011b 1 mg IV seq and 600 mg Rifampicin",
+            "Kharasch 2011b 1 mg IV simultaneous and 600 mg Rifampicin",
+            "Kharasch 2011b 4 mg PO seq and 600 mg Rifampicin",
+            "Kharasch 2011b 4 mg PO simultaneous and 600 mg Rifampicin",
+            "Phimmasone 2001 15 µg/kg IV - control",
+            "Phimmasone 2001 0.015 µg/kg IV and 600 mg Rifampicin"
+          ]
+        },
+        {
+          "Project": "Alfentanil",
+          "Simulation": "Kharasch 2011b, Alfentanil PO 4 mg",
+          "Path": "Neighborhoods|UpperJejunum_int_UpperJejunum_cell|Alfentanil|P (intracellular->interstitial)",
+          "TargetSimulations": [
+            "Kharasch 1997 20 µg/kg IV - control",
+            "Kharasch 1997 20 µg/kg IV and Rifampicin",
+            "Kharasch 2004 15 µg/kg IV - control",
+            "Kharasch 2004 15 µg/kg IV and Rifampicin",
+            "Kharasch 2004 60 µg/kg PO - control",
+            "Kharasch 2004 60 µg/kg PO and Rifampicin",
+            "Kharasch 2011 15 µg/kg IV - control",
+            "Kharasch 2011 15 µg/kg IV and 5 mg Rifampicin",
+            "Kharasch 2011 15 µg/kg IV and 10 mg Rifampicin",
+            "Kharasch 2011 15 µg/kg IV and 25 mg Rifampicin",
+            "Kharasch 2011 15 µg/kg IV and 75 mg Rifampicin",
+            "Kharasch 2011 75 µg/kg PO and 5 mg Rifampicin",
+            "Kharasch 2011 75 µg/kg PO - control",
+            "Kharasch 2011 75 µg/kg PO and 10 mg Rifampicin",
+            "Kharasch 2011 75 µg/kg PO and 25 mg Rifampicin",
+            "Kharasch 2011 75 µg/kg PO and 75 mg Rifampicin",
+            "Kharasch 2011b IV 1mg - control",
+            "Kharasch 2011b PO 4mg - control",
+            "Kharasch 2011b 1 mg IV seq and 600 mg Rifampicin",
+            "Kharasch 2011b 1 mg IV simultaneous and 600 mg Rifampicin",
+            "Kharasch 2011b 4 mg PO seq and 600 mg Rifampicin",
+            "Kharasch 2011b 4 mg PO simultaneous and 600 mg Rifampicin",
+            "Phimmasone 2001 15 µg/kg IV - control",
+            "Phimmasone 2001 0.015 µg/kg IV and 600 mg Rifampicin"
+          ]
+        },
+        {
+          "Project": "Alfentanil",
+          "Simulation": "Kharasch 2011b, Alfentanil PO 4 mg",
+          "Path": "Neighborhoods|LowerJejunum_int_LowerJejunum_cell|Alfentanil|P (intracellular->interstitial)",
+          "TargetSimulations": [
+            "Kharasch 1997 20 µg/kg IV - control",
+            "Kharasch 1997 20 µg/kg IV and Rifampicin",
+            "Kharasch 2004 15 µg/kg IV - control",
+            "Kharasch 2004 15 µg/kg IV and Rifampicin",
+            "Kharasch 2004 60 µg/kg PO - control",
+            "Kharasch 2004 60 µg/kg PO and Rifampicin",
+            "Kharasch 2011 15 µg/kg IV - control",
+            "Kharasch 2011 15 µg/kg IV and 5 mg Rifampicin",
+            "Kharasch 2011 15 µg/kg IV and 10 mg Rifampicin",
+            "Kharasch 2011 15 µg/kg IV and 25 mg Rifampicin",
+            "Kharasch 2011 15 µg/kg IV and 75 mg Rifampicin",
+            "Kharasch 2011 75 µg/kg PO and 5 mg Rifampicin",
+            "Kharasch 2011 75 µg/kg PO - control",
+            "Kharasch 2011 75 µg/kg PO and 10 mg Rifampicin",
+            "Kharasch 2011 75 µg/kg PO and 25 mg Rifampicin",
+            "Kharasch 2011 75 µg/kg PO and 75 mg Rifampicin",
+            "Kharasch 2011b IV 1mg - control",
+            "Kharasch 2011b PO 4mg - control",
+            "Kharasch 2011b 1 mg IV seq and 600 mg Rifampicin",
+            "Kharasch 2011b 1 mg IV simultaneous and 600 mg Rifampicin",
+            "Kharasch 2011b 4 mg PO seq and 600 mg Rifampicin",
+            "Kharasch 2011b 4 mg PO simultaneous and 600 mg Rifampicin",
+            "Phimmasone 2001 15 µg/kg IV - control",
+            "Phimmasone 2001 0.015 µg/kg IV and 600 mg Rifampicin"
+          ]
+        },
+        {
+          "Project": "Alfentanil",
+          "Simulation": "Kharasch 2011b, Alfentanil PO 4 mg",
+          "Path": "Neighborhoods|UpperIleum_int_UpperIleum_cell|Alfentanil|P (intracellular->interstitial)",
+          "TargetSimulations": [
+            "Kharasch 1997 20 µg/kg IV - control",
+            "Kharasch 1997 20 µg/kg IV and Rifampicin",
+            "Kharasch 2004 15 µg/kg IV - control",
+            "Kharasch 2004 15 µg/kg IV and Rifampicin",
+            "Kharasch 2004 60 µg/kg PO - control",
+            "Kharasch 2004 60 µg/kg PO and Rifampicin",
+            "Kharasch 2011 15 µg/kg IV - control",
+            "Kharasch 2011 15 µg/kg IV and 5 mg Rifampicin",
+            "Kharasch 2011 15 µg/kg IV and 10 mg Rifampicin",
+            "Kharasch 2011 15 µg/kg IV and 25 mg Rifampicin",
+            "Kharasch 2011 15 µg/kg IV and 75 mg Rifampicin",
+            "Kharasch 2011 75 µg/kg PO and 5 mg Rifampicin",
+            "Kharasch 2011 75 µg/kg PO - control",
+            "Kharasch 2011 75 µg/kg PO and 10 mg Rifampicin",
+            "Kharasch 2011 75 µg/kg PO and 25 mg Rifampicin",
+            "Kharasch 2011 75 µg/kg PO and 75 mg Rifampicin",
+            "Kharasch 2011b IV 1mg - control",
+            "Kharasch 2011b PO 4mg - control",
+            "Kharasch 2011b 1 mg IV seq and 600 mg Rifampicin",
+            "Kharasch 2011b 1 mg IV simultaneous and 600 mg Rifampicin",
+            "Kharasch 2011b 4 mg PO seq and 600 mg Rifampicin",
+            "Kharasch 2011b 4 mg PO simultaneous and 600 mg Rifampicin",
+            "Phimmasone 2001 15 µg/kg IV - control",
+            "Phimmasone 2001 0.015 µg/kg IV and 600 mg Rifampicin"
+          ]
+        },
+        {
+          "Project": "Alfentanil",
+          "Simulation": "Kharasch 2011b, Alfentanil PO 4 mg",
+          "Path": "Neighborhoods|LowerIleum_int_LowerIleum_cell|Alfentanil|P (intracellular->interstitial)",
+          "TargetSimulations": [
+            "Kharasch 1997 20 µg/kg IV - control",
+            "Kharasch 1997 20 µg/kg IV and Rifampicin",
+            "Kharasch 2004 15 µg/kg IV - control",
+            "Kharasch 2004 15 µg/kg IV and Rifampicin",
+            "Kharasch 2004 60 µg/kg PO - control",
+            "Kharasch 2004 60 µg/kg PO and Rifampicin",
+            "Kharasch 2011 15 µg/kg IV - control",
+            "Kharasch 2011 15 µg/kg IV and 5 mg Rifampicin",
+            "Kharasch 2011 15 µg/kg IV and 10 mg Rifampicin",
+            "Kharasch 2011 15 µg/kg IV and 25 mg Rifampicin",
+            "Kharasch 2011 15 µg/kg IV and 75 mg Rifampicin",
+            "Kharasch 2011 75 µg/kg PO and 5 mg Rifampicin",
+            "Kharasch 2011 75 µg/kg PO - control",
+            "Kharasch 2011 75 µg/kg PO and 10 mg Rifampicin",
+            "Kharasch 2011 75 µg/kg PO and 25 mg Rifampicin",
+            "Kharasch 2011 75 µg/kg PO and 75 mg Rifampicin",
+            "Kharasch 2011b IV 1mg - control",
+            "Kharasch 2011b PO 4mg - control",
+            "Kharasch 2011b 1 mg IV seq and 600 mg Rifampicin",
+            "Kharasch 2011b 1 mg IV simultaneous and 600 mg Rifampicin",
+            "Kharasch 2011b 4 mg PO seq and 600 mg Rifampicin",
+            "Kharasch 2011b 4 mg PO simultaneous and 600 mg Rifampicin",
+            "Phimmasone 2001 15 µg/kg IV - control",
+            "Phimmasone 2001 0.015 µg/kg IV and 600 mg Rifampicin"
+          ]
+        },
+        {
+          "Project": "Alfentanil",
+          "Simulation": "Kharasch 2011b, Alfentanil PO 4 mg",
+          "Path": "Neighborhoods|Caecum_int_Caecum_cell|Alfentanil|P (intracellular->interstitial)",
+          "TargetSimulations": [
+            "Kharasch 1997 20 µg/kg IV - control",
+            "Kharasch 1997 20 µg/kg IV and Rifampicin",
+            "Kharasch 2004 15 µg/kg IV - control",
+            "Kharasch 2004 15 µg/kg IV and Rifampicin",
+            "Kharasch 2004 60 µg/kg PO - control",
+            "Kharasch 2004 60 µg/kg PO and Rifampicin",
+            "Kharasch 2011 15 µg/kg IV - control",
+            "Kharasch 2011 15 µg/kg IV and 5 mg Rifampicin",
+            "Kharasch 2011 15 µg/kg IV and 10 mg Rifampicin",
+            "Kharasch 2011 15 µg/kg IV and 25 mg Rifampicin",
+            "Kharasch 2011 15 µg/kg IV and 75 mg Rifampicin",
+            "Kharasch 2011 75 µg/kg PO and 5 mg Rifampicin",
+            "Kharasch 2011 75 µg/kg PO - control",
+            "Kharasch 2011 75 µg/kg PO and 10 mg Rifampicin",
+            "Kharasch 2011 75 µg/kg PO and 25 mg Rifampicin",
+            "Kharasch 2011 75 µg/kg PO and 75 mg Rifampicin",
+            "Kharasch 2011b IV 1mg - control",
+            "Kharasch 2011b PO 4mg - control",
+            "Kharasch 2011b 1 mg IV seq and 600 mg Rifampicin",
+            "Kharasch 2011b 1 mg IV simultaneous and 600 mg Rifampicin",
+            "Kharasch 2011b 4 mg PO seq and 600 mg Rifampicin",
+            "Kharasch 2011b 4 mg PO simultaneous and 600 mg Rifampicin",
+            "Phimmasone 2001 15 µg/kg IV - control",
+            "Phimmasone 2001 0.015 µg/kg IV and 600 mg Rifampicin"
+          ]
+        },
+        {
+          "Project": "Alfentanil",
+          "Simulation": "Kharasch 2011b, Alfentanil PO 4 mg",
+          "Path": "Neighborhoods|ColonAscendens_int_ColonAscendens_cell|Alfentanil|P (intracellular->interstitial)",
+          "TargetSimulations": [
+            "Kharasch 1997 20 µg/kg IV - control",
+            "Kharasch 1997 20 µg/kg IV and Rifampicin",
+            "Kharasch 2004 15 µg/kg IV - control",
+            "Kharasch 2004 15 µg/kg IV and Rifampicin",
+            "Kharasch 2004 60 µg/kg PO - control",
+            "Kharasch 2004 60 µg/kg PO and Rifampicin",
+            "Kharasch 2011 15 µg/kg IV - control",
+            "Kharasch 2011 15 µg/kg IV and 5 mg Rifampicin",
+            "Kharasch 2011 15 µg/kg IV and 10 mg Rifampicin",
+            "Kharasch 2011 15 µg/kg IV and 25 mg Rifampicin",
+            "Kharasch 2011 15 µg/kg IV and 75 mg Rifampicin",
+            "Kharasch 2011 75 µg/kg PO and 5 mg Rifampicin",
+            "Kharasch 2011 75 µg/kg PO - control",
+            "Kharasch 2011 75 µg/kg PO and 10 mg Rifampicin",
+            "Kharasch 2011 75 µg/kg PO and 25 mg Rifampicin",
+            "Kharasch 2011 75 µg/kg PO and 75 mg Rifampicin",
+            "Kharasch 2011b IV 1mg - control",
+            "Kharasch 2011b PO 4mg - control",
+            "Kharasch 2011b 1 mg IV seq and 600 mg Rifampicin",
+            "Kharasch 2011b 1 mg IV simultaneous and 600 mg Rifampicin",
+            "Kharasch 2011b 4 mg PO seq and 600 mg Rifampicin",
+            "Kharasch 2011b 4 mg PO simultaneous and 600 mg Rifampicin",
+            "Phimmasone 2001 15 µg/kg IV - control",
+            "Phimmasone 2001 0.015 µg/kg IV and 600 mg Rifampicin"
+          ]
+        },
+        {
+          "Project": "Alfentanil",
+          "Simulation": "Kharasch 2011b, Alfentanil PO 4 mg",
+          "Path": "Neighborhoods|ColonTransversum_int_ColonTransversum_cell|Alfentanil|P (intracellular->interstitial)",
+          "TargetSimulations": [
+            "Kharasch 1997 20 µg/kg IV - control",
+            "Kharasch 1997 20 µg/kg IV and Rifampicin",
+            "Kharasch 2004 15 µg/kg IV - control",
+            "Kharasch 2004 15 µg/kg IV and Rifampicin",
+            "Kharasch 2004 60 µg/kg PO - control",
+            "Kharasch 2004 60 µg/kg PO and Rifampicin",
+            "Kharasch 2011 15 µg/kg IV - control",
+            "Kharasch 2011 15 µg/kg IV and 5 mg Rifampicin",
+            "Kharasch 2011 15 µg/kg IV and 10 mg Rifampicin",
+            "Kharasch 2011 15 µg/kg IV and 25 mg Rifampicin",
+            "Kharasch 2011 15 µg/kg IV and 75 mg Rifampicin",
+            "Kharasch 2011 75 µg/kg PO and 5 mg Rifampicin",
+            "Kharasch 2011 75 µg/kg PO - control",
+            "Kharasch 2011 75 µg/kg PO and 10 mg Rifampicin",
+            "Kharasch 2011 75 µg/kg PO and 25 mg Rifampicin",
+            "Kharasch 2011 75 µg/kg PO and 75 mg Rifampicin",
+            "Kharasch 2011b IV 1mg - control",
+            "Kharasch 2011b PO 4mg - control",
+            "Kharasch 2011b 1 mg IV seq and 600 mg Rifampicin",
+            "Kharasch 2011b 1 mg IV simultaneous and 600 mg Rifampicin",
+            "Kharasch 2011b 4 mg PO seq and 600 mg Rifampicin",
+            "Kharasch 2011b 4 mg PO simultaneous and 600 mg Rifampicin",
+            "Phimmasone 2001 15 µg/kg IV - control",
+            "Phimmasone 2001 0.015 µg/kg IV and 600 mg Rifampicin"
+          ]
+        },
+        {
+          "Project": "Alfentanil",
+          "Simulation": "Kharasch 2011b, Alfentanil PO 4 mg",
+          "Path": "Neighborhoods|ColonDescendens_int_ColonDescendens_cell|Alfentanil|P (intracellular->interstitial)",
+          "TargetSimulations": [
+            "Kharasch 1997 20 µg/kg IV - control",
+            "Kharasch 1997 20 µg/kg IV and Rifampicin",
+            "Kharasch 2004 15 µg/kg IV - control",
+            "Kharasch 2004 15 µg/kg IV and Rifampicin",
+            "Kharasch 2004 60 µg/kg PO - control",
+            "Kharasch 2004 60 µg/kg PO and Rifampicin",
+            "Kharasch 2011 15 µg/kg IV - control",
+            "Kharasch 2011 15 µg/kg IV and 5 mg Rifampicin",
+            "Kharasch 2011 15 µg/kg IV and 10 mg Rifampicin",
+            "Kharasch 2011 15 µg/kg IV and 25 mg Rifampicin",
+            "Kharasch 2011 15 µg/kg IV and 75 mg Rifampicin",
+            "Kharasch 2011 75 µg/kg PO and 5 mg Rifampicin",
+            "Kharasch 2011 75 µg/kg PO - control",
+            "Kharasch 2011 75 µg/kg PO and 10 mg Rifampicin",
+            "Kharasch 2011 75 µg/kg PO and 25 mg Rifampicin",
+            "Kharasch 2011 75 µg/kg PO and 75 mg Rifampicin",
+            "Kharasch 2011b IV 1mg - control",
+            "Kharasch 2011b PO 4mg - control",
+            "Kharasch 2011b 1 mg IV seq and 600 mg Rifampicin",
+            "Kharasch 2011b 1 mg IV simultaneous and 600 mg Rifampicin",
+            "Kharasch 2011b 4 mg PO seq and 600 mg Rifampicin",
+            "Kharasch 2011b 4 mg PO simultaneous and 600 mg Rifampicin",
+            "Phimmasone 2001 15 µg/kg IV - control",
+            "Phimmasone 2001 0.015 µg/kg IV and 600 mg Rifampicin"
+          ]
+        },
+        {
+          "Project": "Alfentanil",
+          "Simulation": "Kharasch 2011b, Alfentanil PO 4 mg",
+          "Path": "Neighborhoods|ColonSigmoid_int_ColonSigmoid_cell|Alfentanil|P (intracellular->interstitial)",
+          "TargetSimulations": [
+            "Kharasch 1997 20 µg/kg IV - control",
+            "Kharasch 1997 20 µg/kg IV and Rifampicin",
+            "Kharasch 2004 15 µg/kg IV - control",
+            "Kharasch 2004 15 µg/kg IV and Rifampicin",
+            "Kharasch 2004 60 µg/kg PO - control",
+            "Kharasch 2004 60 µg/kg PO and Rifampicin",
+            "Kharasch 2011 15 µg/kg IV - control",
+            "Kharasch 2011 15 µg/kg IV and 5 mg Rifampicin",
+            "Kharasch 2011 15 µg/kg IV and 10 mg Rifampicin",
+            "Kharasch 2011 15 µg/kg IV and 25 mg Rifampicin",
+            "Kharasch 2011 15 µg/kg IV and 75 mg Rifampicin",
+            "Kharasch 2011 75 µg/kg PO and 5 mg Rifampicin",
+            "Kharasch 2011 75 µg/kg PO - control",
+            "Kharasch 2011 75 µg/kg PO and 10 mg Rifampicin",
+            "Kharasch 2011 75 µg/kg PO and 25 mg Rifampicin",
+            "Kharasch 2011 75 µg/kg PO and 75 mg Rifampicin",
+            "Kharasch 2011b IV 1mg - control",
+            "Kharasch 2011b PO 4mg - control",
+            "Kharasch 2011b 1 mg IV seq and 600 mg Rifampicin",
+            "Kharasch 2011b 1 mg IV simultaneous and 600 mg Rifampicin",
+            "Kharasch 2011b 4 mg PO seq and 600 mg Rifampicin",
+            "Kharasch 2011b 4 mg PO simultaneous and 600 mg Rifampicin",
+            "Phimmasone 2001 15 µg/kg IV - control",
+            "Phimmasone 2001 0.015 µg/kg IV and 600 mg Rifampicin"
+          ]
+        },
+        {
+          "Project": "Alfentanil",
+          "Simulation": "Kharasch 2011b, Alfentanil PO 4 mg",
+          "Path": "Neighborhoods|Rectum_int_Rectum_cell|Alfentanil|P (intracellular->interstitial)",
+          "TargetSimulations": [
+            "Kharasch 1997 20 µg/kg IV - control",
+            "Kharasch 1997 20 µg/kg IV and Rifampicin",
+            "Kharasch 2004 15 µg/kg IV - control",
+            "Kharasch 2004 15 µg/kg IV and Rifampicin",
+            "Kharasch 2004 60 µg/kg PO - control",
+            "Kharasch 2004 60 µg/kg PO and Rifampicin",
+            "Kharasch 2011 15 µg/kg IV - control",
+            "Kharasch 2011 15 µg/kg IV and 5 mg Rifampicin",
+            "Kharasch 2011 15 µg/kg IV and 10 mg Rifampicin",
+            "Kharasch 2011 15 µg/kg IV and 25 mg Rifampicin",
+            "Kharasch 2011 15 µg/kg IV and 75 mg Rifampicin",
+            "Kharasch 2011 75 µg/kg PO and 5 mg Rifampicin",
+            "Kharasch 2011 75 µg/kg PO - control",
+            "Kharasch 2011 75 µg/kg PO and 10 mg Rifampicin",
+            "Kharasch 2011 75 µg/kg PO and 25 mg Rifampicin",
+            "Kharasch 2011 75 µg/kg PO and 75 mg Rifampicin",
+            "Kharasch 2011b IV 1mg - control",
+            "Kharasch 2011b PO 4mg - control",
+            "Kharasch 2011b 1 mg IV seq and 600 mg Rifampicin",
+            "Kharasch 2011b 1 mg IV simultaneous and 600 mg Rifampicin",
+            "Kharasch 2011b 4 mg PO seq and 600 mg Rifampicin",
+            "Kharasch 2011b 4 mg PO simultaneous and 600 mg Rifampicin",
+            "Phimmasone 2001 15 µg/kg IV - control",
+            "Phimmasone 2001 0.015 µg/kg IV and 600 mg Rifampicin"
+          ]
+        }
+      ]
+    },
+    {
+      "Id": "Fluvoxamine-Midazolam-DDI",
+      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Fluvoxamine-Midazolam-DDI/master/Fluvoxamine-Midazolam-DDI.json",
+      "BuildingBlocks": [
+        {
+          "Type": "Compound",
+          "Name": "Midazolam",
+          "Project": "Midazolam"
+        },
+        {
+          "Type": "Compound",
+          "Name": "Fluvoxamine",
+          "Project": "Fluvoxamine"
+        }
+      ],
+      "SimulationParameters": [
+        {
+          "Project": "Midazolam",
+          "Simulation": "po 3 mg (solution)",
+          "Path": "Neighborhoods|Duodenum_int_Duodenum_cell|Midazolam|P (interstitial->intracellular)",
+          "TargetSimulations": [
+            "Lam 2003, 10 mg SD, midazolam with fluvoxamine",
+            "Lam 2003, 10 mg, SD, midazolam control",
+            "DDI Treatment - Fluvoxamine/Midazolam - Kashuba 1998",
+            "DDI Control - Midazolam - Kashuba 1998"
           ]
         },
         {
@@ -1828,30 +2496,10 @@
           "Simulation": "po 3 mg (solution)",
           "Path": "Neighborhoods|UpperJejunum_int_UpperJejunum_cell|Midazolam|P (interstitial->intracellular)",
           "TargetSimulations": [
-            "Kharasch 1997 20 µg/kg IV - control",
-            "Kharasch 1997 20 µg/kg IV and Rifampicin",
-            "Kharasch 2004 15 µg/kg IV - control",
-            "Kharasch 2004 15 µg/kg IV and Rifampicin",
-            "Kharasch 2004 60 µg/kg PO - control",
-            "Kharasch 2004 60 µg/kg PO and Rifampicin",
-            "Kharasch 2011 15 µg/kg IV - control",
-            "Kharasch 2011 15 µg/kg IV and 5 mg Rifampicin",
-            "Kharasch 2011 15 µg/kg IV and 10 mg Rifampicin",
-            "Kharasch 2011 15 µg/kg IV and 25 mg Rifampicin",
-            "Kharasch 2011 15 µg/kg IV and 75 mg Rifampicin",
-            "Kharasch 2011 75 µg/kg PO and 5 mg Rifampicin",
-            "Kharasch 2011 75 µg/kg PO - control",
-            "Kharasch 2011 75 µg/kg PO and 10 mg Rifampicin",
-            "Kharasch 2011 75 µg/kg PO and 25 mg Rifampicin",
-            "Kharasch 2011 75 µg/kg PO and 75 mg Rifampicin",
-            "Kharasch 2011b IV 1mg - control",
-            "Kharasch 2011b PO 4mg - control",
-            "Kharasch 2011b 1 mg IV seq and 600 mg Rifampicin",
-            "Kharasch 2011b 1 mg IV simultaneous and 600 mg Rifampicin",
-            "Kharasch 2011b 4 mg PO seq and 600 mg Rifampicin",
-            "Kharasch 2011b 4 mg PO simultaneous and 600 mg Rifampicin",
-            "Phimmasone 2001 15 µg/kg IV - control",
-            "Phimmasone 2001 0.015 µg/kg IV and 600 mg Rifampicin"
+            "Lam 2003, 10 mg SD, midazolam with fluvoxamine",
+            "Lam 2003, 10 mg, SD, midazolam control",
+            "DDI Treatment - Fluvoxamine/Midazolam - Kashuba 1998",
+            "DDI Control - Midazolam - Kashuba 1998"
           ]
         },
         {
@@ -1859,30 +2507,10 @@
           "Simulation": "po 3 mg (solution)",
           "Path": "Neighborhoods|LowerJejunum_int_LowerJejunum_cell|Midazolam|P (interstitial->intracellular)",
           "TargetSimulations": [
-            "Kharasch 1997 20 µg/kg IV - control",
-            "Kharasch 1997 20 µg/kg IV and Rifampicin",
-            "Kharasch 2004 15 µg/kg IV - control",
-            "Kharasch 2004 15 µg/kg IV and Rifampicin",
-            "Kharasch 2004 60 µg/kg PO - control",
-            "Kharasch 2004 60 µg/kg PO and Rifampicin",
-            "Kharasch 2011 15 µg/kg IV - control",
-            "Kharasch 2011 15 µg/kg IV and 5 mg Rifampicin",
-            "Kharasch 2011 15 µg/kg IV and 10 mg Rifampicin",
-            "Kharasch 2011 15 µg/kg IV and 25 mg Rifampicin",
-            "Kharasch 2011 15 µg/kg IV and 75 mg Rifampicin",
-            "Kharasch 2011 75 µg/kg PO and 5 mg Rifampicin",
-            "Kharasch 2011 75 µg/kg PO - control",
-            "Kharasch 2011 75 µg/kg PO and 10 mg Rifampicin",
-            "Kharasch 2011 75 µg/kg PO and 25 mg Rifampicin",
-            "Kharasch 2011 75 µg/kg PO and 75 mg Rifampicin",
-            "Kharasch 2011b IV 1mg - control",
-            "Kharasch 2011b PO 4mg - control",
-            "Kharasch 2011b 1 mg IV seq and 600 mg Rifampicin",
-            "Kharasch 2011b 1 mg IV simultaneous and 600 mg Rifampicin",
-            "Kharasch 2011b 4 mg PO seq and 600 mg Rifampicin",
-            "Kharasch 2011b 4 mg PO simultaneous and 600 mg Rifampicin",
-            "Phimmasone 2001 15 µg/kg IV - control",
-            "Phimmasone 2001 0.015 µg/kg IV and 600 mg Rifampicin"
+            "Lam 2003, 10 mg SD, midazolam with fluvoxamine",
+            "Lam 2003, 10 mg, SD, midazolam control",
+            "DDI Treatment - Fluvoxamine/Midazolam - Kashuba 1998",
+            "DDI Control - Midazolam - Kashuba 1998"
           ]
         },
         {
@@ -1890,30 +2518,10 @@
           "Simulation": "po 3 mg (solution)",
           "Path": "Neighborhoods|UpperIleum_int_UpperIleum_cell|Midazolam|P (interstitial->intracellular)",
           "TargetSimulations": [
-            "Kharasch 1997 20 µg/kg IV - control",
-            "Kharasch 1997 20 µg/kg IV and Rifampicin",
-            "Kharasch 2004 15 µg/kg IV - control",
-            "Kharasch 2004 15 µg/kg IV and Rifampicin",
-            "Kharasch 2004 60 µg/kg PO - control",
-            "Kharasch 2004 60 µg/kg PO and Rifampicin",
-            "Kharasch 2011 15 µg/kg IV - control",
-            "Kharasch 2011 15 µg/kg IV and 5 mg Rifampicin",
-            "Kharasch 2011 15 µg/kg IV and 10 mg Rifampicin",
-            "Kharasch 2011 15 µg/kg IV and 25 mg Rifampicin",
-            "Kharasch 2011 15 µg/kg IV and 75 mg Rifampicin",
-            "Kharasch 2011 75 µg/kg PO and 5 mg Rifampicin",
-            "Kharasch 2011 75 µg/kg PO - control",
-            "Kharasch 2011 75 µg/kg PO and 10 mg Rifampicin",
-            "Kharasch 2011 75 µg/kg PO and 25 mg Rifampicin",
-            "Kharasch 2011 75 µg/kg PO and 75 mg Rifampicin",
-            "Kharasch 2011b IV 1mg - control",
-            "Kharasch 2011b PO 4mg - control",
-            "Kharasch 2011b 1 mg IV seq and 600 mg Rifampicin",
-            "Kharasch 2011b 1 mg IV simultaneous and 600 mg Rifampicin",
-            "Kharasch 2011b 4 mg PO seq and 600 mg Rifampicin",
-            "Kharasch 2011b 4 mg PO simultaneous and 600 mg Rifampicin",
-            "Phimmasone 2001 15 µg/kg IV - control",
-            "Phimmasone 2001 0.015 µg/kg IV and 600 mg Rifampicin"
+            "Lam 2003, 10 mg SD, midazolam with fluvoxamine",
+            "Lam 2003, 10 mg, SD, midazolam control",
+            "DDI Treatment - Fluvoxamine/Midazolam - Kashuba 1998",
+            "DDI Control - Midazolam - Kashuba 1998"
           ]
         },
         {
@@ -1921,30 +2529,10 @@
           "Simulation": "po 3 mg (solution)",
           "Path": "Neighborhoods|LowerIleum_int_LowerIleum_cell|Midazolam|P (interstitial->intracellular)",
           "TargetSimulations": [
-            "Kharasch 1997 20 µg/kg IV - control",
-            "Kharasch 1997 20 µg/kg IV and Rifampicin",
-            "Kharasch 2004 15 µg/kg IV - control",
-            "Kharasch 2004 15 µg/kg IV and Rifampicin",
-            "Kharasch 2004 60 µg/kg PO - control",
-            "Kharasch 2004 60 µg/kg PO and Rifampicin",
-            "Kharasch 2011 15 µg/kg IV - control",
-            "Kharasch 2011 15 µg/kg IV and 5 mg Rifampicin",
-            "Kharasch 2011 15 µg/kg IV and 10 mg Rifampicin",
-            "Kharasch 2011 15 µg/kg IV and 25 mg Rifampicin",
-            "Kharasch 2011 15 µg/kg IV and 75 mg Rifampicin",
-            "Kharasch 2011 75 µg/kg PO and 5 mg Rifampicin",
-            "Kharasch 2011 75 µg/kg PO - control",
-            "Kharasch 2011 75 µg/kg PO and 10 mg Rifampicin",
-            "Kharasch 2011 75 µg/kg PO and 25 mg Rifampicin",
-            "Kharasch 2011 75 µg/kg PO and 75 mg Rifampicin",
-            "Kharasch 2011b IV 1mg - control",
-            "Kharasch 2011b PO 4mg - control",
-            "Kharasch 2011b 1 mg IV seq and 600 mg Rifampicin",
-            "Kharasch 2011b 1 mg IV simultaneous and 600 mg Rifampicin",
-            "Kharasch 2011b 4 mg PO seq and 600 mg Rifampicin",
-            "Kharasch 2011b 4 mg PO simultaneous and 600 mg Rifampicin",
-            "Phimmasone 2001 15 µg/kg IV - control",
-            "Phimmasone 2001 0.015 µg/kg IV and 600 mg Rifampicin"
+            "Lam 2003, 10 mg SD, midazolam with fluvoxamine",
+            "Lam 2003, 10 mg, SD, midazolam control",
+            "DDI Treatment - Fluvoxamine/Midazolam - Kashuba 1998",
+            "DDI Control - Midazolam - Kashuba 1998"
           ]
         },
         {
@@ -1952,30 +2540,10 @@
           "Simulation": "po 3 mg (solution)",
           "Path": "Neighborhoods|Caecum_int_Caecum_cell|Midazolam|P (interstitial->intracellular)",
           "TargetSimulations": [
-            "Kharasch 1997 20 µg/kg IV - control",
-            "Kharasch 1997 20 µg/kg IV and Rifampicin",
-            "Kharasch 2004 15 µg/kg IV - control",
-            "Kharasch 2004 15 µg/kg IV and Rifampicin",
-            "Kharasch 2004 60 µg/kg PO - control",
-            "Kharasch 2004 60 µg/kg PO and Rifampicin",
-            "Kharasch 2011 15 µg/kg IV - control",
-            "Kharasch 2011 15 µg/kg IV and 5 mg Rifampicin",
-            "Kharasch 2011 15 µg/kg IV and 10 mg Rifampicin",
-            "Kharasch 2011 15 µg/kg IV and 25 mg Rifampicin",
-            "Kharasch 2011 15 µg/kg IV and 75 mg Rifampicin",
-            "Kharasch 2011 75 µg/kg PO and 5 mg Rifampicin",
-            "Kharasch 2011 75 µg/kg PO - control",
-            "Kharasch 2011 75 µg/kg PO and 10 mg Rifampicin",
-            "Kharasch 2011 75 µg/kg PO and 25 mg Rifampicin",
-            "Kharasch 2011 75 µg/kg PO and 75 mg Rifampicin",
-            "Kharasch 2011b IV 1mg - control",
-            "Kharasch 2011b PO 4mg - control",
-            "Kharasch 2011b 1 mg IV seq and 600 mg Rifampicin",
-            "Kharasch 2011b 1 mg IV simultaneous and 600 mg Rifampicin",
-            "Kharasch 2011b 4 mg PO seq and 600 mg Rifampicin",
-            "Kharasch 2011b 4 mg PO simultaneous and 600 mg Rifampicin",
-            "Phimmasone 2001 15 µg/kg IV - control",
-            "Phimmasone 2001 0.015 µg/kg IV and 600 mg Rifampicin"
+            "Lam 2003, 10 mg SD, midazolam with fluvoxamine",
+            "Lam 2003, 10 mg, SD, midazolam control",
+            "DDI Treatment - Fluvoxamine/Midazolam - Kashuba 1998",
+            "DDI Control - Midazolam - Kashuba 1998"
           ]
         },
         {
@@ -1983,30 +2551,10 @@
           "Simulation": "po 3 mg (solution)",
           "Path": "Neighborhoods|ColonAscendens_int_ColonAscendens_cell|Midazolam|P (interstitial->intracellular)",
           "TargetSimulations": [
-            "Kharasch 1997 20 µg/kg IV - control",
-            "Kharasch 1997 20 µg/kg IV and Rifampicin",
-            "Kharasch 2004 15 µg/kg IV - control",
-            "Kharasch 2004 15 µg/kg IV and Rifampicin",
-            "Kharasch 2004 60 µg/kg PO - control",
-            "Kharasch 2004 60 µg/kg PO and Rifampicin",
-            "Kharasch 2011 15 µg/kg IV - control",
-            "Kharasch 2011 15 µg/kg IV and 5 mg Rifampicin",
-            "Kharasch 2011 15 µg/kg IV and 10 mg Rifampicin",
-            "Kharasch 2011 15 µg/kg IV and 25 mg Rifampicin",
-            "Kharasch 2011 15 µg/kg IV and 75 mg Rifampicin",
-            "Kharasch 2011 75 µg/kg PO and 5 mg Rifampicin",
-            "Kharasch 2011 75 µg/kg PO - control",
-            "Kharasch 2011 75 µg/kg PO and 10 mg Rifampicin",
-            "Kharasch 2011 75 µg/kg PO and 25 mg Rifampicin",
-            "Kharasch 2011 75 µg/kg PO and 75 mg Rifampicin",
-            "Kharasch 2011b IV 1mg - control",
-            "Kharasch 2011b PO 4mg - control",
-            "Kharasch 2011b 1 mg IV seq and 600 mg Rifampicin",
-            "Kharasch 2011b 1 mg IV simultaneous and 600 mg Rifampicin",
-            "Kharasch 2011b 4 mg PO seq and 600 mg Rifampicin",
-            "Kharasch 2011b 4 mg PO simultaneous and 600 mg Rifampicin",
-            "Phimmasone 2001 15 µg/kg IV - control",
-            "Phimmasone 2001 0.015 µg/kg IV and 600 mg Rifampicin"
+            "Lam 2003, 10 mg SD, midazolam with fluvoxamine",
+            "Lam 2003, 10 mg, SD, midazolam control",
+            "DDI Treatment - Fluvoxamine/Midazolam - Kashuba 1998",
+            "DDI Control - Midazolam - Kashuba 1998"
           ]
         },
         {
@@ -2014,30 +2562,10 @@
           "Simulation": "po 3 mg (solution)",
           "Path": "Neighborhoods|ColonTransversum_int_ColonTransversum_cell|Midazolam|P (interstitial->intracellular)",
           "TargetSimulations": [
-            "Kharasch 1997 20 µg/kg IV - control",
-            "Kharasch 1997 20 µg/kg IV and Rifampicin",
-            "Kharasch 2004 15 µg/kg IV - control",
-            "Kharasch 2004 15 µg/kg IV and Rifampicin",
-            "Kharasch 2004 60 µg/kg PO - control",
-            "Kharasch 2004 60 µg/kg PO and Rifampicin",
-            "Kharasch 2011 15 µg/kg IV - control",
-            "Kharasch 2011 15 µg/kg IV and 5 mg Rifampicin",
-            "Kharasch 2011 15 µg/kg IV and 10 mg Rifampicin",
-            "Kharasch 2011 15 µg/kg IV and 25 mg Rifampicin",
-            "Kharasch 2011 15 µg/kg IV and 75 mg Rifampicin",
-            "Kharasch 2011 75 µg/kg PO and 5 mg Rifampicin",
-            "Kharasch 2011 75 µg/kg PO - control",
-            "Kharasch 2011 75 µg/kg PO and 10 mg Rifampicin",
-            "Kharasch 2011 75 µg/kg PO and 25 mg Rifampicin",
-            "Kharasch 2011 75 µg/kg PO and 75 mg Rifampicin",
-            "Kharasch 2011b IV 1mg - control",
-            "Kharasch 2011b PO 4mg - control",
-            "Kharasch 2011b 1 mg IV seq and 600 mg Rifampicin",
-            "Kharasch 2011b 1 mg IV simultaneous and 600 mg Rifampicin",
-            "Kharasch 2011b 4 mg PO seq and 600 mg Rifampicin",
-            "Kharasch 2011b 4 mg PO simultaneous and 600 mg Rifampicin",
-            "Phimmasone 2001 15 µg/kg IV - control",
-            "Phimmasone 2001 0.015 µg/kg IV and 600 mg Rifampicin"
+            "Lam 2003, 10 mg SD, midazolam with fluvoxamine",
+            "Lam 2003, 10 mg, SD, midazolam control",
+            "DDI Treatment - Fluvoxamine/Midazolam - Kashuba 1998",
+            "DDI Control - Midazolam - Kashuba 1998"
           ]
         },
         {
@@ -2045,30 +2573,10 @@
           "Simulation": "po 3 mg (solution)",
           "Path": "Neighborhoods|ColonDescendens_int_ColonDescendens_cell|Midazolam|P (interstitial->intracellular)",
           "TargetSimulations": [
-            "Kharasch 1997 20 µg/kg IV - control",
-            "Kharasch 1997 20 µg/kg IV and Rifampicin",
-            "Kharasch 2004 15 µg/kg IV - control",
-            "Kharasch 2004 15 µg/kg IV and Rifampicin",
-            "Kharasch 2004 60 µg/kg PO - control",
-            "Kharasch 2004 60 µg/kg PO and Rifampicin",
-            "Kharasch 2011 15 µg/kg IV - control",
-            "Kharasch 2011 15 µg/kg IV and 5 mg Rifampicin",
-            "Kharasch 2011 15 µg/kg IV and 10 mg Rifampicin",
-            "Kharasch 2011 15 µg/kg IV and 25 mg Rifampicin",
-            "Kharasch 2011 15 µg/kg IV and 75 mg Rifampicin",
-            "Kharasch 2011 75 µg/kg PO and 5 mg Rifampicin",
-            "Kharasch 2011 75 µg/kg PO - control",
-            "Kharasch 2011 75 µg/kg PO and 10 mg Rifampicin",
-            "Kharasch 2011 75 µg/kg PO and 25 mg Rifampicin",
-            "Kharasch 2011 75 µg/kg PO and 75 mg Rifampicin",
-            "Kharasch 2011b IV 1mg - control",
-            "Kharasch 2011b PO 4mg - control",
-            "Kharasch 2011b 1 mg IV seq and 600 mg Rifampicin",
-            "Kharasch 2011b 1 mg IV simultaneous and 600 mg Rifampicin",
-            "Kharasch 2011b 4 mg PO seq and 600 mg Rifampicin",
-            "Kharasch 2011b 4 mg PO simultaneous and 600 mg Rifampicin",
-            "Phimmasone 2001 15 µg/kg IV - control",
-            "Phimmasone 2001 0.015 µg/kg IV and 600 mg Rifampicin"
+            "Lam 2003, 10 mg SD, midazolam with fluvoxamine",
+            "Lam 2003, 10 mg, SD, midazolam control",
+            "DDI Treatment - Fluvoxamine/Midazolam - Kashuba 1998",
+            "DDI Control - Midazolam - Kashuba 1998"
           ]
         },
         {
@@ -2076,30 +2584,10 @@
           "Simulation": "po 3 mg (solution)",
           "Path": "Neighborhoods|ColonSigmoid_int_ColonSigmoid_cell|Midazolam|P (interstitial->intracellular)",
           "TargetSimulations": [
-            "Kharasch 1997 20 µg/kg IV - control",
-            "Kharasch 1997 20 µg/kg IV and Rifampicin",
-            "Kharasch 2004 15 µg/kg IV - control",
-            "Kharasch 2004 15 µg/kg IV and Rifampicin",
-            "Kharasch 2004 60 µg/kg PO - control",
-            "Kharasch 2004 60 µg/kg PO and Rifampicin",
-            "Kharasch 2011 15 µg/kg IV - control",
-            "Kharasch 2011 15 µg/kg IV and 5 mg Rifampicin",
-            "Kharasch 2011 15 µg/kg IV and 10 mg Rifampicin",
-            "Kharasch 2011 15 µg/kg IV and 25 mg Rifampicin",
-            "Kharasch 2011 15 µg/kg IV and 75 mg Rifampicin",
-            "Kharasch 2011 75 µg/kg PO and 5 mg Rifampicin",
-            "Kharasch 2011 75 µg/kg PO - control",
-            "Kharasch 2011 75 µg/kg PO and 10 mg Rifampicin",
-            "Kharasch 2011 75 µg/kg PO and 25 mg Rifampicin",
-            "Kharasch 2011 75 µg/kg PO and 75 mg Rifampicin",
-            "Kharasch 2011b IV 1mg - control",
-            "Kharasch 2011b PO 4mg - control",
-            "Kharasch 2011b 1 mg IV seq and 600 mg Rifampicin",
-            "Kharasch 2011b 1 mg IV simultaneous and 600 mg Rifampicin",
-            "Kharasch 2011b 4 mg PO seq and 600 mg Rifampicin",
-            "Kharasch 2011b 4 mg PO simultaneous and 600 mg Rifampicin",
-            "Phimmasone 2001 15 µg/kg IV - control",
-            "Phimmasone 2001 0.015 µg/kg IV and 600 mg Rifampicin"
+            "Lam 2003, 10 mg SD, midazolam with fluvoxamine",
+            "Lam 2003, 10 mg, SD, midazolam control",
+            "DDI Treatment - Fluvoxamine/Midazolam - Kashuba 1998",
+            "DDI Control - Midazolam - Kashuba 1998"
           ]
         },
         {
@@ -2107,30 +2595,10 @@
           "Simulation": "po 3 mg (solution)",
           "Path": "Neighborhoods|Rectum_int_Rectum_cell|Midazolam|P (interstitial->intracellular)",
           "TargetSimulations": [
-            "Kharasch 1997 20 µg/kg IV - control",
-            "Kharasch 1997 20 µg/kg IV and Rifampicin",
-            "Kharasch 2004 15 µg/kg IV - control",
-            "Kharasch 2004 15 µg/kg IV and Rifampicin",
-            "Kharasch 2004 60 µg/kg PO - control",
-            "Kharasch 2004 60 µg/kg PO and Rifampicin",
-            "Kharasch 2011 15 µg/kg IV - control",
-            "Kharasch 2011 15 µg/kg IV and 5 mg Rifampicin",
-            "Kharasch 2011 15 µg/kg IV and 10 mg Rifampicin",
-            "Kharasch 2011 15 µg/kg IV and 25 mg Rifampicin",
-            "Kharasch 2011 15 µg/kg IV and 75 mg Rifampicin",
-            "Kharasch 2011 75 µg/kg PO and 5 mg Rifampicin",
-            "Kharasch 2011 75 µg/kg PO - control",
-            "Kharasch 2011 75 µg/kg PO and 10 mg Rifampicin",
-            "Kharasch 2011 75 µg/kg PO and 25 mg Rifampicin",
-            "Kharasch 2011 75 µg/kg PO and 75 mg Rifampicin",
-            "Kharasch 2011b IV 1mg - control",
-            "Kharasch 2011b PO 4mg - control",
-            "Kharasch 2011b 1 mg IV seq and 600 mg Rifampicin",
-            "Kharasch 2011b 1 mg IV simultaneous and 600 mg Rifampicin",
-            "Kharasch 2011b 4 mg PO seq and 600 mg Rifampicin",
-            "Kharasch 2011b 4 mg PO simultaneous and 600 mg Rifampicin",
-            "Phimmasone 2001 15 µg/kg IV - control",
-            "Phimmasone 2001 0.015 µg/kg IV and 600 mg Rifampicin"
+            "Lam 2003, 10 mg SD, midazolam with fluvoxamine",
+            "Lam 2003, 10 mg, SD, midazolam control",
+            "DDI Treatment - Fluvoxamine/Midazolam - Kashuba 1998",
+            "DDI Control - Midazolam - Kashuba 1998"
           ]
         },
         {
@@ -2138,30 +2606,10 @@
           "Simulation": "po 3 mg (solution)",
           "Path": "Neighborhoods|Duodenum_int_Duodenum_cell|Midazolam|P (intracellular->interstitial)",
           "TargetSimulations": [
-            "Kharasch 1997 20 µg/kg IV - control",
-            "Kharasch 1997 20 µg/kg IV and Rifampicin",
-            "Kharasch 2004 15 µg/kg IV - control",
-            "Kharasch 2004 15 µg/kg IV and Rifampicin",
-            "Kharasch 2004 60 µg/kg PO - control",
-            "Kharasch 2004 60 µg/kg PO and Rifampicin",
-            "Kharasch 2011 15 µg/kg IV - control",
-            "Kharasch 2011 15 µg/kg IV and 5 mg Rifampicin",
-            "Kharasch 2011 15 µg/kg IV and 10 mg Rifampicin",
-            "Kharasch 2011 15 µg/kg IV and 25 mg Rifampicin",
-            "Kharasch 2011 15 µg/kg IV and 75 mg Rifampicin",
-            "Kharasch 2011 75 µg/kg PO and 5 mg Rifampicin",
-            "Kharasch 2011 75 µg/kg PO - control",
-            "Kharasch 2011 75 µg/kg PO and 10 mg Rifampicin",
-            "Kharasch 2011 75 µg/kg PO and 25 mg Rifampicin",
-            "Kharasch 2011 75 µg/kg PO and 75 mg Rifampicin",
-            "Kharasch 2011b IV 1mg - control",
-            "Kharasch 2011b PO 4mg - control",
-            "Kharasch 2011b 1 mg IV seq and 600 mg Rifampicin",
-            "Kharasch 2011b 1 mg IV simultaneous and 600 mg Rifampicin",
-            "Kharasch 2011b 4 mg PO seq and 600 mg Rifampicin",
-            "Kharasch 2011b 4 mg PO simultaneous and 600 mg Rifampicin",
-            "Phimmasone 2001 15 µg/kg IV - control",
-            "Phimmasone 2001 0.015 µg/kg IV and 600 mg Rifampicin"
+            "Lam 2003, 10 mg SD, midazolam with fluvoxamine",
+            "Lam 2003, 10 mg, SD, midazolam control",
+            "DDI Treatment - Fluvoxamine/Midazolam - Kashuba 1998",
+            "DDI Control - Midazolam - Kashuba 1998"
           ]
         },
         {
@@ -2169,30 +2617,10 @@
           "Simulation": "po 3 mg (solution)",
           "Path": "Neighborhoods|UpperJejunum_int_UpperJejunum_cell|Midazolam|P (intracellular->interstitial)",
           "TargetSimulations": [
-            "Kharasch 1997 20 µg/kg IV - control",
-            "Kharasch 1997 20 µg/kg IV and Rifampicin",
-            "Kharasch 2004 15 µg/kg IV - control",
-            "Kharasch 2004 15 µg/kg IV and Rifampicin",
-            "Kharasch 2004 60 µg/kg PO - control",
-            "Kharasch 2004 60 µg/kg PO and Rifampicin",
-            "Kharasch 2011 15 µg/kg IV - control",
-            "Kharasch 2011 15 µg/kg IV and 5 mg Rifampicin",
-            "Kharasch 2011 15 µg/kg IV and 10 mg Rifampicin",
-            "Kharasch 2011 15 µg/kg IV and 25 mg Rifampicin",
-            "Kharasch 2011 15 µg/kg IV and 75 mg Rifampicin",
-            "Kharasch 2011 75 µg/kg PO and 5 mg Rifampicin",
-            "Kharasch 2011 75 µg/kg PO - control",
-            "Kharasch 2011 75 µg/kg PO and 10 mg Rifampicin",
-            "Kharasch 2011 75 µg/kg PO and 25 mg Rifampicin",
-            "Kharasch 2011 75 µg/kg PO and 75 mg Rifampicin",
-            "Kharasch 2011b IV 1mg - control",
-            "Kharasch 2011b PO 4mg - control",
-            "Kharasch 2011b 1 mg IV seq and 600 mg Rifampicin",
-            "Kharasch 2011b 1 mg IV simultaneous and 600 mg Rifampicin",
-            "Kharasch 2011b 4 mg PO seq and 600 mg Rifampicin",
-            "Kharasch 2011b 4 mg PO simultaneous and 600 mg Rifampicin",
-            "Phimmasone 2001 15 µg/kg IV - control",
-            "Phimmasone 2001 0.015 µg/kg IV and 600 mg Rifampicin"
+            "Lam 2003, 10 mg SD, midazolam with fluvoxamine",
+            "Lam 2003, 10 mg, SD, midazolam control",
+            "DDI Treatment - Fluvoxamine/Midazolam - Kashuba 1998",
+            "DDI Control - Midazolam - Kashuba 1998"
           ]
         },
         {
@@ -2200,30 +2628,10 @@
           "Simulation": "po 3 mg (solution)",
           "Path": "Neighborhoods|LowerJejunum_int_LowerJejunum_cell|Midazolam|P (intracellular->interstitial)",
           "TargetSimulations": [
-            "Kharasch 1997 20 µg/kg IV - control",
-            "Kharasch 1997 20 µg/kg IV and Rifampicin",
-            "Kharasch 2004 15 µg/kg IV - control",
-            "Kharasch 2004 15 µg/kg IV and Rifampicin",
-            "Kharasch 2004 60 µg/kg PO - control",
-            "Kharasch 2004 60 µg/kg PO and Rifampicin",
-            "Kharasch 2011 15 µg/kg IV - control",
-            "Kharasch 2011 15 µg/kg IV and 5 mg Rifampicin",
-            "Kharasch 2011 15 µg/kg IV and 10 mg Rifampicin",
-            "Kharasch 2011 15 µg/kg IV and 25 mg Rifampicin",
-            "Kharasch 2011 15 µg/kg IV and 75 mg Rifampicin",
-            "Kharasch 2011 75 µg/kg PO and 5 mg Rifampicin",
-            "Kharasch 2011 75 µg/kg PO - control",
-            "Kharasch 2011 75 µg/kg PO and 10 mg Rifampicin",
-            "Kharasch 2011 75 µg/kg PO and 25 mg Rifampicin",
-            "Kharasch 2011 75 µg/kg PO and 75 mg Rifampicin",
-            "Kharasch 2011b IV 1mg - control",
-            "Kharasch 2011b PO 4mg - control",
-            "Kharasch 2011b 1 mg IV seq and 600 mg Rifampicin",
-            "Kharasch 2011b 1 mg IV simultaneous and 600 mg Rifampicin",
-            "Kharasch 2011b 4 mg PO seq and 600 mg Rifampicin",
-            "Kharasch 2011b 4 mg PO simultaneous and 600 mg Rifampicin",
-            "Phimmasone 2001 15 µg/kg IV - control",
-            "Phimmasone 2001 0.015 µg/kg IV and 600 mg Rifampicin"
+            "Lam 2003, 10 mg SD, midazolam with fluvoxamine",
+            "Lam 2003, 10 mg, SD, midazolam control",
+            "DDI Treatment - Fluvoxamine/Midazolam - Kashuba 1998",
+            "DDI Control - Midazolam - Kashuba 1998"
           ]
         },
         {
@@ -2231,30 +2639,10 @@
           "Simulation": "po 3 mg (solution)",
           "Path": "Neighborhoods|UpperIleum_int_UpperIleum_cell|Midazolam|P (intracellular->interstitial)",
           "TargetSimulations": [
-            "Kharasch 1997 20 µg/kg IV - control",
-            "Kharasch 1997 20 µg/kg IV and Rifampicin",
-            "Kharasch 2004 15 µg/kg IV - control",
-            "Kharasch 2004 15 µg/kg IV and Rifampicin",
-            "Kharasch 2004 60 µg/kg PO - control",
-            "Kharasch 2004 60 µg/kg PO and Rifampicin",
-            "Kharasch 2011 15 µg/kg IV - control",
-            "Kharasch 2011 15 µg/kg IV and 5 mg Rifampicin",
-            "Kharasch 2011 15 µg/kg IV and 10 mg Rifampicin",
-            "Kharasch 2011 15 µg/kg IV and 25 mg Rifampicin",
-            "Kharasch 2011 15 µg/kg IV and 75 mg Rifampicin",
-            "Kharasch 2011 75 µg/kg PO and 5 mg Rifampicin",
-            "Kharasch 2011 75 µg/kg PO - control",
-            "Kharasch 2011 75 µg/kg PO and 10 mg Rifampicin",
-            "Kharasch 2011 75 µg/kg PO and 25 mg Rifampicin",
-            "Kharasch 2011 75 µg/kg PO and 75 mg Rifampicin",
-            "Kharasch 2011b IV 1mg - control",
-            "Kharasch 2011b PO 4mg - control",
-            "Kharasch 2011b 1 mg IV seq and 600 mg Rifampicin",
-            "Kharasch 2011b 1 mg IV simultaneous and 600 mg Rifampicin",
-            "Kharasch 2011b 4 mg PO seq and 600 mg Rifampicin",
-            "Kharasch 2011b 4 mg PO simultaneous and 600 mg Rifampicin",
-            "Phimmasone 2001 15 µg/kg IV - control",
-            "Phimmasone 2001 0.015 µg/kg IV and 600 mg Rifampicin"
+            "Lam 2003, 10 mg SD, midazolam with fluvoxamine",
+            "Lam 2003, 10 mg, SD, midazolam control",
+            "DDI Treatment - Fluvoxamine/Midazolam - Kashuba 1998",
+            "DDI Control - Midazolam - Kashuba 1998"
           ]
         },
         {
@@ -2262,30 +2650,10 @@
           "Simulation": "po 3 mg (solution)",
           "Path": "Neighborhoods|LowerIleum_int_LowerIleum_cell|Midazolam|P (intracellular->interstitial)",
           "TargetSimulations": [
-            "Kharasch 1997 20 µg/kg IV - control",
-            "Kharasch 1997 20 µg/kg IV and Rifampicin",
-            "Kharasch 2004 15 µg/kg IV - control",
-            "Kharasch 2004 15 µg/kg IV and Rifampicin",
-            "Kharasch 2004 60 µg/kg PO - control",
-            "Kharasch 2004 60 µg/kg PO and Rifampicin",
-            "Kharasch 2011 15 µg/kg IV - control",
-            "Kharasch 2011 15 µg/kg IV and 5 mg Rifampicin",
-            "Kharasch 2011 15 µg/kg IV and 10 mg Rifampicin",
-            "Kharasch 2011 15 µg/kg IV and 25 mg Rifampicin",
-            "Kharasch 2011 15 µg/kg IV and 75 mg Rifampicin",
-            "Kharasch 2011 75 µg/kg PO and 5 mg Rifampicin",
-            "Kharasch 2011 75 µg/kg PO - control",
-            "Kharasch 2011 75 µg/kg PO and 10 mg Rifampicin",
-            "Kharasch 2011 75 µg/kg PO and 25 mg Rifampicin",
-            "Kharasch 2011 75 µg/kg PO and 75 mg Rifampicin",
-            "Kharasch 2011b IV 1mg - control",
-            "Kharasch 2011b PO 4mg - control",
-            "Kharasch 2011b 1 mg IV seq and 600 mg Rifampicin",
-            "Kharasch 2011b 1 mg IV simultaneous and 600 mg Rifampicin",
-            "Kharasch 2011b 4 mg PO seq and 600 mg Rifampicin",
-            "Kharasch 2011b 4 mg PO simultaneous and 600 mg Rifampicin",
-            "Phimmasone 2001 15 µg/kg IV - control",
-            "Phimmasone 2001 0.015 µg/kg IV and 600 mg Rifampicin"
+            "Lam 2003, 10 mg SD, midazolam with fluvoxamine",
+            "Lam 2003, 10 mg, SD, midazolam control",
+            "DDI Treatment - Fluvoxamine/Midazolam - Kashuba 1998",
+            "DDI Control - Midazolam - Kashuba 1998"
           ]
         },
         {
@@ -2293,30 +2661,10 @@
           "Simulation": "po 3 mg (solution)",
           "Path": "Neighborhoods|Caecum_int_Caecum_cell|Midazolam|P (intracellular->interstitial)",
           "TargetSimulations": [
-            "Kharasch 1997 20 µg/kg IV - control",
-            "Kharasch 1997 20 µg/kg IV and Rifampicin",
-            "Kharasch 2004 15 µg/kg IV - control",
-            "Kharasch 2004 15 µg/kg IV and Rifampicin",
-            "Kharasch 2004 60 µg/kg PO - control",
-            "Kharasch 2004 60 µg/kg PO and Rifampicin",
-            "Kharasch 2011 15 µg/kg IV - control",
-            "Kharasch 2011 15 µg/kg IV and 5 mg Rifampicin",
-            "Kharasch 2011 15 µg/kg IV and 10 mg Rifampicin",
-            "Kharasch 2011 15 µg/kg IV and 25 mg Rifampicin",
-            "Kharasch 2011 15 µg/kg IV and 75 mg Rifampicin",
-            "Kharasch 2011 75 µg/kg PO and 5 mg Rifampicin",
-            "Kharasch 2011 75 µg/kg PO - control",
-            "Kharasch 2011 75 µg/kg PO and 10 mg Rifampicin",
-            "Kharasch 2011 75 µg/kg PO and 25 mg Rifampicin",
-            "Kharasch 2011 75 µg/kg PO and 75 mg Rifampicin",
-            "Kharasch 2011b IV 1mg - control",
-            "Kharasch 2011b PO 4mg - control",
-            "Kharasch 2011b 1 mg IV seq and 600 mg Rifampicin",
-            "Kharasch 2011b 1 mg IV simultaneous and 600 mg Rifampicin",
-            "Kharasch 2011b 4 mg PO seq and 600 mg Rifampicin",
-            "Kharasch 2011b 4 mg PO simultaneous and 600 mg Rifampicin",
-            "Phimmasone 2001 15 µg/kg IV - control",
-            "Phimmasone 2001 0.015 µg/kg IV and 600 mg Rifampicin"
+            "Lam 2003, 10 mg SD, midazolam with fluvoxamine",
+            "Lam 2003, 10 mg, SD, midazolam control",
+            "DDI Treatment - Fluvoxamine/Midazolam - Kashuba 1998",
+            "DDI Control - Midazolam - Kashuba 1998"
           ]
         },
         {
@@ -2324,30 +2672,10 @@
           "Simulation": "po 3 mg (solution)",
           "Path": "Neighborhoods|ColonAscendens_int_ColonAscendens_cell|Midazolam|P (intracellular->interstitial)",
           "TargetSimulations": [
-            "Kharasch 1997 20 µg/kg IV - control",
-            "Kharasch 1997 20 µg/kg IV and Rifampicin",
-            "Kharasch 2004 15 µg/kg IV - control",
-            "Kharasch 2004 15 µg/kg IV and Rifampicin",
-            "Kharasch 2004 60 µg/kg PO - control",
-            "Kharasch 2004 60 µg/kg PO and Rifampicin",
-            "Kharasch 2011 15 µg/kg IV - control",
-            "Kharasch 2011 15 µg/kg IV and 5 mg Rifampicin",
-            "Kharasch 2011 15 µg/kg IV and 10 mg Rifampicin",
-            "Kharasch 2011 15 µg/kg IV and 25 mg Rifampicin",
-            "Kharasch 2011 15 µg/kg IV and 75 mg Rifampicin",
-            "Kharasch 2011 75 µg/kg PO and 5 mg Rifampicin",
-            "Kharasch 2011 75 µg/kg PO - control",
-            "Kharasch 2011 75 µg/kg PO and 10 mg Rifampicin",
-            "Kharasch 2011 75 µg/kg PO and 25 mg Rifampicin",
-            "Kharasch 2011 75 µg/kg PO and 75 mg Rifampicin",
-            "Kharasch 2011b IV 1mg - control",
-            "Kharasch 2011b PO 4mg - control",
-            "Kharasch 2011b 1 mg IV seq and 600 mg Rifampicin",
-            "Kharasch 2011b 1 mg IV simultaneous and 600 mg Rifampicin",
-            "Kharasch 2011b 4 mg PO seq and 600 mg Rifampicin",
-            "Kharasch 2011b 4 mg PO simultaneous and 600 mg Rifampicin",
-            "Phimmasone 2001 15 µg/kg IV - control",
-            "Phimmasone 2001 0.015 µg/kg IV and 600 mg Rifampicin"
+            "Lam 2003, 10 mg SD, midazolam with fluvoxamine",
+            "Lam 2003, 10 mg, SD, midazolam control",
+            "DDI Treatment - Fluvoxamine/Midazolam - Kashuba 1998",
+            "DDI Control - Midazolam - Kashuba 1998"
           ]
         },
         {
@@ -2355,30 +2683,10 @@
           "Simulation": "po 3 mg (solution)",
           "Path": "Neighborhoods|ColonTransversum_int_ColonTransversum_cell|Midazolam|P (intracellular->interstitial)",
           "TargetSimulations": [
-            "Kharasch 1997 20 µg/kg IV - control",
-            "Kharasch 1997 20 µg/kg IV and Rifampicin",
-            "Kharasch 2004 15 µg/kg IV - control",
-            "Kharasch 2004 15 µg/kg IV and Rifampicin",
-            "Kharasch 2004 60 µg/kg PO - control",
-            "Kharasch 2004 60 µg/kg PO and Rifampicin",
-            "Kharasch 2011 15 µg/kg IV - control",
-            "Kharasch 2011 15 µg/kg IV and 5 mg Rifampicin",
-            "Kharasch 2011 15 µg/kg IV and 10 mg Rifampicin",
-            "Kharasch 2011 15 µg/kg IV and 25 mg Rifampicin",
-            "Kharasch 2011 15 µg/kg IV and 75 mg Rifampicin",
-            "Kharasch 2011 75 µg/kg PO and 5 mg Rifampicin",
-            "Kharasch 2011 75 µg/kg PO - control",
-            "Kharasch 2011 75 µg/kg PO and 10 mg Rifampicin",
-            "Kharasch 2011 75 µg/kg PO and 25 mg Rifampicin",
-            "Kharasch 2011 75 µg/kg PO and 75 mg Rifampicin",
-            "Kharasch 2011b IV 1mg - control",
-            "Kharasch 2011b PO 4mg - control",
-            "Kharasch 2011b 1 mg IV seq and 600 mg Rifampicin",
-            "Kharasch 2011b 1 mg IV simultaneous and 600 mg Rifampicin",
-            "Kharasch 2011b 4 mg PO seq and 600 mg Rifampicin",
-            "Kharasch 2011b 4 mg PO simultaneous and 600 mg Rifampicin",
-            "Phimmasone 2001 15 µg/kg IV - control",
-            "Phimmasone 2001 0.015 µg/kg IV and 600 mg Rifampicin"
+            "Lam 2003, 10 mg SD, midazolam with fluvoxamine",
+            "Lam 2003, 10 mg, SD, midazolam control",
+            "DDI Treatment - Fluvoxamine/Midazolam - Kashuba 1998",
+            "DDI Control - Midazolam - Kashuba 1998"
           ]
         },
         {
@@ -2386,30 +2694,10 @@
           "Simulation": "po 3 mg (solution)",
           "Path": "Neighborhoods|ColonDescendens_int_ColonDescendens_cell|Midazolam|P (intracellular->interstitial)",
           "TargetSimulations": [
-            "Kharasch 1997 20 µg/kg IV - control",
-            "Kharasch 1997 20 µg/kg IV and Rifampicin",
-            "Kharasch 2004 15 µg/kg IV - control",
-            "Kharasch 2004 15 µg/kg IV and Rifampicin",
-            "Kharasch 2004 60 µg/kg PO - control",
-            "Kharasch 2004 60 µg/kg PO and Rifampicin",
-            "Kharasch 2011 15 µg/kg IV - control",
-            "Kharasch 2011 15 µg/kg IV and 5 mg Rifampicin",
-            "Kharasch 2011 15 µg/kg IV and 10 mg Rifampicin",
-            "Kharasch 2011 15 µg/kg IV and 25 mg Rifampicin",
-            "Kharasch 2011 15 µg/kg IV and 75 mg Rifampicin",
-            "Kharasch 2011 75 µg/kg PO and 5 mg Rifampicin",
-            "Kharasch 2011 75 µg/kg PO - control",
-            "Kharasch 2011 75 µg/kg PO and 10 mg Rifampicin",
-            "Kharasch 2011 75 µg/kg PO and 25 mg Rifampicin",
-            "Kharasch 2011 75 µg/kg PO and 75 mg Rifampicin",
-            "Kharasch 2011b IV 1mg - control",
-            "Kharasch 2011b PO 4mg - control",
-            "Kharasch 2011b 1 mg IV seq and 600 mg Rifampicin",
-            "Kharasch 2011b 1 mg IV simultaneous and 600 mg Rifampicin",
-            "Kharasch 2011b 4 mg PO seq and 600 mg Rifampicin",
-            "Kharasch 2011b 4 mg PO simultaneous and 600 mg Rifampicin",
-            "Phimmasone 2001 15 µg/kg IV - control",
-            "Phimmasone 2001 0.015 µg/kg IV and 600 mg Rifampicin"
+            "Lam 2003, 10 mg SD, midazolam with fluvoxamine",
+            "Lam 2003, 10 mg, SD, midazolam control",
+            "DDI Treatment - Fluvoxamine/Midazolam - Kashuba 1998",
+            "DDI Control - Midazolam - Kashuba 1998"
           ]
         },
         {
@@ -2417,30 +2705,10 @@
           "Simulation": "po 3 mg (solution)",
           "Path": "Neighborhoods|ColonSigmoid_int_ColonSigmoid_cell|Midazolam|P (intracellular->interstitial)",
           "TargetSimulations": [
-            "Kharasch 1997 20 µg/kg IV - control",
-            "Kharasch 1997 20 µg/kg IV and Rifampicin",
-            "Kharasch 2004 15 µg/kg IV - control",
-            "Kharasch 2004 15 µg/kg IV and Rifampicin",
-            "Kharasch 2004 60 µg/kg PO - control",
-            "Kharasch 2004 60 µg/kg PO and Rifampicin",
-            "Kharasch 2011 15 µg/kg IV - control",
-            "Kharasch 2011 15 µg/kg IV and 5 mg Rifampicin",
-            "Kharasch 2011 15 µg/kg IV and 10 mg Rifampicin",
-            "Kharasch 2011 15 µg/kg IV and 25 mg Rifampicin",
-            "Kharasch 2011 15 µg/kg IV and 75 mg Rifampicin",
-            "Kharasch 2011 75 µg/kg PO and 5 mg Rifampicin",
-            "Kharasch 2011 75 µg/kg PO - control",
-            "Kharasch 2011 75 µg/kg PO and 10 mg Rifampicin",
-            "Kharasch 2011 75 µg/kg PO and 25 mg Rifampicin",
-            "Kharasch 2011 75 µg/kg PO and 75 mg Rifampicin",
-            "Kharasch 2011b IV 1mg - control",
-            "Kharasch 2011b PO 4mg - control",
-            "Kharasch 2011b 1 mg IV seq and 600 mg Rifampicin",
-            "Kharasch 2011b 1 mg IV simultaneous and 600 mg Rifampicin",
-            "Kharasch 2011b 4 mg PO seq and 600 mg Rifampicin",
-            "Kharasch 2011b 4 mg PO simultaneous and 600 mg Rifampicin",
-            "Phimmasone 2001 15 µg/kg IV - control",
-            "Phimmasone 2001 0.015 µg/kg IV and 600 mg Rifampicin"
+            "Lam 2003, 10 mg SD, midazolam with fluvoxamine",
+            "Lam 2003, 10 mg, SD, midazolam control",
+            "DDI Treatment - Fluvoxamine/Midazolam - Kashuba 1998",
+            "DDI Control - Midazolam - Kashuba 1998"
           ]
         },
         {
@@ -2448,30 +2716,617 @@
           "Simulation": "po 3 mg (solution)",
           "Path": "Neighborhoods|Rectum_int_Rectum_cell|Midazolam|P (intracellular->interstitial)",
           "TargetSimulations": [
-            "Kharasch 1997 20 µg/kg IV - control",
-            "Kharasch 1997 20 µg/kg IV and Rifampicin",
-            "Kharasch 2004 15 µg/kg IV - control",
-            "Kharasch 2004 15 µg/kg IV and Rifampicin",
-            "Kharasch 2004 60 µg/kg PO - control",
-            "Kharasch 2004 60 µg/kg PO and Rifampicin",
-            "Kharasch 2011 15 µg/kg IV - control",
-            "Kharasch 2011 15 µg/kg IV and 5 mg Rifampicin",
-            "Kharasch 2011 15 µg/kg IV and 10 mg Rifampicin",
-            "Kharasch 2011 15 µg/kg IV and 25 mg Rifampicin",
-            "Kharasch 2011 15 µg/kg IV and 75 mg Rifampicin",
-            "Kharasch 2011 75 µg/kg PO and 5 mg Rifampicin",
-            "Kharasch 2011 75 µg/kg PO - control",
-            "Kharasch 2011 75 µg/kg PO and 10 mg Rifampicin",
-            "Kharasch 2011 75 µg/kg PO and 25 mg Rifampicin",
-            "Kharasch 2011 75 µg/kg PO and 75 mg Rifampicin",
-            "Kharasch 2011b IV 1mg - control",
-            "Kharasch 2011b PO 4mg - control",
-            "Kharasch 2011b 1 mg IV seq and 600 mg Rifampicin",
-            "Kharasch 2011b 1 mg IV simultaneous and 600 mg Rifampicin",
-            "Kharasch 2011b 4 mg PO seq and 600 mg Rifampicin",
-            "Kharasch 2011b 4 mg PO simultaneous and 600 mg Rifampicin",
-            "Phimmasone 2001 15 µg/kg IV - control",
-            "Phimmasone 2001 0.015 µg/kg IV and 600 mg Rifampicin"
+            "Lam 2003, 10 mg SD, midazolam with fluvoxamine",
+            "Lam 2003, 10 mg, SD, midazolam control",
+            "DDI Treatment - Fluvoxamine/Midazolam - Kashuba 1998",
+            "DDI Control - Midazolam - Kashuba 1998"
+          ]
+        }
+      ]
+    },
+    {
+      "Id": "Itraconazole-Alprazolam-DDI",
+      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Itraconazole-Alprazolam-DDI/master/Itraconazole-Alprazolam-DDI.json",
+      "BuildingBlocks": [
+        {
+          "Type": "Compound",
+          "Name": "Alprazolam",
+          "Project": "Alprazolam"
+        },
+        {
+          "Type": "Compound",
+          "Name": "Itraconazole",
+          "Project": "Itraconazole"
+        },
+        {
+          "Type": "Compound",
+          "Name": "Hydroxy-Itraconazole",
+          "Project": "Itraconazole"
+        },
+        {
+          "Type": "Compound",
+          "Name": "Keto-Itraconazole",
+          "Project": "Itraconazole"
+        },
+        {
+          "Type": "Compound",
+          "Name": "N-desalkyl-Itraconazole",
+          "Project": "Itraconazole"
+        },
+        {
+          "Type": "Formulation",
+          "Name": "Capsule fasted",
+          "Project": "Itraconazole"
+        },
+        {
+          "Type": "Formulation",
+          "Name": "Capsule fed",
+          "Project": "Itraconazole"
+        },
+        {
+          "Type": "Formulation",
+          "Name": "Weibull_Xanax",
+          "Project": "Alprazolam"
+        }
+      ],
+      "SimulationParameters": [
+        {
+          "Project": "Alprazolam",
+          "Simulation": "PO_0.5mg",
+          "Path": "Neighborhoods|Duodenum_int_Duodenum_cell|Alprazolam|P (interstitial->intracellular)",
+          "TargetSimulations": [
+            "Yasui 1998 - Alprazolam 0.8 mg with placebo",
+            "Yasui 1998 - Alprazolam 0.8 mg with itraconazole"
+          ]
+        },
+        {
+          "Project": "Alprazolam",
+          "Simulation": "PO_0.5mg",
+          "Path": "Neighborhoods|UpperJejunum_int_UpperJejunum_cell|Alprazolam|P (interstitial->intracellular)",
+          "TargetSimulations": [
+            "Yasui 1998 - Alprazolam 0.8 mg with placebo",
+            "Yasui 1998 - Alprazolam 0.8 mg with itraconazole"
+          ]
+        },
+        {
+          "Project": "Alprazolam",
+          "Simulation": "PO_0.5mg",
+          "Path": "Neighborhoods|LowerJejunum_int_LowerJejunum_cell|Alprazolam|P (interstitial->intracellular)",
+          "TargetSimulations": [
+            "Yasui 1998 - Alprazolam 0.8 mg with placebo",
+            "Yasui 1998 - Alprazolam 0.8 mg with itraconazole"
+          ]
+        },
+        {
+          "Project": "Alprazolam",
+          "Simulation": "PO_0.5mg",
+          "Path": "Neighborhoods|UpperIleum_int_UpperIleum_cell|Alprazolam|P (interstitial->intracellular)",
+          "TargetSimulations": [
+            "Yasui 1998 - Alprazolam 0.8 mg with placebo",
+            "Yasui 1998 - Alprazolam 0.8 mg with itraconazole"
+          ]
+        },
+        {
+          "Project": "Alprazolam",
+          "Simulation": "PO_0.5mg",
+          "Path": "Neighborhoods|LowerIleum_int_LowerIleum_cell|Alprazolam|P (interstitial->intracellular)",
+          "TargetSimulations": [
+            "Yasui 1998 - Alprazolam 0.8 mg with placebo",
+            "Yasui 1998 - Alprazolam 0.8 mg with itraconazole"
+          ]
+        },
+        {
+          "Project": "Alprazolam",
+          "Simulation": "PO_0.5mg",
+          "Path": "Neighborhoods|Caecum_int_Caecum_cell|Alprazolam|P (interstitial->intracellular)",
+          "TargetSimulations": [
+            "Yasui 1998 - Alprazolam 0.8 mg with placebo",
+            "Yasui 1998 - Alprazolam 0.8 mg with itraconazole"
+          ]
+        },
+        {
+          "Project": "Alprazolam",
+          "Simulation": "PO_0.5mg",
+          "Path": "Neighborhoods|ColonAscendens_int_ColonAscendens_cell|Alprazolam|P (interstitial->intracellular)",
+          "TargetSimulations": [
+            "Yasui 1998 - Alprazolam 0.8 mg with placebo",
+            "Yasui 1998 - Alprazolam 0.8 mg with itraconazole"
+          ]
+        },
+        {
+          "Project": "Alprazolam",
+          "Simulation": "PO_0.5mg",
+          "Path": "Neighborhoods|ColonTransversum_int_ColonTransversum_cell|Alprazolam|P (interstitial->intracellular)",
+          "TargetSimulations": [
+            "Yasui 1998 - Alprazolam 0.8 mg with placebo",
+            "Yasui 1998 - Alprazolam 0.8 mg with itraconazole"
+          ]
+        },
+        {
+          "Project": "Alprazolam",
+          "Simulation": "PO_0.5mg",
+          "Path": "Neighborhoods|ColonDescendens_int_ColonDescendens_cell|Alprazolam|P (interstitial->intracellular)",
+          "TargetSimulations": [
+            "Yasui 1998 - Alprazolam 0.8 mg with placebo",
+            "Yasui 1998 - Alprazolam 0.8 mg with itraconazole"
+          ]
+        },
+        {
+          "Project": "Alprazolam",
+          "Simulation": "PO_0.5mg",
+          "Path": "Neighborhoods|ColonSigmoid_int_ColonSigmoid_cell|Alprazolam|P (interstitial->intracellular)",
+          "TargetSimulations": [
+            "Yasui 1998 - Alprazolam 0.8 mg with placebo",
+            "Yasui 1998 - Alprazolam 0.8 mg with itraconazole"
+          ]
+        },
+        {
+          "Project": "Alprazolam",
+          "Simulation": "PO_0.5mg",
+          "Path": "Neighborhoods|Rectum_int_Rectum_cell|Alprazolam|P (interstitial->intracellular)",
+          "TargetSimulations": [
+            "Yasui 1998 - Alprazolam 0.8 mg with placebo",
+            "Yasui 1998 - Alprazolam 0.8 mg with itraconazole"
+          ]
+        },
+        {
+          "Project": "Alprazolam",
+          "Simulation": "PO_0.5mg",
+          "Path": "Neighborhoods|Duodenum_int_Duodenum_cell|Alprazolam|P (intracellular->interstitial)",
+          "TargetSimulations": [
+            "Yasui 1998 - Alprazolam 0.8 mg with placebo",
+            "Yasui 1998 - Alprazolam 0.8 mg with itraconazole"
+          ]
+        },
+        {
+          "Project": "Alprazolam",
+          "Simulation": "PO_0.5mg",
+          "Path": "Neighborhoods|UpperJejunum_int_UpperJejunum_cell|Alprazolam|P (intracellular->interstitial)",
+          "TargetSimulations": [
+            "Yasui 1998 - Alprazolam 0.8 mg with placebo",
+            "Yasui 1998 - Alprazolam 0.8 mg with itraconazole"
+          ]
+        },
+        {
+          "Project": "Alprazolam",
+          "Simulation": "PO_0.5mg",
+          "Path": "Neighborhoods|LowerJejunum_int_LowerJejunum_cell|Alprazolam|P (intracellular->interstitial)",
+          "TargetSimulations": [
+            "Yasui 1998 - Alprazolam 0.8 mg with placebo",
+            "Yasui 1998 - Alprazolam 0.8 mg with itraconazole"
+          ]
+        },
+        {
+          "Project": "Alprazolam",
+          "Simulation": "PO_0.5mg",
+          "Path": "Neighborhoods|UpperIleum_int_UpperIleum_cell|Alprazolam|P (intracellular->interstitial)",
+          "TargetSimulations": [
+            "Yasui 1998 - Alprazolam 0.8 mg with placebo",
+            "Yasui 1998 - Alprazolam 0.8 mg with itraconazole"
+          ]
+        },
+        {
+          "Project": "Alprazolam",
+          "Simulation": "PO_0.5mg",
+          "Path": "Neighborhoods|LowerIleum_int_LowerIleum_cell|Alprazolam|P (intracellular->interstitial)",
+          "TargetSimulations": [
+            "Yasui 1998 - Alprazolam 0.8 mg with placebo",
+            "Yasui 1998 - Alprazolam 0.8 mg with itraconazole"
+          ]
+        },
+        {
+          "Project": "Alprazolam",
+          "Simulation": "PO_0.5mg",
+          "Path": "Neighborhoods|Caecum_int_Caecum_cell|Alprazolam|P (intracellular->interstitial)",
+          "TargetSimulations": [
+            "Yasui 1998 - Alprazolam 0.8 mg with placebo",
+            "Yasui 1998 - Alprazolam 0.8 mg with itraconazole"
+          ]
+        },
+        {
+          "Project": "Alprazolam",
+          "Simulation": "PO_0.5mg",
+          "Path": "Neighborhoods|ColonAscendens_int_ColonAscendens_cell|Alprazolam|P (intracellular->interstitial)",
+          "TargetSimulations": [
+            "Yasui 1998 - Alprazolam 0.8 mg with placebo",
+            "Yasui 1998 - Alprazolam 0.8 mg with itraconazole"
+          ]
+        },
+        {
+          "Project": "Alprazolam",
+          "Simulation": "PO_0.5mg",
+          "Path": "Neighborhoods|ColonTransversum_int_ColonTransversum_cell|Alprazolam|P (intracellular->interstitial)",
+          "TargetSimulations": [
+            "Yasui 1998 - Alprazolam 0.8 mg with placebo",
+            "Yasui 1998 - Alprazolam 0.8 mg with itraconazole"
+          ]
+        },
+        {
+          "Project": "Alprazolam",
+          "Simulation": "PO_0.5mg",
+          "Path": "Neighborhoods|ColonDescendens_int_ColonDescendens_cell|Alprazolam|P (intracellular->interstitial)",
+          "TargetSimulations": [
+            "Yasui 1998 - Alprazolam 0.8 mg with placebo",
+            "Yasui 1998 - Alprazolam 0.8 mg with itraconazole"
+          ]
+        },
+        {
+          "Project": "Alprazolam",
+          "Simulation": "PO_0.5mg",
+          "Path": "Neighborhoods|ColonSigmoid_int_ColonSigmoid_cell|Alprazolam|P (intracellular->interstitial)",
+          "TargetSimulations": [
+            "Yasui 1998 - Alprazolam 0.8 mg with placebo",
+            "Yasui 1998 - Alprazolam 0.8 mg with itraconazole"
+          ]
+        },
+        {
+          "Project": "Alprazolam",
+          "Simulation": "PO_0.5mg",
+          "Path": "Neighborhoods|Rectum_int_Rectum_cell|Alprazolam|P (intracellular->interstitial)",
+          "TargetSimulations": [
+            "Yasui 1998 - Alprazolam 0.8 mg with placebo",
+            "Yasui 1998 - Alprazolam 0.8 mg with itraconazole"
+          ]
+        }
+      ]
+    },
+    {
+      "Id": "Itraconazole-Triazolam-DDI",
+      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Itraconazole-Triazolam-DDI/master/Itraconazole-Triazolam-DDI.json",
+      "BuildingBlocks": [
+        {
+          "Type": "Compound",
+          "Name": "Triazolam",
+          "Project": "Triazolam"
+        },
+        {
+          "Type": "Compound",
+          "Name": "Itraconazole",
+          "Project": "Itraconazole"
+        },
+        {
+          "Type": "Compound",
+          "Name": "Hydroxy-Itraconazole",
+          "Project": "Itraconazole"
+        },
+        {
+          "Type": "Compound",
+          "Name": "Keto-Itraconazole",
+          "Project": "Itraconazole"
+        },
+        {
+          "Type": "Compound",
+          "Name": "N-desalkyl-Itraconazole",
+          "Project": "Itraconazole"
+        },
+        {
+          "Type": "Formulation",
+          "Name": "Capsule fasted",
+          "Project": "Itraconazole"
+        },
+        {
+          "Type": "Formulation",
+          "Name": "Capsule fed",
+          "Project": "Itraconazole"
+        },
+        {
+          "Type": "Formulation",
+          "Name": "Halcion",
+          "Project": "Triazolam"
+        },
+        {
+          "Type": "Event",
+          "Name": "Standard Meal",
+          "Project": "Itraconazole"
+        }
+      ],
+      "SimulationParameters": [
+        {
+          "Project": "Triazolam",
+          "Simulation": "PO_0.5mg",
+          "Path": "Neighborhoods|Duodenum_int_Duodenum_cell|Triazolam|P (interstitial->intracellular)",
+          "TargetSimulations": [
+            "Neuvonen 1996 - Triazolam 0.25 mg control",
+            "Neuvonen 1996 - Triazolam 0.25 mg + ITZ 200 mg simultaneously",
+            "Neuvonen 1996 - Triazolam 0.25 mg + ITZ 200 mg 12 hrs before",
+            "Neuvonen 1996 - Triazolam 0.25 mg + ITZ 200 mg 3 hrs before",
+            "Neuvonen 1996 - Triazolam 0.25 mg + ITZ 200 mg 24 hrs before",
+            "Varhe 1994 - Triazolam 0.25 mg control",
+            "Varhe 1994 - Triazolam 0.25 mg + Itraconazole 200 mg PO QD"
+          ]
+        },
+        {
+          "Project": "Triazolam",
+          "Simulation": "PO_0.5mg",
+          "Path": "Neighborhoods|UpperJejunum_int_UpperJejunum_cell|Triazolam|P (interstitial->intracellular)",
+          "TargetSimulations": [
+            "Neuvonen 1996 - Triazolam 0.25 mg control",
+            "Neuvonen 1996 - Triazolam 0.25 mg + ITZ 200 mg simultaneously",
+            "Neuvonen 1996 - Triazolam 0.25 mg + ITZ 200 mg 12 hrs before",
+            "Neuvonen 1996 - Triazolam 0.25 mg + ITZ 200 mg 3 hrs before",
+            "Neuvonen 1996 - Triazolam 0.25 mg + ITZ 200 mg 24 hrs before",
+            "Varhe 1994 - Triazolam 0.25 mg control",
+            "Varhe 1994 - Triazolam 0.25 mg + Itraconazole 200 mg PO QD"
+          ]
+        },
+        {
+          "Project": "Triazolam",
+          "Simulation": "PO_0.5mg",
+          "Path": "Neighborhoods|LowerJejunum_int_LowerJejunum_cell|Triazolam|P (interstitial->intracellular)",
+          "TargetSimulations": [
+            "Neuvonen 1996 - Triazolam 0.25 mg control",
+            "Neuvonen 1996 - Triazolam 0.25 mg + ITZ 200 mg simultaneously",
+            "Neuvonen 1996 - Triazolam 0.25 mg + ITZ 200 mg 12 hrs before",
+            "Neuvonen 1996 - Triazolam 0.25 mg + ITZ 200 mg 3 hrs before",
+            "Neuvonen 1996 - Triazolam 0.25 mg + ITZ 200 mg 24 hrs before",
+            "Varhe 1994 - Triazolam 0.25 mg control",
+            "Varhe 1994 - Triazolam 0.25 mg + Itraconazole 200 mg PO QD"
+          ]
+        },
+        {
+          "Project": "Triazolam",
+          "Simulation": "PO_0.5mg",
+          "Path": "Neighborhoods|UpperIleum_int_UpperIleum_cell|Triazolam|P (interstitial->intracellular)",
+          "TargetSimulations": [
+            "Neuvonen 1996 - Triazolam 0.25 mg control",
+            "Neuvonen 1996 - Triazolam 0.25 mg + ITZ 200 mg simultaneously",
+            "Neuvonen 1996 - Triazolam 0.25 mg + ITZ 200 mg 12 hrs before",
+            "Neuvonen 1996 - Triazolam 0.25 mg + ITZ 200 mg 3 hrs before",
+            "Neuvonen 1996 - Triazolam 0.25 mg + ITZ 200 mg 24 hrs before",
+            "Varhe 1994 - Triazolam 0.25 mg control",
+            "Varhe 1994 - Triazolam 0.25 mg + Itraconazole 200 mg PO QD"
+          ]
+        },
+        {
+          "Project": "Triazolam",
+          "Simulation": "PO_0.5mg",
+          "Path": "Neighborhoods|LowerIleum_int_LowerIleum_cell|Triazolam|P (interstitial->intracellular)",
+          "TargetSimulations": [
+            "Neuvonen 1996 - Triazolam 0.25 mg control",
+            "Neuvonen 1996 - Triazolam 0.25 mg + ITZ 200 mg simultaneously",
+            "Neuvonen 1996 - Triazolam 0.25 mg + ITZ 200 mg 12 hrs before",
+            "Neuvonen 1996 - Triazolam 0.25 mg + ITZ 200 mg 3 hrs before",
+            "Neuvonen 1996 - Triazolam 0.25 mg + ITZ 200 mg 24 hrs before",
+            "Varhe 1994 - Triazolam 0.25 mg control",
+            "Varhe 1994 - Triazolam 0.25 mg + Itraconazole 200 mg PO QD"
+          ]
+        },
+        {
+          "Project": "Triazolam",
+          "Simulation": "PO_0.5mg",
+          "Path": "Neighborhoods|Caecum_int_Caecum_cell|Triazolam|P (interstitial->intracellular)",
+          "TargetSimulations": [
+            "Neuvonen 1996 - Triazolam 0.25 mg control",
+            "Neuvonen 1996 - Triazolam 0.25 mg + ITZ 200 mg simultaneously",
+            "Neuvonen 1996 - Triazolam 0.25 mg + ITZ 200 mg 12 hrs before",
+            "Neuvonen 1996 - Triazolam 0.25 mg + ITZ 200 mg 3 hrs before",
+            "Neuvonen 1996 - Triazolam 0.25 mg + ITZ 200 mg 24 hrs before",
+            "Varhe 1994 - Triazolam 0.25 mg control",
+            "Varhe 1994 - Triazolam 0.25 mg + Itraconazole 200 mg PO QD"
+          ]
+        },
+        {
+          "Project": "Triazolam",
+          "Simulation": "PO_0.5mg",
+          "Path": "Neighborhoods|ColonAscendens_int_ColonAscendens_cell|Triazolam|P (interstitial->intracellular)",
+          "TargetSimulations": [
+            "Neuvonen 1996 - Triazolam 0.25 mg control",
+            "Neuvonen 1996 - Triazolam 0.25 mg + ITZ 200 mg simultaneously",
+            "Neuvonen 1996 - Triazolam 0.25 mg + ITZ 200 mg 12 hrs before",
+            "Neuvonen 1996 - Triazolam 0.25 mg + ITZ 200 mg 3 hrs before",
+            "Neuvonen 1996 - Triazolam 0.25 mg + ITZ 200 mg 24 hrs before",
+            "Varhe 1994 - Triazolam 0.25 mg control",
+            "Varhe 1994 - Triazolam 0.25 mg + Itraconazole 200 mg PO QD"
+          ]
+        },
+        {
+          "Project": "Triazolam",
+          "Simulation": "PO_0.5mg",
+          "Path": "Neighborhoods|ColonTransversum_int_ColonTransversum_cell|Triazolam|P (interstitial->intracellular)",
+          "TargetSimulations": [
+            "Neuvonen 1996 - Triazolam 0.25 mg control",
+            "Neuvonen 1996 - Triazolam 0.25 mg + ITZ 200 mg simultaneously",
+            "Neuvonen 1996 - Triazolam 0.25 mg + ITZ 200 mg 12 hrs before",
+            "Neuvonen 1996 - Triazolam 0.25 mg + ITZ 200 mg 3 hrs before",
+            "Neuvonen 1996 - Triazolam 0.25 mg + ITZ 200 mg 24 hrs before",
+            "Varhe 1994 - Triazolam 0.25 mg control",
+            "Varhe 1994 - Triazolam 0.25 mg + Itraconazole 200 mg PO QD"
+          ]
+        },
+        {
+          "Project": "Triazolam",
+          "Simulation": "PO_0.5mg",
+          "Path": "Neighborhoods|ColonDescendens_int_ColonDescendens_cell|Triazolam|P (interstitial->intracellular)",
+          "TargetSimulations": [
+            "Neuvonen 1996 - Triazolam 0.25 mg control",
+            "Neuvonen 1996 - Triazolam 0.25 mg + ITZ 200 mg simultaneously",
+            "Neuvonen 1996 - Triazolam 0.25 mg + ITZ 200 mg 12 hrs before",
+            "Neuvonen 1996 - Triazolam 0.25 mg + ITZ 200 mg 3 hrs before",
+            "Neuvonen 1996 - Triazolam 0.25 mg + ITZ 200 mg 24 hrs before",
+            "Varhe 1994 - Triazolam 0.25 mg control",
+            "Varhe 1994 - Triazolam 0.25 mg + Itraconazole 200 mg PO QD"
+          ]
+        },
+        {
+          "Project": "Triazolam",
+          "Simulation": "PO_0.5mg",
+          "Path": "Neighborhoods|ColonSigmoid_int_ColonSigmoid_cell|Triazolam|P (interstitial->intracellular)",
+          "TargetSimulations": [
+            "Neuvonen 1996 - Triazolam 0.25 mg control",
+            "Neuvonen 1996 - Triazolam 0.25 mg + ITZ 200 mg simultaneously",
+            "Neuvonen 1996 - Triazolam 0.25 mg + ITZ 200 mg 12 hrs before",
+            "Neuvonen 1996 - Triazolam 0.25 mg + ITZ 200 mg 3 hrs before",
+            "Neuvonen 1996 - Triazolam 0.25 mg + ITZ 200 mg 24 hrs before",
+            "Varhe 1994 - Triazolam 0.25 mg control",
+            "Varhe 1994 - Triazolam 0.25 mg + Itraconazole 200 mg PO QD"
+          ]
+        },
+        {
+          "Project": "Triazolam",
+          "Simulation": "PO_0.5mg",
+          "Path": "Neighborhoods|Rectum_int_Rectum_cell|Triazolam|P (interstitial->intracellular)",
+          "TargetSimulations": [
+            "Neuvonen 1996 - Triazolam 0.25 mg control",
+            "Neuvonen 1996 - Triazolam 0.25 mg + ITZ 200 mg simultaneously",
+            "Neuvonen 1996 - Triazolam 0.25 mg + ITZ 200 mg 12 hrs before",
+            "Neuvonen 1996 - Triazolam 0.25 mg + ITZ 200 mg 3 hrs before",
+            "Neuvonen 1996 - Triazolam 0.25 mg + ITZ 200 mg 24 hrs before",
+            "Varhe 1994 - Triazolam 0.25 mg control",
+            "Varhe 1994 - Triazolam 0.25 mg + Itraconazole 200 mg PO QD"
+          ]
+        },
+        {
+          "Project": "Triazolam",
+          "Simulation": "PO_0.5mg",
+          "Path": "Neighborhoods|Duodenum_int_Duodenum_cell|Triazolam|P (intracellular->interstitial)",
+          "TargetSimulations": [
+            "Neuvonen 1996 - Triazolam 0.25 mg control",
+            "Neuvonen 1996 - Triazolam 0.25 mg + ITZ 200 mg simultaneously",
+            "Neuvonen 1996 - Triazolam 0.25 mg + ITZ 200 mg 12 hrs before",
+            "Neuvonen 1996 - Triazolam 0.25 mg + ITZ 200 mg 3 hrs before",
+            "Neuvonen 1996 - Triazolam 0.25 mg + ITZ 200 mg 24 hrs before",
+            "Varhe 1994 - Triazolam 0.25 mg control",
+            "Varhe 1994 - Triazolam 0.25 mg + Itraconazole 200 mg PO QD"
+          ]
+        },
+        {
+          "Project": "Triazolam",
+          "Simulation": "PO_0.5mg",
+          "Path": "Neighborhoods|UpperJejunum_int_UpperJejunum_cell|Triazolam|P (intracellular->interstitial)",
+          "TargetSimulations": [
+            "Neuvonen 1996 - Triazolam 0.25 mg control",
+            "Neuvonen 1996 - Triazolam 0.25 mg + ITZ 200 mg simultaneously",
+            "Neuvonen 1996 - Triazolam 0.25 mg + ITZ 200 mg 12 hrs before",
+            "Neuvonen 1996 - Triazolam 0.25 mg + ITZ 200 mg 3 hrs before",
+            "Neuvonen 1996 - Triazolam 0.25 mg + ITZ 200 mg 24 hrs before",
+            "Varhe 1994 - Triazolam 0.25 mg control",
+            "Varhe 1994 - Triazolam 0.25 mg + Itraconazole 200 mg PO QD"
+          ]
+        },
+        {
+          "Project": "Triazolam",
+          "Simulation": "PO_0.5mg",
+          "Path": "Neighborhoods|LowerJejunum_int_LowerJejunum_cell|Triazolam|P (intracellular->interstitial)",
+          "TargetSimulations": [
+            "Neuvonen 1996 - Triazolam 0.25 mg control",
+            "Neuvonen 1996 - Triazolam 0.25 mg + ITZ 200 mg simultaneously",
+            "Neuvonen 1996 - Triazolam 0.25 mg + ITZ 200 mg 12 hrs before",
+            "Neuvonen 1996 - Triazolam 0.25 mg + ITZ 200 mg 3 hrs before",
+            "Neuvonen 1996 - Triazolam 0.25 mg + ITZ 200 mg 24 hrs before",
+            "Varhe 1994 - Triazolam 0.25 mg control",
+            "Varhe 1994 - Triazolam 0.25 mg + Itraconazole 200 mg PO QD"
+          ]
+        },
+        {
+          "Project": "Triazolam",
+          "Simulation": "PO_0.5mg",
+          "Path": "Neighborhoods|UpperIleum_int_UpperIleum_cell|Triazolam|P (intracellular->interstitial)",
+          "TargetSimulations": [
+            "Neuvonen 1996 - Triazolam 0.25 mg control",
+            "Neuvonen 1996 - Triazolam 0.25 mg + ITZ 200 mg simultaneously",
+            "Neuvonen 1996 - Triazolam 0.25 mg + ITZ 200 mg 12 hrs before",
+            "Neuvonen 1996 - Triazolam 0.25 mg + ITZ 200 mg 3 hrs before",
+            "Neuvonen 1996 - Triazolam 0.25 mg + ITZ 200 mg 24 hrs before",
+            "Varhe 1994 - Triazolam 0.25 mg control",
+            "Varhe 1994 - Triazolam 0.25 mg + Itraconazole 200 mg PO QD"
+          ]
+        },
+        {
+          "Project": "Triazolam",
+          "Simulation": "PO_0.5mg",
+          "Path": "Neighborhoods|LowerIleum_int_LowerIleum_cell|Triazolam|P (intracellular->interstitial)",
+          "TargetSimulations": [
+            "Neuvonen 1996 - Triazolam 0.25 mg control",
+            "Neuvonen 1996 - Triazolam 0.25 mg + ITZ 200 mg simultaneously",
+            "Neuvonen 1996 - Triazolam 0.25 mg + ITZ 200 mg 12 hrs before",
+            "Neuvonen 1996 - Triazolam 0.25 mg + ITZ 200 mg 3 hrs before",
+            "Neuvonen 1996 - Triazolam 0.25 mg + ITZ 200 mg 24 hrs before",
+            "Varhe 1994 - Triazolam 0.25 mg control",
+            "Varhe 1994 - Triazolam 0.25 mg + Itraconazole 200 mg PO QD"
+          ]
+        },
+        {
+          "Project": "Triazolam",
+          "Simulation": "PO_0.5mg",
+          "Path": "Neighborhoods|Caecum_int_Caecum_cell|Triazolam|P (intracellular->interstitial)",
+          "TargetSimulations": [
+            "Neuvonen 1996 - Triazolam 0.25 mg control",
+            "Neuvonen 1996 - Triazolam 0.25 mg + ITZ 200 mg simultaneously",
+            "Neuvonen 1996 - Triazolam 0.25 mg + ITZ 200 mg 12 hrs before",
+            "Neuvonen 1996 - Triazolam 0.25 mg + ITZ 200 mg 3 hrs before",
+            "Neuvonen 1996 - Triazolam 0.25 mg + ITZ 200 mg 24 hrs before",
+            "Varhe 1994 - Triazolam 0.25 mg control",
+            "Varhe 1994 - Triazolam 0.25 mg + Itraconazole 200 mg PO QD"
+          ]
+        },
+        {
+          "Project": "Triazolam",
+          "Simulation": "PO_0.5mg",
+          "Path": "Neighborhoods|ColonAscendens_int_ColonAscendens_cell|Triazolam|P (intracellular->interstitial)",
+          "TargetSimulations": [
+            "Neuvonen 1996 - Triazolam 0.25 mg control",
+            "Neuvonen 1996 - Triazolam 0.25 mg + ITZ 200 mg simultaneously",
+            "Neuvonen 1996 - Triazolam 0.25 mg + ITZ 200 mg 12 hrs before",
+            "Neuvonen 1996 - Triazolam 0.25 mg + ITZ 200 mg 3 hrs before",
+            "Neuvonen 1996 - Triazolam 0.25 mg + ITZ 200 mg 24 hrs before",
+            "Varhe 1994 - Triazolam 0.25 mg control",
+            "Varhe 1994 - Triazolam 0.25 mg + Itraconazole 200 mg PO QD"
+          ]
+        },
+        {
+          "Project": "Triazolam",
+          "Simulation": "PO_0.5mg",
+          "Path": "Neighborhoods|ColonTransversum_int_ColonTransversum_cell|Triazolam|P (intracellular->interstitial)",
+          "TargetSimulations": [
+            "Neuvonen 1996 - Triazolam 0.25 mg control",
+            "Neuvonen 1996 - Triazolam 0.25 mg + ITZ 200 mg simultaneously",
+            "Neuvonen 1996 - Triazolam 0.25 mg + ITZ 200 mg 12 hrs before",
+            "Neuvonen 1996 - Triazolam 0.25 mg + ITZ 200 mg 3 hrs before",
+            "Neuvonen 1996 - Triazolam 0.25 mg + ITZ 200 mg 24 hrs before",
+            "Varhe 1994 - Triazolam 0.25 mg control",
+            "Varhe 1994 - Triazolam 0.25 mg + Itraconazole 200 mg PO QD"
+          ]
+        },
+        {
+          "Project": "Triazolam",
+          "Simulation": "PO_0.5mg",
+          "Path": "Neighborhoods|ColonDescendens_int_ColonDescendens_cell|Triazolam|P (intracellular->interstitial)",
+          "TargetSimulations": [
+            "Neuvonen 1996 - Triazolam 0.25 mg control",
+            "Neuvonen 1996 - Triazolam 0.25 mg + ITZ 200 mg simultaneously",
+            "Neuvonen 1996 - Triazolam 0.25 mg + ITZ 200 mg 12 hrs before",
+            "Neuvonen 1996 - Triazolam 0.25 mg + ITZ 200 mg 3 hrs before",
+            "Neuvonen 1996 - Triazolam 0.25 mg + ITZ 200 mg 24 hrs before",
+            "Varhe 1994 - Triazolam 0.25 mg control",
+            "Varhe 1994 - Triazolam 0.25 mg + Itraconazole 200 mg PO QD"
+          ]
+        },
+        {
+          "Project": "Triazolam",
+          "Simulation": "PO_0.5mg",
+          "Path": "Neighborhoods|ColonSigmoid_int_ColonSigmoid_cell|Triazolam|P (intracellular->interstitial)",
+          "TargetSimulations": [
+            "Neuvonen 1996 - Triazolam 0.25 mg control",
+            "Neuvonen 1996 - Triazolam 0.25 mg + ITZ 200 mg simultaneously",
+            "Neuvonen 1996 - Triazolam 0.25 mg + ITZ 200 mg 12 hrs before",
+            "Neuvonen 1996 - Triazolam 0.25 mg + ITZ 200 mg 3 hrs before",
+            "Neuvonen 1996 - Triazolam 0.25 mg + ITZ 200 mg 24 hrs before",
+            "Varhe 1994 - Triazolam 0.25 mg control",
+            "Varhe 1994 - Triazolam 0.25 mg + Itraconazole 200 mg PO QD"
+          ]
+        },
+        {
+          "Project": "Triazolam",
+          "Simulation": "PO_0.5mg",
+          "Path": "Neighborhoods|Rectum_int_Rectum_cell|Triazolam|P (intracellular->interstitial)",
+          "TargetSimulations": [
+            "Neuvonen 1996 - Triazolam 0.25 mg control",
+            "Neuvonen 1996 - Triazolam 0.25 mg + ITZ 200 mg simultaneously",
+            "Neuvonen 1996 - Triazolam 0.25 mg + ITZ 200 mg 12 hrs before",
+            "Neuvonen 1996 - Triazolam 0.25 mg + ITZ 200 mg 3 hrs before",
+            "Neuvonen 1996 - Triazolam 0.25 mg + ITZ 200 mg 24 hrs before",
+            "Varhe 1994 - Triazolam 0.25 mg control",
+            "Varhe 1994 - Triazolam 0.25 mg + Itraconazole 200 mg PO QD"
           ]
         }
       ]
@@ -2597,6 +3452,96 @@
     "AllPlots": [],
     "GOFMergedPlots": [],
     "ComparisonTimeProfilePlots": [
+      {
+        "SectionId": 308,
+        "Title": "Kashuba 1998",
+        "SimulationDuration": 24,
+        "TimeUnit": "h",
+        "OutputMappings": [
+          {
+            "Project": "Fluvoxamine-Midazolam-DDI",
+            "Simulation": "DDI Control - Midazolam - Kashuba 1998",
+            "Output": "Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
+            "ObservedData": [],
+            "StartTime": 0,
+            "TimeUnit": "h",
+            "Color": "#2166ac",
+            "Caption": "Control (without Fluvoxamine)",
+            "Symbol": "Circle"
+          },
+          {
+            "Project": "Fluvoxamine-Midazolam-DDI",
+            "Simulation": "DDI Treatment - Fluvoxamine/Midazolam - Kashuba 1998",
+            "Output": "Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
+            "ObservedData": [],
+            "StartTime": 517,
+            "TimeUnit": "h",
+            "Color": "#b2182b",
+            "Caption": "Treatment (with Fluvoxamine)",
+            "Symbol": "Square"
+          }
+        ]
+      },
+      {
+        "SectionId": 308,
+        "Title": "Lam 2003",
+        "SimulationDuration": 24,
+        "TimeUnit": "h",
+        "OutputMappings": [
+          {
+            "Project": "Fluvoxamine-Midazolam-DDI",
+            "Simulation": "Lam 2003, 10 mg, SD, midazolam control",
+            "Output": "Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
+            "ObservedData": "Lam 2003 - Midazolam before Fluvoxamine - Midazolam - PO - 10 mg - Plasma - agg. (n=10)",
+            "StartTime": 0,
+            "TimeUnit": "h",
+            "Color": "#2166ac",
+            "Caption": "Control (without Fluvoxamine)",
+            "Symbol": "Circle"
+          },
+          {
+            "Project": "Fluvoxamine-Midazolam-DDI",
+            "Simulation": "Lam 2003, 10 mg SD, midazolam with fluvoxamine",
+            "Output": "Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
+            "ObservedData": "Lam 2003 - Midazolam after Fluvoxamine - Midazolam - PO - 10 mg - Plasma - agg. (n=10)",
+            "StartTime": 265,
+            "TimeUnit": "h",
+            "Color": "#b2182b",
+            "Caption": "Treatment (with Fluvoxamine)",
+            "Symbol": "Square"
+          }
+        ]
+      },
+      {
+        "SectionId": 309,
+        "Title": "Yasui 1998",
+        "SimulationDuration": 48,
+        "TimeUnit": "h",
+        "OutputMappings": [
+          {
+            "Project": "Itraconazole-Alprazolam-DDI",
+            "Simulation": "Yasui 1998 - Alprazolam 0.8 mg with placebo",
+            "Output": "Organism|PeripheralVenousBlood|Alprazolam|Plasma (Peripheral Venous Blood)",
+            "ObservedData": "Yasui 1998 - Alprazolam 0.8 mg with itraconazole",
+            "StartTime": 0,
+            "TimeUnit": "h",
+            "Color": "#2166ac",
+            "Caption": "Control (without Itraconazole)",
+            "Symbol": "Circle"
+          },
+          {
+            "Project": "Itraconazole-Alprazolam-DDI",
+            "Simulation": "Yasui 1998 - Alprazolam 0.8 mg with itraconazole",
+            "Output": "Organism|PeripheralVenousBlood|Alprazolam|Plasma (Peripheral Venous Blood)",
+            "ObservedData": "Yasui 1998 - Alprazolam with placebo - Alprazolam - PO - 0.8 mg - Plasma - agg. (n=10)",
+            "StartTime": 73,
+            "TimeUnit": "h",
+            "Color": "#b2182b",
+            "Caption": "Treatment (with Itraconazole)",
+            "Symbol": "Square"
+          }
+        ]
+      },
       {
         "SectionId": 310,
         "Title": "Ahonen 1995",
@@ -2871,6 +3816,465 @@
         ]
       },
       {
+        "SectionId": 311,
+        "Title": "Neuvonen 1996",
+        "SimulationDuration": 24,
+        "TimeUnit": "h",
+        "OutputMappings": [
+          {
+            "Project": "Itraconazole-Triazolam-DDI",
+            "Simulation": "Neuvonen 1996 - Triazolam 0.25 mg control",
+            "Output": "Organism|PeripheralVenousBlood|Triazolam|Plasma (Peripheral Venous Blood)",
+            "ObservedData": "Neuvonen 1996 - Control phase (Triazolam without Itraconazole) - Triazolam - PO - 0.25 mg - Plasma - agg. (n=10)",
+            "StartTime": 0,
+            "TimeUnit": "h",
+            "Color": "#2166ac",
+            "Caption": "Control (without Itraconazole)",
+            "Symbol": "Circle"
+          },
+          {
+            "Project": "Itraconazole-Triazolam-DDI",
+            "Simulation": "Neuvonen 1996 - Triazolam 0.25 mg + ITZ 200 mg simultaneously",
+            "Output": "Organism|PeripheralVenousBlood|Triazolam|Plasma (Peripheral Venous Blood)",
+            "ObservedData": "Neuvonen 1996 - Treatment phase (triazolam + ITZ simultaneously) - Triazolam - PO - 0.25 mg - Plasma - agg. (n=10)",
+            "StartTime": 0,
+            "TimeUnit": "h",
+            "Color": "#f4a582",
+            "Caption": "Treatment (Itraconazole administered simultaneously)",
+            "Symbol": "Square"
+          },
+          {
+            "Project": "Itraconazole-Triazolam-DDI",
+            "Simulation": "Neuvonen 1996 - Triazolam 0.25 mg + ITZ 200 mg 3 hrs before",
+            "Output": "Organism|PeripheralVenousBlood|Triazolam|Plasma (Peripheral Venous Blood)",
+            "ObservedData": "Neuvonen 1996 - Treatment phase (triazolam + ITZ 3 hr before) - Triazolam - PO - 0.25 mg - Plasma - agg. (n=10)",
+            "StartTime": 3,
+            "TimeUnit": "h",
+            "Color": "#d6604d",
+            "Caption": "Treatment (Itraconazole administered 3h before)",
+            "Symbol": "Triangle"
+          },
+          {
+            "Project": "Itraconazole-Triazolam-DDI",
+            "Simulation": "Neuvonen 1996 - Triazolam 0.25 mg + ITZ 200 mg 12 hrs before",
+            "Output": "Organism|PeripheralVenousBlood|Triazolam|Plasma (Peripheral Venous Blood)",
+            "ObservedData": "Neuvonen 1996 - Treatment phase (triazolam + ITZ 12 hr before) - Triazolam - PO - 0.25 mg - Plasma - agg. (n=10)",
+            "StartTime": 12,
+            "TimeUnit": "h",
+            "Color": "#b2182b",
+            "Caption": "Treatment (Itraconazole administered 12h before)",
+            "Symbol": "Diamond"
+          },
+          {
+            "Project": "Itraconazole-Triazolam-DDI",
+            "Simulation": "Neuvonen 1996 - Triazolam 0.25 mg + ITZ 200 mg 24 hrs before",
+            "Output": "Organism|PeripheralVenousBlood|Triazolam|Plasma (Peripheral Venous Blood)",
+            "ObservedData": "Neuvonen 1996 - Treatment phase (triazolam + ITZ 24 hr before) - Triazolam - PO - 0.25 mg - Plasma - agg. (n=10)",
+            "StartTime": 24,
+            "TimeUnit": "h",
+            "Color": "#b2182b",
+            "Caption": "Treatment (Itraconazole administered 24h before)",
+            "Symbol": "Asterisk"
+          }
+        ]
+      },
+      {
+        "SectionId": 311,
+        "Title": "Varhe 1994",
+        "SimulationDuration": 24,
+        "TimeUnit": "h",
+        "OutputMappings": [
+          {
+            "Project": "Itraconazole-Triazolam-DDI",
+            "Simulation": "Varhe 1994 - Triazolam 0.25 mg control",
+            "Output": "Organism|PeripheralVenousBlood|Triazolam|Plasma (Peripheral Venous Blood)",
+            "ObservedData": "Varhe 1994 - Triazolam with placebo - Triazolam - PO - 0.25 mg - Plasma - agg. (n=9)",
+            "StartTime": 0,
+            "TimeUnit": "h",
+            "Color": "#2166ac",
+            "Caption": "Control (without Itraconazole)",
+            "Symbol": "Circle"
+          },
+          {
+            "Project": "Itraconazole-Triazolam-DDI",
+            "Simulation": "Varhe 1994 - Triazolam 0.25 mg + Itraconazole 200 mg PO QD",
+            "Output": "Organism|PeripheralVenousBlood|Triazolam|Plasma (Peripheral Venous Blood)",
+            "ObservedData": "Varhe 1994 - Triazolam with Itraconazole - Triazolam - PO - 0.25 mg - Plasma - agg. (n=9)",
+            "StartTime": 73,
+            "TimeUnit": "h",
+            "Color": "#b2182b",
+            "Caption": "Treatment (with Itraconazole)",
+            "Symbol": "Square"
+          }
+        ]
+      },
+      {
+        "SectionId": 315,
+        "Title": "Kharasch 1997",
+        "SimulationDuration": 12,
+        "TimeUnit": "h",
+        "OutputMappings": [
+          {
+            "Project": "Rifampicin-Alfentanil-DDI",
+            "Simulation": "Kharasch 1997 20 µg/kg IV - control",
+            "Output": "Organism|PeripheralVenousBlood|Alfentanil|Plasma (Peripheral Venous Blood)",
+            "ObservedData": "Kharasch 1997 - Control (Perpetrator Placebo) - Alfentanil - IV - 20 µg/kg - Plasma - agg. (n=9)",
+            "StartTime": 0,
+            "TimeUnit": "h",
+            "Color": "#2166ac",
+            "Caption": "Control (without Rifampicin)",
+            "Symbol": "Circle"
+          },
+          {
+            "Project": "Rifampicin-Alfentanil-DDI",
+            "Simulation": "Kharasch 1997 20 µg/kg IV and Rifampicin",
+            "Output": "Organism|PeripheralVenousBlood|Alfentanil|Plasma (Peripheral Venous Blood)",
+            "ObservedData": "Kharasch 1997 - with Perpetrator (Rifampicin) - Alfentanil - IV - 20 µg/kg - Plasma - agg. (n=9)",
+            "StartTime": 120.5,
+            "TimeUnit": "h",
+            "Color": "#b2182b",
+            "Caption": "Treatment (with Rifampicin)",
+            "Symbol": "Square"
+          }
+        ]
+      },
+      {
+        "SectionId": 315,
+        "Title": "Kharasch 2004 (iv)",
+        "SimulationDuration": 12,
+        "TimeUnit": "h",
+        "OutputMappings": [
+          {
+            "Project": "Rifampicin-Alfentanil-DDI",
+            "Simulation": "Kharasch 2004 15 µg/kg IV - control",
+            "Output": "Organism|PeripheralVenousBlood|Alfentanil|Plasma (Peripheral Venous Blood)",
+            "ObservedData": "Kharasch 2004 - iv Control (Perpetrator Placebo) - Alfentanil - IV - 15 µg/kg - Plasma - agg. (n=10)",
+            "StartTime": 0,
+            "TimeUnit": "h",
+            "Color": "#2166ac",
+            "Caption": "Control (without Rifampicin)",
+            "Symbol": "Circle"
+          },
+          {
+            "Project": "Rifampicin-Alfentanil-DDI",
+            "Simulation": "Kharasch 2004 15 µg/kg IV and Rifampicin",
+            "Output": "Organism|PeripheralVenousBlood|Alfentanil|Plasma (Peripheral Venous Blood)",
+            "ObservedData": "Kharasch 2004 - iv with Perpetrator (Rifampicin) - Alfentanil - IV - 15 µg/kg - Plasma - agg. (n=10)",
+            "StartTime": 105,
+            "TimeUnit": "h",
+            "Color": "#b2182b",
+            "Caption": "Treatment (with Rifampicin)",
+            "Symbol": "Square"
+          }
+        ]
+      },
+      {
+        "SectionId": 315,
+        "Title": "Kharasch 2004 (po)",
+        "SimulationDuration": 12,
+        "TimeUnit": "h",
+        "OutputMappings": [
+          {
+            "Project": "Rifampicin-Alfentanil-DDI",
+            "Simulation": "Kharasch 2004 60 µg/kg PO - control",
+            "Output": "Organism|PeripheralVenousBlood|Alfentanil|Plasma (Peripheral Venous Blood)",
+            "ObservedData": "Kharasch 2004 - po #1 (60 µg/kg) Control (Perpetrator Placebo) - Alfentanil - PO - 60 µg/kg - Plasma - agg. (n=10)",
+            "StartTime": 0,
+            "TimeUnit": "h",
+            "Color": "#2166ac",
+            "Caption": "Control (without Rifampicin)",
+            "Symbol": "Circle"
+          },
+          {
+            "Project": "Rifampicin-Alfentanil-DDI",
+            "Simulation": "Kharasch 2004 60 µg/kg PO and Rifampicin",
+            "Output": "Organism|PeripheralVenousBlood|Alfentanil|Plasma (Peripheral Venous Blood)",
+            "ObservedData": "Kharasch 2004 - po #1 (60 µg/kg) with Perpetrator (Rifampicin) - Alfentanil - PO - 60 µg/kg - Plasma - agg. (n=10)",
+            "StartTime": 129,
+            "TimeUnit": "h",
+            "Color": "#b2182b",
+            "Caption": "Treatment (with Rifampicin)",
+            "Symbol": "Square"
+          }
+        ]
+      },
+      {
+        "SectionId": 315,
+        "Title": "Kharasch 2011 (iv)",
+        "SimulationDuration": 12,
+        "TimeUnit": "h",
+        "OutputMappings": [
+          {
+            "Project": "Rifampicin-Alfentanil-DDI",
+            "Simulation": "Kharasch 2011 15 µg/kg IV - control",
+            "Output": "Organism|PeripheralVenousBlood|Alfentanil|Plasma (Peripheral Venous Blood)",
+            "ObservedData": "Kharasch 2011 - iv Control (Perpetrator Placebo) - Alfentanil - IV - 15 µg/kg - Plasma - agg. (n=12)",
+            "StartTime": 0,
+            "TimeUnit": "h",
+            "Color": "#2166ac",
+            "Caption": "Control (without Rifampicin)",
+            "Symbol": "Circle"
+          },
+          {
+            "Project": "Rifampicin-Alfentanil-DDI",
+            "Simulation": "Kharasch 2011 15 µg/kg IV and 5 mg Rifampicin",
+            "Output": "Organism|PeripheralVenousBlood|Alfentanil|Plasma (Peripheral Venous Blood)",
+            "ObservedData": "Kharasch 2011 - iv with Perpetrator (Rifampicin @ 5 mg) - Alfentanil - IV - 15 µg/kg - Plasma - agg. (n=12)",
+            "StartTime": 109,
+            "TimeUnit": "h",
+            "Color": "#fddbc7",
+            "Caption": "Treatment (with 5 mg Rifampicin)",
+            "Symbol": "Square"
+          },
+          {
+            "Project": "Rifampicin-Alfentanil-DDI",
+            "Simulation": "Kharasch 2011 15 µg/kg IV and 10 mg Rifampicin",
+            "Output": "Organism|PeripheralVenousBlood|Alfentanil|Plasma (Peripheral Venous Blood)",
+            "ObservedData": "Kharasch 2011 - iv with Perpetrator (Rifampicin @ 10 mg) - Alfentanil - IV - 15 µg/kg - Plasma - agg. (n=12)",
+            "StartTime": 109,
+            "TimeUnit": "h",
+            "Color": "#f4a582",
+            "Caption": "Treatment (with 10 mg Rifampicin)",
+            "Symbol": "Triangle"
+          },
+          {
+            "Project": "Rifampicin-Alfentanil-DDI",
+            "Simulation": "Kharasch 2011 15 µg/kg IV and 25 mg Rifampicin",
+            "Output": "Organism|PeripheralVenousBlood|Alfentanil|Plasma (Peripheral Venous Blood)",
+            "ObservedData": "Kharasch 2011 - iv with Perpetrator (Rifampicin @ 25 mg) - Alfentanil - IV - 15 µg/kg - Plasma - agg. (n=12)",
+            "StartTime": 109,
+            "TimeUnit": "h",
+            "Color": "#d6604d",
+            "Caption": "Treatment (with 25 mg Rifampicin)",
+            "Symbol": "Diamond"
+          },
+          {
+            "Project": "Rifampicin-Alfentanil-DDI",
+            "Simulation": "Kharasch 2011 15 µg/kg IV and 75 mg Rifampicin",
+            "Output": "Organism|PeripheralVenousBlood|Alfentanil|Plasma (Peripheral Venous Blood)",
+            "ObservedData": "Kharasch 2011 - iv with Perpetrator (Rifampicin @ 75 mg) - Alfentanil - IV - 15 µg/kg - Plasma - agg. (n=12)",
+            "StartTime": 109,
+            "TimeUnit": "h",
+            "Color": "#b2182b",
+            "Caption": "Treatment (with 75 mg Rifampicin)",
+            "Symbol": "Asterisk"
+          }
+        ]
+      },
+      {
+        "SectionId": 315,
+        "Title": "Kharasch 2011 (po)",
+        "SimulationDuration": 12,
+        "TimeUnit": "h",
+        "OutputMappings": [
+          {
+            "Project": "Rifampicin-Alfentanil-DDI",
+            "Simulation": "Kharasch 2011 75 µg/kg PO - control",
+            "Output": "Organism|PeripheralVenousBlood|Alfentanil|Plasma (Peripheral Venous Blood)",
+            "ObservedData": "Kharasch 2011 - po Control (Perpetrator Placebo) - Alfentanil - PO - 75 µg/kg - Plasma - agg. (n=12)",
+            "StartTime": 0,
+            "TimeUnit": "h",
+            "Color": "#2166ac",
+            "Caption": "Control (without Rifampicin)",
+            "Symbol": "Circle"
+          },
+          {
+            "Project": "Rifampicin-Alfentanil-DDI",
+            "Simulation": "Kharasch 2011 75 µg/kg PO and 5 mg Rifampicin",
+            "Output": "Organism|PeripheralVenousBlood|Alfentanil|Plasma (Peripheral Venous Blood)",
+            "ObservedData": "Kharasch 2011 - po with Perpetrator (Rifampicin @ 5 mg) - Alfentanil - PO - 75 µg/kg - Plasma - agg. (n=12)",
+            "StartTime": 133,
+            "TimeUnit": "h",
+            "Color": "#fddbc7",
+            "Caption": "Treatment (with 5 mg Rifampicin)",
+            "Symbol": "Square"
+          },
+          {
+            "Project": "Rifampicin-Alfentanil-DDI",
+            "Simulation": "Kharasch 2011 75 µg/kg PO and 10 mg Rifampicin",
+            "Output": "Organism|PeripheralVenousBlood|Alfentanil|Plasma (Peripheral Venous Blood)",
+            "ObservedData": "Kharasch 2011 - po with Perpetrator (Rifampicin @ 10 mg) - Alfentanil - PO - 75 µg/kg - Plasma - agg. (n=12)",
+            "StartTime": 133,
+            "TimeUnit": "h",
+            "Color": "#f4a582",
+            "Caption": "Treatment (with 10 mg Rifampicin)",
+            "Symbol": "Triangle"
+          },
+          {
+            "Project": "Rifampicin-Alfentanil-DDI",
+            "Simulation": "Kharasch 2011 75 µg/kg PO and 25 mg Rifampicin",
+            "Output": "Organism|PeripheralVenousBlood|Alfentanil|Plasma (Peripheral Venous Blood)",
+            "ObservedData": "Kharasch 2011 - po with Perpetrator (Rifampicin @ 25 mg) - Alfentanil - PO - 75 µg/kg - Plasma - agg. (n=12)",
+            "StartTime": 133,
+            "TimeUnit": "h",
+            "Color": "#d6604d",
+            "Caption": "Treatment (with 25 mg Rifampicin)",
+            "Symbol": "Diamond"
+          },
+          {
+            "Project": "Rifampicin-Alfentanil-DDI",
+            "Simulation": "Kharasch 2011 75 µg/kg PO and 75 mg Rifampicin",
+            "Output": "Organism|PeripheralVenousBlood|Alfentanil|Plasma (Peripheral Venous Blood)",
+            "ObservedData": "Kharasch 2011 - po with Perpetrator (Rifampicin @ 75 mg) - Alfentanil - PO - 75 µg/kg - Plasma - agg. (n=12)",
+            "StartTime": 133,
+            "TimeUnit": "h",
+            "Color": "#b2182b",
+            "Caption": "Treatment (with 75 mg Rifampicin)",
+            "Symbol": "Asterisk"
+          }
+        ]
+      },
+      {
+        "SectionId": 315,
+        "Title": "Kharasch 2011b (iv during sequential administration of iv unlabeled alfentanil and oral deuterated alfentanil)",
+        "SimulationDuration": 12,
+        "TimeUnit": "h",
+        "OutputMappings": [
+          {
+            "Project": "Rifampicin-Alfentanil-DDI",
+            "Simulation": "Kharasch 2011b IV 1mg - control",
+            "Output": "Organism|PeripheralVenousBlood|Alfentanil|Plasma (Peripheral Venous Blood)",
+            "ObservedData": "Kharasch 2011b - Alfentanil IV Control sequential - Alfentanil - IV - 1 mg - Plasma - agg. (n=6)",
+            "StartTime": 0,
+            "TimeUnit": "h",
+            "Color": "#2166ac",
+            "Caption": "Control (without Rifampicin)",
+            "Symbol": "Circle"
+          },
+          {
+            "Project": "Rifampicin-Alfentanil-DDI",
+            "Simulation": "Kharasch 2011b 1 mg IV seq and 600 mg Rifampicin",
+            "Output": "Organism|PeripheralVenousBlood|Alfentanil|Plasma (Peripheral Venous Blood)",
+            "ObservedData": "Kharasch 2011b - Alfentanil IV Rifampin coadmin sequential - Alfentanil - IV - 1 mg - Plasma - agg. (n=6)",
+            "StartTime": 108,
+            "TimeUnit": "h",
+            "Color": "#b2182b",
+            "Caption": "Treatment (with Rifampicin)",
+            "Symbol": "Square"
+          }
+        ]
+      },
+      {
+        "SectionId": 315,
+        "Title": "Kharasch 2011b (iv during simultaneous administration of iv unlabeled alfentanil and oral deuterated alfentanil)",
+        "SimulationDuration": 12,
+        "TimeUnit": "h",
+        "OutputMappings": [
+          {
+            "Project": "Rifampicin-Alfentanil-DDI",
+            "Simulation": "Kharasch 2011b IV 1mg - control",
+            "Output": "Organism|PeripheralVenousBlood|Alfentanil|Plasma (Peripheral Venous Blood)",
+            "ObservedData": "Kharasch 2011b - Alfentanil IV Control simultaneous - Alfentanil - IV - 1 mg - Plasma - agg. (n=6)",
+            "StartTime": 24,
+            "TimeUnit": "h",
+            "Color": "#2166ac",
+            "Caption": "Control (without Rifampicin)",
+            "Symbol": "Circle"
+          },
+          {
+            "Project": "Rifampicin-Alfentanil-DDI",
+            "Simulation": "Kharasch 2011b 1 mg IV simultaneous and 600 mg Rifampicin",
+            "Output": "Organism|PeripheralVenousBlood|Alfentanil|Plasma (Peripheral Venous Blood)",
+            "ObservedData": "Kharasch 2011b - Alfentanil IV Rifampin coadmin simultaneous - Alfentanil - IV - 1 mg - Plasma - agg. (n=6)",
+            "StartTime": 132,
+            "TimeUnit": "h",
+            "Color": "#b2182b",
+            "Caption": "Treatment (with Rifampicin)",
+            "Symbol": "Square"
+          }
+        ]
+      },
+      {
+        "SectionId": 315,
+        "Title": "Kharasch 2011b (po during sequential administration of iv unlabeled alfentanil and oral deuterated alfentanil)",
+        "SimulationDuration": 12,
+        "TimeUnit": "h",
+        "OutputMappings": [
+          {
+            "Project": "Rifampicin-Alfentanil-DDI",
+            "Simulation": "Kharasch 2011b PO 4mg - control",
+            "Output": "Organism|PeripheralVenousBlood|Alfentanil|Plasma (Peripheral Venous Blood)",
+            "ObservedData": "Kharasch 2011b - Alfentanil PO Control sequential - Alfentanil - PO - 4 mg - Plasma - agg. (n=6)",
+            "StartTime": 0,
+            "TimeUnit": "h",
+            "Color": "#2166ac",
+            "Caption": "Control (without Rifampicin)",
+            "Symbol": "Circle"
+          },
+          {
+            "Project": "Rifampicin-Alfentanil-DDI",
+            "Simulation": "Kharasch 2011b 4 mg PO seq and 600 mg Rifampicin",
+            "Output": "Organism|PeripheralVenousBlood|Alfentanil|Plasma (Peripheral Venous Blood)",
+            "ObservedData": "Kharasch 2011b - Alfentanil PO Rifampin coadmin sequential - Alfentanil - PO - 4 mg - Plasma - agg. (n=6)",
+            "StartTime": 111,
+            "TimeUnit": "h",
+            "Color": "#b2182b",
+            "Caption": "Treatment (with Rifampicin)",
+            "Symbol": "Square"
+          }
+        ]
+      },
+      {
+        "SectionId": 315,
+        "Title": "Kharasch 2011b (po during simultaneous administration of iv unlabeled alfentanil and oral deuterated alfentanil)",
+        "SimulationDuration": 12,
+        "TimeUnit": "h",
+        "OutputMappings": [
+          {
+            "Project": "Rifampicin-Alfentanil-DDI",
+            "Simulation": "Kharasch 2011b PO 4mg - control",
+            "Output": "Organism|PeripheralVenousBlood|Alfentanil|Plasma (Peripheral Venous Blood)",
+            "ObservedData": "Kharasch 2011b - Alfentanil PO Control simultaneous - Alfentanil - PO - 4 mg - Plasma - agg. (n=6)",
+            "StartTime": 21,
+            "TimeUnit": "h",
+            "Color": "#2166ac",
+            "Caption": "Control (without Rifampicin)",
+            "Symbol": "Circle"
+          },
+          {
+            "Project": "Rifampicin-Alfentanil-DDI",
+            "Simulation": "Kharasch 2011b 4 mg PO simultaneous and 600 mg Rifampicin",
+            "Output": "Organism|PeripheralVenousBlood|Alfentanil|Plasma (Peripheral Venous Blood)",
+            "ObservedData": "Kharasch 2011b - Alfentanil PO Rifampin coadmin simultaneous - Alfentanil - PO - 4 mg - Plasma - agg. (n=6)",
+            "StartTime": 132,
+            "TimeUnit": "h",
+            "Color": "#b2182b",
+            "Caption": "Treatment (with Rifampicin)",
+            "Symbol": "Square"
+          }
+        ]
+      },
+      {
+        "SectionId": 315,
+        "Title": "Phimmasone 2001",
+        "SimulationDuration": 24,
+        "TimeUnit": "h",
+        "OutputMappings": [
+          {
+            "Project": "Rifampicin-Alfentanil-DDI",
+            "Simulation": "Phimmasone 2001 15 µg/kg IV - control",
+            "Output": "Organism|PeripheralVenousBlood|Alfentanil|Plasma (Peripheral Venous Blood)",
+            "ObservedData": "Phimmasone 2001 - Control (Perpetrator Placebo) - Alfentanil - IV - 15 µg/kg - Plasma - agg. (n=6)",
+            "StartTime": 0,
+            "TimeUnit": "h",
+            "Color": "#2166ac",
+            "Caption": "Control (without Rifampicin)",
+            "Symbol": "Circle"
+          },
+          {
+            "Project": "Rifampicin-Alfentanil-DDI",
+            "Simulation": "Phimmasone 2001 0.015 µg/kg IV and 600 mg Rifampicin",
+            "Output": "Organism|PeripheralVenousBlood|Alfentanil|Plasma (Peripheral Venous Blood)",
+            "ObservedData": "Phimmasone 2001 - with Perpetrator (Rifampicin) - Alfentanil - IV - 15 µg/kg - Plasma - agg. (n=6)",
+            "StartTime": 107,
+            "TimeUnit": "h",
+            "Color": "#b2182b",
+            "Caption": "Treatment (with Rifampicin)",
+            "Symbol": "Square"
+          }
+        ]
+      },
+      {
         "SectionId": 317,
         "Title": "Backman 1996",
         "SimulationDuration": 24,
@@ -3123,7 +4527,7 @@
       },
       {
         "SectionId": 317,
-        "Title": "Gurley 2008",
+        "Title": "Gurley 2008a",
         "SimulationDuration": 24,
         "TimeUnit": "h",
         "OutputMappings": [
@@ -3243,7 +4647,7 @@
       },
       {
         "SectionId": 317,
-        "Title": "Kharasch 2011 (iv, RIF @ 5 mg)",
+        "Title": "Kharasch 2011 (iv)",
         "SimulationDuration": 24,
         "TimeUnit": "h",
         "OutputMappings": [
@@ -3306,7 +4710,7 @@
       },
       {
         "SectionId": 317,
-        "Title": "Kharasch 2011 (po, RIF @ 5 mg)",
+        "Title": "Kharasch 2011 (po)",
         "SimulationDuration": 24,
         "TimeUnit": "h",
         "OutputMappings": [
@@ -4566,6 +5970,504 @@
                 }
               }
             ]
+          },
+          {
+            "Caption": "Rifampicin+Alfentanil (Alfentanil iv)",
+            "Color": "#C00000",
+            "Symbol": "Square",
+            "DDIRatios": [
+              {
+                "Output": "Organism|PeripheralVenousBlood|Alfentanil|Plasma (Peripheral Venous Blood)",
+                "ObservedData": "DDI Ratios",
+                "ObservedDataRecordId": 278,
+                "SimulationControl": {
+                  "Project": "Rifampicin-Alfentanil-DDI",
+                  "Simulation": "Kharasch 1997 20 µg/kg IV - control",
+                  "StartTime": 0,
+                  "EndTime": 9999,
+                  "TimeUnit": "h"
+                },
+                "SimulationDDI": {
+                  "Project": "Rifampicin-Alfentanil-DDI",
+                  "Simulation": "Kharasch 1997 20 µg/kg IV and Rifampicin",
+                  "StartTime": 120.5,
+                  "EndTime": 9999,
+                  "TimeUnit": "h"
+                }
+              },
+              {
+                "Output": "Organism|PeripheralVenousBlood|Alfentanil|Plasma (Peripheral Venous Blood)",
+                "ObservedData": "DDI Ratios",
+                "ObservedDataRecordId": 283,
+                "SimulationControl": {
+                  "Project": "Rifampicin-Alfentanil-DDI",
+                  "Simulation": "Kharasch 2004 15 µg/kg IV - control",
+                  "StartTime": 0,
+                  "EndTime": 9999,
+                  "TimeUnit": "h"
+                },
+                "SimulationDDI": {
+                  "Project": "Rifampicin-Alfentanil-DDI",
+                  "Simulation": "Kharasch 2004 15 µg/kg IV and Rifampicin",
+                  "StartTime": 105,
+                  "EndTime": 129,
+                  "TimeUnit": "h"
+                }
+              },
+              {
+                "Output": "Organism|PeripheralVenousBlood|Alfentanil|Plasma (Peripheral Venous Blood)",
+                "ObservedData": "DDI Ratios",
+                "ObservedDataRecordId": 299,
+                "SimulationControl": {
+                  "Project": "Rifampicin-Alfentanil-DDI",
+                  "Simulation": "Kharasch 2011 15 µg/kg IV - control",
+                  "StartTime": 0,
+                  "EndTime": 9999,
+                  "TimeUnit": "h"
+                },
+                "SimulationDDI": {
+                  "Project": "Rifampicin-Alfentanil-DDI",
+                  "Simulation": "Kharasch 2011 15 µg/kg IV and 5 mg Rifampicin",
+                  "StartTime": 109,
+                  "EndTime": 133,
+                  "TimeUnit": "h"
+                }
+              },
+              {
+                "Output": "Organism|PeripheralVenousBlood|Alfentanil|Plasma (Peripheral Venous Blood)",
+                "ObservedData": "DDI Ratios",
+                "ObservedDataRecordId": 300,
+                "SimulationControl": {
+                  "Project": "Rifampicin-Alfentanil-DDI",
+                  "Simulation": "Kharasch 2011 15 µg/kg IV - control",
+                  "StartTime": 0,
+                  "EndTime": 9999,
+                  "TimeUnit": "h"
+                },
+                "SimulationDDI": {
+                  "Project": "Rifampicin-Alfentanil-DDI",
+                  "Simulation": "Kharasch 2011 15 µg/kg IV and 10 mg Rifampicin",
+                  "StartTime": 109,
+                  "EndTime": 133,
+                  "TimeUnit": "h"
+                }
+              },
+              {
+                "Output": "Organism|PeripheralVenousBlood|Alfentanil|Plasma (Peripheral Venous Blood)",
+                "ObservedData": "DDI Ratios",
+                "ObservedDataRecordId": 301,
+                "SimulationControl": {
+                  "Project": "Rifampicin-Alfentanil-DDI",
+                  "Simulation": "Kharasch 2011 15 µg/kg IV - control",
+                  "StartTime": 0,
+                  "EndTime": 9999,
+                  "TimeUnit": "h"
+                },
+                "SimulationDDI": {
+                  "Project": "Rifampicin-Alfentanil-DDI",
+                  "Simulation": "Kharasch 2011 15 µg/kg IV and 50 mg Rifampicin",
+                  "StartTime": 109,
+                  "EndTime": 133,
+                  "TimeUnit": "h"
+                }
+              },
+              {
+                "Output": "Organism|PeripheralVenousBlood|Alfentanil|Plasma (Peripheral Venous Blood)",
+                "ObservedData": "DDI Ratios",
+                "ObservedDataRecordId": 302,
+                "SimulationControl": {
+                  "Project": "Rifampicin-Alfentanil-DDI",
+                  "Simulation": "Kharasch 2011 15 µg/kg IV - control",
+                  "StartTime": 0,
+                  "EndTime": 9999,
+                  "TimeUnit": "h"
+                },
+                "SimulationDDI": {
+                  "Project": "Rifampicin-Alfentanil-DDI",
+                  "Simulation": "Kharasch 2011 15 µg/kg IV and 75 mg Rifampicin",
+                  "StartTime": 109,
+                  "EndTime": 133,
+                  "TimeUnit": "h"
+                }
+              },
+              {
+                "Output": "Organism|PeripheralVenousBlood|Alfentanil|Plasma (Peripheral Venous Blood)",
+                "ObservedData": "DDI Ratios",
+                "ObservedDataRecordId": 763,
+                "SimulationControl": {
+                  "Project": "Rifampicin-Alfentanil-DDI",
+                  "Simulation": "Kharasch 2011b IV 1mg - control",
+                  "StartTime": 0,
+                  "EndTime": 24,
+                  "TimeUnit": "h"
+                },
+                "SimulationDDI": {
+                  "Project": "Rifampicin-Alfentanil-DDI",
+                  "Simulation": "Kharasch 2011b 1 mg IV seq and 600 mg Rifampicin",
+                  "StartTime": 108,
+                  "EndTime": 132,
+                  "TimeUnit": "h"
+                }
+              },
+              {
+                "Output": "Organism|PeripheralVenousBlood|Alfentanil|Plasma (Peripheral Venous Blood)",
+                "ObservedData": "DDI Ratios",
+                "ObservedDataRecordId": 767,
+                "SimulationControl": {
+                  "Project": "Rifampicin-Alfentanil-DDI",
+                  "Simulation": "Kharasch 2011b IV 1mg - control",
+                  "StartTime": 24,
+                  "EndTime": 9999,
+                  "TimeUnit": "h"
+                },
+                "SimulationDDI": {
+                  "Project": "Rifampicin-Alfentanil-DDI",
+                  "Simulation": "Kharasch 2011b 1 mg IV simultaneous and 600 mg Rifampicin",
+                  "StartTime": 132,
+                  "EndTime": 9999,
+                  "TimeUnit": "h"
+                }
+              },
+              {
+                "Output": "Organism|PeripheralVenousBlood|Alfentanil|Plasma (Peripheral Venous Blood)",
+                "ObservedData": "DDI Ratios",
+                "ObservedDataRecordId": 391,
+                "SimulationControl": {
+                  "Project": "Rifampicin-Alfentanil-DDI",
+                  "Simulation": "Phimmasone 2001 15 µg/kg IV - control",
+                  "StartTime": 0,
+                  "EndTime": 9999,
+                  "TimeUnit": "h"
+                },
+                "SimulationDDI": {
+                  "Project": "Rifampicin-Alfentanil-DDI",
+                  "Simulation": "Phimmasone 2001 0.015 µg/kg IV and 600 mg Rifampicin",
+                  "StartTime": 107,
+                  "EndTime": 9999,
+                  "TimeUnit": "h"
+                }
+              }
+            ]
+          },
+          {
+            "Caption": "Rifampicin+Alfentanil (Alfentanil po)",
+            "Color": "#C00000",
+            "Symbol": "Circle",
+            "DDIRatios": [
+              {
+                "Output": "Organism|PeripheralVenousBlood|Alfentanil|Plasma (Peripheral Venous Blood)",
+                "ObservedData": "DDI Ratios",
+                "ObservedDataRecordId": 288,
+                "SimulationControl": {
+                  "Project": "Rifampicin-Alfentanil-DDI",
+                  "Simulation": "Kharasch 2004 60 µg/kg PO - control",
+                  "StartTime": 0,
+                  "EndTime": 9999,
+                  "TimeUnit": "h"
+                },
+                "SimulationDDI": {
+                  "Project": "Rifampicin-Alfentanil-DDI",
+                  "Simulation": "Kharasch 2004 60 µg/kg PO and Rifampicin",
+                  "StartTime": 129,
+                  "EndTime": 9999,
+                  "TimeUnit": "h"
+                }
+              },
+              {
+                "Output": "Organism|PeripheralVenousBlood|Alfentanil|Plasma (Peripheral Venous Blood)",
+                "ObservedData": "DDI Ratios",
+                "ObservedDataRecordId": 309,
+                "SimulationControl": {
+                  "Project": "Rifampicin-Alfentanil-DDI",
+                  "Simulation": "Kharasch 2011 75 µg/kg PO - control",
+                  "StartTime": 0,
+                  "EndTime": 9999,
+                  "TimeUnit": "h"
+                },
+                "SimulationDDI": {
+                  "Project": "Rifampicin-Alfentanil-DDI",
+                  "Simulation": "Kharasch 2011 75 µg/kg PO and 5 mg Rifampicin",
+                  "StartTime": 133,
+                  "EndTime": 9999,
+                  "TimeUnit": "h"
+                }
+              },
+              {
+                "Output": "Organism|PeripheralVenousBlood|Alfentanil|Plasma (Peripheral Venous Blood)",
+                "ObservedData": "DDI Ratios",
+                "ObservedDataRecordId": 310,
+                "SimulationControl": {
+                  "Project": "Rifampicin-Alfentanil-DDI",
+                  "Simulation": "Kharasch 2011 75 µg/kg PO - control",
+                  "StartTime": 0,
+                  "EndTime": 9999,
+                  "TimeUnit": "h"
+                },
+                "SimulationDDI": {
+                  "Project": "Rifampicin-Alfentanil-DDI",
+                  "Simulation": "Kharasch 2011 75 µg/kg PO and 10 mg Rifampicin",
+                  "StartTime": 133,
+                  "EndTime": 9999,
+                  "TimeUnit": "h"
+                }
+              },
+              {
+                "Output": "Organism|PeripheralVenousBlood|Alfentanil|Plasma (Peripheral Venous Blood)",
+                "ObservedData": "DDI Ratios",
+                "ObservedDataRecordId": 311,
+                "SimulationControl": {
+                  "Project": "Rifampicin-Alfentanil-DDI",
+                  "Simulation": "Kharasch 2011 75 µg/kg PO - control",
+                  "StartTime": 0,
+                  "EndTime": 9999,
+                  "TimeUnit": "h"
+                },
+                "SimulationDDI": {
+                  "Project": "Rifampicin-Alfentanil-DDI",
+                  "Simulation": "Kharasch 2011 75 µg/kg PO and 25 mg Rifampicin",
+                  "StartTime": 133,
+                  "EndTime": 9999,
+                  "TimeUnit": "h"
+                }
+              },
+              {
+                "Output": "Organism|PeripheralVenousBlood|Alfentanil|Plasma (Peripheral Venous Blood)",
+                "ObservedData": "DDI Ratios",
+                "ObservedDataRecordId": 312,
+                "SimulationControl": {
+                  "Project": "Rifampicin-Alfentanil-DDI",
+                  "Simulation": "Kharasch 2011 75 µg/kg PO - control",
+                  "StartTime": 0,
+                  "EndTime": 9999,
+                  "TimeUnit": "h"
+                },
+                "SimulationDDI": {
+                  "Project": "Rifampicin-Alfentanil-DDI",
+                  "Simulation": "Kharasch 2011 75 µg/kg PO and 75 mg Rifampicin",
+                  "StartTime": 133,
+                  "EndTime": 9999,
+                  "TimeUnit": "h"
+                }
+              },
+              {
+                "Output": "Organism|PeripheralVenousBlood|Alfentanil|Plasma (Peripheral Venous Blood)",
+                "ObservedData": "DDI Ratios",
+                "ObservedDataRecordId": 771,
+                "SimulationControl": {
+                  "Project": "Rifampicin-Alfentanil-DDI",
+                  "Simulation": "Kharasch 2011b PO 4mg - control",
+                  "StartTime": 0,
+                  "EndTime": 21,
+                  "TimeUnit": "h"
+                },
+                "SimulationDDI": {
+                  "Project": "Rifampicin-Alfentanil-DDI",
+                  "Simulation": "Kharasch 2011b 4 mg PO seq and 600 mg Rifampicin",
+                  "StartTime": 111,
+                  "EndTime": 132,
+                  "TimeUnit": "h"
+                }
+              },
+              {
+                "Output": "Organism|PeripheralVenousBlood|Alfentanil|Plasma (Peripheral Venous Blood)",
+                "ObservedData": "DDI Ratios",
+                "ObservedDataRecordId": 775,
+                "SimulationControl": {
+                  "Project": "Rifampicin-Alfentanil-DDI",
+                  "Simulation": "Kharasch 2011b PO 4mg - control",
+                  "StartTime": 21,
+                  "EndTime": 9999,
+                  "TimeUnit": "h"
+                },
+                "SimulationDDI": {
+                  "Project": "Rifampicin-Alfentanil-DDI",
+                  "Simulation": "Kharasch 2011b 4 mg PO simultaneous and 600 mg Rifampicin",
+                  "StartTime": 132,
+                  "EndTime": 9999,
+                  "TimeUnit": "h"
+                }
+              }
+            ]
+          },
+          {
+            "Caption": "Fluvoxamine+Midazolam (Midazolam iv)",
+            "Color": "#C04000",
+            "Symbol": "Square",
+            "DDIRatios": [
+              {
+                "Output": "Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
+                "ObservedData": "DDI Ratios",
+                "ObservedDataRecordId": 2007,
+                "SimulationControl": {
+                  "Project": "Fluvoxamine-Midazolam-DDI",
+                  "Simulation": "DDI Control - Midazolam - Kashuba 1998",
+                  "StartTime": 0,
+                  "EndTime": 9999,
+                  "TimeUnit": "h"
+                },
+                "SimulationDDI": {
+                  "Project": "Fluvoxamine-Midazolam-DDI",
+                  "Simulation": "DDI Treatment - Fluvoxamine/Midazolam - Kashuba 1998",
+                  "StartTime": 517,
+                  "EndTime": 9999,
+                  "TimeUnit": "h"
+                }
+              }
+            ]
+          },
+          {
+            "Caption": "Fluvoxamine+Midazolam (Midazolam po)",
+            "Color": "#C04000",
+            "Symbol": "Circle",
+            "DDIRatios": [
+              {
+                "Output": "Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
+                "ObservedData": "DDI Ratios",
+                "ObservedDataRecordId": 1089,
+                "SimulationControl": {
+                  "Project": "Fluvoxamine-Midazolam-DDI",
+                  "Simulation": "Lam 2003, 10 mg, SD, midazolam control",
+                  "StartTime": 0,
+                  "EndTime": 9999,
+                  "TimeUnit": "h"
+                },
+                "SimulationDDI": {
+                  "Project": "Fluvoxamine-Midazolam-DDI",
+                  "Simulation": "Lam 2003, 10 mg SD, midazolam with fluvoxamine",
+                  "StartTime": 265,
+                  "EndTime": 9999,
+                  "TimeUnit": "h"
+                }
+              }
+            ]
+          },
+          {
+            "Caption": "Itraconazole+Alprazolam (Alprazolam po)",
+            "Color": "#00FF00",
+            "Symbol": "Circle",
+            "DDIRatios": [
+              {
+                "Output": "Organism|PeripheralVenousBlood|Alprazolam|Plasma (Peripheral Venous Blood)",
+                "ObservedData": "DDI Ratios",
+                "ObservedDataRecordId": 1026,
+                "SimulationControl": {
+                  "Project": "Itraconazole-Alprazolam-DDI",
+                  "Simulation": "Yasui 1998 - Alprazolam 0.8 mg with placebo",
+                  "StartTime": 0,
+                  "EndTime": 9999,
+                  "TimeUnit": "h"
+                },
+                "SimulationDDI": {
+                  "Project": "Itraconazole-Alprazolam-DDI",
+                  "Simulation": "Yasui 1998 - Alprazolam 0.8 mg with itraconazole",
+                  "StartTime": 73,
+                  "EndTime": 9999,
+                  "TimeUnit": "h"
+                }
+              }
+            ]
+          },
+          {
+            "Caption": "Itraconazole+Triazolam (Triazolam po)",
+            "Color": "#C0C000",
+            "Symbol": "Circle",
+            "DDIRatios": [
+              {
+                "Output": "Organism|PeripheralVenousBlood|Triazolam|Plasma (Peripheral Venous Blood)",
+                "ObservedData": "DDI Ratios",
+                "ObservedDataRecordId": 1078,
+                "SimulationControl": {
+                  "Project": "Itraconazole-Triazolam-DDI",
+                  "Simulation": "Neuvonen 1996 - Triazolam 0.25 mg control",
+                  "StartTime": 0,
+                  "EndTime": 9999,
+                  "TimeUnit": "h"
+                },
+                "SimulationDDI": {
+                  "Project": "Itraconazole-Triazolam-DDI",
+                  "Simulation": "Neuvonen 1996 - Triazolam 0.25 mg + ITZ 200 mg simultaneously",
+                  "StartTime": 0,
+                  "EndTime": 9999,
+                  "TimeUnit": "h"
+                }
+              },
+              {
+                "Output": "Organism|PeripheralVenousBlood|Triazolam|Plasma (Peripheral Venous Blood)",
+                "ObservedData": "DDI Ratios",
+                "ObservedDataRecordId": 1079,
+                "SimulationControl": {
+                  "Project": "Itraconazole-Triazolam-DDI",
+                  "Simulation": "Neuvonen 1996 - Triazolam 0.25 mg control",
+                  "StartTime": 0,
+                  "EndTime": 9999,
+                  "TimeUnit": "h"
+                },
+                "SimulationDDI": {
+                  "Project": "Itraconazole-Triazolam-DDI",
+                  "Simulation": "Neuvonen 1996 - Triazolam 0.25 mg + ITZ 200 mg 3 hrs before",
+                  "StartTime": 3,
+                  "EndTime": 9999,
+                  "TimeUnit": "h"
+                }
+              },
+              {
+                "Output": "Organism|PeripheralVenousBlood|Triazolam|Plasma (Peripheral Venous Blood)",
+                "ObservedData": "DDI Ratios",
+                "ObservedDataRecordId": 1080,
+                "SimulationControl": {
+                  "Project": "Itraconazole-Triazolam-DDI",
+                  "Simulation": "Neuvonen 1996 - Triazolam 0.25 mg control",
+                  "StartTime": 0,
+                  "EndTime": 9999,
+                  "TimeUnit": "h"
+                },
+                "SimulationDDI": {
+                  "Project": "Itraconazole-Triazolam-DDI",
+                  "Simulation": "Neuvonen 1996 - Triazolam 0.25 mg + ITZ 200 mg 12 hrs before",
+                  "StartTime": 12,
+                  "EndTime": 9999,
+                  "TimeUnit": "h"
+                }
+              },
+              {
+                "Output": "Organism|PeripheralVenousBlood|Triazolam|Plasma (Peripheral Venous Blood)",
+                "ObservedData": "DDI Ratios",
+                "ObservedDataRecordId": 1081,
+                "SimulationControl": {
+                  "Project": "Itraconazole-Triazolam-DDI",
+                  "Simulation": "Neuvonen 1996 - Triazolam 0.25 mg control",
+                  "StartTime": 0,
+                  "EndTime": 9999,
+                  "TimeUnit": "h"
+                },
+                "SimulationDDI": {
+                  "Project": "Itraconazole-Triazolam-DDI",
+                  "Simulation": "Neuvonen 1996 - Triazolam 0.25 mg + ITZ 200 mg 24 hrs before",
+                  "StartTime": 24,
+                  "EndTime": 9999,
+                  "TimeUnit": "h"
+                }
+              },
+              {
+                "Output": "Organism|PeripheralVenousBlood|Triazolam|Plasma (Peripheral Venous Blood)",
+                "ObservedData": "DDI Ratios",
+                "ObservedDataRecordId": 1029,
+                "SimulationControl": {
+                  "Project": "Itraconazole-Triazolam-DDI",
+                  "Simulation": "Varhe 1994 - Triazolam 0.25 mg control",
+                  "StartTime": 0,
+                  "EndTime": 9999,
+                  "TimeUnit": "h"
+                },
+                "SimulationDDI": {
+                  "Project": "Itraconazole-Triazolam-DDI",
+                  "Simulation": "Varhe 1994 - Triazolam 0.25 mg + Itraconazole 200 mg PO QD",
+                  "StartTime": 73,
+                  "EndTime": 9999,
+                  "TimeUnit": "h"
+                }
+              }
+            ]
           }
         ]
       }
@@ -4782,36 +6684,35 @@
           "Title": "3.18 Rifampicin - Triazolam DDI",
           "Content": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Qualification-text-modules/master/Empty.md"
         }
-        
       ]
     },
     {
       "Id": 4,
-      "Title": "4 Appendix",
-      "Content": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Qualification-text-modules/master/Empty.md",
-      "Sections": [
-        {
-          "Id": 41,
-          "Title": "4.1 Open Systems Pharmacology Suite (OSPS) Introduction",
-          "Content": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Qualification-text-modules/master/OSPS_Introduction.md"
-        },
-        {
-          "Id": 42,
-          "Title": "4.2 Mathematical Implementation of Drug-Drug Interactions",
-          "Content": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Qualification-text-modules/master/Mathematical_Implementation_of_DDI.md"
-        },
-        {
-          "Id": 43,
-          "Title": "4.3 Automatic (re)-qualification workflow",
-          "Content": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Qualification-text-modules/master/Qualification_Workflow.md"
-        }
-      ]
+      "Title": "4 References",
+      "Content": "Content/References.md",
+      "Sections": []
     },
     {
       "Id": 5,
-      "Title": "5 References",
-      "Content": "Content/References.md",
-      "Sections": []
+      "Title": "5 Appendix",
+      "Content": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Qualification-text-modules/master/Empty.md",
+      "Sections": [
+        {
+          "Id": 51,
+          "Title": "5.1 Open Systems Pharmacology Suite (OSPS) Introduction",
+          "Content": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Qualification-text-modules/master/OSPS_Introduction.md"
+        },
+        {
+          "Id": 52,
+          "Title": "5.2 Mathematical Implementation of Drug-Drug Interactions",
+          "Content": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Qualification-text-modules/master/Mathematical_Implementation_of_DDI.md"
+        },
+        {
+          "Id": 53,
+          "Title": "5.3 Automatic (re)-qualification workflow",
+          "Content": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Qualification-text-modules/master/Qualification_Workflow.md"
+        }
+      ]
     }
   ],
   "Intro": [
