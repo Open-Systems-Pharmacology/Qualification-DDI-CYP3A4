@@ -32,5 +32,5 @@ The following sensitive CYP3A4 substrates as victim drugs were selected:
 
 
 
-The following sections give an overview of the clinical studies being of this qualification report.
+The following sections give an overview of the clinical studies being part of this qualification report.
 
