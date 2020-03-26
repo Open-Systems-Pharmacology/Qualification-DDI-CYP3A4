@@ -3,7 +3,12 @@
 % --------------------------------------------------------------
 
 close all
+%clear all
 tic
+
+if exist(fullfile(cd,'re_input'),'dir')>0 rmdir(fullfile(cd,'re_input'),'s'); end
+if exist(fullfile(cd,'re_output'),'dir')>0 rmdir(fullfile(cd,'re_output'),'s'); end
+if exist(fullfile(cd,'report'),'dir')>0 rmdir(fullfile(cd,'report'),'s'); end
 
 % --------------------------------------------------------------
 % replace qualificationRunnerFolder and markdownJoinerFolder with your paths
@@ -23,7 +28,7 @@ markdownJoinerFolder = 'C:\Software\markdown-joiner';
 %
 
 baseDir = fullfile(cd);
-qualificationPlanName = 'Untitled-2.json';
+qualificationPlanName = 'qualification_plan.json';
 
 % In case your folder structure is different from assumed above, 
 % qualificationPlan, REInput_path, REOutput_path and ReportOutput_path must be adjusted as well 

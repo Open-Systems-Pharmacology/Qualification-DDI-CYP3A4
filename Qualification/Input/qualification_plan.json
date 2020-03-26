@@ -752,7 +752,7 @@
           "Path": "Neighborhoods|Duodenum_int_Duodenum_cell|Triazolam|P (interstitial->intracellular)",
           "TargetSimulations": [
             "Greenblatt 1998a - Triazolam control - 0.125 mg PO SD",
-            "Greenblatt 1998a - Triazolam control - 0.125 mg PO SD"
+            "Greenblatt 1998a - Clarithromycin 500 mg MD, Triazolam 0.125 mg PO"
           ]
         },
         {
@@ -761,7 +761,7 @@
           "Path": "Neighborhoods|UpperJejunum_int_UpperJejunum_cell|Triazolam|P (interstitial->intracellular)",
           "TargetSimulations": [
             "Greenblatt 1998a - Triazolam control - 0.125 mg PO SD",
-            "Greenblatt 1998a - Triazolam control - 0.125 mg PO SD"
+            "Greenblatt 1998a - Clarithromycin 500 mg MD, Triazolam 0.125 mg PO"
           ]
         },
         {
@@ -770,7 +770,7 @@
           "Path": "Neighborhoods|LowerJejunum_int_LowerJejunum_cell|Triazolam|P (interstitial->intracellular)",
           "TargetSimulations": [
             "Greenblatt 1998a - Triazolam control - 0.125 mg PO SD",
-            "Greenblatt 1998a - Triazolam control - 0.125 mg PO SD"
+            "Greenblatt 1998a - Clarithromycin 500 mg MD, Triazolam 0.125 mg PO"
           ]
         },
         {
@@ -779,7 +779,7 @@
           "Path": "Neighborhoods|UpperIleum_int_UpperIleum_cell|Triazolam|P (interstitial->intracellular)",
           "TargetSimulations": [
             "Greenblatt 1998a - Triazolam control - 0.125 mg PO SD",
-            "Greenblatt 1998a - Triazolam control - 0.125 mg PO SD"
+            "Greenblatt 1998a - Clarithromycin 500 mg MD, Triazolam 0.125 mg PO"
           ]
         },
         {
@@ -788,7 +788,7 @@
           "Path": "Neighborhoods|LowerIleum_int_LowerIleum_cell|Triazolam|P (interstitial->intracellular)",
           "TargetSimulations": [
             "Greenblatt 1998a - Triazolam control - 0.125 mg PO SD",
-            "Greenblatt 1998a - Triazolam control - 0.125 mg PO SD"
+            "Greenblatt 1998a - Clarithromycin 500 mg MD, Triazolam 0.125 mg PO"
           ]
         },
         {
@@ -797,7 +797,7 @@
           "Path": "Neighborhoods|Caecum_int_Caecum_cell|Triazolam|P (interstitial->intracellular)",
           "TargetSimulations": [
             "Greenblatt 1998a - Triazolam control - 0.125 mg PO SD",
-            "Greenblatt 1998a - Triazolam control - 0.125 mg PO SD"
+            "Greenblatt 1998a - Clarithromycin 500 mg MD, Triazolam 0.125 mg PO"
           ]
         },
         {
@@ -806,7 +806,7 @@
           "Path": "Neighborhoods|ColonAscendens_int_ColonAscendens_cell|Triazolam|P (interstitial->intracellular)",
           "TargetSimulations": [
             "Greenblatt 1998a - Triazolam control - 0.125 mg PO SD",
-            "Greenblatt 1998a - Triazolam control - 0.125 mg PO SD"
+            "Greenblatt 1998a - Clarithromycin 500 mg MD, Triazolam 0.125 mg PO"
           ]
         },
         {
@@ -815,7 +815,7 @@
           "Path": "Neighborhoods|ColonTransversum_int_ColonTransversum_cell|Triazolam|P (interstitial->intracellular)",
           "TargetSimulations": [
             "Greenblatt 1998a - Triazolam control - 0.125 mg PO SD",
-            "Greenblatt 1998a - Triazolam control - 0.125 mg PO SD"
+            "Greenblatt 1998a - Clarithromycin 500 mg MD, Triazolam 0.125 mg PO"
           ]
         },
         {
@@ -824,7 +824,7 @@
           "Path": "Neighborhoods|ColonDescendens_int_ColonDescendens_cell|Triazolam|P (interstitial->intracellular)",
           "TargetSimulations": [
             "Greenblatt 1998a - Triazolam control - 0.125 mg PO SD",
-            "Greenblatt 1998a - Triazolam control - 0.125 mg PO SD"
+            "Greenblatt 1998a - Clarithromycin 500 mg MD, Triazolam 0.125 mg PO"
           ]
         },
         {
@@ -833,7 +833,7 @@
           "Path": "Neighborhoods|ColonSigmoid_int_ColonSigmoid_cell|Triazolam|P (interstitial->intracellular)",
           "TargetSimulations": [
             "Greenblatt 1998a - Triazolam control - 0.125 mg PO SD",
-            "Greenblatt 1998a - Triazolam control - 0.125 mg PO SD"
+            "Greenblatt 1998a - Clarithromycin 500 mg MD, Triazolam 0.125 mg PO"
           ]
         },
         {
@@ -842,7 +842,7 @@
           "Path": "Neighborhoods|Rectum_int_Rectum_cell|Triazolam|P (interstitial->intracellular)",
           "TargetSimulations": [
             "Greenblatt 1998a - Triazolam control - 0.125 mg PO SD",
-            "Greenblatt 1998a - Triazolam control - 0.125 mg PO SD"
+            "Greenblatt 1998a - Clarithromycin 500 mg MD, Triazolam 0.125 mg PO"
           ]
         },
         {
@@ -851,7 +851,7 @@
           "Path": "Neighborhoods|Duodenum_int_Duodenum_cell|Triazolam|P (intracellular->interstitial)",
           "TargetSimulations": [
             "Greenblatt 1998a - Triazolam control - 0.125 mg PO SD",
-            "Greenblatt 1998a - Triazolam control - 0.125 mg PO SD"
+            "Greenblatt 1998a - Clarithromycin 500 mg MD, Triazolam 0.125 mg PO"
           ]
         },
         {
@@ -860,7 +860,7 @@
           "Path": "Neighborhoods|UpperJejunum_int_UpperJejunum_cell|Triazolam|P (intracellular->interstitial)",
           "TargetSimulations": [
             "Greenblatt 1998a - Triazolam control - 0.125 mg PO SD",
-            "Greenblatt 1998a - Triazolam control - 0.125 mg PO SD"
+            "Greenblatt 1998a - Clarithromycin 500 mg MD, Triazolam 0.125 mg PO"
           ]
         },
         {
@@ -869,7 +869,7 @@
           "Path": "Neighborhoods|LowerJejunum_int_LowerJejunum_cell|Triazolam|P (intracellular->interstitial)",
           "TargetSimulations": [
             "Greenblatt 1998a - Triazolam control - 0.125 mg PO SD",
-            "Greenblatt 1998a - Triazolam control - 0.125 mg PO SD"
+            "Greenblatt 1998a - Clarithromycin 500 mg MD, Triazolam 0.125 mg PO"
           ]
         },
         {
@@ -878,7 +878,7 @@
           "Path": "Neighborhoods|UpperIleum_int_UpperIleum_cell|Triazolam|P (intracellular->interstitial)",
           "TargetSimulations": [
             "Greenblatt 1998a - Triazolam control - 0.125 mg PO SD",
-            "Greenblatt 1998a - Triazolam control - 0.125 mg PO SD"
+            "Greenblatt 1998a - Clarithromycin 500 mg MD, Triazolam 0.125 mg PO"
           ]
         },
         {
@@ -887,7 +887,7 @@
           "Path": "Neighborhoods|LowerIleum_int_LowerIleum_cell|Triazolam|P (intracellular->interstitial)",
           "TargetSimulations": [
             "Greenblatt 1998a - Triazolam control - 0.125 mg PO SD",
-            "Greenblatt 1998a - Triazolam control - 0.125 mg PO SD"
+            "Greenblatt 1998a - Clarithromycin 500 mg MD, Triazolam 0.125 mg PO"
           ]
         },
         {
@@ -896,7 +896,7 @@
           "Path": "Neighborhoods|Caecum_int_Caecum_cell|Triazolam|P (intracellular->interstitial)",
           "TargetSimulations": [
             "Greenblatt 1998a - Triazolam control - 0.125 mg PO SD",
-            "Greenblatt 1998a - Triazolam control - 0.125 mg PO SD"
+            "Greenblatt 1998a - Clarithromycin 500 mg MD, Triazolam 0.125 mg PO"
           ]
         },
         {
@@ -905,7 +905,7 @@
           "Path": "Neighborhoods|ColonAscendens_int_ColonAscendens_cell|Triazolam|P (intracellular->interstitial)",
           "TargetSimulations": [
             "Greenblatt 1998a - Triazolam control - 0.125 mg PO SD",
-            "Greenblatt 1998a - Triazolam control - 0.125 mg PO SD"
+            "Greenblatt 1998a - Clarithromycin 500 mg MD, Triazolam 0.125 mg PO"
           ]
         },
         {
@@ -914,7 +914,7 @@
           "Path": "Neighborhoods|ColonTransversum_int_ColonTransversum_cell|Triazolam|P (intracellular->interstitial)",
           "TargetSimulations": [
             "Greenblatt 1998a - Triazolam control - 0.125 mg PO SD",
-            "Greenblatt 1998a - Triazolam control - 0.125 mg PO SD"
+            "Greenblatt 1998a - Clarithromycin 500 mg MD, Triazolam 0.125 mg PO"
           ]
         },
         {
@@ -923,7 +923,7 @@
           "Path": "Neighborhoods|ColonDescendens_int_ColonDescendens_cell|Triazolam|P (intracellular->interstitial)",
           "TargetSimulations": [
             "Greenblatt 1998a - Triazolam control - 0.125 mg PO SD",
-            "Greenblatt 1998a - Triazolam control - 0.125 mg PO SD"
+            "Greenblatt 1998a - Clarithromycin 500 mg MD, Triazolam 0.125 mg PO"
           ]
         },
         {
@@ -932,7 +932,7 @@
           "Path": "Neighborhoods|ColonSigmoid_int_ColonSigmoid_cell|Triazolam|P (intracellular->interstitial)",
           "TargetSimulations": [
             "Greenblatt 1998a - Triazolam control - 0.125 mg PO SD",
-            "Greenblatt 1998a - Triazolam control - 0.125 mg PO SD"
+            "Greenblatt 1998a - Clarithromycin 500 mg MD, Triazolam 0.125 mg PO"
           ]
         },
         {
@@ -941,7 +941,7 @@
           "Path": "Neighborhoods|Rectum_int_Rectum_cell|Triazolam|P (intracellular->interstitial)",
           "TargetSimulations": [
             "Greenblatt 1998a - Triazolam control - 0.125 mg PO SD",
-            "Greenblatt 1998a - Triazolam control - 0.125 mg PO SD"
+            "Greenblatt 1998a - Clarithromycin 500 mg MD, Triazolam 0.125 mg PO"
           ]
         },
         {
@@ -949,17 +949,15 @@
           "Simulation": "Clarithromycin po, Chu 1992, 100 mg",
           "Path": "Clarithromycin|P (blood cells->plasma)",
           "TargetSimulations": [
-            "Greenblatt 1998a - Triazolam control - 0.125 mg PO SD",
-            "Greenblatt 1998a - Triazolam control - 0.125 mg PO SD"
+            "Greenblatt 1998a - Clarithromycin 500 mg MD, Triazolam 0.125 mg PO"
           ]
         },
         {
           "Project": "Clarithromycin",
           "Simulation": "Clarithromycin po, Chu 1992, 100 mg",
           "Path": "Clarithromycin|P (plasma->blood cells)",
-          "TargetSimulations": [
-            "Greenblatt 1998a - Triazolam control - 0.125 mg PO SD",
-            "Greenblatt 1998a - Triazolam control - 0.125 mg PO SD"
+          "TargetSimulations": [            
+            "Greenblatt 1998a - Clarithromycin 500 mg MD, Triazolam 0.125 mg PO"
           ]
         }
       ]
@@ -977,12 +975,7 @@
           "Type": "Compound",
           "Name": "Erythromycin",
           "Project": "Erythromycin"
-        },
-        {
-          "Type": "Formulation",
-          "Name": "Erythromycin_Weibull_filmtablet",
-          "Project": "Erythromycin"
-        },
+        },        
         {
           "Type": "Formulation",
           "Name": "Erythromycin_Weibull_enteric-coated-tablet",
@@ -994,6 +987,11 @@
       "Id": "Erythromycin-Alprazolam-DDI",
       "Path": "https://raw.githubusercontent.com/AndreDlm/Erythromycin-Alprazolam-DDI/master/Erythromycin-Alprazolam-DDI.json",
       "BuildingBlocks": [
+        {
+          "Type": "Individual",
+          "Name": "Japanese (Yasui studies)",
+          "Project": "Alprazolam"
+        },
         {
           "Type": "Compound",
           "Name": "Alprazolam",
@@ -1013,6 +1011,11 @@
           "Type": "Formulation",
           "Name": "Erythromycin_Weibull_filmtablet",
           "Project": "Erythromycin"
+        },
+        {
+          "Type": "Formulation",
+          "Name": "Solanax",
+          "Project": "Alprazolam"
         }
       ],
       "SimulationParameters": [
@@ -2031,6 +2034,11 @@
           "Type": "Formulation",
           "Name": "Xanax_IR",
           "Project": "Alprazolam"
+        },
+        {
+          "Type": "Formulation",
+          "Name": "Solanax",
+          "Project": "Alprazolam"
         }
       ],
       "SimulationParameters": [
@@ -2499,6 +2507,11 @@
       "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Itraconazole-Alprazolam-DDI/master/Itraconazole-Alprazolam-DDI.json",
       "BuildingBlocks": [
         {
+          "Type": "Individual",
+          "Name": "Japanese (Yasui studies)",
+          "Project": "Alprazolam"
+        },
+        {
           "Type": "Compound",
           "Name": "Alprazolam",
           "Project": "Alprazolam"
@@ -2536,6 +2549,11 @@
         {
           "Type": "Formulation",
           "Name": "Xanax_IR",
+          "Project": "Alprazolam"
+        },
+        {
+          "Type": "Formulation",
+          "Name": "Solanax",
           "Project": "Alprazolam"
         }
       ],
@@ -2745,6 +2763,11 @@
       "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Itraconazole-Midazolam-DDI/master/Itraconazole-Midazolam-DDI.json",
       "BuildingBlocks": [
         {
+          "Type": "Individual",
+          "Name": "Korean (Yu 2004 study)",
+          "Project": "Midazolam"
+        },
+        {
           "Type": "Compound",
           "Name": "Midazolam",
           "Project": "Midazolam"
@@ -2805,7 +2828,9 @@
             "DDI Treatment - Itraconazole/Midazolam - Templeton 2010 (400 mg)",
             "DDI Control - Midazolam - Olkkola 1996 (iv, day 4)",
             "DDI Control - Midazolam - Prueksaritanont 2017",
-            "DDI Treatment - Itraconazole/Midazolam - Prueksaritanont 2017"
+            "DDI Treatment - Itraconazole/Midazolam - Prueksaritanont 2017",
+            "DDI Control - Midazolam - Yu 2004 (CYP3A5 s3,s3)",
+            "DDI Treatment - Itraconazole/Midazolam - Yu 2004 (CYP3A5 s3,s3)"
           ]
         },
         {
@@ -2827,7 +2852,9 @@
             "DDI Treatment - Itraconazole/Midazolam - Templeton 2010 (400 mg)",
             "DDI Control - Midazolam - Olkkola 1996 (iv, day 4)",
             "DDI Control - Midazolam - Prueksaritanont 2017",
-            "DDI Treatment - Itraconazole/Midazolam - Prueksaritanont 2017"
+            "DDI Treatment - Itraconazole/Midazolam - Prueksaritanont 2017",
+            "DDI Control - Midazolam - Yu 2004 (CYP3A5 s3,s3)",
+            "DDI Treatment - Itraconazole/Midazolam - Yu 2004 (CYP3A5 s3,s3)"
           ]
         },
         {
@@ -2849,7 +2876,9 @@
             "DDI Treatment - Itraconazole/Midazolam - Templeton 2010 (400 mg)",
             "DDI Control - Midazolam - Olkkola 1996 (iv, day 4)",
             "DDI Control - Midazolam - Prueksaritanont 2017",
-            "DDI Treatment - Itraconazole/Midazolam - Prueksaritanont 2017"
+            "DDI Treatment - Itraconazole/Midazolam - Prueksaritanont 2017",
+            "DDI Control - Midazolam - Yu 2004 (CYP3A5 s3,s3)",
+            "DDI Treatment - Itraconazole/Midazolam - Yu 2004 (CYP3A5 s3,s3)"
           ]
         },
         {
@@ -2871,7 +2900,9 @@
             "DDI Treatment - Itraconazole/Midazolam - Templeton 2010 (400 mg)",
             "DDI Control - Midazolam - Olkkola 1996 (iv, day 4)",
             "DDI Control - Midazolam - Prueksaritanont 2017",
-            "DDI Treatment - Itraconazole/Midazolam - Prueksaritanont 2017"
+            "DDI Treatment - Itraconazole/Midazolam - Prueksaritanont 2017",
+            "DDI Control - Midazolam - Yu 2004 (CYP3A5 s3,s3)",
+            "DDI Treatment - Itraconazole/Midazolam - Yu 2004 (CYP3A5 s3,s3)"
           ]
         },
         {
@@ -2893,7 +2924,9 @@
             "DDI Treatment - Itraconazole/Midazolam - Templeton 2010 (400 mg)",
             "DDI Control - Midazolam - Olkkola 1996 (iv, day 4)",
             "DDI Control - Midazolam - Prueksaritanont 2017",
-            "DDI Treatment - Itraconazole/Midazolam - Prueksaritanont 2017"
+            "DDI Treatment - Itraconazole/Midazolam - Prueksaritanont 2017",
+            "DDI Control - Midazolam - Yu 2004 (CYP3A5 s3,s3)",
+            "DDI Treatment - Itraconazole/Midazolam - Yu 2004 (CYP3A5 s3,s3)"
           ]
         },
         {
@@ -2915,7 +2948,9 @@
             "DDI Treatment - Itraconazole/Midazolam - Templeton 2010 (400 mg)",
             "DDI Control - Midazolam - Olkkola 1996 (iv, day 4)",
             "DDI Control - Midazolam - Prueksaritanont 2017",
-            "DDI Treatment - Itraconazole/Midazolam - Prueksaritanont 2017"
+            "DDI Treatment - Itraconazole/Midazolam - Prueksaritanont 2017",
+            "DDI Control - Midazolam - Yu 2004 (CYP3A5 s3,s3)",
+            "DDI Treatment - Itraconazole/Midazolam - Yu 2004 (CYP3A5 s3,s3)"
           ]
         },
         {
@@ -2937,7 +2972,9 @@
             "DDI Treatment - Itraconazole/Midazolam - Templeton 2010 (400 mg)",
             "DDI Control - Midazolam - Olkkola 1996 (iv, day 4)",
             "DDI Control - Midazolam - Prueksaritanont 2017",
-            "DDI Treatment - Itraconazole/Midazolam - Prueksaritanont 2017"
+            "DDI Treatment - Itraconazole/Midazolam - Prueksaritanont 2017",
+            "DDI Control - Midazolam - Yu 2004 (CYP3A5 s3,s3)",
+            "DDI Treatment - Itraconazole/Midazolam - Yu 2004 (CYP3A5 s3,s3)"
           ]
         },
         {
@@ -2959,7 +2996,9 @@
             "DDI Treatment - Itraconazole/Midazolam - Templeton 2010 (400 mg)",
             "DDI Control - Midazolam - Olkkola 1996 (iv, day 4)",
             "DDI Control - Midazolam - Prueksaritanont 2017",
-            "DDI Treatment - Itraconazole/Midazolam - Prueksaritanont 2017"
+            "DDI Treatment - Itraconazole/Midazolam - Prueksaritanont 2017",
+            "DDI Control - Midazolam - Yu 2004 (CYP3A5 s3,s3)",
+            "DDI Treatment - Itraconazole/Midazolam - Yu 2004 (CYP3A5 s3,s3)"
           ]
         },
         {
@@ -2981,7 +3020,9 @@
             "DDI Treatment - Itraconazole/Midazolam - Templeton 2010 (400 mg)",
             "DDI Control - Midazolam - Olkkola 1996 (iv, day 4)",
             "DDI Control - Midazolam - Prueksaritanont 2017",
-            "DDI Treatment - Itraconazole/Midazolam - Prueksaritanont 2017"
+            "DDI Treatment - Itraconazole/Midazolam - Prueksaritanont 2017",
+            "DDI Control - Midazolam - Yu 2004 (CYP3A5 s3,s3)",
+            "DDI Treatment - Itraconazole/Midazolam - Yu 2004 (CYP3A5 s3,s3)"
           ]
         },
         {
@@ -3003,7 +3044,9 @@
             "DDI Treatment - Itraconazole/Midazolam - Templeton 2010 (400 mg)",
             "DDI Control - Midazolam - Olkkola 1996 (iv, day 4)",
             "DDI Control - Midazolam - Prueksaritanont 2017",
-            "DDI Treatment - Itraconazole/Midazolam - Prueksaritanont 2017"
+            "DDI Treatment - Itraconazole/Midazolam - Prueksaritanont 2017",
+            "DDI Control - Midazolam - Yu 2004 (CYP3A5 s3,s3)",
+            "DDI Treatment - Itraconazole/Midazolam - Yu 2004 (CYP3A5 s3,s3)"
           ]
         },
         {
@@ -3025,7 +3068,9 @@
             "DDI Treatment - Itraconazole/Midazolam - Templeton 2010 (400 mg)",
             "DDI Control - Midazolam - Olkkola 1996 (iv, day 4)",
             "DDI Control - Midazolam - Prueksaritanont 2017",
-            "DDI Treatment - Itraconazole/Midazolam - Prueksaritanont 2017"
+            "DDI Treatment - Itraconazole/Midazolam - Prueksaritanont 2017",
+            "DDI Control - Midazolam - Yu 2004 (CYP3A5 s3,s3)",
+            "DDI Treatment - Itraconazole/Midazolam - Yu 2004 (CYP3A5 s3,s3)"
           ]
         },
         {
@@ -3047,7 +3092,9 @@
             "DDI Treatment - Itraconazole/Midazolam - Templeton 2010 (400 mg)",
             "DDI Control - Midazolam - Olkkola 1996 (iv, day 4)",
             "DDI Control - Midazolam - Prueksaritanont 2017",
-            "DDI Treatment - Itraconazole/Midazolam - Prueksaritanont 2017"
+            "DDI Treatment - Itraconazole/Midazolam - Prueksaritanont 2017",
+            "DDI Control - Midazolam - Yu 2004 (CYP3A5 s3,s3)",
+            "DDI Treatment - Itraconazole/Midazolam - Yu 2004 (CYP3A5 s3,s3)"
           ]
         },
         {
@@ -3069,7 +3116,9 @@
             "DDI Treatment - Itraconazole/Midazolam - Templeton 2010 (400 mg)",
             "DDI Control - Midazolam - Olkkola 1996 (iv, day 4)",
             "DDI Control - Midazolam - Prueksaritanont 2017",
-            "DDI Treatment - Itraconazole/Midazolam - Prueksaritanont 2017"
+            "DDI Treatment - Itraconazole/Midazolam - Prueksaritanont 2017",
+            "DDI Control - Midazolam - Yu 2004 (CYP3A5 s3,s3)",
+            "DDI Treatment - Itraconazole/Midazolam - Yu 2004 (CYP3A5 s3,s3)"
           ]
         },
         {
@@ -3091,7 +3140,9 @@
             "DDI Treatment - Itraconazole/Midazolam - Templeton 2010 (400 mg)",
             "DDI Control - Midazolam - Olkkola 1996 (iv, day 4)",
             "DDI Control - Midazolam - Prueksaritanont 2017",
-            "DDI Treatment - Itraconazole/Midazolam - Prueksaritanont 2017"
+            "DDI Treatment - Itraconazole/Midazolam - Prueksaritanont 2017",
+            "DDI Control - Midazolam - Yu 2004 (CYP3A5 s3,s3)",
+            "DDI Treatment - Itraconazole/Midazolam - Yu 2004 (CYP3A5 s3,s3)"
           ]
         },
         {
@@ -3113,7 +3164,9 @@
             "DDI Treatment - Itraconazole/Midazolam - Templeton 2010 (400 mg)",
             "DDI Control - Midazolam - Olkkola 1996 (iv, day 4)",
             "DDI Control - Midazolam - Prueksaritanont 2017",
-            "DDI Treatment - Itraconazole/Midazolam - Prueksaritanont 2017"
+            "DDI Treatment - Itraconazole/Midazolam - Prueksaritanont 2017",
+            "DDI Control - Midazolam - Yu 2004 (CYP3A5 s3,s3)",
+            "DDI Treatment - Itraconazole/Midazolam - Yu 2004 (CYP3A5 s3,s3)"
           ]
         },
         {
@@ -3135,7 +3188,9 @@
             "DDI Treatment - Itraconazole/Midazolam - Templeton 2010 (400 mg)",
             "DDI Control - Midazolam - Olkkola 1996 (iv, day 4)",
             "DDI Control - Midazolam - Prueksaritanont 2017",
-            "DDI Treatment - Itraconazole/Midazolam - Prueksaritanont 2017"
+            "DDI Treatment - Itraconazole/Midazolam - Prueksaritanont 2017",
+            "DDI Control - Midazolam - Yu 2004 (CYP3A5 s3,s3)",
+            "DDI Treatment - Itraconazole/Midazolam - Yu 2004 (CYP3A5 s3,s3)"
           ]
         },
         {
@@ -3157,7 +3212,9 @@
             "DDI Treatment - Itraconazole/Midazolam - Templeton 2010 (400 mg)",
             "DDI Control - Midazolam - Olkkola 1996 (iv, day 4)",
             "DDI Control - Midazolam - Prueksaritanont 2017",
-            "DDI Treatment - Itraconazole/Midazolam - Prueksaritanont 2017"
+            "DDI Treatment - Itraconazole/Midazolam - Prueksaritanont 2017",
+            "DDI Control - Midazolam - Yu 2004 (CYP3A5 s3,s3)",
+            "DDI Treatment - Itraconazole/Midazolam - Yu 2004 (CYP3A5 s3,s3)"
           ]
         },
         {
@@ -3179,7 +3236,9 @@
             "DDI Treatment - Itraconazole/Midazolam - Templeton 2010 (400 mg)",
             "DDI Control - Midazolam - Olkkola 1996 (iv, day 4)",
             "DDI Control - Midazolam - Prueksaritanont 2017",
-            "DDI Treatment - Itraconazole/Midazolam - Prueksaritanont 2017"
+            "DDI Treatment - Itraconazole/Midazolam - Prueksaritanont 2017",
+            "DDI Control - Midazolam - Yu 2004 (CYP3A5 s3,s3)",
+            "DDI Treatment - Itraconazole/Midazolam - Yu 2004 (CYP3A5 s3,s3)"
           ]
         },
         {
@@ -3201,7 +3260,9 @@
             "DDI Treatment - Itraconazole/Midazolam - Templeton 2010 (400 mg)",
             "DDI Control - Midazolam - Olkkola 1996 (iv, day 4)",
             "DDI Control - Midazolam - Prueksaritanont 2017",
-            "DDI Treatment - Itraconazole/Midazolam - Prueksaritanont 2017"
+            "DDI Treatment - Itraconazole/Midazolam - Prueksaritanont 2017",
+            "DDI Control - Midazolam - Yu 2004 (CYP3A5 s3,s3)",
+            "DDI Treatment - Itraconazole/Midazolam - Yu 2004 (CYP3A5 s3,s3)"
           ]
         },
         {
@@ -3223,7 +3284,9 @@
             "DDI Treatment - Itraconazole/Midazolam - Templeton 2010 (400 mg)",
             "DDI Control - Midazolam - Olkkola 1996 (iv, day 4)",
             "DDI Control - Midazolam - Prueksaritanont 2017",
-            "DDI Treatment - Itraconazole/Midazolam - Prueksaritanont 2017"
+            "DDI Treatment - Itraconazole/Midazolam - Prueksaritanont 2017",
+            "DDI Control - Midazolam - Yu 2004 (CYP3A5 s3,s3)",
+            "DDI Treatment - Itraconazole/Midazolam - Yu 2004 (CYP3A5 s3,s3)"
           ]
         },
         {
@@ -3245,7 +3308,9 @@
             "DDI Treatment - Itraconazole/Midazolam - Templeton 2010 (400 mg)",
             "DDI Control - Midazolam - Olkkola 1996 (iv, day 4)",
             "DDI Control - Midazolam - Prueksaritanont 2017",
-            "DDI Treatment - Itraconazole/Midazolam - Prueksaritanont 2017"
+            "DDI Treatment - Itraconazole/Midazolam - Prueksaritanont 2017",
+            "DDI Control - Midazolam - Yu 2004 (CYP3A5 s3,s3)",
+            "DDI Treatment - Itraconazole/Midazolam - Yu 2004 (CYP3A5 s3,s3)"
           ]
         },
         {
@@ -3267,7 +3332,9 @@
             "DDI Treatment - Itraconazole/Midazolam - Templeton 2010 (400 mg)",
             "DDI Control - Midazolam - Olkkola 1996 (iv, day 4)",
             "DDI Control - Midazolam - Prueksaritanont 2017",
-            "DDI Treatment - Itraconazole/Midazolam - Prueksaritanont 2017"
+            "DDI Treatment - Itraconazole/Midazolam - Prueksaritanont 2017",
+            "DDI Control - Midazolam - Yu 2004 (CYP3A5 s3,s3)",
+            "DDI Treatment - Itraconazole/Midazolam - Yu 2004 (CYP3A5 s3,s3)"
           ]
         }
       ]
@@ -4603,6 +4670,11 @@
       "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Rifampicin-Midazolam-DDI/master/Rifampicin-Midazolam-DDI.json",
       "BuildingBlocks": [
         {
+          "Type": "Individual",
+          "Name": "Korean (Yu 2004 study)",
+          "Project": "Midazolam"
+        },
+        {
           "Type": "Compound",
           "Name": "Midazolam",
           "Project": "Midazolam"
@@ -4670,7 +4742,9 @@
             "DDI Control - Midazolam - Kim 2018 (male)",
             "DDI Treatment - Rifampicin/Midazolam - Kim 2018 (male)",
             "DDI Control - Midazolam - Kharasch 1997",
-            "DDI Treatment - Rifampicin/Midazolam - Kharasch 1997"
+            "DDI Treatment - Rifampicin/Midazolam - Kharasch 1997",
+            "DDI Control - Midazolam - Yu 2018 (CYP3A5 s3,s3)",
+            "DDI Treatment - Rifampicin/Midazolam - Yu 2004 (CYP3A5 s3,s3)"
           ]
         },
         {
@@ -4724,7 +4798,9 @@
             "DDI Control - Midazolam - Kim 2018 (male)",
             "DDI Treatment - Rifampicin/Midazolam - Kim 2018 (male)",
             "DDI Control - Midazolam - Kharasch 1997",
-            "DDI Treatment - Rifampicin/Midazolam - Kharasch 1997"
+            "DDI Treatment - Rifampicin/Midazolam - Kharasch 1997",
+            "DDI Control - Midazolam - Yu 2018 (CYP3A5 s3,s3)",
+            "DDI Treatment - Rifampicin/Midazolam - Yu 2004 (CYP3A5 s3,s3)"
           ]
         },
         {
@@ -4778,7 +4854,9 @@
             "DDI Control - Midazolam - Kim 2018 (male)",
             "DDI Treatment - Rifampicin/Midazolam - Kim 2018 (male)",
             "DDI Control - Midazolam - Kharasch 1997",
-            "DDI Treatment - Rifampicin/Midazolam - Kharasch 1997"
+            "DDI Treatment - Rifampicin/Midazolam - Kharasch 1997",
+            "DDI Control - Midazolam - Yu 2018 (CYP3A5 s3,s3)",
+            "DDI Treatment - Rifampicin/Midazolam - Yu 2004 (CYP3A5 s3,s3)"
           ]
         },
         {
@@ -4832,7 +4910,9 @@
             "DDI Control - Midazolam - Kim 2018 (male)",
             "DDI Treatment - Rifampicin/Midazolam - Kim 2018 (male)",
             "DDI Control - Midazolam - Kharasch 1997",
-            "DDI Treatment - Rifampicin/Midazolam - Kharasch 1997"
+            "DDI Treatment - Rifampicin/Midazolam - Kharasch 1997",
+            "DDI Control - Midazolam - Yu 2018 (CYP3A5 s3,s3)",
+            "DDI Treatment - Rifampicin/Midazolam - Yu 2004 (CYP3A5 s3,s3)"
           ]
         },
         {
@@ -4886,7 +4966,9 @@
             "DDI Control - Midazolam - Kim 2018 (male)",
             "DDI Treatment - Rifampicin/Midazolam - Kim 2018 (male)",
             "DDI Control - Midazolam - Kharasch 1997",
-            "DDI Treatment - Rifampicin/Midazolam - Kharasch 1997"
+            "DDI Treatment - Rifampicin/Midazolam - Kharasch 1997",
+            "DDI Control - Midazolam - Yu 2018 (CYP3A5 s3,s3)",
+            "DDI Treatment - Rifampicin/Midazolam - Yu 2004 (CYP3A5 s3,s3)"
           ]
         },
         {
@@ -4940,7 +5022,9 @@
             "DDI Control - Midazolam - Kim 2018 (male)",
             "DDI Treatment - Rifampicin/Midazolam - Kim 2018 (male)",
             "DDI Control - Midazolam - Kharasch 1997",
-            "DDI Treatment - Rifampicin/Midazolam - Kharasch 1997"
+            "DDI Treatment - Rifampicin/Midazolam - Kharasch 1997",
+            "DDI Control - Midazolam - Yu 2018 (CYP3A5 s3,s3)",
+            "DDI Treatment - Rifampicin/Midazolam - Yu 2004 (CYP3A5 s3,s3)"
           ]
         },
         {
@@ -4994,7 +5078,9 @@
             "DDI Control - Midazolam - Kim 2018 (male)",
             "DDI Treatment - Rifampicin/Midazolam - Kim 2018 (male)",
             "DDI Control - Midazolam - Kharasch 1997",
-            "DDI Treatment - Rifampicin/Midazolam - Kharasch 1997"
+            "DDI Treatment - Rifampicin/Midazolam - Kharasch 1997",
+            "DDI Control - Midazolam - Yu 2018 (CYP3A5 s3,s3)",
+            "DDI Treatment - Rifampicin/Midazolam - Yu 2004 (CYP3A5 s3,s3)"
           ]
         },
         {
@@ -5048,7 +5134,9 @@
             "DDI Control - Midazolam - Kim 2018 (male)",
             "DDI Treatment - Rifampicin/Midazolam - Kim 2018 (male)",
             "DDI Control - Midazolam - Kharasch 1997",
-            "DDI Treatment - Rifampicin/Midazolam - Kharasch 1997"
+            "DDI Treatment - Rifampicin/Midazolam - Kharasch 1997",
+            "DDI Control - Midazolam - Yu 2018 (CYP3A5 s3,s3)",
+            "DDI Treatment - Rifampicin/Midazolam - Yu 2004 (CYP3A5 s3,s3)"
           ]
         },
         {
@@ -5102,7 +5190,9 @@
             "DDI Control - Midazolam - Kim 2018 (male)",
             "DDI Treatment - Rifampicin/Midazolam - Kim 2018 (male)",
             "DDI Control - Midazolam - Kharasch 1997",
-            "DDI Treatment - Rifampicin/Midazolam - Kharasch 1997"
+            "DDI Treatment - Rifampicin/Midazolam - Kharasch 1997",
+            "DDI Control - Midazolam - Yu 2018 (CYP3A5 s3,s3)",
+            "DDI Treatment - Rifampicin/Midazolam - Yu 2004 (CYP3A5 s3,s3)"
           ]
         },
         {
@@ -5156,7 +5246,9 @@
             "DDI Control - Midazolam - Kim 2018 (male)",
             "DDI Treatment - Rifampicin/Midazolam - Kim 2018 (male)",
             "DDI Control - Midazolam - Kharasch 1997",
-            "DDI Treatment - Rifampicin/Midazolam - Kharasch 1997"
+            "DDI Treatment - Rifampicin/Midazolam - Kharasch 1997",
+            "DDI Control - Midazolam - Yu 2018 (CYP3A5 s3,s3)",
+            "DDI Treatment - Rifampicin/Midazolam - Yu 2004 (CYP3A5 s3,s3)"
           ]
         },
         {
@@ -5210,7 +5302,9 @@
             "DDI Control - Midazolam - Kim 2018 (male)",
             "DDI Treatment - Rifampicin/Midazolam - Kim 2018 (male)",
             "DDI Control - Midazolam - Kharasch 1997",
-            "DDI Treatment - Rifampicin/Midazolam - Kharasch 1997"
+            "DDI Treatment - Rifampicin/Midazolam - Kharasch 1997",
+            "DDI Control - Midazolam - Yu 2018 (CYP3A5 s3,s3)",
+            "DDI Treatment - Rifampicin/Midazolam - Yu 2004 (CYP3A5 s3,s3)"
           ]
         },
         {
@@ -5264,7 +5358,9 @@
             "DDI Control - Midazolam - Kim 2018 (male)",
             "DDI Treatment - Rifampicin/Midazolam - Kim 2018 (male)",
             "DDI Control - Midazolam - Kharasch 1997",
-            "DDI Treatment - Rifampicin/Midazolam - Kharasch 1997"
+            "DDI Treatment - Rifampicin/Midazolam - Kharasch 1997",
+            "DDI Control - Midazolam - Yu 2018 (CYP3A5 s3,s3)",
+            "DDI Treatment - Rifampicin/Midazolam - Yu 2004 (CYP3A5 s3,s3)"
           ]
         },
         {
@@ -5318,7 +5414,9 @@
             "DDI Control - Midazolam - Kim 2018 (male)",
             "DDI Treatment - Rifampicin/Midazolam - Kim 2018 (male)",
             "DDI Control - Midazolam - Kharasch 1997",
-            "DDI Treatment - Rifampicin/Midazolam - Kharasch 1997"
+            "DDI Treatment - Rifampicin/Midazolam - Kharasch 1997",
+            "DDI Control - Midazolam - Yu 2018 (CYP3A5 s3,s3)",
+            "DDI Treatment - Rifampicin/Midazolam - Yu 2004 (CYP3A5 s3,s3)"
           ]
         },
         {
@@ -5372,7 +5470,9 @@
             "DDI Control - Midazolam - Kim 2018 (male)",
             "DDI Treatment - Rifampicin/Midazolam - Kim 2018 (male)",
             "DDI Control - Midazolam - Kharasch 1997",
-            "DDI Treatment - Rifampicin/Midazolam - Kharasch 1997"
+            "DDI Treatment - Rifampicin/Midazolam - Kharasch 1997",
+            "DDI Control - Midazolam - Yu 2018 (CYP3A5 s3,s3)",
+            "DDI Treatment - Rifampicin/Midazolam - Yu 2004 (CYP3A5 s3,s3)"
           ]
         },
         {
@@ -5426,7 +5526,9 @@
             "DDI Control - Midazolam - Kim 2018 (male)",
             "DDI Treatment - Rifampicin/Midazolam - Kim 2018 (male)",
             "DDI Control - Midazolam - Kharasch 1997",
-            "DDI Treatment - Rifampicin/Midazolam - Kharasch 1997"
+            "DDI Treatment - Rifampicin/Midazolam - Kharasch 1997",
+            "DDI Control - Midazolam - Yu 2018 (CYP3A5 s3,s3)",
+            "DDI Treatment - Rifampicin/Midazolam - Yu 2004 (CYP3A5 s3,s3)"
           ]
         },
         {
@@ -5480,7 +5582,9 @@
             "DDI Control - Midazolam - Kim 2018 (male)",
             "DDI Treatment - Rifampicin/Midazolam - Kim 2018 (male)",
             "DDI Control - Midazolam - Kharasch 1997",
-            "DDI Treatment - Rifampicin/Midazolam - Kharasch 1997"
+            "DDI Treatment - Rifampicin/Midazolam - Kharasch 1997",
+            "DDI Control - Midazolam - Yu 2018 (CYP3A5 s3,s3)",
+            "DDI Treatment - Rifampicin/Midazolam - Yu 2004 (CYP3A5 s3,s3)"
           ]
         },
         {
@@ -5534,7 +5638,9 @@
             "DDI Control - Midazolam - Kim 2018 (male)",
             "DDI Treatment - Rifampicin/Midazolam - Kim 2018 (male)",
             "DDI Control - Midazolam - Kharasch 1997",
-            "DDI Treatment - Rifampicin/Midazolam - Kharasch 1997"
+            "DDI Treatment - Rifampicin/Midazolam - Kharasch 1997",
+            "DDI Control - Midazolam - Yu 2018 (CYP3A5 s3,s3)",
+            "DDI Treatment - Rifampicin/Midazolam - Yu 2004 (CYP3A5 s3,s3)"
           ]
         },
         {
@@ -5588,7 +5694,9 @@
             "DDI Control - Midazolam - Kim 2018 (male)",
             "DDI Treatment - Rifampicin/Midazolam - Kim 2018 (male)",
             "DDI Control - Midazolam - Kharasch 1997",
-            "DDI Treatment - Rifampicin/Midazolam - Kharasch 1997"
+            "DDI Treatment - Rifampicin/Midazolam - Kharasch 1997",
+            "DDI Control - Midazolam - Yu 2018 (CYP3A5 s3,s3)",
+            "DDI Treatment - Rifampicin/Midazolam - Yu 2004 (CYP3A5 s3,s3)"
           ]
         },
         {
@@ -5642,7 +5750,9 @@
             "DDI Control - Midazolam - Kim 2018 (male)",
             "DDI Treatment - Rifampicin/Midazolam - Kim 2018 (male)",
             "DDI Control - Midazolam - Kharasch 1997",
-            "DDI Treatment - Rifampicin/Midazolam - Kharasch 1997"
+            "DDI Treatment - Rifampicin/Midazolam - Kharasch 1997",
+            "DDI Control - Midazolam - Yu 2018 (CYP3A5 s3,s3)",
+            "DDI Treatment - Rifampicin/Midazolam - Yu 2004 (CYP3A5 s3,s3)"
           ]
         },
         {
@@ -5696,7 +5806,9 @@
             "DDI Control - Midazolam - Kim 2018 (male)",
             "DDI Treatment - Rifampicin/Midazolam - Kim 2018 (male)",
             "DDI Control - Midazolam - Kharasch 1997",
-            "DDI Treatment - Rifampicin/Midazolam - Kharasch 1997"
+            "DDI Treatment - Rifampicin/Midazolam - Kharasch 1997",
+            "DDI Control - Midazolam - Yu 2018 (CYP3A5 s3,s3)",
+            "DDI Treatment - Rifampicin/Midazolam - Yu 2004 (CYP3A5 s3,s3)"
           ]
         },
         {
@@ -5750,7 +5862,9 @@
             "DDI Control - Midazolam - Kim 2018 (male)",
             "DDI Treatment - Rifampicin/Midazolam - Kim 2018 (male)",
             "DDI Control - Midazolam - Kharasch 1997",
-            "DDI Treatment - Rifampicin/Midazolam - Kharasch 1997"
+            "DDI Treatment - Rifampicin/Midazolam - Kharasch 1997",
+            "DDI Control - Midazolam - Yu 2018 (CYP3A5 s3,s3)",
+            "DDI Treatment - Rifampicin/Midazolam - Yu 2004 (CYP3A5 s3,s3)"
           ]
         },
         {
@@ -5804,7 +5918,9 @@
             "DDI Control - Midazolam - Kim 2018 (male)",
             "DDI Treatment - Rifampicin/Midazolam - Kim 2018 (male)",
             "DDI Control - Midazolam - Kharasch 1997",
-            "DDI Treatment - Rifampicin/Midazolam - Kharasch 1997"
+            "DDI Treatment - Rifampicin/Midazolam - Kharasch 1997",
+            "DDI Control - Midazolam - Yu 2018 (CYP3A5 s3,s3)",
+            "DDI Treatment - Rifampicin/Midazolam - Yu 2004 (CYP3A5 s3,s3)"
           ]
         }
       ]
@@ -5836,7 +5952,7 @@
           "Path": "Neighborhoods|Duodenum_int_Duodenum_cell|Triazolam|P (interstitial->intracellular)",
           "TargetSimulations": [
             "Villikka 1997 - Triazolam control - 0.5 mg SD PO",
-            "Villikka 1997 - Rifampicin 600 mg over 5 days + Triazolam 0.5 mg SD PO"
+            "Villikka 1997 - Rifampicin 600 mg over 5 days and Triazolam 0.5 mg SD PO"
           ]
         },
         {
@@ -5845,7 +5961,7 @@
           "Path": "Neighborhoods|UpperJejunum_int_UpperJejunum_cell|Triazolam|P (interstitial->intracellular)",
           "TargetSimulations": [
             "Villikka 1997 - Triazolam control - 0.5 mg SD PO",
-            "Villikka 1997 - Rifampicin 600 mg over 5 days + Triazolam 0.5 mg SD PO"
+            "Villikka 1997 - Rifampicin 600 mg over 5 days and Triazolam 0.5 mg SD PO"
           ]
         },
         {
@@ -5854,7 +5970,7 @@
           "Path": "Neighborhoods|LowerJejunum_int_LowerJejunum_cell|Triazolam|P (interstitial->intracellular)",
           "TargetSimulations": [
             "Villikka 1997 - Triazolam control - 0.5 mg SD PO",
-            "Villikka 1997 - Rifampicin 600 mg over 5 days + Triazolam 0.5 mg SD PO"
+            "Villikka 1997 - Rifampicin 600 mg over 5 days and Triazolam 0.5 mg SD PO"
           ]
         },
         {
@@ -5863,7 +5979,7 @@
           "Path": "Neighborhoods|UpperIleum_int_UpperIleum_cell|Triazolam|P (interstitial->intracellular)",
           "TargetSimulations": [
             "Villikka 1997 - Triazolam control - 0.5 mg SD PO",
-            "Villikka 1997 - Rifampicin 600 mg over 5 days + Triazolam 0.5 mg SD PO"
+            "Villikka 1997 - Rifampicin 600 mg over 5 days and Triazolam 0.5 mg SD PO"
           ]
         },
         {
@@ -5872,7 +5988,7 @@
           "Path": "Neighborhoods|LowerIleum_int_LowerIleum_cell|Triazolam|P (interstitial->intracellular)",
           "TargetSimulations": [
             "Villikka 1997 - Triazolam control - 0.5 mg SD PO",
-            "Villikka 1997 - Rifampicin 600 mg over 5 days + Triazolam 0.5 mg SD PO"
+            "Villikka 1997 - Rifampicin 600 mg over 5 days and Triazolam 0.5 mg SD PO"
           ]
         },
         {
@@ -5881,7 +5997,7 @@
           "Path": "Neighborhoods|Caecum_int_Caecum_cell|Triazolam|P (interstitial->intracellular)",
           "TargetSimulations": [
             "Villikka 1997 - Triazolam control - 0.5 mg SD PO",
-            "Villikka 1997 - Rifampicin 600 mg over 5 days + Triazolam 0.5 mg SD PO"
+            "Villikka 1997 - Rifampicin 600 mg over 5 days and Triazolam 0.5 mg SD PO"
           ]
         },
         {
@@ -5890,7 +6006,7 @@
           "Path": "Neighborhoods|ColonAscendens_int_ColonAscendens_cell|Triazolam|P (interstitial->intracellular)",
           "TargetSimulations": [
             "Villikka 1997 - Triazolam control - 0.5 mg SD PO",
-            "Villikka 1997 - Rifampicin 600 mg over 5 days + Triazolam 0.5 mg SD PO"
+            "Villikka 1997 - Rifampicin 600 mg over 5 days and Triazolam 0.5 mg SD PO"
           ]
         },
         {
@@ -5899,7 +6015,7 @@
           "Path": "Neighborhoods|ColonTransversum_int_ColonTransversum_cell|Triazolam|P (interstitial->intracellular)",
           "TargetSimulations": [
             "Villikka 1997 - Triazolam control - 0.5 mg SD PO",
-            "Villikka 1997 - Rifampicin 600 mg over 5 days + Triazolam 0.5 mg SD PO"
+            "Villikka 1997 - Rifampicin 600 mg over 5 days and Triazolam 0.5 mg SD PO"
           ]
         },
         {
@@ -5908,7 +6024,7 @@
           "Path": "Neighborhoods|ColonDescendens_int_ColonDescendens_cell|Triazolam|P (interstitial->intracellular)",
           "TargetSimulations": [
             "Villikka 1997 - Triazolam control - 0.5 mg SD PO",
-            "Villikka 1997 - Rifampicin 600 mg over 5 days + Triazolam 0.5 mg SD PO"
+            "Villikka 1997 - Rifampicin 600 mg over 5 days and Triazolam 0.5 mg SD PO"
           ]
         },
         {
@@ -5917,7 +6033,7 @@
           "Path": "Neighborhoods|ColonSigmoid_int_ColonSigmoid_cell|Triazolam|P (interstitial->intracellular)",
           "TargetSimulations": [
             "Villikka 1997 - Triazolam control - 0.5 mg SD PO",
-            "Villikka 1997 - Rifampicin 600 mg over 5 days + Triazolam 0.5 mg SD PO"
+            "Villikka 1997 - Rifampicin 600 mg over 5 days and Triazolam 0.5 mg SD PO"
           ]
         },
         {
@@ -5926,7 +6042,7 @@
           "Path": "Neighborhoods|Rectum_int_Rectum_cell|Triazolam|P (interstitial->intracellular)",
           "TargetSimulations": [
             "Villikka 1997 - Triazolam control - 0.5 mg SD PO",
-            "Villikka 1997 - Rifampicin 600 mg over 5 days + Triazolam 0.5 mg SD PO"
+            "Villikka 1997 - Rifampicin 600 mg over 5 days and Triazolam 0.5 mg SD PO"
           ]
         },
         {
@@ -5935,7 +6051,7 @@
           "Path": "Neighborhoods|Duodenum_int_Duodenum_cell|Triazolam|P (intracellular->interstitial)",
           "TargetSimulations": [
             "Villikka 1997 - Triazolam control - 0.5 mg SD PO",
-            "Villikka 1997 - Rifampicin 600 mg over 5 days + Triazolam 0.5 mg SD PO"
+            "Villikka 1997 - Rifampicin 600 mg over 5 days and Triazolam 0.5 mg SD PO"
           ]
         },
         {
@@ -5944,7 +6060,7 @@
           "Path": "Neighborhoods|UpperJejunum_int_UpperJejunum_cell|Triazolam|P (intracellular->interstitial)",
           "TargetSimulations": [
             "Villikka 1997 - Triazolam control - 0.5 mg SD PO",
-            "Villikka 1997 - Rifampicin 600 mg over 5 days + Triazolam 0.5 mg SD PO"
+            "Villikka 1997 - Rifampicin 600 mg over 5 days and Triazolam 0.5 mg SD PO"
           ]
         },
         {
@@ -5953,7 +6069,7 @@
           "Path": "Neighborhoods|LowerJejunum_int_LowerJejunum_cell|Triazolam|P (intracellular->interstitial)",
           "TargetSimulations": [
             "Villikka 1997 - Triazolam control - 0.5 mg SD PO",
-            "Villikka 1997 - Rifampicin 600 mg over 5 days + Triazolam 0.5 mg SD PO"
+            "Villikka 1997 - Rifampicin 600 mg over 5 days and Triazolam 0.5 mg SD PO"
           ]
         },
         {
@@ -5962,7 +6078,7 @@
           "Path": "Neighborhoods|UpperIleum_int_UpperIleum_cell|Triazolam|P (intracellular->interstitial)",
           "TargetSimulations": [
             "Villikka 1997 - Triazolam control - 0.5 mg SD PO",
-            "Villikka 1997 - Rifampicin 600 mg over 5 days + Triazolam 0.5 mg SD PO"
+            "Villikka 1997 - Rifampicin 600 mg over 5 days and Triazolam 0.5 mg SD PO"
           ]
         },
         {
@@ -5971,7 +6087,7 @@
           "Path": "Neighborhoods|LowerIleum_int_LowerIleum_cell|Triazolam|P (intracellular->interstitial)",
           "TargetSimulations": [
             "Villikka 1997 - Triazolam control - 0.5 mg SD PO",
-            "Villikka 1997 - Rifampicin 600 mg over 5 days + Triazolam 0.5 mg SD PO"
+            "Villikka 1997 - Rifampicin 600 mg over 5 days and Triazolam 0.5 mg SD PO"
           ]
         },
         {
@@ -5980,7 +6096,7 @@
           "Path": "Neighborhoods|Caecum_int_Caecum_cell|Triazolam|P (intracellular->interstitial)",
           "TargetSimulations": [
             "Villikka 1997 - Triazolam control - 0.5 mg SD PO",
-            "Villikka 1997 - Rifampicin 600 mg over 5 days + Triazolam 0.5 mg SD PO"
+            "Villikka 1997 - Rifampicin 600 mg over 5 days and Triazolam 0.5 mg SD PO"
           ]
         },
         {
@@ -5989,7 +6105,7 @@
           "Path": "Neighborhoods|ColonAscendens_int_ColonAscendens_cell|Triazolam|P (intracellular->interstitial)",
           "TargetSimulations": [
             "Villikka 1997 - Triazolam control - 0.5 mg SD PO",
-            "Villikka 1997 - Rifampicin 600 mg over 5 days + Triazolam 0.5 mg SD PO"
+            "Villikka 1997 - Rifampicin 600 mg over 5 days and Triazolam 0.5 mg SD PO"
           ]
         },
         {
@@ -5998,7 +6114,7 @@
           "Path": "Neighborhoods|ColonTransversum_int_ColonTransversum_cell|Triazolam|P (intracellular->interstitial)",
           "TargetSimulations": [
             "Villikka 1997 - Triazolam control - 0.5 mg SD PO",
-            "Villikka 1997 - Rifampicin 600 mg over 5 days + Triazolam 0.5 mg SD PO"
+            "Villikka 1997 - Rifampicin 600 mg over 5 days and Triazolam 0.5 mg SD PO"
           ]
         },
         {
@@ -6007,7 +6123,7 @@
           "Path": "Neighborhoods|ColonDescendens_int_ColonDescendens_cell|Triazolam|P (intracellular->interstitial)",
           "TargetSimulations": [
             "Villikka 1997 - Triazolam control - 0.5 mg SD PO",
-            "Villikka 1997 - Rifampicin 600 mg over 5 days + Triazolam 0.5 mg SD PO"
+            "Villikka 1997 - Rifampicin 600 mg over 5 days and Triazolam 0.5 mg SD PO"
           ]
         },
         {
@@ -6016,7 +6132,7 @@
           "Path": "Neighborhoods|ColonSigmoid_int_ColonSigmoid_cell|Triazolam|P (intracellular->interstitial)",
           "TargetSimulations": [
             "Villikka 1997 - Triazolam control - 0.5 mg SD PO",
-            "Villikka 1997 - Rifampicin 600 mg over 5 days + Triazolam 0.5 mg SD PO"
+            "Villikka 1997 - Rifampicin 600 mg over 5 days and Triazolam 0.5 mg SD PO"
           ]
         },
         {
@@ -6025,7 +6141,7 @@
           "Path": "Neighborhoods|Rectum_int_Rectum_cell|Triazolam|P (intracellular->interstitial)",
           "TargetSimulations": [
             "Villikka 1997 - Triazolam control - 0.5 mg SD PO",
-            "Villikka 1997 - Rifampicin 600 mg over 5 days + Triazolam 0.5 mg SD PO"
+            "Villikka 1997 - Rifampicin 600 mg over 5 days and Triazolam 0.5 mg SD PO"
           ]
         }
       ]
@@ -6495,18 +6611,7 @@
             "StartTime": 0,
             "TimeUnit": "h",
             "Color": "#2166ac",
-            "Caption": "Control (without erythromycin)",
-            "Symbol": "Circle"
-          },
-          {
-            "Project": "Erythromycin-Alfentanil-DDI",
-            "Simulation": "Bartkowski1989_Control",
-            "Output": "Organism|PeripheralVenousBlood|Alfentanil|Plasma (Peripheral Venous Blood)",
-            "ObservedData": "Bartkowski 1993 - Control - Alfentanil - IV - 50 µg/kg - Serum - indiv.",
-            "StartTime": 0,
-            "TimeUnit": "h",
-            "Color": "#1cdee8",
-            "Caption": "Control (without erythromycin)",
+            "Caption": "Control (without erythromycin) - Individiual 1",
             "Symbol": "Circle"
           },
           {
@@ -6516,42 +6621,102 @@
             "ObservedData": "Bartkowski 1989 - Treatment Day 1 - Alfentanil - IV - 50 µg/kg - Serum - indiv.",
             "StartTime": 1.5,
             "TimeUnit": "h",
-            "Color": "#eb3113",
-            "Caption": "Treatment with erythromycin (Day 1)",
+            "Color": "#b2182b",
+            "Caption": "Treatment with erythromycin (Day 1) - Individiual 1",
             "Symbol": "Square"
+          },
+          {
+            "Project": "Erythromycin-Alfentanil-DDI",
+            "Simulation": "Bartkowski1989_Perpetrator_Day7",
+            "Output": "Organism|PeripheralVenousBlood|Alfentanil|Plasma (Peripheral Venous Blood)",
+            "ObservedData": "Bartkowski 1989 - Treatment Day 7 - Alfentanil - IV - 50 µg/kg - Serum - indiv.",
+            "StartTime": 145.5,
+            "TimeUnit": "h",
+            "Color": "#d6604d",
+            "Caption": "Treatment with erythromycin (Day 7) - Individiual 1",
+            "Symbol": "Triangle"
+          }
+        ]
+      },
+      {
+        "SectionId": 303,
+        "Title": "Bartkowski 1993",
+        "SimulationDuration": 8,
+        "TimeUnit": "h",
+        "OutputMappings": [
+          {
+            "Project": "Erythromycin-Alfentanil-DDI",
+            "Simulation": "Bartkowski1989_Control",
+            "Output": "Organism|PeripheralVenousBlood|Alfentanil|Plasma (Peripheral Venous Blood)",
+            "ObservedData": "Bartkowski 1993 - Control - Alfentanil - IV - 50 µg/kg - Serum - indiv.",
+            "StartTime": 0,
+            "TimeUnit": "h",
+            "Color": "#2166ac",
+            "Caption": "Control (without erythromycin) - Individiual 2",
+            "Symbol": "Circle"
           },
           {
             "Project": "Erythromycin-Alfentanil-DDI",
             "Simulation": "Bartkowski1989_Perpetrator_Day1",
             "Output": "Organism|PeripheralVenousBlood|Alfentanil|Plasma (Peripheral Venous Blood)",
-            "ObservedData": "Bartkowski 1989 - Treatment Day 7 - Alfentanil - IV - 50 µg/kg - Serum - indiv.",
+            "ObservedData": "Bartkowski 1993 - Treatment Day 1 - Alfentanil - IV - 50 µg/kg - Serum - indiv.",
             "StartTime": 1.5,
             "TimeUnit": "h",
-            "Color": "#fa8405",
-            "Caption": "Treatment with erythromycin (Day 1)",
+            "Color": "#b2182b",
+            "Caption": "Treatment with erythromycin (Day 1) - Individiual 2",
             "Symbol": "Square"
           },
           {
             "Project": "Erythromycin-Alfentanil-DDI",
             "Simulation": "Bartkowski1989_Perpetrator_Day7",
             "Output": "Organism|PeripheralVenousBlood|Alfentanil|Plasma (Peripheral Venous Blood)",
-            "ObservedData": "Bartkowski 1989 - Treatment Day 7 - Alfentanil - IV - 50 µg/kg - Serum - indiv.",
+            "ObservedData": "Bartkowski 1993 - Treatment Day 7 - Alfentanil - IV - 50 µg/kg - Serum - indiv.",
             "StartTime": 145.5,
             "TimeUnit": "h",
-            "Color": "#eb3113",
-            "Caption": "Treatment with erythromycin (Day 7)",
+            "Color": "#d6604d",
+            "Caption": "Treatment with erythromycin (Day 7) - Individiual 2",
+            "Symbol": "Triangle"
+          }
+        ]
+      },
+      {
+        "SectionId": 304,
+        "Title": "Carls 2014",
+        "SimulationDuration": 12,
+        "TimeUnit": "h",
+        "OutputMappings": [
+          {
+            "Project": "Erythromycin-Midazolam-DDI",
+            "Simulation": "Control_Carls2014",
+            "Output": "Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
+            "ObservedData": [],
+            "StartTime": 0,
+            "TimeUnit": "h",
+            "Color": "#2166ac",
+            "Caption": "Control (without erythromycin)",
+            "Symbol": "Circle"
+          },
+          {
+            "Project": "Erythromycin-Midazolam-DDI",
+            "Simulation": "Treatment_Carls2014_250mg",
+            "Output": "Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
+            "ObservedData": [],
+            "StartTime": 1,
+            "TimeUnit": "h",
+            "Color": "#b2182b",
+            "Caption": "Treatment with erythromycin (250 mg)",
             "Symbol": "Square"
           },
           {
-            "Project": "Erythromycin-Alfentanil-DDI",
-            "Simulation": "Bartkowski1989_Perpetrator_Day7",
-            "Output": "Organism|PeripheralVenousBlood|Alfentanil|Plasma (Peripheral Venous Blood)",
-            "ObservedData": "Bartkowski 1989 - Treatment Day 7 - Alfentanil - IV - 50 µg/kg - Serum - indiv.",
-            "StartTime": 145.5,
+            "Project": "Erythromycin-Midazolam-DDI",
+            "Simulation": "Treatment_Carls2014_1000mg",
+            "Output": "Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
+            "ObservedData": [],
+            "StartTime": 1,
             "TimeUnit": "h",
-            "Color": "#fa8405",
-            "Caption": "Treatment with erythromycin (Day 7)",
-            "Symbol": "Square"
+            "Color": "#d6604d",
+            "Caption": "Treatment with erythromycin (1000 mg)",
+            "Symbol": "Triangle"
           }
         ]
       },
@@ -6947,7 +7112,7 @@
             "Project": "Itraconazole-Alprazolam-DDI",
             "Simulation": "Yasui 1998 - Alprazolam 0.8 mg with placebo",
             "Output": "Organism|PeripheralVenousBlood|Alprazolam|Plasma (Peripheral Venous Blood)",
-            "ObservedData": "Yasui 1998 - Alprazolam 0.8 mg with itraconazole",
+            "ObservedData": "Yasui 1998 - Alprazolam with placebo - Alprazolam - PO - 0.8 mg - Plasma - agg. (n=10)",
             "StartTime": 0,
             "TimeUnit": "h",
             "Color": "#2166ac",
@@ -6958,7 +7123,7 @@
             "Project": "Itraconazole-Alprazolam-DDI",
             "Simulation": "Yasui 1998 - Alprazolam 0.8 mg with itraconazole",
             "Output": "Organism|PeripheralVenousBlood|Alprazolam|Plasma (Peripheral Venous Blood)",
-            "ObservedData": "Yasui 1998 - Alprazolam with placebo - Alprazolam - PO - 0.8 mg - Plasma - agg. (n=10)",
+            "ObservedData": "Yasui 1998 - Alprazolam with itraconazole - Alprazolam - PO - 0.8 mg - Plasma - agg. (n=10)",
             "StartTime": 73,
             "TimeUnit": "h",
             "Color": "#b2182b",
@@ -7237,6 +7402,36 @@
             "Color": "#b2182b",
             "Caption": "Treatment (with 400 mg Itraconazole)",
             "Symbol": "Diamond"
+          }
+        ]
+      },
+      {
+        "SectionId": 310,
+        "Title": "Yu 2004 (CYP3A5*3/*3)",
+        "SimulationDuration": 24,
+        "TimeUnit": "h",
+        "OutputMappings": [
+          {
+            "Project": "Itraconazole-Midazolam-DDI",
+            "Simulation": "DDI Control - Midazolam - Yu 2004 (CYP3A5 s3,s3)",
+            "Output": "Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
+            "ObservedData": "",
+            "StartTime": 0,
+            "TimeUnit": "h",
+            "Color": "#2166ac",
+            "Caption": "Control (without Itraconazole)",
+            "Symbol": "Circle"
+          },
+          {
+            "Project": "Itraconazole-Midazolam-DDI",
+            "Simulation": "DDI Treatment - Itraconazole/Midazolam - Yu 2004 (CYP3A5 s3,s3)",
+            "Output": "Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
+            "ObservedData": "",
+            "StartTime": 72,
+            "TimeUnit": "h",
+            "Color": "#b2182b",
+            "Caption": "Treatment (with Itraconazole)",
+            "Symbol": "Square"
           }
         ]
       },
@@ -8609,6 +8804,36 @@
         ]
       },
       {
+        "SectionId": 317,
+        "Title": "Yu 2004 (CYP3A5*3/*3)",
+        "SimulationDuration": 12,
+        "TimeUnit": "h",
+        "OutputMappings": [
+          {
+            "Project": "Rifampicin-Midazolam-DDI",
+            "Simulation": "DDI Control - Midazolam - Yu 2018 (CYP3A5 s3,s3)",
+            "Output": "Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
+            "ObservedData": "",
+            "StartTime": 0,
+            "TimeUnit": "h",
+            "Color": "#2166ac",
+            "Caption": "Control (without Rifampicin)",
+            "Symbol": "Circle"
+          },
+          {
+            "Project": "Rifampicin-Midazolam-DDI",
+            "Simulation": "DDI Treatment - Rifampicin/Midazolam - Yu 2004 (CYP3A5 s3,s3)",
+            "Output": "Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
+            "ObservedData": "",
+            "StartTime": 240,
+            "TimeUnit": "h",
+            "Color": "#b2182b",
+            "Caption": "Treatment (with Rifampicin)",
+            "Symbol": "Square"
+          }
+        ]
+      },
+      {
         "SectionId": 318,
         "Title": "Villikka 1997",
         "SimulationDuration": 12,
@@ -8627,7 +8852,7 @@
           },
           {
             "Project": "Rifampicin-Triazolam-DDI",
-            "Simulation": "Villikka 1997 - Rifampicin 600 mg over 5 days + Triazolam 0.5 mg SD PO",
+            "Simulation": "Villikka 1997 - Rifampicin 600 mg over 5 days and Triazolam 0.5 mg SD PO",
             "Output": "Organism|PeripheralVenousBlood|Triazolam|Plasma (Peripheral Venous Blood)",
             "ObservedData": "Villikka 1997 - Treatment arm (pretreatment with rifampin; 600 mg; 5 days) - Triazolam - PO - 0.5 mg - Plasma - agg. (n=10)",
             "StartTime": 113,
@@ -8866,14 +9091,14 @@
                 "ObservedData": "DDI Ratios",
                 "ObservedDataRecordId": 1102,
                 "SimulationControl": {
-                  "Project": "Clarithromycin + Triazolam",
+                  "Project": "Clarithromycin-Triazolam-DDI",
                   "Simulation": "Greenblatt 1998a - Triazolam control - 0.125 mg PO SD",
                   "StartTime": 0,
                   "EndTime": "Inf",
                   "TimeUnit": "h"
                 },
                 "SimulationDDI": {
-                  "Project": "Clarithromycin + Triazolam",
+                  "Project": "Clarithromycin-Triazolam-DDI",
                   "Simulation": "Greenblatt 1998a - Clarithromycin 500 mg MD, Triazolam 0.125 mg PO",
                   "StartTime": 25,
                   "EndTime": "Inf",
@@ -9327,6 +9552,25 @@
                   "Simulation": "DDI Treatment - Itraconazole/Midazolam - Olkkola 1996",
                   "StartTime": 74,
                   "EndTime": 122,
+                  "TimeUnit": "h"
+                }
+              },
+              {
+                "Output": "Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
+                "ObservedData": "DDI Ratios",
+                "ObservedDataRecordId": 199,
+                "SimulationControl": {
+                  "Project": "Itraconazole-Midazolam-DDI",
+                  "Simulation": "DDI Control - Midazolam - Yu 2004 (CYP3A5 s3,s3)",
+                  "StartTime": 0,
+                  "EndTime": 9999,
+                  "TimeUnit": "h"
+                },
+                "SimulationDDI": {
+                  "Project": "Itraconazole-Midazolam-DDI",
+                  "Simulation": "DDI Treatment - Itraconazole/Midazolam - Yu 2004 (CYP3A5 s3,s3)",
+                  "StartTime": 72,
+                  "EndTime": 9999,
                   "TimeUnit": "h"
                 }
               }
@@ -10264,6 +10508,25 @@
                   "EndTime": 9999,
                   "TimeUnit": "h"
                 }
+              },
+              {
+                "Output": "Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
+                "ObservedData": "DDI Ratios",
+                "ObservedDataRecordId": 202,
+                "SimulationControl": {
+                  "Project": "Rifampicin-Midazolam-DDI",
+                  "Simulation": "DDI Control - Midazolam - Yu 2018 (CYP3A5 s3,s3)",
+                  "StartTime": 0,
+                  "EndTime": 9999,
+                  "TimeUnit": "h"
+                },
+                "SimulationDDI": {
+                  "Project": "Rifampicin-Midazolam-DDI",
+                  "Simulation": "DDI Treatment - Rifampicin/Midazolam - Yu 2004 (CYP3A5 s3,s3)",
+                  "StartTime": 240,
+                  "EndTime": 9999,
+                  "TimeUnit": "h"
+                }
               }
             ]
           },
@@ -10672,7 +10935,7 @@
                 },
                 "SimulationDDI": {
                   "Project": "Rifampicin-Triazolam-DDI",
-                  "Simulation": "Villikka 1997 - Rifampicin 600 mg over 5 days + Triazolam 0.5 mg SD PO",
+                  "Simulation": "Villikka 1997 - Rifampicin 600 mg over 5 days and Triazolam 0.5 mg SD PO",
                   "StartTime": 113,
                   "EndTime": "Inf",
                   "TimeUnit": "h"
