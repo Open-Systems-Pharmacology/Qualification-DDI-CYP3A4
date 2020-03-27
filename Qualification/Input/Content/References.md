@@ -6,6 +6,8 @@
 
 **Dummy YEAR** Dummy D, Doe J, Doe A. Pharmackoniteic study of COMPOUND. JOURNAL. YEAR Mon;ISSUE:PAGES. doi: DOI.	
 
+**OSP PK Database** (https://github.com/Open-Systems-Pharmacology/Database-for-observed-data)
+
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
