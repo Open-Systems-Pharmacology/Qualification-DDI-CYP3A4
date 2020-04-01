@@ -14,6 +14,10 @@
       "Path": "https://raw.githubusercontent.com/LMFuhr/Clarithromycin-Model/master/Clarithromycin-Model.json"
     },
     {
+      "Id": "Efavirenz",
+      "Path": "https://raw.githubusercontent.com/TWendl/Efavirenz-Model/master/Efavirenz.json"
+    },
+    {
       "Id": "Erythromycin",
       "Path": "https://raw.githubusercontent.com/AndreDlm/Erythromycin-Model/master/Erythromycin.json"
     },
@@ -956,7 +960,7 @@
           "Project": "Clarithromycin",
           "Simulation": "Clarithromycin po, Chu 1992, 100 mg",
           "Path": "Clarithromycin|P (plasma->blood cells)",
-          "TargetSimulations": [            
+          "TargetSimulations": [
             "Greenblatt 1998a - Clarithromycin 500 mg MD, Triazolam 0.125 mg PO"
           ]
         }
@@ -975,7 +979,7 @@
           "Type": "Compound",
           "Name": "Erythromycin",
           "Project": "Erythromycin"
-        },        
+        },
         {
           "Type": "Formulation",
           "Name": "Erythromycin_Weibull_enteric-coated-tablet",
@@ -3696,6 +3700,519 @@
             "Neuvonen 1996 - Triazolam 0.25 mg + ITZ 200 mg 24 hrs before",
             "Varhe 1994 - Triazolam 0.25 mg control",
             "Varhe 1994 - Triazolam 0.25 mg + Itraconazole 200 mg PO QD"
+          ]
+        }
+      ]
+    },
+    {
+      "Id": "Efavirenz-Alfentanil-DDI",
+      "Path": "https://raw.githubusercontent.com/TWendl/Efavirenz-Alfentanil-DDI/master/Efavirenz-Alfentanil-DDI.json",
+      "BuildingBlocks": [
+        {
+          "Type": "Compound",
+          "Name": "Efavirenz",
+          "Project": "Efavirenz"
+        },
+        {
+          "Type": "Formulation",
+          "Name": "Sustiva",
+          "Project": "Efavirenz"
+        },
+        {
+          "Type": "Compound",
+          "Name": "Alfentanil",
+          "Project": "Alfentanil"
+        },
+        {
+          "Type": "Formulation",
+          "Name": "Solution",
+          "Project": "Alfentanil"
+        }
+      ],
+      "SimulationParameters": [
+        {
+          "Project": "Alfentanil",
+          "Simulation": "Kharasch 2004, Alfentanil po 0.06 mg/kg",
+          "Path": "Neighborhoods|Duodenum_int_Duodenum_cell|Alfentanil|P (interstitial->intracellular)",
+          "TargetSimulations": [
+            "Kharasch 2012, Alfentanil IV alone",
+            "Kharasch 2012, Alfentanil PO alone",
+            "Kharasch 2012, Alfentanil + Efavirenz 600 mg OD"
+          ]
+        },
+        {
+          "Project": "Alfentanil",
+          "Simulation": "Kharasch 2004, Alfentanil po 0.06 mg/kg",
+          "Path": "Neighborhoods|UpperJejunum_int_UpperJejunum_cell|Alfentanil|P (interstitial->intracellular)",
+          "TargetSimulations": [
+            "Kharasch 2012, Alfentanil IV alone",
+            "Kharasch 2012, Alfentanil PO alone",
+            "Kharasch 2012, Alfentanil + Efavirenz 600 mg OD"
+          ]
+        },
+        {
+          "Project": "Alfentanil",
+          "Simulation": "Kharasch 2004, Alfentanil po 0.06 mg/kg",
+          "Path": "Neighborhoods|LowerJejunum_int_LowerJejunum_cell|Alfentanil|P (interstitial->intracellular)",
+          "TargetSimulations": [
+            "Kharasch 2012, Alfentanil IV alone",
+            "Kharasch 2012, Alfentanil PO alone",
+            "Kharasch 2012, Alfentanil + Efavirenz 600 mg OD"
+          ]
+        },
+        {
+          "Project": "Alfentanil",
+          "Simulation": "Kharasch 2004, Alfentanil po 0.06 mg/kg",
+          "Path": "Neighborhoods|UpperIleum_int_UpperIleum_cell|Alfentanil|P (interstitial->intracellular)",
+          "TargetSimulations": [
+            "Kharasch 2012, Alfentanil IV alone",
+            "Kharasch 2012, Alfentanil PO alone",
+            "Kharasch 2012, Alfentanil + Efavirenz 600 mg OD"
+          ]
+        },
+        {
+          "Project": "Alfentanil",
+          "Simulation": "Kharasch 2004, Alfentanil po 0.06 mg/kg",
+          "Path": "Neighborhoods|LowerIleum_int_LowerIleum_cell|Alfentanil|P (interstitial->intracellular)",
+          "TargetSimulations": [
+            "Kharasch 2012, Alfentanil IV alone",
+            "Kharasch 2012, Alfentanil PO alone",
+            "Kharasch 2012, Alfentanil + Efavirenz 600 mg OD"
+          ]
+        },
+        {
+          "Project": "Alfentanil",
+          "Simulation": "Kharasch 2004, Alfentanil po 0.06 mg/kg",
+          "Path": "Neighborhoods|Caecum_int_Caecum_cell|Alfentanil|P (interstitial->intracellular)",
+          "TargetSimulations": [
+            "Kharasch 2012, Alfentanil IV alone",
+            "Kharasch 2012, Alfentanil PO alone",
+            "Kharasch 2012, Alfentanil + Efavirenz 600 mg OD"
+          ]
+        },
+        {
+          "Project": "Alfentanil",
+          "Simulation": "Kharasch 2004, Alfentanil po 0.06 mg/kg",
+          "Path": "Neighborhoods|ColonAscendens_int_ColonAscendens_cell|Alfentanil|P (interstitial->intracellular)",
+          "TargetSimulations": [
+            "Kharasch 2012, Alfentanil IV alone",
+            "Kharasch 2012, Alfentanil PO alone",
+            "Kharasch 2012, Alfentanil + Efavirenz 600 mg OD"
+          ]
+        },
+        {
+          "Project": "Alfentanil",
+          "Simulation": "Kharasch 2004, Alfentanil po 0.06 mg/kg",
+          "Path": "Neighborhoods|ColonTransversum_int_ColonTransversum_cell|Alfentanil|P (interstitial->intracellular)",
+          "TargetSimulations": [
+            "Kharasch 2012, Alfentanil IV alone",
+            "Kharasch 2012, Alfentanil PO alone",
+            "Kharasch 2012, Alfentanil + Efavirenz 600 mg OD"
+          ]
+        },
+        {
+          "Project": "Alfentanil",
+          "Simulation": "Kharasch 2004, Alfentanil po 0.06 mg/kg",
+          "Path": "Neighborhoods|ColonDescendens_int_ColonDescendens_cell|Alfentanil|P (interstitial->intracellular)",
+          "TargetSimulations": [
+            "Kharasch 2012, Alfentanil IV alone",
+            "Kharasch 2012, Alfentanil PO alone",
+            "Kharasch 2012, Alfentanil + Efavirenz 600 mg OD"
+          ]
+        },
+        {
+          "Project": "Alfentanil",
+          "Simulation": "Kharasch 2004, Alfentanil po 0.06 mg/kg",
+          "Path": "Neighborhoods|ColonSigmoid_int_ColonSigmoid_cell|Alfentanil|P (interstitial->intracellular)",
+          "TargetSimulations": [
+            "Kharasch 2012, Alfentanil IV alone",
+            "Kharasch 2012, Alfentanil PO alone",
+            "Kharasch 2012, Alfentanil + Efavirenz 600 mg OD"
+          ]
+        },
+        {
+          "Project": "Alfentanil",
+          "Simulation": "Kharasch 2004, Alfentanil po 0.06 mg/kg",
+          "Path": "Neighborhoods|Rectum_int_Rectum_cell|Alfentanil|P (interstitial->intracellular)",
+          "TargetSimulations": [
+            "Kharasch 2012, Alfentanil IV alone",
+            "Kharasch 2012, Alfentanil PO alone",
+            "Kharasch 2012, Alfentanil + Efavirenz 600 mg OD"
+          ]
+        },
+        {
+          "Project": "Alfentanil",
+          "Simulation": "Kharasch 2004, Alfentanil po 0.06 mg/kg",
+          "Path": "Neighborhoods|Duodenum_int_Duodenum_cell|Alfentanil|P (intracellular->interstitial)",
+          "TargetSimulations": [
+            "Kharasch 2012, Alfentanil IV alone",
+            "Kharasch 2012, Alfentanil PO alone",
+            "Kharasch 2012, Alfentanil + Efavirenz 600 mg OD"
+          ]
+        },
+        {
+          "Project": "Alfentanil",
+          "Simulation": "Kharasch 2004, Alfentanil po 0.06 mg/kg",
+          "Path": "Neighborhoods|UpperJejunum_int_UpperJejunum_cell|Alfentanil|P (intracellular->interstitial)",
+          "TargetSimulations": [
+            "Kharasch 2012, Alfentanil IV alone",
+            "Kharasch 2012, Alfentanil PO alone",
+            "Kharasch 2012, Alfentanil + Efavirenz 600 mg OD"
+          ]
+        },
+        {
+          "Project": "Alfentanil",
+          "Simulation": "Kharasch 2004, Alfentanil po 0.06 mg/kg",
+          "Path": "Neighborhoods|LowerJejunum_int_LowerJejunum_cell|Alfentanil|P (intracellular->interstitial)",
+          "TargetSimulations": [
+            "Kharasch 2012, Alfentanil IV alone",
+            "Kharasch 2012, Alfentanil PO alone",
+            "Kharasch 2012, Alfentanil + Efavirenz 600 mg OD"
+          ]
+        },
+        {
+          "Project": "Alfentanil",
+          "Simulation": "Kharasch 2004, Alfentanil po 0.06 mg/kg",
+          "Path": "Neighborhoods|UpperIleum_int_UpperIleum_cell|Alfentanil|P (intracellular->interstitial)",
+          "TargetSimulations": [
+            "Kharasch 2012, Alfentanil IV alone",
+            "Kharasch 2012, Alfentanil PO alone",
+            "Kharasch 2012, Alfentanil + Efavirenz 600 mg OD"
+          ]
+        },
+        {
+          "Project": "Alfentanil",
+          "Simulation": "Kharasch 2004, Alfentanil po 0.06 mg/kg",
+          "Path": "Neighborhoods|LowerIleum_int_LowerIleum_cell|Alfentanil|P (intracellular->interstitial)",
+          "TargetSimulations": [
+            "Kharasch 2012, Alfentanil IV alone",
+            "Kharasch 2012, Alfentanil PO alone",
+            "Kharasch 2012, Alfentanil + Efavirenz 600 mg OD"
+          ]
+        },
+        {
+          "Project": "Alfentanil",
+          "Simulation": "Kharasch 2004, Alfentanil po 0.06 mg/kg",
+          "Path": "Neighborhoods|Caecum_int_Caecum_cell|Alfentanil|P (intracellular->interstitial)",
+          "TargetSimulations": [
+            "Kharasch 2012, Alfentanil IV alone",
+            "Kharasch 2012, Alfentanil PO alone",
+            "Kharasch 2012, Alfentanil + Efavirenz 600 mg OD"
+          ]
+        },
+        {
+          "Project": "Alfentanil",
+          "Simulation": "Kharasch 2004, Alfentanil po 0.06 mg/kg",
+          "Path": "Neighborhoods|ColonAscendens_int_ColonAscendens_cell|Alfentanil|P (intracellular->interstitial)",
+          "TargetSimulations": [
+            "Kharasch 2012, Alfentanil IV alone",
+            "Kharasch 2012, Alfentanil PO alone",
+            "Kharasch 2012, Alfentanil + Efavirenz 600 mg OD"
+          ]
+        },
+        {
+          "Project": "Alfentanil",
+          "Simulation": "Kharasch 2004, Alfentanil po 0.06 mg/kg",
+          "Path": "Neighborhoods|ColonTransversum_int_ColonTransversum_cell|Alfentanil|P (intracellular->interstitial)",
+          "TargetSimulations": [
+            "Kharasch 2012, Alfentanil IV alone",
+            "Kharasch 2012, Alfentanil PO alone",
+            "Kharasch 2012, Alfentanil + Efavirenz 600 mg OD"
+          ]
+        },
+        {
+          "Project": "Alfentanil",
+          "Simulation": "Kharasch 2004, Alfentanil po 0.06 mg/kg",
+          "Path": "Neighborhoods|ColonDescendens_int_ColonDescendens_cell|Alfentanil|P (intracellular->interstitial)",
+          "TargetSimulations": [
+            "Kharasch 2012, Alfentanil IV alone",
+            "Kharasch 2012, Alfentanil PO alone",
+            "Kharasch 2012, Alfentanil + Efavirenz 600 mg OD"
+          ]
+        },
+        {
+          "Project": "Alfentanil",
+          "Simulation": "Kharasch 2004, Alfentanil po 0.06 mg/kg",
+          "Path": "Neighborhoods|ColonSigmoid_int_ColonSigmoid_cell|Alfentanil|P (intracellular->interstitial)",
+          "TargetSimulations": [
+            "Kharasch 2012, Alfentanil IV alone",
+            "Kharasch 2012, Alfentanil PO alone",
+            "Kharasch 2012, Alfentanil + Efavirenz 600 mg OD"
+          ]
+        },
+        {
+          "Project": "Alfentanil",
+          "Simulation": "Kharasch 2004, Alfentanil po 0.06 mg/kg",
+          "Path": "Neighborhoods|Rectum_int_Rectum_cell|Alfentanil|P (intracellular->interstitial)",
+          "TargetSimulations": [
+            "Kharasch 2012, Alfentanil IV alone",
+            "Kharasch 2012, Alfentanil PO alone",
+            "Kharasch 2012, Alfentanil + Efavirenz 600 mg OD"
+          ]
+        }
+      ]
+    },
+    {
+      "Id": "Efavirenz-Midazolam-DDI",
+      "Path": "https://raw.githubusercontent.com/TWendl/Efavirenz-Midazolam-DDI/master/Efavirenz-Midazolam-DDI.json",
+      "BuildingBlocks": [
+        {
+          "Type": "Compound",
+          "Name": "Efavirenz",
+          "Project": "Efavirenz"
+        },
+        {
+          "Type": "Formulation",
+          "Name": "Sustiva",
+          "Project": "Efavirenz"
+        },
+        {
+          "Type": "Compound",
+          "Name": "Midazolam",
+          "Project": "Midazolam"
+        }
+      ],
+      "SimulationParameters": [
+        {
+          "Project": "Midazolam",
+          "Simulation": "po 3 mg (solution)",
+          "Path": "Neighborhoods|Duodenum_int_Duodenum_cell|Midazolam|P (interstitial->intracellular)",
+          "TargetSimulations": [
+            "Mikus 2017, Midazolam alone",
+            "Mikus 2017, Midazolam + Efavirenz 400mg SD",
+            "Katzenmaier 2010, Midazolam alone",
+            "Katzenmaier 2010, Midazolam +  Efavirenz 400mg MD"
+          ]
+        },
+        {
+          "Project": "Midazolam",
+          "Simulation": "po 3 mg (solution)",
+          "Path": "Neighborhoods|UpperJejunum_int_UpperJejunum_cell|Midazolam|P (interstitial->intracellular)",
+          "TargetSimulations": [
+            "Mikus 2017, Midazolam alone",
+            "Mikus 2017, Midazolam + Efavirenz 400mg SD",
+            "Katzenmaier 2010, Midazolam alone",
+            "Katzenmaier 2010, Midazolam +  Efavirenz 400mg MD"
+          ]
+        },
+        {
+          "Project": "Midazolam",
+          "Simulation": "po 3 mg (solution)",
+          "Path": "Neighborhoods|LowerJejunum_int_LowerJejunum_cell|Midazolam|P (interstitial->intracellular)",
+          "TargetSimulations": [
+            "Mikus 2017, Midazolam alone",
+            "Mikus 2017, Midazolam + Efavirenz 400mg SD",
+            "Katzenmaier 2010, Midazolam alone",
+            "Katzenmaier 2010, Midazolam +  Efavirenz 400mg MD"
+          ]
+        },
+        {
+          "Project": "Midazolam",
+          "Simulation": "po 3 mg (solution)",
+          "Path": "Neighborhoods|UpperIleum_int_UpperIleum_cell|Midazolam|P (interstitial->intracellular)",
+          "TargetSimulations": [
+            "Mikus 2017, Midazolam alone",
+            "Mikus 2017, Midazolam + Efavirenz 400mg SD",
+            "Katzenmaier 2010, Midazolam alone",
+            "Katzenmaier 2010, Midazolam +  Efavirenz 400mg MD"
+          ]
+        },
+        {
+          "Project": "Midazolam",
+          "Simulation": "po 3 mg (solution)",
+          "Path": "Neighborhoods|LowerIleum_int_LowerIleum_cell|Midazolam|P (interstitial->intracellular)",
+          "TargetSimulations": [
+            "Mikus 2017, Midazolam alone",
+            "Mikus 2017, Midazolam + Efavirenz 400mg SD",
+            "Katzenmaier 2010, Midazolam alone",
+            "Katzenmaier 2010, Midazolam +  Efavirenz 400mg MD"
+          ]
+        },
+        {
+          "Project": "Midazolam",
+          "Simulation": "po 3 mg (solution)",
+          "Path": "Neighborhoods|Caecum_int_Caecum_cell|Midazolam|P (interstitial->intracellular)",
+          "TargetSimulations": [
+            "Mikus 2017, Midazolam alone",
+            "Mikus 2017, Midazolam + Efavirenz 400mg SD",
+            "Katzenmaier 2010, Midazolam alone",
+            "Katzenmaier 2010, Midazolam +  Efavirenz 400mg MD"
+          ]
+        },
+        {
+          "Project": "Midazolam",
+          "Simulation": "po 3 mg (solution)",
+          "Path": "Neighborhoods|ColonAscendens_int_ColonAscendens_cell|Midazolam|P (interstitial->intracellular)",
+          "TargetSimulations": [
+            "Mikus 2017, Midazolam alone",
+            "Mikus 2017, Midazolam + Efavirenz 400mg SD",
+            "Katzenmaier 2010, Midazolam alone",
+            "Katzenmaier 2010, Midazolam +  Efavirenz 400mg MD"
+          ]
+        },
+        {
+          "Project": "Midazolam",
+          "Simulation": "po 3 mg (solution)",
+          "Path": "Neighborhoods|ColonTransversum_int_ColonTransversum_cell|Midazolam|P (interstitial->intracellular)",
+          "TargetSimulations": [
+            "Mikus 2017, Midazolam alone",
+            "Mikus 2017, Midazolam + Efavirenz 400mg SD",
+            "Katzenmaier 2010, Midazolam alone",
+            "Katzenmaier 2010, Midazolam +  Efavirenz 400mg MD"
+          ]
+        },
+        {
+          "Project": "Midazolam",
+          "Simulation": "po 3 mg (solution)",
+          "Path": "Neighborhoods|ColonDescendens_int_ColonDescendens_cell|Midazolam|P (interstitial->intracellular)",
+          "TargetSimulations": [
+            "Mikus 2017, Midazolam alone",
+            "Mikus 2017, Midazolam + Efavirenz 400mg SD",
+            "Katzenmaier 2010, Midazolam alone",
+            "Katzenmaier 2010, Midazolam +  Efavirenz 400mg MD"
+          ]
+        },
+        {
+          "Project": "Midazolam",
+          "Simulation": "po 3 mg (solution)",
+          "Path": "Neighborhoods|ColonSigmoid_int_ColonSigmoid_cell|Midazolam|P (interstitial->intracellular)",
+          "TargetSimulations": [
+            "Mikus 2017, Midazolam alone",
+            "Mikus 2017, Midazolam + Efavirenz 400mg SD",
+            "Katzenmaier 2010, Midazolam alone",
+            "Katzenmaier 2010, Midazolam +  Efavirenz 400mg MD"
+          ]
+        },
+        {
+          "Project": "Midazolam",
+          "Simulation": "po 3 mg (solution)",
+          "Path": "Neighborhoods|Rectum_int_Rectum_cell|Midazolam|P (interstitial->intracellular)",
+          "TargetSimulations": [
+            "Mikus 2017, Midazolam alone",
+            "Mikus 2017, Midazolam + Efavirenz 400mg SD",
+            "Katzenmaier 2010, Midazolam alone",
+            "Katzenmaier 2010, Midazolam +  Efavirenz 400mg MD"
+          ]
+        },
+        {
+          "Project": "Midazolam",
+          "Simulation": "po 3 mg (solution)",
+          "Path": "Neighborhoods|Duodenum_int_Duodenum_cell|Midazolam|P (intracellular->interstitial)",
+          "TargetSimulations": [
+            "Mikus 2017, Midazolam alone",
+            "Mikus 2017, Midazolam + Efavirenz 400mg SD",
+            "Katzenmaier 2010, Midazolam alone",
+            "Katzenmaier 2010, Midazolam +  Efavirenz 400mg MD"
+          ]
+        },
+        {
+          "Project": "Midazolam",
+          "Simulation": "po 3 mg (solution)",
+          "Path": "Neighborhoods|UpperJejunum_int_UpperJejunum_cell|Midazolam|P (intracellular->interstitial)",
+          "TargetSimulations": [
+            "Mikus 2017, Midazolam alone",
+            "Mikus 2017, Midazolam + Efavirenz 400mg SD",
+            "Katzenmaier 2010, Midazolam alone",
+            "Katzenmaier 2010, Midazolam +  Efavirenz 400mg MD"
+          ]
+        },
+        {
+          "Project": "Midazolam",
+          "Simulation": "po 3 mg (solution)",
+          "Path": "Neighborhoods|LowerJejunum_int_LowerJejunum_cell|Midazolam|P (intracellular->interstitial)",
+          "TargetSimulations": [
+            "Mikus 2017, Midazolam alone",
+            "Mikus 2017, Midazolam + Efavirenz 400mg SD",
+            "Katzenmaier 2010, Midazolam alone",
+            "Katzenmaier 2010, Midazolam +  Efavirenz 400mg MD"
+          ]
+        },
+        {
+          "Project": "Midazolam",
+          "Simulation": "po 3 mg (solution)",
+          "Path": "Neighborhoods|UpperIleum_int_UpperIleum_cell|Midazolam|P (intracellular->interstitial)",
+          "TargetSimulations": [
+            "Mikus 2017, Midazolam alone",
+            "Mikus 2017, Midazolam + Efavirenz 400mg SD",
+            "Katzenmaier 2010, Midazolam alone",
+            "Katzenmaier 2010, Midazolam +  Efavirenz 400mg MD"
+          ]
+        },
+        {
+          "Project": "Midazolam",
+          "Simulation": "po 3 mg (solution)",
+          "Path": "Neighborhoods|LowerIleum_int_LowerIleum_cell|Midazolam|P (intracellular->interstitial)",
+          "TargetSimulations": [
+            "Mikus 2017, Midazolam alone",
+            "Mikus 2017, Midazolam + Efavirenz 400mg SD",
+            "Katzenmaier 2010, Midazolam alone",
+            "Katzenmaier 2010, Midazolam +  Efavirenz 400mg MD"
+          ]
+        },
+        {
+          "Project": "Midazolam",
+          "Simulation": "po 3 mg (solution)",
+          "Path": "Neighborhoods|Caecum_int_Caecum_cell|Midazolam|P (intracellular->interstitial)",
+          "TargetSimulations": [
+            "Mikus 2017, Midazolam alone",
+            "Mikus 2017, Midazolam + Efavirenz 400mg SD",
+            "Katzenmaier 2010, Midazolam alone",
+            "Katzenmaier 2010, Midazolam +  Efavirenz 400mg MD"
+          ]
+        },
+        {
+          "Project": "Midazolam",
+          "Simulation": "po 3 mg (solution)",
+          "Path": "Neighborhoods|ColonAscendens_int_ColonAscendens_cell|Midazolam|P (intracellular->interstitial)",
+          "TargetSimulations": [
+            "Mikus 2017, Midazolam alone",
+            "Mikus 2017, Midazolam + Efavirenz 400mg SD",
+            "Katzenmaier 2010, Midazolam alone",
+            "Katzenmaier 2010, Midazolam +  Efavirenz 400mg MD"
+          ]
+        },
+        {
+          "Project": "Midazolam",
+          "Simulation": "po 3 mg (solution)",
+          "Path": "Neighborhoods|ColonTransversum_int_ColonTransversum_cell|Midazolam|P (intracellular->interstitial)",
+          "TargetSimulations": [
+            "Mikus 2017, Midazolam alone",
+            "Mikus 2017, Midazolam + Efavirenz 400mg SD",
+            "Katzenmaier 2010, Midazolam alone",
+            "Katzenmaier 2010, Midazolam +  Efavirenz 400mg MD"
+          ]
+        },
+        {
+          "Project": "Midazolam",
+          "Simulation": "po 3 mg (solution)",
+          "Path": "Neighborhoods|ColonDescendens_int_ColonDescendens_cell|Midazolam|P (intracellular->interstitial)",
+          "TargetSimulations": [
+            "Mikus 2017, Midazolam alone",
+            "Mikus 2017, Midazolam + Efavirenz 400mg SD",
+            "Katzenmaier 2010, Midazolam alone",
+            "Katzenmaier 2010, Midazolam +  Efavirenz 400mg MD"
+          ]
+        },
+        {
+          "Project": "Midazolam",
+          "Simulation": "po 3 mg (solution)",
+          "Path": "Neighborhoods|ColonSigmoid_int_ColonSigmoid_cell|Midazolam|P (intracellular->interstitial)",
+          "TargetSimulations": [
+            "Mikus 2017, Midazolam alone",
+            "Mikus 2017, Midazolam + Efavirenz 400mg SD",
+            "Katzenmaier 2010, Midazolam alone",
+            "Katzenmaier 2010, Midazolam +  Efavirenz 400mg MD"
+          ]
+        },
+        {
+          "Project": "Midazolam",
+          "Simulation": "po 3 mg (solution)",
+          "Path": "Neighborhoods|Rectum_int_Rectum_cell|Midazolam|P (intracellular->interstitial)",
+          "TargetSimulations": [
+            "Mikus 2017, Midazolam alone",
+            "Mikus 2017, Midazolam + Efavirenz 400mg SD",
+            "Katzenmaier 2010, Midazolam alone",
+            "Katzenmaier 2010, Midazolam +  Efavirenz 400mg MD"
           ]
         }
       ]
@@ -6632,7 +7149,7 @@
             "ObservedData": "Bartkowski 1989 - Treatment Day 7 - Alfentanil - IV - 50 µg/kg - Serum - indiv.",
             "StartTime": 145.5,
             "TimeUnit": "h",
-            "Color": "#d6604d",
+            "Color": "#b92f40",
             "Caption": "Treatment with erythromycin (Day 7) - Individiual 1",
             "Symbol": "Triangle"
           }
@@ -6673,7 +7190,7 @@
             "ObservedData": "Bartkowski 1993 - Treatment Day 7 - Alfentanil - IV - 50 µg/kg - Serum - indiv.",
             "StartTime": 145.5,
             "TimeUnit": "h",
-            "Color": "#d6604d",
+            "Color": "#b92f40",
             "Caption": "Treatment with erythromycin (Day 7) - Individiual 2",
             "Symbol": "Triangle"
           }
@@ -6703,7 +7220,7 @@
             "ObservedData": [],
             "StartTime": 1,
             "TimeUnit": "h",
-            "Color": "#b2182b",
+            "Color": "#b92f40",
             "Caption": "Treatment with erythromycin (250 mg)",
             "Symbol": "Square"
           },
@@ -6714,7 +7231,7 @@
             "ObservedData": [],
             "StartTime": 1,
             "TimeUnit": "h",
-            "Color": "#d6604d",
+            "Color": "#b2182b",
             "Caption": "Treatment with erythromycin (1000 mg)",
             "Symbol": "Triangle"
           }
@@ -6785,7 +7302,7 @@
             "ObservedData": "Okudaira 2007 - EM 4 with Perpetrator (Erythromycin) - Midazolam - PO - 2.5 mg - Plasma - agg. (n=12)",
             "StartTime": 73,
             "TimeUnit": "h",
-            "Color": "#d6604d",
+            "Color": "#b92f40",
             "Caption": "Treatment with erythromycin for 4 days",
             "Symbol": "Triangle"
           },
@@ -6796,7 +7313,7 @@
             "ObservedData": "Okudaira 2007 - EM 7 with Perpetrator (Erythromycin) - Midazolam - PO - 2.5 mg - Plasma - agg. (n=12)",
             "StartTime": 145,
             "TimeUnit": "h",
-            "Color": "#fca61c",
+            "Color": "#c14655",
             "Caption": "Treatment with erythromycin for 7 days",
             "Symbol": "Diamond"
           }
@@ -7197,7 +7714,7 @@
             "ObservedData": "Backman 1998 - Phase III (4 days after Perpetrator (Itraconazole)) - Midazolam - PO - 15 (actually 7.5) mg - Plasma - agg. (n=9)",
             "StartTime": 170,
             "TimeUnit": "h",
-            "Color": "#d6604d",
+            "Color": "#b92f40",
             "Caption": "Treatment Phase III (with Itraconazole)",
             "Symbol": "Triangle"
           }
@@ -7377,7 +7894,7 @@
             "ObservedData": "Templeton 2010 - with Perpetrator (Itraconazole @ 50 mg) - Midazolam - PO - 2 mg - Plasma - agg. (n=6)",
             "StartTime": 4,
             "TimeUnit": "h",
-            "Color": "#f4a582",
+            "Color": "#c14655",
             "Caption": "Treatment (with 100 mg Itraconazole)",
             "Symbol": "Square"
           },
@@ -7388,7 +7905,7 @@
             "ObservedData": "Templeton 2010 - with Perpetrator (Itraconazole @ 200 mg) - Midazolam - PO - 2 mg - Plasma - agg. (n=6)",
             "StartTime": 4,
             "TimeUnit": "h",
-            "Color": "#d6604d",
+            "Color": "#b92f40",
             "Caption": "Treatment (with 200 mg Itraconazole)",
             "Symbol": "Triangle"
           },
@@ -7415,7 +7932,7 @@
             "Project": "Itraconazole-Midazolam-DDI",
             "Simulation": "DDI Control - Midazolam - Yu 2004 (CYP3A5 s3,s3)",
             "Output": "Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
-            "ObservedData": "",
+            "ObservedData": "Yu 2004 - Control CYP3A5*3/*3 - Midazolam - IV - 1 mg - Plasma - agg. (n=7)",
             "StartTime": 0,
             "TimeUnit": "h",
             "Color": "#2166ac",
@@ -7426,7 +7943,7 @@
             "Project": "Itraconazole-Midazolam-DDI",
             "Simulation": "DDI Treatment - Itraconazole/Midazolam - Yu 2004 (CYP3A5 s3,s3)",
             "Output": "Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
-            "ObservedData": "",
+            "ObservedData": "Yu 2004 - Treatment Itraconazole CYP3A5*3/*3 - Midazolam - IV - 1 mg - Plasma - agg. (n=7)",
             "StartTime": 72,
             "TimeUnit": "h",
             "Color": "#b2182b",
@@ -7459,7 +7976,7 @@
             "ObservedData": "Neuvonen 1996 - Treatment phase (triazolam + ITZ simultaneously) - Triazolam - PO - 0.25 mg - Plasma - agg. (n=10)",
             "StartTime": 0,
             "TimeUnit": "h",
-            "Color": "#f4a582",
+            "Color": "#c95d6a",
             "Caption": "Treatment (Itraconazole administered simultaneously)",
             "Symbol": "Square"
           },
@@ -7470,7 +7987,7 @@
             "ObservedData": "Neuvonen 1996 - Treatment phase (triazolam + ITZ 3 hr before) - Triazolam - PO - 0.25 mg - Plasma - agg. (n=10)",
             "StartTime": 3,
             "TimeUnit": "h",
-            "Color": "#d6604d",
+            "Color": "#c14655",
             "Caption": "Treatment (Itraconazole administered 3h before)",
             "Symbol": "Triangle"
           },
@@ -7481,7 +7998,7 @@
             "ObservedData": "Neuvonen 1996 - Treatment phase (triazolam + ITZ 12 hr before) - Triazolam - PO - 0.25 mg - Plasma - agg. (n=10)",
             "StartTime": 12,
             "TimeUnit": "h",
-            "Color": "#b2182b",
+            "Color": "#b92f40",
             "Caption": "Treatment (Itraconazole administered 12h before)",
             "Symbol": "Diamond"
           },
@@ -7524,6 +8041,244 @@
             "TimeUnit": "h",
             "Color": "#b2182b",
             "Caption": "Treatment (with Itraconazole)",
+            "Symbol": "Square"
+          }
+        ]
+      },
+      {
+        "SectionId": 313,
+        "Title": "Kharasch 2012 IV",
+        "SimulationDuration": 7.5,
+        "TimeUnit": "h",
+        "OutputMappings": [
+          {
+            "Project": "Efavirenz-Alfentanil-DDI",
+            "Simulation": "Kharasch 2012, Alfentanil IV alone",
+            "Output": "Organism|PeripheralVenousBlood|Alfentanil|Plasma (Peripheral Venous Blood)",
+            "ObservedData": "Kharasch 2012 - Alfentanil IV alone - Alfentanil - IV - 15 µg/kg - Plasma - agg. (n=12)",
+            "StartTime": 0,
+            "TimeUnit": "h",
+            "Color": "#2166ac",
+            "Caption": "Control (without Efavirenz)",
+            "Symbol": "Circle"
+          },
+          {
+            "Project": "Efavirenz-Alfentanil-DDI",
+            "Simulation": "Kharasch 2012, Alfentanil + Efavirenz 600 mg OD",
+            "Output": "Organism|PeripheralVenousBlood|Alfentanil|Plasma (Peripheral Venous Blood)",
+            "ObservedData": "Kharasch 2012 - Alfentanil IV + efavirenz - Alfentanil - IV - 15 µg/kg - Plasma - agg. (n=12)",
+            "StartTime": 360.5,
+            "TimeUnit": "h",
+            "Color": "#b2182b",
+            "Caption": "Treatment with Efavirenz",
+            "Symbol": "Square"
+          }
+        ]
+      },
+      {
+        "SectionId": 313,
+        "Title": "Kharasch 2012 PO",
+        "SimulationDuration": 8,
+        "TimeUnit": "h",
+        "OutputMappings": [
+          {
+            "Project": "Efavirenz-Alfentanil-DDI",
+            "Simulation": "Kharasch 2012, Alfentanil PO alone",
+            "Output": "Organism|PeripheralVenousBlood|Alfentanil|Plasma (Peripheral Venous Blood)",
+            "ObservedData": "Kharasch 2012 - Alfentanil PO alone - Alfentanil - PO - 43 µg/kg - Plasma - agg. (n=12)",
+            "StartTime": 0,
+            "TimeUnit": "h",
+            "Color": "#2166ac",
+            "Caption": "Control (without Efavirenz)",
+            "Symbol": "Circle"
+          },
+          {
+            "Project": "Efavirenz-Alfentanil-DDI",
+            "Simulation": "Kharasch 2012, Alfentanil + Efavirenz 600 mg OD",
+            "Output": "Organism|PeripheralVenousBlood|Alfentanil|Plasma (Peripheral Venous Blood)",
+            "ObservedData": "Kharasch 2012 - Alfentanil PO + efavirenz - Alfentanil - PO - 43 µg/kg - Plasma - agg. (n=12)",
+            "StartTime": 360.5,
+            "TimeUnit": "h",
+            "Color": "#b2182b",
+            "Caption": "Treatment with Efavirenz",
+            "Symbol": "Square"
+          }
+        ]
+      },
+      {
+        "SectionId": 314,
+        "Title": "Mikus 2017 IV",
+        "SimulationDuration": 9,
+        "TimeUnit": "h",
+        "OutputMappings": [
+          {
+            "Project": "Efavirenz-Midazolam-DDI",
+            "Simulation": "Mikus 2017, Midazolam alone",
+            "Output": "Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
+            "ObservedData": "Mikus 2017 - Midazolam control IV - Midazolam - IV - 2 mg - Plasma - agg. (n=12)",
+            "StartTime": 6,
+            "TimeUnit": "h",
+            "Color": "#2166ac",
+            "Caption": "Control (without Efavirenz)",
+            "Symbol": "Circle"
+          },
+          {
+            "Project": "Efavirenz-Midazolam-DDI",
+            "Simulation": "Mikus 2017, Midazolam + Efavirenz 400mg SD",
+            "Output": "Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
+            "ObservedData": "Mikus 2017 - Efavirenz + Midazolam IV day 1 - Midazolam - IV - 2 mg - Plasma - agg. (n=12)",
+            "StartTime": 18,
+            "TimeUnit": "h",
+            "Color": "#b2182b",
+            "Caption": "Treatment (with Efavirenz), Day 1",
+            "Symbol": "Square"
+          },
+          {
+            "Project": "Rifampicin-Midazolam-DDI",
+            "Simulation": "Mikus 2017, Midazolam + Efavirenz 400mg SD",
+            "Output": "Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
+            "ObservedData": [],
+            "StartTime": 138,
+            "TimeUnit": "h",
+            "Color": "#b92f40",
+            "Caption": "Treatment (with Efavirenz), Day 6",
+            "Symbol": "Triangle"
+          },
+          {
+            "Project": "Rifampicin-Midazolam-DDI",
+            "Simulation": "Mikus 2017, Midazolam + Efavirenz 400mg SD",
+            "Output": "Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
+            "ObservedData": [],
+            "StartTime": 258,
+            "TimeUnit": "h",
+            "Color": "#c14655",
+            "Caption": "Treatment (with Efavirenz), Day 11",
+            "Symbol": "Diamond"
+          },
+          {
+            "Project": "Rifampicin-Midazolam-DDI",
+            "Simulation": "Mikus 2017, Midazolam + Efavirenz 400mg SD",
+            "Output": "Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
+            "ObservedData": [],
+            "StartTime": 378,
+            "TimeUnit": "h",
+            "Color": "#c95d6a",
+            "Caption": "Treatment (with Efavirenz), Day 16",
+            "Symbol": "Asterisk"
+          },
+          {
+            "Project": "Rifampicin-Midazolam-DDI",
+            "Simulation": "Mikus 2017, Midazolam + Efavirenz 400mg SD",
+            "Output": "Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
+            "ObservedData": [],
+            "StartTime": 522,
+            "TimeUnit": "h",
+            "Color": "#d0747f",
+            "Caption": "Treatment (with Efavirenz), Day 22",
+            "Symbol": "Cross"
+          }
+        ]
+      },
+      {
+        "SectionId": 314,
+        "Title": "Mikus 2017 PO",
+        "SimulationDuration": 6,
+        "TimeUnit": "h",
+        "OutputMappings": [
+          {
+            "Project": "Efavirenz-Midazolam-DDI",
+            "Simulation": "Mikus 2017, Midazolam alone",
+            "Output": "Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
+            "ObservedData": "Mikus 2017 - Midazolam control PO - Midazolam - PO - 4 mg - Plasma - agg. (n=12)",
+            "StartTime": 0,
+            "TimeUnit": "h",
+            "Color": "#2166ac",
+            "Caption": "Control (without Efavirenz)",
+            "Symbol": "Circle"
+          },
+          {
+            "Project": "Efavirenz-Midazolam-DDI",
+            "Simulation": "Mikus 2017, Midazolam + Efavirenz 400mg SD",
+            "Output": "Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
+            "ObservedData": "Mikus 2017 - Efavirenz + Midazolam PO day 1 - Midazolam - PO - 4 mg - Plasma - agg. (n=12)",
+            "StartTime": 12,
+            "TimeUnit": "h",
+            "Color": "#b2182b",
+            "Caption": "Treatment with Efavirenz",
+            "Symbol": "Square"
+          },
+          {
+            "Project": "Rifampicin-Midazolam-DDI",
+            "Simulation": "Mikus 2017, Midazolam + Efavirenz 400mg SD",
+            "Output": "Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
+            "ObservedData": [],
+            "StartTime": 132,
+            "TimeUnit": "h",
+            "Color": "#b92f40",
+            "Caption": "Treatment (with Efavirenz), Day 6",
+            "Symbol": "Triangle"
+          },
+          {
+            "Project": "Rifampicin-Midazolam-DDI",
+            "Simulation": "Mikus 2017, Midazolam + Efavirenz 400mg SD",
+            "Output": "Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
+            "ObservedData": [],
+            "StartTime": 252,
+            "TimeUnit": "h",
+            "Color": "#c14655",
+            "Caption": "Treatment (with Efavirenz), Day 11",
+            "Symbol": "Diamond"
+          },
+          {
+            "Project": "Rifampicin-Midazolam-DDI",
+            "Simulation": "Mikus 2017, Midazolam + Efavirenz 400mg SD",
+            "Output": "Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
+            "ObservedData": [],
+            "StartTime": 372,
+            "TimeUnit": "h",
+            "Color": "#c95d6a",
+            "Caption": "Treatment (with Efavirenz), Day 16",
+            "Symbol": "Asterisk"
+          },
+          {
+            "Project": "Rifampicin-Midazolam-DDI",
+            "Simulation": "Mikus 2017, Midazolam + Efavirenz 400mg SD",
+            "Output": "Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
+            "ObservedData": [],
+            "StartTime": 516,
+            "TimeUnit": "h",
+            "Color": "#d0747f",
+            "Caption": "Treatment (with Efavirenz), Day 22",
+            "Symbol": "Cross"
+          }
+        ]
+      },
+      {
+        "SectionId": 314,
+        "Title": "Katzenmaier 2010",
+        "SimulationDuration": 10,
+        "TimeUnit": "h",
+        "OutputMappings": [
+          {
+            "Project": "Efavirenz-Midazolam-DDI",
+            "Simulation": "Katzenmaier 2010, Midazolam alone",
+            "Output": "Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
+            "ObservedData": "Katzenmaier 2010 - Midazolam control - Midazolam - PO - 3 mg - Plasma - agg. (n=12)",
+            "StartTime": 0,
+            "TimeUnit": "h",
+            "Color": "#2166ac",
+            "Caption": "Control (without Efavirenz)",
+            "Symbol": "Circle"
+          },
+          {
+            "Project": "Efavirenz-Midazolam-DDI",
+            "Simulation": "Katzenmaier 2010, Midazolam +  Efavirenz 400mg MD",
+            "Output": "Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
+            "ObservedData": "Katzenmaier 2010 - Midazolam + Efavirenz - Midazolam - PO - 3 mg - Plasma - agg. (n=12)",
+            "StartTime": 336,
+            "TimeUnit": "h",
+            "Color": "#b2182b",
+            "Caption": "Treatment with Efavirenz",
             "Symbol": "Square"
           }
         ]
@@ -7642,7 +8397,7 @@
             "ObservedData": "Kharasch 2011 - iv with Perpetrator (Rifampicin @ 5 mg) - Alfentanil - IV - 15 µg/kg - Plasma - agg. (n=12)",
             "StartTime": 109,
             "TimeUnit": "h",
-            "Color": "#fddbc7",
+            "Color": "#b92f40",
             "Caption": "Treatment (with 5 mg Rifampicin)",
             "Symbol": "Square"
           },
@@ -7653,7 +8408,7 @@
             "ObservedData": "Kharasch 2011 - iv with Perpetrator (Rifampicin @ 10 mg) - Alfentanil - IV - 15 µg/kg - Plasma - agg. (n=12)",
             "StartTime": 109,
             "TimeUnit": "h",
-            "Color": "#f4a582",
+            "Color": "#c14655",
             "Caption": "Treatment (with 10 mg Rifampicin)",
             "Symbol": "Triangle"
           },
@@ -7664,7 +8419,7 @@
             "ObservedData": "Kharasch 2011 - iv with Perpetrator (Rifampicin @ 25 mg) - Alfentanil - IV - 15 µg/kg - Plasma - agg. (n=12)",
             "StartTime": 109,
             "TimeUnit": "h",
-            "Color": "#d6604d",
+            "Color": "#b92f40",
             "Caption": "Treatment (with 25 mg Rifampicin)",
             "Symbol": "Diamond"
           },
@@ -7705,7 +8460,7 @@
             "ObservedData": "Kharasch 2011 - po with Perpetrator (Rifampicin @ 5 mg) - Alfentanil - PO - 75 µg/kg - Plasma - agg. (n=12)",
             "StartTime": 133,
             "TimeUnit": "h",
-            "Color": "#fddbc7",
+            "Color": "#c95d6a",
             "Caption": "Treatment (with 5 mg Rifampicin)",
             "Symbol": "Square"
           },
@@ -7716,7 +8471,7 @@
             "ObservedData": "Kharasch 2011 - po with Perpetrator (Rifampicin @ 10 mg) - Alfentanil - PO - 75 µg/kg - Plasma - agg. (n=12)",
             "StartTime": 133,
             "TimeUnit": "h",
-            "Color": "#f4a582",
+            "Color": "#c14655",
             "Caption": "Treatment (with 10 mg Rifampicin)",
             "Symbol": "Triangle"
           },
@@ -7727,7 +8482,7 @@
             "ObservedData": "Kharasch 2011 - po with Perpetrator (Rifampicin @ 25 mg) - Alfentanil - PO - 75 µg/kg - Plasma - agg. (n=12)",
             "StartTime": 133,
             "TimeUnit": "h",
-            "Color": "#d6604d",
+            "Color": "#b92f40",
             "Caption": "Treatment (with 25 mg Rifampicin)",
             "Symbol": "Diamond"
           },
@@ -8049,7 +8804,7 @@
             "ObservedData": "Backman 1998 - Phase V (4 days after Perpetrator (Rifampicin)) - Midazolam - PO - 15 mg - Plasma - agg. (n=9)",
             "StartTime": 185,
             "TimeUnit": "h",
-            "Color": "#d6604d",
+            "Color": "#b92f40",
             "Caption": "Treatment Phase V (with Rifampicin)",
             "Symbol": "Diamond"
           }
@@ -8379,7 +9134,7 @@
             "ObservedData": "Kharasch 2011 - iv with Perpetrator (Rifampicin @ 5 mg) - Midazolam - IV - 1 mg - Plasma - agg. (n=12)",
             "StartTime": 108,
             "TimeUnit": "h",
-            "Color": "#fddbc7",
+            "Color": "#c95d6a",
             "Caption": "Treatment (with 5 mg Rifampicin)",
             "Symbol": "Square"
           },
@@ -8390,7 +9145,7 @@
             "ObservedData": "Kharasch 2011 - iv with Perpetrator (Rifampicin @ 10 mg) - Midazolam - IV - 1 mg - Plasma - agg. (n=12)",
             "StartTime": 108,
             "TimeUnit": "h",
-            "Color": "#f4a582",
+            "Color": "#c14655",
             "Caption": "Treatment (with 10 mg Rifampicin)",
             "Symbol": "Triangle"
           },
@@ -8401,7 +9156,7 @@
             "ObservedData": "Kharasch 2011 - iv with Perpetrator (Rifampicin @ 25 mg) - Midazolam - IV - 1 mg - Plasma - agg. (n=12)",
             "StartTime": 108,
             "TimeUnit": "h",
-            "Color": "#d6604d",
+            "Color": "#b92f40",
             "Caption": "Treatment (with 25 mg Rifampicin)",
             "Symbol": "Diamond"
           },
@@ -8442,7 +9197,7 @@
             "ObservedData": "Kharasch 2011 - po with Perpetrator (Rifampicin @ 5 mg) - Midazolam - PO - 3 mg - Plasma - agg. (n=12)",
             "StartTime": 132,
             "TimeUnit": "h",
-            "Color": "#fddbc7",
+            "Color": "#c95d6a",
             "Caption": "Treatment (with 5 mg Rifampicin)",
             "Symbol": "Square"
           },
@@ -8453,7 +9208,7 @@
             "ObservedData": "Kharasch 2011 - po with Perpetrator (Rifampicin @ 10 mg) - Midazolam - PO - 3 mg - Plasma - agg. (n=12)",
             "StartTime": 132,
             "TimeUnit": "h",
-            "Color": "#f4a582",
+            "Color": "#c14655",
             "Caption": "Treatment (with 10 mg Rifampicin)",
             "Symbol": "Triangle"
           },
@@ -8464,7 +9219,7 @@
             "ObservedData": "Kharasch 2011 - po with Perpetrator (Rifampicin @ 25 mg) - Midazolam - PO - 3 mg - Plasma - agg. (n=12)",
             "StartTime": 132,
             "TimeUnit": "h",
-            "Color": "#d6604d",
+            "Color": "#b92f40",
             "Caption": "Treatment (with 25 mg Rifampicin)",
             "Symbol": "Diamond"
           },
@@ -8655,7 +9410,7 @@
             "ObservedData": "Reitman 2011 - Week 1 after Perpetrator (Rifampicin) - Midazolam - PO - 2 mg - Plasma - agg. (n=11)",
             "StartTime": 816,
             "TimeUnit": "h",
-            "Color": "#d6604d",
+            "Color": "#b92f40",
             "Caption": "Week 1 after treatment with rifampicin",
             "Symbol": "Triangle"
           },
@@ -8666,7 +9421,7 @@
             "ObservedData": "Reitman 2011 - Week 2 after Perpetrator (Rifampicin) - Midazolam - PO - 2 mg - Plasma - agg. (n=11)",
             "StartTime": 984,
             "TimeUnit": "h",
-            "Color": "#f4a582",
+            "Color": "#c14655",
             "Caption": "Week 2 after treatment with rifampicin",
             "Symbol": "Diamond"
           },
@@ -8677,7 +9432,7 @@
             "ObservedData": "Reitman 2011 - Week 4 after Perpetrator (Rifampicin) - Midazolam - PO - 2 mg - Plasma - agg. (n=11)",
             "StartTime": 1320,
             "TimeUnit": "h",
-            "Color": "#fddbc7",
+            "Color": "#c95d6a",
             "Caption": "Week 4 after treatment with rifampicin",
             "Symbol": "Circle"
           }
@@ -8813,7 +9568,7 @@
             "Project": "Rifampicin-Midazolam-DDI",
             "Simulation": "DDI Control - Midazolam - Yu 2018 (CYP3A5 s3,s3)",
             "Output": "Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
-            "ObservedData": "",
+            "ObservedData": "Yu 2004 - Control CYP3A5*3/*3 - Midazolam - IV - 1 mg - Plasma - agg. (n=7)",
             "StartTime": 0,
             "TimeUnit": "h",
             "Color": "#2166ac",
@@ -8824,7 +9579,7 @@
             "Project": "Rifampicin-Midazolam-DDI",
             "Simulation": "DDI Treatment - Rifampicin/Midazolam - Yu 2004 (CYP3A5 s3,s3)",
             "Output": "Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
-            "ObservedData": "",
+            "ObservedData": "Yu 2004 - Treatment Rifampicin CYP3A5*3/*3 - Midazolam - IV - 2 mg - Plasma - agg. (n=7)",
             "StartTime": 240,
             "TimeUnit": "h",
             "Color": "#b2182b",
@@ -9870,6 +10625,281 @@
                   "Simulation": "Varhe 1994 - Triazolam 0.25 mg + Itraconazole 200 mg PO QD",
                   "StartTime": 73,
                   "EndTime": 9999,
+                  "TimeUnit": "h"
+                }
+              }
+            ]
+          },
+          {
+            "Caption": "Efavirenz + Alfentanil (iv)",
+            "Color": "#0000C0",
+            "Symbol": "Square",
+            "DDIRatios": [
+              {
+                "Output": "Organism|PeripheralVenousBlood|Alfentanil|Plasma (Peripheral Venous Blood)",
+                "ObservedData": "DDI Ratios",
+                "ObservedDataRecordId": 803,
+                "SimulationControl": {
+                  "Project": "Efavirenz-Alfentanil-DDI",
+                  "Simulation": "Kharasch 2012, Alfentanil IV alone",
+                  "StartTime": 0,
+                  "EndTime": "Inf",
+                  "TimeUnit": "h"
+                },
+                "SimulationDDI": {
+                  "Project": "Efavirenz-Alfentanil-DDI",
+                  "Simulation": "Kharasch 2012, Alfentanil + Efavirenz 600 mg OD",
+                  "StartTime": 360.5,
+                  "EndTime": "Inf",
+                  "TimeUnit": "h"
+                }
+              }
+            ]
+          },
+          {
+            "Caption": "Efavirenz + Alfentanil (po)",
+            "Color": "#0000C0",
+            "Symbol": "Circle",
+            "DDIRatios": [
+              {
+                "Output": "Organism|PeripheralVenousBlood|Alfentanil|Plasma (Peripheral Venous Blood)",
+                "ObservedData": "DDI Ratios",
+                "ObservedDataRecordId": 801,
+                "SimulationControl": {
+                  "Project": "Efavirenz-Alfentanil-DDI",
+                  "Simulation": "Kharasch 2012, Alfentanil PO alone",
+                  "StartTime": 0,
+                  "EndTime": 24,
+                  "TimeUnit": "h"
+                },
+                "SimulationDDI": {
+                  "Project": "Efavirenz-Alfentanil-DDI",
+                  "Simulation": "Kharasch 2012, Alfentanil + Efavirenz 600 mg OD",
+                  "StartTime": 336.5,
+                  "EndTime": 360.5,
+                  "TimeUnit": "h"
+                }
+              }
+            ]
+          },
+          {
+            "Caption": "Efavirenz + Midazolam (iv)",
+            "Color": "#00C000",
+            "Symbol": "Square",
+            "DDIRatios": [
+              {
+                "Output": "Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
+                "ObservedData": "DDI Ratios",
+                "ObservedDataRecordId": 2045,
+                "SimulationControl": {
+                  "Project": "Efavirenz-Midazolam-DDI",
+                  "Simulation": "Mikus 2017, Midazolam alone",
+                  "StartTime": 6,
+                  "EndTime": 14,
+                  "TimeUnit": "h"
+                },
+                "SimulationDDI": {
+                  "Project": "Efavirenz-Midazolam-DDI",
+                  "Simulation": "Mikus 2017, Midazolam + Efavirenz 400mg SD",
+                  "StartTime": 18,
+                  "EndTime": 26,
+                  "TimeUnit": "h"
+                }
+              },
+              {
+                "Output": "Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
+                "ObservedData": "DDI Ratios",
+                "ObservedDataRecordId": 2048,
+                "SimulationControl": {
+                  "Project": "Efavirenz-Midazolam-DDI",
+                  "Simulation": "Mikus 2017, Midazolam alone",
+                  "StartTime": 6,
+                  "EndTime": 14,
+                  "TimeUnit": "h"
+                },
+                "SimulationDDI": {
+                  "Project": "Efavirenz-Midazolam-DDI",
+                  "Simulation": "Mikus 2017, Midazolam + Efavirenz 400mg SD",
+                  "StartTime": 138,
+                  "EndTime": 146,
+                  "TimeUnit": "h"
+                }
+              },
+              {
+                "Output": "Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
+                "ObservedData": "DDI Ratios",
+                "ObservedDataRecordId": 2050,
+                "SimulationControl": {
+                  "Project": "Efavirenz-Midazolam-DDI",
+                  "Simulation": "Mikus 2017, Midazolam alone",
+                  "StartTime": 6,
+                  "EndTime": 14,
+                  "TimeUnit": "h"
+                },
+                "SimulationDDI": {
+                  "Project": "Efavirenz-Midazolam-DDI",
+                  "Simulation": "Mikus 2017, Midazolam + Efavirenz 400mg SD",
+                  "StartTime": 258,
+                  "EndTime": 266,
+                  "TimeUnit": "h"
+                }
+              },
+              {
+                "Output": "Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
+                "ObservedData": "DDI Ratios",
+                "ObservedDataRecordId": 2052,
+                "SimulationControl": {
+                  "Project": "Efavirenz-Midazolam-DDI",
+                  "Simulation": "Mikus 2017, Midazolam alone",
+                  "StartTime": 6,
+                  "EndTime": 14,
+                  "TimeUnit": "h"
+                },
+                "SimulationDDI": {
+                  "Project": "Efavirenz-Midazolam-DDI",
+                  "Simulation": "Mikus 2017, Midazolam + Efavirenz 400mg SD",
+                  "StartTime": 378,
+                  "EndTime": 386,
+                  "TimeUnit": "h"
+                }
+              },
+              {
+                "Output": "Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
+                "ObservedData": "DDI Ratios",
+                "ObservedDataRecordId": 2054,
+                "SimulationControl": {
+                  "Project": "Efavirenz-Midazolam-DDI",
+                  "Simulation": "Mikus 2017, Midazolam alone",
+                  "StartTime": 6,
+                  "EndTime": 14,
+                  "TimeUnit": "h"
+                },
+                "SimulationDDI": {
+                  "Project": "Efavirenz-Midazolam-DDI",
+                  "Simulation": "Mikus 2017, Midazolam + Efavirenz 400mg SD",
+                  "StartTime": 522,
+                  "EndTime": 530,
+                  "TimeUnit": "h"
+                }
+              }
+            ]
+          },
+          {
+            "Caption": "Efavirenz + Midazolam (po)",
+            "Color": "#00C000",
+            "Symbol": "Circle",
+            "DDIRatios": [
+              {
+                "Output": "Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
+                "ObservedData": "DDI Ratios",
+                "ObservedDataRecordId": 2041,
+                "SimulationControl": {
+                  "Project": "Efavirenz-Midazolam-DDI",
+                  "Simulation": "Katzenmaier 2010, Midazolam alone",
+                  "StartTime": 0,
+                  "EndTime": 10,
+                  "TimeUnit": "h"
+                },
+                "SimulationDDI": {
+                  "Project": "Efavirenz-Midazolam-DDI",
+                  "Simulation": "Katzenmaier 2010, Midazolam +  Efavirenz 400mg MD",
+                  "StartTime": 336,
+                  "EndTime": 340,
+                  "TimeUnit": "h"
+                }
+              },
+              {
+                "Output": "Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
+                "ObservedData": "DDI Ratios",
+                "ObservedDataRecordId": 2044,
+                "SimulationControl": {
+                  "Project": "Efavirenz-Midazolam-DDI",
+                  "Simulation": "Mikus 2017, Midazolam alone",
+                  "StartTime": 0,
+                  "EndTime": 6,
+                  "TimeUnit": "h"
+                },
+                "SimulationDDI": {
+                  "Project": "Efavirenz-Midazolam-DDI",
+                  "Simulation": "Mikus 2017, Midazolam + Efavirenz 400mg SD",
+                  "StartTime": 12,
+                  "EndTime": 18,
+                  "TimeUnit": "h"
+                }
+              },
+              {
+                "Output": "Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
+                "ObservedData": "DDI Ratios",
+                "ObservedDataRecordId": 2047,
+                "SimulationControl": {
+                  "Project": "Efavirenz-Midazolam-DDI",
+                  "Simulation": "Mikus 2017, Midazolam alone",
+                  "StartTime": 0,
+                  "EndTime": 6,
+                  "TimeUnit": "h"
+                },
+                "SimulationDDI": {
+                  "Project": "Efavirenz-Midazolam-DDI",
+                  "Simulation": "Mikus 2017, Midazolam + Efavirenz 400mg SD",
+                  "StartTime": 132,
+                  "EndTime": 138,
+                  "TimeUnit": "h"
+                }
+              },
+              {
+                "Output": "Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
+                "ObservedData": "DDI Ratios",
+                "ObservedDataRecordId": 2049,
+                "SimulationControl": {
+                  "Project": "Efavirenz-Midazolam-DDI",
+                  "Simulation": "Mikus 2017, Midazolam alone",
+                  "StartTime": 0,
+                  "EndTime": 6,
+                  "TimeUnit": "h"
+                },
+                "SimulationDDI": {
+                  "Project": "Efavirenz-Midazolam-DDI",
+                  "Simulation": "Mikus 2017, Midazolam + Efavirenz 400mg SD",
+                  "StartTime": 252,
+                  "EndTime": 258,
+                  "TimeUnit": "h"
+                }
+              },
+              {
+                "Output": "Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
+                "ObservedData": "DDI Ratios",
+                "ObservedDataRecordId": 2051,
+                "SimulationControl": {
+                  "Project": "Efavirenz-Midazolam-DDI",
+                  "Simulation": "Mikus 2017, Midazolam alone",
+                  "StartTime": 0,
+                  "EndTime": 6,
+                  "TimeUnit": "h"
+                },
+                "SimulationDDI": {
+                  "Project": "Efavirenz-Midazolam-DDI",
+                  "Simulation": "Mikus 2017, Midazolam + Efavirenz 400mg SD",
+                  "StartTime": 372,
+                  "EndTime": 378,
+                  "TimeUnit": "h"
+                }
+              },
+              {
+                "Output": "Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
+                "ObservedData": "DDI Ratios",
+                "ObservedDataRecordId": 2053,
+                "SimulationControl": {
+                  "Project": "Efavirenz-Midazolam-DDI",
+                  "Simulation": "Mikus 2017, Midazolam alone",
+                  "StartTime": 0,
+                  "EndTime": 6,
+                  "TimeUnit": "h"
+                },
+                "SimulationDDI": {
+                  "Project": "Efavirenz-Midazolam-DDI",
+                  "Simulation": "Mikus 2017, Midazolam + Efavirenz 400mg SD",
+                  "StartTime": 516,
+                  "EndTime": 522,
                   "TimeUnit": "h"
                 }
               }
