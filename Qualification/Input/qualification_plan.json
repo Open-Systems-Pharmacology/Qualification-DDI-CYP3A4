@@ -7,11 +7,11 @@
     },
     {
       "Id": "Alprazolam",
-      "Path": "https://raw.githubusercontent.com/AndreDlm/Alprazolam-Model/master/Alprazolam.json"
+      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Alprazolam-Model/master/Alprazolam.json"
     },
     {
       "Id": "Clarithromycin",
-      "Path": "https://raw.githubusercontent.com/LMFuhr/Clarithromycin-Model/master/Clarithromycin-Model.json"
+      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Clarithromycin-Model/master/Clarithromycin-Model.json"
     },
     {
       "Id": "Efavirenz",
@@ -19,7 +19,7 @@
     },
     {
       "Id": "Erythromycin",
-      "Path": "https://raw.githubusercontent.com/AndreDlm/Erythromycin-Model/master/Erythromycin.json"
+      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Erythromycin-Model/master/Erythromycin.json"
     },
     {
       "Id": "Fluvoxamine",
@@ -39,11 +39,11 @@
     },
     {
       "Id": "Triazolam",
-      "Path": "https://raw.githubusercontent.com/AndreDlm/Triazolam-Model/master/Triazolam.json"
+      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Triazolam-Model/master/Triazolam.json"
     },
     {
       "Id": "Clarithromycin-Midazolam-DDI",
-      "Path": "https://raw.githubusercontent.com/AndreDlm/Clarithromycin-Midazolam-DDI/master/Clarithromycin-Midazolam-DDI.json",
+      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Clarithromycin-Midazolam-DDI/master/Clarithromycin-Midazolam-DDI.json",
       "BuildingBlocks": [
         {
           "Type": "Compound",
@@ -726,7 +726,7 @@
     },
     {
       "Id": "Clarithromycin-Triazolam-DDI",
-      "Path": "https://raw.githubusercontent.com/AndreDlm/Clarithromycin-Triazolam-DDI/master/Clarithromycin-Triazolam_DDI.json",
+      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Clarithromycin-Triazolam-DDI/master/Clarithromycin-Triazolam_DDI.json",
       "BuildingBlocks": [
         {
           "Type": "Compound",
@@ -968,7 +968,7 @@
     },
     {
       "Id": "Erythromycin-Alfentanil-DDI",
-      "Path": "https://raw.githubusercontent.com/AndreDlm/Erythromycin-Alfentanil-DDI/master/Erythromycin-Alfentanil-DDI.json",
+      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Erythromycin-Alfentanil-DDI/master/Erythromycin-Alfentanil-DDI.json",
       "BuildingBlocks": [
         {
           "Type": "Compound",
@@ -985,11 +985,233 @@
           "Name": "Erythromycin_Weibull_enteric-coated-tablet",
           "Project": "Erythromycin"
         }
+      ],
+      "SimulationParameters": [
+        {
+          "Project": "Alfentanil",
+          "Simulation": "Kharasch 2004, Alfentanil po 0.06 mg/kg",
+          "Path": "Neighborhoods|Duodenum_int_Duodenum_cell|Alfentanil|P (interstitial->intracellular)",
+          "TargetSimulations": [
+            "Bartkowski1989_Control",
+            "Bartkowski1989_Perpetrator_Day7",
+            "Bartkowski1989_Perpetrator_Day1"
+          ]
+        },
+        {
+          "Project": "Alfentanil",
+          "Simulation": "Kharasch 2004, Alfentanil po 0.06 mg/kg",
+          "Path": "Neighborhoods|UpperJejunum_int_UpperJejunum_cell|Alfentanil|P (interstitial->intracellular)",
+          "TargetSimulations": [
+            "Bartkowski1989_Control",
+            "Bartkowski1989_Perpetrator_Day7",
+            "Bartkowski1989_Perpetrator_Day1"
+          ]
+        },
+        {
+          "Project": "Alfentanil",
+          "Simulation": "Kharasch 2004, Alfentanil po 0.06 mg/kg",
+          "Path": "Neighborhoods|LowerJejunum_int_LowerJejunum_cell|Alfentanil|P (interstitial->intracellular)",
+          "TargetSimulations": [
+            "Bartkowski1989_Control",
+            "Bartkowski1989_Perpetrator_Day7",
+            "Bartkowski1989_Perpetrator_Day1"
+          ]
+        },
+        {
+          "Project": "Alfentanil",
+          "Simulation": "Kharasch 2004, Alfentanil po 0.06 mg/kg",
+          "Path": "Neighborhoods|UpperIleum_int_UpperIleum_cell|Alfentanil|P (interstitial->intracellular)",
+          "TargetSimulations": [
+            "Bartkowski1989_Control",
+            "Bartkowski1989_Perpetrator_Day7",
+            "Bartkowski1989_Perpetrator_Day1"
+          ]
+        },
+        {
+          "Project": "Alfentanil",
+          "Simulation": "Kharasch 2004, Alfentanil po 0.06 mg/kg",
+          "Path": "Neighborhoods|LowerIleum_int_LowerIleum_cell|Alfentanil|P (interstitial->intracellular)",
+          "TargetSimulations": [
+            "Bartkowski1989_Control",
+            "Bartkowski1989_Perpetrator_Day7",
+            "Bartkowski1989_Perpetrator_Day1"
+          ]
+        },
+        {
+          "Project": "Alfentanil",
+          "Simulation": "Kharasch 2004, Alfentanil po 0.06 mg/kg",
+          "Path": "Neighborhoods|Caecum_int_Caecum_cell|Alfentanil|P (interstitial->intracellular)",
+          "TargetSimulations": [
+            "Bartkowski1989_Control",
+            "Bartkowski1989_Perpetrator_Day7",
+            "Bartkowski1989_Perpetrator_Day1"
+          ]
+        },
+        {
+          "Project": "Alfentanil",
+          "Simulation": "Kharasch 2004, Alfentanil po 0.06 mg/kg",
+          "Path": "Neighborhoods|ColonAscendens_int_ColonAscendens_cell|Alfentanil|P (interstitial->intracellular)",
+          "TargetSimulations": [
+            "Bartkowski1989_Control",
+            "Bartkowski1989_Perpetrator_Day7",
+            "Bartkowski1989_Perpetrator_Day1"
+          ]
+        },
+        {
+          "Project": "Alfentanil",
+          "Simulation": "Kharasch 2004, Alfentanil po 0.06 mg/kg",
+          "Path": "Neighborhoods|ColonTransversum_int_ColonTransversum_cell|Alfentanil|P (interstitial->intracellular)",
+          "TargetSimulations": [
+            "Bartkowski1989_Control",
+            "Bartkowski1989_Perpetrator_Day7",
+            "Bartkowski1989_Perpetrator_Day1"
+          ]
+        },
+        {
+          "Project": "Alfentanil",
+          "Simulation": "Kharasch 2004, Alfentanil po 0.06 mg/kg",
+          "Path": "Neighborhoods|ColonDescendens_int_ColonDescendens_cell|Alfentanil|P (interstitial->intracellular)",
+          "TargetSimulations": [
+            "Bartkowski1989_Control",
+            "Bartkowski1989_Perpetrator_Day7",
+            "Bartkowski1989_Perpetrator_Day1"
+          ]
+        },
+        {
+          "Project": "Alfentanil",
+          "Simulation": "Kharasch 2004, Alfentanil po 0.06 mg/kg",
+          "Path": "Neighborhoods|ColonSigmoid_int_ColonSigmoid_cell|Alfentanil|P (interstitial->intracellular)",
+          "TargetSimulations": [
+            "Bartkowski1989_Control",
+            "Bartkowski1989_Perpetrator_Day7",
+            "Bartkowski1989_Perpetrator_Day1"
+          ]
+        },
+        {
+          "Project": "Alfentanil",
+          "Simulation": "Kharasch 2004, Alfentanil po 0.06 mg/kg",
+          "Path": "Neighborhoods|Rectum_int_Rectum_cell|Alfentanil|P (interstitial->intracellular)",
+          "TargetSimulations": [
+            "Bartkowski1989_Control",
+            "Bartkowski1989_Perpetrator_Day7",
+            "Bartkowski1989_Perpetrator_Day1"
+          ]
+        },
+        {
+          "Project": "Alfentanil",
+          "Simulation": "Kharasch 2004, Alfentanil po 0.06 mg/kg",
+          "Path": "Neighborhoods|Duodenum_int_Duodenum_cell|Alfentanil|P (intracellular->interstitial)",
+          "TargetSimulations": [
+            "Bartkowski1989_Control",
+            "Bartkowski1989_Perpetrator_Day7",
+            "Bartkowski1989_Perpetrator_Day1"
+          ]
+        },
+        {
+          "Project": "Alfentanil",
+          "Simulation": "Kharasch 2004, Alfentanil po 0.06 mg/kg",
+          "Path": "Neighborhoods|UpperJejunum_int_UpperJejunum_cell|Alfentanil|P (intracellular->interstitial)",
+          "TargetSimulations": [
+            "Bartkowski1989_Control",
+            "Bartkowski1989_Perpetrator_Day7",
+            "Bartkowski1989_Perpetrator_Day1"
+          ]
+        },
+        {
+          "Project": "Alfentanil",
+          "Simulation": "Kharasch 2004, Alfentanil po 0.06 mg/kg",
+          "Path": "Neighborhoods|LowerJejunum_int_LowerJejunum_cell|Alfentanil|P (intracellular->interstitial)",
+          "TargetSimulations": [
+            "Bartkowski1989_Control",
+            "Bartkowski1989_Perpetrator_Day7",
+            "Bartkowski1989_Perpetrator_Day1"
+          ]
+        },
+        {
+          "Project": "Alfentanil",
+          "Simulation": "Kharasch 2004, Alfentanil po 0.06 mg/kg",
+          "Path": "Neighborhoods|UpperIleum_int_UpperIleum_cell|Alfentanil|P (intracellular->interstitial)",
+          "TargetSimulations": [
+            "Bartkowski1989_Control",
+            "Bartkowski1989_Perpetrator_Day7",
+            "Bartkowski1989_Perpetrator_Day1"
+          ]
+        },
+        {
+          "Project": "Alfentanil",
+          "Simulation": "Kharasch 2004, Alfentanil po 0.06 mg/kg",
+          "Path": "Neighborhoods|LowerIleum_int_LowerIleum_cell|Alfentanil|P (intracellular->interstitial)",
+          "TargetSimulations": [
+            "Bartkowski1989_Control",
+            "Bartkowski1989_Perpetrator_Day7",
+            "Bartkowski1989_Perpetrator_Day1"
+          ]
+        },
+        {
+          "Project": "Alfentanil",
+          "Simulation": "Kharasch 2004, Alfentanil po 0.06 mg/kg",
+          "Path": "Neighborhoods|Caecum_int_Caecum_cell|Alfentanil|P (intracellular->interstitial)",
+          "TargetSimulations": [
+            "Bartkowski1989_Control",
+            "Bartkowski1989_Perpetrator_Day7",
+            "Bartkowski1989_Perpetrator_Day1"
+          ]
+        },
+        {
+          "Project": "Alfentanil",
+          "Simulation": "Kharasch 2004, Alfentanil po 0.06 mg/kg",
+          "Path": "Neighborhoods|ColonAscendens_int_ColonAscendens_cell|Alfentanil|P (intracellular->interstitial)",
+          "TargetSimulations": [
+            "Bartkowski1989_Control",
+            "Bartkowski1989_Perpetrator_Day7",
+            "Bartkowski1989_Perpetrator_Day1"
+          ]
+        },
+        {
+          "Project": "Alfentanil",
+          "Simulation": "Kharasch 2004, Alfentanil po 0.06 mg/kg",
+          "Path": "Neighborhoods|ColonTransversum_int_ColonTransversum_cell|Alfentanil|P (intracellular->interstitial)",
+          "TargetSimulations": [
+            "Bartkowski1989_Control",
+            "Bartkowski1989_Perpetrator_Day7",
+            "Bartkowski1989_Perpetrator_Day1"
+          ]
+        },
+        {
+          "Project": "Alfentanil",
+          "Simulation": "Kharasch 2004, Alfentanil po 0.06 mg/kg",
+          "Path": "Neighborhoods|ColonDescendens_int_ColonDescendens_cell|Alfentanil|P (intracellular->interstitial)",
+          "TargetSimulations": [
+            "Bartkowski1989_Control",
+            "Bartkowski1989_Perpetrator_Day7",
+            "Bartkowski1989_Perpetrator_Day1"
+          ]
+        },
+        {
+          "Project": "Alfentanil",
+          "Simulation": "Kharasch 2004, Alfentanil po 0.06 mg/kg",
+          "Path": "Neighborhoods|ColonSigmoid_int_ColonSigmoid_cell|Alfentanil|P (intracellular->interstitial)",
+          "TargetSimulations": [
+            "Bartkowski1989_Control",
+            "Bartkowski1989_Perpetrator_Day7",
+            "Bartkowski1989_Perpetrator_Day1"
+          ]
+        },
+        {
+          "Project": "Alfentanil",
+          "Simulation": "Kharasch 2004, Alfentanil po 0.06 mg/kg",
+          "Path": "Neighborhoods|Rectum_int_Rectum_cell|Alfentanil|P (intracellular->interstitial)",
+          "TargetSimulations": [
+            "Bartkowski1989_Control",
+            "Bartkowski1989_Perpetrator_Day7",
+            "Bartkowski1989_Perpetrator_Day1"
+          ]
+        }
       ]
     },
     {
       "Id": "Erythromycin-Alprazolam-DDI",
-      "Path": "https://raw.githubusercontent.com/AndreDlm/Erythromycin-Alprazolam-DDI/master/Erythromycin-Alprazolam-DDI.json",
+      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Erythromycin-Alprazolam-DDI/master/Erythromycin-Alprazolam-DDI.json",
       "BuildingBlocks": [
         {
           "Type": "Individual",
@@ -1225,7 +1447,7 @@
     },
     {
       "Id": "Erythromycin-Midazolam-DDI",
-      "Path": "https://raw.githubusercontent.com/AndreDlm/Erythromycin-Midazolam-DDI/master/Erythromycin-Midazolam-DDI.json",
+      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Erythromycin-Midazolam-DDI/master/Erythromycin-Midazolam-DDI.json",
       "BuildingBlocks": [
         {
           "Type": "Compound",
@@ -1752,7 +1974,7 @@
     },
     {
       "Id": "Erythromycin-Triazolam-DDI",
-      "Path": "https://raw.githubusercontent.com/AndreDlm/Erythromycin-Triazolam-DDI/master/Erythromycin-Triazolam-DDI.json",
+      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Erythromycin-Triazolam-DDI/master/Erythromycin-Triazolam-DDI.json",
       "BuildingBlocks": [
         {
           "Type": "Compound",
@@ -2022,7 +2244,7 @@
     },
     {
       "Id": "Fluvoxamine-Alprazolam-DDI",
-      "Path": "https://raw.githubusercontent.com/AndreDlm/Fluvoxamine-Alprazolam-DDI/master/Fluvoxamine-Alprazolam-DDI.json",
+      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Fluvoxamine-Alprazolam-DDI/master/Fluvoxamine-Alprazolam-DDI.json",
       "BuildingBlocks": [
         {
           "Type": "Compound",
@@ -4919,7 +5141,7 @@
     },
     {
       "Id": "Rifampicin-Alprazolam-DDI",
-      "Path": "https://raw.githubusercontent.com/AndreDlm/Rifampicin-Alprazolam-DDI/master/Rifampicin-Alprazolam-DDI.json",
+      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Rifampicin-Alprazolam-DDI/master/Rifampicin-Alprazolam-DDI.json",
       "BuildingBlocks": [
         {
           "Type": "Compound",
@@ -6444,7 +6666,7 @@
     },
     {
       "Id": "Rifampicin-Triazolam-DDI",
-      "Path": "https://raw.githubusercontent.com/AndreDlm/Rifampicin-Triazolam-DDI/master/Rifampicin-Triazolam-DDI.json",
+      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Rifampicin-Triazolam-DDI/master/Rifampicin-Triazolam-DDI.json",
       "BuildingBlocks": [
         {
           "Type": "Compound",
@@ -7149,7 +7371,7 @@
             "ObservedData": "Bartkowski 1989 - Treatment Day 7 - Alfentanil - IV - 50 µg/kg - Serum - indiv.",
             "StartTime": 145.5,
             "TimeUnit": "h",
-            "Color": "#b92f40",
+            "Color": "#c54a4a",
             "Caption": "Treatment with erythromycin (Day 7) - Individiual 1",
             "Symbol": "Triangle"
           }
@@ -7190,49 +7412,8 @@
             "ObservedData": "Bartkowski 1993 - Treatment Day 7 - Alfentanil - IV - 50 µg/kg - Serum - indiv.",
             "StartTime": 145.5,
             "TimeUnit": "h",
-            "Color": "#b92f40",
+            "Color": "#c54a4a",
             "Caption": "Treatment with erythromycin (Day 7) - Individiual 2",
-            "Symbol": "Triangle"
-          }
-        ]
-      },
-      {
-        "SectionId": 304,
-        "Title": "Carls 2014",
-        "SimulationDuration": 12,
-        "TimeUnit": "h",
-        "OutputMappings": [
-          {
-            "Project": "Erythromycin-Midazolam-DDI",
-            "Simulation": "Control_Carls2014",
-            "Output": "Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
-            "ObservedData": [],
-            "StartTime": 0,
-            "TimeUnit": "h",
-            "Color": "#2166ac",
-            "Caption": "Control (without erythromycin)",
-            "Symbol": "Circle"
-          },
-          {
-            "Project": "Erythromycin-Midazolam-DDI",
-            "Simulation": "Treatment_Carls2014_250mg",
-            "Output": "Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
-            "ObservedData": [],
-            "StartTime": 1,
-            "TimeUnit": "h",
-            "Color": "#b92f40",
-            "Caption": "Treatment with erythromycin (250 mg)",
-            "Symbol": "Square"
-          },
-          {
-            "Project": "Erythromycin-Midazolam-DDI",
-            "Simulation": "Treatment_Carls2014_1000mg",
-            "Output": "Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
-            "ObservedData": [],
-            "StartTime": 1,
-            "TimeUnit": "h",
-            "Color": "#b2182b",
-            "Caption": "Treatment with erythromycin (1000 mg)",
             "Symbol": "Triangle"
           }
         ]
@@ -7269,6 +7450,47 @@
       },
       {
         "SectionId": 305,
+        "Title": "Carls 2014",
+        "SimulationDuration": 12,
+        "TimeUnit": "h",
+        "OutputMappings": [
+          {
+            "Project": "Erythromycin-Midazolam-DDI",
+            "Simulation": "Control_Carls2014",
+            "Output": "Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
+            "ObservedData": [],
+            "StartTime": 0,
+            "TimeUnit": "h",
+            "Color": "#2166ac",
+            "Caption": "Control (without erythromycin)",
+            "Symbol": "Circle"
+          },
+          {
+            "Project": "Erythromycin-Midazolam-DDI",
+            "Simulation": "Treatment_Carls2014_250mg",
+            "Output": "Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
+            "ObservedData": [],
+            "StartTime": 1,
+            "TimeUnit": "h",
+            "Color": "#c54a4a",
+            "Caption": "Treatment with erythromycin (250 mg)",
+            "Symbol": "Square"
+          },
+          {
+            "Project": "Erythromycin-Midazolam-DDI",
+            "Simulation": "Treatment_Carls2014_1000mg",
+            "Output": "Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
+            "ObservedData": [],
+            "StartTime": 1,
+            "TimeUnit": "h",
+            "Color": "#b2182b",
+            "Caption": "Treatment with erythromycin (1000 mg)",
+            "Symbol": "Triangle"
+          }
+        ]
+      },      
+      {
+        "SectionId": 305,
         "Title": "Okudaira 2007",
         "SimulationDuration": 22,
         "TimeUnit": "h",
@@ -7302,7 +7524,7 @@
             "ObservedData": "Okudaira 2007 - EM 4 with Perpetrator (Erythromycin) - Midazolam - PO - 2.5 mg - Plasma - agg. (n=12)",
             "StartTime": 73,
             "TimeUnit": "h",
-            "Color": "#b92f40",
+            "Color": "#c54a4a",
             "Caption": "Treatment with erythromycin for 4 days",
             "Symbol": "Triangle"
           },
@@ -7313,7 +7535,7 @@
             "ObservedData": "Okudaira 2007 - EM 7 with Perpetrator (Erythromycin) - Midazolam - PO - 2.5 mg - Plasma - agg. (n=12)",
             "StartTime": 145,
             "TimeUnit": "h",
-            "Color": "#c14655",
+            "Color": "#d6706b",
             "Caption": "Treatment with erythromycin for 7 days",
             "Symbol": "Diamond"
           }
@@ -7714,7 +7936,7 @@
             "ObservedData": "Backman 1998 - Phase III (4 days after Perpetrator (Itraconazole)) - Midazolam - PO - 15 (actually 7.5) mg - Plasma - agg. (n=9)",
             "StartTime": 170,
             "TimeUnit": "h",
-            "Color": "#b92f40",
+            "Color": "#c54a4a",
             "Caption": "Treatment Phase III (with Itraconazole)",
             "Symbol": "Triangle"
           }
@@ -7894,7 +8116,7 @@
             "ObservedData": "Templeton 2010 - with Perpetrator (Itraconazole @ 50 mg) - Midazolam - PO - 2 mg - Plasma - agg. (n=6)",
             "StartTime": 4,
             "TimeUnit": "h",
-            "Color": "#c14655",
+            "Color": "#d6706b",
             "Caption": "Treatment (with 100 mg Itraconazole)",
             "Symbol": "Square"
           },
@@ -7905,7 +8127,7 @@
             "ObservedData": "Templeton 2010 - with Perpetrator (Itraconazole @ 200 mg) - Midazolam - PO - 2 mg - Plasma - agg. (n=6)",
             "StartTime": 4,
             "TimeUnit": "h",
-            "Color": "#b92f40",
+            "Color": "#c54a4a",
             "Caption": "Treatment (with 200 mg Itraconazole)",
             "Symbol": "Triangle"
           },
@@ -7976,7 +8198,7 @@
             "ObservedData": "Neuvonen 1996 - Treatment phase (triazolam + ITZ simultaneously) - Triazolam - PO - 0.25 mg - Plasma - agg. (n=10)",
             "StartTime": 0,
             "TimeUnit": "h",
-            "Color": "#c95d6a",
+            "Color": "#e4948e",
             "Caption": "Treatment (Itraconazole administered simultaneously)",
             "Symbol": "Square"
           },
@@ -7987,7 +8209,7 @@
             "ObservedData": "Neuvonen 1996 - Treatment phase (triazolam + ITZ 3 hr before) - Triazolam - PO - 0.25 mg - Plasma - agg. (n=10)",
             "StartTime": 3,
             "TimeUnit": "h",
-            "Color": "#c14655",
+            "Color": "#d6706b",
             "Caption": "Treatment (Itraconazole administered 3h before)",
             "Symbol": "Triangle"
           },
@@ -7998,7 +8220,7 @@
             "ObservedData": "Neuvonen 1996 - Treatment phase (triazolam + ITZ 12 hr before) - Triazolam - PO - 0.25 mg - Plasma - agg. (n=10)",
             "StartTime": 12,
             "TimeUnit": "h",
-            "Color": "#b92f40",
+            "Color": "#c54a4a",
             "Caption": "Treatment (Itraconazole administered 12h before)",
             "Symbol": "Diamond"
           },
@@ -8097,7 +8319,7 @@
             "Simulation": "Kharasch 2012, Alfentanil + Efavirenz 600 mg OD",
             "Output": "Organism|PeripheralVenousBlood|Alfentanil|Plasma (Peripheral Venous Blood)",
             "ObservedData": "Kharasch 2012 - Alfentanil PO + efavirenz - Alfentanil - PO - 43 µg/kg - Plasma - agg. (n=12)",
-            "StartTime": 360.5,
+            "StartTime": 336.5,
             "TimeUnit": "h",
             "Color": "#b2182b",
             "Caption": "Treatment with Efavirenz",
@@ -8134,48 +8356,48 @@
             "Symbol": "Square"
           },
           {
-            "Project": "Rifampicin-Midazolam-DDI",
+            "Project": "Efavirenz-Midazolam-DDI",
             "Simulation": "Mikus 2017, Midazolam + Efavirenz 400mg SD",
             "Output": "Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
             "ObservedData": [],
             "StartTime": 138,
             "TimeUnit": "h",
-            "Color": "#b92f40",
+            "Color": "#c54a4a",
             "Caption": "Treatment (with Efavirenz), Day 6",
             "Symbol": "Triangle"
           },
           {
-            "Project": "Rifampicin-Midazolam-DDI",
+            "Project": "Efavirenz-Midazolam-DDI",
             "Simulation": "Mikus 2017, Midazolam + Efavirenz 400mg SD",
             "Output": "Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
             "ObservedData": [],
             "StartTime": 258,
             "TimeUnit": "h",
-            "Color": "#c14655",
+            "Color": "#d6706b",
             "Caption": "Treatment (with Efavirenz), Day 11",
             "Symbol": "Diamond"
           },
           {
-            "Project": "Rifampicin-Midazolam-DDI",
+            "Project": "Efavirenz-Midazolam-DDI",
             "Simulation": "Mikus 2017, Midazolam + Efavirenz 400mg SD",
             "Output": "Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
             "ObservedData": [],
             "StartTime": 378,
             "TimeUnit": "h",
-            "Color": "#c95d6a",
+            "Color": "#e4948e",
             "Caption": "Treatment (with Efavirenz), Day 16",
             "Symbol": "Asterisk"
           },
           {
-            "Project": "Rifampicin-Midazolam-DDI",
+            "Project": "Efavirenz-Midazolam-DDI",
             "Simulation": "Mikus 2017, Midazolam + Efavirenz 400mg SD",
             "Output": "Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
             "ObservedData": [],
             "StartTime": 522,
             "TimeUnit": "h",
-            "Color": "#d0747f",
+            "Color": "#f0b7b2",
             "Caption": "Treatment (with Efavirenz), Day 22",
-            "Symbol": "Cross"
+            "Symbol": ""
           }
         ]
       },
@@ -8208,46 +8430,46 @@
             "Symbol": "Square"
           },
           {
-            "Project": "Rifampicin-Midazolam-DDI",
+            "Project": "Efavirenz-Midazolam-DDI",
             "Simulation": "Mikus 2017, Midazolam + Efavirenz 400mg SD",
             "Output": "Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
             "ObservedData": [],
             "StartTime": 132,
             "TimeUnit": "h",
-            "Color": "#b92f40",
+            "Color": "#c54a4a",
             "Caption": "Treatment (with Efavirenz), Day 6",
             "Symbol": "Triangle"
           },
           {
-            "Project": "Rifampicin-Midazolam-DDI",
+            "Project": "Efavirenz-Midazolam-DDI",
             "Simulation": "Mikus 2017, Midazolam + Efavirenz 400mg SD",
             "Output": "Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
             "ObservedData": [],
             "StartTime": 252,
             "TimeUnit": "h",
-            "Color": "#c14655",
+            "Color": "#d6706b",
             "Caption": "Treatment (with Efavirenz), Day 11",
             "Symbol": "Diamond"
           },
           {
-            "Project": "Rifampicin-Midazolam-DDI",
+            "Project": "Efavirenz-Midazolam-DDI",
             "Simulation": "Mikus 2017, Midazolam + Efavirenz 400mg SD",
             "Output": "Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
             "ObservedData": [],
             "StartTime": 372,
             "TimeUnit": "h",
-            "Color": "#c95d6a",
+            "Color": "#e4948e",
             "Caption": "Treatment (with Efavirenz), Day 16",
             "Symbol": "Asterisk"
           },
           {
-            "Project": "Rifampicin-Midazolam-DDI",
+            "Project": "Efavirenz-Midazolam-DDI",
             "Simulation": "Mikus 2017, Midazolam + Efavirenz 400mg SD",
             "Output": "Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
             "ObservedData": [],
             "StartTime": 516,
             "TimeUnit": "h",
-            "Color": "#d0747f",
+            "Color": "#f0b7b2",
             "Caption": "Treatment (with Efavirenz), Day 22",
             "Symbol": "Cross"
           }
@@ -8397,7 +8619,7 @@
             "ObservedData": "Kharasch 2011 - iv with Perpetrator (Rifampicin @ 5 mg) - Alfentanil - IV - 15 µg/kg - Plasma - agg. (n=12)",
             "StartTime": 109,
             "TimeUnit": "h",
-            "Color": "#b92f40",
+            "Color": "#c54a4a",
             "Caption": "Treatment (with 5 mg Rifampicin)",
             "Symbol": "Square"
           },
@@ -8408,7 +8630,7 @@
             "ObservedData": "Kharasch 2011 - iv with Perpetrator (Rifampicin @ 10 mg) - Alfentanil - IV - 15 µg/kg - Plasma - agg. (n=12)",
             "StartTime": 109,
             "TimeUnit": "h",
-            "Color": "#c14655",
+            "Color": "#d6706b",
             "Caption": "Treatment (with 10 mg Rifampicin)",
             "Symbol": "Triangle"
           },
@@ -8419,7 +8641,7 @@
             "ObservedData": "Kharasch 2011 - iv with Perpetrator (Rifampicin @ 25 mg) - Alfentanil - IV - 15 µg/kg - Plasma - agg. (n=12)",
             "StartTime": 109,
             "TimeUnit": "h",
-            "Color": "#b92f40",
+            "Color": "#c54a4a",
             "Caption": "Treatment (with 25 mg Rifampicin)",
             "Symbol": "Diamond"
           },
@@ -8460,7 +8682,7 @@
             "ObservedData": "Kharasch 2011 - po with Perpetrator (Rifampicin @ 5 mg) - Alfentanil - PO - 75 µg/kg - Plasma - agg. (n=12)",
             "StartTime": 133,
             "TimeUnit": "h",
-            "Color": "#c95d6a",
+            "Color": "#e4948e",
             "Caption": "Treatment (with 5 mg Rifampicin)",
             "Symbol": "Square"
           },
@@ -8471,7 +8693,7 @@
             "ObservedData": "Kharasch 2011 - po with Perpetrator (Rifampicin @ 10 mg) - Alfentanil - PO - 75 µg/kg - Plasma - agg. (n=12)",
             "StartTime": 133,
             "TimeUnit": "h",
-            "Color": "#c14655",
+            "Color": "#d6706b",
             "Caption": "Treatment (with 10 mg Rifampicin)",
             "Symbol": "Triangle"
           },
@@ -8482,7 +8704,7 @@
             "ObservedData": "Kharasch 2011 - po with Perpetrator (Rifampicin @ 25 mg) - Alfentanil - PO - 75 µg/kg - Plasma - agg. (n=12)",
             "StartTime": 133,
             "TimeUnit": "h",
-            "Color": "#b92f40",
+            "Color": "#c54a4a",
             "Caption": "Treatment (with 25 mg Rifampicin)",
             "Symbol": "Diamond"
           },
@@ -8772,7 +8994,7 @@
       {
         "SectionId": 317,
         "Title": "Backman 1998 (Phase IV and V vs. I)",
-        "SimulationDuration": 24,
+        "SimulationDuration": 12,
         "TimeUnit": "h",
         "OutputMappings": [
           {
@@ -8804,7 +9026,7 @@
             "ObservedData": "Backman 1998 - Phase V (4 days after Perpetrator (Rifampicin)) - Midazolam - PO - 15 mg - Plasma - agg. (n=9)",
             "StartTime": 185,
             "TimeUnit": "h",
-            "Color": "#b92f40",
+            "Color": "#c54a4a",
             "Caption": "Treatment Phase V (with Rifampicin)",
             "Symbol": "Diamond"
           }
@@ -8813,7 +9035,7 @@
       {
         "SectionId": 317,
         "Title": "Chung 2006",
-        "SimulationDuration": 24,
+        "SimulationDuration": 12,
         "TimeUnit": "h",
         "OutputMappings": [
           {
@@ -8843,7 +9065,7 @@
       {
         "SectionId": 317,
         "Title": "Eap 2004 (0.075 mg)",
-        "SimulationDuration": 24,
+        "SimulationDuration": 12,
         "TimeUnit": "h",
         "OutputMappings": [
           {
@@ -8873,7 +9095,7 @@
       {
         "SectionId": 317,
         "Title": "Eap 2004 (7.5 mg)",
-        "SimulationDuration": 24,
+        "SimulationDuration": 12,
         "TimeUnit": "h",
         "OutputMappings": [
           {
@@ -8903,7 +9125,7 @@
       {
         "SectionId": 317,
         "Title": "Gorski 2003 (iv)",
-        "SimulationDuration": 24,
+        "SimulationDuration": 12,
         "TimeUnit": "h",
         "OutputMappings": [
           {
@@ -8933,7 +9155,7 @@
       {
         "SectionId": 317,
         "Title": "Gorski 2003 (po)",
-        "SimulationDuration": 24,
+        "SimulationDuration": 12,
         "TimeUnit": "h",
         "OutputMappings": [
           {
@@ -8963,7 +9185,7 @@
       {
         "SectionId": 317,
         "Title": "Gurley 2006",
-        "SimulationDuration": 24,
+        "SimulationDuration": 12,
         "TimeUnit": "h",
         "OutputMappings": [
           {
@@ -8993,7 +9215,7 @@
       {
         "SectionId": 317,
         "Title": "Gurley 2008a",
-        "SimulationDuration": 24,
+        "SimulationDuration": 12,
         "TimeUnit": "h",
         "OutputMappings": [
           {
@@ -9023,7 +9245,7 @@
       {
         "SectionId": 317,
         "Title": "Kharasch 1997",
-        "SimulationDuration": 24,
+        "SimulationDuration": 15,
         "TimeUnit": "h",
         "OutputMappings": [
           {
@@ -9053,7 +9275,7 @@
       {
         "SectionId": 317,
         "Title": "Kharasch 2004 (iv)",
-        "SimulationDuration": 24,
+        "SimulationDuration": 12,
         "TimeUnit": "h",
         "OutputMappings": [
           {
@@ -9083,7 +9305,7 @@
       {
         "SectionId": 317,
         "Title": "Kharasch 2004 (po)",
-        "SimulationDuration": 24,
+        "SimulationDuration": 12,
         "TimeUnit": "h",
         "OutputMappings": [
           {
@@ -9113,7 +9335,7 @@
       {
         "SectionId": 317,
         "Title": "Kharasch 2011 (iv)",
-        "SimulationDuration": 24,
+        "SimulationDuration": 12,
         "TimeUnit": "h",
         "OutputMappings": [
           {
@@ -9134,7 +9356,7 @@
             "ObservedData": "Kharasch 2011 - iv with Perpetrator (Rifampicin @ 5 mg) - Midazolam - IV - 1 mg - Plasma - agg. (n=12)",
             "StartTime": 108,
             "TimeUnit": "h",
-            "Color": "#c95d6a",
+            "Color": "#e4948e",
             "Caption": "Treatment (with 5 mg Rifampicin)",
             "Symbol": "Square"
           },
@@ -9145,7 +9367,7 @@
             "ObservedData": "Kharasch 2011 - iv with Perpetrator (Rifampicin @ 10 mg) - Midazolam - IV - 1 mg - Plasma - agg. (n=12)",
             "StartTime": 108,
             "TimeUnit": "h",
-            "Color": "#c14655",
+            "Color": "#d6706b",
             "Caption": "Treatment (with 10 mg Rifampicin)",
             "Symbol": "Triangle"
           },
@@ -9156,7 +9378,7 @@
             "ObservedData": "Kharasch 2011 - iv with Perpetrator (Rifampicin @ 25 mg) - Midazolam - IV - 1 mg - Plasma - agg. (n=12)",
             "StartTime": 108,
             "TimeUnit": "h",
-            "Color": "#b92f40",
+            "Color": "#c54a4a",
             "Caption": "Treatment (with 25 mg Rifampicin)",
             "Symbol": "Diamond"
           },
@@ -9176,7 +9398,7 @@
       {
         "SectionId": 317,
         "Title": "Kharasch 2011 (po)",
-        "SimulationDuration": 24,
+        "SimulationDuration": 12,
         "TimeUnit": "h",
         "OutputMappings": [
           {
@@ -9197,7 +9419,7 @@
             "ObservedData": "Kharasch 2011 - po with Perpetrator (Rifampicin @ 5 mg) - Midazolam - PO - 3 mg - Plasma - agg. (n=12)",
             "StartTime": 132,
             "TimeUnit": "h",
-            "Color": "#c95d6a",
+            "Color": "#e4948e",
             "Caption": "Treatment (with 5 mg Rifampicin)",
             "Symbol": "Square"
           },
@@ -9208,7 +9430,7 @@
             "ObservedData": "Kharasch 2011 - po with Perpetrator (Rifampicin @ 10 mg) - Midazolam - PO - 3 mg - Plasma - agg. (n=12)",
             "StartTime": 132,
             "TimeUnit": "h",
-            "Color": "#c14655",
+            "Color": "#d6706b",
             "Caption": "Treatment (with 10 mg Rifampicin)",
             "Symbol": "Triangle"
           },
@@ -9219,7 +9441,7 @@
             "ObservedData": "Kharasch 2011 - po with Perpetrator (Rifampicin @ 25 mg) - Midazolam - PO - 3 mg - Plasma - agg. (n=12)",
             "StartTime": 132,
             "TimeUnit": "h",
-            "Color": "#b92f40",
+            "Color": "#c54a4a",
             "Caption": "Treatment (with 25 mg Rifampicin)",
             "Symbol": "Diamond"
           },
@@ -9239,7 +9461,7 @@
       {
         "SectionId": 317,
         "Title": "Kim 2018",
-        "SimulationDuration": 24,
+        "SimulationDuration": 12,
         "TimeUnit": "h",
         "OutputMappings": [
           {
@@ -9329,7 +9551,7 @@
       {
         "SectionId": 317,
         "Title": "Phimmasone 2001",
-        "SimulationDuration": 24,
+        "SimulationDuration": 12,
         "TimeUnit": "h",
         "OutputMappings": [
           {
@@ -9389,7 +9611,7 @@
       {
         "SectionId": 317,
         "Title": "Reitman 2011",
-        "SimulationDuration": 24,
+        "SimulationDuration": 15,
         "TimeUnit": "h",
         "OutputMappings": [
           {
@@ -9410,7 +9632,7 @@
             "ObservedData": "Reitman 2011 - Week 1 after Perpetrator (Rifampicin) - Midazolam - PO - 2 mg - Plasma - agg. (n=11)",
             "StartTime": 816,
             "TimeUnit": "h",
-            "Color": "#b92f40",
+            "Color": "#c54a4a",
             "Caption": "Week 1 after treatment with rifampicin",
             "Symbol": "Triangle"
           },
@@ -9421,7 +9643,7 @@
             "ObservedData": "Reitman 2011 - Week 2 after Perpetrator (Rifampicin) - Midazolam - PO - 2 mg - Plasma - agg. (n=11)",
             "StartTime": 984,
             "TimeUnit": "h",
-            "Color": "#c14655",
+            "Color": "#d6706b",
             "Caption": "Week 2 after treatment with rifampicin",
             "Symbol": "Diamond"
           },
@@ -9432,7 +9654,7 @@
             "ObservedData": "Reitman 2011 - Week 4 after Perpetrator (Rifampicin) - Midazolam - PO - 2 mg - Plasma - agg. (n=11)",
             "StartTime": 1320,
             "TimeUnit": "h",
-            "Color": "#c95d6a",
+            "Color": "#e4948e",
             "Caption": "Week 4 after treatment with rifampicin",
             "Symbol": "Circle"
           }
@@ -9501,7 +9723,7 @@
       {
         "SectionId": 317,
         "Title": "Szalat 2007",
-        "SimulationDuration": 24,
+        "SimulationDuration": 6,
         "TimeUnit": "h",
         "OutputMappings": [
           {
@@ -9531,7 +9753,7 @@
       {
         "SectionId": 317,
         "Title": "van Dyk 2018",
-        "SimulationDuration": 24,
+        "SimulationDuration": 12,
         "TimeUnit": "h",
         "OutputMappings": [
           {

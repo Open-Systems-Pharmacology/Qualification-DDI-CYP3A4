@@ -5,21 +5,31 @@ To qualify the OSP suite for the prediction of the CYP3A4 DDI potential of new d
 
 The following perpetrator compounds were selected: 
 
--	rifampicin (strong CYP3A4 inducer), 
--	efavirenz (moderate CYP3A4 inducer), 
--	fluvoxamine (weak/moderate CYP3A4 inhibitor), 
--	erythromycin (moderate CYP3A4 inhibitor), 
--	clarithromycin (strong CYP 3A4 inhibitor), 
--	itraconazole including metabolites (strong CYP3A4 inhibitor). 
+-	**Rifampicin** (strong CYP3A4 inducer),
+  https://github.com/Open-Systems-Pharmacology/Rifampicin-Model
+-	**Efavirenz** (moderate CYP3A4 inducer),
+  https://github.com/Open-Systems-Pharmacology/Efavirenz-Model
+-	**Fluvoxamine** (weak/moderate CYP3A4 inhibitor),
+  https://github.com/Open-Systems-Pharmacology/Fluvoxamine-Model
+-	**Erythromycin** (moderate CYP3A4 inhibitor),
+  https://github.com/Open-Systems-Pharmacology/Erythromycin-Model
+-	**Clarithromycin** (strong CYP 3A4 inhibitor),
+  https://github.com/Open-Systems-Pharmacology/Clarithromycin-Model
+-	**Itraconazole** including metabolites (strong CYP3A4 inhibitor),
+  https://github.com/Open-Systems-Pharmacology/Itraconazole-Model
 
 
 
 The following sensitive CYP3A4 substrates as victim drugs were selected:
 
--	midazolam, 
--	triazolam, 
--	alprazolam,
--	alfentanil. 
+-	**Midazolam**,
+  https://github.com/Open-Systems-Pharmacology/Midazolam-Model
+-	**Triazolam**,
+  https://github.com/Open-Systems-Pharmacology/Triazolam-Model
+-	**Alprazolam**,
+  https://github.com/Open-Systems-Pharmacology/Alprazolam-Model
+-	**Alfentanil**,
+  https://github.com/Open-Systems-Pharmacology/Alfentanil-Model
 
 
 
