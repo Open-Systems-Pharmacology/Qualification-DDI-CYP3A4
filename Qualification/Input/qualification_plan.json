@@ -3927,6 +3927,12 @@
       ]
     },
     {
+      "Id": "Verapamil-Midazolam-DDI",
+      "Path": "../../../Verapamil-Midazolam-DDI/Verapamil-Midazolam-DDI.json",
+      "BuildingBlocks": [],
+      "SimulationParameters": []
+    },
+    {
       "Id": "Efavirenz-Alfentanil-DDI",
       "Path": "https://raw.githubusercontent.com/TWendl/Efavirenz-Alfentanil-DDI/master/Efavirenz-Alfentanil-DDI.json",
       "BuildingBlocks": [
@@ -8268,6 +8274,96 @@
         ]
       },
       {
+        "SectionId": 312,
+        "Title": "Backman 1994",
+        "SimulationDuration": 20,
+        "TimeUnit": "h",
+        "OutputMappings": [
+          {
+            "Project": "Verapamil-Midazolam-DDI",
+            "Simulation": "DDI Control - Midazolam - Backman 1994",
+            "Output": "Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
+            "ObservedData": "Backman 1994 - Midazolam with placebo - Midazolam - PO - 15 mg - Plasma - agg. (n=9)",
+            "StartTime": 0,
+            "TimeUnit": "h",
+            "Color": "#2166ac",
+            "Caption": "Control (without Verapamil)",
+            "Symbol": "Circle"
+          },
+          {
+            "Project": "Verapamil-Midazolam-DDI",
+            "Simulation": "DDI Treatment - Verapamil/Midazolam - Backman 1994",
+            "Output": "Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
+            "ObservedData": "Backman 1994 - Midazolam with verapamil - Midazolam - PO - 15 mg - Plasma - agg. (n=9)",
+            "StartTime": 25,
+            "TimeUnit": "h",
+            "Color": "#b2182b",
+            "Caption": "Treatment (with Verapamil)",
+            "Symbol": "Square"
+          }
+        ]
+      },
+      {
+        "SectionId": 312,
+        "Title": "Wang 2005 (iv)",
+        "SimulationDuration": 24,
+        "TimeUnit": "h",
+        "OutputMappings": [
+          {
+            "Project": "Verapamil-Midazolam-DDI",
+            "Simulation": "DDI Control - Midazolam - Wang 2005",
+            "Output": "Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
+            "ObservedData": [],
+            "StartTime": 0,
+            "TimeUnit": "h",
+            "Color": "#2166ac",
+            "Caption": "Control (without Verapamil)",
+            "Symbol": "Circle"
+          },
+          {
+            "Project": "Verapamil-Midazolam-DDI",
+            "Simulation": "DDI Treatment - Verapamil/Midazolam - Wang 2005",
+            "Output": "Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
+            "ObservedData": [],
+            "StartTime": 168,
+            "TimeUnit": "h",
+            "Color": "#b2182b",
+            "Caption": "Treatment (with Verapamil)",
+            "Symbol": "Square"
+          }
+        ]
+      },
+      {
+        "SectionId": 312,
+        "Title": "Wang 2005 (po)",
+        "SimulationDuration": 24,
+        "TimeUnit": "h",
+        "OutputMappings": [
+          {
+            "Project": "Verapamil-Midazolam-DDI",
+            "Simulation": "DDI Control - Midazolam - Wang 2005",
+            "Output": "Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
+            "ObservedData": [],
+            "StartTime": 0,
+            "TimeUnit": "h",
+            "Color": "#2166ac",
+            "Caption": "Control (without Verapamil)",
+            "Symbol": "Circle"
+          },
+          {
+            "Project": "Verapamil-Midazolam-DDI",
+            "Simulation": "DDI Treatment - Verapamil/Midazolam - Wang 2005",
+            "Output": "Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
+            "ObservedData": [],
+            "StartTime": 192,
+            "TimeUnit": "h",
+            "Color": "#b2182b",
+            "Caption": "Treatment (with Verapamil)",
+            "Symbol": "Square"
+          }
+        ]
+      },
+      {
         "SectionId": 313,
         "Title": "Kharasch 2012 IV",
         "SimulationDuration": 7.5,
@@ -10853,6 +10949,77 @@
             ]
           },
           {
+            "Caption": "Verapamil + Midazolam (iv)",
+            "Color": "#8080FF",
+            "Symbol": "Square",
+            "DDIRatios": [
+              {
+                "Output": "Organism|PeripheralVenousBlood|Triazolam|Plasma (Peripheral Venous Blood)",
+                "ObservedData": "DDI Ratios",
+                "ObservedDataRecordId": 1111,
+                "SimulationControl": {
+                  "Project": "Verpamil-Midazolam-DDI",
+                  "Simulation": "DDI Control - Midazolam - Wang 2005",
+                  "StartTime": 0,
+                  "EndTime": 9999,
+                  "TimeUnit": "h"
+                },
+                "SimulationDDI": {
+                  "Project": "Verpamil-Midazolam-DDI",
+                  "Simulation": "DDI Treatment - Verapamil/Midazolam - Wang 2005",
+                  "StartTime": 168,
+                  "EndTime": 192,
+                  "TimeUnit": "h"
+                }
+              }
+            ]
+          },
+          {
+            "Caption": "Verapamil + Midazolam (po)",
+            "Color": "#8080FF",
+            "Symbol": "Circle",
+            "DDIRatios": [
+              {
+                "Output": "Organism|PeripheralVenousBlood|Triazolam|Plasma (Peripheral Venous Blood)",
+                "ObservedData": "DDI Ratios",
+                "ObservedDataRecordId": 1108,
+                "SimulationControl": {
+                  "Project": "Verpamil-Midazolam-DDI",
+                  "Simulation": "DDI Control - Midazolam - Backman 1994",
+                  "StartTime": 0,
+                  "EndTime": 9999,
+                  "TimeUnit": "h"
+                },
+                "SimulationDDI": {
+                  "Project": "Verpamil-Midazolam-DDI",
+                  "Simulation": "DDI Treatment - Verapamil/Midazolam - Backman 1994",
+                  "StartTime": 168,
+                  "EndTime": 192,
+                  "TimeUnit": "h"
+                }
+              },
+              {
+                "Output": "Organism|PeripheralVenousBlood|Triazolam|Plasma (Peripheral Venous Blood)",
+                "ObservedData": "DDI Ratios",
+                "ObservedDataRecordId": 1116,
+                "SimulationControl": {
+                  "Project": "Verpamil-Midazolam-DDI",
+                  "Simulation": "DDI Control - Midazolam - Wang 2005",
+                  "StartTime": 0,
+                  "EndTime": 9999,
+                  "TimeUnit": "h"
+                },
+                "SimulationDDI": {
+                  "Project": "Verpamil-Midazolam-DDI",
+                  "Simulation": "DDI Treatment - Verapamil/Midazolam - Wang 2005",
+                  "StartTime": 168,
+                  "EndTime": 192,
+                  "TimeUnit": "h"
+                }
+              }
+            ]
+          },
+          {
             "Caption": "Efavirenz + Alfentanil (iv)",
             "Color": "#0000C0",
             "Symbol": "Square",
@@ -12274,7 +12441,7 @@
             {
               "Id": 1212,
               "Title": "Verapamil - Midazolam DDI",
-              "Content": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Qualification-text-modules/master/Empty.md"
+              "Content": "Content/Verapamil-Midazolam-DDI.md"
             },
             {
               "Id": 1213,
