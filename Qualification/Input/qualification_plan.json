@@ -42,6 +42,10 @@
       "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Triazolam-Model/master/Triazolam.json"
     },
     {
+      "Id": "Verapamil",
+      "Path": "../../../Verapamil-Model/Verapamil-Model.json"
+    },
+    {
       "Id": "Clarithromycin-Midazolam-DDI",
       "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Clarithromycin-Midazolam-DDI/master/Clarithromycin-Midazolam-DDI.json",
       "BuildingBlocks": [
@@ -3929,8 +3933,470 @@
     {
       "Id": "Verapamil-Midazolam-DDI",
       "Path": "../../../Verapamil-Midazolam-DDI/Verapamil-Midazolam-DDI.json",
-      "BuildingBlocks": [],
-      "SimulationParameters": []
+      "BuildingBlocks": [
+        {
+          "Type": "Compound",
+          "Name": "Midazolam",
+          "Project": "Midazolam"
+        },
+        {
+          "Type": "Compound",
+          "Name": "Verapamil",
+          "Project": "Verapamil"
+        },
+        {
+          "Type": "Formulation",
+          "Name": "controlled release",
+          "Project": "Verapamil"
+        },
+        {
+          "Type": "Formulation",
+          "Name": "Tablet (Dormicum)",
+          "Project": "Midazolam"
+        }
+      ],
+      "SimulationParameters": [
+        {
+          "Project": "Midazolam",
+          "Simulation": "po 3 mg (solution)",
+          "Path": "Neighborhoods|Duodenum_int_Duodenum_cell|Midazolam|P (interstitial->intracellular)",
+          "TargetSimulations": [
+            "DDI Control - Midazolam - Backman 1994",
+            "DDI Treatment - Verapamil/Midazolam - Backman 1994",
+            "DDI Control - Midazolam - Wang 2005",
+            "DDI Treatment - Verapamil/Midazolam - Wang 2005"
+          ]
+        },
+        {
+          "Project": "Midazolam",
+          "Simulation": "po 3 mg (solution)",
+          "Path": "Neighborhoods|UpperJejunum_int_UpperJejunum_cell|Midazolam|P (interstitial->intracellular)",
+          "TargetSimulations": [
+            "DDI Control - Midazolam - Backman 1994",
+            "DDI Treatment - Verapamil/Midazolam - Backman 1994",
+            "DDI Control - Midazolam - Wang 2005",
+            "DDI Treatment - Verapamil/Midazolam - Wang 2005"
+          ]
+        },
+        {
+          "Project": "Midazolam",
+          "Simulation": "po 3 mg (solution)",
+          "Path": "Neighborhoods|LowerJejunum_int_LowerJejunum_cell|Midazolam|P (interstitial->intracellular)",
+          "TargetSimulations": [
+            "DDI Control - Midazolam - Backman 1994",
+            "DDI Treatment - Verapamil/Midazolam - Backman 1994",
+            "DDI Control - Midazolam - Wang 2005",
+            "DDI Treatment - Verapamil/Midazolam - Wang 2005"
+          ]
+        },
+        {
+          "Project": "Midazolam",
+          "Simulation": "po 3 mg (solution)",
+          "Path": "Neighborhoods|UpperIleum_int_UpperIleum_cell|Midazolam|P (interstitial->intracellular)",
+          "TargetSimulations": [
+            "DDI Control - Midazolam - Backman 1994",
+            "DDI Treatment - Verapamil/Midazolam - Backman 1994",
+            "DDI Control - Midazolam - Wang 2005",
+            "DDI Treatment - Verapamil/Midazolam - Wang 2005"
+          ]
+        },
+        {
+          "Project": "Midazolam",
+          "Simulation": "po 3 mg (solution)",
+          "Path": "Neighborhoods|LowerIleum_int_LowerIleum_cell|Midazolam|P (interstitial->intracellular)",
+          "TargetSimulations": [
+            "DDI Control - Midazolam - Backman 1994",
+            "DDI Treatment - Verapamil/Midazolam - Backman 1994",
+            "DDI Control - Midazolam - Wang 2005",
+            "DDI Treatment - Verapamil/Midazolam - Wang 2005"
+          ]
+        },
+        {
+          "Project": "Midazolam",
+          "Simulation": "po 3 mg (solution)",
+          "Path": "Neighborhoods|Caecum_int_Caecum_cell|Midazolam|P (interstitial->intracellular)",
+          "TargetSimulations": [
+            "DDI Control - Midazolam - Backman 1994",
+            "DDI Treatment - Verapamil/Midazolam - Backman 1994",
+            "DDI Control - Midazolam - Wang 2005",
+            "DDI Treatment - Verapamil/Midazolam - Wang 2005"
+          ]
+        },
+        {
+          "Project": "Midazolam",
+          "Simulation": "po 3 mg (solution)",
+          "Path": "Neighborhoods|ColonAscendens_int_ColonAscendens_cell|Midazolam|P (interstitial->intracellular)",
+          "TargetSimulations": [
+            "DDI Control - Midazolam - Backman 1994",
+            "DDI Treatment - Verapamil/Midazolam - Backman 1994",
+            "DDI Control - Midazolam - Wang 2005",
+            "DDI Treatment - Verapamil/Midazolam - Wang 2005"
+          ]
+        },
+        {
+          "Project": "Midazolam",
+          "Simulation": "po 3 mg (solution)",
+          "Path": "Neighborhoods|ColonTransversum_int_ColonTransversum_cell|Midazolam|P (interstitial->intracellular)",
+          "TargetSimulations": [
+            "DDI Control - Midazolam - Backman 1994",
+            "DDI Treatment - Verapamil/Midazolam - Backman 1994",
+            "DDI Control - Midazolam - Wang 2005",
+            "DDI Treatment - Verapamil/Midazolam - Wang 2005"
+          ]
+        },
+        {
+          "Project": "Midazolam",
+          "Simulation": "po 3 mg (solution)",
+          "Path": "Neighborhoods|ColonDescendens_int_ColonDescendens_cell|Midazolam|P (interstitial->intracellular)",
+          "TargetSimulations": [
+            "DDI Control - Midazolam - Backman 1994",
+            "DDI Treatment - Verapamil/Midazolam - Backman 1994",
+            "DDI Control - Midazolam - Wang 2005",
+            "DDI Treatment - Verapamil/Midazolam - Wang 2005"
+          ]
+        },
+        {
+          "Project": "Midazolam",
+          "Simulation": "po 3 mg (solution)",
+          "Path": "Neighborhoods|ColonSigmoid_int_ColonSigmoid_cell|Midazolam|P (interstitial->intracellular)",
+          "TargetSimulations": [
+            "DDI Control - Midazolam - Backman 1994",
+            "DDI Treatment - Verapamil/Midazolam - Backman 1994",
+            "DDI Control - Midazolam - Wang 2005",
+            "DDI Treatment - Verapamil/Midazolam - Wang 2005"
+          ]
+        },
+        {
+          "Project": "Midazolam",
+          "Simulation": "po 3 mg (solution)",
+          "Path": "Neighborhoods|Rectum_int_Rectum_cell|Midazolam|P (interstitial->intracellular)",
+          "TargetSimulations": [
+            "DDI Control - Midazolam - Backman 1994",
+            "DDI Treatment - Verapamil/Midazolam - Backman 1994",
+            "DDI Control - Midazolam - Wang 2005",
+            "DDI Treatment - Verapamil/Midazolam - Wang 2005"
+          ]
+        },
+        {
+          "Project": "Midazolam",
+          "Simulation": "po 3 mg (solution)",
+          "Path": "Neighborhoods|Duodenum_int_Duodenum_cell|Midazolam|P (intracellular->interstitial)",
+          "TargetSimulations": [
+            "DDI Control - Midazolam - Backman 1994",
+            "DDI Treatment - Verapamil/Midazolam - Backman 1994",
+            "DDI Control - Midazolam - Wang 2005",
+            "DDI Treatment - Verapamil/Midazolam - Wang 2005"
+          ]
+        },
+        {
+          "Project": "Midazolam",
+          "Simulation": "po 3 mg (solution)",
+          "Path": "Neighborhoods|UpperJejunum_int_UpperJejunum_cell|Midazolam|P (intracellular->interstitial)",
+          "TargetSimulations": [
+            "DDI Control - Midazolam - Backman 1994",
+            "DDI Treatment - Verapamil/Midazolam - Backman 1994",
+            "DDI Control - Midazolam - Wang 2005",
+            "DDI Treatment - Verapamil/Midazolam - Wang 2005"
+          ]
+        },
+        {
+          "Project": "Midazolam",
+          "Simulation": "po 3 mg (solution)",
+          "Path": "Neighborhoods|LowerJejunum_int_LowerJejunum_cell|Midazolam|P (intracellular->interstitial)",
+          "TargetSimulations": [
+            "DDI Control - Midazolam - Backman 1994",
+            "DDI Treatment - Verapamil/Midazolam - Backman 1994",
+            "DDI Control - Midazolam - Wang 2005",
+            "DDI Treatment - Verapamil/Midazolam - Wang 2005"
+          ]
+        },
+        {
+          "Project": "Midazolam",
+          "Simulation": "po 3 mg (solution)",
+          "Path": "Neighborhoods|UpperIleum_int_UpperIleum_cell|Midazolam|P (intracellular->interstitial)",
+          "TargetSimulations": [
+            "DDI Control - Midazolam - Backman 1994",
+            "DDI Treatment - Verapamil/Midazolam - Backman 1994",
+            "DDI Control - Midazolam - Wang 2005",
+            "DDI Treatment - Verapamil/Midazolam - Wang 2005"
+          ]
+        },
+        {
+          "Project": "Midazolam",
+          "Simulation": "po 3 mg (solution)",
+          "Path": "Neighborhoods|LowerIleum_int_LowerIleum_cell|Midazolam|P (intracellular->interstitial)",
+          "TargetSimulations": [
+            "DDI Control - Midazolam - Backman 1994",
+            "DDI Treatment - Verapamil/Midazolam - Backman 1994",
+            "DDI Control - Midazolam - Wang 2005",
+            "DDI Treatment - Verapamil/Midazolam - Wang 2005"
+          ]
+        },
+        {
+          "Project": "Midazolam",
+          "Simulation": "po 3 mg (solution)",
+          "Path": "Neighborhoods|Caecum_int_Caecum_cell|Midazolam|P (intracellular->interstitial)",
+          "TargetSimulations": [
+            "DDI Control - Midazolam - Backman 1994",
+            "DDI Treatment - Verapamil/Midazolam - Backman 1994",
+            "DDI Control - Midazolam - Wang 2005",
+            "DDI Treatment - Verapamil/Midazolam - Wang 2005"
+          ]
+        },
+        {
+          "Project": "Midazolam",
+          "Simulation": "po 3 mg (solution)",
+          "Path": "Neighborhoods|ColonAscendens_int_ColonAscendens_cell|Midazolam|P (intracellular->interstitial)",
+          "TargetSimulations": [
+            "DDI Control - Midazolam - Backman 1994",
+            "DDI Treatment - Verapamil/Midazolam - Backman 1994",
+            "DDI Control - Midazolam - Wang 2005",
+            "DDI Treatment - Verapamil/Midazolam - Wang 2005"
+          ]
+        },
+        {
+          "Project": "Midazolam",
+          "Simulation": "po 3 mg (solution)",
+          "Path": "Neighborhoods|ColonTransversum_int_ColonTransversum_cell|Midazolam|P (intracellular->interstitial)",
+          "TargetSimulations": [
+            "DDI Control - Midazolam - Backman 1994",
+            "DDI Treatment - Verapamil/Midazolam - Backman 1994",
+            "DDI Control - Midazolam - Wang 2005",
+            "DDI Treatment - Verapamil/Midazolam - Wang 2005"
+          ]
+        },
+        {
+          "Project": "Midazolam",
+          "Simulation": "po 3 mg (solution)",
+          "Path": "Neighborhoods|ColonDescendens_int_ColonDescendens_cell|Midazolam|P (intracellular->interstitial)",
+          "TargetSimulations": [
+            "DDI Control - Midazolam - Backman 1994",
+            "DDI Treatment - Verapamil/Midazolam - Backman 1994",
+            "DDI Control - Midazolam - Wang 2005",
+            "DDI Treatment - Verapamil/Midazolam - Wang 2005"
+          ]
+        },
+        {
+          "Project": "Midazolam",
+          "Simulation": "po 3 mg (solution)",
+          "Path": "Neighborhoods|ColonSigmoid_int_ColonSigmoid_cell|Midazolam|P (intracellular->interstitial)",
+          "TargetSimulations": [
+            "DDI Control - Midazolam - Backman 1994",
+            "DDI Treatment - Verapamil/Midazolam - Backman 1994",
+            "DDI Control - Midazolam - Wang 2005",
+            "DDI Treatment - Verapamil/Midazolam - Wang 2005"
+          ]
+        },
+        {
+          "Project": "Midazolam",
+          "Simulation": "po 3 mg (solution)",
+          "Path": "Neighborhoods|Rectum_int_Rectum_cell|Midazolam|P (intracellular->interstitial)",
+          "TargetSimulations": [
+            "DDI Control - Midazolam - Backman 1994",
+            "DDI Treatment - Verapamil/Midazolam - Backman 1994",
+            "DDI Control - Midazolam - Wang 2005",
+            "DDI Treatment - Verapamil/Midazolam - Wang 2005"
+          ]
+        },
+        {
+          "Project": "Verapamil",
+          "Simulation": "Barbarash 1988 + Johnston 1981 + McAllister 1982, 120 mg PO SD",
+          "Path": "Neighborhoods|Duodenum_int_Duodenum_cell|Verapamil|P (interstitial->intracellular)",
+          "TargetSimulations": [
+            "DDI Treatment - Verapamil/Midazolam - Backman 1994",
+            "DDI Treatment - Verapamil/Midazolam - Wang 2005"
+          ]
+        },
+        {
+          "Project": "Verapamil",
+          "Simulation": "Barbarash 1988 + Johnston 1981 + McAllister 1982, 120 mg PO SD",
+          "Path": "Neighborhoods|UpperJejunum_int_UpperJejunum_cell|Verapamil|P (interstitial->intracellular)",
+          "TargetSimulations": [
+            "DDI Treatment - Verapamil/Midazolam - Backman 1994",
+            "DDI Treatment - Verapamil/Midazolam - Wang 2005"
+          ]
+        },
+        {
+          "Project": "Verapamil",
+          "Simulation": "Barbarash 1988 + Johnston 1981 + McAllister 1982, 120 mg PO SD",
+          "Path": "Neighborhoods|LowerJejunum_int_LowerJejunum_cell|Verapamil|P (interstitial->intracellular)",
+          "TargetSimulations": [
+            "DDI Treatment - Verapamil/Midazolam - Backman 1994",
+            "DDI Treatment - Verapamil/Midazolam - Wang 2005"
+          ]
+        },
+        {
+          "Project": "Verapamil",
+          "Simulation": "Barbarash 1988 + Johnston 1981 + McAllister 1982, 120 mg PO SD",
+          "Path": "Neighborhoods|UpperIleum_int_UpperIleum_cell|Verapamil|P (interstitial->intracellular)",
+          "TargetSimulations": [
+            "DDI Treatment - Verapamil/Midazolam - Backman 1994",
+            "DDI Treatment - Verapamil/Midazolam - Wang 2005"
+          ]
+        },
+        {
+          "Project": "Verapamil",
+          "Simulation": "Barbarash 1988 + Johnston 1981 + McAllister 1982, 120 mg PO SD",
+          "Path": "Neighborhoods|LowerIleum_int_LowerIleum_cell|Verapamil|P (interstitial->intracellular)",
+          "TargetSimulations": [
+            "DDI Treatment - Verapamil/Midazolam - Backman 1994",
+            "DDI Treatment - Verapamil/Midazolam - Wang 2005"
+          ]
+        },
+        {
+          "Project": "Verapamil",
+          "Simulation": "Barbarash 1988 + Johnston 1981 + McAllister 1982, 120 mg PO SD",
+          "Path": "Neighborhoods|Caecum_int_Caecum_cell|Verapamil|P (interstitial->intracellular)",
+          "TargetSimulations": [
+            "DDI Treatment - Verapamil/Midazolam - Backman 1994",
+            "DDI Treatment - Verapamil/Midazolam - Wang 2005"
+          ]
+        },
+        {
+          "Project": "Verapamil",
+          "Simulation": "Barbarash 1988 + Johnston 1981 + McAllister 1982, 120 mg PO SD",
+          "Path": "Neighborhoods|ColonAscendens_int_ColonAscendens_cell|Verapamil|P (interstitial->intracellular)",
+          "TargetSimulations": [
+            "DDI Treatment - Verapamil/Midazolam - Backman 1994",
+            "DDI Treatment - Verapamil/Midazolam - Wang 2005"
+          ]
+        },
+        {
+          "Project": "Verapamil",
+          "Simulation": "Barbarash 1988 + Johnston 1981 + McAllister 1982, 120 mg PO SD",
+          "Path": "Neighborhoods|ColonTransversum_int_ColonTransversum_cell|Verapamil|P (interstitial->intracellular)",
+          "TargetSimulations": [
+            "DDI Treatment - Verapamil/Midazolam - Backman 1994",
+            "DDI Treatment - Verapamil/Midazolam - Wang 2005"
+          ]
+        },
+        {
+          "Project": "Verapamil",
+          "Simulation": "Barbarash 1988 + Johnston 1981 + McAllister 1982, 120 mg PO SD",
+          "Path": "Neighborhoods|ColonDescendens_int_ColonDescendens_cell|Verapamil|P (interstitial->intracellular)",
+          "TargetSimulations": [
+            "DDI Treatment - Verapamil/Midazolam - Backman 1994",
+            "DDI Treatment - Verapamil/Midazolam - Wang 2005"
+          ]
+        },
+        {
+          "Project": "Verapamil",
+          "Simulation": "Barbarash 1988 + Johnston 1981 + McAllister 1982, 120 mg PO SD",
+          "Path": "Neighborhoods|ColonSigmoid_int_ColonSigmoid_cell|Verapamil|P (interstitial->intracellular)",
+          "TargetSimulations": [
+            "DDI Treatment - Verapamil/Midazolam - Backman 1994",
+            "DDI Treatment - Verapamil/Midazolam - Wang 2005"
+          ]
+        },
+        {
+          "Project": "Verapamil",
+          "Simulation": "Barbarash 1988 + Johnston 1981 + McAllister 1982, 120 mg PO SD",
+          "Path": "Neighborhoods|Rectum_int_Rectum_cell|Verapamil|P (interstitial->intracellular)",
+          "TargetSimulations": [
+            "DDI Treatment - Verapamil/Midazolam - Backman 1994",
+            "DDI Treatment - Verapamil/Midazolam - Wang 2005"
+          ]
+        },
+        {
+          "Project": "Verapamil",
+          "Simulation": "Barbarash 1988 + Johnston 1981 + McAllister 1982, 120 mg PO SD",
+          "Path": "Neighborhoods|Duodenum_int_Duodenum_cell|Verapamil|P (intracellular->interstitial)",
+          "TargetSimulations": [
+            "DDI Treatment - Verapamil/Midazolam - Backman 1994",
+            "DDI Treatment - Verapamil/Midazolam - Wang 2005"
+          ]
+        },
+        {
+          "Project": "Verapamil",
+          "Simulation": "Barbarash 1988 + Johnston 1981 + McAllister 1982, 120 mg PO SD",
+          "Path": "Neighborhoods|UpperJejunum_int_UpperJejunum_cell|Verapamil|P (intracellular->interstitial)",
+          "TargetSimulations": [
+            "DDI Treatment - Verapamil/Midazolam - Backman 1994",
+            "DDI Treatment - Verapamil/Midazolam - Wang 2005"
+          ]
+        },
+        {
+          "Project": "Verapamil",
+          "Simulation": "Barbarash 1988 + Johnston 1981 + McAllister 1982, 120 mg PO SD",
+          "Path": "Neighborhoods|LowerJejunum_int_LowerJejunum_cell|Verapamil|P (intracellular->interstitial)",
+          "TargetSimulations": [
+            "DDI Treatment - Verapamil/Midazolam - Backman 1994",
+            "DDI Treatment - Verapamil/Midazolam - Wang 2005"
+          ]
+        },
+        {
+          "Project": "Verapamil",
+          "Simulation": "Barbarash 1988 + Johnston 1981 + McAllister 1982, 120 mg PO SD",
+          "Path": "Neighborhoods|UpperIleum_int_UpperIleum_cell|Verapamil|P (intracellular->interstitial)",
+          "TargetSimulations": [
+            "DDI Treatment - Verapamil/Midazolam - Backman 1994",
+            "DDI Treatment - Verapamil/Midazolam - Wang 2005"
+          ]
+        },
+        {
+          "Project": "Verapamil",
+          "Simulation": "Barbarash 1988 + Johnston 1981 + McAllister 1982, 120 mg PO SD",
+          "Path": "Neighborhoods|LowerIleum_int_LowerIleum_cell|Verapamil|P (intracellular->interstitial)",
+          "TargetSimulations": [
+            "DDI Treatment - Verapamil/Midazolam - Backman 1994",
+            "DDI Treatment - Verapamil/Midazolam - Wang 2005"
+          ]
+        },
+        {
+          "Project": "Verapamil",
+          "Simulation": "Barbarash 1988 + Johnston 1981 + McAllister 1982, 120 mg PO SD",
+          "Path": "Neighborhoods|Caecum_int_Caecum_cell|Verapamil|P (intracellular->interstitial)",
+          "TargetSimulations": [
+            "DDI Treatment - Verapamil/Midazolam - Backman 1994",
+            "DDI Treatment - Verapamil/Midazolam - Wang 2005"
+          ]
+        },
+        {
+          "Project": "Verapamil",
+          "Simulation": "Barbarash 1988 + Johnston 1981 + McAllister 1982, 120 mg PO SD",
+          "Path": "Neighborhoods|ColonAscendens_int_ColonAscendens_cell|Verapamil|P (intracellular->interstitial)",
+          "TargetSimulations": [
+            "DDI Treatment - Verapamil/Midazolam - Backman 1994",
+            "DDI Treatment - Verapamil/Midazolam - Wang 2005"
+          ]
+        },
+        {
+          "Project": "Verapamil",
+          "Simulation": "Barbarash 1988 + Johnston 1981 + McAllister 1982, 120 mg PO SD",
+          "Path": "Neighborhoods|ColonTransversum_int_ColonTransversum_cell|Verapamil|P (intracellular->interstitial)",
+          "TargetSimulations": [
+            "DDI Treatment - Verapamil/Midazolam - Backman 1994",
+            "DDI Treatment - Verapamil/Midazolam - Wang 2005"
+          ]
+        },
+        {
+          "Project": "Verapamil",
+          "Simulation": "Barbarash 1988 + Johnston 1981 + McAllister 1982, 120 mg PO SD",
+          "Path": "Neighborhoods|ColonDescendens_int_ColonDescendens_cell|Verapamil|P (intracellular->interstitial)",
+          "TargetSimulations": [
+            "DDI Treatment - Verapamil/Midazolam - Backman 1994",
+            "DDI Treatment - Verapamil/Midazolam - Wang 2005"
+          ]
+        },
+        {
+          "Project": "Verapamil",
+          "Simulation": "Barbarash 1988 + Johnston 1981 + McAllister 1982, 120 mg PO SD",
+          "Path": "Neighborhoods|ColonSigmoid_int_ColonSigmoid_cell|Verapamil|P (intracellular->interstitial)",
+          "TargetSimulations": [
+            "DDI Treatment - Verapamil/Midazolam - Backman 1994",
+            "DDI Treatment - Verapamil/Midazolam - Wang 2005"
+          ]
+        },
+        {
+          "Project": "Verapamil",
+          "Simulation": "Barbarash 1988 + Johnston 1981 + McAllister 1982, 120 mg PO SD",
+          "Path": "Neighborhoods|Rectum_int_Rectum_cell|Verapamil|P (intracellular->interstitial)",
+          "TargetSimulations": [
+            "DDI Treatment - Verapamil/Midazolam - Backman 1994",
+            "DDI Treatment - Verapamil/Midazolam - Wang 2005"
+          ]
+        }
+      ]
     },
     {
       "Id": "Efavirenz-Alfentanil-DDI",
@@ -8344,7 +8810,7 @@
             "Simulation": "DDI Control - Midazolam - Wang 2005",
             "Output": "Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
             "ObservedData": [],
-            "StartTime": 0,
+            "StartTime": 24,
             "TimeUnit": "h",
             "Color": "#2166ac",
             "Caption": "Control (without Verapamil)",
@@ -10954,18 +11420,18 @@
             "Symbol": "Square",
             "DDIRatios": [
               {
-                "Output": "Organism|PeripheralVenousBlood|Triazolam|Plasma (Peripheral Venous Blood)",
+                "Output": "Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
                 "ObservedData": "DDI Ratios",
                 "ObservedDataRecordId": 1111,
                 "SimulationControl": {
-                  "Project": "Verpamil-Midazolam-DDI",
+                  "Project": "Verapamil-Midazolam-DDI",
                   "Simulation": "DDI Control - Midazolam - Wang 2005",
                   "StartTime": 0,
-                  "EndTime": 9999,
+                  "EndTime": 24,
                   "TimeUnit": "h"
                 },
                 "SimulationDDI": {
-                  "Project": "Verpamil-Midazolam-DDI",
+                  "Project": "Verapamil-Midazolam-DDI",
                   "Simulation": "DDI Treatment - Verapamil/Midazolam - Wang 2005",
                   "StartTime": 168,
                   "EndTime": 192,
@@ -10980,40 +11446,40 @@
             "Symbol": "Circle",
             "DDIRatios": [
               {
-                "Output": "Organism|PeripheralVenousBlood|Triazolam|Plasma (Peripheral Venous Blood)",
+                "Output": "Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
                 "ObservedData": "DDI Ratios",
                 "ObservedDataRecordId": 1108,
                 "SimulationControl": {
-                  "Project": "Verpamil-Midazolam-DDI",
+                  "Project": "Verapamil-Midazolam-DDI",
                   "Simulation": "DDI Control - Midazolam - Backman 1994",
                   "StartTime": 0,
                   "EndTime": 9999,
                   "TimeUnit": "h"
                 },
                 "SimulationDDI": {
-                  "Project": "Verpamil-Midazolam-DDI",
+                  "Project": "Verapamil-Midazolam-DDI",
                   "Simulation": "DDI Treatment - Verapamil/Midazolam - Backman 1994",
-                  "StartTime": 168,
-                  "EndTime": 192,
+                  "StartTime": 25,
+                  "EndTime": 9999,
                   "TimeUnit": "h"
                 }
               },
               {
-                "Output": "Organism|PeripheralVenousBlood|Triazolam|Plasma (Peripheral Venous Blood)",
+                "Output": "Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
                 "ObservedData": "DDI Ratios",
                 "ObservedDataRecordId": 1116,
                 "SimulationControl": {
-                  "Project": "Verpamil-Midazolam-DDI",
+                  "Project": "Verapamil-Midazolam-DDI",
                   "Simulation": "DDI Control - Midazolam - Wang 2005",
-                  "StartTime": 0,
+                  "StartTime": 24,
                   "EndTime": 9999,
                   "TimeUnit": "h"
                 },
                 "SimulationDDI": {
-                  "Project": "Verpamil-Midazolam-DDI",
+                  "Project": "Verapamil-Midazolam-DDI",
                   "Simulation": "DDI Treatment - Verapamil/Midazolam - Wang 2005",
-                  "StartTime": 168,
-                  "EndTime": 192,
+                  "StartTime": 192,
+                  "EndTime": 9999,
                   "TimeUnit": "h"
                 }
               }
