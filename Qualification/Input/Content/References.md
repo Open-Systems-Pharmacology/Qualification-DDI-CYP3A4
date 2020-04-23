@@ -1,3 +1,5 @@
+**Guest 2011** Guest EJ, Aarons L, Houston JB, Rostami-Hodjegan A, Galetin A. Critique of the two-fold measure of prediction success for ratios: application for the assessment of drug-drug interactions. Drug Metab Dispos. 2011 Feb;39(2):170-3.
+
 **OSP PK Database** (https://github.com/Open-Systems-Pharmacology/Database-for-observed-data)
 
 
