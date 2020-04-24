@@ -7,7 +7,7 @@
     },
     {
       "Id": "Alprazolam",
-      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Alprazolam-Model/master/Alprazolam.json"
+      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Alprazolam-Model/master/Alprazolam-Model.json"
     },
     {
       "Id": "Clarithromycin",
@@ -19,7 +19,7 @@
     },
     {
       "Id": "Erythromycin",
-      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Erythromycin-Model/master/Erythromycin.json"
+      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Erythromycin-Model/master/Erythromycin-Model.json"
     },
     {
       "Id": "Fluvoxamine",
@@ -39,7 +39,7 @@
     },
     {
       "Id": "Triazolam",
-      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Triazolam-Model/master/Triazolam.json"
+      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Triazolam-Model/master/Triazolam-Model.json"
     },
     {
       "Id": "Verapamil",
