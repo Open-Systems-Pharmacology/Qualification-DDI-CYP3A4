@@ -15,7 +15,7 @@
     },
     {
       "Id": "Efavirenz",
-      "Path": "https://raw.githubusercontent.com/TWendl/Efavirenz-Model/master/Efavirenz.json"
+      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Efavirenz-Model/master/Efavirenz.json"
     },
     {
       "Id": "Erythromycin",
@@ -23,7 +23,7 @@
     },
     {
       "Id": "Fluvoxamine",
-      "Path": "https://raw.githubusercontent.com/LMFuhr/Fluvoxamine-Model/master/Fluvoxamine-Model.json"
+      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Fluvoxamine-Model/master/Fluvoxamine-Model.json"
     },
     {
       "Id": "Itraconazole",
@@ -4400,7 +4400,7 @@
     },
     {
       "Id": "Efavirenz-Alfentanil-DDI",
-      "Path": "https://raw.githubusercontent.com/TWendl/Efavirenz-Alfentanil-DDI/master/Efavirenz-Alfentanil-DDI.json",
+      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Efavirenz-Alfentanil-DDI/master/Efavirenz-Alfentanil-DDI.json",
       "BuildingBlocks": [
         {
           "Type": "Compound",
@@ -4648,7 +4648,7 @@
     },
     {
       "Id": "Efavirenz-Midazolam-DDI",
-      "Path": "https://raw.githubusercontent.com/TWendl/Efavirenz-Midazolam-DDI/master/Efavirenz-Midazolam-DDI.json",
+      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Efavirenz-Midazolam-DDI/master/Efavirenz-Midazolam-DDI.json",
       "BuildingBlocks": [
         {
           "Type": "Compound",
@@ -5955,7 +5955,9 @@
             "DDI Control - Midazolam - Kharasch 1997",
             "DDI Treatment - Rifampicin/Midazolam - Kharasch 1997",
             "DDI Control - Midazolam - Yu 2018 (CYP3A5 s3,s3)",
-            "DDI Treatment - Rifampicin/Midazolam - Yu 2004 (CYP3A5 s3,s3)"
+            "DDI Treatment - Rifampicin/Midazolam - Yu 2004 (CYP3A5 s3,s3)",
+            "DDI Control - Midazolam - Wiesinger 2020",
+            "DDI Treatment - Rifampicin/Midazolam - Wiesinger 2020"
           ]
         },
         {
@@ -6011,7 +6013,9 @@
             "DDI Control - Midazolam - Kharasch 1997",
             "DDI Treatment - Rifampicin/Midazolam - Kharasch 1997",
             "DDI Control - Midazolam - Yu 2018 (CYP3A5 s3,s3)",
-            "DDI Treatment - Rifampicin/Midazolam - Yu 2004 (CYP3A5 s3,s3)"
+            "DDI Treatment - Rifampicin/Midazolam - Yu 2004 (CYP3A5 s3,s3)",
+            "DDI Control - Midazolam - Wiesinger 2020",
+            "DDI Treatment - Rifampicin/Midazolam - Wiesinger 2020"
           ]
         },
         {
@@ -6067,7 +6071,9 @@
             "DDI Control - Midazolam - Kharasch 1997",
             "DDI Treatment - Rifampicin/Midazolam - Kharasch 1997",
             "DDI Control - Midazolam - Yu 2018 (CYP3A5 s3,s3)",
-            "DDI Treatment - Rifampicin/Midazolam - Yu 2004 (CYP3A5 s3,s3)"
+            "DDI Treatment - Rifampicin/Midazolam - Yu 2004 (CYP3A5 s3,s3)",
+            "DDI Control - Midazolam - Wiesinger 2020",
+            "DDI Treatment - Rifampicin/Midazolam - Wiesinger 2020"
           ]
         },
         {
@@ -6123,7 +6129,9 @@
             "DDI Control - Midazolam - Kharasch 1997",
             "DDI Treatment - Rifampicin/Midazolam - Kharasch 1997",
             "DDI Control - Midazolam - Yu 2018 (CYP3A5 s3,s3)",
-            "DDI Treatment - Rifampicin/Midazolam - Yu 2004 (CYP3A5 s3,s3)"
+            "DDI Treatment - Rifampicin/Midazolam - Yu 2004 (CYP3A5 s3,s3)",
+            "DDI Control - Midazolam - Wiesinger 2020",
+            "DDI Treatment - Rifampicin/Midazolam - Wiesinger 2020"
           ]
         },
         {
@@ -6179,7 +6187,9 @@
             "DDI Control - Midazolam - Kharasch 1997",
             "DDI Treatment - Rifampicin/Midazolam - Kharasch 1997",
             "DDI Control - Midazolam - Yu 2018 (CYP3A5 s3,s3)",
-            "DDI Treatment - Rifampicin/Midazolam - Yu 2004 (CYP3A5 s3,s3)"
+            "DDI Treatment - Rifampicin/Midazolam - Yu 2004 (CYP3A5 s3,s3)",
+            "DDI Control - Midazolam - Wiesinger 2020",
+            "DDI Treatment - Rifampicin/Midazolam - Wiesinger 2020"
           ]
         },
         {
@@ -6235,7 +6245,9 @@
             "DDI Control - Midazolam - Kharasch 1997",
             "DDI Treatment - Rifampicin/Midazolam - Kharasch 1997",
             "DDI Control - Midazolam - Yu 2018 (CYP3A5 s3,s3)",
-            "DDI Treatment - Rifampicin/Midazolam - Yu 2004 (CYP3A5 s3,s3)"
+            "DDI Treatment - Rifampicin/Midazolam - Yu 2004 (CYP3A5 s3,s3)",
+            "DDI Control - Midazolam - Wiesinger 2020",
+            "DDI Treatment - Rifampicin/Midazolam - Wiesinger 2020"
           ]
         },
         {
@@ -6291,7 +6303,9 @@
             "DDI Control - Midazolam - Kharasch 1997",
             "DDI Treatment - Rifampicin/Midazolam - Kharasch 1997",
             "DDI Control - Midazolam - Yu 2018 (CYP3A5 s3,s3)",
-            "DDI Treatment - Rifampicin/Midazolam - Yu 2004 (CYP3A5 s3,s3)"
+            "DDI Treatment - Rifampicin/Midazolam - Yu 2004 (CYP3A5 s3,s3)",
+            "DDI Control - Midazolam - Wiesinger 2020",
+            "DDI Treatment - Rifampicin/Midazolam - Wiesinger 2020"
           ]
         },
         {
@@ -6347,7 +6361,9 @@
             "DDI Control - Midazolam - Kharasch 1997",
             "DDI Treatment - Rifampicin/Midazolam - Kharasch 1997",
             "DDI Control - Midazolam - Yu 2018 (CYP3A5 s3,s3)",
-            "DDI Treatment - Rifampicin/Midazolam - Yu 2004 (CYP3A5 s3,s3)"
+            "DDI Treatment - Rifampicin/Midazolam - Yu 2004 (CYP3A5 s3,s3)",
+            "DDI Control - Midazolam - Wiesinger 2020",
+            "DDI Treatment - Rifampicin/Midazolam - Wiesinger 2020"
           ]
         },
         {
@@ -6403,7 +6419,9 @@
             "DDI Control - Midazolam - Kharasch 1997",
             "DDI Treatment - Rifampicin/Midazolam - Kharasch 1997",
             "DDI Control - Midazolam - Yu 2018 (CYP3A5 s3,s3)",
-            "DDI Treatment - Rifampicin/Midazolam - Yu 2004 (CYP3A5 s3,s3)"
+            "DDI Treatment - Rifampicin/Midazolam - Yu 2004 (CYP3A5 s3,s3)",
+            "DDI Control - Midazolam - Wiesinger 2020",
+            "DDI Treatment - Rifampicin/Midazolam - Wiesinger 2020"
           ]
         },
         {
@@ -6459,7 +6477,9 @@
             "DDI Control - Midazolam - Kharasch 1997",
             "DDI Treatment - Rifampicin/Midazolam - Kharasch 1997",
             "DDI Control - Midazolam - Yu 2018 (CYP3A5 s3,s3)",
-            "DDI Treatment - Rifampicin/Midazolam - Yu 2004 (CYP3A5 s3,s3)"
+            "DDI Treatment - Rifampicin/Midazolam - Yu 2004 (CYP3A5 s3,s3)",
+            "DDI Control - Midazolam - Wiesinger 2020",
+            "DDI Treatment - Rifampicin/Midazolam - Wiesinger 2020"
           ]
         },
         {
@@ -6515,7 +6535,9 @@
             "DDI Control - Midazolam - Kharasch 1997",
             "DDI Treatment - Rifampicin/Midazolam - Kharasch 1997",
             "DDI Control - Midazolam - Yu 2018 (CYP3A5 s3,s3)",
-            "DDI Treatment - Rifampicin/Midazolam - Yu 2004 (CYP3A5 s3,s3)"
+            "DDI Treatment - Rifampicin/Midazolam - Yu 2004 (CYP3A5 s3,s3)",
+            "DDI Control - Midazolam - Wiesinger 2020",
+            "DDI Treatment - Rifampicin/Midazolam - Wiesinger 2020"
           ]
         },
         {
@@ -6571,7 +6593,9 @@
             "DDI Control - Midazolam - Kharasch 1997",
             "DDI Treatment - Rifampicin/Midazolam - Kharasch 1997",
             "DDI Control - Midazolam - Yu 2018 (CYP3A5 s3,s3)",
-            "DDI Treatment - Rifampicin/Midazolam - Yu 2004 (CYP3A5 s3,s3)"
+            "DDI Treatment - Rifampicin/Midazolam - Yu 2004 (CYP3A5 s3,s3)",
+            "DDI Control - Midazolam - Wiesinger 2020",
+            "DDI Treatment - Rifampicin/Midazolam - Wiesinger 2020"
           ]
         },
         {
@@ -6627,7 +6651,9 @@
             "DDI Control - Midazolam - Kharasch 1997",
             "DDI Treatment - Rifampicin/Midazolam - Kharasch 1997",
             "DDI Control - Midazolam - Yu 2018 (CYP3A5 s3,s3)",
-            "DDI Treatment - Rifampicin/Midazolam - Yu 2004 (CYP3A5 s3,s3)"
+            "DDI Treatment - Rifampicin/Midazolam - Yu 2004 (CYP3A5 s3,s3)",
+            "DDI Control - Midazolam - Wiesinger 2020",
+            "DDI Treatment - Rifampicin/Midazolam - Wiesinger 2020"
           ]
         },
         {
@@ -6683,7 +6709,9 @@
             "DDI Control - Midazolam - Kharasch 1997",
             "DDI Treatment - Rifampicin/Midazolam - Kharasch 1997",
             "DDI Control - Midazolam - Yu 2018 (CYP3A5 s3,s3)",
-            "DDI Treatment - Rifampicin/Midazolam - Yu 2004 (CYP3A5 s3,s3)"
+            "DDI Treatment - Rifampicin/Midazolam - Yu 2004 (CYP3A5 s3,s3)",
+            "DDI Control - Midazolam - Wiesinger 2020",
+            "DDI Treatment - Rifampicin/Midazolam - Wiesinger 2020"
           ]
         },
         {
@@ -6739,7 +6767,9 @@
             "DDI Control - Midazolam - Kharasch 1997",
             "DDI Treatment - Rifampicin/Midazolam - Kharasch 1997",
             "DDI Control - Midazolam - Yu 2018 (CYP3A5 s3,s3)",
-            "DDI Treatment - Rifampicin/Midazolam - Yu 2004 (CYP3A5 s3,s3)"
+            "DDI Treatment - Rifampicin/Midazolam - Yu 2004 (CYP3A5 s3,s3)",
+            "DDI Control - Midazolam - Wiesinger 2020",
+            "DDI Treatment - Rifampicin/Midazolam - Wiesinger 2020"
           ]
         },
         {
@@ -6795,7 +6825,9 @@
             "DDI Control - Midazolam - Kharasch 1997",
             "DDI Treatment - Rifampicin/Midazolam - Kharasch 1997",
             "DDI Control - Midazolam - Yu 2018 (CYP3A5 s3,s3)",
-            "DDI Treatment - Rifampicin/Midazolam - Yu 2004 (CYP3A5 s3,s3)"
+            "DDI Treatment - Rifampicin/Midazolam - Yu 2004 (CYP3A5 s3,s3)",
+            "DDI Control - Midazolam - Wiesinger 2020",
+            "DDI Treatment - Rifampicin/Midazolam - Wiesinger 2020"
           ]
         },
         {
@@ -6851,7 +6883,9 @@
             "DDI Control - Midazolam - Kharasch 1997",
             "DDI Treatment - Rifampicin/Midazolam - Kharasch 1997",
             "DDI Control - Midazolam - Yu 2018 (CYP3A5 s3,s3)",
-            "DDI Treatment - Rifampicin/Midazolam - Yu 2004 (CYP3A5 s3,s3)"
+            "DDI Treatment - Rifampicin/Midazolam - Yu 2004 (CYP3A5 s3,s3)",
+            "DDI Control - Midazolam - Wiesinger 2020",
+            "DDI Treatment - Rifampicin/Midazolam - Wiesinger 2020"
           ]
         },
         {
@@ -6907,7 +6941,9 @@
             "DDI Control - Midazolam - Kharasch 1997",
             "DDI Treatment - Rifampicin/Midazolam - Kharasch 1997",
             "DDI Control - Midazolam - Yu 2018 (CYP3A5 s3,s3)",
-            "DDI Treatment - Rifampicin/Midazolam - Yu 2004 (CYP3A5 s3,s3)"
+            "DDI Treatment - Rifampicin/Midazolam - Yu 2004 (CYP3A5 s3,s3)",
+            "DDI Control - Midazolam - Wiesinger 2020",
+            "DDI Treatment - Rifampicin/Midazolam - Wiesinger 2020"
           ]
         },
         {
@@ -6963,7 +6999,9 @@
             "DDI Control - Midazolam - Kharasch 1997",
             "DDI Treatment - Rifampicin/Midazolam - Kharasch 1997",
             "DDI Control - Midazolam - Yu 2018 (CYP3A5 s3,s3)",
-            "DDI Treatment - Rifampicin/Midazolam - Yu 2004 (CYP3A5 s3,s3)"
+            "DDI Treatment - Rifampicin/Midazolam - Yu 2004 (CYP3A5 s3,s3)",
+            "DDI Control - Midazolam - Wiesinger 2020",
+            "DDI Treatment - Rifampicin/Midazolam - Wiesinger 2020"
           ]
         },
         {
@@ -7019,7 +7057,9 @@
             "DDI Control - Midazolam - Kharasch 1997",
             "DDI Treatment - Rifampicin/Midazolam - Kharasch 1997",
             "DDI Control - Midazolam - Yu 2018 (CYP3A5 s3,s3)",
-            "DDI Treatment - Rifampicin/Midazolam - Yu 2004 (CYP3A5 s3,s3)"
+            "DDI Treatment - Rifampicin/Midazolam - Yu 2004 (CYP3A5 s3,s3)",
+            "DDI Control - Midazolam - Wiesinger 2020",
+            "DDI Treatment - Rifampicin/Midazolam - Wiesinger 2020"
           ]
         },
         {
@@ -7075,7 +7115,9 @@
             "DDI Control - Midazolam - Kharasch 1997",
             "DDI Treatment - Rifampicin/Midazolam - Kharasch 1997",
             "DDI Control - Midazolam - Yu 2018 (CYP3A5 s3,s3)",
-            "DDI Treatment - Rifampicin/Midazolam - Yu 2004 (CYP3A5 s3,s3)"
+            "DDI Treatment - Rifampicin/Midazolam - Yu 2004 (CYP3A5 s3,s3)",
+            "DDI Control - Midazolam - Wiesinger 2020",
+            "DDI Treatment - Rifampicin/Midazolam - Wiesinger 2020"
           ]
         },
         {
@@ -7131,7 +7173,9 @@
             "DDI Control - Midazolam - Kharasch 1997",
             "DDI Treatment - Rifampicin/Midazolam - Kharasch 1997",
             "DDI Control - Midazolam - Yu 2018 (CYP3A5 s3,s3)",
-            "DDI Treatment - Rifampicin/Midazolam - Yu 2004 (CYP3A5 s3,s3)"
+            "DDI Treatment - Rifampicin/Midazolam - Yu 2004 (CYP3A5 s3,s3)",
+            "DDI Control - Midazolam - Wiesinger 2020",
+            "DDI Treatment - Rifampicin/Midazolam - Wiesinger 2020"
           ]
         }
       ]
@@ -9626,36 +9670,6 @@
       },
       {
         "SectionId": 317,
-        "Title": "Eap 2004 (0.075 mg)",
-        "SimulationDuration": 12,
-        "TimeUnit": "h",
-        "OutputMappings": [
-          {
-            "Project": "Rifampicin-Midazolam-DDI",
-            "Simulation": "DDI Control - Midazolam - Eap 2004 (0.075 mg)",
-            "Output": "Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
-            "ObservedData": "Eap 2004 - 0.075 mg Control (Perpetrator Placebo) - Midazolam - PO - 0.075 mg - Plasma - agg. (n=21)",
-            "StartTime": 0,
-            "TimeUnit": "h",
-            "Color": "#2166ac",
-            "Caption": "Control (without Rifampicin)",
-            "Symbol": "Circle"
-          },
-          {
-            "Project": "Rifampicin-Midazolam-DDI",
-            "Simulation": "DDI Treatment - Rifampicin/Midazolam - Eap 2004",
-            "Output": "Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
-            "ObservedData": "Eap 2004 - 0.075 mg with Perpetrator (Rifampicin) - Midazolam - PO - 0.075 mg - Plasma - agg. (n=4)",
-            "StartTime": 90,
-            "TimeUnit": "h",
-            "Color": "#b2182b",
-            "Caption": "Treatment (with Rifampicin)",
-            "Symbol": "Square"
-          }
-        ]
-      },
-      {
-        "SectionId": 317,
         "Title": "Eap 2004 (7.5 mg)",
         "SimulationDuration": 12,
         "TimeUnit": "h",
@@ -10338,6 +10352,47 @@
             "TimeUnit": "h",
             "Color": "#b2182b",
             "Caption": "Treatment (with Rifampicin)",
+            "Symbol": "Square"
+          }
+        ]
+      },
+      {
+        "SectionId": 317,
+        "Title": "Wiesinger 2020",
+        "SimulationDuration": 24,
+        "TimeUnit": "h",
+        "OutputMappings": [
+          {
+            "Project": "Rifampicin-Midazolam-DDI",
+            "Simulation": "DDI Control - Midazolam - Wiesinger 2020",
+            "Output": "Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
+            "ObservedData": "Wiesinger 2020 - Control phase (no RIF) - Midazolam - PO - 1 mg - Plasma - agg. (n=65)",
+            "StartTime": 0,
+            "TimeUnit": "h",
+            "Color": "#2166ac",
+            "Caption": "Control (without Rifampicin)",
+            "Symbol": "Circle"
+          },
+          {
+            "Project": "Rifampicin-Midazolam-DDI",
+            "Simulation": "DDI Treatment - Rifampicin/Midazolam - Wiesinger 2020",
+            "Output": "Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
+            "ObservedData": "Wiesinger 2020 - Weak-induction phase (RIF 10 mg) - Midazolam - PO - 1 mg - Plasma - agg. (n=65)",
+            "StartTime": 180,
+            "TimeUnit": "h",
+            "Color": "#c54a4a",
+            "Caption": "Treatment (low dose 10 mg Rifampicin)",
+            "Symbol": "Square"
+          },
+          {
+            "Project": "Rifampicin-Midazolam-DDI",
+            "Simulation": "DDI Treatment - Rifampicin/Midazolam - Wiesinger 2020",
+            "Output": "Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
+            "ObservedData": "Wiesinger 2020 - Strong-induction phase (RIF 600 mg) - Midazolam - PO - 1 mg - Plasma - agg. (n=65)",
+            "StartTime": 444,
+            "TimeUnit": "h",
+            "Color": "#b2182b",
+            "Caption": "Treatment (high dose 600 mg Rifampicin)",
             "Symbol": "Square"
           }
         ]
@@ -12499,25 +12554,6 @@
               {
                 "Output": "Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
                 "ObservedData": "DDI Ratios",
-                "ObservedDataRecordId": 129,
-                "SimulationControl": {
-                  "Project": "Rifampicin-Midazolam-DDI",
-                  "Simulation": "DDI Control - Midazolam - Eap 2004 (0.075 mg)",
-                  "StartTime": 0,
-                  "EndTime": 9999,
-                  "TimeUnit": "h"
-                },
-                "SimulationDDI": {
-                  "Project": "Rifampicin-Midazolam-DDI",
-                  "Simulation": "DDI Treatment - Rifampicin/Midazolam - Eap 2004",
-                  "StartTime": 90,
-                  "EndTime": 114,
-                  "TimeUnit": "h"
-                }
-              },
-              {
-                "Output": "Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
-                "ObservedData": "DDI Ratios",
                 "ObservedDataRecordId": 132,
                 "SimulationControl": {
                   "Project": "Rifampicin-Midazolam-DDI",
@@ -12799,6 +12835,44 @@
                   "EndTime": 162,
                   "TimeUnit": "h"
                 }
+              },
+              {
+                "Output": "Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
+                "ObservedData": "DDI Ratios",
+                "ObservedDataRecordId": 204,
+                "SimulationControl": {
+                  "Project": "Rifampicin-Midazolam-DDI",
+                  "Simulation": "DDI Control - Midazolam - Wiesinger 2020",
+                  "StartTime": 0,
+                  "EndTime": 9999,
+                  "TimeUnit": "h"
+                },
+                "SimulationDDI": {
+                  "Project": "Rifampicin-Midazolam-DDI",
+                  "Simulation": "DDI Treatment - Rifampicin/Midazolam - Wiesinger 2020",
+                  "StartTime": 180,
+                  "EndTime": 444,
+                  "TimeUnit": "h"
+                }
+              },
+              {
+                "Output": "Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
+                "ObservedData": "DDI Ratios",
+                "ObservedDataRecordId": 205,
+                "SimulationControl": {
+                  "Project": "Rifampicin-Midazolam-DDI",
+                  "Simulation": "DDI Control - Midazolam - Wiesinger 2020",
+                  "StartTime": 0,
+                  "EndTime": 9999,
+                  "TimeUnit": "h"
+                },
+                "SimulationDDI": {
+                  "Project": "Rifampicin-Midazolam-DDI",
+                  "Simulation": "DDI Treatment - Rifampicin/Midazolam - Wiesinger 2020",
+                  "StartTime": 444,
+                  "EndTime": 9999,
+                  "TimeUnit": "h"
+                }
               }
             ]
           },
@@ -12946,12 +13020,12 @@
     {
       "Id": 2,
       "Title": "2 Qualification of Use Case CYP3A4-mediated DDI",
-      "Content": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Qualification-text-modules/master/Empty.md"
+      "Content": "Content/Intro_evaluation_DDI_network.md"
     },
     {
       "Id": 3,
       "Title": "3 Concentration-Time Profiles",
-      "Content": "Content/Intro_evaluation_DDI_network.md",
+      "Content": "Content/Intro_evaluation_CTprofiles.md",
       "Sections": [
         {
           "Id": 301,
