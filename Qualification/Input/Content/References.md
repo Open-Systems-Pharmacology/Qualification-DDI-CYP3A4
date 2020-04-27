@@ -6,7 +6,7 @@
 
 
 
-## ***Clarithromycin-Midazolam-DDI***
+## Clarithromycin-Midazolam-DDI
 
 **Gorski 1998** Gorski, J. C., Jones, D. R., Haehner‐Daniels, B. D., Hamman, M. A., O'Mara Jr, E. M., & Hall, S. D. (1998). The contribution of intestinal and hepatic CYP3A to the interaction between midazolam and clarithromycin. *Clinical Pharmacology & Therapeutics*, *64*(2), 133-143.
 
@@ -26,13 +26,13 @@
 
 
 
-## ***Clarithromycin-Triazolam-DDI***
+## Clarithromycin-Triazolam-DDI
 
 **Greenblatt 1998a** Greenblatt DJ, von Moltke LL, Harmatz JS, Counihan M, Graf JA, Durol AL, Mertzanis P, Duan SX, Wright CE, Shader RI. Inhibition of triazolam clearance by macrolide antimicrobial agents: in vitro correlates and dynamic consequences. Clin Pharmacol Ther. 1998 Sep;64(3):278-85.
 
 
 
-## ***Erythromycin-Alfentanil-DDI***
+## Erythromycin-Alfentanil-DDI
 
 **Bartkowski 1989** Bartkowski, R. R., Goldberg, M. E., Larijani, G. E., & Boerner, T. (1989). Inhibition of alfentanil metabolism by erythromycin. *Clinical Pharmacology & Therapeutics*, *46*(1), 99-102.
 
@@ -40,13 +40,13 @@
 
 
 
-## ***Erythromycin-Alprazolam-DDI***
+## Erythromycin-Alprazolam-DDI
 
 **Yasui 1996** Yasui, N., Otani, K., Kaneko, S., Ohkubo, T., Osanai, T., Sugawara, K., ... & Ishizaki, T. (1996). A kinetic and dynamic study of oral alprazolam with and without erythromycin in humans: in vivo evidence for the involvement of CYP3A4 in alprazolam metabolism. *Clinical Pharmacology & Therapeutics*, *59*(5), 514-519.
 
 
 
-## ***Erythromycin-Midazolam-DDI***
+## Erythromycin-Midazolam-DDI
 
 **Carls 2014** Carls, A., Jedamzik, J., Witt, L., Hohmann, N., Burhenne, J., & Mikus, G. (2014). Systemic exposure of topical erythromycin in comparison to oral administration and the effect on cytochrome P450 3A4 activity. *British journal of clinical pharmacology*, *78*(6), 1433-1440.
 
@@ -60,7 +60,7 @@
 
 
 
-## ***Erythromycin-Triazolam-DDI***
+## Erythromycin-Triazolam-DDI
 
 **Greenblatt 1998** Greenblatt, D. J., von Moltke, L. L., Harmatz, J. S., Counihan, M., Graf, J. A., Durol, A. L. B., ... & Shader, R. I. (1998). Inhibition of triazolam clearance by macrolide antimicrobial agents: in vitro correlates and dynamic consequences. *Clinical Pharmacology & Therapeutics*, *64*(3), 278-285.
 
@@ -68,7 +68,7 @@
 
 
 
-## ***Fluvoxamine-Midazolam-DDI***
+## Fluvoxamine-Midazolam-DDI
 
 **Kashuba 1998** Kashuba AD1, Nafziger AN, Kearns GL, Leeder JS, Gotschall R, Rocci ML Jr, Kulawy RW, Beck DJ, Bertino JS Jr. Effect of fluvoxamine therapy on the activities of CYP1A2, CYP2D6, and CYP3A as determined by phenotyping. Clin Pharmacol Ther. 1998 Sep;64(3):257-68.
 
@@ -76,19 +76,19 @@
 
 
 
-## ***Fluvoxamine-Alprazolam-DDI***
+## Fluvoxamine-Alprazolam-DDI
 
 **Fleishaker 1994** Fleishaker, J. C., & Hulst, L. K. (1994). A pharmacokinetic and pharmacodynamic evaluation of the combined administration of alprazolam and fluvoxamine. *European journal of clinical pharmacology*, *46*(1), 35-39.
 
 
 
-## ***Itraconazole-Alprazolam-DDI***
+## Itraconazole-Alprazolam-DDI
 
 **Yasui 1998** Yasui  N, Kondo T, Otani K, Furukori H, Kaneko S, Ohkubo T, Nagasaki T, Sugawara K.  Effect of itraconazole on the single oral dose pharmacokinetics and  pharmacodynamics of alprazolam. Psychopharmacology (Berl). 1998  Oct;139(3):269-73.
 
 
 
-## ***Itraconazole-Midazolam-DDI***
+## Itraconazole-Midazolam-DDI
 
 **Ahonen 1995** Ahonen J, Olkkola KT, Neuvonen PJ. Effect of itraconazole and terbinafine on the pharmacokinetics and pharmacodynamics of midazolam in healthy volunteers. Br J Clin Pharmacol. 1995 Sep;40(3):270-2.
 
@@ -106,7 +106,7 @@
 
 
 
-## ***Itraconazole-Triazolam-DDI***
+## Itraconazole-Triazolam-DDI
 
 **Neuvonen 1996** Neuvonen PJ, Varhe A, Olkkola KT. The effect of ingestion time interval on the interaction between itraconazole and triazolam. Clin Pharmacol Ther. 1996 Sep;60(3):326-31.
 
@@ -114,7 +114,7 @@
 
 
 
-## ***Verapamil-Midazolam-DDI***
+## Verapamil-Midazolam-DDI
 
 **Backman 1994** Backman JT, Olkkola KT, Aranko K, Himberg JJ, Neuvonen PJ. Dose of midazolam should be reduced during diltiazem and verapamil treatments. Br J Clin Pharmacol. 1994 Mar;37(3):221-5.
 
@@ -122,13 +122,13 @@
 
 
 
-## ***Efavirenz-Alfentanil-DDI***
+## Efavirenz-Alfentanil-DDI
 
 **Kharasch 2012** Kharasch ED, Whittington D, Ensign D, Hoffer C, Bedynek PS, Campbell S, Stubbert K, Crafford A, London A, Kim T. Mechanism of efavirenz influence on methadone pharmacokinetics and pharmacodynamics. Clin Pharmacol Ther. 2012 Apr;91(4):673-84.
 
 
 
-## ***Efavirenz-Midazolam-DDI***
+## Efavirenz-Midazolam-DDI
 
 **Katzenmaier 2010** Katzenmaier S, Markert C, Mikus G. Proposal of a new limited sampling strategy to predict CYP3A activity using a partial AUC of midazolam. Eur J Clin Pharmacol. 2010 Nov;66(11):1137-41.
 
@@ -136,7 +136,7 @@
 
 
 
-## ***Rifampicin-Alfentanil-DDI***
+## Rifampicin-Alfentanil-DDI
 
 **Kharasch 1997** Kharasch ED, Russell M, Mautz D, Thummel KE, Kunze KL, Bowdle A, Cox K. The role of cytochrome P450 3A4 in alfentanil clearance. Implications for interindividual variability in disposition and perioperative drug interactions. Anesthesiology. 1997 Jul;87(1):36-50.
 
@@ -150,7 +150,7 @@
 
 
 
-## ***Rifampicin-Alprazolam-DDI***
+## Rifampicin-Alprazolam-DDI
 
 **Gashaw 2003** Gashaw, I., Kirchheiner, J., Goldammer, M., Bauer, S., Seidemann, J., Zoller, K., ... & Brockmöller, J. (2003). Cytochrome p450 3A4 messenger ribonucleic acid induction by rifampin in human peripheral blood mononuclear cells: correlation with alprazolam pharmacokinetics. *Clinical Pharmacology & Therapeutics*, *74*(5), 448-457.
 
@@ -158,7 +158,7 @@
 
 
 
-## ***Rifampicin-Midazolam-DDI***
+## Rifampicin-Midazolam-DDI
 
 **Backman 1996** Backman JT, Olkkola KT, Neuvonen PJ. Rifampin drastically reduces plasma concentrations and effects of oral midazolam. Clin Pharmacol Ther. 1996 Jan;59(1):7-13.
 
@@ -204,7 +204,7 @@
 
 
 
-## ***Rifampicin-Triazolam-DDI***
+## Rifampicin-Triazolam-DDI
 
 **Villikka 1997** Villikka, K., Kivistö, K. T., Backman, J. T., Olkkola, K. T., & Neuvonen, P. J. (1997). Triazolam is ineffective in patients taking rifampin. *Clinical Pharmacology & Therapeutics*, *61*(1), 8-14.
 

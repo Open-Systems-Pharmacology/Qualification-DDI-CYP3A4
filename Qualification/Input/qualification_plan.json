@@ -3,7 +3,7 @@
   "Projects": [
     {
       "Id": "Alfentanil",
-      "Path": "https://raw.githubusercontent.com/TWendl/Alfentanil-Model/master/Alfentanil.json"
+      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Alfentanil-Model/master/Alfentanil.json"
     },
     {
       "Id": "Alprazolam",
@@ -10382,7 +10382,7 @@
             "TimeUnit": "h",
             "Color": "#c54a4a",
             "Caption": "Treatment (low dose 10 mg Rifampicin)",
-            "Symbol": "Square"
+            "Symbol": "Triangle"
           },
           {
             "Project": "Rifampicin-Midazolam-DDI",
