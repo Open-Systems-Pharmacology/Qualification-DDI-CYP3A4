@@ -1,5 +1,5 @@
-The respective model repository can be found in:
-https://github.com/Open-Systems-Pharmacology/Clarithromycin-Midazolam-DDI
+The release of the repository containing the respective simulations can be found here:
+https://github.com/Open-Systems-Pharmacology/Clarithromycin-Midazolam-DDI/releases/tag/v1.0.
 
 The clarithromycin-midazolam interaction was evaluated using eight clinical DDI studies quantifying the interaction following ten different dosing regimens ([Gorski 1998](#4-References), [Gurley 2006](#4-References), [Gurley 2008a](#4-References), [Markert 2013](#4-References), [Prueksaritanont 2017](#4-References), [Quinney 2008](#4-References), [van Dyk 2018](#4-References), [Yeates 1997](#4-References)).
 

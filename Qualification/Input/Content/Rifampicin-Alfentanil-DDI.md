@@ -1,5 +1,5 @@
-The respective model repository can be found in:
-https://github.com/Open-Systems-Pharmacology/Rifampicn-Alfentanil-DDI
+The release of the repository containing the respective simulations can be found here:
+https://github.com/Open-Systems-Pharmacology/Rifampicn-Alfentanil-DDI/releases/tag/v1.0.
 
 The  rifampicin / midazolam interaction was evaluated using 5 clinical DDI studies including 16 different clinical settings ([Kharasch 1997](#4-References), [Kharasch 2004](#4-References), [Kharasch 2011](#4-References), [Kharasch 2011b](#4-References), [Phimmasone 2001](#4-References)).
 

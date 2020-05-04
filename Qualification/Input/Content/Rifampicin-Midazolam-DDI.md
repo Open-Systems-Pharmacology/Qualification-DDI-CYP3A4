@@ -1,5 +1,5 @@
-The respective model repository can be found in:
-https://github.com/Open-Systems-Pharmacology/Rifampicin-Midazolam-DDI
+The release of the repository containing the respective simulations can be found here:
+https://github.com/Open-Systems-Pharmacology/Rifampicin-Midazolam-DDI/releases/tag/v1.0.
 
 The  rifampicin / midazolam interaction was evaluated using 21 clinical DDI studies including 35 different clinical settings ([Backman 1996](#4-References), [Backman 1998](#4-References), [Chung 2006](#4-References), [Eap 2004](#4-References), [Gorski 2003](#4-References), [Gurley 2006](#4-References), [Gurley 2008a](#4-References), [Kharasch 1997](#4-References), [Kharasch 2004](#4-References), [Kharasch 2011](#4-References), [Kim 2018](#4-References), [Link 2008](#4-References), [Phimmasone 2001](#4-References), [Prueksaritanont 2017](#4-References), [Reitman 2011](#4-References), [Shin 2013](#4-References), [Shin 2016](#4-References), [Szalat 2007](#4-References), [van Dyk 2018](#4-References), [Wiesinger 2011](#4-References), [Yu 2004](#4-References)).
 

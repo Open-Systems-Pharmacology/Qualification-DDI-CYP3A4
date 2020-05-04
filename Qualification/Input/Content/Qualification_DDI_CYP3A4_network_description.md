@@ -2,47 +2,45 @@
 To qualify the OSP suite for the prediction of the CYP3A4 DDI potential of new drugs, a set of verified PBPK models of index perpetrators, covering the range from strong CYP3A4 induction to strong inhibition, and respective CYP3A4 DDI victim drugs is specified to set up a CYP3A4-mediated DDI modeling network. 
 
 
-
 The following perpetrator compounds were selected: 
 
--	**Rifampicin** (strong CYP3A4 inducer)
-  -	Evaluation Report Release: **v1.0**, https://github.com/Open-Systems-Pharmacology/Model-and-Qualification-Releases/releases/tag/v1.0
-  -	Snapshot Release: **v1.0**, https://github.com/Open-Systems-Pharmacology/Rifampicin-Model
--	**Efavirenz** (moderate CYP3A4 inducer)
-  -	Evaluation Report Release: **v1.0**, https://github.com/Open-Systems-Pharmacology/Model-and-Qualification-Releases/releases/tag/v1.0
-  -	Snapshot Release: **v1.0**, https://github.com/Open-Systems-Pharmacology/Efavirenz-Model
--	**Fluvoxamine** (weak/moderate CYP3A4 inhibitor)
-  -	Evaluation Report Release: **v1.0**, https://github.com/Open-Systems-Pharmacology/Model-and-Qualification-Releases/releases/tag/v1.0
-  -	Snapshot Release: **v1.0**, https://github.com/Open-Systems-Pharmacology/Fluvoxamine-Model
--	**Verapamil** (moderate CYP3A4 inhibitor)
-  -	Evaluation Report Release: **v1.0**, https://github.com/Open-Systems-Pharmacology/Model-and-Qualification-Releases/releases/tag/v1.0
-  -	Snapshot Release: **v1.0**, https://github.com/Open-Systems-Pharmacology/Verapamil-Model
--	**Erythromycin** (moderate CYP3A4 inhibitor)
-  -	Evaluation Report Release: **v1.0**, https://github.com/Open-Systems-Pharmacology/Model-and-Qualification-Releases/releases/tag/v1.0
-  -	Snapshot Release: **v1.0**, https://github.com/Open-Systems-Pharmacology/Erythromycin-Model
--	**Clarithromycin** (strong CYP 3A4 inhibitor)
-  -	Evaluation Report Release: **v1.0**, https://github.com/Open-Systems-Pharmacology/Model-and-Qualification-Releases/releases/tag/v1.0
-  -	Snapshot Release: **v1.0**, https://github.com/Open-Systems-Pharmacology/Clarithromycin-Model
--	**Itraconazole** including metabolites (strong CYP3A4 inhibitor)
-  -	Evaluation Report Release: **v1.0**, https://github.com/Open-Systems-Pharmacology/Model-and-Qualification-Releases/releases/tag/v1.0
-  -	Snapshot Release: **v1.0**, https://github.com/Open-Systems-Pharmacology/Itraconazole-Model
-
+- **Rifampicin** (strong CYP3A4 inducer)
+  - Model file and evaluation report (*release* **v1.0**): TODO
+  - Model snapshot and evaluation plan (*release* **v1.0**): https://github.com/Open-Systems-Pharmacology/Rifampicin-Model/releases/tag/v1.0
+- **Efavirenz** (moderate CYP3A4 inducer)
+  - Model file and evaluation report (*release* **v1.0**): TODO
+  - Model snapshot and evaluation plan (*release* **v1.0**): https://github.com/Open-Systems-Pharmacology/Efavirenz-Model/releases/tag/v1.0
+- **Fluvoxamine** (weak/moderate CYP3A4 inhibitor)
+  - Model file and evaluation report (*release* **v1.0**): TODO
+  - Model snapshot and evaluation plan (*release* **v1.0**): https://github.com/Open-Systems-Pharmacology/Fluvoxamine-Model/releases/tag/v1.0
+- **Verapamil** (moderate CYP3A4 inhibitor)
+  - Model file and evaluation report (*release* **v1.0**): TODO
+  - Model snapshot and evaluation plan (*release* **v1.0**): https://github.com/Open-Systems-Pharmacology/Verapamil-Model/releases/tag/v1.0
+- **Erythromycin** (moderate CYP3A4 inhibitor)
+  - Model file and evaluation report (*release* **v1.0**): TODO
+  - Model snapshot and evaluation plan (*release* **v1.0**): https://github.com/Open-Systems-Pharmacology/Erythromycin-Model/releases/tag/v1.0
+- **Clarithromycin** (strong CYP 3A4 inhibitor)
+  - Model file and evaluation report (*release* **v1.0**): TODO
+  - Model snapshot and evaluation plan (*release* **v1.0**): https://github.com/Open-Systems-Pharmacology/Clarithromycin-Model/releases/tag/v1.0
+- **Itraconazole** including metabolites (strong CYP3A4 inhibitor)
+  - Model file and evaluation report (*release* **v1.0**): TODO
+  - Model snapshot and evaluation plan (*release* **v1.0**): https://github.com/Open-Systems-Pharmacology/Itraconazole-Model/releases/tag/v1.0
 
 
 The following sensitive CYP3A4 substrates as victim drugs were selected:
 
--	**Midazolam**
-  -	Evaluation Report Release: **v1.0**, https://github.com/Open-Systems-Pharmacology/Model-and-Qualification-Releases/releases/tag/v1.0
-  -	Snapshot Release: **v1.0**, https://github.com/Open-Systems-Pharmacology/Midazolam-Model
--	**Triazolam**
-  -	Evaluation Report Release: **v1.0**, https://github.com/Open-Systems-Pharmacology/Model-and-Qualification-Releases/releases/tag/v1.0
-  -	Snapshot Release: **v1.0**, https://github.com/Open-Systems-Pharmacology/Triazolam-Model
--	**Alprazolam**
-  -	Evaluation Report Release: **v1.0**, https://github.com/Open-Systems-Pharmacology/Model-and-Qualification-Releases/releases/tag/v1.0
-  -	Snapshot Release: **v1.0**, https://github.com/Open-Systems-Pharmacology/Alprazolam-Model
--	**Alfentanil**
-  -	Evaluation Report Release: **v1.0**, https://github.com/Open-Systems-Pharmacology/Model-and-Qualification-Releases/releases/tag/v1.0
-  -	Snapshot Release: **v1.0**, https://github.com/Open-Systems-Pharmacology/Alfentanil-Model
+- **Midazolam**
+  - Model file and evaluation report (*release* **v1.0**): TODO
+  - Model snapshot and evaluation plan (*release* **v1.0**): https://github.com/Open-Systems-Pharmacology/Midazolam-Model/releases/tag/v1.0
+- **Triazolam**
+  - Model file and evaluation report (*release* **v1.0**): TODO
+  - Model snapshot and evaluation plan (*release* **v1.0**): https://github.com/Open-Systems-Pharmacology/Triazolam-Model/releases/tag/v1.0
+- **Alprazolam**
+  - Model file and evaluation report (*release* **v1.0**): TODO
+  - Model snapshot and evaluation plan (*release* **v1.0**): https://github.com/Open-Systems-Pharmacology/Alprazolam-Model/releases/tag/v1.0
+- **Alfentanil**
+  - Model file and evaluation report (*release* **v1.0**): TODO
+  - Model snapshot and evaluation plan (*release* **v1.0**): https://github.com/Open-Systems-Pharmacology/Alfentanil-Model/releases/tag/v1.0
 
 
 
