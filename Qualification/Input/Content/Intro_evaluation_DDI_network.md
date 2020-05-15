@@ -8,7 +8,7 @@ Specifically, the PBPK model performance for the PK parameters **AUC ratio (AUCR
 
 - geometric mean fold error (GMFE):
   
-  ![GMFE equation](/images/GFME_equation.PNG)
+  ![GMFE equation](images/GFME_equation.PNG)
   
 - number of AUCR and CMAXR falling within 2-fold error range and within the limits as suggested by [Guest et al. 2011](#4-References)
   
