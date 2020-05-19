@@ -3,11 +3,17 @@
 
 
 
-| Version                         | 1.0                                                          |
+| Version                         | x.x-OSPy.y                                                   |
 | ------------------------------- | ------------------------------------------------------------ |
-| Link to Release                 | https://github.com/Open-Systems-Pharmacology/Model-and-Qualification-Releases/releases/tag/v1.0 |
-| Qualification Plan Release      | 1.0<br />(https://github.com/Open-Systems-Pharmacology/Qualification-DDI-CYP3A4/releases/tag/v1.0) |
-| OSP Version                     | 8.0                                                          |
-| Qualification Framework Version | 2.1                                                          |
-| Author                          | Sebastian Frechen ([sfrechen](https://github.com/sfrechen))<br />André Dallmann ([AndreDlm](https://github.com/AndreDlm))<br />Thomas Wendl ([TWendl](https://github.com/TWendl)) |
+| Qualification Plan Release      | https://github.com/Open-Systems-Pharmacology/Qualification-DDI-CYP3A4/releases/tag/vx.x |
+| OSP Database for observed data  | https://github.com/Open-Systems-Pharmacology/Database-for-observed-data/releases/tag/va.a |
+| OSP Version                     | y.y                                                          |
+| Qualification Framework Version | z.z                                                          |
 
+
+
+
+
+This qualification report is filed at:
+
+https://github.com/Open-Systems-Pharmacology/OSP-Qualification-Reports
