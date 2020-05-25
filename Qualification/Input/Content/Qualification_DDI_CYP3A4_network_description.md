@@ -24,7 +24,7 @@ The following perpetrator compounds were selected:
   - Model snapshot and evaluation plan (*release* **v1.0**): https://github.com/Open-Systems-Pharmacology/Clarithromycin-Model/releases/tag/v1.0
 - **Itraconazole** including metabolites (strong CYP3A4 inhibitor)
   - Model file and evaluation report (*release* **v1.0**): TODO
-  - Model snapshot and evaluation plan (*release* **v1.0**): https://github.com/Open-Systems-Pharmacology/Itraconazole-Model/releases/tag/v1.0
+  - Model snapshot and evaluation plan (*release* **v1.1**): https://github.com/Open-Systems-Pharmacology/Itraconazole-Model/releases/tag/v1.0
 
 
 The following sensitive CYP3A4 substrates as victim drugs were selected:
@@ -40,7 +40,7 @@ The following sensitive CYP3A4 substrates as victim drugs were selected:
   - Model snapshot and evaluation plan (*release* **v1.0**): https://github.com/Open-Systems-Pharmacology/Alprazolam-Model/releases/tag/v1.0
 - **Alfentanil**
   - Model file and evaluation report (*release* **v1.0**): TODO
-  - Model snapshot and evaluation plan (*release* **v1.0**): https://github.com/Open-Systems-Pharmacology/Alfentanil-Model/releases/tag/v1.0
+  - Model snapshot and evaluation plan (*release* **v2.0**): https://github.com/Open-Systems-Pharmacology/Alfentanil-Model/releases/tag/v1.0
 
 
 

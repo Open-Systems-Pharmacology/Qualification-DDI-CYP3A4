@@ -3,51 +3,51 @@
   "Projects": [
     {
       "Id": "Alfentanil",
-      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Alfentanil-Model/master/Alfentanil-Model.json"
+      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Alfentanil-Model/v2.0/Alfentanil-Model.json"
     },
     {
       "Id": "Alprazolam",
-      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Alprazolam-Model/master/Alprazolam-Model.json"
+      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Alprazolam-Model/v1.0/Alprazolam-Model.json"
     },
     {
       "Id": "Clarithromycin",
-      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Clarithromycin-Model/master/Clarithromycin-Model.json"
+      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Clarithromycin-Model/v1.0/Clarithromycin-Model.json"
     },
     {
       "Id": "Efavirenz",
-      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Efavirenz-Model/master/Efavirenz-Model.json"
+      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Efavirenz-Model/v1.0/Efavirenz-Model.json"
     },
     {
       "Id": "Erythromycin",
-      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Erythromycin-Model/master/Erythromycin-Model.json"
+      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Erythromycin-Model/v1.0/Erythromycin-Model.json"
     },
     {
       "Id": "Fluvoxamine",
-      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Fluvoxamine-Model/master/Fluvoxamine-Model.json"
+      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Fluvoxamine-Model/v1.0/Fluvoxamine-Model.json"
     },
     {
       "Id": "Itraconazole",
-      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Itraconazole-Model/master/Itraconazole-Model.json"
+      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Itraconazole-Model/v1.1/Itraconazole-Model.json"
     },
     {
       "Id": "Midazolam",
-      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Midazolam-Model/master/Midazolam-Model.json"
+      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Midazolam-Model/v1.0/Midazolam-Model.json"
     },
     {
       "Id": "Rifampicin",
-      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Rifampicin-Model/master/Rifampicin-Model.json"
+      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Rifampicin-Model/v1.0/Rifampicin-Model.json"
     },
     {
       "Id": "Triazolam",
-      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Triazolam-Model/master/Triazolam-Model.json"
+      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Triazolam-Model/v1.0/Triazolam-Model.json"
     },
     {
       "Id": "Verapamil",
-      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Verapamil-Model/master/Verapamil-Model.json"
+      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Verapamil-Model/v1.0/Verapamil-Model.json"
     },
     {
       "Id": "Clarithromycin-Midazolam-DDI",
-      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Clarithromycin-Midazolam-DDI/master/Clarithromycin-Midazolam-DDI.json",
+      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Clarithromycin-Midazolam-DDI/v1.0/Clarithromycin-Midazolam-DDI.json",
       "BuildingBlocks": [
         {
           "Type": "Compound",
@@ -730,7 +730,7 @@
     },
     {
       "Id": "Clarithromycin-Triazolam-DDI",
-      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Clarithromycin-Triazolam-DDI/master/Clarithromycin-Triazolam_DDI.json",
+      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Clarithromycin-Triazolam-DDI/v1.0/Clarithromycin-Triazolam_DDI.json",
       "BuildingBlocks": [
         {
           "Type": "Compound",
@@ -972,7 +972,7 @@
     },
     {
       "Id": "Erythromycin-Alfentanil-DDI",
-      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Erythromycin-Alfentanil-DDI/master/Erythromycin-Alfentanil-DDI.json",
+      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Erythromycin-Alfentanil-DDI/v1.0/Erythromycin-Alfentanil-DDI.json",
       "BuildingBlocks": [
         {
           "Type": "Compound",
@@ -1215,7 +1215,7 @@
     },
     {
       "Id": "Erythromycin-Alprazolam-DDI",
-      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Erythromycin-Alprazolam-DDI/master/Erythromycin-Alprazolam-DDI.json",
+      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Erythromycin-Alprazolam-DDI/v1.0/Erythromycin-Alprazolam-DDI.json",
       "BuildingBlocks": [
         {
           "Type": "Individual",
@@ -1451,7 +1451,7 @@
     },
     {
       "Id": "Erythromycin-Midazolam-DDI",
-      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Erythromycin-Midazolam-DDI/master/Erythromycin-Midazolam-DDI.json",
+      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Erythromycin-Midazolam-DDI/v1.0/Erythromycin-Midazolam-DDI.json",
       "BuildingBlocks": [
         {
           "Type": "Compound",
@@ -1978,7 +1978,7 @@
     },
     {
       "Id": "Erythromycin-Triazolam-DDI",
-      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Erythromycin-Triazolam-DDI/master/Erythromycin-Triazolam-DDI.json",
+      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Erythromycin-Triazolam-DDI/v1.0/Erythromycin-Triazolam-DDI.json",
       "BuildingBlocks": [
         {
           "Type": "Compound",
@@ -2248,7 +2248,7 @@
     },
     {
       "Id": "Fluvoxamine-Alprazolam-DDI",
-      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Fluvoxamine-Alprazolam-DDI/master/Fluvoxamine-Alprazolam-DDI.json",
+      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Fluvoxamine-Alprazolam-DDI/v1.0/Fluvoxamine-Alprazolam-DDI.json",
       "BuildingBlocks": [
         {
           "Type": "Compound",
@@ -2474,7 +2474,7 @@
     },
     {
       "Id": "Fluvoxamine-Midazolam-DDI",
-      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Fluvoxamine-Midazolam-DDI/master/Fluvoxamine-Midazolam-DDI.json",
+      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Fluvoxamine-Midazolam-DDI/v1.0/Fluvoxamine-Midazolam-DDI.json",
       "BuildingBlocks": [
         {
           "Type": "Compound",
@@ -2734,7 +2734,7 @@
     },
     {
       "Id": "Itraconazole-Alprazolam-DDI",
-      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Itraconazole-Alprazolam-DDI/master/Itraconazole-Alprazolam-DDI.json",
+      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Itraconazole-Alprazolam-DDI/v1.0/Itraconazole-Alprazolam-DDI.json",
       "BuildingBlocks": [
         {
           "Type": "Individual",
@@ -2990,7 +2990,7 @@
     },
     {
       "Id": "Itraconazole-Midazolam-DDI",
-      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Itraconazole-Midazolam-DDI/master/Itraconazole-Midazolam-DDI.json",
+      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Itraconazole-Midazolam-DDI/v1.0/Itraconazole-Midazolam-DDI.json",
       "BuildingBlocks": [
         {
           "Type": "Individual",
@@ -3571,7 +3571,7 @@
     },
     {
       "Id": "Itraconazole-Triazolam-DDI",
-      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Itraconazole-Triazolam-DDI/master/Itraconazole-Triazolam-DDI.json",
+      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Itraconazole-Triazolam-DDI/v1.0/Itraconazole-Triazolam-DDI.json",
       "BuildingBlocks": [
         {
           "Type": "Compound",
@@ -3932,7 +3932,7 @@
     },
     {
       "Id": "Verapamil-Midazolam-DDI",
-      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Verapamil-Midazolam-DDI/master/Verapamil-Midazolam-DDI.json",
+      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Verapamil-Midazolam-DDI/v1.0/Verapamil-Midazolam-DDI.json",
       "BuildingBlocks": [
         {
           "Type": "Compound",
@@ -4400,7 +4400,7 @@
     },
     {
       "Id": "Efavirenz-Alfentanil-DDI",
-      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Efavirenz-Alfentanil-DDI/master/Efavirenz-Alfentanil-DDI.json",
+      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Efavirenz-Alfentanil-DDI/v1.0/Efavirenz-Alfentanil-DDI.json",
       "BuildingBlocks": [
         {
           "Type": "Compound",
@@ -4648,7 +4648,7 @@
     },
     {
       "Id": "Efavirenz-Midazolam-DDI",
-      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Efavirenz-Midazolam-DDI/master/Efavirenz-Midazolam-DDI.json",
+      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Efavirenz-Midazolam-DDI/v1.0/Efavirenz-Midazolam-DDI.json",
       "BuildingBlocks": [
         {
           "Type": "Compound",
@@ -4913,7 +4913,7 @@
     },
     {
       "Id": "Rifampicin-Alfentanil-DDI",
-      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Rifampicin-Alfentanil-DDI/master/Rifampicin-Alfentanil-DDI.json",
+      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Rifampicin-Alfentanil-DDI/v1.0/Rifampicin-Alfentanil-DDI.json",
       "BuildingBlocks": [
         {
           "Type": "Compound",
@@ -5613,7 +5613,7 @@
     },
     {
       "Id": "Rifampicin-Alprazolam-DDI",
-      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Rifampicin-Alprazolam-DDI/master/Rifampicin-Alprazolam-DDI.json",
+      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Rifampicin-Alprazolam-DDI/v1.0/Rifampicin-Alprazolam-DDI.json",
       "BuildingBlocks": [
         {
           "Type": "Compound",
@@ -5878,7 +5878,7 @@
     },
     {
       "Id": "Rifampicin-Midazolam-DDI",
-      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Rifampicin-Midazolam-DDI/master/Rifampicin-Midazolam-DDI.json",
+      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Rifampicin-Midazolam-DDI/v1.0/Rifampicin-Midazolam-DDI.json",
       "BuildingBlocks": [
         {
           "Type": "Individual",
@@ -7182,7 +7182,7 @@
     },
     {
       "Id": "Rifampicin-Triazolam-DDI",
-      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Rifampicin-Triazolam-DDI/master/Rifampicin-Triazolam-DDI.json",
+      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Rifampicin-Triazolam-DDI/v1.0/Rifampicin-Triazolam-DDI.json",
       "BuildingBlocks": [
         {
           "Type": "Compound",
