@@ -1,4 +1,4 @@
-The release of the repository containing the respective simulations can be found here:
+The release of the snapshot containing the respective simulations can be found here:
 https://github.com/Open-Systems-Pharmacology/Fluvoxamine-Alprazolam-DDI/releases/tag/v1.0.
 
 The fluvoxamine-alprazolam interaction was evaluated using one clinical DDI study quantifying the interaction following the first dose and in steady-state different doses ([Fleishaker 1994](#4-References)).

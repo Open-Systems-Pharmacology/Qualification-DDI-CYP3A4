@@ -1,4 +1,4 @@
-The release of the repository containing the respective simulations can be found here:
+The release of the snapshot containing the respective simulations can be found here:
 https://github.com/Open-Systems-Pharmacology/Itraconazole-Triazolam-DDI/releases/tag/v1.0.
 
 The itraconazole / triazolam interaction was evaluated using two clinical DDI studies including 5 different clinical settings ([Neuvonen 1996](#4-References), [Varhe 1994](#4-References)).

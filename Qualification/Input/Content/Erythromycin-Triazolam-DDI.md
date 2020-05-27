@@ -1,4 +1,4 @@
-The release of the repository containing the respective simulations can be found here:
+The release of the snapshot containing the respective simulations can be found here:
 https://github.com/Open-Systems-Pharmacology/Erythromycin-Alprazolam-DDI/releases/tag/v1.0.
 
 The erythromycin-alprazolam interaction was evaluated using two clinical DDI studies ([Greenblatt 1998](#4-References), [Phillips 1986](#4-References)).

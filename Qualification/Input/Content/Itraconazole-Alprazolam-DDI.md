@@ -1,4 +1,4 @@
-The release of the repository containing the respective simulations can be found here:
+The release of the snapshot containing the respective simulations can be found here:
 https://github.com/Open-Systems-Pharmacology/Itraconazole-Alprazolam-DDI/releases/tag/v1.0.
 
 The Itraconazole / alprazolam interaction was evaluated using oneclinical DDI studies ([Yasui 1998](#4-References)).
