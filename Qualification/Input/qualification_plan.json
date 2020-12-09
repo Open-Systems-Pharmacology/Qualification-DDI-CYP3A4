@@ -3,15 +3,19 @@
   "Projects": [
     {
       "Id": "Alfentanil",
-      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Alfentanil-Model/v2.0/Alfentanil-Model.json"
+      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Alfentanil-Model/v2.1/Alfentanil-Model.json"
     },
     {
       "Id": "Alprazolam",
       "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Alprazolam-Model/v1.0/Alprazolam-Model.json"
     },
     {
+      "Id": "Cimetidine",
+      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Cimetidine-Model/v1.0/Cimetidine-Model.json"
+    },
+    {
       "Id": "Clarithromycin",
-      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Clarithromycin-Model/v1.0/Clarithromycin-Model.json"
+      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Clarithromycin-Model/v1.1/Clarithromycin-Model.json"
     },
     {
       "Id": "Efavirenz",
@@ -19,15 +23,15 @@
     },
     {
       "Id": "Erythromycin",
-      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Erythromycin-Model/v1.0/Erythromycin-Model.json"
+      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Erythromycin-Model/v1.1/Erythromycin-Model.json"
     },
     {
       "Id": "Fluvoxamine",
-      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Fluvoxamine-Model/v1.0/Fluvoxamine-Model.json"
+      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Fluvoxamine-Model/v1.1/Fluvoxamine-Model.json"
     },
     {
       "Id": "Itraconazole",
-      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Itraconazole-Model/v1.1/Itraconazole-Model.json"
+      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Itraconazole-Model/v1.2/Itraconazole-Model.json"
     },
     {
       "Id": "Midazolam",
@@ -35,7 +39,7 @@
     },
     {
       "Id": "Rifampicin",
-      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Rifampicin-Model/v1.0/Rifampicin-Model.json"
+      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Rifampicin-Model/v1.1/Rifampicin-Model.json"
     },
     {
       "Id": "Triazolam",
@@ -43,11 +47,1544 @@
     },
     {
       "Id": "Verapamil",
-      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Verapamil-Model/v1.0/Verapamil-Model.json"
+      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Verapamil-Model/v1.1/Verapamil-Model.json"
+    },
+    {
+      "Id": "Cimetidine-Alfentanil-DDI",
+      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Cimetidine-Alfentanil-DDI/v1.0/Cimetidine-Alfentanil-DDI.json",
+      "BuildingBlocks": [
+        {
+          "Type": "Compound",
+          "Name": "Alfentanil",
+          "Project": "Alfentanil"
+        },
+        {
+          "Type": "Compound",
+          "Name": "Cimetidine",
+          "Project": "Cimetidine"
+        }
+      ],
+      "SimulationParameters": [
+        {
+          "Project": "Alfentanil",
+          "Simulation": "Kharasch 2011b, Alfentanil PO 4 mg",
+          "Path": "Neighborhoods|Duodenum_int_Duodenum_cell|Alfentanil|P (interstitial->intracellular)",
+          "TargetSimulations": [
+            "Kienlen 1993 - Alfentanil iv control",
+            "Kienlen 1993 - Alfentanil iv + Cimetidine iv"
+          ]
+        },
+        {
+          "Project": "Alfentanil",
+          "Simulation": "Kharasch 2011b, Alfentanil PO 4 mg",
+          "Path": "Neighborhoods|UpperJejunum_int_UpperJejunum_cell|Alfentanil|P (interstitial->intracellular)",
+          "TargetSimulations": [
+            "Kienlen 1993 - Alfentanil iv control",
+            "Kienlen 1993 - Alfentanil iv + Cimetidine iv"
+          ]
+        },
+        {
+          "Project": "Alfentanil",
+          "Simulation": "Kharasch 2011b, Alfentanil PO 4 mg",
+          "Path": "Neighborhoods|LowerJejunum_int_LowerJejunum_cell|Alfentanil|P (interstitial->intracellular)",
+          "TargetSimulations": [
+            "Kienlen 1993 - Alfentanil iv control",
+            "Kienlen 1993 - Alfentanil iv + Cimetidine iv"
+          ]
+        },
+        {
+          "Project": "Alfentanil",
+          "Simulation": "Kharasch 2011b, Alfentanil PO 4 mg",
+          "Path": "Neighborhoods|UpperIleum_int_UpperIleum_cell|Alfentanil|P (interstitial->intracellular)",
+          "TargetSimulations": [
+            "Kienlen 1993 - Alfentanil iv control",
+            "Kienlen 1993 - Alfentanil iv + Cimetidine iv"
+          ]
+        },
+        {
+          "Project": "Alfentanil",
+          "Simulation": "Kharasch 2011b, Alfentanil PO 4 mg",
+          "Path": "Neighborhoods|LowerIleum_int_LowerIleum_cell|Alfentanil|P (interstitial->intracellular)",
+          "TargetSimulations": [
+            "Kienlen 1993 - Alfentanil iv control",
+            "Kienlen 1993 - Alfentanil iv + Cimetidine iv"
+          ]
+        },
+        {
+          "Project": "Alfentanil",
+          "Simulation": "Kharasch 2011b, Alfentanil PO 4 mg",
+          "Path": "Neighborhoods|Caecum_int_Caecum_cell|Alfentanil|P (interstitial->intracellular)",
+          "TargetSimulations": [
+            "Kienlen 1993 - Alfentanil iv control",
+            "Kienlen 1993 - Alfentanil iv + Cimetidine iv"
+          ]
+        },
+        {
+          "Project": "Alfentanil",
+          "Simulation": "Kharasch 2011b, Alfentanil PO 4 mg",
+          "Path": "Neighborhoods|ColonAscendens_int_ColonAscendens_cell|Alfentanil|P (interstitial->intracellular)",
+          "TargetSimulations": [
+            "Kienlen 1993 - Alfentanil iv control",
+            "Kienlen 1993 - Alfentanil iv + Cimetidine iv"
+          ]
+        },
+        {
+          "Project": "Alfentanil",
+          "Simulation": "Kharasch 2011b, Alfentanil PO 4 mg",
+          "Path": "Neighborhoods|ColonTransversum_int_ColonTransversum_cell|Alfentanil|P (interstitial->intracellular)",
+          "TargetSimulations": [
+            "Kienlen 1993 - Alfentanil iv control",
+            "Kienlen 1993 - Alfentanil iv + Cimetidine iv"
+          ]
+        },
+        {
+          "Project": "Alfentanil",
+          "Simulation": "Kharasch 2011b, Alfentanil PO 4 mg",
+          "Path": "Neighborhoods|ColonDescendens_int_ColonDescendens_cell|Alfentanil|P (interstitial->intracellular)",
+          "TargetSimulations": [
+            "Kienlen 1993 - Alfentanil iv control",
+            "Kienlen 1993 - Alfentanil iv + Cimetidine iv"
+          ]
+        },
+        {
+          "Project": "Alfentanil",
+          "Simulation": "Kharasch 2011b, Alfentanil PO 4 mg",
+          "Path": "Neighborhoods|ColonSigmoid_int_ColonSigmoid_cell|Alfentanil|P (interstitial->intracellular)",
+          "TargetSimulations": [
+            "Kienlen 1993 - Alfentanil iv control",
+            "Kienlen 1993 - Alfentanil iv + Cimetidine iv"
+          ]
+        },
+        {
+          "Project": "Alfentanil",
+          "Simulation": "Kharasch 2011b, Alfentanil PO 4 mg",
+          "Path": "Neighborhoods|Rectum_int_Rectum_cell|Alfentanil|P (interstitial->intracellular)",
+          "TargetSimulations": [
+            "Kienlen 1993 - Alfentanil iv control",
+            "Kienlen 1993 - Alfentanil iv + Cimetidine iv"
+          ]
+        },
+        {
+          "Project": "Alfentanil",
+          "Simulation": "Kharasch 2011b, Alfentanil PO 4 mg",
+          "Path": "Neighborhoods|Duodenum_int_Duodenum_cell|Alfentanil|P (intracellular->interstitial)",
+          "TargetSimulations": [
+            "Kienlen 1993 - Alfentanil iv control",
+            "Kienlen 1993 - Alfentanil iv + Cimetidine iv"
+          ]
+        },
+        {
+          "Project": "Alfentanil",
+          "Simulation": "Kharasch 2011b, Alfentanil PO 4 mg",
+          "Path": "Neighborhoods|UpperJejunum_int_UpperJejunum_cell|Alfentanil|P (intracellular->interstitial)",
+          "TargetSimulations": [
+            "Kienlen 1993 - Alfentanil iv control",
+            "Kienlen 1993 - Alfentanil iv + Cimetidine iv"
+          ]
+        },
+        {
+          "Project": "Alfentanil",
+          "Simulation": "Kharasch 2011b, Alfentanil PO 4 mg",
+          "Path": "Neighborhoods|LowerJejunum_int_LowerJejunum_cell|Alfentanil|P (intracellular->interstitial)",
+          "TargetSimulations": [
+            "Kienlen 1993 - Alfentanil iv control",
+            "Kienlen 1993 - Alfentanil iv + Cimetidine iv"
+          ]
+        },
+        {
+          "Project": "Alfentanil",
+          "Simulation": "Kharasch 2011b, Alfentanil PO 4 mg",
+          "Path": "Neighborhoods|UpperIleum_int_UpperIleum_cell|Alfentanil|P (intracellular->interstitial)",
+          "TargetSimulations": [
+            "Kienlen 1993 - Alfentanil iv control",
+            "Kienlen 1993 - Alfentanil iv + Cimetidine iv"
+          ]
+        },
+        {
+          "Project": "Alfentanil",
+          "Simulation": "Kharasch 2011b, Alfentanil PO 4 mg",
+          "Path": "Neighborhoods|LowerIleum_int_LowerIleum_cell|Alfentanil|P (intracellular->interstitial)",
+          "TargetSimulations": [
+            "Kienlen 1993 - Alfentanil iv control",
+            "Kienlen 1993 - Alfentanil iv + Cimetidine iv"
+          ]
+        },
+        {
+          "Project": "Alfentanil",
+          "Simulation": "Kharasch 2011b, Alfentanil PO 4 mg",
+          "Path": "Neighborhoods|Caecum_int_Caecum_cell|Alfentanil|P (intracellular->interstitial)",
+          "TargetSimulations": [
+            "Kienlen 1993 - Alfentanil iv control",
+            "Kienlen 1993 - Alfentanil iv + Cimetidine iv"
+          ]
+        },
+        {
+          "Project": "Alfentanil",
+          "Simulation": "Kharasch 2011b, Alfentanil PO 4 mg",
+          "Path": "Neighborhoods|ColonAscendens_int_ColonAscendens_cell|Alfentanil|P (intracellular->interstitial)",
+          "TargetSimulations": [
+            "Kienlen 1993 - Alfentanil iv control",
+            "Kienlen 1993 - Alfentanil iv + Cimetidine iv"
+          ]
+        },
+        {
+          "Project": "Alfentanil",
+          "Simulation": "Kharasch 2011b, Alfentanil PO 4 mg",
+          "Path": "Neighborhoods|ColonTransversum_int_ColonTransversum_cell|Alfentanil|P (intracellular->interstitial)",
+          "TargetSimulations": [
+            "Kienlen 1993 - Alfentanil iv control",
+            "Kienlen 1993 - Alfentanil iv + Cimetidine iv"
+          ]
+        },
+        {
+          "Project": "Alfentanil",
+          "Simulation": "Kharasch 2011b, Alfentanil PO 4 mg",
+          "Path": "Neighborhoods|ColonDescendens_int_ColonDescendens_cell|Alfentanil|P (intracellular->interstitial)",
+          "TargetSimulations": [
+            "Kienlen 1993 - Alfentanil iv control",
+            "Kienlen 1993 - Alfentanil iv + Cimetidine iv"
+          ]
+        },
+        {
+          "Project": "Alfentanil",
+          "Simulation": "Kharasch 2011b, Alfentanil PO 4 mg",
+          "Path": "Neighborhoods|ColonSigmoid_int_ColonSigmoid_cell|Alfentanil|P (intracellular->interstitial)",
+          "TargetSimulations": [
+            "Kienlen 1993 - Alfentanil iv control",
+            "Kienlen 1993 - Alfentanil iv + Cimetidine iv"
+          ]
+        },
+        {
+          "Project": "Alfentanil",
+          "Simulation": "Kharasch 2011b, Alfentanil PO 4 mg",
+          "Path": "Neighborhoods|Rectum_int_Rectum_cell|Alfentanil|P (intracellular->interstitial)",
+          "TargetSimulations": [
+            "Kienlen 1993 - Alfentanil iv control",
+            "Kienlen 1993 - Alfentanil iv + Cimetidine iv"
+          ]
+        }
+      ]
+    },
+    {
+      "Id": "Cimetidine-Alprazolam-DDI",
+      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Cimetidine-Alprazolam-DDI/v1.0/Cimetidine-Alprazolam-DDI.json",
+      "BuildingBlocks": [
+        {
+          "Type": "Compound",
+          "Name": "Alprazolam",
+          "Project": "Alprazolam"
+        },
+        {
+          "Type": "Formulation",
+          "Name": "Xanax_IR",
+          "Project": "Alprazolam"
+        },
+        {
+          "Type": "Compound",
+          "Name": "Cimetidine",
+          "Project": "Cimetidine"
+        },
+        {
+          "Type": "Formulation",
+          "Name": "Tablet",
+          "Project": "Cimetidine"
+        }
+      ],
+      "SimulationParameters": [
+        {
+          "Project": "Alprazolam",
+          "Simulation": "PO_0.5mg",
+          "Path": "Neighborhoods|Duodenum_int_Duodenum_cell|Alprazolam|P (interstitial->intracellular)",
+          "TargetSimulations": [
+            "Abernethy 1983 - Alprazolam 1 mg control",
+            "Abernethy 1983 - Alprazolam 1 mg + 300 mg cimetidine QID",
+            "Pourbaix 1985 - Alprazolam 0.5 mg TID control",
+            "Pourbaix 1985 - alprazolam 0.5 mg TID + cimetidine 200/400 mg QID"
+          ]
+        },
+        {
+          "Project": "Alprazolam",
+          "Simulation": "PO_0.5mg",
+          "Path": "Neighborhoods|UpperJejunum_int_UpperJejunum_cell|Alprazolam|P (interstitial->intracellular)",
+          "TargetSimulations": [
+            "Abernethy 1983 - Alprazolam 1 mg control",
+            "Abernethy 1983 - Alprazolam 1 mg + 300 mg cimetidine QID",
+            "Pourbaix 1985 - Alprazolam 0.5 mg TID control",
+            "Pourbaix 1985 - alprazolam 0.5 mg TID + cimetidine 200/400 mg QID"
+          ]
+        },
+        {
+          "Project": "Alprazolam",
+          "Simulation": "PO_0.5mg",
+          "Path": "Neighborhoods|LowerJejunum_int_LowerJejunum_cell|Alprazolam|P (interstitial->intracellular)",
+          "TargetSimulations": [
+            "Abernethy 1983 - Alprazolam 1 mg control",
+            "Abernethy 1983 - Alprazolam 1 mg + 300 mg cimetidine QID",
+            "Pourbaix 1985 - Alprazolam 0.5 mg TID control",
+            "Pourbaix 1985 - alprazolam 0.5 mg TID + cimetidine 200/400 mg QID"
+          ]
+        },
+        {
+          "Project": "Alprazolam",
+          "Simulation": "PO_0.5mg",
+          "Path": "Neighborhoods|UpperIleum_int_UpperIleum_cell|Alprazolam|P (interstitial->intracellular)",
+          "TargetSimulations": [
+            "Abernethy 1983 - Alprazolam 1 mg control",
+            "Abernethy 1983 - Alprazolam 1 mg + 300 mg cimetidine QID",
+            "Pourbaix 1985 - Alprazolam 0.5 mg TID control",
+            "Pourbaix 1985 - alprazolam 0.5 mg TID + cimetidine 200/400 mg QID"
+          ]
+        },
+        {
+          "Project": "Alprazolam",
+          "Simulation": "PO_0.5mg",
+          "Path": "Neighborhoods|LowerIleum_int_LowerIleum_cell|Alprazolam|P (interstitial->intracellular)",
+          "TargetSimulations": [
+            "Abernethy 1983 - Alprazolam 1 mg control",
+            "Abernethy 1983 - Alprazolam 1 mg + 300 mg cimetidine QID",
+            "Pourbaix 1985 - Alprazolam 0.5 mg TID control",
+            "Pourbaix 1985 - alprazolam 0.5 mg TID + cimetidine 200/400 mg QID"
+          ]
+        },
+        {
+          "Project": "Alprazolam",
+          "Simulation": "PO_0.5mg",
+          "Path": "Neighborhoods|Caecum_int_Caecum_cell|Alprazolam|P (interstitial->intracellular)",
+          "TargetSimulations": [
+            "Abernethy 1983 - Alprazolam 1 mg control",
+            "Abernethy 1983 - Alprazolam 1 mg + 300 mg cimetidine QID",
+            "Pourbaix 1985 - Alprazolam 0.5 mg TID control",
+            "Pourbaix 1985 - alprazolam 0.5 mg TID + cimetidine 200/400 mg QID"
+          ]
+        },
+        {
+          "Project": "Alprazolam",
+          "Simulation": "PO_0.5mg",
+          "Path": "Neighborhoods|ColonAscendens_int_ColonAscendens_cell|Alprazolam|P (interstitial->intracellular)",
+          "TargetSimulations": [
+            "Abernethy 1983 - Alprazolam 1 mg control",
+            "Abernethy 1983 - Alprazolam 1 mg + 300 mg cimetidine QID",
+            "Pourbaix 1985 - Alprazolam 0.5 mg TID control",
+            "Pourbaix 1985 - alprazolam 0.5 mg TID + cimetidine 200/400 mg QID"
+          ]
+        },
+        {
+          "Project": "Alprazolam",
+          "Simulation": "PO_0.5mg",
+          "Path": "Neighborhoods|ColonTransversum_int_ColonTransversum_cell|Alprazolam|P (interstitial->intracellular)",
+          "TargetSimulations": [
+            "Abernethy 1983 - Alprazolam 1 mg control",
+            "Abernethy 1983 - Alprazolam 1 mg + 300 mg cimetidine QID",
+            "Pourbaix 1985 - Alprazolam 0.5 mg TID control",
+            "Pourbaix 1985 - alprazolam 0.5 mg TID + cimetidine 200/400 mg QID"
+          ]
+        },
+        {
+          "Project": "Alprazolam",
+          "Simulation": "PO_0.5mg",
+          "Path": "Neighborhoods|ColonDescendens_int_ColonDescendens_cell|Alprazolam|P (interstitial->intracellular)",
+          "TargetSimulations": [
+            "Abernethy 1983 - Alprazolam 1 mg control",
+            "Abernethy 1983 - Alprazolam 1 mg + 300 mg cimetidine QID",
+            "Pourbaix 1985 - Alprazolam 0.5 mg TID control",
+            "Pourbaix 1985 - alprazolam 0.5 mg TID + cimetidine 200/400 mg QID"
+          ]
+        },
+        {
+          "Project": "Alprazolam",
+          "Simulation": "PO_0.5mg",
+          "Path": "Neighborhoods|ColonSigmoid_int_ColonSigmoid_cell|Alprazolam|P (interstitial->intracellular)",
+          "TargetSimulations": [
+            "Abernethy 1983 - Alprazolam 1 mg control",
+            "Abernethy 1983 - Alprazolam 1 mg + 300 mg cimetidine QID",
+            "Pourbaix 1985 - Alprazolam 0.5 mg TID control",
+            "Pourbaix 1985 - alprazolam 0.5 mg TID + cimetidine 200/400 mg QID"
+          ]
+        },
+        {
+          "Project": "Alprazolam",
+          "Simulation": "PO_0.5mg",
+          "Path": "Neighborhoods|Rectum_int_Rectum_cell|Alprazolam|P (interstitial->intracellular)",
+          "TargetSimulations": [
+            "Abernethy 1983 - Alprazolam 1 mg control",
+            "Abernethy 1983 - Alprazolam 1 mg + 300 mg cimetidine QID",
+            "Pourbaix 1985 - Alprazolam 0.5 mg TID control",
+            "Pourbaix 1985 - alprazolam 0.5 mg TID + cimetidine 200/400 mg QID"
+          ]
+        },
+        {
+          "Project": "Alprazolam",
+          "Simulation": "PO_0.5mg",
+          "Path": "Neighborhoods|Duodenum_int_Duodenum_cell|Alprazolam|P (intracellular->interstitial)",
+          "TargetSimulations": [
+            "Abernethy 1983 - Alprazolam 1 mg control",
+            "Abernethy 1983 - Alprazolam 1 mg + 300 mg cimetidine QID",
+            "Pourbaix 1985 - Alprazolam 0.5 mg TID control",
+            "Pourbaix 1985 - alprazolam 0.5 mg TID + cimetidine 200/400 mg QID"
+          ]
+        },
+        {
+          "Project": "Alprazolam",
+          "Simulation": "PO_0.5mg",
+          "Path": "Neighborhoods|UpperJejunum_int_UpperJejunum_cell|Alprazolam|P (intracellular->interstitial)",
+          "TargetSimulations": [
+            "Abernethy 1983 - Alprazolam 1 mg control",
+            "Abernethy 1983 - Alprazolam 1 mg + 300 mg cimetidine QID",
+            "Pourbaix 1985 - Alprazolam 0.5 mg TID control",
+            "Pourbaix 1985 - alprazolam 0.5 mg TID + cimetidine 200/400 mg QID"
+          ]
+        },
+        {
+          "Project": "Alprazolam",
+          "Simulation": "PO_0.5mg",
+          "Path": "Neighborhoods|LowerJejunum_int_LowerJejunum_cell|Alprazolam|P (intracellular->interstitial)",
+          "TargetSimulations": [
+            "Abernethy 1983 - Alprazolam 1 mg control",
+            "Abernethy 1983 - Alprazolam 1 mg + 300 mg cimetidine QID",
+            "Pourbaix 1985 - Alprazolam 0.5 mg TID control",
+            "Pourbaix 1985 - alprazolam 0.5 mg TID + cimetidine 200/400 mg QID"
+          ]
+        },
+        {
+          "Project": "Alprazolam",
+          "Simulation": "PO_0.5mg",
+          "Path": "Neighborhoods|UpperIleum_int_UpperIleum_cell|Alprazolam|P (intracellular->interstitial)",
+          "TargetSimulations": [
+            "Abernethy 1983 - Alprazolam 1 mg control",
+            "Abernethy 1983 - Alprazolam 1 mg + 300 mg cimetidine QID",
+            "Pourbaix 1985 - Alprazolam 0.5 mg TID control",
+            "Pourbaix 1985 - alprazolam 0.5 mg TID + cimetidine 200/400 mg QID"
+          ]
+        },
+        {
+          "Project": "Alprazolam",
+          "Simulation": "PO_0.5mg",
+          "Path": "Neighborhoods|LowerIleum_int_LowerIleum_cell|Alprazolam|P (intracellular->interstitial)",
+          "TargetSimulations": [
+            "Abernethy 1983 - Alprazolam 1 mg control",
+            "Abernethy 1983 - Alprazolam 1 mg + 300 mg cimetidine QID",
+            "Pourbaix 1985 - Alprazolam 0.5 mg TID control",
+            "Pourbaix 1985 - alprazolam 0.5 mg TID + cimetidine 200/400 mg QID"
+          ]
+        },
+        {
+          "Project": "Alprazolam",
+          "Simulation": "PO_0.5mg",
+          "Path": "Neighborhoods|Caecum_int_Caecum_cell|Alprazolam|P (intracellular->interstitial)",
+          "TargetSimulations": [
+            "Abernethy 1983 - Alprazolam 1 mg control",
+            "Abernethy 1983 - Alprazolam 1 mg + 300 mg cimetidine QID",
+            "Pourbaix 1985 - Alprazolam 0.5 mg TID control",
+            "Pourbaix 1985 - alprazolam 0.5 mg TID + cimetidine 200/400 mg QID"
+          ]
+        },
+        {
+          "Project": "Alprazolam",
+          "Simulation": "PO_0.5mg",
+          "Path": "Neighborhoods|ColonAscendens_int_ColonAscendens_cell|Alprazolam|P (intracellular->interstitial)",
+          "TargetSimulations": [
+            "Abernethy 1983 - Alprazolam 1 mg control",
+            "Abernethy 1983 - Alprazolam 1 mg + 300 mg cimetidine QID",
+            "Pourbaix 1985 - Alprazolam 0.5 mg TID control",
+            "Pourbaix 1985 - alprazolam 0.5 mg TID + cimetidine 200/400 mg QID"
+          ]
+        },
+        {
+          "Project": "Alprazolam",
+          "Simulation": "PO_0.5mg",
+          "Path": "Neighborhoods|ColonTransversum_int_ColonTransversum_cell|Alprazolam|P (intracellular->interstitial)",
+          "TargetSimulations": [
+            "Abernethy 1983 - Alprazolam 1 mg control",
+            "Abernethy 1983 - Alprazolam 1 mg + 300 mg cimetidine QID",
+            "Pourbaix 1985 - Alprazolam 0.5 mg TID control",
+            "Pourbaix 1985 - alprazolam 0.5 mg TID + cimetidine 200/400 mg QID"
+          ]
+        },
+        {
+          "Project": "Alprazolam",
+          "Simulation": "PO_0.5mg",
+          "Path": "Neighborhoods|ColonDescendens_int_ColonDescendens_cell|Alprazolam|P (intracellular->interstitial)",
+          "TargetSimulations": [
+            "Abernethy 1983 - Alprazolam 1 mg control",
+            "Abernethy 1983 - Alprazolam 1 mg + 300 mg cimetidine QID",
+            "Pourbaix 1985 - Alprazolam 0.5 mg TID control",
+            "Pourbaix 1985 - alprazolam 0.5 mg TID + cimetidine 200/400 mg QID"
+          ]
+        },
+        {
+          "Project": "Alprazolam",
+          "Simulation": "PO_0.5mg",
+          "Path": "Neighborhoods|ColonSigmoid_int_ColonSigmoid_cell|Alprazolam|P (intracellular->interstitial)",
+          "TargetSimulations": [
+            "Abernethy 1983 - Alprazolam 1 mg control",
+            "Abernethy 1983 - Alprazolam 1 mg + 300 mg cimetidine QID",
+            "Pourbaix 1985 - Alprazolam 0.5 mg TID control",
+            "Pourbaix 1985 - alprazolam 0.5 mg TID + cimetidine 200/400 mg QID"
+          ]
+        },
+        {
+          "Project": "Alprazolam",
+          "Simulation": "PO_0.5mg",
+          "Path": "Neighborhoods|Rectum_int_Rectum_cell|Alprazolam|P (intracellular->interstitial)",
+          "TargetSimulations": [
+            "Abernethy 1983 - Alprazolam 1 mg control",
+            "Abernethy 1983 - Alprazolam 1 mg + 300 mg cimetidine QID",
+            "Pourbaix 1985 - Alprazolam 0.5 mg TID control",
+            "Pourbaix 1985 - alprazolam 0.5 mg TID + cimetidine 200/400 mg QID"
+          ]
+        }
+      ]
+    },
+    {
+      "Id": "Cimetidine-Midazolam-DDI",
+      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Cimetidine-Midazolam-DDI/v1.0/Cimetidine-Midazolam-DDI.json",
+      "BuildingBlocks": [
+        {
+          "Type": "Compound",
+          "Name": "Midazolam",
+          "Project": "Midazolam"
+        },
+        {
+          "Type": "Formulation",
+          "Name": "Tablet (Dormicum)",
+          "Project": "Midazolam"
+        },
+        {
+          "Type": "Compound",
+          "Name": "Cimetidine",
+          "Project": "Cimetidine"
+        },
+        {
+          "Type": "Formulation",
+          "Name": "Tablet",
+          "Project": "Cimetidine"
+        }
+      ],
+      "SimulationParameters": [
+        {
+          "Project": "Midazolam",
+          "Simulation": "po 3 mg (solution)",
+          "Path": "Neighborhoods|Duodenum_int_Duodenum_cell|Midazolam|P (interstitial->intracellular)",
+          "TargetSimulations": [
+            "Greenblatt 1986, Midazolam iv control",
+            "Greenblatt 1986, Midazolam iv + 300 mg cimetidine QID",
+            "Greenblatt 1986, Midazolam po control",
+            "Greenblatt 1986, Midazolam po + 300 mg cimetidine QID",
+            "Fee 1987, Midazolam po control",
+            "Fee 1987, Midazolam po + 400 mg cimetidine BID",
+            "Salonen 1986, Midazolam po control",
+            "Salonen 1986, Midazolam po + 400 mg cimetidine",
+            "Martinez 1999, Midazolam po control",
+            "Martinez 1999, Midazolam po + 800 mg cimetidine",
+            "Elliott 1984, Midazolam po control",
+            "Elliott 1984, Midazolam po + 200/400 mg cimetidine"
+          ]
+        },
+        {
+          "Project": "Midazolam",
+          "Simulation": "po 3 mg (solution)",
+          "Path": "Neighborhoods|UpperJejunum_int_UpperJejunum_cell|Midazolam|P (interstitial->intracellular)",
+          "TargetSimulations": [
+            "Greenblatt 1986, Midazolam iv control",
+            "Greenblatt 1986, Midazolam iv + 300 mg cimetidine QID",
+            "Greenblatt 1986, Midazolam po control",
+            "Greenblatt 1986, Midazolam po + 300 mg cimetidine QID",
+            "Fee 1987, Midazolam po control",
+            "Fee 1987, Midazolam po + 400 mg cimetidine BID",
+            "Salonen 1986, Midazolam po control",
+            "Salonen 1986, Midazolam po + 400 mg cimetidine",
+            "Martinez 1999, Midazolam po control",
+            "Martinez 1999, Midazolam po + 800 mg cimetidine",
+            "Elliott 1984, Midazolam po control",
+            "Elliott 1984, Midazolam po + 200/400 mg cimetidine"
+          ]
+        },
+        {
+          "Project": "Midazolam",
+          "Simulation": "po 3 mg (solution)",
+          "Path": "Neighborhoods|LowerJejunum_int_LowerJejunum_cell|Midazolam|P (interstitial->intracellular)",
+          "TargetSimulations": [
+            "Greenblatt 1986, Midazolam iv control",
+            "Greenblatt 1986, Midazolam iv + 300 mg cimetidine QID",
+            "Greenblatt 1986, Midazolam po control",
+            "Greenblatt 1986, Midazolam po + 300 mg cimetidine QID",
+            "Fee 1987, Midazolam po control",
+            "Fee 1987, Midazolam po + 400 mg cimetidine BID",
+            "Salonen 1986, Midazolam po control",
+            "Salonen 1986, Midazolam po + 400 mg cimetidine",
+            "Martinez 1999, Midazolam po control",
+            "Martinez 1999, Midazolam po + 800 mg cimetidine",
+            "Elliott 1984, Midazolam po control",
+            "Elliott 1984, Midazolam po + 200/400 mg cimetidine"
+          ]
+        },
+        {
+          "Project": "Midazolam",
+          "Simulation": "po 3 mg (solution)",
+          "Path": "Neighborhoods|UpperIleum_int_UpperIleum_cell|Midazolam|P (interstitial->intracellular)",
+          "TargetSimulations": [
+            "Greenblatt 1986, Midazolam iv control",
+            "Greenblatt 1986, Midazolam iv + 300 mg cimetidine QID",
+            "Greenblatt 1986, Midazolam po control",
+            "Greenblatt 1986, Midazolam po + 300 mg cimetidine QID",
+            "Fee 1987, Midazolam po control",
+            "Fee 1987, Midazolam po + 400 mg cimetidine BID",
+            "Salonen 1986, Midazolam po control",
+            "Salonen 1986, Midazolam po + 400 mg cimetidine",
+            "Martinez 1999, Midazolam po control",
+            "Martinez 1999, Midazolam po + 800 mg cimetidine",
+            "Elliott 1984, Midazolam po control",
+            "Elliott 1984, Midazolam po + 200/400 mg cimetidine"
+          ]
+        },
+        {
+          "Project": "Midazolam",
+          "Simulation": "po 3 mg (solution)",
+          "Path": "Neighborhoods|LowerIleum_int_LowerIleum_cell|Midazolam|P (interstitial->intracellular)",
+          "TargetSimulations": [
+            "Greenblatt 1986, Midazolam iv control",
+            "Greenblatt 1986, Midazolam iv + 300 mg cimetidine QID",
+            "Greenblatt 1986, Midazolam po control",
+            "Greenblatt 1986, Midazolam po + 300 mg cimetidine QID",
+            "Fee 1987, Midazolam po control",
+            "Fee 1987, Midazolam po + 400 mg cimetidine BID",
+            "Salonen 1986, Midazolam po control",
+            "Salonen 1986, Midazolam po + 400 mg cimetidine",
+            "Martinez 1999, Midazolam po control",
+            "Martinez 1999, Midazolam po + 800 mg cimetidine",
+            "Elliott 1984, Midazolam po control",
+            "Elliott 1984, Midazolam po + 200/400 mg cimetidine"
+          ]
+        },
+        {
+          "Project": "Midazolam",
+          "Simulation": "po 3 mg (solution)",
+          "Path": "Neighborhoods|Caecum_int_Caecum_cell|Midazolam|P (interstitial->intracellular)",
+          "TargetSimulations": [
+            "Greenblatt 1986, Midazolam iv control",
+            "Greenblatt 1986, Midazolam iv + 300 mg cimetidine QID",
+            "Greenblatt 1986, Midazolam po control",
+            "Greenblatt 1986, Midazolam po + 300 mg cimetidine QID",
+            "Fee 1987, Midazolam po control",
+            "Fee 1987, Midazolam po + 400 mg cimetidine BID",
+            "Salonen 1986, Midazolam po control",
+            "Salonen 1986, Midazolam po + 400 mg cimetidine",
+            "Martinez 1999, Midazolam po control",
+            "Martinez 1999, Midazolam po + 800 mg cimetidine",
+            "Elliott 1984, Midazolam po control",
+            "Elliott 1984, Midazolam po + 200/400 mg cimetidine"
+          ]
+        },
+        {
+          "Project": "Midazolam",
+          "Simulation": "po 3 mg (solution)",
+          "Path": "Neighborhoods|ColonAscendens_int_ColonAscendens_cell|Midazolam|P (interstitial->intracellular)",
+          "TargetSimulations": [
+            "Greenblatt 1986, Midazolam iv control",
+            "Greenblatt 1986, Midazolam iv + 300 mg cimetidine QID",
+            "Greenblatt 1986, Midazolam po control",
+            "Greenblatt 1986, Midazolam po + 300 mg cimetidine QID",
+            "Fee 1987, Midazolam po control",
+            "Fee 1987, Midazolam po + 400 mg cimetidine BID",
+            "Salonen 1986, Midazolam po control",
+            "Salonen 1986, Midazolam po + 400 mg cimetidine",
+            "Martinez 1999, Midazolam po control",
+            "Martinez 1999, Midazolam po + 800 mg cimetidine",
+            "Elliott 1984, Midazolam po control",
+            "Elliott 1984, Midazolam po + 200/400 mg cimetidine"
+          ]
+        },
+        {
+          "Project": "Midazolam",
+          "Simulation": "po 3 mg (solution)",
+          "Path": "Neighborhoods|ColonTransversum_int_ColonTransversum_cell|Midazolam|P (interstitial->intracellular)",
+          "TargetSimulations": [
+            "Greenblatt 1986, Midazolam iv control",
+            "Greenblatt 1986, Midazolam iv + 300 mg cimetidine QID",
+            "Greenblatt 1986, Midazolam po control",
+            "Greenblatt 1986, Midazolam po + 300 mg cimetidine QID",
+            "Fee 1987, Midazolam po control",
+            "Fee 1987, Midazolam po + 400 mg cimetidine BID",
+            "Salonen 1986, Midazolam po control",
+            "Salonen 1986, Midazolam po + 400 mg cimetidine",
+            "Martinez 1999, Midazolam po control",
+            "Martinez 1999, Midazolam po + 800 mg cimetidine",
+            "Elliott 1984, Midazolam po control",
+            "Elliott 1984, Midazolam po + 200/400 mg cimetidine"
+          ]
+        },
+        {
+          "Project": "Midazolam",
+          "Simulation": "po 3 mg (solution)",
+          "Path": "Neighborhoods|ColonDescendens_int_ColonDescendens_cell|Midazolam|P (interstitial->intracellular)",
+          "TargetSimulations": [
+            "Greenblatt 1986, Midazolam iv control",
+            "Greenblatt 1986, Midazolam iv + 300 mg cimetidine QID",
+            "Greenblatt 1986, Midazolam po control",
+            "Greenblatt 1986, Midazolam po + 300 mg cimetidine QID",
+            "Fee 1987, Midazolam po control",
+            "Fee 1987, Midazolam po + 400 mg cimetidine BID",
+            "Salonen 1986, Midazolam po control",
+            "Salonen 1986, Midazolam po + 400 mg cimetidine",
+            "Martinez 1999, Midazolam po control",
+            "Martinez 1999, Midazolam po + 800 mg cimetidine",
+            "Elliott 1984, Midazolam po control",
+            "Elliott 1984, Midazolam po + 200/400 mg cimetidine"
+          ]
+        },
+        {
+          "Project": "Midazolam",
+          "Simulation": "po 3 mg (solution)",
+          "Path": "Neighborhoods|ColonSigmoid_int_ColonSigmoid_cell|Midazolam|P (interstitial->intracellular)",
+          "TargetSimulations": [
+            "Greenblatt 1986, Midazolam iv control",
+            "Greenblatt 1986, Midazolam iv + 300 mg cimetidine QID",
+            "Greenblatt 1986, Midazolam po control",
+            "Greenblatt 1986, Midazolam po + 300 mg cimetidine QID",
+            "Fee 1987, Midazolam po control",
+            "Fee 1987, Midazolam po + 400 mg cimetidine BID",
+            "Salonen 1986, Midazolam po control",
+            "Salonen 1986, Midazolam po + 400 mg cimetidine",
+            "Martinez 1999, Midazolam po control",
+            "Martinez 1999, Midazolam po + 800 mg cimetidine",
+            "Elliott 1984, Midazolam po control",
+            "Elliott 1984, Midazolam po + 200/400 mg cimetidine"
+          ]
+        },
+        {
+          "Project": "Midazolam",
+          "Simulation": "po 3 mg (solution)",
+          "Path": "Neighborhoods|Rectum_int_Rectum_cell|Midazolam|P (interstitial->intracellular)",
+          "TargetSimulations": [
+            "Greenblatt 1986, Midazolam iv control",
+            "Greenblatt 1986, Midazolam iv + 300 mg cimetidine QID",
+            "Greenblatt 1986, Midazolam po control",
+            "Greenblatt 1986, Midazolam po + 300 mg cimetidine QID",
+            "Fee 1987, Midazolam po control",
+            "Fee 1987, Midazolam po + 400 mg cimetidine BID",
+            "Salonen 1986, Midazolam po control",
+            "Salonen 1986, Midazolam po + 400 mg cimetidine",
+            "Martinez 1999, Midazolam po control",
+            "Martinez 1999, Midazolam po + 800 mg cimetidine",
+            "Elliott 1984, Midazolam po control",
+            "Elliott 1984, Midazolam po + 200/400 mg cimetidine"
+          ]
+        },
+        {
+          "Project": "Midazolam",
+          "Simulation": "po 3 mg (solution)",
+          "Path": "Neighborhoods|Duodenum_int_Duodenum_cell|Midazolam|P (intracellular->interstitial)",
+          "TargetSimulations": [
+            "Greenblatt 1986, Midazolam iv control",
+            "Greenblatt 1986, Midazolam iv + 300 mg cimetidine QID",
+            "Greenblatt 1986, Midazolam po control",
+            "Greenblatt 1986, Midazolam po + 300 mg cimetidine QID",
+            "Fee 1987, Midazolam po control",
+            "Fee 1987, Midazolam po + 400 mg cimetidine BID",
+            "Salonen 1986, Midazolam po control",
+            "Salonen 1986, Midazolam po + 400 mg cimetidine",
+            "Martinez 1999, Midazolam po control",
+            "Martinez 1999, Midazolam po + 800 mg cimetidine",
+            "Elliott 1984, Midazolam po control",
+            "Elliott 1984, Midazolam po + 200/400 mg cimetidine"
+          ]
+        },
+        {
+          "Project": "Midazolam",
+          "Simulation": "po 3 mg (solution)",
+          "Path": "Neighborhoods|UpperJejunum_int_UpperJejunum_cell|Midazolam|P (intracellular->interstitial)",
+          "TargetSimulations": [
+            "Greenblatt 1986, Midazolam iv control",
+            "Greenblatt 1986, Midazolam iv + 300 mg cimetidine QID",
+            "Greenblatt 1986, Midazolam po control",
+            "Greenblatt 1986, Midazolam po + 300 mg cimetidine QID",
+            "Fee 1987, Midazolam po control",
+            "Fee 1987, Midazolam po + 400 mg cimetidine BID",
+            "Salonen 1986, Midazolam po control",
+            "Salonen 1986, Midazolam po + 400 mg cimetidine",
+            "Martinez 1999, Midazolam po control",
+            "Martinez 1999, Midazolam po + 800 mg cimetidine",
+            "Elliott 1984, Midazolam po control",
+            "Elliott 1984, Midazolam po + 200/400 mg cimetidine"
+          ]
+        },
+        {
+          "Project": "Midazolam",
+          "Simulation": "po 3 mg (solution)",
+          "Path": "Neighborhoods|LowerJejunum_int_LowerJejunum_cell|Midazolam|P (intracellular->interstitial)",
+          "TargetSimulations": [
+            "Greenblatt 1986, Midazolam iv control",
+            "Greenblatt 1986, Midazolam iv + 300 mg cimetidine QID",
+            "Greenblatt 1986, Midazolam po control",
+            "Greenblatt 1986, Midazolam po + 300 mg cimetidine QID",
+            "Fee 1987, Midazolam po control",
+            "Fee 1987, Midazolam po + 400 mg cimetidine BID",
+            "Salonen 1986, Midazolam po control",
+            "Salonen 1986, Midazolam po + 400 mg cimetidine",
+            "Martinez 1999, Midazolam po control",
+            "Martinez 1999, Midazolam po + 800 mg cimetidine",
+            "Elliott 1984, Midazolam po control",
+            "Elliott 1984, Midazolam po + 200/400 mg cimetidine"
+          ]
+        },
+        {
+          "Project": "Midazolam",
+          "Simulation": "po 3 mg (solution)",
+          "Path": "Neighborhoods|UpperIleum_int_UpperIleum_cell|Midazolam|P (intracellular->interstitial)",
+          "TargetSimulations": [
+            "Greenblatt 1986, Midazolam iv control",
+            "Greenblatt 1986, Midazolam iv + 300 mg cimetidine QID",
+            "Greenblatt 1986, Midazolam po control",
+            "Greenblatt 1986, Midazolam po + 300 mg cimetidine QID",
+            "Fee 1987, Midazolam po control",
+            "Fee 1987, Midazolam po + 400 mg cimetidine BID",
+            "Salonen 1986, Midazolam po control",
+            "Salonen 1986, Midazolam po + 400 mg cimetidine",
+            "Martinez 1999, Midazolam po control",
+            "Martinez 1999, Midazolam po + 800 mg cimetidine",
+            "Elliott 1984, Midazolam po control",
+            "Elliott 1984, Midazolam po + 200/400 mg cimetidine"
+          ]
+        },
+        {
+          "Project": "Midazolam",
+          "Simulation": "po 3 mg (solution)",
+          "Path": "Neighborhoods|LowerIleum_int_LowerIleum_cell|Midazolam|P (intracellular->interstitial)",
+          "TargetSimulations": [
+            "Greenblatt 1986, Midazolam iv control",
+            "Greenblatt 1986, Midazolam iv + 300 mg cimetidine QID",
+            "Greenblatt 1986, Midazolam po control",
+            "Greenblatt 1986, Midazolam po + 300 mg cimetidine QID",
+            "Fee 1987, Midazolam po control",
+            "Fee 1987, Midazolam po + 400 mg cimetidine BID",
+            "Salonen 1986, Midazolam po control",
+            "Salonen 1986, Midazolam po + 400 mg cimetidine",
+            "Martinez 1999, Midazolam po control",
+            "Martinez 1999, Midazolam po + 800 mg cimetidine",
+            "Elliott 1984, Midazolam po control",
+            "Elliott 1984, Midazolam po + 200/400 mg cimetidine"
+          ]
+        },
+        {
+          "Project": "Midazolam",
+          "Simulation": "po 3 mg (solution)",
+          "Path": "Neighborhoods|Caecum_int_Caecum_cell|Midazolam|P (intracellular->interstitial)",
+          "TargetSimulations": [
+            "Greenblatt 1986, Midazolam iv control",
+            "Greenblatt 1986, Midazolam iv + 300 mg cimetidine QID",
+            "Greenblatt 1986, Midazolam po control",
+            "Greenblatt 1986, Midazolam po + 300 mg cimetidine QID",
+            "Fee 1987, Midazolam po control",
+            "Fee 1987, Midazolam po + 400 mg cimetidine BID",
+            "Salonen 1986, Midazolam po control",
+            "Salonen 1986, Midazolam po + 400 mg cimetidine",
+            "Martinez 1999, Midazolam po control",
+            "Martinez 1999, Midazolam po + 800 mg cimetidine",
+            "Elliott 1984, Midazolam po control",
+            "Elliott 1984, Midazolam po + 200/400 mg cimetidine"
+          ]
+        },
+        {
+          "Project": "Midazolam",
+          "Simulation": "po 3 mg (solution)",
+          "Path": "Neighborhoods|ColonAscendens_int_ColonAscendens_cell|Midazolam|P (intracellular->interstitial)",
+          "TargetSimulations": [
+            "Greenblatt 1986, Midazolam iv control",
+            "Greenblatt 1986, Midazolam iv + 300 mg cimetidine QID",
+            "Greenblatt 1986, Midazolam po control",
+            "Greenblatt 1986, Midazolam po + 300 mg cimetidine QID",
+            "Fee 1987, Midazolam po control",
+            "Fee 1987, Midazolam po + 400 mg cimetidine BID",
+            "Salonen 1986, Midazolam po control",
+            "Salonen 1986, Midazolam po + 400 mg cimetidine",
+            "Martinez 1999, Midazolam po control",
+            "Martinez 1999, Midazolam po + 800 mg cimetidine",
+            "Elliott 1984, Midazolam po control",
+            "Elliott 1984, Midazolam po + 200/400 mg cimetidine"
+          ]
+        },
+        {
+          "Project": "Midazolam",
+          "Simulation": "po 3 mg (solution)",
+          "Path": "Neighborhoods|ColonTransversum_int_ColonTransversum_cell|Midazolam|P (intracellular->interstitial)",
+          "TargetSimulations": [
+            "Greenblatt 1986, Midazolam iv control",
+            "Greenblatt 1986, Midazolam iv + 300 mg cimetidine QID",
+            "Greenblatt 1986, Midazolam po control",
+            "Greenblatt 1986, Midazolam po + 300 mg cimetidine QID",
+            "Fee 1987, Midazolam po control",
+            "Fee 1987, Midazolam po + 400 mg cimetidine BID",
+            "Salonen 1986, Midazolam po control",
+            "Salonen 1986, Midazolam po + 400 mg cimetidine",
+            "Martinez 1999, Midazolam po control",
+            "Martinez 1999, Midazolam po + 800 mg cimetidine",
+            "Elliott 1984, Midazolam po control",
+            "Elliott 1984, Midazolam po + 200/400 mg cimetidine"
+          ]
+        },
+        {
+          "Project": "Midazolam",
+          "Simulation": "po 3 mg (solution)",
+          "Path": "Neighborhoods|ColonDescendens_int_ColonDescendens_cell|Midazolam|P (intracellular->interstitial)",
+          "TargetSimulations": [
+            "Greenblatt 1986, Midazolam iv control",
+            "Greenblatt 1986, Midazolam iv + 300 mg cimetidine QID",
+            "Greenblatt 1986, Midazolam po control",
+            "Greenblatt 1986, Midazolam po + 300 mg cimetidine QID",
+            "Fee 1987, Midazolam po control",
+            "Fee 1987, Midazolam po + 400 mg cimetidine BID",
+            "Salonen 1986, Midazolam po control",
+            "Salonen 1986, Midazolam po + 400 mg cimetidine",
+            "Martinez 1999, Midazolam po control",
+            "Martinez 1999, Midazolam po + 800 mg cimetidine",
+            "Elliott 1984, Midazolam po control",
+            "Elliott 1984, Midazolam po + 200/400 mg cimetidine"
+          ]
+        },
+        {
+          "Project": "Midazolam",
+          "Simulation": "po 3 mg (solution)",
+          "Path": "Neighborhoods|ColonSigmoid_int_ColonSigmoid_cell|Midazolam|P (intracellular->interstitial)",
+          "TargetSimulations": [
+            "Greenblatt 1986, Midazolam iv control",
+            "Greenblatt 1986, Midazolam iv + 300 mg cimetidine QID",
+            "Greenblatt 1986, Midazolam po control",
+            "Greenblatt 1986, Midazolam po + 300 mg cimetidine QID",
+            "Fee 1987, Midazolam po control",
+            "Fee 1987, Midazolam po + 400 mg cimetidine BID",
+            "Salonen 1986, Midazolam po control",
+            "Salonen 1986, Midazolam po + 400 mg cimetidine",
+            "Martinez 1999, Midazolam po control",
+            "Martinez 1999, Midazolam po + 800 mg cimetidine",
+            "Elliott 1984, Midazolam po control",
+            "Elliott 1984, Midazolam po + 200/400 mg cimetidine"
+          ]
+        },
+        {
+          "Project": "Midazolam",
+          "Simulation": "po 3 mg (solution)",
+          "Path": "Neighborhoods|Rectum_int_Rectum_cell|Midazolam|P (intracellular->interstitial)",
+          "TargetSimulations": [
+            "Greenblatt 1986, Midazolam iv control",
+            "Greenblatt 1986, Midazolam iv + 300 mg cimetidine QID",
+            "Greenblatt 1986, Midazolam po control",
+            "Greenblatt 1986, Midazolam po + 300 mg cimetidine QID",
+            "Fee 1987, Midazolam po control",
+            "Fee 1987, Midazolam po + 400 mg cimetidine BID",
+            "Salonen 1986, Midazolam po control",
+            "Salonen 1986, Midazolam po + 400 mg cimetidine",
+            "Martinez 1999, Midazolam po control",
+            "Martinez 1999, Midazolam po + 800 mg cimetidine",
+            "Elliott 1984, Midazolam po control",
+            "Elliott 1984, Midazolam po + 200/400 mg cimetidine"
+          ]
+        }
+      ]
+    },
+    {
+      "Id": "Cimetidine-Triazolam-DDI",
+      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Cimetidine-Triazolam-DDI/v1.0/Cimetidine-Triazolam-DDI.json",
+      "BuildingBlocks": [
+        {
+          "Type": "Compound",
+          "Name": "Triazolam",
+          "Project": "Triazolam"
+        },
+        {
+          "Type": "Formulation",
+          "Name": "Halcion",
+          "Project": "Triazolam"
+        },
+        {
+          "Type": "Compound",
+          "Name": "Cimetidine",
+          "Project": "Cimetidine"
+        },
+        {
+          "Type": "Formulation",
+          "Name": "Tablet",
+          "Project": "Cimetidine"
+        }
+      ],
+      "SimulationParameters": [
+        {
+          "Project": "Triazolam",
+          "Simulation": "PO_0.125mg",
+          "Path": "Neighborhoods|Duodenum_int_Duodenum_cell|Triazolam|P (interstitial->intracellular)",
+          "TargetSimulations": [
+            "Abernethy 1983/Friedman 1988 - Triazolam control",
+            "Abernethy 1983 - Triazolam + cimetidine 300 mg QID",
+            "Pourbaix 1985 - Triazolam control",
+            "Pourbaix 1985 - Triazolam + cimetidine 200/400 mg QID",
+            "Friedman 1988 - Triazolam + cimetidine 300 mg QID",
+            "Cox 1986 - Triazolam intraduodenal control",
+            "Cox 1986 - Triazolam intraduodenal + cimetidine 300 mg QID"
+          ]
+        },
+        {
+          "Project": "Triazolam",
+          "Simulation": "PO_0.125mg",
+          "Path": "Neighborhoods|UpperJejunum_int_UpperJejunum_cell|Triazolam|P (interstitial->intracellular)",
+          "TargetSimulations": [
+            "Abernethy 1983/Friedman 1988 - Triazolam control",
+            "Abernethy 1983 - Triazolam + cimetidine 300 mg QID",
+            "Pourbaix 1985 - Triazolam control",
+            "Pourbaix 1985 - Triazolam + cimetidine 200/400 mg QID",
+            "Friedman 1988 - Triazolam + cimetidine 300 mg QID",
+            "Cox 1986 - Triazolam intraduodenal control",
+            "Cox 1986 - Triazolam intraduodenal + cimetidine 300 mg QID"
+          ]
+        },
+        {
+          "Project": "Triazolam",
+          "Simulation": "PO_0.125mg",
+          "Path": "Neighborhoods|LowerJejunum_int_LowerJejunum_cell|Triazolam|P (interstitial->intracellular)",
+          "TargetSimulations": [
+            "Abernethy 1983/Friedman 1988 - Triazolam control",
+            "Abernethy 1983 - Triazolam + cimetidine 300 mg QID",
+            "Pourbaix 1985 - Triazolam control",
+            "Pourbaix 1985 - Triazolam + cimetidine 200/400 mg QID",
+            "Friedman 1988 - Triazolam + cimetidine 300 mg QID",
+            "Cox 1986 - Triazolam intraduodenal control",
+            "Cox 1986 - Triazolam intraduodenal + cimetidine 300 mg QID"
+          ]
+        },
+        {
+          "Project": "Triazolam",
+          "Simulation": "PO_0.125mg",
+          "Path": "Neighborhoods|UpperIleum_int_UpperIleum_cell|Triazolam|P (interstitial->intracellular)",
+          "TargetSimulations": [
+            "Abernethy 1983/Friedman 1988 - Triazolam control",
+            "Abernethy 1983 - Triazolam + cimetidine 300 mg QID",
+            "Pourbaix 1985 - Triazolam control",
+            "Pourbaix 1985 - Triazolam + cimetidine 200/400 mg QID",
+            "Friedman 1988 - Triazolam + cimetidine 300 mg QID",
+            "Cox 1986 - Triazolam intraduodenal control",
+            "Cox 1986 - Triazolam intraduodenal + cimetidine 300 mg QID"
+          ]
+        },
+        {
+          "Project": "Triazolam",
+          "Simulation": "PO_0.125mg",
+          "Path": "Neighborhoods|LowerIleum_int_LowerIleum_cell|Triazolam|P (interstitial->intracellular)",
+          "TargetSimulations": [
+            "Abernethy 1983/Friedman 1988 - Triazolam control",
+            "Abernethy 1983 - Triazolam + cimetidine 300 mg QID",
+            "Pourbaix 1985 - Triazolam control",
+            "Pourbaix 1985 - Triazolam + cimetidine 200/400 mg QID",
+            "Friedman 1988 - Triazolam + cimetidine 300 mg QID",
+            "Cox 1986 - Triazolam intraduodenal control",
+            "Cox 1986 - Triazolam intraduodenal + cimetidine 300 mg QID"
+          ]
+        },
+        {
+          "Project": "Triazolam",
+          "Simulation": "PO_0.125mg",
+          "Path": "Neighborhoods|Caecum_int_Caecum_cell|Triazolam|P (interstitial->intracellular)",
+          "TargetSimulations": [
+            "Abernethy 1983/Friedman 1988 - Triazolam control",
+            "Abernethy 1983 - Triazolam + cimetidine 300 mg QID",
+            "Pourbaix 1985 - Triazolam control",
+            "Pourbaix 1985 - Triazolam + cimetidine 200/400 mg QID",
+            "Friedman 1988 - Triazolam + cimetidine 300 mg QID",
+            "Cox 1986 - Triazolam intraduodenal control",
+            "Cox 1986 - Triazolam intraduodenal + cimetidine 300 mg QID"
+          ]
+        },
+        {
+          "Project": "Triazolam",
+          "Simulation": "PO_0.125mg",
+          "Path": "Neighborhoods|ColonAscendens_int_ColonAscendens_cell|Triazolam|P (interstitial->intracellular)",
+          "TargetSimulations": [
+            "Abernethy 1983/Friedman 1988 - Triazolam control",
+            "Abernethy 1983 - Triazolam + cimetidine 300 mg QID",
+            "Pourbaix 1985 - Triazolam control",
+            "Pourbaix 1985 - Triazolam + cimetidine 200/400 mg QID",
+            "Friedman 1988 - Triazolam + cimetidine 300 mg QID",
+            "Cox 1986 - Triazolam intraduodenal control",
+            "Cox 1986 - Triazolam intraduodenal + cimetidine 300 mg QID"
+          ]
+        },
+        {
+          "Project": "Triazolam",
+          "Simulation": "PO_0.125mg",
+          "Path": "Neighborhoods|ColonTransversum_int_ColonTransversum_cell|Triazolam|P (interstitial->intracellular)",
+          "TargetSimulations": [
+            "Abernethy 1983/Friedman 1988 - Triazolam control",
+            "Abernethy 1983 - Triazolam + cimetidine 300 mg QID",
+            "Pourbaix 1985 - Triazolam control",
+            "Pourbaix 1985 - Triazolam + cimetidine 200/400 mg QID",
+            "Friedman 1988 - Triazolam + cimetidine 300 mg QID",
+            "Cox 1986 - Triazolam intraduodenal control",
+            "Cox 1986 - Triazolam intraduodenal + cimetidine 300 mg QID"
+          ]
+        },
+        {
+          "Project": "Triazolam",
+          "Simulation": "PO_0.125mg",
+          "Path": "Neighborhoods|ColonDescendens_int_ColonDescendens_cell|Triazolam|P (interstitial->intracellular)",
+          "TargetSimulations": [
+            "Abernethy 1983/Friedman 1988 - Triazolam control",
+            "Abernethy 1983 - Triazolam + cimetidine 300 mg QID",
+            "Pourbaix 1985 - Triazolam control",
+            "Pourbaix 1985 - Triazolam + cimetidine 200/400 mg QID",
+            "Friedman 1988 - Triazolam + cimetidine 300 mg QID",
+            "Cox 1986 - Triazolam intraduodenal control",
+            "Cox 1986 - Triazolam intraduodenal + cimetidine 300 mg QID"
+          ]
+        },
+        {
+          "Project": "Triazolam",
+          "Simulation": "PO_0.125mg",
+          "Path": "Neighborhoods|ColonSigmoid_int_ColonSigmoid_cell|Triazolam|P (interstitial->intracellular)",
+          "TargetSimulations": [
+            "Abernethy 1983/Friedman 1988 - Triazolam control",
+            "Abernethy 1983 - Triazolam + cimetidine 300 mg QID",
+            "Pourbaix 1985 - Triazolam control",
+            "Pourbaix 1985 - Triazolam + cimetidine 200/400 mg QID",
+            "Friedman 1988 - Triazolam + cimetidine 300 mg QID",
+            "Cox 1986 - Triazolam intraduodenal control",
+            "Cox 1986 - Triazolam intraduodenal + cimetidine 300 mg QID"
+          ]
+        },
+        {
+          "Project": "Triazolam",
+          "Simulation": "PO_0.125mg",
+          "Path": "Neighborhoods|Rectum_int_Rectum_cell|Triazolam|P (interstitial->intracellular)",
+          "TargetSimulations": [
+            "Abernethy 1983/Friedman 1988 - Triazolam control",
+            "Abernethy 1983 - Triazolam + cimetidine 300 mg QID",
+            "Pourbaix 1985 - Triazolam control",
+            "Pourbaix 1985 - Triazolam + cimetidine 200/400 mg QID",
+            "Friedman 1988 - Triazolam + cimetidine 300 mg QID",
+            "Cox 1986 - Triazolam intraduodenal control",
+            "Cox 1986 - Triazolam intraduodenal + cimetidine 300 mg QID"
+          ]
+        },
+        {
+          "Project": "Triazolam",
+          "Simulation": "PO_0.125mg",
+          "Path": "Neighborhoods|Duodenum_int_Duodenum_cell|Triazolam|P (intracellular->interstitial)",
+          "TargetSimulations": [
+            "Abernethy 1983/Friedman 1988 - Triazolam control",
+            "Abernethy 1983 - Triazolam + cimetidine 300 mg QID",
+            "Pourbaix 1985 - Triazolam control",
+            "Pourbaix 1985 - Triazolam + cimetidine 200/400 mg QID",
+            "Friedman 1988 - Triazolam + cimetidine 300 mg QID",
+            "Cox 1986 - Triazolam intraduodenal control",
+            "Cox 1986 - Triazolam intraduodenal + cimetidine 300 mg QID"
+          ]
+        },
+        {
+          "Project": "Triazolam",
+          "Simulation": "PO_0.125mg",
+          "Path": "Neighborhoods|UpperJejunum_int_UpperJejunum_cell|Triazolam|P (intracellular->interstitial)",
+          "TargetSimulations": [
+            "Abernethy 1983/Friedman 1988 - Triazolam control",
+            "Abernethy 1983 - Triazolam + cimetidine 300 mg QID",
+            "Pourbaix 1985 - Triazolam control",
+            "Pourbaix 1985 - Triazolam + cimetidine 200/400 mg QID",
+            "Friedman 1988 - Triazolam + cimetidine 300 mg QID",
+            "Cox 1986 - Triazolam intraduodenal control",
+            "Cox 1986 - Triazolam intraduodenal + cimetidine 300 mg QID"
+          ]
+        },
+        {
+          "Project": "Triazolam",
+          "Simulation": "PO_0.125mg",
+          "Path": "Neighborhoods|LowerJejunum_int_LowerJejunum_cell|Triazolam|P (intracellular->interstitial)",
+          "TargetSimulations": [
+            "Abernethy 1983/Friedman 1988 - Triazolam control",
+            "Abernethy 1983 - Triazolam + cimetidine 300 mg QID",
+            "Pourbaix 1985 - Triazolam control",
+            "Pourbaix 1985 - Triazolam + cimetidine 200/400 mg QID",
+            "Friedman 1988 - Triazolam + cimetidine 300 mg QID",
+            "Cox 1986 - Triazolam intraduodenal control",
+            "Cox 1986 - Triazolam intraduodenal + cimetidine 300 mg QID"
+          ]
+        },
+        {
+          "Project": "Triazolam",
+          "Simulation": "PO_0.125mg",
+          "Path": "Neighborhoods|UpperIleum_int_UpperIleum_cell|Triazolam|P (intracellular->interstitial)",
+          "TargetSimulations": [
+            "Abernethy 1983/Friedman 1988 - Triazolam control",
+            "Abernethy 1983 - Triazolam + cimetidine 300 mg QID",
+            "Pourbaix 1985 - Triazolam control",
+            "Pourbaix 1985 - Triazolam + cimetidine 200/400 mg QID",
+            "Friedman 1988 - Triazolam + cimetidine 300 mg QID",
+            "Cox 1986 - Triazolam intraduodenal control",
+            "Cox 1986 - Triazolam intraduodenal + cimetidine 300 mg QID"
+          ]
+        },
+        {
+          "Project": "Triazolam",
+          "Simulation": "PO_0.125mg",
+          "Path": "Neighborhoods|LowerIleum_int_LowerIleum_cell|Triazolam|P (intracellular->interstitial)",
+          "TargetSimulations": [
+            "Abernethy 1983/Friedman 1988 - Triazolam control",
+            "Abernethy 1983 - Triazolam + cimetidine 300 mg QID",
+            "Pourbaix 1985 - Triazolam control",
+            "Pourbaix 1985 - Triazolam + cimetidine 200/400 mg QID",
+            "Friedman 1988 - Triazolam + cimetidine 300 mg QID",
+            "Cox 1986 - Triazolam intraduodenal control",
+            "Cox 1986 - Triazolam intraduodenal + cimetidine 300 mg QID"
+          ]
+        },
+        {
+          "Project": "Triazolam",
+          "Simulation": "PO_0.125mg",
+          "Path": "Neighborhoods|Caecum_int_Caecum_cell|Triazolam|P (intracellular->interstitial)",
+          "TargetSimulations": [
+            "Abernethy 1983/Friedman 1988 - Triazolam control",
+            "Abernethy 1983 - Triazolam + cimetidine 300 mg QID",
+            "Pourbaix 1985 - Triazolam control",
+            "Pourbaix 1985 - Triazolam + cimetidine 200/400 mg QID",
+            "Friedman 1988 - Triazolam + cimetidine 300 mg QID",
+            "Cox 1986 - Triazolam intraduodenal control",
+            "Cox 1986 - Triazolam intraduodenal + cimetidine 300 mg QID"
+          ]
+        },
+        {
+          "Project": "Triazolam",
+          "Simulation": "PO_0.125mg",
+          "Path": "Neighborhoods|ColonAscendens_int_ColonAscendens_cell|Triazolam|P (intracellular->interstitial)",
+          "TargetSimulations": [
+            "Abernethy 1983/Friedman 1988 - Triazolam control",
+            "Abernethy 1983 - Triazolam + cimetidine 300 mg QID",
+            "Pourbaix 1985 - Triazolam control",
+            "Pourbaix 1985 - Triazolam + cimetidine 200/400 mg QID",
+            "Friedman 1988 - Triazolam + cimetidine 300 mg QID",
+            "Cox 1986 - Triazolam intraduodenal control",
+            "Cox 1986 - Triazolam intraduodenal + cimetidine 300 mg QID"
+          ]
+        },
+        {
+          "Project": "Triazolam",
+          "Simulation": "PO_0.125mg",
+          "Path": "Neighborhoods|ColonTransversum_int_ColonTransversum_cell|Triazolam|P (intracellular->interstitial)",
+          "TargetSimulations": [
+            "Abernethy 1983/Friedman 1988 - Triazolam control",
+            "Abernethy 1983 - Triazolam + cimetidine 300 mg QID",
+            "Pourbaix 1985 - Triazolam control",
+            "Pourbaix 1985 - Triazolam + cimetidine 200/400 mg QID",
+            "Friedman 1988 - Triazolam + cimetidine 300 mg QID",
+            "Cox 1986 - Triazolam intraduodenal control",
+            "Cox 1986 - Triazolam intraduodenal + cimetidine 300 mg QID"
+          ]
+        },
+        {
+          "Project": "Triazolam",
+          "Simulation": "PO_0.125mg",
+          "Path": "Neighborhoods|ColonDescendens_int_ColonDescendens_cell|Triazolam|P (intracellular->interstitial)",
+          "TargetSimulations": [
+            "Abernethy 1983/Friedman 1988 - Triazolam control",
+            "Abernethy 1983 - Triazolam + cimetidine 300 mg QID",
+            "Pourbaix 1985 - Triazolam control",
+            "Pourbaix 1985 - Triazolam + cimetidine 200/400 mg QID",
+            "Friedman 1988 - Triazolam + cimetidine 300 mg QID",
+            "Cox 1986 - Triazolam intraduodenal control",
+            "Cox 1986 - Triazolam intraduodenal + cimetidine 300 mg QID"
+          ]
+        },
+        {
+          "Project": "Triazolam",
+          "Simulation": "PO_0.125mg",
+          "Path": "Neighborhoods|ColonSigmoid_int_ColonSigmoid_cell|Triazolam|P (intracellular->interstitial)",
+          "TargetSimulations": [
+            "Abernethy 1983/Friedman 1988 - Triazolam control",
+            "Abernethy 1983 - Triazolam + cimetidine 300 mg QID",
+            "Pourbaix 1985 - Triazolam control",
+            "Pourbaix 1985 - Triazolam + cimetidine 200/400 mg QID",
+            "Friedman 1988 - Triazolam + cimetidine 300 mg QID",
+            "Cox 1986 - Triazolam intraduodenal control",
+            "Cox 1986 - Triazolam intraduodenal + cimetidine 300 mg QID"
+          ]
+        },
+        {
+          "Project": "Triazolam",
+          "Simulation": "PO_0.125mg",
+          "Path": "Neighborhoods|Rectum_int_Rectum_cell|Triazolam|P (intracellular->interstitial)",
+          "TargetSimulations": [
+            "Abernethy 1983/Friedman 1988 - Triazolam control",
+            "Abernethy 1983 - Triazolam + cimetidine 300 mg QID",
+            "Pourbaix 1985 - Triazolam control",
+            "Pourbaix 1985 - Triazolam + cimetidine 200/400 mg QID",
+            "Friedman 1988 - Triazolam + cimetidine 300 mg QID",
+            "Cox 1986 - Triazolam intraduodenal control",
+            "Cox 1986 - Triazolam intraduodenal + cimetidine 300 mg QID"
+          ]
+        }
+      ]
+    },
+    {
+      "Id": "Cimetidine-Verapamil-DDI",
+      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Cimetidine-Verapamil-DDI/v1.0/Cimetidine-Verapamil-DDI.json",
+      "BuildingBlocks": [
+        {
+          "Type": "Compound",
+          "Name": "Cimetidine",
+          "Project": "Cimetidine"
+        },
+        {
+          "Type": "Compound",
+          "Name": "Verapamil",
+          "Project": "Verapamil"
+        },
+        {
+          "Type": "Formulation",
+          "Name": "Tablet",
+          "Project": "Cimetidine"
+        }
+      ],
+      "SimulationParameters": [
+        {
+          "Project": "Verapamil",
+          "Simulation": "Barbarash 1988 + Johnston 1981 + McAllister 1982 +Hla 1987 (120 mg PO SD)",
+          "Path": "Neighborhoods|Duodenum_int_Duodenum_cell|Verapamil|P (interstitial->intracellular)",
+          "TargetSimulations": [
+            "Smith 1984 - Verapamil 10 mg iv control",
+            "Smith 1984 - Verapamil 120 mg po control",
+            "Smith 1984 - Verapamil 10 mg iv + cimetidine 300 mg qid",
+            "Smith 1984 - Verapamil 120 mg po + 300 mg cimetidine qid"
+          ]
+        },
+        {
+          "Project": "Verapamil",
+          "Simulation": "Barbarash 1988 + Johnston 1981 + McAllister 1982 +Hla 1987 (120 mg PO SD)",
+          "Path": "Neighborhoods|UpperJejunum_int_UpperJejunum_cell|Verapamil|P (interstitial->intracellular)",
+          "TargetSimulations": [
+            "Smith 1984 - Verapamil 10 mg iv control",
+            "Smith 1984 - Verapamil 120 mg po control",
+            "Smith 1984 - Verapamil 10 mg iv + cimetidine 300 mg qid",
+            "Smith 1984 - Verapamil 120 mg po + 300 mg cimetidine qid"
+          ]
+        },
+        {
+          "Project": "Verapamil",
+          "Simulation": "Barbarash 1988 + Johnston 1981 + McAllister 1982 +Hla 1987 (120 mg PO SD)",
+          "Path": "Neighborhoods|LowerJejunum_int_LowerJejunum_cell|Verapamil|P (interstitial->intracellular)",
+          "TargetSimulations": [
+            "Smith 1984 - Verapamil 10 mg iv control",
+            "Smith 1984 - Verapamil 120 mg po control",
+            "Smith 1984 - Verapamil 10 mg iv + cimetidine 300 mg qid",
+            "Smith 1984 - Verapamil 120 mg po + 300 mg cimetidine qid"
+          ]
+        },
+        {
+          "Project": "Verapamil",
+          "Simulation": "Barbarash 1988 + Johnston 1981 + McAllister 1982 +Hla 1987 (120 mg PO SD)",
+          "Path": "Neighborhoods|UpperIleum_int_UpperIleum_cell|Verapamil|P (interstitial->intracellular)",
+          "TargetSimulations": [
+            "Smith 1984 - Verapamil 10 mg iv control",
+            "Smith 1984 - Verapamil 120 mg po control",
+            "Smith 1984 - Verapamil 10 mg iv + cimetidine 300 mg qid",
+            "Smith 1984 - Verapamil 120 mg po + 300 mg cimetidine qid"
+          ]
+        },
+        {
+          "Project": "Verapamil",
+          "Simulation": "Barbarash 1988 + Johnston 1981 + McAllister 1982 +Hla 1987 (120 mg PO SD)",
+          "Path": "Neighborhoods|LowerIleum_int_LowerIleum_cell|Verapamil|P (interstitial->intracellular)",
+          "TargetSimulations": [
+            "Smith 1984 - Verapamil 10 mg iv control",
+            "Smith 1984 - Verapamil 120 mg po control",
+            "Smith 1984 - Verapamil 10 mg iv + cimetidine 300 mg qid",
+            "Smith 1984 - Verapamil 120 mg po + 300 mg cimetidine qid"
+          ]
+        },
+        {
+          "Project": "Verapamil",
+          "Simulation": "Barbarash 1988 + Johnston 1981 + McAllister 1982 +Hla 1987 (120 mg PO SD)",
+          "Path": "Neighborhoods|Caecum_int_Caecum_cell|Verapamil|P (interstitial->intracellular)",
+          "TargetSimulations": [
+            "Smith 1984 - Verapamil 10 mg iv control",
+            "Smith 1984 - Verapamil 120 mg po control",
+            "Smith 1984 - Verapamil 10 mg iv + cimetidine 300 mg qid",
+            "Smith 1984 - Verapamil 120 mg po + 300 mg cimetidine qid"
+          ]
+        },
+        {
+          "Project": "Verapamil",
+          "Simulation": "Barbarash 1988 + Johnston 1981 + McAllister 1982 +Hla 1987 (120 mg PO SD)",
+          "Path": "Neighborhoods|ColonAscendens_int_ColonAscendens_cell|Verapamil|P (interstitial->intracellular)",
+          "TargetSimulations": [
+            "Smith 1984 - Verapamil 10 mg iv control",
+            "Smith 1984 - Verapamil 120 mg po control",
+            "Smith 1984 - Verapamil 10 mg iv + cimetidine 300 mg qid",
+            "Smith 1984 - Verapamil 120 mg po + 300 mg cimetidine qid"
+          ]
+        },
+        {
+          "Project": "Verapamil",
+          "Simulation": "Barbarash 1988 + Johnston 1981 + McAllister 1982 +Hla 1987 (120 mg PO SD)",
+          "Path": "Neighborhoods|ColonTransversum_int_ColonTransversum_cell|Verapamil|P (interstitial->intracellular)",
+          "TargetSimulations": [
+            "Smith 1984 - Verapamil 10 mg iv control",
+            "Smith 1984 - Verapamil 120 mg po control",
+            "Smith 1984 - Verapamil 10 mg iv + cimetidine 300 mg qid",
+            "Smith 1984 - Verapamil 120 mg po + 300 mg cimetidine qid"
+          ]
+        },
+        {
+          "Project": "Verapamil",
+          "Simulation": "Barbarash 1988 + Johnston 1981 + McAllister 1982 +Hla 1987 (120 mg PO SD)",
+          "Path": "Neighborhoods|ColonDescendens_int_ColonDescendens_cell|Verapamil|P (interstitial->intracellular)",
+          "TargetSimulations": [
+            "Smith 1984 - Verapamil 10 mg iv control",
+            "Smith 1984 - Verapamil 120 mg po control",
+            "Smith 1984 - Verapamil 10 mg iv + cimetidine 300 mg qid",
+            "Smith 1984 - Verapamil 120 mg po + 300 mg cimetidine qid"
+          ]
+        },
+        {
+          "Project": "Verapamil",
+          "Simulation": "Barbarash 1988 + Johnston 1981 + McAllister 1982 +Hla 1987 (120 mg PO SD)",
+          "Path": "Neighborhoods|ColonSigmoid_int_ColonSigmoid_cell|Verapamil|P (interstitial->intracellular)",
+          "TargetSimulations": [
+            "Smith 1984 - Verapamil 10 mg iv control",
+            "Smith 1984 - Verapamil 120 mg po control",
+            "Smith 1984 - Verapamil 10 mg iv + cimetidine 300 mg qid",
+            "Smith 1984 - Verapamil 120 mg po + 300 mg cimetidine qid"
+          ]
+        },
+        {
+          "Project": "Verapamil",
+          "Simulation": "Barbarash 1988 + Johnston 1981 + McAllister 1982 +Hla 1987 (120 mg PO SD)",
+          "Path": "Neighborhoods|Rectum_int_Rectum_cell|Verapamil|P (interstitial->intracellular)",
+          "TargetSimulations": [
+            "Smith 1984 - Verapamil 10 mg iv control",
+            "Smith 1984 - Verapamil 120 mg po control",
+            "Smith 1984 - Verapamil 10 mg iv + cimetidine 300 mg qid",
+            "Smith 1984 - Verapamil 120 mg po + 300 mg cimetidine qid"
+          ]
+        },
+        {
+          "Project": "Verapamil",
+          "Simulation": "Barbarash 1988 + Johnston 1981 + McAllister 1982 +Hla 1987 (120 mg PO SD)",
+          "Path": "Neighborhoods|Duodenum_int_Duodenum_cell|Verapamil|P (intracellular->interstitial)",
+          "TargetSimulations": [
+            "Smith 1984 - Verapamil 10 mg iv control",
+            "Smith 1984 - Verapamil 120 mg po control",
+            "Smith 1984 - Verapamil 10 mg iv + cimetidine 300 mg qid",
+            "Smith 1984 - Verapamil 120 mg po + 300 mg cimetidine qid"
+          ]
+        },
+        {
+          "Project": "Verapamil",
+          "Simulation": "Barbarash 1988 + Johnston 1981 + McAllister 1982 +Hla 1987 (120 mg PO SD)",
+          "Path": "Neighborhoods|UpperJejunum_int_UpperJejunum_cell|Verapamil|P (intracellular->interstitial)",
+          "TargetSimulations": [
+            "Smith 1984 - Verapamil 10 mg iv control",
+            "Smith 1984 - Verapamil 120 mg po control",
+            "Smith 1984 - Verapamil 10 mg iv + cimetidine 300 mg qid",
+            "Smith 1984 - Verapamil 120 mg po + 300 mg cimetidine qid"
+          ]
+        },
+        {
+          "Project": "Verapamil",
+          "Simulation": "Barbarash 1988 + Johnston 1981 + McAllister 1982 +Hla 1987 (120 mg PO SD)",
+          "Path": "Neighborhoods|LowerJejunum_int_LowerJejunum_cell|Verapamil|P (intracellular->interstitial)",
+          "TargetSimulations": [
+            "Smith 1984 - Verapamil 10 mg iv control",
+            "Smith 1984 - Verapamil 120 mg po control",
+            "Smith 1984 - Verapamil 10 mg iv + cimetidine 300 mg qid",
+            "Smith 1984 - Verapamil 120 mg po + 300 mg cimetidine qid"
+          ]
+        },
+        {
+          "Project": "Verapamil",
+          "Simulation": "Barbarash 1988 + Johnston 1981 + McAllister 1982 +Hla 1987 (120 mg PO SD)",
+          "Path": "Neighborhoods|UpperIleum_int_UpperIleum_cell|Verapamil|P (intracellular->interstitial)",
+          "TargetSimulations": [
+            "Smith 1984 - Verapamil 10 mg iv control",
+            "Smith 1984 - Verapamil 120 mg po control",
+            "Smith 1984 - Verapamil 10 mg iv + cimetidine 300 mg qid",
+            "Smith 1984 - Verapamil 120 mg po + 300 mg cimetidine qid"
+          ]
+        },
+        {
+          "Project": "Verapamil",
+          "Simulation": "Barbarash 1988 + Johnston 1981 + McAllister 1982 +Hla 1987 (120 mg PO SD)",
+          "Path": "Neighborhoods|LowerIleum_int_LowerIleum_cell|Verapamil|P (intracellular->interstitial)",
+          "TargetSimulations": [
+            "Smith 1984 - Verapamil 10 mg iv control",
+            "Smith 1984 - Verapamil 120 mg po control",
+            "Smith 1984 - Verapamil 10 mg iv + cimetidine 300 mg qid",
+            "Smith 1984 - Verapamil 120 mg po + 300 mg cimetidine qid"
+          ]
+        },
+        {
+          "Project": "Verapamil",
+          "Simulation": "Barbarash 1988 + Johnston 1981 + McAllister 1982 +Hla 1987 (120 mg PO SD)",
+          "Path": "Neighborhoods|Caecum_int_Caecum_cell|Verapamil|P (intracellular->interstitial)",
+          "TargetSimulations": [
+            "Smith 1984 - Verapamil 10 mg iv control",
+            "Smith 1984 - Verapamil 120 mg po control",
+            "Smith 1984 - Verapamil 10 mg iv + cimetidine 300 mg qid",
+            "Smith 1984 - Verapamil 120 mg po + 300 mg cimetidine qid"
+          ]
+        },
+        {
+          "Project": "Verapamil",
+          "Simulation": "Barbarash 1988 + Johnston 1981 + McAllister 1982 +Hla 1987 (120 mg PO SD)",
+          "Path": "Neighborhoods|ColonAscendens_int_ColonAscendens_cell|Verapamil|P (intracellular->interstitial)",
+          "TargetSimulations": [
+            "Smith 1984 - Verapamil 10 mg iv control",
+            "Smith 1984 - Verapamil 120 mg po control",
+            "Smith 1984 - Verapamil 10 mg iv + cimetidine 300 mg qid",
+            "Smith 1984 - Verapamil 120 mg po + 300 mg cimetidine qid"
+          ]
+        },
+        {
+          "Project": "Verapamil",
+          "Simulation": "Barbarash 1988 + Johnston 1981 + McAllister 1982 +Hla 1987 (120 mg PO SD)",
+          "Path": "Neighborhoods|ColonTransversum_int_ColonTransversum_cell|Verapamil|P (intracellular->interstitial)",
+          "TargetSimulations": [
+            "Smith 1984 - Verapamil 10 mg iv control",
+            "Smith 1984 - Verapamil 120 mg po control",
+            "Smith 1984 - Verapamil 10 mg iv + cimetidine 300 mg qid",
+            "Smith 1984 - Verapamil 120 mg po + 300 mg cimetidine qid"
+          ]
+        },
+        {
+          "Project": "Verapamil",
+          "Simulation": "Barbarash 1988 + Johnston 1981 + McAllister 1982 +Hla 1987 (120 mg PO SD)",
+          "Path": "Neighborhoods|ColonDescendens_int_ColonDescendens_cell|Verapamil|P (intracellular->interstitial)",
+          "TargetSimulations": [
+            "Smith 1984 - Verapamil 10 mg iv control",
+            "Smith 1984 - Verapamil 120 mg po control",
+            "Smith 1984 - Verapamil 10 mg iv + cimetidine 300 mg qid",
+            "Smith 1984 - Verapamil 120 mg po + 300 mg cimetidine qid"
+          ]
+        },
+        {
+          "Project": "Verapamil",
+          "Simulation": "Barbarash 1988 + Johnston 1981 + McAllister 1982 +Hla 1987 (120 mg PO SD)",
+          "Path": "Neighborhoods|ColonSigmoid_int_ColonSigmoid_cell|Verapamil|P (intracellular->interstitial)",
+          "TargetSimulations": [
+            "Smith 1984 - Verapamil 10 mg iv control",
+            "Smith 1984 - Verapamil 120 mg po control",
+            "Smith 1984 - Verapamil 10 mg iv + cimetidine 300 mg qid",
+            "Smith 1984 - Verapamil 120 mg po + 300 mg cimetidine qid"
+          ]
+        },
+        {
+          "Project": "Verapamil",
+          "Simulation": "Barbarash 1988 + Johnston 1981 + McAllister 1982 +Hla 1987 (120 mg PO SD)",
+          "Path": "Neighborhoods|Rectum_int_Rectum_cell|Verapamil|P (intracellular->interstitial)",
+          "TargetSimulations": [
+            "Smith 1984 - Verapamil 10 mg iv control",
+            "Smith 1984 - Verapamil 120 mg po control",
+            "Smith 1984 - Verapamil 10 mg iv + cimetidine 300 mg qid",
+            "Smith 1984 - Verapamil 120 mg po + 300 mg cimetidine qid"
+          ]
+        }
+      ]
     },
     {
       "Id": "Clarithromycin-Midazolam-DDI",
-      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Clarithromycin-Midazolam-DDI/v1.0/Clarithromycin-Midazolam-DDI.json",
+      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Clarithromycin-Midazolam-DDI/v1.1/Clarithromycin-Midazolam-DDI.json",
       "BuildingBlocks": [
         {
           "Type": "Compound",
@@ -706,6 +2243,7 @@
             "DDI Treatment - Clarithromycin/Midazolam - iv - Quinney 2008",
             "DDI Treatment - Clarithromycin/Midazolam - po - Quinney 2008",
             "DDI Treatment - Rifampicin/Clarithromycin/Midazolam - van Dyk 2018",
+            "DDI Treatment - Clarithromycin/Midazolam - van Dyk 2018",
             "Yeates 1996, Midazolam 15 mg po, Clari 250 mg BID po day 5"
           ]
         },
@@ -723,6 +2261,7 @@
             "DDI Treatment - Clarithromycin/Midazolam - iv - Quinney 2008",
             "DDI Treatment - Clarithromycin/Midazolam - po - Quinney 2008",
             "DDI Treatment - Rifampicin/Clarithromycin/Midazolam - van Dyk 2018",
+            "DDI Treatment - Clarithromycin/Midazolam - van Dyk 2018",
             "Yeates 1996, Midazolam 15 mg po, Clari 250 mg BID po day 5"
           ]
         }
@@ -730,7 +2269,7 @@
     },
     {
       "Id": "Clarithromycin-Triazolam-DDI",
-      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Clarithromycin-Triazolam-DDI/v1.0/Clarithromycin-Triazolam_DDI.json",
+      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Clarithromycin-Triazolam-DDI/v1.1/Clarithromycin-Triazolam_DDI.json",
       "BuildingBlocks": [
         {
           "Type": "Compound",
@@ -972,7 +2511,7 @@
     },
     {
       "Id": "Erythromycin-Alfentanil-DDI",
-      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Erythromycin-Alfentanil-DDI/v1.0/Erythromycin-Alfentanil-DDI.json",
+      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Erythromycin-Alfentanil-DDI/v1.1/Erythromycin-Alfentanil-DDI.json",
       "BuildingBlocks": [
         {
           "Type": "Compound",
@@ -1215,7 +2754,7 @@
     },
     {
       "Id": "Erythromycin-Alprazolam-DDI",
-      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Erythromycin-Alprazolam-DDI/v1.0/Erythromycin-Alprazolam-DDI.json",
+      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Erythromycin-Alprazolam-DDI/v1.1/Erythromycin-Alprazolam-DDI.json",
       "BuildingBlocks": [
         {
           "Type": "Individual",
@@ -1451,7 +2990,7 @@
     },
     {
       "Id": "Erythromycin-Midazolam-DDI",
-      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Erythromycin-Midazolam-DDI/v1.0/Erythromycin-Midazolam-DDI.json",
+      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Erythromycin-Midazolam-DDI/v1.1/Erythromycin-Midazolam-DDI.json",
       "BuildingBlocks": [
         {
           "Type": "Compound",
@@ -1978,7 +3517,7 @@
     },
     {
       "Id": "Erythromycin-Triazolam-DDI",
-      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Erythromycin-Triazolam-DDI/v1.0/Erythromycin-Triazolam-DDI.json",
+      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Erythromycin-Triazolam-DDI/v1.1/Erythromycin-Triazolam-DDI.json",
       "BuildingBlocks": [
         {
           "Type": "Compound",
@@ -2248,7 +3787,7 @@
     },
     {
       "Id": "Fluvoxamine-Alprazolam-DDI",
-      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Fluvoxamine-Alprazolam-DDI/v1.0/Fluvoxamine-Alprazolam-DDI.json",
+      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Fluvoxamine-Alprazolam-DDI/v1.1/Fluvoxamine-Alprazolam-DDI.json",
       "BuildingBlocks": [
         {
           "Type": "Compound",
@@ -2474,7 +4013,7 @@
     },
     {
       "Id": "Fluvoxamine-Midazolam-DDI",
-      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Fluvoxamine-Midazolam-DDI/v1.0/Fluvoxamine-Midazolam-DDI.json",
+      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Fluvoxamine-Midazolam-DDI/v1.1/Fluvoxamine-Midazolam-DDI.json",
       "BuildingBlocks": [
         {
           "Type": "Compound",
@@ -2734,7 +4273,7 @@
     },
     {
       "Id": "Itraconazole-Alprazolam-DDI",
-      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Itraconazole-Alprazolam-DDI/v1.0/Itraconazole-Alprazolam-DDI.json",
+      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Itraconazole-Alprazolam-DDI/v1.1/Itraconazole-Alprazolam-DDI.json",
       "BuildingBlocks": [
         {
           "Type": "Individual",
@@ -2990,7 +4529,7 @@
     },
     {
       "Id": "Itraconazole-Midazolam-DDI",
-      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Itraconazole-Midazolam-DDI/v1.0/Itraconazole-Midazolam-DDI.json",
+      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Itraconazole-Midazolam-DDI/v1.1/Itraconazole-Midazolam-DDI.json",
       "BuildingBlocks": [
         {
           "Type": "Individual",
@@ -3571,7 +5110,7 @@
     },
     {
       "Id": "Itraconazole-Triazolam-DDI",
-      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Itraconazole-Triazolam-DDI/v1.0/Itraconazole-Triazolam-DDI.json",
+      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Itraconazole-Triazolam-DDI/v1.1/Itraconazole-Triazolam-DDI.json",
       "BuildingBlocks": [
         {
           "Type": "Compound",
@@ -3932,7 +5471,7 @@
     },
     {
       "Id": "Verapamil-Midazolam-DDI",
-      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Verapamil-Midazolam-DDI/v1.0/Verapamil-Midazolam-DDI.json",
+      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Verapamil-Midazolam-DDI/v1.1/Verapamil-Midazolam-DDI.json",
       "BuildingBlocks": [
         {
           "Type": "Compound",
@@ -4400,7 +5939,7 @@
     },
     {
       "Id": "Efavirenz-Alfentanil-DDI",
-      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Efavirenz-Alfentanil-DDI/v1.0/Efavirenz-Alfentanil-DDI.json",
+      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Efavirenz-Alfentanil-DDI/v1.1/Efavirenz-Alfentanil-DDI.json",
       "BuildingBlocks": [
         {
           "Type": "Compound",
@@ -4648,7 +6187,7 @@
     },
     {
       "Id": "Efavirenz-Midazolam-DDI",
-      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Efavirenz-Midazolam-DDI/v1.0/Efavirenz-Midazolam-DDI.json",
+      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Efavirenz-Midazolam-DDI/v1.1/Efavirenz-Midazolam-DDI.json",
       "BuildingBlocks": [
         {
           "Type": "Compound",
@@ -4913,7 +6452,7 @@
     },
     {
       "Id": "Rifampicin-Alfentanil-DDI",
-      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Rifampicin-Alfentanil-DDI/v1.0/Rifampicin-Alfentanil-DDI.json",
+      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Rifampicin-Alfentanil-DDI/v1.1/Rifampicin-Alfentanil-DDI.json",
       "BuildingBlocks": [
         {
           "Type": "Compound",
@@ -5613,7 +7152,7 @@
     },
     {
       "Id": "Rifampicin-Alprazolam-DDI",
-      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Rifampicin-Alprazolam-DDI/v1.0/Rifampicin-Alprazolam-DDI.json",
+      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Rifampicin-Alprazolam-DDI/v1.1/Rifampicin-Alprazolam-DDI.json",
       "BuildingBlocks": [
         {
           "Type": "Compound",
@@ -5878,7 +7417,7 @@
     },
     {
       "Id": "Rifampicin-Midazolam-DDI",
-      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Rifampicin-Midazolam-DDI/v1.0/Rifampicin-Midazolam-DDI.json",
+      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Rifampicin-Midazolam-DDI/v1.1/Rifampicin-Midazolam-DDI.json",
       "BuildingBlocks": [
         {
           "Type": "Individual",
@@ -7182,7 +8721,7 @@
     },
     {
       "Id": "Rifampicin-Triazolam-DDI",
-      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Rifampicin-Triazolam-DDI/v1.0/Rifampicin-Triazolam-DDI.json",
+      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Rifampicin-Triazolam-DDI/v1.1/Rifampicin-Triazolam-DDI.json",
       "BuildingBlocks": [
         {
           "Type": "Compound",
@@ -7400,12 +8939,272 @@
           ]
         }
       ]
+    },
+    {
+      "Id": "Rifampicin-Verapamil-DDI",
+      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Rifampicin-Verapamil-DDI/v1.0/Rifampicin-Verapamil-DDI.json",
+      "BuildingBlocks": [
+        {
+          "Type": "Compound",
+          "Name": "Rifampicin",
+          "Project": "Rifampicin"
+        },
+        {
+          "Type": "Compound",
+          "Name": "Verapamil",
+          "Project": "Verapamil"
+        }
+      ],
+      "SimulationParameters": [
+        {
+          "Project": "Verapamil",
+          "Simulation": "Barbarash 1988 + Johnston 1981 + McAllister 1982 +Hla 1987 (120 mg PO SD)",
+          "Path": "Neighborhoods|Duodenum_int_Duodenum_cell|Verapamil|P (interstitial->intracellular)",
+          "TargetSimulations": [
+            "DDI Control - Verapamil - Barbarash 1998 (iv)",
+            "DDI Control - Verapamil - Barbarash 1998 (po)",
+            "DDI Treatment - Rifampicin/Verapamil - Barbarash 1998 (iv)",
+            "DDI Treatment - Rifampicin/Verapamil - Barbarash 1998 (po)"
+          ]
+        },
+        {
+          "Project": "Verapamil",
+          "Simulation": "Barbarash 1988 + Johnston 1981 + McAllister 1982 +Hla 1987 (120 mg PO SD)",
+          "Path": "Neighborhoods|UpperJejunum_int_UpperJejunum_cell|Verapamil|P (interstitial->intracellular)",
+          "TargetSimulations": [
+            "DDI Control - Verapamil - Barbarash 1998 (iv)",
+            "DDI Control - Verapamil - Barbarash 1998 (po)",
+            "DDI Treatment - Rifampicin/Verapamil - Barbarash 1998 (iv)",
+            "DDI Treatment - Rifampicin/Verapamil - Barbarash 1998 (po)"
+          ]
+        },
+        {
+          "Project": "Verapamil",
+          "Simulation": "Barbarash 1988 + Johnston 1981 + McAllister 1982 +Hla 1987 (120 mg PO SD)",
+          "Path": "Neighborhoods|LowerJejunum_int_LowerJejunum_cell|Verapamil|P (interstitial->intracellular)",
+          "TargetSimulations": [
+            "DDI Control - Verapamil - Barbarash 1998 (iv)",
+            "DDI Control - Verapamil - Barbarash 1998 (po)",
+            "DDI Treatment - Rifampicin/Verapamil - Barbarash 1998 (iv)",
+            "DDI Treatment - Rifampicin/Verapamil - Barbarash 1998 (po)"
+          ]
+        },
+        {
+          "Project": "Verapamil",
+          "Simulation": "Barbarash 1988 + Johnston 1981 + McAllister 1982 +Hla 1987 (120 mg PO SD)",
+          "Path": "Neighborhoods|UpperIleum_int_UpperIleum_cell|Verapamil|P (interstitial->intracellular)",
+          "TargetSimulations": [
+            "DDI Control - Verapamil - Barbarash 1998 (iv)",
+            "DDI Control - Verapamil - Barbarash 1998 (po)",
+            "DDI Treatment - Rifampicin/Verapamil - Barbarash 1998 (iv)",
+            "DDI Treatment - Rifampicin/Verapamil - Barbarash 1998 (po)"
+          ]
+        },
+        {
+          "Project": "Verapamil",
+          "Simulation": "Barbarash 1988 + Johnston 1981 + McAllister 1982 +Hla 1987 (120 mg PO SD)",
+          "Path": "Neighborhoods|LowerIleum_int_LowerIleum_cell|Verapamil|P (interstitial->intracellular)",
+          "TargetSimulations": [
+            "DDI Control - Verapamil - Barbarash 1998 (iv)",
+            "DDI Control - Verapamil - Barbarash 1998 (po)",
+            "DDI Treatment - Rifampicin/Verapamil - Barbarash 1998 (iv)",
+            "DDI Treatment - Rifampicin/Verapamil - Barbarash 1998 (po)"
+          ]
+        },
+        {
+          "Project": "Verapamil",
+          "Simulation": "Barbarash 1988 + Johnston 1981 + McAllister 1982 +Hla 1987 (120 mg PO SD)",
+          "Path": "Neighborhoods|Caecum_int_Caecum_cell|Verapamil|P (interstitial->intracellular)",
+          "TargetSimulations": [
+            "DDI Control - Verapamil - Barbarash 1998 (iv)",
+            "DDI Control - Verapamil - Barbarash 1998 (po)",
+            "DDI Treatment - Rifampicin/Verapamil - Barbarash 1998 (iv)",
+            "DDI Treatment - Rifampicin/Verapamil - Barbarash 1998 (po)"
+          ]
+        },
+        {
+          "Project": "Verapamil",
+          "Simulation": "Barbarash 1988 + Johnston 1981 + McAllister 1982 +Hla 1987 (120 mg PO SD)",
+          "Path": "Neighborhoods|ColonAscendens_int_ColonAscendens_cell|Verapamil|P (interstitial->intracellular)",
+          "TargetSimulations": [
+            "DDI Control - Verapamil - Barbarash 1998 (iv)",
+            "DDI Control - Verapamil - Barbarash 1998 (po)",
+            "DDI Treatment - Rifampicin/Verapamil - Barbarash 1998 (iv)",
+            "DDI Treatment - Rifampicin/Verapamil - Barbarash 1998 (po)"
+          ]
+        },
+        {
+          "Project": "Verapamil",
+          "Simulation": "Barbarash 1988 + Johnston 1981 + McAllister 1982 +Hla 1987 (120 mg PO SD)",
+          "Path": "Neighborhoods|ColonTransversum_int_ColonTransversum_cell|Verapamil|P (interstitial->intracellular)",
+          "TargetSimulations": [
+            "DDI Control - Verapamil - Barbarash 1998 (iv)",
+            "DDI Control - Verapamil - Barbarash 1998 (po)",
+            "DDI Treatment - Rifampicin/Verapamil - Barbarash 1998 (iv)",
+            "DDI Treatment - Rifampicin/Verapamil - Barbarash 1998 (po)"
+          ]
+        },
+        {
+          "Project": "Verapamil",
+          "Simulation": "Barbarash 1988 + Johnston 1981 + McAllister 1982 +Hla 1987 (120 mg PO SD)",
+          "Path": "Neighborhoods|ColonDescendens_int_ColonDescendens_cell|Verapamil|P (interstitial->intracellular)",
+          "TargetSimulations": [
+            "DDI Control - Verapamil - Barbarash 1998 (iv)",
+            "DDI Control - Verapamil - Barbarash 1998 (po)",
+            "DDI Treatment - Rifampicin/Verapamil - Barbarash 1998 (iv)",
+            "DDI Treatment - Rifampicin/Verapamil - Barbarash 1998 (po)"
+          ]
+        },
+        {
+          "Project": "Verapamil",
+          "Simulation": "Barbarash 1988 + Johnston 1981 + McAllister 1982 +Hla 1987 (120 mg PO SD)",
+          "Path": "Neighborhoods|ColonSigmoid_int_ColonSigmoid_cell|Verapamil|P (interstitial->intracellular)",
+          "TargetSimulations": [
+            "DDI Control - Verapamil - Barbarash 1998 (iv)",
+            "DDI Control - Verapamil - Barbarash 1998 (po)",
+            "DDI Treatment - Rifampicin/Verapamil - Barbarash 1998 (iv)",
+            "DDI Treatment - Rifampicin/Verapamil - Barbarash 1998 (po)"
+          ]
+        },
+        {
+          "Project": "Verapamil",
+          "Simulation": "Barbarash 1988 + Johnston 1981 + McAllister 1982 +Hla 1987 (120 mg PO SD)",
+          "Path": "Neighborhoods|Rectum_int_Rectum_cell|Verapamil|P (interstitial->intracellular)",
+          "TargetSimulations": [
+            "DDI Control - Verapamil - Barbarash 1998 (iv)",
+            "DDI Control - Verapamil - Barbarash 1998 (po)",
+            "DDI Treatment - Rifampicin/Verapamil - Barbarash 1998 (iv)",
+            "DDI Treatment - Rifampicin/Verapamil - Barbarash 1998 (po)"
+          ]
+        },
+        {
+          "Project": "Verapamil",
+          "Simulation": "Barbarash 1988 + Johnston 1981 + McAllister 1982 +Hla 1987 (120 mg PO SD)",
+          "Path": "Neighborhoods|Duodenum_int_Duodenum_cell|Verapamil|P (intracellular->interstitial)",
+          "TargetSimulations": [
+            "DDI Control - Verapamil - Barbarash 1998 (iv)",
+            "DDI Control - Verapamil - Barbarash 1998 (po)",
+            "DDI Treatment - Rifampicin/Verapamil - Barbarash 1998 (iv)",
+            "DDI Treatment - Rifampicin/Verapamil - Barbarash 1998 (po)"
+          ]
+        },
+        {
+          "Project": "Verapamil",
+          "Simulation": "Barbarash 1988 + Johnston 1981 + McAllister 1982 +Hla 1987 (120 mg PO SD)",
+          "Path": "Neighborhoods|UpperJejunum_int_UpperJejunum_cell|Verapamil|P (intracellular->interstitial)",
+          "TargetSimulations": [
+            "DDI Control - Verapamil - Barbarash 1998 (iv)",
+            "DDI Control - Verapamil - Barbarash 1998 (po)",
+            "DDI Treatment - Rifampicin/Verapamil - Barbarash 1998 (iv)",
+            "DDI Treatment - Rifampicin/Verapamil - Barbarash 1998 (po)"
+          ]
+        },
+        {
+          "Project": "Verapamil",
+          "Simulation": "Barbarash 1988 + Johnston 1981 + McAllister 1982 +Hla 1987 (120 mg PO SD)",
+          "Path": "Neighborhoods|LowerJejunum_int_LowerJejunum_cell|Verapamil|P (intracellular->interstitial)",
+          "TargetSimulations": [
+            "DDI Control - Verapamil - Barbarash 1998 (iv)",
+            "DDI Control - Verapamil - Barbarash 1998 (po)",
+            "DDI Treatment - Rifampicin/Verapamil - Barbarash 1998 (iv)",
+            "DDI Treatment - Rifampicin/Verapamil - Barbarash 1998 (po)"
+          ]
+        },
+        {
+          "Project": "Verapamil",
+          "Simulation": "Barbarash 1988 + Johnston 1981 + McAllister 1982 +Hla 1987 (120 mg PO SD)",
+          "Path": "Neighborhoods|UpperIleum_int_UpperIleum_cell|Verapamil|P (intracellular->interstitial)",
+          "TargetSimulations": [
+            "DDI Control - Verapamil - Barbarash 1998 (iv)",
+            "DDI Control - Verapamil - Barbarash 1998 (po)",
+            "DDI Treatment - Rifampicin/Verapamil - Barbarash 1998 (iv)",
+            "DDI Treatment - Rifampicin/Verapamil - Barbarash 1998 (po)"
+          ]
+        },
+        {
+          "Project": "Verapamil",
+          "Simulation": "Barbarash 1988 + Johnston 1981 + McAllister 1982 +Hla 1987 (120 mg PO SD)",
+          "Path": "Neighborhoods|LowerIleum_int_LowerIleum_cell|Verapamil|P (intracellular->interstitial)",
+          "TargetSimulations": [
+            "DDI Control - Verapamil - Barbarash 1998 (iv)",
+            "DDI Control - Verapamil - Barbarash 1998 (po)",
+            "DDI Treatment - Rifampicin/Verapamil - Barbarash 1998 (iv)",
+            "DDI Treatment - Rifampicin/Verapamil - Barbarash 1998 (po)"
+          ]
+        },
+        {
+          "Project": "Verapamil",
+          "Simulation": "Barbarash 1988 + Johnston 1981 + McAllister 1982 +Hla 1987 (120 mg PO SD)",
+          "Path": "Neighborhoods|Caecum_int_Caecum_cell|Verapamil|P (intracellular->interstitial)",
+          "TargetSimulations": [
+            "DDI Control - Verapamil - Barbarash 1998 (iv)",
+            "DDI Control - Verapamil - Barbarash 1998 (po)",
+            "DDI Treatment - Rifampicin/Verapamil - Barbarash 1998 (iv)",
+            "DDI Treatment - Rifampicin/Verapamil - Barbarash 1998 (po)"
+          ]
+        },
+        {
+          "Project": "Verapamil",
+          "Simulation": "Barbarash 1988 + Johnston 1981 + McAllister 1982 +Hla 1987 (120 mg PO SD)",
+          "Path": "Neighborhoods|ColonAscendens_int_ColonAscendens_cell|Verapamil|P (intracellular->interstitial)",
+          "TargetSimulations": [
+            "DDI Control - Verapamil - Barbarash 1998 (iv)",
+            "DDI Control - Verapamil - Barbarash 1998 (po)",
+            "DDI Treatment - Rifampicin/Verapamil - Barbarash 1998 (iv)",
+            "DDI Treatment - Rifampicin/Verapamil - Barbarash 1998 (po)"
+          ]
+        },
+        {
+          "Project": "Verapamil",
+          "Simulation": "Barbarash 1988 + Johnston 1981 + McAllister 1982 +Hla 1987 (120 mg PO SD)",
+          "Path": "Neighborhoods|ColonTransversum_int_ColonTransversum_cell|Verapamil|P (intracellular->interstitial)",
+          "TargetSimulations": [
+            "DDI Control - Verapamil - Barbarash 1998 (iv)",
+            "DDI Control - Verapamil - Barbarash 1998 (po)",
+            "DDI Treatment - Rifampicin/Verapamil - Barbarash 1998 (iv)",
+            "DDI Treatment - Rifampicin/Verapamil - Barbarash 1998 (po)"
+          ]
+        },
+        {
+          "Project": "Verapamil",
+          "Simulation": "Barbarash 1988 + Johnston 1981 + McAllister 1982 +Hla 1987 (120 mg PO SD)",
+          "Path": "Neighborhoods|ColonDescendens_int_ColonDescendens_cell|Verapamil|P (intracellular->interstitial)",
+          "TargetSimulations": [
+            "DDI Control - Verapamil - Barbarash 1998 (iv)",
+            "DDI Control - Verapamil - Barbarash 1998 (po)",
+            "DDI Treatment - Rifampicin/Verapamil - Barbarash 1998 (iv)",
+            "DDI Treatment - Rifampicin/Verapamil - Barbarash 1998 (po)"
+          ]
+        },
+        {
+          "Project": "Verapamil",
+          "Simulation": "Barbarash 1988 + Johnston 1981 + McAllister 1982 +Hla 1987 (120 mg PO SD)",
+          "Path": "Neighborhoods|ColonSigmoid_int_ColonSigmoid_cell|Verapamil|P (intracellular->interstitial)",
+          "TargetSimulations": [
+            "DDI Control - Verapamil - Barbarash 1998 (iv)",
+            "DDI Control - Verapamil - Barbarash 1998 (po)",
+            "DDI Treatment - Rifampicin/Verapamil - Barbarash 1998 (iv)",
+            "DDI Treatment - Rifampicin/Verapamil - Barbarash 1998 (po)"
+          ]
+        },
+        {
+          "Project": "Verapamil",
+          "Simulation": "Barbarash 1988 + Johnston 1981 + McAllister 1982 +Hla 1987 (120 mg PO SD)",
+          "Path": "Neighborhoods|Rectum_int_Rectum_cell|Verapamil|P (intracellular->interstitial)",
+          "TargetSimulations": [
+            "DDI Control - Verapamil - Barbarash 1998 (iv)",
+            "DDI Control - Verapamil - Barbarash 1998 (po)",
+            "DDI Treatment - Rifampicin/Verapamil - Barbarash 1998 (iv)",
+            "DDI Treatment - Rifampicin/Verapamil - Barbarash 1998 (po)"
+          ]
+        }
+      ]
     }
   ],
   "ObservedDataSets": [
     {
       "Id": "DDI Ratios",
-      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Database-for-observed-data/v1.0/DDI.csv",
+      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Database-for-observed-data/master/DDI.csv",
       "Type": "DDIRatio"
     }
   ],
@@ -7524,6 +9323,456 @@
     "ComparisonTimeProfilePlots": [
       {
         "SectionId": 301,
+        "Title": "Kienlen 1993",
+        "SimulationDuration": 24,
+        "TimeUnit": "h",
+        "OutputMappings": [
+          {
+            "Project": "Cimetidine-Alfentanil-DDI",
+            "Simulation": "Kienlen 1993 - Alfentanil iv control",
+            "Output": "Organism|PeripheralVenousBlood|Alfentanil|Plasma (Peripheral Venous Blood)",
+            "ObservedData": "Kienlen 1993 - Alfentanil control - Alfentanil - IV - 125 µg/kg - Serum - agg. (n=5)",
+            "StartTime": 0,
+            "TimeUnit": "h",
+            "Color": "#2166ac",
+            "Caption": "Control (without Cimetidine)",
+            "Symbol": "Circle"
+          },
+          {
+            "Project": "Cimetidine-Alfentanil-DDI",
+            "Simulation": "Kienlen 1993 - Alfentanil iv + Cimetidine iv",
+            "Output": "Organism|PeripheralVenousBlood|Alfentanil|Plasma (Peripheral Venous Blood)",
+            "ObservedData": "Kienlen 1993 - Alfentanil + Cimetidine - Alfentanil - IV - 125 µg/kg - Serum - agg. (n=6)",
+            "StartTime": 48,
+            "TimeUnit": "h",
+            "Color": "#b2182b",
+            "Caption": "Treatment with Cimetidine",
+            "Symbol": "Square"
+          }
+        ]
+      },
+      {
+        "SectionId": 302,
+        "Title": "Abernethy 1983",
+        "SimulationDuration": 24,
+        "TimeUnit": "h",
+        "OutputMappings": [
+          {
+            "Project": "Cimetidine-Alprazolam-DDI",
+            "Simulation": "Abernethy 1983 - Alprazolam 1 mg control",
+            "Output": "Organism|PeripheralVenousBlood|Alprazolam|Plasma (Peripheral Venous Blood)",
+            "ObservedData": "Abernethy 1983 - Alprazolam control - Alprazolam - PO - 1 mg - Plasma - indiv.",
+            "StartTime": 0,
+            "TimeUnit": "h",
+            "Color": "#2166ac",
+            "Caption": "Control (without Cimetidine)",
+            "Symbol": "Circle"
+          },
+          {
+            "Project": "Cimetidine-Alprazolam-DDI",
+            "Simulation": "Abernethy 1983 - Alprazolam 1 mg + 300 mg cimetidine QID",
+            "Output": "Organism|PeripheralVenousBlood|Alprazolam|Plasma (Peripheral Venous Blood)",
+            "ObservedData": "Abernethy 1983 - Alprazoam + Cimetidine - Alprazolam - PO - 1 mg - Plasma - indiv.",
+            "StartTime": 12,
+            "TimeUnit": "h",
+            "Color": "#b2182b",
+            "Caption": "Treatment with Cimetidine",
+            "Symbol": "Square"
+          }
+        ]
+      },
+      {
+        "SectionId": 302,
+        "Title": "Pourbaix 1985",
+        "SimulationDuration": 72,
+        "TimeUnit": "h",
+        "OutputMappings": [
+          {
+            "Project": "Cimetidine-Alprazolam-DDI",
+            "Simulation": "Pourbaix 1985 - Alprazolam 0.5 mg TID control",
+            "Output": "Organism|PeripheralVenousBlood|Alprazolam|Plasma (Peripheral Venous Blood)",
+            "ObservedData": "Pourbaix 1985 - Alprazolam control - Alprazolam - PO - 0.5 mg - Plasma - agg. (n=8)",
+            "StartTime": 168,
+            "TimeUnit": "h",
+            "Color": "#2166ac",
+            "Caption": "Control (without Cimetidine)",
+            "Symbol": "Circle"
+          },
+          {
+            "Project": "Cimetidine-Alprazolam-DDI",
+            "Simulation": "Pourbaix 1985 - alprazolam 0.5 mg TID + cimetidine 200/400 mg QID",
+            "Output": "Organism|PeripheralVenousBlood|Alprazolam|Plasma (Peripheral Venous Blood)",
+            "ObservedData": "Pourbaix 1985 - Alprazoam + Cimetidine - Alprazolam - PO - 0.5 mg - Plasma - agg. (n=8)",
+            "StartTime": 336,
+            "TimeUnit": "h",
+            "Color": "#b2182b",
+            "Caption": "Treatment with Cimetidine",
+            "Symbol": "Square"
+          }
+        ]
+      },
+      {
+        "SectionId": 303,
+        "Title": "Greenblatt 1986 (midazolam IV)",
+        "SimulationDuration": 24,
+        "TimeUnit": "h",
+        "OutputMappings": [
+          {
+            "Project": "Cimetidine-Midazolam-DDI",
+            "Simulation": "Greenblatt 1986, Midazolam iv control",
+            "Output": "Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
+            "ObservedData": "Greenblatt 1986 - 5 mg Midazolam IV control - Midazolam - IV - 5 mg - Plasma - indiv.",
+            "StartTime": 0,
+            "TimeUnit": "h",
+            "Color": "#2166ac",
+            "Caption": "Control (without Cimetidine)",
+            "Symbol": "Circle"
+          },
+          {
+            "Project": "Cimetidine-Midazolam-DDI",
+            "Simulation": "Greenblatt 1986, Midazolam iv + 300 mg cimetidine QID",
+            "Output": "Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
+            "ObservedData": "Greenblatt 1986 - 300 mg QD Cimetidine, 5 mg Midazolam IV - Midazolam - IV - 5 mg - Plasma - indiv.",
+            "StartTime": 24,
+            "TimeUnit": "h",
+            "Color": "#b2182b",
+            "Caption": "Treatment with Cimetidine",
+            "Symbol": "Square"
+          }
+        ]
+      },
+      {
+        "SectionId": 303,
+        "Title": "Greenblatt 1986 (midazolam PO)",
+        "SimulationDuration": 24,
+        "TimeUnit": "h",
+        "OutputMappings": [
+          {
+            "Project": "Cimetidine-Midazolam-DDI",
+            "Simulation": "Greenblatt 1986, Midazolam po control",
+            "Output": "Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
+            "ObservedData": "Greenblatt 1986 - 15 mg Midazolam PO control - Midazolam - PO - 15 mg - Plasma - indiv.",
+            "StartTime": 0,
+            "TimeUnit": "h",
+            "Color": "#2166ac",
+            "Caption": "Control (without Cimetidine)",
+            "Symbol": "Circle"
+          },
+          {
+            "Project": "Cimetidine-Midazolam-DDI",
+            "Simulation": "Greenblatt 1986, Midazolam po + 300 mg cimetidine QID",
+            "Output": "Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
+            "ObservedData": "Greenblatt 1986 - 300 mg QD Cimetidine, 15 mg Midazolam PO - Midazolam - PO - 15 mg - Plasma - indiv.",
+            "StartTime": 24,
+            "TimeUnit": "h",
+            "Color": "#b2182b",
+            "Caption": "Treatment with Cimetidine",
+            "Symbol": "Square"
+          }
+        ]
+      },
+      {
+        "SectionId": 303,
+        "Title": "Martinez 1999",
+        "SimulationDuration": 24,
+        "TimeUnit": "h",
+        "OutputMappings": [
+          {
+            "Project": "Cimetidine-Midazolam-DDI",
+            "Simulation": "Martinez 1999, Midazolam po control",
+            "Output": "Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
+            "ObservedData": [],
+            "StartTime": 0,
+            "TimeUnit": "h",
+            "Color": "#2166ac",
+            "Caption": "Control (without Cimetidine)",
+            "Symbol": "Circle"
+          },
+          {
+            "Project": "Cimetidine-Midazolam-DDI",
+            "Simulation": "Martinez 1999, Midazolam po + 800 mg cimetidine",
+            "Output": "Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
+            "ObservedData": [],
+            "StartTime": 0,
+            "TimeUnit": "h",
+            "Color": "#b2182b",
+            "Caption": "Treatment with Cimetidine",
+            "Symbol": "Square"
+          }
+        ]
+      },
+      {
+        "SectionId": 303,
+        "Title": "Fee 1987",
+        "SimulationDuration": 24,
+        "TimeUnit": "h",
+        "OutputMappings": [
+          {
+            "Project": "Cimetidine-Midazolam-DDI",
+            "Simulation": "Fee 1987, Midazolam po control",
+            "Output": "Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
+            "ObservedData": "Fee 1987 - 15 mg Midazolam control - Midazolam - PO - 15 mg - Plasma - agg. (n=8)",
+            "StartTime": 0,
+            "TimeUnit": "h",
+            "Color": "#2166ac",
+            "Caption": "Control (without Cimetidine)",
+            "Symbol": "Circle"
+          },
+          {
+            "Project": "Cimetidine-Midazolam-DDI",
+            "Simulation": "Fee 1987, Midazolam po + 400 mg cimetidine BID",
+            "Output": "Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
+            "ObservedData": "Fee 1987 - 400 mg BID Cimetidine, 15 mg Midazolam - Midazolam - PO - 15 mg - Plasma - agg. (n=8)",
+            "StartTime": 25,
+            "TimeUnit": "h",
+            "Color": "#b2182b",
+            "Caption": "Treatment with Cimetidine",
+            "Symbol": "Square"
+          }
+        ]
+      },
+      {
+        "SectionId": 303,
+        "Title": "Salonen 1986",
+        "SimulationDuration": 24,
+        "TimeUnit": "h",
+        "OutputMappings": [
+          {
+            "Project": "Cimetidine-Midazolam-DDI",
+            "Simulation": "Salonen 1986, Midazolam po control",
+            "Output": "Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
+            "ObservedData": "Salonen 1986 - 15 mg Midazolam PO control - Midazolam - PO - 15 mg - Plasma - agg. (n=6)",
+            "StartTime": 0,
+            "TimeUnit": "h",
+            "Color": "#2166ac",
+            "Caption": "Control (without Cimetidine)",
+            "Symbol": "Circle"
+          },
+          {
+            "Project": "Cimetidine-Midazolam-DDI",
+            "Simulation": "Salonen 1986, Midazolam po + 400 mg cimetidine",
+            "Output": "Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
+            "ObservedData": "Salonen 1986 - 400 mg Cimetidine, 15 mg Midazolam - Midazolam - PO - 15 mg - Plasma - agg. (n=6)",
+            "StartTime": 2,
+            "TimeUnit": "h",
+            "Color": "#b2182b",
+            "Caption": "Treatment with Cimetidine",
+            "Symbol": "Square"
+          }
+        ]
+      },
+      {
+        "SectionId": 303,
+        "Title": "Elliott 1984",
+        "SimulationDuration": 24,
+        "TimeUnit": "h",
+        "OutputMappings": [
+          {
+            "Project": "Cimetidine-Midazolam-DDI",
+            "Simulation": "Elliott 1984, Midazolam po control",
+            "Output": "Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
+            "ObservedData": "Elliott 1984 - Midazolam/H2O - Midazolam - PO - 15 mg - Plasma - agg. (n=5)",
+            "StartTime": 0,
+            "TimeUnit": "h",
+            "Color": "#2166ac",
+            "Caption": "Control (without Cimetidine)",
+            "Symbol": "Circle"
+          },
+          {
+            "Project": "Cimetidine-Midazolam-DDI",
+            "Simulation": "Elliott 1984, Midazolam po + 200/400 mg cimetidine",
+            "Output": "Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
+            "ObservedData": "Elliott 1984 - Midazolam/cimetidine - Midazolam - PO - 15 mg - Plasma - agg. (n=5)",
+            "StartTime": 26.5,
+            "TimeUnit": "h",
+            "Color": "#b2182b",
+            "Caption": "Treatment with Cimetidine",
+            "Symbol": "Square"
+          }
+        ]
+      },
+      {
+        "SectionId": 304,
+        "Title": "Abernethy 1983",
+        "SimulationDuration": 24,
+        "TimeUnit": "h",
+        "OutputMappings": [
+          {
+            "Project": "Cimetidine-Triazolam-DDI",
+            "Simulation": "Abernethy 1983/Friedman 1988 - Triazolam control",
+            "Output": "Organism|PeripheralVenousBlood|Triazolam|Plasma (Peripheral Venous Blood)",
+            "ObservedData": "Abernethy 1983 - Triazolam control - Triazolam - PO - 0.5 mg - Plasma - indiv.",
+            "StartTime": 0,
+            "TimeUnit": "h",
+            "Color": "#2166ac",
+            "Caption": "Control (without Cimetidine)",
+            "Symbol": "Circle"
+          },
+          {
+            "Project": "Cimetidine-Triazolam-DDI",
+            "Simulation": "Abernethy 1983 - Triazolam + cimetidine 300 mg QID",
+            "Output": "Organism|PeripheralVenousBlood|Triazolam|Plasma (Peripheral Venous Blood)",
+            "ObservedData": "Abernethy 1983 - Triazolam + Cimetidine - Triazolam - PO - 0.5 mg - Plasma - indiv.",
+            "StartTime": 12,
+            "TimeUnit": "h",
+            "Color": "#b2182b",
+            "Caption": "Treatment with Cimetidine",
+            "Symbol": "Square"
+          }
+        ]
+      },
+      {
+        "SectionId": 304,
+        "Title": "Friedman 1988",
+        "SimulationDuration": 24,
+        "TimeUnit": "h",
+        "OutputMappings": [
+          {
+            "Project": "Cimetidine-Triazolam-DDI",
+            "Simulation": "Abernethy 1983/Friedman 1988 - Triazolam control",
+            "Output": "Organism|PeripheralVenousBlood|Triazolam|Plasma (Peripheral Venous Blood)",
+            "ObservedData": "Friedman 1988 - Triazolam control - Triazolam - PO - 0.5 mg - Plasma - agg. (n=19)",
+            "StartTime": 0,
+            "TimeUnit": "h",
+            "Color": "#2166ac",
+            "Caption": "Control (without Cimetidine)",
+            "Symbol": "Circle"
+          },
+          {
+            "Project": "Cimetidine-Triazolam-DDI",
+            "Simulation": "Friedman 1988 - Triazolam + cimetidine 300 mg QID",
+            "Output": "Organism|PeripheralVenousBlood|Triazolam|Plasma (Peripheral Venous Blood)",
+            "ObservedData": "Friedman 1988 - Triazolam + Cimetidine - Triazolam - PO - 0.5 mg - Plasma - agg. (n=19)",
+            "StartTime": 24,
+            "TimeUnit": "h",
+            "Color": "#b2182b",
+            "Caption": "Treatment with Cimetidine",
+            "Symbol": "Square"
+          }
+        ]
+      },
+      {
+        "SectionId": 304,
+        "Title": "Pourbaix 1985",
+        "SimulationDuration": 24,
+        "TimeUnit": "h",
+        "OutputMappings": [
+          {
+            "Project": "Cimetidine-Triazolam-DDI",
+            "Simulation": "Pourbaix 1985 - Triazolam control",
+            "Output": "Organism|PeripheralVenousBlood|Triazolam|Plasma (Peripheral Venous Blood)",
+            "ObservedData": "Pourbaix 1985 - Triazolam control - Triazolam - PO - 0.5 mg - Plasma - agg. (n=8)",
+            "StartTime": 144,
+            "TimeUnit": "h",
+            "Color": "#2166ac",
+            "Caption": "Control (without Cimetidine)",
+            "Symbol": "Circle"
+          },
+          {
+            "Project": "Cimetidine-Triazolam-DDI",
+            "Simulation": "Pourbaix 1985 - Triazolam + cimetidine 200/400 mg QID",
+            "Output": "Organism|PeripheralVenousBlood|Triazolam|Plasma (Peripheral Venous Blood)",
+            "ObservedData": "Pourbaix 1985 - Triazolam + Cimetidine - Triazolam - PO - 0.5 mg - Plasma - agg. (n=8)",
+            "StartTime": 327,
+            "TimeUnit": "h",
+            "Color": "#b2182b",
+            "Caption": "Treatment with Cimetidine",
+            "Symbol": "Square"
+          }
+        ]
+      },
+      {
+        "SectionId": 304,
+        "Title": "Cox 1986",
+        "SimulationDuration": 24,
+        "TimeUnit": "h",
+        "OutputMappings": [
+          {
+            "Project": "Cimetidine-Triazolam-DDI",
+            "Simulation": "Cox 1986 - Triazolam intraduodenal control",
+            "Output": "Organism|PeripheralVenousBlood|Triazolam|Plasma (Peripheral Venous Blood)",
+            "ObservedData": "Cox 1986 - triazolam control - Triazolam - intraduodenal - 0.5 mg - Serum - agg. (n=4)",
+            "StartTime": 0,
+            "TimeUnit": "h",
+            "Color": "#2166ac",
+            "Caption": "Control (without Cimetidine)",
+            "Symbol": "Circle"
+          },
+          {
+            "Project": "Cimetidine-Triazolam-DDI",
+            "Simulation": "Cox 1986 - Triazolam intraduodenal + cimetidine 300 mg QID",
+            "Output": "Organism|PeripheralVenousBlood|Triazolam|Plasma (Peripheral Venous Blood)",
+            "ObservedData": "Cox 1986 - triazolam + cimetidine - Triazolam - intraduodenal - 0.5 mg - Serum - agg. (n=4)",
+            "StartTime": 13,
+            "TimeUnit": "h",
+            "Color": "#b2182b",
+            "Caption": "Treatment with Cimetidine",
+            "Symbol": "Square"
+          }
+        ]
+      },
+      {
+        "SectionId": 305,
+        "Title": "Smith 1984 (verapamil IV)",
+        "SimulationDuration": 24,
+        "TimeUnit": "h",
+        "OutputMappings": [
+          {
+            "Project": "Cimetidine-Verapamil-DDI",
+            "Simulation": "Smith 1984 - Verapamil 10 mg iv control",
+            "Output": "Organism|PeripheralVenousBlood|Verapamil|Plasma (Peripheral Venous Blood)",
+            "ObservedData": "Smith 1984 - IV 10 mg Verapamil control - Verapamil - IV - 10 mg - Plasma - agg. (n=8)",
+            "StartTime": 0,
+            "TimeUnit": "h",
+            "Color": "#2166ac",
+            "Caption": "Control (without Cimetidine)",
+            "Symbol": "Circle"
+          },
+          {
+            "Project": "Cimetidine-Verapamil-DDI",
+            "Simulation": "Smith 1984 - Verapamil 10 mg iv + cimetidine 300 mg qid",
+            "Output": "Organism|PeripheralVenousBlood|Verapamil|Plasma (Peripheral Venous Blood)",
+            "ObservedData": "Smith 1984 - IV 10 mg Verapamil + Cimetidine - Verapamil - IV - 10 mg - Plasma - agg. (n=8)",
+            "StartTime": 168,
+            "TimeUnit": "h",
+            "Color": "#b2182b",
+            "Caption": "Treatment with Cimetidine",
+            "Symbol": "Square"
+          }
+        ]
+      },
+      {
+        "SectionId": 305,
+        "Title": "Smith 1984 (verapamil PO)",
+        "SimulationDuration": 24,
+        "TimeUnit": "h",
+        "OutputMappings": [
+          {
+            "Project": "Cimetidine-Verapamil-DDI",
+            "Simulation": "Smith 1984 - Verapamil 120 mg po control",
+            "Output": "Organism|PeripheralVenousBlood|Verapamil|Plasma (Peripheral Venous Blood)",
+            "ObservedData": "Smith 1984 - PO 120 mg Verapamil control - Verapamil - PO - 120 mg - Plasma - agg. (n=8)",
+            "StartTime": 0,
+            "TimeUnit": "h",
+            "Color": "#2166ac",
+            "Caption": "Control (without Cimetidine)",
+            "Symbol": "Circle"
+          },
+          {
+            "Project": "Cimetidine-Verapamil-DDI",
+            "Simulation": "Smith 1984 - Verapamil 120 mg po + 300 mg cimetidine qid",
+            "Output": "Organism|PeripheralVenousBlood|Verapamil|Plasma (Peripheral Venous Blood)",
+            "ObservedData": "Smith 1984 - PO 120 mg Verapamil + Cimetidine - Verapamil - PO - 120 mg - Plasma - agg. (n=8)",
+            "StartTime": 168,
+            "TimeUnit": "h",
+            "Color": "#b2182b",
+            "Caption": "Treatment with Cimetidine",
+            "Symbol": "Square"
+          }
+        ]
+      },
+      {
+        "SectionId": 306,
         "Title": "Gorski 1998 (midazolam IV)",
         "SimulationDuration": 12,
         "TimeUnit": "h",
@@ -7553,7 +9802,7 @@
         ]
       },
       {
-        "SectionId": 301,
+        "SectionId": 306,
         "Title": "Gorski 1998 (midazolam po)",
         "SimulationDuration": 12,
         "TimeUnit": "h",
@@ -7583,7 +9832,7 @@
         ]
       },
       {
-        "SectionId": 301,
+        "SectionId": 306,
         "Title": "Gurley 2006",
         "SimulationDuration": 6,
         "TimeUnit": "h",
@@ -7613,7 +9862,7 @@
         ]
       },
       {
-        "SectionId": 301,
+        "SectionId": 306,
         "Title": "Gurley 2008a",
         "SimulationDuration": 6,
         "TimeUnit": "h",
@@ -7643,7 +9892,7 @@
         ]
       },
       {
-        "SectionId": 301,
+        "SectionId": 306,
         "Title": "Markert 2013",
         "SimulationDuration": 20,
         "TimeUnit": "h",
@@ -7673,7 +9922,7 @@
         ]
       },
       {
-        "SectionId": 301,
+        "SectionId": 306,
         "Title": "Prueksaritanont 2017",
         "SimulationDuration": 48,
         "TimeUnit": "h",
@@ -7703,7 +9952,7 @@
         ]
       },
       {
-        "SectionId": 301,
+        "SectionId": 306,
         "Title": "Quinney 2008 (midazolam IV)",
         "SimulationDuration": 12,
         "TimeUnit": "h",
@@ -7733,7 +9982,7 @@
         ]
       },
       {
-        "SectionId": 301,
+        "SectionId": 306,
         "Title": "Quinney 2008 (midazolam po)",
         "SimulationDuration": 12,
         "TimeUnit": "h",
@@ -7763,7 +10012,7 @@
         ]
       },
       {
-        "SectionId": 301,
+        "SectionId": 306,
         "Title": "van Dyk 2018",
         "SimulationDuration": 10,
         "TimeUnit": "h",
@@ -7793,7 +10042,7 @@
         ]
       },
       {
-        "SectionId": 301,
+        "SectionId": 306,
         "Title": "Yeates 1996",
         "SimulationDuration": 24,
         "TimeUnit": "h",
@@ -7823,7 +10072,7 @@
         ]
       },
       {
-        "SectionId": 302,
+        "SectionId": 307,
         "Title": "Greenblatt 1998a",
         "SimulationDuration": 24,
         "TimeUnit": "h",
@@ -7853,7 +10102,7 @@
         ]
       },
       {
-        "SectionId": 303,
+        "SectionId": 308,
         "Title": "Bartkowski 1989",
         "SimulationDuration": 8,
         "TimeUnit": "h",
@@ -7866,7 +10115,7 @@
             "StartTime": 0,
             "TimeUnit": "h",
             "Color": "#2166ac",
-            "Caption": "Control (without erythromycin) - Individiual 1",
+            "Caption": "Control (without erythromycin) - Individual 1",
             "Symbol": "Circle"
           },
           {
@@ -7876,9 +10125,9 @@
             "ObservedData": "Bartkowski 1989 - Treatment Day 1 - Alfentanil - IV - 50 µg/kg - Serum - indiv.",
             "StartTime": 1.5,
             "TimeUnit": "h",
-            "Color": "#b2182b",
-            "Caption": "Treatment with erythromycin (Day 1) - Individiual 1",
-            "Symbol": "Square"
+            "Color": "#c54a4a",
+            "Caption": "Treatment with erythromycin (Day 1) - Individual 1",
+            "Symbol": "Triangle"
           },
           {
             "Project": "Erythromycin-Alfentanil-DDI",
@@ -7887,14 +10136,14 @@
             "ObservedData": "Bartkowski 1989 - Treatment Day 7 - Alfentanil - IV - 50 µg/kg - Serum - indiv.",
             "StartTime": 145.5,
             "TimeUnit": "h",
-            "Color": "#c54a4a",
-            "Caption": "Treatment with erythromycin (Day 7) - Individiual 1",
-            "Symbol": "Triangle"
+            "Color": "#b2182b",
+            "Caption": "Treatment with erythromycin (Day 7) - Individual 1",
+            "Symbol": "Square"
           }
         ]
       },
       {
-        "SectionId": 303,
+        "SectionId": 308,
         "Title": "Bartkowski 1993",
         "SimulationDuration": 8,
         "TimeUnit": "h",
@@ -7907,7 +10156,7 @@
             "StartTime": 0,
             "TimeUnit": "h",
             "Color": "#2166ac",
-            "Caption": "Control (without erythromycin) - Individiual 2",
+            "Caption": "Control (without erythromycin) - Individual 2",
             "Symbol": "Circle"
           },
           {
@@ -7917,9 +10166,9 @@
             "ObservedData": "Bartkowski 1993 - Treatment Day 1 - Alfentanil - IV - 50 µg/kg - Serum - indiv.",
             "StartTime": 1.5,
             "TimeUnit": "h",
-            "Color": "#b2182b",
-            "Caption": "Treatment with erythromycin (Day 1) - Individiual 2",
-            "Symbol": "Square"
+            "Color": "#c54a4a",
+            "Caption": "Treatment with erythromycin (Day 1) - Individual 2",
+            "Symbol": "Triangle"
           },
           {
             "Project": "Erythromycin-Alfentanil-DDI",
@@ -7928,14 +10177,14 @@
             "ObservedData": "Bartkowski 1993 - Treatment Day 7 - Alfentanil - IV - 50 µg/kg - Serum - indiv.",
             "StartTime": 145.5,
             "TimeUnit": "h",
-            "Color": "#c54a4a",
-            "Caption": "Treatment with erythromycin (Day 7) - Individiual 2",
-            "Symbol": "Triangle"
+            "Color": "#b2182b",
+            "Caption": "Treatment with erythromycin (Day 7) - Individual 2",
+            "Symbol": "Square"
           }
         ]
       },
       {
-        "SectionId": 304,
+        "SectionId": 309,
         "Title": "Yasui 1996",
         "SimulationDuration": 48,
         "TimeUnit": "h",
@@ -7965,7 +10214,7 @@
         ]
       },
       {
-        "SectionId": 305,
+        "SectionId": 310,
         "Title": "Carls 2014",
         "SimulationDuration": 12,
         "TimeUnit": "h",
@@ -8004,9 +10253,9 @@
             "Symbol": "Triangle"
           }
         ]
-      },      
+      },
       {
-        "SectionId": 305,
+        "SectionId": 310,
         "Title": "Okudaira 2007",
         "SimulationDuration": 22,
         "TimeUnit": "h",
@@ -8058,7 +10307,7 @@
         ]
       },
       {
-        "SectionId": 305,
+        "SectionId": 310,
         "Title": "Olkkola 1993 (midazolam IV)",
         "SimulationDuration": 18,
         "TimeUnit": "h",
@@ -8088,7 +10337,7 @@
         ]
       },
       {
-        "SectionId": 305,
+        "SectionId": 310,
         "Title": "Olkkola 1993 (midazolam po)",
         "SimulationDuration": 18,
         "TimeUnit": "h",
@@ -8118,7 +10367,7 @@
         ]
       },
       {
-        "SectionId": 305,
+        "SectionId": 310,
         "Title": "Swart 2002",
         "SimulationDuration": 4,
         "TimeUnit": "h",
@@ -8148,7 +10397,7 @@
         ]
       },
       {
-        "SectionId": 305,
+        "SectionId": 310,
         "Title": "Zimmermann 1996",
         "SimulationDuration": 24,
         "TimeUnit": "h",
@@ -8178,7 +10427,7 @@
         ]
       },
       {
-        "SectionId": 306,
+        "SectionId": 311,
         "Title": "Greenblatt 1998",
         "SimulationDuration": 24,
         "TimeUnit": "h",
@@ -8208,7 +10457,7 @@
         ]
       },
       {
-        "SectionId": 306,
+        "SectionId": 311,
         "Title": "Phillips 1986",
         "SimulationDuration": 24,
         "TimeUnit": "h",
@@ -8238,7 +10487,7 @@
         ]
       },
       {
-        "SectionId": 307,
+        "SectionId": 312,
         "Title": "Fleishaker 1994 (Day 1, first dose)",
         "SimulationDuration": 5,
         "TimeUnit": "h",
@@ -8268,7 +10517,7 @@
         ]
       },
       {
-        "SectionId": 307,
+        "SectionId": 312,
         "Title": "Fleishaker 1994 (Day 10)",
         "SimulationDuration": 24,
         "TimeUnit": "h",
@@ -8298,7 +10547,7 @@
         ]
       },
       {
-        "SectionId": 308,
+        "SectionId": 313,
         "Title": "Kashuba 1998",
         "SimulationDuration": 24,
         "TimeUnit": "h",
@@ -8328,7 +10577,7 @@
         ]
       },
       {
-        "SectionId": 308,
+        "SectionId": 313,
         "Title": "Lam 2003",
         "SimulationDuration": 24,
         "TimeUnit": "h",
@@ -8358,7 +10607,7 @@
         ]
       },
       {
-        "SectionId": 309,
+        "SectionId": 314,
         "Title": "Yasui 1998",
         "SimulationDuration": 48,
         "TimeUnit": "h",
@@ -8388,7 +10637,7 @@
         ]
       },
       {
-        "SectionId": 310,
+        "SectionId": 315,
         "Title": "Ahonen 1995",
         "SimulationDuration": 20,
         "TimeUnit": "h",
@@ -8418,7 +10667,7 @@
         ]
       },
       {
-        "SectionId": 310,
+        "SectionId": 315,
         "Title": "Backman 1998",
         "SimulationDuration": 20,
         "TimeUnit": "h",
@@ -8459,7 +10708,7 @@
         ]
       },
       {
-        "SectionId": 310,
+        "SectionId": 315,
         "Title": "Olkkola 1994",
         "SimulationDuration": 20,
         "TimeUnit": "h",
@@ -8489,7 +10738,7 @@
         ]
       },
       {
-        "SectionId": 310,
+        "SectionId": 315,
         "Title": "Olkkola 1996 (day 1 po)",
         "SimulationDuration": 20,
         "TimeUnit": "h",
@@ -8519,7 +10768,7 @@
         ]
       },
       {
-        "SectionId": 310,
+        "SectionId": 315,
         "Title": "Olkkola 1996 (day 4 iv)",
         "SimulationDuration": 20,
         "TimeUnit": "h",
@@ -8549,7 +10798,7 @@
         ]
       },
       {
-        "SectionId": 310,
+        "SectionId": 315,
         "Title": "Olkkola 1996 (day 6 po)",
         "SimulationDuration": 20,
         "TimeUnit": "h",
@@ -8579,7 +10828,7 @@
         ]
       },
       {
-        "SectionId": 310,
+        "SectionId": 315,
         "Title": "Prueksaritanont 2017",
         "SimulationDuration": 72,
         "TimeUnit": "h",
@@ -8609,7 +10858,7 @@
         ]
       },
       {
-        "SectionId": 310,
+        "SectionId": 315,
         "Title": "Templeton 2010",
         "SimulationDuration": 20,
         "TimeUnit": "h",
@@ -8661,7 +10910,7 @@
         ]
       },
       {
-        "SectionId": 310,
+        "SectionId": 315,
         "Title": "Yu 2004 (CYP3A5*3/*3)",
         "SimulationDuration": 24,
         "TimeUnit": "h",
@@ -8691,7 +10940,7 @@
         ]
       },
       {
-        "SectionId": 311,
+        "SectionId": 316,
         "Title": "Neuvonen 1996",
         "SimulationDuration": 24,
         "TimeUnit": "h",
@@ -8754,7 +11003,7 @@
         ]
       },
       {
-        "SectionId": 311,
+        "SectionId": 316,
         "Title": "Varhe 1994",
         "SimulationDuration": 24,
         "TimeUnit": "h",
@@ -8784,7 +11033,7 @@
         ]
       },
       {
-        "SectionId": 312,
+        "SectionId": 317,
         "Title": "Backman 1994",
         "SimulationDuration": 20,
         "TimeUnit": "h",
@@ -8814,7 +11063,7 @@
         ]
       },
       {
-        "SectionId": 312,
+        "SectionId": 317,
         "Title": "Wang 2005 (iv)",
         "SimulationDuration": 24,
         "TimeUnit": "h",
@@ -8844,7 +11093,7 @@
         ]
       },
       {
-        "SectionId": 312,
+        "SectionId": 317,
         "Title": "Wang 2005 (po)",
         "SimulationDuration": 24,
         "TimeUnit": "h",
@@ -8874,7 +11123,7 @@
         ]
       },
       {
-        "SectionId": 313,
+        "SectionId": 318,
         "Title": "Kharasch 2012 IV",
         "SimulationDuration": 7.5,
         "TimeUnit": "h",
@@ -8904,7 +11153,7 @@
         ]
       },
       {
-        "SectionId": 313,
+        "SectionId": 318,
         "Title": "Kharasch 2012 PO",
         "SimulationDuration": 8,
         "TimeUnit": "h",
@@ -8934,7 +11183,7 @@
         ]
       },
       {
-        "SectionId": 314,
+        "SectionId": 319,
         "Title": "Mikus 2017 IV",
         "SimulationDuration": 9,
         "TimeUnit": "h",
@@ -9008,7 +11257,7 @@
         ]
       },
       {
-        "SectionId": 314,
+        "SectionId": 319,
         "Title": "Mikus 2017 PO",
         "SimulationDuration": 6,
         "TimeUnit": "h",
@@ -9082,7 +11331,7 @@
         ]
       },
       {
-        "SectionId": 314,
+        "SectionId": 319,
         "Title": "Katzenmaier 2010",
         "SimulationDuration": 10,
         "TimeUnit": "h",
@@ -9112,7 +11361,7 @@
         ]
       },
       {
-        "SectionId": 315,
+        "SectionId": 320,
         "Title": "Kharasch 1997",
         "SimulationDuration": 12,
         "TimeUnit": "h",
@@ -9142,7 +11391,7 @@
         ]
       },
       {
-        "SectionId": 315,
+        "SectionId": 320,
         "Title": "Kharasch 2004 (iv)",
         "SimulationDuration": 12,
         "TimeUnit": "h",
@@ -9172,7 +11421,7 @@
         ]
       },
       {
-        "SectionId": 315,
+        "SectionId": 320,
         "Title": "Kharasch 2004 (po)",
         "SimulationDuration": 12,
         "TimeUnit": "h",
@@ -9202,7 +11451,7 @@
         ]
       },
       {
-        "SectionId": 315,
+        "SectionId": 320,
         "Title": "Kharasch 2011 (iv)",
         "SimulationDuration": 12,
         "TimeUnit": "h",
@@ -9265,7 +11514,7 @@
         ]
       },
       {
-        "SectionId": 315,
+        "SectionId": 320,
         "Title": "Kharasch 2011 (po)",
         "SimulationDuration": 12,
         "TimeUnit": "h",
@@ -9328,7 +11577,7 @@
         ]
       },
       {
-        "SectionId": 315,
+        "SectionId": 320,
         "Title": "Kharasch 2011b (iv during sequential administration of iv unlabeled alfentanil and oral deuterated alfentanil)",
         "SimulationDuration": 12,
         "TimeUnit": "h",
@@ -9358,7 +11607,7 @@
         ]
       },
       {
-        "SectionId": 315,
+        "SectionId": 320,
         "Title": "Kharasch 2011b (iv during simultaneous administration of iv unlabeled alfentanil and oral deuterated alfentanil)",
         "SimulationDuration": 12,
         "TimeUnit": "h",
@@ -9388,7 +11637,7 @@
         ]
       },
       {
-        "SectionId": 315,
+        "SectionId": 320,
         "Title": "Kharasch 2011b (po during sequential administration of iv unlabeled alfentanil and oral deuterated alfentanil)",
         "SimulationDuration": 12,
         "TimeUnit": "h",
@@ -9418,7 +11667,7 @@
         ]
       },
       {
-        "SectionId": 315,
+        "SectionId": 320,
         "Title": "Kharasch 2011b (po during simultaneous administration of iv unlabeled alfentanil and oral deuterated alfentanil)",
         "SimulationDuration": 12,
         "TimeUnit": "h",
@@ -9448,7 +11697,7 @@
         ]
       },
       {
-        "SectionId": 315,
+        "SectionId": 320,
         "Title": "Phimmasone 2001",
         "SimulationDuration": 24,
         "TimeUnit": "h",
@@ -9478,7 +11727,7 @@
         ]
       },
       {
-        "SectionId": 316,
+        "SectionId": 321,
         "Title": "Gashaw 2003 (Day 7)",
         "SimulationDuration": 12,
         "TimeUnit": "h",
@@ -9508,7 +11757,7 @@
         ]
       },
       {
-        "SectionId": 316,
+        "SectionId": 321,
         "Title": "Gashaw 2003 (after washout phase)",
         "SimulationDuration": 12,
         "TimeUnit": "h",
@@ -9538,7 +11787,7 @@
         ]
       },
       {
-        "SectionId": 316,
+        "SectionId": 321,
         "Title": "Schmider 1999",
         "SimulationDuration": 24,
         "TimeUnit": "h",
@@ -9568,7 +11817,7 @@
         ]
       },
       {
-        "SectionId": 317,
+        "SectionId": 322,
         "Title": "Backman 1996",
         "SimulationDuration": 24,
         "TimeUnit": "h",
@@ -9598,7 +11847,7 @@
         ]
       },
       {
-        "SectionId": 317,
+        "SectionId": 322,
         "Title": "Backman 1998 (Phase IV and V vs. I)",
         "SimulationDuration": 12,
         "TimeUnit": "h",
@@ -9639,7 +11888,7 @@
         ]
       },
       {
-        "SectionId": 317,
+        "SectionId": 322,
         "Title": "Chung 2006",
         "SimulationDuration": 12,
         "TimeUnit": "h",
@@ -9669,7 +11918,7 @@
         ]
       },
       {
-        "SectionId": 317,
+        "SectionId": 322,
         "Title": "Eap 2004 (7.5 mg)",
         "SimulationDuration": 12,
         "TimeUnit": "h",
@@ -9699,7 +11948,7 @@
         ]
       },
       {
-        "SectionId": 317,
+        "SectionId": 322,
         "Title": "Gorski 2003 (iv)",
         "SimulationDuration": 12,
         "TimeUnit": "h",
@@ -9729,7 +11978,7 @@
         ]
       },
       {
-        "SectionId": 317,
+        "SectionId": 322,
         "Title": "Gorski 2003 (po)",
         "SimulationDuration": 12,
         "TimeUnit": "h",
@@ -9759,7 +12008,7 @@
         ]
       },
       {
-        "SectionId": 317,
+        "SectionId": 322,
         "Title": "Gurley 2006",
         "SimulationDuration": 12,
         "TimeUnit": "h",
@@ -9789,7 +12038,7 @@
         ]
       },
       {
-        "SectionId": 317,
+        "SectionId": 322,
         "Title": "Gurley 2008a",
         "SimulationDuration": 12,
         "TimeUnit": "h",
@@ -9819,7 +12068,7 @@
         ]
       },
       {
-        "SectionId": 317,
+        "SectionId": 322,
         "Title": "Kharasch 1997",
         "SimulationDuration": 15,
         "TimeUnit": "h",
@@ -9849,7 +12098,7 @@
         ]
       },
       {
-        "SectionId": 317,
+        "SectionId": 322,
         "Title": "Kharasch 2004 (iv)",
         "SimulationDuration": 12,
         "TimeUnit": "h",
@@ -9879,7 +12128,7 @@
         ]
       },
       {
-        "SectionId": 317,
+        "SectionId": 322,
         "Title": "Kharasch 2004 (po)",
         "SimulationDuration": 12,
         "TimeUnit": "h",
@@ -9909,7 +12158,7 @@
         ]
       },
       {
-        "SectionId": 317,
+        "SectionId": 322,
         "Title": "Kharasch 2011 (iv)",
         "SimulationDuration": 12,
         "TimeUnit": "h",
@@ -9972,7 +12221,7 @@
         ]
       },
       {
-        "SectionId": 317,
+        "SectionId": 322,
         "Title": "Kharasch 2011 (po)",
         "SimulationDuration": 12,
         "TimeUnit": "h",
@@ -10035,7 +12284,7 @@
         ]
       },
       {
-        "SectionId": 317,
+        "SectionId": 322,
         "Title": "Kim 2018",
         "SimulationDuration": 12,
         "TimeUnit": "h",
@@ -10065,7 +12314,7 @@
         ]
       },
       {
-        "SectionId": 317,
+        "SectionId": 322,
         "Title": "Link 2008 (iv)",
         "SimulationDuration": 24,
         "TimeUnit": "h",
@@ -10095,7 +12344,7 @@
         ]
       },
       {
-        "SectionId": 317,
+        "SectionId": 322,
         "Title": "Link 2008 (po)",
         "SimulationDuration": 24,
         "TimeUnit": "h",
@@ -10125,7 +12374,7 @@
         ]
       },
       {
-        "SectionId": 317,
+        "SectionId": 322,
         "Title": "Phimmasone 2001",
         "SimulationDuration": 12,
         "TimeUnit": "h",
@@ -10155,7 +12404,7 @@
         ]
       },
       {
-        "SectionId": 317,
+        "SectionId": 322,
         "Title": "Prueksaritanont 2017",
         "SimulationDuration": 24,
         "TimeUnit": "h",
@@ -10185,7 +12434,7 @@
         ]
       },
       {
-        "SectionId": 317,
+        "SectionId": 322,
         "Title": "Reitman 2011",
         "SimulationDuration": 15,
         "TimeUnit": "h",
@@ -10237,7 +12486,7 @@
         ]
       },
       {
-        "SectionId": 317,
+        "SectionId": 322,
         "Title": "Shin 2013",
         "SimulationDuration": 24,
         "TimeUnit": "h",
@@ -10267,7 +12516,7 @@
         ]
       },
       {
-        "SectionId": 317,
+        "SectionId": 322,
         "Title": "Shin 2016",
         "SimulationDuration": 24,
         "TimeUnit": "h",
@@ -10297,7 +12546,7 @@
         ]
       },
       {
-        "SectionId": 317,
+        "SectionId": 322,
         "Title": "Szalat 2007",
         "SimulationDuration": 6,
         "TimeUnit": "h",
@@ -10327,7 +12576,7 @@
         ]
       },
       {
-        "SectionId": 317,
+        "SectionId": 322,
         "Title": "van Dyk 2018",
         "SimulationDuration": 12,
         "TimeUnit": "h",
@@ -10357,7 +12606,7 @@
         ]
       },
       {
-        "SectionId": 317,
+        "SectionId": 322,
         "Title": "Wiesinger 2020",
         "SimulationDuration": 24,
         "TimeUnit": "h",
@@ -10398,7 +12647,7 @@
         ]
       },
       {
-        "SectionId": 317,
+        "SectionId": 322,
         "Title": "Yu 2004 (CYP3A5*3/*3)",
         "SimulationDuration": 12,
         "TimeUnit": "h",
@@ -10428,7 +12677,7 @@
         ]
       },
       {
-        "SectionId": 318,
+        "SectionId": 323,
         "Title": "Villikka 1997",
         "SimulationDuration": 12,
         "TimeUnit": "h",
@@ -10456,6 +12705,66 @@
             "Symbol": "Square"
           }
         ]
+      },
+      {
+        "SectionId": 324,
+        "Title": "Barbarash 1998 (verapamil IV)",
+        "SimulationDuration": 12,
+        "TimeUnit": "h",
+        "OutputMappings": [
+          {
+            "Project": "Rifampicin-Verapamil-DDI",
+            "Simulation": "DDI Control - Verapamil - Barbarash 1998 (iv)",
+            "Output": "Organism|PeripheralVenousBlood|Verapamil|Plasma (Peripheral Venous Blood)",
+            "ObservedData": "Barbarash 1988 - Verapamil IV control - Verapamil - IV - 10 mg - Serum - agg. (n=6)",
+            "StartTime": 0,
+            "TimeUnit": "h",
+            "Color": "#2166ac",
+            "Caption": "Control (without Rifampicin)",
+            "Symbol": "Circle"
+          },
+          {
+            "Project": "Rifampicin-Verapamil-DDI",
+            "Simulation": "DDI Treatment - Rifampicin/Verapamil - Barbarash 1998 (iv)",
+            "Output": "Organism|PeripheralVenousBlood|Verapamil|Plasma (Peripheral Venous Blood)",
+            "ObservedData": "Barbarash 1988 - Verapamil IV after 2 weeks of Rifampicin therapy - Verapamil - IV - 10 mg - Serum - agg. (n=6)",
+            "StartTime": 300,
+            "TimeUnit": "h",
+            "Color": "#b2182b",
+            "Caption": "Treatment with Rifampicin",
+            "Symbol": "Square"
+          }
+        ]
+      },
+      {
+        "SectionId": 324,
+        "Title": "Barbarash 1998 (verapamil PO)",
+        "SimulationDuration": 12,
+        "TimeUnit": "h",
+        "OutputMappings": [
+          {
+            "Project": "Rifampicin-Verapamil-DDI",
+            "Simulation": "DDI Control - Verapamil - Barbarash 1998 (po)",
+            "Output": "Organism|PeripheralVenousBlood|Verapamil|Plasma (Peripheral Venous Blood)",
+            "ObservedData": "Barbarash 1988 - Verapamil PO control - Verapamil - PO - 120 mg - Serum - agg. (n=6)",
+            "StartTime": 0,
+            "TimeUnit": "h",
+            "Color": "#2166ac",
+            "Caption": "Control (without Rifampicin)",
+            "Symbol": "Circle"
+          },
+          {
+            "Project": "Rifampicin-Verapamil-DDI",
+            "Simulation": "DDI Treatment - Rifampicin/Verapamil - Barbarash 1998 (po)",
+            "Output": "Organism|PeripheralVenousBlood|Verapamil|Plasma (Peripheral Venous Blood)",
+            "ObservedData": "Barbarash 1988 - Verapamil PO after 2 weeks of Rifampicin therapy - Verapamil - PO - 120 mg - Serum - agg. (n=6)",
+            "StartTime": 348,
+            "TimeUnit": "h",
+            "Color": "#b2182b",
+            "Caption": "Treatment with Rifampicin",
+            "Symbol": "Square"
+          }
+        ]
       }
     ],
     "DDIRatioPlots": [
@@ -10472,8 +12781,342 @@
         ],
         "Groups": [
           {
-            "Caption": "Clarithromycin + Midazolam (iv)",
+            "Caption": "Cimetidine + Alfentanil (iv)",
             "Color": "#FF0000",
+            "Symbol": "Square",
+            "DDIRatios": [
+              {
+                "Output": "Organism|PeripheralVenousBlood|Alfentanil|Plasma (Peripheral Venous Blood)",
+                "ObservedData": "DDI Ratios",
+                "ObservedDataRecordId": 1344,
+                "SimulationControl": {
+                  "Project": "Cimetidine-Alfentanil-DDI",
+                  "Simulation": "Kienlen 1993 - Alfentanil iv control",
+                  "StartTime": 0,
+                  "EndTime": "Inf",
+                  "TimeUnit": "h"
+                },
+                "SimulationDDI": {
+                  "Project": "Cimetidine-Alfentanil-DDI",
+                  "Simulation": "Kienlen 1993 - Alfentanil iv + Cimetidine iv",
+                  "StartTime": 48,
+                  "EndTime": "Inf",
+                  "TimeUnit": "h"
+                }
+              }
+            ]
+          },
+          {
+            "Caption": "Cimetidine + Alprazolam (po)",
+            "Color": "#0000FF",
+            "Symbol": "Circle",
+            "DDIRatios": [
+              {
+                "Output": "Organism|PeripheralVenousBlood|Alprazolam|Plasma (Peripheral Venous Blood)",
+                "ObservedData": "DDI Ratios",
+                "ObservedDataRecordId": 1332,
+                "SimulationControl": {
+                  "Project": "Cimetidine-Alprazolam-DDI",
+                  "Simulation": "Abernethy 1983 - Alprazolam 1 mg control",
+                  "StartTime": 0,
+                  "EndTime": "Inf",
+                  "TimeUnit": "h"
+                },
+                "SimulationDDI": {
+                  "Project": "Cimetidine-Alprazolam-DDI",
+                  "Simulation": "Abernethy 1983 - Alprazolam 1 mg + 300 mg cimetidine QID",
+                  "StartTime": 12,
+                  "EndTime": "Inf",
+                  "TimeUnit": "h"
+                }
+              },
+              {
+                "Output": "Organism|PeripheralVenousBlood|Alprazolam|Plasma (Peripheral Venous Blood)",
+                "ObservedData": "DDI Ratios",
+                "ObservedDataRecordId": 1340,
+                "SimulationControl": {
+                  "Project": "Cimetidine-Alprazolam-DDI",
+                  "Simulation": "Pourbaix 1985 - Alprazolam 0.5 mg TID control",
+                  "StartTime": 168,
+                  "EndTime": 240,
+                  "TimeUnit": "h"
+                },
+                "SimulationDDI": {
+                  "Project": "Cimetidine-Alprazolam-DDI",
+                  "Simulation": "Pourbaix 1985 - alprazolam 0.5 mg TID + cimetidine 200/400 mg QID",
+                  "StartTime": 336,
+                  "EndTime": 408,
+                  "TimeUnit": "h"
+                }
+              }
+            ]
+          },
+          {
+            "Caption": "Cimetidine + Midazolam (iv)",
+            "Color": "#008000",
+            "Symbol": "Square",
+            "DDIRatios": [
+              {
+                "Output": "Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
+                "ObservedData": "DDI Ratios",
+                "ObservedDataRecordId": 1319,
+                "SimulationControl": {
+                  "Project": "Cimetidine-Midazolam-DDI",
+                  "Simulation": "Greenblatt 1986, Midazolam iv control",
+                  "StartTime": 0,
+                  "EndTime": "Inf",
+                  "TimeUnit": "h"
+                },
+                "SimulationDDI": {
+                  "Project": "Cimetidine-Midazolam-DDI",
+                  "Simulation": "Greenblatt 1986, Midazolam iv + 300 mg cimetidine QID",
+                  "StartTime": 24,
+                  "EndTime": "Inf",
+                  "TimeUnit": "h"
+                }
+              }
+            ]
+          },
+          {
+            "Caption": "Cimetidine + Midazolam (po)",
+            "Color": "#008000",
+            "Symbol": "Circle",
+            "DDIRatios": [
+              {
+                "Output": "Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
+                "ObservedData": "DDI Ratios",
+                "ObservedDataRecordId": 1321,
+                "SimulationControl": {
+                  "Project": "Cimetidine-Midazolam-DDI",
+                  "Simulation": "Greenblatt 1986, Midazolam po control",
+                  "StartTime": 0,
+                  "EndTime": "Inf",
+                  "TimeUnit": "h"
+                },
+                "SimulationDDI": {
+                  "Project": "Cimetidine-Midazolam-DDI",
+                  "Simulation": "Greenblatt 1986, Midazolam po + 300 mg cimetidine QID",
+                  "StartTime": 24,
+                  "EndTime": "Inf",
+                  "TimeUnit": "h"
+                }
+              },
+              {
+                "Output": "Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
+                "ObservedData": "DDI Ratios",
+                "ObservedDataRecordId": 1322,
+                "SimulationControl": {
+                  "Project": "Cimetidine-Midazolam-DDI",
+                  "Simulation": "Martinez 1999, Midazolam po control",
+                  "StartTime": 0,
+                  "EndTime": "Inf",
+                  "TimeUnit": "h"
+                },
+                "SimulationDDI": {
+                  "Project": "Cimetidine-Midazolam-DDI",
+                  "Simulation": "Martinez 1999, Midazolam po + 800 mg cimetidine",
+                  "StartTime": 0,
+                  "EndTime": "Inf",
+                  "TimeUnit": "h"
+                }
+              },
+              {
+                "Output": "Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
+                "ObservedData": "DDI Ratios",
+                "ObservedDataRecordId": 1324,
+                "SimulationControl": {
+                  "Project": "Cimetidine-Midazolam-DDI",
+                  "Simulation": "Fee 1987, Midazolam po control",
+                  "StartTime": 0,
+                  "EndTime": "Inf",
+                  "TimeUnit": "h"
+                },
+                "SimulationDDI": {
+                  "Project": "Cimetidine-Midazolam-DDI",
+                  "Simulation": "Fee 1987, Midazolam po + 400 mg cimetidine BID",
+                  "StartTime": 25,
+                  "EndTime": "Inf",
+                  "TimeUnit": "h"
+                }
+              },
+              {
+                "Output": "Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
+                "ObservedData": "DDI Ratios",
+                "ObservedDataRecordId": 1326,
+                "SimulationControl": {
+                  "Project": "Cimetidine-Midazolam-DDI",
+                  "Simulation": "Salonen 1986, Midazolam po control",
+                  "StartTime": 0,
+                  "EndTime": 5,
+                  "TimeUnit": "h"
+                },
+                "SimulationDDI": {
+                  "Project": "Cimetidine-Midazolam-DDI",
+                  "Simulation": "Salonen 1986, Midazolam po + 400 mg cimetidine",
+                  "StartTime": 2,
+                  "EndTime": 7,
+                  "TimeUnit": "h"
+                }
+              },
+              {
+                "Output": "Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
+                "ObservedData": "DDI Ratios",
+                "ObservedDataRecordId": 1346,
+                "SimulationControl": {
+                  "Project": "Cimetidine-Midazolam-DDI",
+                  "Simulation": "Elliott 1984, Midazolam po control",
+                  "StartTime": 0,
+                  "EndTime": "Inf",
+                  "TimeUnit": "h"
+                },
+                "SimulationDDI": {
+                  "Project": "Cimetidine-Midazolam-DDI",
+                  "Simulation": "Elliott 1984, Midazolam po + 200/400 mg cimetidine",
+                  "StartTime": 26.5,
+                  "EndTime": "Inf",
+                  "TimeUnit": "h"
+                }
+              }
+            ]
+          },
+          {
+            "Caption": "Cimetidine + Triazolam (po)",
+            "Color": "#FF00FF",
+            "Symbol": "Circle",
+            "DDIRatios": [
+              {
+                "Output": "Organism|PeripheralVenousBlood|Triazolam|Plasma (Peripheral Venous Blood)",
+                "ObservedData": "DDI Ratios",
+                "ObservedDataRecordId": 1334,
+                "SimulationControl": {
+                  "Project": "Cimetidine-Triazolam-DDI",
+                  "Simulation": "Abernethy 1983/Friedman 1988 - Triazolam control",
+                  "StartTime": 0,
+                  "EndTime": "Inf",
+                  "TimeUnit": "h"
+                },
+                "SimulationDDI": {
+                  "Project": "Cimetidine-Triazolam-DDI",
+                  "Simulation": "Abernethy 1983 - Triazolam + cimetidine 300 mg QID",
+                  "StartTime": 12,
+                  "EndTime": "Inf",
+                  "TimeUnit": "h"
+                }
+              },
+              {
+                "Output": "Organism|PeripheralVenousBlood|Triazolam|Plasma (Peripheral Venous Blood)",
+                "ObservedData": "DDI Ratios",
+                "ObservedDataRecordId": 1336,
+                "SimulationControl": {
+                  "Project": "Cimetidine-Triazolam-DDI",
+                  "Simulation": "Abernethy 1983/Friedman 1988 - Triazolam control",
+                  "StartTime": 0,
+                  "EndTime": "Inf",
+                  "TimeUnit": "h"
+                },
+                "SimulationDDI": {
+                  "Project": "Cimetidine-Triazolam-DDI",
+                  "Simulation": "Friedman 1988 - Triazolam + cimetidine 300 mg QID",
+                  "StartTime": 24,
+                  "EndTime": "Inf",
+                  "TimeUnit": "h"
+                }
+              },
+              {
+                "Output": "Organism|PeripheralVenousBlood|Triazolam|Plasma (Peripheral Venous Blood)",
+                "ObservedData": "DDI Ratios",
+                "ObservedDataRecordId": 1342,
+                "SimulationControl": {
+                  "Project": "Cimetidine-Triazolam-DDI",
+                  "Simulation": "Pourbaix 1985 - Triazolam control",
+                  "StartTime": 144,
+                  "EndTime": 168,
+                  "TimeUnit": "h"
+                },
+                "SimulationDDI": {
+                  "Project": "Cimetidine-Triazolam-DDI",
+                  "Simulation": "Pourbaix 1985 - Triazolam + cimetidine 200/400 mg QID",
+                  "StartTime": 327,
+                  "EndTime": 351,
+                  "TimeUnit": "h"
+                }
+              },
+              {
+                "Output": "Organism|PeripheralVenousBlood|Triazolam|Plasma (Peripheral Venous Blood)",
+                "ObservedData": "DDI Ratios",
+                "ObservedDataRecordId": 1338,
+                "SimulationControl": {
+                  "Project": "Cimetidine-Triazolam-DDI",
+                  "Simulation": "Cox 1986 - Triazolam intraduodenal control",
+                  "StartTime": 0,
+                  "EndTime": "Inf",
+                  "TimeUnit": "h"
+                },
+                "SimulationDDI": {
+                  "Project": "Cimetidine-Triazolam-DDI",
+                  "Simulation": "Cox 1986 - Triazolam intraduodenal + cimetidine 300 mg QID",
+                  "StartTime": 13,
+                  "EndTime": "Inf",
+                  "TimeUnit": "h"
+                }
+              }
+            ]
+          },
+          {
+            "Caption": "Cimetidine + Verapamil (iv)",
+            "Color": "#FF8000",
+            "Symbol": "Square",
+            "DDIRatios": [
+              {
+                "Output": "Organism|PeripheralVenousBlood|Verapamil|Plasma (Peripheral Venous Blood)",
+                "ObservedData": "DDI Ratios",
+                "ObservedDataRecordId": 1328,
+                "SimulationControl": {
+                  "Project": "Cimetidine-Verapamil-DDI",
+                  "Simulation": "Smith 1984 - Verapamil 10 mg iv control",
+                  "StartTime": 0,
+                  "EndTime": "Inf",
+                  "TimeUnit": "h"
+                },
+                "SimulationDDI": {
+                  "Project": "Cimetidine-Verapamil-DDI",
+                  "Simulation": "Smith 1984 - Verapamil 10 mg iv + cimetidine 300 mg qid",
+                  "StartTime": 168,
+                  "EndTime": "Inf",
+                  "TimeUnit": "h"
+                }
+              }
+            ]
+          },
+          {
+            "Caption": "Cimetidine + Verapamil (po)",
+            "Color": "#FF8000",
+            "Symbol": "Circle",
+            "DDIRatios": [
+              {
+                "Output": "Organism|PeripheralVenousBlood|Verapamil|Plasma (Peripheral Venous Blood)",
+                "ObservedData": "DDI Ratios",
+                "ObservedDataRecordId": 1330,
+                "SimulationControl": {
+                  "Project": "Cimetidine-Verapamil-DDI",
+                  "Simulation": "Smith 1984 - Verapamil 120 mg po control",
+                  "StartTime": 0,
+                  "EndTime": "Inf",
+                  "TimeUnit": "h"
+                },
+                "SimulationDDI": {
+                  "Project": "Cimetidine-Verapamil-DDI",
+                  "Simulation": "Smith 1984 - Verapamil 120 mg po + 300 mg cimetidine qid",
+                  "StartTime": 168,
+                  "EndTime": "Inf",
+                  "TimeUnit": "h"
+                }
+              }
+            ]
+          },
+          {
+            "Caption": "Clarithromycin + Midazolam (iv)",
+            "Color": "#00C0C0",
             "Symbol": "Square",
             "DDIRatios": [
               {
@@ -10518,7 +13161,7 @@
           },
           {
             "Caption": "Clarithromycin + Midazolam (po)",
-            "Color": "#FF0000",
+            "Color": "#00C0C0",
             "Symbol": "Circle",
             "DDIRatios": [
               {
@@ -10677,7 +13320,7 @@
           },
           {
             "Caption": "Clarithromycin + Triazolam (po)",
-            "Color": "#0000FF",
+            "Color": "#C000C0",
             "Symbol": "Circle",
             "DDIRatios": [
               {
@@ -10703,7 +13346,7 @@
           },
           {
             "Caption": "Erythromycin + Alfentanil (iv)",
-            "Color": "#008000",
+            "Color": "#C04000",
             "Symbol": "Square",
             "DDIRatios": [
               {
@@ -10748,7 +13391,7 @@
           },
           {
             "Caption": "Erythromycin + Alprazolam (po)",
-            "Color": "#FF00FF",
+            "Color": "#00FF00",
             "Symbol": "Circle",
             "DDIRatios": [
               {
@@ -10774,7 +13417,7 @@
           },
           {
             "Caption": "Erythromycin + Triazolam (po)",
-            "Color": "#00C0C0",
+            "Color": "#808080",
             "Symbol": "Circle",
             "DDIRatios": [
               {
@@ -10819,7 +13462,7 @@
           },
           {
             "Caption": "Erythromycin + Midazolam (iv)",
-            "Color": "#FF8000",
+            "Color": "#C0C000",
             "Symbol": "Square",
             "DDIRatios": [
               {
@@ -10864,7 +13507,7 @@
           },
           {
             "Caption": "Erythromycin + Midazolam (po)",
-            "Color": "#FF8000",
+            "Color": "#C0C000",
             "Symbol": "Circle",
             "DDIRatios": [
               {
@@ -11004,7 +13647,7 @@
           },
           {
             "Caption": "Fluvoxamine + Alprazolam (po)",
-            "Color": "#C000C0",
+            "Color": "#8080FF",
             "Symbol": "Circle",
             "DDIRatios": [
               {
@@ -11049,7 +13692,7 @@
           },
           {
             "Caption": "Fluvoxamine + Midazolam (iv)",
-            "Color": "#C04000",
+            "Color": "#0000C0",
             "Symbol": "Square",
             "DDIRatios": [
               {
@@ -11075,7 +13718,7 @@
           },
           {
             "Caption": "Fluvoxamine + Midazolam (po)",
-            "Color": "#C04000",
+            "Color": "#0000C0",
             "Symbol": "Circle",
             "DDIRatios": [
               {
@@ -11101,7 +13744,7 @@
           },
           {
             "Caption": "Itraconazole + Alprazolam (po)",
-            "Color": "#00FF00",
+            "Color": "#00C000",
             "Symbol": "Circle",
             "DDIRatios": [
               {
@@ -11127,7 +13770,7 @@
           },
           {
             "Caption": "Itraconazole + Midazolam (iv)",
-            "Color": "#808080",
+            "Color": "#C00000",
             "Symbol": "Square",
             "DDIRatios": [
               {
@@ -11172,7 +13815,7 @@
           },
           {
             "Caption": "Itraconazole + Midazolam (po)",
-            "Color": "#808080",
+            "Color": "#C00000",
             "Symbol": "Circle",
             "DDIRatios": [
               {
@@ -11369,7 +14012,7 @@
           },
           {
             "Caption": "Itraconazole + Triazolam (po)",
-            "Color": "#C0C000",
+            "Color": "#FFFF00",
             "Symbol": "Circle",
             "DDIRatios": [
               {
@@ -11471,7 +14114,7 @@
           },
           {
             "Caption": "Verapamil + Midazolam (iv)",
-            "Color": "#8080FF",
+            "Color": "#008080",
             "Symbol": "Square",
             "DDIRatios": [
               {
@@ -11497,7 +14140,7 @@
           },
           {
             "Caption": "Verapamil + Midazolam (po)",
-            "Color": "#8080FF",
+            "Color": "#008080",
             "Symbol": "Circle",
             "DDIRatios": [
               {
@@ -11542,7 +14185,7 @@
           },
           {
             "Caption": "Efavirenz + Alfentanil (iv)",
-            "Color": "#0000C0",
+            "Color": "#800080",
             "Symbol": "Square",
             "DDIRatios": [
               {
@@ -11568,7 +14211,7 @@
           },
           {
             "Caption": "Efavirenz + Alfentanil (po)",
-            "Color": "#0000C0",
+            "Color": "#800080",
             "Symbol": "Circle",
             "DDIRatios": [
               {
@@ -11594,7 +14237,7 @@
           },
           {
             "Caption": "Efavirenz + Midazolam (iv)",
-            "Color": "#00C000",
+            "Color": "#804040",
             "Symbol": "Square",
             "DDIRatios": [
               {
@@ -11696,7 +14339,7 @@
           },
           {
             "Caption": "Efavirenz + Midazolam (po)",
-            "Color": "#00C000",
+            "Color": "#804040",
             "Symbol": "Circle",
             "DDIRatios": [
               {
@@ -11817,7 +14460,7 @@
           },
           {
             "Caption": "Rifampicin + Alfentanil (iv)",
-            "Color": "#C00000",
+            "Color": "#80FF80",
             "Symbol": "Square",
             "DDIRatios": [
               {
@@ -11995,7 +14638,7 @@
           },
           {
             "Caption": "Rifampicin + Alfentanil (po)",
-            "Color": "#C00000",
+            "Color": "#80FF80",
             "Symbol": "Circle",
             "DDIRatios": [
               {
@@ -12135,7 +14778,7 @@
           },
           {
             "Caption": "Rifampicin + Alprazolam (po)",
-            "Color": "#FFFF00",
+            "Color": "#808000",
             "Symbol": "Circle",
             "DDIRatios": [
               {
@@ -12199,7 +14842,7 @@
           },
           {
             "Caption": "Rifampicin + Midazolam (iv)",
-            "Color": "#008080",
+            "Color": "#FF8080",
             "Symbol": "Square",
             "DDIRatios": [
               {
@@ -12472,7 +15115,7 @@
           },
           {
             "Caption": "Rifampicin + Midazolam (po)",
-            "Color": "#008080",
+            "Color": "#FF8080",
             "Symbol": "Circle",
             "DDIRatios": [
               {
@@ -12878,7 +15521,7 @@
           },
           {
             "Caption": "Rifampicin + Triazolam (po)",
-            "Color": "#800080",
+            "Color": "#ECD33A",
             "Symbol": "Circle",
             "DDIRatios": [
               {
@@ -12896,6 +15539,58 @@
                   "Project": "Rifampicin-Triazolam-DDI",
                   "Simulation": "Villikka 1997 - Rifampicin 600 mg over 5 days and Triazolam 0.5 mg SD PO",
                   "StartTime": 113,
+                  "EndTime": "Inf",
+                  "TimeUnit": "h"
+                }
+              }
+            ]
+          },
+          {
+            "Caption": "Rifampicin + Verapamil (iv)",
+            "Color": "#996699",
+            "Symbol": "Square",
+            "DDIRatios": [
+              {
+                "Output": "Organism|PeripheralVenousBlood|Verapamil|Plasma (Peripheral Venous Blood)",
+                "ObservedData": "DDI Ratios",
+                "ObservedDataRecordId": 2056,
+                "SimulationControl": {
+                  "Project": "Rifampicin-Verapamil-DDI",
+                  "Simulation": "DDI Control - Verapamil - Barbarash 1998 (iv)",
+                  "StartTime": 0,
+                  "EndTime": "Inf",
+                  "TimeUnit": "h"
+                },
+                "SimulationDDI": {
+                  "Project": "Rifampicin-Verapamil-DDI",
+                  "Simulation": "DDI Treatment - Rifampicin/Verapamil - Barbarash 1998 (iv)",
+                  "StartTime": 300,
+                  "EndTime": "Inf",
+                  "TimeUnit": "h"
+                }
+              }
+            ]
+          },
+          {
+            "Caption": "Rifampicin + Verapamil (po)",
+            "Color": "#996699",
+            "Symbol": "Circle",
+            "DDIRatios": [
+              {
+                "Output": "Organism|PeripheralVenousBlood|Verapamil|Plasma (Peripheral Venous Blood)",
+                "ObservedData": "DDI Ratios",
+                "ObservedDataRecordId": 2058,
+                "SimulationControl": {
+                  "Project": "Rifampicin-Verapamil-DDI",
+                  "Simulation": "DDI Control - Verapamil - Barbarash 1998 (po)",
+                  "StartTime": 0,
+                  "EndTime": "Inf",
+                  "TimeUnit": "h"
+                },
+                "SimulationDDI": {
+                  "Project": "Rifampicin-Verapamil-DDI",
+                  "Simulation": "DDI Treatment - Rifampicin/Verapamil - Barbarash 1998 (po)",
+                  "StartTime": 348,
                   "EndTime": "Inf",
                   "TimeUnit": "h"
                 }
@@ -12925,93 +15620,123 @@
           "Sections": [
             {
               "Id": 1201,
+              "Title": "Cimetidine - Alfentanil DDI",
+              "Content": "Content/Cimetidine-Midazolam-DDI.md"
+            },
+            {
+              "Id": 1202,
+              "Title": "Cimetidine - Alprazolam DDI",
+              "Content": "Content/Cimetidine-Midazolam-DDI.md"
+            },
+            {
+              "Id": 1203,
+              "Title": "Cimetidine - Midazolam DDI",
+              "Content": "Content/Cimetidine-Midazolam-DDI.md"
+            },
+            {
+              "Id": 1204,
+              "Title": "Cimetidine - Triazolam DDI",
+              "Content": "Content/Cimetidine-Midazolam-DDI.md"
+            },
+            {
+              "Id": 1205,
+              "Title": "Cimetidine - Verapamil DDI",
+              "Content": "Content/Cimetidine-Midazolam-DDI.md"
+            },
+            {
+              "Id": 1206,
               "Title": "Clarithromycin - Midazolam DDI",
               "Content": "Content/Clarithromycin-Midazolam-DDI.md"
             },
             {
-              "Id": 1202,
+              "Id": 1207,
               "Title": "Clarithromycin - Triazolam DDI",
               "Content": "Content/Clarithromycin-Triazolam-DDI.md"
             },
             {
-              "Id": 1203,
+              "Id": 1208,
               "Title": "Erythromycin - Alfentanil DDI",
               "Content": "Content/Erythromycin-Alfentanil-DDI.md"
             },
             {
-              "Id": 1204,
+              "Id": 1209,
               "Title": "Erythromycin - Alprazolam DDI",
               "Content": "Content/Erythromycin-Alprazolam-DDI.md"
             },
             {
-              "Id": 1205,
+              "Id": 1210,
               "Title": "Erythromycin - Midazolam DDI",
               "Content": "Content/Erythromycin-Midazolam-DDI.md"
             },
             {
-              "Id": 1206,
+              "Id": 1211,
               "Title": "Erythromycin - Triazolam DDI",
               "Content": "Content/Erythromycin-Triazolam-DDI.md"
             },
             {
-              "Id": 1207,
+              "Id": 1212,
               "Title": "Fluvoxamine - Alprazolam DDI",
               "Content": "Content/Fluvoxamine-Alprazolam-DDI.md"
             },
             {
-              "Id": 1208,
+              "Id": 1213,
               "Title": "Fluvoxamine - Midazolam DDI",
               "Content": "Content/Fluvoxamine-Midazolam-DDI.md"
             },
             {
-              "Id": 1209,
+              "Id": 1214,
               "Title": "Itraconazole - Alprazolam DDI",
               "Content": "Content/Itraconazole-Alprazolam-DDI.md"
             },
             {
-              "Id": 1210,
+              "Id": 1215,
               "Title": "Itraconazole - Midazolam DDI",
               "Content": "Content/Itraconazole-Midazolam-DDI.md"
             },
             {
-              "Id": 1211,
+              "Id": 1216,
               "Title": "Itraconazole - Triazolam DDI",
               "Content": "Content/Itraconazole-Triazolam-DDI.md"
             },
             {
-              "Id": 1212,
+              "Id": 1217,
               "Title": "Verapamil - Midazolam DDI",
               "Content": "Content/Verapamil-Midazolam-DDI.md"
             },
             {
-              "Id": 1213,
+              "Id": 1218,
               "Title": "Efavirenz - Alfentanil-DDI",
               "Content": "Content/Efavirenz-Alfentanil-DDI.md"
             },
             {
-              "Id": 1214,
+              "Id": 1219,
               "Title": "Efavirenz - Midazolam DDI",
               "Content": "Content/Efavirenz-Midazolam-DDI.md"
             },
             {
-              "Id": 1215,
+              "Id": 1220,
               "Title": "Rifampicin - Alfentanil DDI",
               "Content": "Content/Rifampicin-Alfentanil-DDI.md"
             },
             {
-              "Id": 1216,
+              "Id": 1221,
               "Title": "Rifampicin - Alprazolam DDI",
               "Content": "Content/Rifampicin-Alprazolam-DDI.md"
             },
             {
-              "Id": 1217,
+              "Id": 1222,
               "Title": "Rifampicin - Midazolam DDI",
               "Content": "Content/Rifampicin-Midazolam-DDI.md"
             },
             {
-              "Id": 1218,
+              "Id": 1223,
               "Title": "Rifampicin - Triazolam DDI",
               "Content": "Content/Rifampicin-Triazolam-DDI.md"
+            },
+            {
+              "Id": 1224,
+              "Title": "Rifampicin - Verapamil DDI",
+              "Content": "Content/Rifampicin-Verapamil-DDI.md"
             }
           ]
         }
@@ -13029,92 +15754,122 @@
       "Sections": [
         {
           "Id": 301,
-          "Title": "3.1 Clarithromycin - Midazolam DDI",
+          "Title": "3.1 Cimetidine - Alfentanil DDI",
           "Content": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Qualification-text-modules/v1.0/Empty.md"
         },
         {
           "Id": 302,
-          "Title": "3.2 Clarithromycin - Triazolam DDI",
+          "Title": "3.2 Cimetidine - Alprazolam DDI",
           "Content": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Qualification-text-modules/v1.0/Empty.md"
         },
         {
           "Id": 303,
-          "Title": "3.3 Erythromycin - Alfentanil DDI",
+          "Title": "3.3 Cimetidine - Midazolam DDI",
           "Content": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Qualification-text-modules/v1.0/Empty.md"
         },
         {
           "Id": 304,
-          "Title": "3.4 Erythromycin - Alprazolam DDI",
+          "Title": "3.4 Cimetidine - Triazolam DDI",
           "Content": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Qualification-text-modules/v1.0/Empty.md"
         },
         {
           "Id": 305,
-          "Title": "3.5 Erythromycin - Midazolam DDI",
+          "Title": "3.5 Cimetidine - Verapamil DDI",
           "Content": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Qualification-text-modules/v1.0/Empty.md"
         },
         {
           "Id": 306,
-          "Title": "3.6 Erythromycin - Triazolam DDI",
+          "Title": "3.6 Clarithromycin - Midazolam DDI",
           "Content": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Qualification-text-modules/v1.0/Empty.md"
         },
         {
           "Id": 307,
-          "Title": "3.7 Fluvoxamine - Alprazolam DDI",
+          "Title": "3.7 Clarithromycin - Triazolam DDI",
           "Content": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Qualification-text-modules/v1.0/Empty.md"
         },
         {
           "Id": 308,
-          "Title": "3.8 Fluvoxamine - Midazolam DDI",
+          "Title": "3.8 Erythromycin - Alfentanil DDI",
           "Content": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Qualification-text-modules/v1.0/Empty.md"
         },
         {
           "Id": 309,
-          "Title": "3.9 Itraconazole - Alprazolam DDI",
+          "Title": "3.9 Erythromycin - Alprazolam DDI",
           "Content": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Qualification-text-modules/v1.0/Empty.md"
         },
         {
           "Id": 310,
-          "Title": "3.10 Itraconazole - Midazolam DDI",
+          "Title": "3.10 Erythromycin - Midazolam DDI",
           "Content": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Qualification-text-modules/v1.0/Empty.md"
         },
         {
           "Id": 311,
-          "Title": "3.11 Itraconazole - Triazolam DDI",
+          "Title": "3.11 Erythromycin - Triazolam DDI",
           "Content": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Qualification-text-modules/v1.0/Empty.md"
         },
         {
           "Id": 312,
-          "Title": "3.12 Verapamil - Midazolam DDI",
+          "Title": "3.12 Fluvoxamine - Alprazolam DDI",
           "Content": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Qualification-text-modules/v1.0/Empty.md"
         },
         {
           "Id": 313,
-          "Title": "3.13 Efavirenz - Alfentanil DDI",
+          "Title": "3.13 Fluvoxamine - Midazolam DDI",
           "Content": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Qualification-text-modules/v1.0/Empty.md"
         },
         {
           "Id": 314,
-          "Title": "3.14 Efavirenz - Midazolam DDI",
+          "Title": "3.14 Itraconazole - Alprazolam DDI",
           "Content": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Qualification-text-modules/v1.0/Empty.md"
         },
         {
           "Id": 315,
-          "Title": "3.15 Rifampicin - Alfentanil DDI",
+          "Title": "3.15 Itraconazole - Midazolam DDI",
           "Content": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Qualification-text-modules/v1.0/Empty.md"
         },
         {
           "Id": 316,
-          "Title": "3.16 Rifampicin - Alprazolam DDI",
+          "Title": "3.16 Itraconazole - Triazolam DDI",
           "Content": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Qualification-text-modules/v1.0/Empty.md"
         },
         {
           "Id": 317,
-          "Title": "3.17 Rifampicin - Midazolam DDI",
+          "Title": "3.17 Verapamil - Midazolam DDI",
           "Content": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Qualification-text-modules/v1.0/Empty.md"
         },
         {
           "Id": 318,
-          "Title": "3.18 Rifampicin - Triazolam DDI",
+          "Title": "3.18 Efavirenz - Alfentanil DDI",
+          "Content": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Qualification-text-modules/v1.0/Empty.md"
+        },
+        {
+          "Id": 319,
+          "Title": "3.19 Efavirenz - Midazolam DDI",
+          "Content": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Qualification-text-modules/v1.0/Empty.md"
+        },
+        {
+          "Id": 320,
+          "Title": "3.20 Rifampicin - Alfentanil DDI",
+          "Content": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Qualification-text-modules/v1.0/Empty.md"
+        },
+        {
+          "Id": 321,
+          "Title": "3.21 Rifampicin - Alprazolam DDI",
+          "Content": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Qualification-text-modules/v1.0/Empty.md"
+        },
+        {
+          "Id": 322,
+          "Title": "3.22 Rifampicin - Midazolam DDI",
+          "Content": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Qualification-text-modules/v1.0/Empty.md"
+        },
+        {
+          "Id": 323,
+          "Title": "3.23 Rifampicin - Triazolam DDI",
+          "Content": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Qualification-text-modules/v1.0/Empty.md"
+        },
+        {
+          "Id": 324,
+          "Title": "3.23 Rifampicin - Verapamil DDI",
           "Content": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Qualification-text-modules/v1.0/Empty.md"
         }
       ]

@@ -206,5 +206,11 @@
 
 ## Rifampicin-Triazolam-DDI
 
-**Villikka 1997** Villikka, K., Kivistö, K. T., Backman, J. T., Olkkola, K. T., & Neuvonen, P. J. (1997). Triazolam is ineffective in patients taking rifampin. *Clinical Pharmacology & Therapeutics*, *61*(1), 8-14.
+**Villikka 1997** Villikka K, Kivistö KT, Backman JT, Olkkola KT, & Neuvonen PJ. Triazolam is ineffective in patients taking rifampin. Clin Pharmacol Ther. 1997 Jan;61(1):8-14.
+
+
+
+## Rifampicin-Verapamil-DDI
+
+**Barbarash 1998** Barbarash RA, Bauman JL, Fischer JH, Kondos GT, Batenhorst RL. Near-total reduction in verapamil bioavailability by rifampin. Electrocardiographic correlates. Chest. 1988 Nov;94(5):954-9.
 
