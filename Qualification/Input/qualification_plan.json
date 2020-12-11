@@ -9324,7 +9324,7 @@
       {
         "SectionId": 301,
         "Title": "Kienlen 1993",
-        "SimulationDuration": 24,
+        "SimulationDuration": 10,
         "TimeUnit": "h",
         "OutputMappings": [
           {
@@ -9414,7 +9414,7 @@
       {
         "SectionId": 303,
         "Title": "Greenblatt 1986 (midazolam IV)",
-        "SimulationDuration": 24,
+        "SimulationDuration": 12,
         "TimeUnit": "h",
         "OutputMappings": [
           {
@@ -9444,7 +9444,7 @@
       {
         "SectionId": 303,
         "Title": "Greenblatt 1986 (midazolam PO)",
-        "SimulationDuration": 24,
+        "SimulationDuration": 12,
         "TimeUnit": "h",
         "OutputMappings": [
           {
@@ -9504,7 +9504,7 @@
       {
         "SectionId": 303,
         "Title": "Fee 1987",
-        "SimulationDuration": 24,
+        "SimulationDuration": 15,
         "TimeUnit": "h",
         "OutputMappings": [
           {
@@ -9534,7 +9534,7 @@
       {
         "SectionId": 303,
         "Title": "Salonen 1986",
-        "SimulationDuration": 24,
+        "SimulationDuration": 10,
         "TimeUnit": "h",
         "OutputMappings": [
           {
@@ -9564,7 +9564,7 @@
       {
         "SectionId": 303,
         "Title": "Elliott 1984",
-        "SimulationDuration": 24,
+        "SimulationDuration": 15,
         "TimeUnit": "h",
         "OutputMappings": [
           {
@@ -9594,7 +9594,7 @@
       {
         "SectionId": 304,
         "Title": "Abernethy 1983",
-        "SimulationDuration": 24,
+        "SimulationDuration": 20,
         "TimeUnit": "h",
         "OutputMappings": [
           {
@@ -9624,7 +9624,7 @@
       {
         "SectionId": 304,
         "Title": "Friedman 1988",
-        "SimulationDuration": 24,
+        "SimulationDuration": 12,
         "TimeUnit": "h",
         "OutputMappings": [
           {
@@ -9684,7 +9684,7 @@
       {
         "SectionId": 304,
         "Title": "Cox 1986",
-        "SimulationDuration": 24,
+        "SimulationDuration": 15,
         "TimeUnit": "h",
         "OutputMappings": [
           {
@@ -9714,7 +9714,7 @@
       {
         "SectionId": 305,
         "Title": "Smith 1984 (verapamil IV)",
-        "SimulationDuration": 24,
+        "SimulationDuration": 12,
         "TimeUnit": "h",
         "OutputMappings": [
           {
@@ -9744,7 +9744,7 @@
       {
         "SectionId": 305,
         "Title": "Smith 1984 (verapamil PO)",
-        "SimulationDuration": 24,
+        "SimulationDuration": 12,
         "TimeUnit": "h",
         "OutputMappings": [
           {
@@ -9774,7 +9774,7 @@
       {
         "SectionId": 306,
         "Title": "Gorski 1998 (midazolam IV)",
-        "SimulationDuration": 12,
+        "SimulationDuration": 15,
         "TimeUnit": "h",
         "OutputMappings": [
           {
@@ -9804,7 +9804,7 @@
       {
         "SectionId": 306,
         "Title": "Gorski 1998 (midazolam po)",
-        "SimulationDuration": 12,
+        "SimulationDuration": 15,
         "TimeUnit": "h",
         "OutputMappings": [
           {
@@ -9834,7 +9834,7 @@
       {
         "SectionId": 306,
         "Title": "Gurley 2006",
-        "SimulationDuration": 6,
+        "SimulationDuration": 10,
         "TimeUnit": "h",
         "OutputMappings": [
           {
@@ -9864,7 +9864,7 @@
       {
         "SectionId": 306,
         "Title": "Gurley 2008a",
-        "SimulationDuration": 6,
+        "SimulationDuration": 10,
         "TimeUnit": "h",
         "OutputMappings": [
           {
@@ -9954,7 +9954,7 @@
       {
         "SectionId": 306,
         "Title": "Quinney 2008 (midazolam IV)",
-        "SimulationDuration": 12,
+        "SimulationDuration": 15,
         "TimeUnit": "h",
         "OutputMappings": [
           {
@@ -9984,7 +9984,7 @@
       {
         "SectionId": 306,
         "Title": "Quinney 2008 (midazolam po)",
-        "SimulationDuration": 12,
+        "SimulationDuration": 15,
         "TimeUnit": "h",
         "OutputMappings": [
           {
@@ -10104,7 +10104,7 @@
       {
         "SectionId": 308,
         "Title": "Bartkowski 1989",
-        "SimulationDuration": 8,
+        "SimulationDuration": 10,
         "TimeUnit": "h",
         "OutputMappings": [
           {
@@ -10145,7 +10145,7 @@
       {
         "SectionId": 308,
         "Title": "Bartkowski 1993",
-        "SimulationDuration": 8,
+        "SimulationDuration": 10,
         "TimeUnit": "h",
         "OutputMappings": [
           {
@@ -10257,7 +10257,7 @@
       {
         "SectionId": 310,
         "Title": "Okudaira 2007",
-        "SimulationDuration": 22,
+        "SimulationDuration": 24,
         "TimeUnit": "h",
         "OutputMappings": [
           {
@@ -10309,7 +10309,7 @@
       {
         "SectionId": 310,
         "Title": "Olkkola 1993 (midazolam IV)",
-        "SimulationDuration": 18,
+        "SimulationDuration": 20,
         "TimeUnit": "h",
         "OutputMappings": [
           {
@@ -10339,7 +10339,7 @@
       {
         "SectionId": 310,
         "Title": "Olkkola 1993 (midazolam po)",
-        "SimulationDuration": 18,
+        "SimulationDuration": 20,
         "TimeUnit": "h",
         "OutputMappings": [
           {
@@ -10369,7 +10369,7 @@
       {
         "SectionId": 310,
         "Title": "Swart 2002",
-        "SimulationDuration": 4,
+        "SimulationDuration": 6,
         "TimeUnit": "h",
         "OutputMappings": [
           {
@@ -10489,7 +10489,7 @@
       {
         "SectionId": 312,
         "Title": "Fleishaker 1994 (Day 1, first dose)",
-        "SimulationDuration": 5,
+        "SimulationDuration": 6,
         "TimeUnit": "h",
         "OutputMappings": [
           {
@@ -10860,7 +10860,7 @@
       {
         "SectionId": 315,
         "Title": "Templeton 2010",
-        "SimulationDuration": 20,
+        "SimulationDuration": 24,
         "TimeUnit": "h",
         "OutputMappings": [
           {
@@ -11155,7 +11155,7 @@
       {
         "SectionId": 318,
         "Title": "Kharasch 2012 PO",
-        "SimulationDuration": 8,
+        "SimulationDuration": 10,
         "TimeUnit": "h",
         "OutputMappings": [
           {
@@ -11259,7 +11259,7 @@
       {
         "SectionId": 319,
         "Title": "Mikus 2017 PO",
-        "SimulationDuration": 6,
+        "SimulationDuration": 8,
         "TimeUnit": "h",
         "OutputMappings": [
           {
@@ -11333,7 +11333,7 @@
       {
         "SectionId": 319,
         "Title": "Katzenmaier 2010",
-        "SimulationDuration": 10,
+        "SimulationDuration": 12,
         "TimeUnit": "h",
         "OutputMappings": [
           {
@@ -12649,7 +12649,7 @@
       {
         "SectionId": 322,
         "Title": "Yu 2004 (CYP3A5*3/*3)",
-        "SimulationDuration": 12,
+        "SimulationDuration": 15,
         "TimeUnit": "h",
         "OutputMappings": [
           {
@@ -12709,7 +12709,7 @@
       {
         "SectionId": 324,
         "Title": "Barbarash 1998 (verapamil IV)",
-        "SimulationDuration": 12,
+        "SimulationDuration": 15,
         "TimeUnit": "h",
         "OutputMappings": [
           {
@@ -12739,7 +12739,7 @@
       {
         "SectionId": 324,
         "Title": "Barbarash 1998 (verapamil PO)",
-        "SimulationDuration": 12,
+        "SimulationDuration": 15,
         "TimeUnit": "h",
         "OutputMappings": [
           {
