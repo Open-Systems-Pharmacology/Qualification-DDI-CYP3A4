@@ -1,5 +1,5 @@
 {
-  "$schema": "https://github.com/Open-Systems-Pharmacology/QualificationPlan/releases/download/v2.1/OSP_Qualification_Plan_Schema.json",
+  "$schema": "https://github.com/Open-Systems-Pharmacology/QualificationPlan/releases/download/v2.2/OSP_Qualification_Plan_Schema.json",
   "Projects": [
     {
       "Id": "Alfentanil",
@@ -9204,7 +9204,7 @@
   "ObservedDataSets": [
     {
       "Id": "DDI Ratios",
-      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Database-for-observed-data/master/DDI.csv",
+      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Database-for-observed-data/v1.1/DDI.csv",
       "Type": "DDIRatio"
     }
   ],
