@@ -9774,7 +9774,7 @@
       {
         "SectionId": 306,
         "Title": "Gorski 1998 (midazolam IV)",
-        "SimulationDuration": 15,
+        "SimulationDuration": 14,
         "TimeUnit": "h",
         "OutputMappings": [
           {
@@ -15621,12 +15621,12 @@
             {
               "Id": 1201,
               "Title": "Cimetidine - Alfentanil DDI",
-              "Content": "Content/Cimetidine-Midazolam-DDI.md"
+              "Content": "Content/Cimetidine-Alfentanil-DDI.md"
             },
             {
               "Id": 1202,
               "Title": "Cimetidine - Alprazolam DDI",
-              "Content": "Content/Cimetidine-Midazolam-DDI.md"
+              "Content": "Content/Cimetidine-Alprazolam-DDI.md"
             },
             {
               "Id": 1203,
@@ -15636,12 +15636,12 @@
             {
               "Id": 1204,
               "Title": "Cimetidine - Triazolam DDI",
-              "Content": "Content/Cimetidine-Midazolam-DDI.md"
+              "Content": "Content/Cimetidine-Triazolam-DDI.md"
             },
             {
               "Id": 1205,
               "Title": "Cimetidine - Verapamil DDI",
-              "Content": "Content/Cimetidine-Midazolam-DDI.md"
+              "Content": "Content/Cimetidine-Verapamil-DDI.md"
             },
             {
               "Id": 1206,
