@@ -8961,10 +8961,10 @@
           "Simulation": "Barbarash 1988 + Johnston 1981 + McAllister 1982 +Hla 1987 (120 mg PO SD)",
           "Path": "Neighborhoods|Duodenum_int_Duodenum_cell|Verapamil|P (interstitial->intracellular)",
           "TargetSimulations": [
-            "DDI Control - Verapamil - Barbarash 1998 (iv)",
-            "DDI Control - Verapamil - Barbarash 1998 (po)",
-            "DDI Treatment - Rifampicin/Verapamil - Barbarash 1998 (iv)",
-            "DDI Treatment - Rifampicin/Verapamil - Barbarash 1998 (po)"
+            "DDI Control - Verapamil - Barbarash 1988 (iv)",
+            "DDI Control - Verapamil - Barbarash 1988 (po)",
+            "DDI Treatment - Rifampicin/Verapamil - Barbarash 1988 (iv)",
+            "DDI Treatment - Rifampicin/Verapamil - Barbarash 1988 (po)"
           ]
         },
         {
@@ -8972,10 +8972,10 @@
           "Simulation": "Barbarash 1988 + Johnston 1981 + McAllister 1982 +Hla 1987 (120 mg PO SD)",
           "Path": "Neighborhoods|UpperJejunum_int_UpperJejunum_cell|Verapamil|P (interstitial->intracellular)",
           "TargetSimulations": [
-            "DDI Control - Verapamil - Barbarash 1998 (iv)",
-            "DDI Control - Verapamil - Barbarash 1998 (po)",
-            "DDI Treatment - Rifampicin/Verapamil - Barbarash 1998 (iv)",
-            "DDI Treatment - Rifampicin/Verapamil - Barbarash 1998 (po)"
+            "DDI Control - Verapamil - Barbarash 1988 (iv)",
+            "DDI Control - Verapamil - Barbarash 1988 (po)",
+            "DDI Treatment - Rifampicin/Verapamil - Barbarash 1988 (iv)",
+            "DDI Treatment - Rifampicin/Verapamil - Barbarash 1988 (po)"
           ]
         },
         {
@@ -8983,10 +8983,10 @@
           "Simulation": "Barbarash 1988 + Johnston 1981 + McAllister 1982 +Hla 1987 (120 mg PO SD)",
           "Path": "Neighborhoods|LowerJejunum_int_LowerJejunum_cell|Verapamil|P (interstitial->intracellular)",
           "TargetSimulations": [
-            "DDI Control - Verapamil - Barbarash 1998 (iv)",
-            "DDI Control - Verapamil - Barbarash 1998 (po)",
-            "DDI Treatment - Rifampicin/Verapamil - Barbarash 1998 (iv)",
-            "DDI Treatment - Rifampicin/Verapamil - Barbarash 1998 (po)"
+            "DDI Control - Verapamil - Barbarash 1988 (iv)",
+            "DDI Control - Verapamil - Barbarash 1988 (po)",
+            "DDI Treatment - Rifampicin/Verapamil - Barbarash 1988 (iv)",
+            "DDI Treatment - Rifampicin/Verapamil - Barbarash 1988 (po)"
           ]
         },
         {
@@ -8994,10 +8994,10 @@
           "Simulation": "Barbarash 1988 + Johnston 1981 + McAllister 1982 +Hla 1987 (120 mg PO SD)",
           "Path": "Neighborhoods|UpperIleum_int_UpperIleum_cell|Verapamil|P (interstitial->intracellular)",
           "TargetSimulations": [
-            "DDI Control - Verapamil - Barbarash 1998 (iv)",
-            "DDI Control - Verapamil - Barbarash 1998 (po)",
-            "DDI Treatment - Rifampicin/Verapamil - Barbarash 1998 (iv)",
-            "DDI Treatment - Rifampicin/Verapamil - Barbarash 1998 (po)"
+            "DDI Control - Verapamil - Barbarash 1988 (iv)",
+            "DDI Control - Verapamil - Barbarash 1988 (po)",
+            "DDI Treatment - Rifampicin/Verapamil - Barbarash 1988 (iv)",
+            "DDI Treatment - Rifampicin/Verapamil - Barbarash 1988 (po)"
           ]
         },
         {
@@ -9005,10 +9005,10 @@
           "Simulation": "Barbarash 1988 + Johnston 1981 + McAllister 1982 +Hla 1987 (120 mg PO SD)",
           "Path": "Neighborhoods|LowerIleum_int_LowerIleum_cell|Verapamil|P (interstitial->intracellular)",
           "TargetSimulations": [
-            "DDI Control - Verapamil - Barbarash 1998 (iv)",
-            "DDI Control - Verapamil - Barbarash 1998 (po)",
-            "DDI Treatment - Rifampicin/Verapamil - Barbarash 1998 (iv)",
-            "DDI Treatment - Rifampicin/Verapamil - Barbarash 1998 (po)"
+            "DDI Control - Verapamil - Barbarash 1988 (iv)",
+            "DDI Control - Verapamil - Barbarash 1988 (po)",
+            "DDI Treatment - Rifampicin/Verapamil - Barbarash 1988 (iv)",
+            "DDI Treatment - Rifampicin/Verapamil - Barbarash 1988 (po)"
           ]
         },
         {
@@ -9016,10 +9016,10 @@
           "Simulation": "Barbarash 1988 + Johnston 1981 + McAllister 1982 +Hla 1987 (120 mg PO SD)",
           "Path": "Neighborhoods|Caecum_int_Caecum_cell|Verapamil|P (interstitial->intracellular)",
           "TargetSimulations": [
-            "DDI Control - Verapamil - Barbarash 1998 (iv)",
-            "DDI Control - Verapamil - Barbarash 1998 (po)",
-            "DDI Treatment - Rifampicin/Verapamil - Barbarash 1998 (iv)",
-            "DDI Treatment - Rifampicin/Verapamil - Barbarash 1998 (po)"
+            "DDI Control - Verapamil - Barbarash 1988 (iv)",
+            "DDI Control - Verapamil - Barbarash 1988 (po)",
+            "DDI Treatment - Rifampicin/Verapamil - Barbarash 1988 (iv)",
+            "DDI Treatment - Rifampicin/Verapamil - Barbarash 1988 (po)"
           ]
         },
         {
@@ -9027,10 +9027,10 @@
           "Simulation": "Barbarash 1988 + Johnston 1981 + McAllister 1982 +Hla 1987 (120 mg PO SD)",
           "Path": "Neighborhoods|ColonAscendens_int_ColonAscendens_cell|Verapamil|P (interstitial->intracellular)",
           "TargetSimulations": [
-            "DDI Control - Verapamil - Barbarash 1998 (iv)",
-            "DDI Control - Verapamil - Barbarash 1998 (po)",
-            "DDI Treatment - Rifampicin/Verapamil - Barbarash 1998 (iv)",
-            "DDI Treatment - Rifampicin/Verapamil - Barbarash 1998 (po)"
+            "DDI Control - Verapamil - Barbarash 1988 (iv)",
+            "DDI Control - Verapamil - Barbarash 1988 (po)",
+            "DDI Treatment - Rifampicin/Verapamil - Barbarash 1988 (iv)",
+            "DDI Treatment - Rifampicin/Verapamil - Barbarash 1988 (po)"
           ]
         },
         {
@@ -9038,10 +9038,10 @@
           "Simulation": "Barbarash 1988 + Johnston 1981 + McAllister 1982 +Hla 1987 (120 mg PO SD)",
           "Path": "Neighborhoods|ColonTransversum_int_ColonTransversum_cell|Verapamil|P (interstitial->intracellular)",
           "TargetSimulations": [
-            "DDI Control - Verapamil - Barbarash 1998 (iv)",
-            "DDI Control - Verapamil - Barbarash 1998 (po)",
-            "DDI Treatment - Rifampicin/Verapamil - Barbarash 1998 (iv)",
-            "DDI Treatment - Rifampicin/Verapamil - Barbarash 1998 (po)"
+            "DDI Control - Verapamil - Barbarash 1988 (iv)",
+            "DDI Control - Verapamil - Barbarash 1988 (po)",
+            "DDI Treatment - Rifampicin/Verapamil - Barbarash 1988 (iv)",
+            "DDI Treatment - Rifampicin/Verapamil - Barbarash 1988 (po)"
           ]
         },
         {
@@ -9049,10 +9049,10 @@
           "Simulation": "Barbarash 1988 + Johnston 1981 + McAllister 1982 +Hla 1987 (120 mg PO SD)",
           "Path": "Neighborhoods|ColonDescendens_int_ColonDescendens_cell|Verapamil|P (interstitial->intracellular)",
           "TargetSimulations": [
-            "DDI Control - Verapamil - Barbarash 1998 (iv)",
-            "DDI Control - Verapamil - Barbarash 1998 (po)",
-            "DDI Treatment - Rifampicin/Verapamil - Barbarash 1998 (iv)",
-            "DDI Treatment - Rifampicin/Verapamil - Barbarash 1998 (po)"
+            "DDI Control - Verapamil - Barbarash 1988 (iv)",
+            "DDI Control - Verapamil - Barbarash 1988 (po)",
+            "DDI Treatment - Rifampicin/Verapamil - Barbarash 1988 (iv)",
+            "DDI Treatment - Rifampicin/Verapamil - Barbarash 1988 (po)"
           ]
         },
         {
@@ -9060,10 +9060,10 @@
           "Simulation": "Barbarash 1988 + Johnston 1981 + McAllister 1982 +Hla 1987 (120 mg PO SD)",
           "Path": "Neighborhoods|ColonSigmoid_int_ColonSigmoid_cell|Verapamil|P (interstitial->intracellular)",
           "TargetSimulations": [
-            "DDI Control - Verapamil - Barbarash 1998 (iv)",
-            "DDI Control - Verapamil - Barbarash 1998 (po)",
-            "DDI Treatment - Rifampicin/Verapamil - Barbarash 1998 (iv)",
-            "DDI Treatment - Rifampicin/Verapamil - Barbarash 1998 (po)"
+            "DDI Control - Verapamil - Barbarash 1988 (iv)",
+            "DDI Control - Verapamil - Barbarash 1988 (po)",
+            "DDI Treatment - Rifampicin/Verapamil - Barbarash 1988 (iv)",
+            "DDI Treatment - Rifampicin/Verapamil - Barbarash 1988 (po)"
           ]
         },
         {
@@ -9071,10 +9071,10 @@
           "Simulation": "Barbarash 1988 + Johnston 1981 + McAllister 1982 +Hla 1987 (120 mg PO SD)",
           "Path": "Neighborhoods|Rectum_int_Rectum_cell|Verapamil|P (interstitial->intracellular)",
           "TargetSimulations": [
-            "DDI Control - Verapamil - Barbarash 1998 (iv)",
-            "DDI Control - Verapamil - Barbarash 1998 (po)",
-            "DDI Treatment - Rifampicin/Verapamil - Barbarash 1998 (iv)",
-            "DDI Treatment - Rifampicin/Verapamil - Barbarash 1998 (po)"
+            "DDI Control - Verapamil - Barbarash 1988 (iv)",
+            "DDI Control - Verapamil - Barbarash 1988 (po)",
+            "DDI Treatment - Rifampicin/Verapamil - Barbarash 1988 (iv)",
+            "DDI Treatment - Rifampicin/Verapamil - Barbarash 1988 (po)"
           ]
         },
         {
@@ -9082,10 +9082,10 @@
           "Simulation": "Barbarash 1988 + Johnston 1981 + McAllister 1982 +Hla 1987 (120 mg PO SD)",
           "Path": "Neighborhoods|Duodenum_int_Duodenum_cell|Verapamil|P (intracellular->interstitial)",
           "TargetSimulations": [
-            "DDI Control - Verapamil - Barbarash 1998 (iv)",
-            "DDI Control - Verapamil - Barbarash 1998 (po)",
-            "DDI Treatment - Rifampicin/Verapamil - Barbarash 1998 (iv)",
-            "DDI Treatment - Rifampicin/Verapamil - Barbarash 1998 (po)"
+            "DDI Control - Verapamil - Barbarash 1988 (iv)",
+            "DDI Control - Verapamil - Barbarash 1988 (po)",
+            "DDI Treatment - Rifampicin/Verapamil - Barbarash 1988 (iv)",
+            "DDI Treatment - Rifampicin/Verapamil - Barbarash 1988 (po)"
           ]
         },
         {
@@ -9093,10 +9093,10 @@
           "Simulation": "Barbarash 1988 + Johnston 1981 + McAllister 1982 +Hla 1987 (120 mg PO SD)",
           "Path": "Neighborhoods|UpperJejunum_int_UpperJejunum_cell|Verapamil|P (intracellular->interstitial)",
           "TargetSimulations": [
-            "DDI Control - Verapamil - Barbarash 1998 (iv)",
-            "DDI Control - Verapamil - Barbarash 1998 (po)",
-            "DDI Treatment - Rifampicin/Verapamil - Barbarash 1998 (iv)",
-            "DDI Treatment - Rifampicin/Verapamil - Barbarash 1998 (po)"
+            "DDI Control - Verapamil - Barbarash 1988 (iv)",
+            "DDI Control - Verapamil - Barbarash 1988 (po)",
+            "DDI Treatment - Rifampicin/Verapamil - Barbarash 1988 (iv)",
+            "DDI Treatment - Rifampicin/Verapamil - Barbarash 1988 (po)"
           ]
         },
         {
@@ -9104,10 +9104,10 @@
           "Simulation": "Barbarash 1988 + Johnston 1981 + McAllister 1982 +Hla 1987 (120 mg PO SD)",
           "Path": "Neighborhoods|LowerJejunum_int_LowerJejunum_cell|Verapamil|P (intracellular->interstitial)",
           "TargetSimulations": [
-            "DDI Control - Verapamil - Barbarash 1998 (iv)",
-            "DDI Control - Verapamil - Barbarash 1998 (po)",
-            "DDI Treatment - Rifampicin/Verapamil - Barbarash 1998 (iv)",
-            "DDI Treatment - Rifampicin/Verapamil - Barbarash 1998 (po)"
+            "DDI Control - Verapamil - Barbarash 1988 (iv)",
+            "DDI Control - Verapamil - Barbarash 1988 (po)",
+            "DDI Treatment - Rifampicin/Verapamil - Barbarash 1988 (iv)",
+            "DDI Treatment - Rifampicin/Verapamil - Barbarash 1988 (po)"
           ]
         },
         {
@@ -9115,10 +9115,10 @@
           "Simulation": "Barbarash 1988 + Johnston 1981 + McAllister 1982 +Hla 1987 (120 mg PO SD)",
           "Path": "Neighborhoods|UpperIleum_int_UpperIleum_cell|Verapamil|P (intracellular->interstitial)",
           "TargetSimulations": [
-            "DDI Control - Verapamil - Barbarash 1998 (iv)",
-            "DDI Control - Verapamil - Barbarash 1998 (po)",
-            "DDI Treatment - Rifampicin/Verapamil - Barbarash 1998 (iv)",
-            "DDI Treatment - Rifampicin/Verapamil - Barbarash 1998 (po)"
+            "DDI Control - Verapamil - Barbarash 1988 (iv)",
+            "DDI Control - Verapamil - Barbarash 1988 (po)",
+            "DDI Treatment - Rifampicin/Verapamil - Barbarash 1988 (iv)",
+            "DDI Treatment - Rifampicin/Verapamil - Barbarash 1988 (po)"
           ]
         },
         {
@@ -9126,10 +9126,10 @@
           "Simulation": "Barbarash 1988 + Johnston 1981 + McAllister 1982 +Hla 1987 (120 mg PO SD)",
           "Path": "Neighborhoods|LowerIleum_int_LowerIleum_cell|Verapamil|P (intracellular->interstitial)",
           "TargetSimulations": [
-            "DDI Control - Verapamil - Barbarash 1998 (iv)",
-            "DDI Control - Verapamil - Barbarash 1998 (po)",
-            "DDI Treatment - Rifampicin/Verapamil - Barbarash 1998 (iv)",
-            "DDI Treatment - Rifampicin/Verapamil - Barbarash 1998 (po)"
+            "DDI Control - Verapamil - Barbarash 1988 (iv)",
+            "DDI Control - Verapamil - Barbarash 1988 (po)",
+            "DDI Treatment - Rifampicin/Verapamil - Barbarash 1988 (iv)",
+            "DDI Treatment - Rifampicin/Verapamil - Barbarash 1988 (po)"
           ]
         },
         {
@@ -9137,10 +9137,10 @@
           "Simulation": "Barbarash 1988 + Johnston 1981 + McAllister 1982 +Hla 1987 (120 mg PO SD)",
           "Path": "Neighborhoods|Caecum_int_Caecum_cell|Verapamil|P (intracellular->interstitial)",
           "TargetSimulations": [
-            "DDI Control - Verapamil - Barbarash 1998 (iv)",
-            "DDI Control - Verapamil - Barbarash 1998 (po)",
-            "DDI Treatment - Rifampicin/Verapamil - Barbarash 1998 (iv)",
-            "DDI Treatment - Rifampicin/Verapamil - Barbarash 1998 (po)"
+            "DDI Control - Verapamil - Barbarash 1988 (iv)",
+            "DDI Control - Verapamil - Barbarash 1988 (po)",
+            "DDI Treatment - Rifampicin/Verapamil - Barbarash 1988 (iv)",
+            "DDI Treatment - Rifampicin/Verapamil - Barbarash 1988 (po)"
           ]
         },
         {
@@ -9148,10 +9148,10 @@
           "Simulation": "Barbarash 1988 + Johnston 1981 + McAllister 1982 +Hla 1987 (120 mg PO SD)",
           "Path": "Neighborhoods|ColonAscendens_int_ColonAscendens_cell|Verapamil|P (intracellular->interstitial)",
           "TargetSimulations": [
-            "DDI Control - Verapamil - Barbarash 1998 (iv)",
-            "DDI Control - Verapamil - Barbarash 1998 (po)",
-            "DDI Treatment - Rifampicin/Verapamil - Barbarash 1998 (iv)",
-            "DDI Treatment - Rifampicin/Verapamil - Barbarash 1998 (po)"
+            "DDI Control - Verapamil - Barbarash 1988 (iv)",
+            "DDI Control - Verapamil - Barbarash 1988 (po)",
+            "DDI Treatment - Rifampicin/Verapamil - Barbarash 1988 (iv)",
+            "DDI Treatment - Rifampicin/Verapamil - Barbarash 1988 (po)"
           ]
         },
         {
@@ -9159,10 +9159,10 @@
           "Simulation": "Barbarash 1988 + Johnston 1981 + McAllister 1982 +Hla 1987 (120 mg PO SD)",
           "Path": "Neighborhoods|ColonTransversum_int_ColonTransversum_cell|Verapamil|P (intracellular->interstitial)",
           "TargetSimulations": [
-            "DDI Control - Verapamil - Barbarash 1998 (iv)",
-            "DDI Control - Verapamil - Barbarash 1998 (po)",
-            "DDI Treatment - Rifampicin/Verapamil - Barbarash 1998 (iv)",
-            "DDI Treatment - Rifampicin/Verapamil - Barbarash 1998 (po)"
+            "DDI Control - Verapamil - Barbarash 1988 (iv)",
+            "DDI Control - Verapamil - Barbarash 1988 (po)",
+            "DDI Treatment - Rifampicin/Verapamil - Barbarash 1988 (iv)",
+            "DDI Treatment - Rifampicin/Verapamil - Barbarash 1988 (po)"
           ]
         },
         {
@@ -9170,10 +9170,10 @@
           "Simulation": "Barbarash 1988 + Johnston 1981 + McAllister 1982 +Hla 1987 (120 mg PO SD)",
           "Path": "Neighborhoods|ColonDescendens_int_ColonDescendens_cell|Verapamil|P (intracellular->interstitial)",
           "TargetSimulations": [
-            "DDI Control - Verapamil - Barbarash 1998 (iv)",
-            "DDI Control - Verapamil - Barbarash 1998 (po)",
-            "DDI Treatment - Rifampicin/Verapamil - Barbarash 1998 (iv)",
-            "DDI Treatment - Rifampicin/Verapamil - Barbarash 1998 (po)"
+            "DDI Control - Verapamil - Barbarash 1988 (iv)",
+            "DDI Control - Verapamil - Barbarash 1988 (po)",
+            "DDI Treatment - Rifampicin/Verapamil - Barbarash 1988 (iv)",
+            "DDI Treatment - Rifampicin/Verapamil - Barbarash 1988 (po)"
           ]
         },
         {
@@ -9181,10 +9181,10 @@
           "Simulation": "Barbarash 1988 + Johnston 1981 + McAllister 1982 +Hla 1987 (120 mg PO SD)",
           "Path": "Neighborhoods|ColonSigmoid_int_ColonSigmoid_cell|Verapamil|P (intracellular->interstitial)",
           "TargetSimulations": [
-            "DDI Control - Verapamil - Barbarash 1998 (iv)",
-            "DDI Control - Verapamil - Barbarash 1998 (po)",
-            "DDI Treatment - Rifampicin/Verapamil - Barbarash 1998 (iv)",
-            "DDI Treatment - Rifampicin/Verapamil - Barbarash 1998 (po)"
+            "DDI Control - Verapamil - Barbarash 1988 (iv)",
+            "DDI Control - Verapamil - Barbarash 1988 (po)",
+            "DDI Treatment - Rifampicin/Verapamil - Barbarash 1988 (iv)",
+            "DDI Treatment - Rifampicin/Verapamil - Barbarash 1988 (po)"
           ]
         },
         {
@@ -9192,10 +9192,10 @@
           "Simulation": "Barbarash 1988 + Johnston 1981 + McAllister 1982 +Hla 1987 (120 mg PO SD)",
           "Path": "Neighborhoods|Rectum_int_Rectum_cell|Verapamil|P (intracellular->interstitial)",
           "TargetSimulations": [
-            "DDI Control - Verapamil - Barbarash 1998 (iv)",
-            "DDI Control - Verapamil - Barbarash 1998 (po)",
-            "DDI Treatment - Rifampicin/Verapamil - Barbarash 1998 (iv)",
-            "DDI Treatment - Rifampicin/Verapamil - Barbarash 1998 (po)"
+            "DDI Control - Verapamil - Barbarash 1988 (iv)",
+            "DDI Control - Verapamil - Barbarash 1988 (po)",
+            "DDI Treatment - Rifampicin/Verapamil - Barbarash 1988 (iv)",
+            "DDI Treatment - Rifampicin/Verapamil - Barbarash 1988 (po)"
           ]
         }
       ]
@@ -12708,13 +12708,13 @@
       },
       {
         "SectionId": 324,
-        "Title": "Barbarash 1998 (verapamil IV)",
+        "Title": "Barbarash 1988 (verapamil IV)",
         "SimulationDuration": 15,
         "TimeUnit": "h",
         "OutputMappings": [
           {
             "Project": "Rifampicin-Verapamil-DDI",
-            "Simulation": "DDI Control - Verapamil - Barbarash 1998 (iv)",
+            "Simulation": "DDI Control - Verapamil - Barbarash 1988 (iv)",
             "Output": "Organism|PeripheralVenousBlood|Verapamil|Plasma (Peripheral Venous Blood)",
             "ObservedData": "Barbarash 1988 - Verapamil IV control - Verapamil - IV - 10 mg - Serum - agg. (n=6)",
             "StartTime": 0,
@@ -12725,7 +12725,7 @@
           },
           {
             "Project": "Rifampicin-Verapamil-DDI",
-            "Simulation": "DDI Treatment - Rifampicin/Verapamil - Barbarash 1998 (iv)",
+            "Simulation": "DDI Treatment - Rifampicin/Verapamil - Barbarash 1988 (iv)",
             "Output": "Organism|PeripheralVenousBlood|Verapamil|Plasma (Peripheral Venous Blood)",
             "ObservedData": "Barbarash 1988 - Verapamil IV after 2 weeks of Rifampicin therapy - Verapamil - IV - 10 mg - Serum - agg. (n=6)",
             "StartTime": 300,
@@ -12738,13 +12738,13 @@
       },
       {
         "SectionId": 324,
-        "Title": "Barbarash 1998 (verapamil PO)",
+        "Title": "Barbarash 1988 (verapamil PO)",
         "SimulationDuration": 15,
         "TimeUnit": "h",
         "OutputMappings": [
           {
             "Project": "Rifampicin-Verapamil-DDI",
-            "Simulation": "DDI Control - Verapamil - Barbarash 1998 (po)",
+            "Simulation": "DDI Control - Verapamil - Barbarash 1988 (po)",
             "Output": "Organism|PeripheralVenousBlood|Verapamil|Plasma (Peripheral Venous Blood)",
             "ObservedData": "Barbarash 1988 - Verapamil PO control - Verapamil - PO - 120 mg - Serum - agg. (n=6)",
             "StartTime": 0,
@@ -12755,7 +12755,7 @@
           },
           {
             "Project": "Rifampicin-Verapamil-DDI",
-            "Simulation": "DDI Treatment - Rifampicin/Verapamil - Barbarash 1998 (po)",
+            "Simulation": "DDI Treatment - Rifampicin/Verapamil - Barbarash 1988 (po)",
             "Output": "Organism|PeripheralVenousBlood|Verapamil|Plasma (Peripheral Venous Blood)",
             "ObservedData": "Barbarash 1988 - Verapamil PO after 2 weeks of Rifampicin therapy - Verapamil - PO - 120 mg - Serum - agg. (n=6)",
             "StartTime": 348,
@@ -15556,14 +15556,14 @@
                 "ObservedDataRecordId": 2056,
                 "SimulationControl": {
                   "Project": "Rifampicin-Verapamil-DDI",
-                  "Simulation": "DDI Control - Verapamil - Barbarash 1998 (iv)",
+                  "Simulation": "DDI Control - Verapamil - Barbarash 1988 (iv)",
                   "StartTime": 0,
                   "EndTime": "Inf",
                   "TimeUnit": "h"
                 },
                 "SimulationDDI": {
                   "Project": "Rifampicin-Verapamil-DDI",
-                  "Simulation": "DDI Treatment - Rifampicin/Verapamil - Barbarash 1998 (iv)",
+                  "Simulation": "DDI Treatment - Rifampicin/Verapamil - Barbarash 1988 (iv)",
                   "StartTime": 300,
                   "EndTime": "Inf",
                   "TimeUnit": "h"
@@ -15582,14 +15582,14 @@
                 "ObservedDataRecordId": 2058,
                 "SimulationControl": {
                   "Project": "Rifampicin-Verapamil-DDI",
-                  "Simulation": "DDI Control - Verapamil - Barbarash 1998 (po)",
+                  "Simulation": "DDI Control - Verapamil - Barbarash 1988 (po)",
                   "StartTime": 0,
                   "EndTime": "Inf",
                   "TimeUnit": "h"
                 },
                 "SimulationDDI": {
                   "Project": "Rifampicin-Verapamil-DDI",
-                  "Simulation": "DDI Treatment - Rifampicin/Verapamil - Barbarash 1998 (po)",
+                  "Simulation": "DDI Treatment - Rifampicin/Verapamil - Barbarash 1988 (po)",
                   "StartTime": 348,
                   "EndTime": "Inf",
                   "TimeUnit": "h"
