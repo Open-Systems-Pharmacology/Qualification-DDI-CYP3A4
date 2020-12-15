@@ -9804,7 +9804,7 @@
       {
         "SectionId": 306,
         "Title": "Gorski 1998 (midazolam po)",
-        "SimulationDuration": 15,
+        "SimulationDuration": 14,
         "TimeUnit": "h",
         "OutputMappings": [
           {
