@@ -3,8 +3,11 @@ name: Spellcheck
 on: 
   push:
     branches:
-      - SpellCheck
-
+      - master
+  pull_request:
+    branches:
+      - master
+      
 jobs:
   Spellcheck:
     runs-on: ubuntu-latest
