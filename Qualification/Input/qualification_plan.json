@@ -7417,7 +7417,7 @@
     },
     {
       "Id": "Rifampicin-Midazolam-DDI",
-      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Rifampicin-Midazolam-DDI/v1.1/Rifampicin-Midazolam-DDI.json",
+      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Rifampicin-Midazolam-DDI/v1.2/Rifampicin-Midazolam-DDI.json",
       "BuildingBlocks": [
         {
           "Type": "Individual",
@@ -7496,7 +7496,17 @@
             "DDI Control - Midazolam - Yu 2018 (CYP3A5 s3,s3)",
             "DDI Treatment - Rifampicin/Midazolam - Yu 2004 (CYP3A5 s3,s3)",
             "DDI Control - Midazolam - Wiesinger 2020",
-            "DDI Treatment - Rifampicin/Midazolam - Wiesinger 2020"
+            "DDI Treatment - Rifampicin/Midazolam - Wiesinger 2020",
+            "DDI Control - Midazolam - Lutz 2018 (po)",
+            "DDI Control - Midazolam - Lutz 2018 (po)",
+            "DDI Treatment - Rifampicin/Midazolam - Lutz 2018 (Cohort 1, 10 and 75 mg RIF)",
+            "DDI Treatment - Rifampicin/Midazolam - Lutz 2018 (Cohort 1, 10 and 75 mg RIF)",
+            "DDI Treatment - Rifampicin/Midazolam - Lutz 2018 (Cohort 2, 2 and 600 mg RIF)",
+            "DDI Treatment - Rifampicin/Midazolam - Lutz 2018 (Cohort 2, 2 and 600 mg RIF)",
+            "DDI Control - Midazolam - Björkhem-Bergman 2013",
+            "DDI Treatment - Rifampicin/Midazolam - Björkhem-Bergman 2013 (RIF @ 10 mg)",
+            "DDI Treatment - Rifampicin/Midazolam - Björkhem-Bergman 2013 (RIF @ 100 mg)",
+            "DDI Treatment - Rifampicin/Midazolam - Björkhem-Bergman 2013 (RIF @ 20 mg)"
           ]
         },
         {
@@ -7554,7 +7564,17 @@
             "DDI Control - Midazolam - Yu 2018 (CYP3A5 s3,s3)",
             "DDI Treatment - Rifampicin/Midazolam - Yu 2004 (CYP3A5 s3,s3)",
             "DDI Control - Midazolam - Wiesinger 2020",
-            "DDI Treatment - Rifampicin/Midazolam - Wiesinger 2020"
+            "DDI Treatment - Rifampicin/Midazolam - Wiesinger 2020",
+            "DDI Control - Midazolam - Lutz 2018 (po)",
+            "DDI Control - Midazolam - Lutz 2018 (po)",
+            "DDI Treatment - Rifampicin/Midazolam - Lutz 2018 (Cohort 1, 10 and 75 mg RIF)",
+            "DDI Treatment - Rifampicin/Midazolam - Lutz 2018 (Cohort 1, 10 and 75 mg RIF)",
+            "DDI Treatment - Rifampicin/Midazolam - Lutz 2018 (Cohort 2, 2 and 600 mg RIF)",
+            "DDI Treatment - Rifampicin/Midazolam - Lutz 2018 (Cohort 2, 2 and 600 mg RIF)",
+            "DDI Control - Midazolam - Björkhem-Bergman 2013",
+            "DDI Treatment - Rifampicin/Midazolam - Björkhem-Bergman 2013 (RIF @ 10 mg)",
+            "DDI Treatment - Rifampicin/Midazolam - Björkhem-Bergman 2013 (RIF @ 100 mg)",
+            "DDI Treatment - Rifampicin/Midazolam - Björkhem-Bergman 2013 (RIF @ 20 mg)"
           ]
         },
         {
@@ -7612,7 +7632,17 @@
             "DDI Control - Midazolam - Yu 2018 (CYP3A5 s3,s3)",
             "DDI Treatment - Rifampicin/Midazolam - Yu 2004 (CYP3A5 s3,s3)",
             "DDI Control - Midazolam - Wiesinger 2020",
-            "DDI Treatment - Rifampicin/Midazolam - Wiesinger 2020"
+            "DDI Treatment - Rifampicin/Midazolam - Wiesinger 2020",
+            "DDI Control - Midazolam - Lutz 2018 (po)",
+            "DDI Control - Midazolam - Lutz 2018 (po)",
+            "DDI Treatment - Rifampicin/Midazolam - Lutz 2018 (Cohort 1, 10 and 75 mg RIF)",
+            "DDI Treatment - Rifampicin/Midazolam - Lutz 2018 (Cohort 1, 10 and 75 mg RIF)",
+            "DDI Treatment - Rifampicin/Midazolam - Lutz 2018 (Cohort 2, 2 and 600 mg RIF)",
+            "DDI Treatment - Rifampicin/Midazolam - Lutz 2018 (Cohort 2, 2 and 600 mg RIF)",
+            "DDI Control - Midazolam - Björkhem-Bergman 2013",
+            "DDI Treatment - Rifampicin/Midazolam - Björkhem-Bergman 2013 (RIF @ 10 mg)",
+            "DDI Treatment - Rifampicin/Midazolam - Björkhem-Bergman 2013 (RIF @ 100 mg)",
+            "DDI Treatment - Rifampicin/Midazolam - Björkhem-Bergman 2013 (RIF @ 20 mg)"
           ]
         },
         {
@@ -7670,7 +7700,17 @@
             "DDI Control - Midazolam - Yu 2018 (CYP3A5 s3,s3)",
             "DDI Treatment - Rifampicin/Midazolam - Yu 2004 (CYP3A5 s3,s3)",
             "DDI Control - Midazolam - Wiesinger 2020",
-            "DDI Treatment - Rifampicin/Midazolam - Wiesinger 2020"
+            "DDI Treatment - Rifampicin/Midazolam - Wiesinger 2020",
+            "DDI Control - Midazolam - Lutz 2018 (po)",
+            "DDI Control - Midazolam - Lutz 2018 (po)",
+            "DDI Treatment - Rifampicin/Midazolam - Lutz 2018 (Cohort 1, 10 and 75 mg RIF)",
+            "DDI Treatment - Rifampicin/Midazolam - Lutz 2018 (Cohort 1, 10 and 75 mg RIF)",
+            "DDI Treatment - Rifampicin/Midazolam - Lutz 2018 (Cohort 2, 2 and 600 mg RIF)",
+            "DDI Treatment - Rifampicin/Midazolam - Lutz 2018 (Cohort 2, 2 and 600 mg RIF)",
+            "DDI Control - Midazolam - Björkhem-Bergman 2013",
+            "DDI Treatment - Rifampicin/Midazolam - Björkhem-Bergman 2013 (RIF @ 10 mg)",
+            "DDI Treatment - Rifampicin/Midazolam - Björkhem-Bergman 2013 (RIF @ 100 mg)",
+            "DDI Treatment - Rifampicin/Midazolam - Björkhem-Bergman 2013 (RIF @ 20 mg)"
           ]
         },
         {
@@ -7728,7 +7768,17 @@
             "DDI Control - Midazolam - Yu 2018 (CYP3A5 s3,s3)",
             "DDI Treatment - Rifampicin/Midazolam - Yu 2004 (CYP3A5 s3,s3)",
             "DDI Control - Midazolam - Wiesinger 2020",
-            "DDI Treatment - Rifampicin/Midazolam - Wiesinger 2020"
+            "DDI Treatment - Rifampicin/Midazolam - Wiesinger 2020",
+            "DDI Control - Midazolam - Lutz 2018 (po)",
+            "DDI Control - Midazolam - Lutz 2018 (po)",
+            "DDI Treatment - Rifampicin/Midazolam - Lutz 2018 (Cohort 1, 10 and 75 mg RIF)",
+            "DDI Treatment - Rifampicin/Midazolam - Lutz 2018 (Cohort 1, 10 and 75 mg RIF)",
+            "DDI Treatment - Rifampicin/Midazolam - Lutz 2018 (Cohort 2, 2 and 600 mg RIF)",
+            "DDI Treatment - Rifampicin/Midazolam - Lutz 2018 (Cohort 2, 2 and 600 mg RIF)",
+            "DDI Control - Midazolam - Björkhem-Bergman 2013",
+            "DDI Treatment - Rifampicin/Midazolam - Björkhem-Bergman 2013 (RIF @ 10 mg)",
+            "DDI Treatment - Rifampicin/Midazolam - Björkhem-Bergman 2013 (RIF @ 100 mg)",
+            "DDI Treatment - Rifampicin/Midazolam - Björkhem-Bergman 2013 (RIF @ 20 mg)"
           ]
         },
         {
@@ -7786,7 +7836,17 @@
             "DDI Control - Midazolam - Yu 2018 (CYP3A5 s3,s3)",
             "DDI Treatment - Rifampicin/Midazolam - Yu 2004 (CYP3A5 s3,s3)",
             "DDI Control - Midazolam - Wiesinger 2020",
-            "DDI Treatment - Rifampicin/Midazolam - Wiesinger 2020"
+            "DDI Treatment - Rifampicin/Midazolam - Wiesinger 2020",
+            "DDI Control - Midazolam - Lutz 2018 (po)",
+            "DDI Control - Midazolam - Lutz 2018 (po)",
+            "DDI Treatment - Rifampicin/Midazolam - Lutz 2018 (Cohort 1, 10 and 75 mg RIF)",
+            "DDI Treatment - Rifampicin/Midazolam - Lutz 2018 (Cohort 1, 10 and 75 mg RIF)",
+            "DDI Treatment - Rifampicin/Midazolam - Lutz 2018 (Cohort 2, 2 and 600 mg RIF)",
+            "DDI Treatment - Rifampicin/Midazolam - Lutz 2018 (Cohort 2, 2 and 600 mg RIF)",
+            "DDI Control - Midazolam - Björkhem-Bergman 2013",
+            "DDI Treatment - Rifampicin/Midazolam - Björkhem-Bergman 2013 (RIF @ 10 mg)",
+            "DDI Treatment - Rifampicin/Midazolam - Björkhem-Bergman 2013 (RIF @ 100 mg)",
+            "DDI Treatment - Rifampicin/Midazolam - Björkhem-Bergman 2013 (RIF @ 20 mg)"
           ]
         },
         {
@@ -7844,7 +7904,17 @@
             "DDI Control - Midazolam - Yu 2018 (CYP3A5 s3,s3)",
             "DDI Treatment - Rifampicin/Midazolam - Yu 2004 (CYP3A5 s3,s3)",
             "DDI Control - Midazolam - Wiesinger 2020",
-            "DDI Treatment - Rifampicin/Midazolam - Wiesinger 2020"
+            "DDI Treatment - Rifampicin/Midazolam - Wiesinger 2020",
+            "DDI Control - Midazolam - Lutz 2018 (po)",
+            "DDI Control - Midazolam - Lutz 2018 (po)",
+            "DDI Treatment - Rifampicin/Midazolam - Lutz 2018 (Cohort 1, 10 and 75 mg RIF)",
+            "DDI Treatment - Rifampicin/Midazolam - Lutz 2018 (Cohort 1, 10 and 75 mg RIF)",
+            "DDI Treatment - Rifampicin/Midazolam - Lutz 2018 (Cohort 2, 2 and 600 mg RIF)",
+            "DDI Treatment - Rifampicin/Midazolam - Lutz 2018 (Cohort 2, 2 and 600 mg RIF)",
+            "DDI Control - Midazolam - Björkhem-Bergman 2013",
+            "DDI Treatment - Rifampicin/Midazolam - Björkhem-Bergman 2013 (RIF @ 10 mg)",
+            "DDI Treatment - Rifampicin/Midazolam - Björkhem-Bergman 2013 (RIF @ 100 mg)",
+            "DDI Treatment - Rifampicin/Midazolam - Björkhem-Bergman 2013 (RIF @ 20 mg)"
           ]
         },
         {
@@ -7902,7 +7972,17 @@
             "DDI Control - Midazolam - Yu 2018 (CYP3A5 s3,s3)",
             "DDI Treatment - Rifampicin/Midazolam - Yu 2004 (CYP3A5 s3,s3)",
             "DDI Control - Midazolam - Wiesinger 2020",
-            "DDI Treatment - Rifampicin/Midazolam - Wiesinger 2020"
+            "DDI Treatment - Rifampicin/Midazolam - Wiesinger 2020",
+            "DDI Control - Midazolam - Lutz 2018 (po)",
+            "DDI Control - Midazolam - Lutz 2018 (po)",
+            "DDI Treatment - Rifampicin/Midazolam - Lutz 2018 (Cohort 1, 10 and 75 mg RIF)",
+            "DDI Treatment - Rifampicin/Midazolam - Lutz 2018 (Cohort 1, 10 and 75 mg RIF)",
+            "DDI Treatment - Rifampicin/Midazolam - Lutz 2018 (Cohort 2, 2 and 600 mg RIF)",
+            "DDI Treatment - Rifampicin/Midazolam - Lutz 2018 (Cohort 2, 2 and 600 mg RIF)",
+            "DDI Control - Midazolam - Björkhem-Bergman 2013",
+            "DDI Treatment - Rifampicin/Midazolam - Björkhem-Bergman 2013 (RIF @ 10 mg)",
+            "DDI Treatment - Rifampicin/Midazolam - Björkhem-Bergman 2013 (RIF @ 100 mg)",
+            "DDI Treatment - Rifampicin/Midazolam - Björkhem-Bergman 2013 (RIF @ 20 mg)"
           ]
         },
         {
@@ -7960,7 +8040,17 @@
             "DDI Control - Midazolam - Yu 2018 (CYP3A5 s3,s3)",
             "DDI Treatment - Rifampicin/Midazolam - Yu 2004 (CYP3A5 s3,s3)",
             "DDI Control - Midazolam - Wiesinger 2020",
-            "DDI Treatment - Rifampicin/Midazolam - Wiesinger 2020"
+            "DDI Treatment - Rifampicin/Midazolam - Wiesinger 2020",
+            "DDI Control - Midazolam - Lutz 2018 (po)",
+            "DDI Control - Midazolam - Lutz 2018 (po)",
+            "DDI Treatment - Rifampicin/Midazolam - Lutz 2018 (Cohort 1, 10 and 75 mg RIF)",
+            "DDI Treatment - Rifampicin/Midazolam - Lutz 2018 (Cohort 1, 10 and 75 mg RIF)",
+            "DDI Treatment - Rifampicin/Midazolam - Lutz 2018 (Cohort 2, 2 and 600 mg RIF)",
+            "DDI Treatment - Rifampicin/Midazolam - Lutz 2018 (Cohort 2, 2 and 600 mg RIF)",
+            "DDI Control - Midazolam - Björkhem-Bergman 2013",
+            "DDI Treatment - Rifampicin/Midazolam - Björkhem-Bergman 2013 (RIF @ 10 mg)",
+            "DDI Treatment - Rifampicin/Midazolam - Björkhem-Bergman 2013 (RIF @ 100 mg)",
+            "DDI Treatment - Rifampicin/Midazolam - Björkhem-Bergman 2013 (RIF @ 20 mg)"
           ]
         },
         {
@@ -8018,7 +8108,17 @@
             "DDI Control - Midazolam - Yu 2018 (CYP3A5 s3,s3)",
             "DDI Treatment - Rifampicin/Midazolam - Yu 2004 (CYP3A5 s3,s3)",
             "DDI Control - Midazolam - Wiesinger 2020",
-            "DDI Treatment - Rifampicin/Midazolam - Wiesinger 2020"
+            "DDI Treatment - Rifampicin/Midazolam - Wiesinger 2020",
+            "DDI Control - Midazolam - Lutz 2018 (po)",
+            "DDI Control - Midazolam - Lutz 2018 (po)",
+            "DDI Treatment - Rifampicin/Midazolam - Lutz 2018 (Cohort 1, 10 and 75 mg RIF)",
+            "DDI Treatment - Rifampicin/Midazolam - Lutz 2018 (Cohort 1, 10 and 75 mg RIF)",
+            "DDI Treatment - Rifampicin/Midazolam - Lutz 2018 (Cohort 2, 2 and 600 mg RIF)",
+            "DDI Treatment - Rifampicin/Midazolam - Lutz 2018 (Cohort 2, 2 and 600 mg RIF)",
+            "DDI Control - Midazolam - Björkhem-Bergman 2013",
+            "DDI Treatment - Rifampicin/Midazolam - Björkhem-Bergman 2013 (RIF @ 10 mg)",
+            "DDI Treatment - Rifampicin/Midazolam - Björkhem-Bergman 2013 (RIF @ 100 mg)",
+            "DDI Treatment - Rifampicin/Midazolam - Björkhem-Bergman 2013 (RIF @ 20 mg)"
           ]
         },
         {
@@ -8076,7 +8176,17 @@
             "DDI Control - Midazolam - Yu 2018 (CYP3A5 s3,s3)",
             "DDI Treatment - Rifampicin/Midazolam - Yu 2004 (CYP3A5 s3,s3)",
             "DDI Control - Midazolam - Wiesinger 2020",
-            "DDI Treatment - Rifampicin/Midazolam - Wiesinger 2020"
+            "DDI Treatment - Rifampicin/Midazolam - Wiesinger 2020",
+            "DDI Control - Midazolam - Lutz 2018 (po)",
+            "DDI Control - Midazolam - Lutz 2018 (po)",
+            "DDI Treatment - Rifampicin/Midazolam - Lutz 2018 (Cohort 1, 10 and 75 mg RIF)",
+            "DDI Treatment - Rifampicin/Midazolam - Lutz 2018 (Cohort 1, 10 and 75 mg RIF)",
+            "DDI Treatment - Rifampicin/Midazolam - Lutz 2018 (Cohort 2, 2 and 600 mg RIF)",
+            "DDI Treatment - Rifampicin/Midazolam - Lutz 2018 (Cohort 2, 2 and 600 mg RIF)",
+            "DDI Control - Midazolam - Björkhem-Bergman 2013",
+            "DDI Treatment - Rifampicin/Midazolam - Björkhem-Bergman 2013 (RIF @ 10 mg)",
+            "DDI Treatment - Rifampicin/Midazolam - Björkhem-Bergman 2013 (RIF @ 100 mg)",
+            "DDI Treatment - Rifampicin/Midazolam - Björkhem-Bergman 2013 (RIF @ 20 mg)"
           ]
         },
         {
@@ -8134,7 +8244,17 @@
             "DDI Control - Midazolam - Yu 2018 (CYP3A5 s3,s3)",
             "DDI Treatment - Rifampicin/Midazolam - Yu 2004 (CYP3A5 s3,s3)",
             "DDI Control - Midazolam - Wiesinger 2020",
-            "DDI Treatment - Rifampicin/Midazolam - Wiesinger 2020"
+            "DDI Treatment - Rifampicin/Midazolam - Wiesinger 2020",
+            "DDI Control - Midazolam - Lutz 2018 (po)",
+            "DDI Control - Midazolam - Lutz 2018 (po)",
+            "DDI Treatment - Rifampicin/Midazolam - Lutz 2018 (Cohort 1, 10 and 75 mg RIF)",
+            "DDI Treatment - Rifampicin/Midazolam - Lutz 2018 (Cohort 1, 10 and 75 mg RIF)",
+            "DDI Treatment - Rifampicin/Midazolam - Lutz 2018 (Cohort 2, 2 and 600 mg RIF)",
+            "DDI Treatment - Rifampicin/Midazolam - Lutz 2018 (Cohort 2, 2 and 600 mg RIF)",
+            "DDI Control - Midazolam - Björkhem-Bergman 2013",
+            "DDI Treatment - Rifampicin/Midazolam - Björkhem-Bergman 2013 (RIF @ 10 mg)",
+            "DDI Treatment - Rifampicin/Midazolam - Björkhem-Bergman 2013 (RIF @ 100 mg)",
+            "DDI Treatment - Rifampicin/Midazolam - Björkhem-Bergman 2013 (RIF @ 20 mg)"
           ]
         },
         {
@@ -8192,7 +8312,17 @@
             "DDI Control - Midazolam - Yu 2018 (CYP3A5 s3,s3)",
             "DDI Treatment - Rifampicin/Midazolam - Yu 2004 (CYP3A5 s3,s3)",
             "DDI Control - Midazolam - Wiesinger 2020",
-            "DDI Treatment - Rifampicin/Midazolam - Wiesinger 2020"
+            "DDI Treatment - Rifampicin/Midazolam - Wiesinger 2020",
+            "DDI Control - Midazolam - Lutz 2018 (po)",
+            "DDI Control - Midazolam - Lutz 2018 (po)",
+            "DDI Treatment - Rifampicin/Midazolam - Lutz 2018 (Cohort 1, 10 and 75 mg RIF)",
+            "DDI Treatment - Rifampicin/Midazolam - Lutz 2018 (Cohort 1, 10 and 75 mg RIF)",
+            "DDI Treatment - Rifampicin/Midazolam - Lutz 2018 (Cohort 2, 2 and 600 mg RIF)",
+            "DDI Treatment - Rifampicin/Midazolam - Lutz 2018 (Cohort 2, 2 and 600 mg RIF)",
+            "DDI Control - Midazolam - Björkhem-Bergman 2013",
+            "DDI Treatment - Rifampicin/Midazolam - Björkhem-Bergman 2013 (RIF @ 10 mg)",
+            "DDI Treatment - Rifampicin/Midazolam - Björkhem-Bergman 2013 (RIF @ 100 mg)",
+            "DDI Treatment - Rifampicin/Midazolam - Björkhem-Bergman 2013 (RIF @ 20 mg)"
           ]
         },
         {
@@ -8250,7 +8380,17 @@
             "DDI Control - Midazolam - Yu 2018 (CYP3A5 s3,s3)",
             "DDI Treatment - Rifampicin/Midazolam - Yu 2004 (CYP3A5 s3,s3)",
             "DDI Control - Midazolam - Wiesinger 2020",
-            "DDI Treatment - Rifampicin/Midazolam - Wiesinger 2020"
+            "DDI Treatment - Rifampicin/Midazolam - Wiesinger 2020",
+            "DDI Control - Midazolam - Lutz 2018 (po)",
+            "DDI Control - Midazolam - Lutz 2018 (po)",
+            "DDI Treatment - Rifampicin/Midazolam - Lutz 2018 (Cohort 1, 10 and 75 mg RIF)",
+            "DDI Treatment - Rifampicin/Midazolam - Lutz 2018 (Cohort 1, 10 and 75 mg RIF)",
+            "DDI Treatment - Rifampicin/Midazolam - Lutz 2018 (Cohort 2, 2 and 600 mg RIF)",
+            "DDI Treatment - Rifampicin/Midazolam - Lutz 2018 (Cohort 2, 2 and 600 mg RIF)",
+            "DDI Control - Midazolam - Björkhem-Bergman 2013",
+            "DDI Treatment - Rifampicin/Midazolam - Björkhem-Bergman 2013 (RIF @ 10 mg)",
+            "DDI Treatment - Rifampicin/Midazolam - Björkhem-Bergman 2013 (RIF @ 100 mg)",
+            "DDI Treatment - Rifampicin/Midazolam - Björkhem-Bergman 2013 (RIF @ 20 mg)"
           ]
         },
         {
@@ -8308,7 +8448,17 @@
             "DDI Control - Midazolam - Yu 2018 (CYP3A5 s3,s3)",
             "DDI Treatment - Rifampicin/Midazolam - Yu 2004 (CYP3A5 s3,s3)",
             "DDI Control - Midazolam - Wiesinger 2020",
-            "DDI Treatment - Rifampicin/Midazolam - Wiesinger 2020"
+            "DDI Treatment - Rifampicin/Midazolam - Wiesinger 2020",
+            "DDI Control - Midazolam - Lutz 2018 (po)",
+            "DDI Control - Midazolam - Lutz 2018 (po)",
+            "DDI Treatment - Rifampicin/Midazolam - Lutz 2018 (Cohort 1, 10 and 75 mg RIF)",
+            "DDI Treatment - Rifampicin/Midazolam - Lutz 2018 (Cohort 1, 10 and 75 mg RIF)",
+            "DDI Treatment - Rifampicin/Midazolam - Lutz 2018 (Cohort 2, 2 and 600 mg RIF)",
+            "DDI Treatment - Rifampicin/Midazolam - Lutz 2018 (Cohort 2, 2 and 600 mg RIF)",
+            "DDI Control - Midazolam - Björkhem-Bergman 2013",
+            "DDI Treatment - Rifampicin/Midazolam - Björkhem-Bergman 2013 (RIF @ 10 mg)",
+            "DDI Treatment - Rifampicin/Midazolam - Björkhem-Bergman 2013 (RIF @ 100 mg)",
+            "DDI Treatment - Rifampicin/Midazolam - Björkhem-Bergman 2013 (RIF @ 20 mg)"
           ]
         },
         {
@@ -8366,7 +8516,17 @@
             "DDI Control - Midazolam - Yu 2018 (CYP3A5 s3,s3)",
             "DDI Treatment - Rifampicin/Midazolam - Yu 2004 (CYP3A5 s3,s3)",
             "DDI Control - Midazolam - Wiesinger 2020",
-            "DDI Treatment - Rifampicin/Midazolam - Wiesinger 2020"
+            "DDI Treatment - Rifampicin/Midazolam - Wiesinger 2020",
+            "DDI Control - Midazolam - Lutz 2018 (po)",
+            "DDI Control - Midazolam - Lutz 2018 (po)",
+            "DDI Treatment - Rifampicin/Midazolam - Lutz 2018 (Cohort 1, 10 and 75 mg RIF)",
+            "DDI Treatment - Rifampicin/Midazolam - Lutz 2018 (Cohort 1, 10 and 75 mg RIF)",
+            "DDI Treatment - Rifampicin/Midazolam - Lutz 2018 (Cohort 2, 2 and 600 mg RIF)",
+            "DDI Treatment - Rifampicin/Midazolam - Lutz 2018 (Cohort 2, 2 and 600 mg RIF)",
+            "DDI Control - Midazolam - Björkhem-Bergman 2013",
+            "DDI Treatment - Rifampicin/Midazolam - Björkhem-Bergman 2013 (RIF @ 10 mg)",
+            "DDI Treatment - Rifampicin/Midazolam - Björkhem-Bergman 2013 (RIF @ 100 mg)",
+            "DDI Treatment - Rifampicin/Midazolam - Björkhem-Bergman 2013 (RIF @ 20 mg)"
           ]
         },
         {
@@ -8424,7 +8584,17 @@
             "DDI Control - Midazolam - Yu 2018 (CYP3A5 s3,s3)",
             "DDI Treatment - Rifampicin/Midazolam - Yu 2004 (CYP3A5 s3,s3)",
             "DDI Control - Midazolam - Wiesinger 2020",
-            "DDI Treatment - Rifampicin/Midazolam - Wiesinger 2020"
+            "DDI Treatment - Rifampicin/Midazolam - Wiesinger 2020",
+            "DDI Control - Midazolam - Lutz 2018 (po)",
+            "DDI Control - Midazolam - Lutz 2018 (po)",
+            "DDI Treatment - Rifampicin/Midazolam - Lutz 2018 (Cohort 1, 10 and 75 mg RIF)",
+            "DDI Treatment - Rifampicin/Midazolam - Lutz 2018 (Cohort 1, 10 and 75 mg RIF)",
+            "DDI Treatment - Rifampicin/Midazolam - Lutz 2018 (Cohort 2, 2 and 600 mg RIF)",
+            "DDI Treatment - Rifampicin/Midazolam - Lutz 2018 (Cohort 2, 2 and 600 mg RIF)",
+            "DDI Control - Midazolam - Björkhem-Bergman 2013",
+            "DDI Treatment - Rifampicin/Midazolam - Björkhem-Bergman 2013 (RIF @ 10 mg)",
+            "DDI Treatment - Rifampicin/Midazolam - Björkhem-Bergman 2013 (RIF @ 100 mg)",
+            "DDI Treatment - Rifampicin/Midazolam - Björkhem-Bergman 2013 (RIF @ 20 mg)"
           ]
         },
         {
@@ -8482,7 +8652,17 @@
             "DDI Control - Midazolam - Yu 2018 (CYP3A5 s3,s3)",
             "DDI Treatment - Rifampicin/Midazolam - Yu 2004 (CYP3A5 s3,s3)",
             "DDI Control - Midazolam - Wiesinger 2020",
-            "DDI Treatment - Rifampicin/Midazolam - Wiesinger 2020"
+            "DDI Treatment - Rifampicin/Midazolam - Wiesinger 2020",
+            "DDI Control - Midazolam - Lutz 2018 (po)",
+            "DDI Control - Midazolam - Lutz 2018 (po)",
+            "DDI Treatment - Rifampicin/Midazolam - Lutz 2018 (Cohort 1, 10 and 75 mg RIF)",
+            "DDI Treatment - Rifampicin/Midazolam - Lutz 2018 (Cohort 1, 10 and 75 mg RIF)",
+            "DDI Treatment - Rifampicin/Midazolam - Lutz 2018 (Cohort 2, 2 and 600 mg RIF)",
+            "DDI Treatment - Rifampicin/Midazolam - Lutz 2018 (Cohort 2, 2 and 600 mg RIF)",
+            "DDI Control - Midazolam - Björkhem-Bergman 2013",
+            "DDI Treatment - Rifampicin/Midazolam - Björkhem-Bergman 2013 (RIF @ 10 mg)",
+            "DDI Treatment - Rifampicin/Midazolam - Björkhem-Bergman 2013 (RIF @ 100 mg)",
+            "DDI Treatment - Rifampicin/Midazolam - Björkhem-Bergman 2013 (RIF @ 20 mg)"
           ]
         },
         {
@@ -8540,7 +8720,17 @@
             "DDI Control - Midazolam - Yu 2018 (CYP3A5 s3,s3)",
             "DDI Treatment - Rifampicin/Midazolam - Yu 2004 (CYP3A5 s3,s3)",
             "DDI Control - Midazolam - Wiesinger 2020",
-            "DDI Treatment - Rifampicin/Midazolam - Wiesinger 2020"
+            "DDI Treatment - Rifampicin/Midazolam - Wiesinger 2020",
+            "DDI Control - Midazolam - Lutz 2018 (po)",
+            "DDI Control - Midazolam - Lutz 2018 (po)",
+            "DDI Treatment - Rifampicin/Midazolam - Lutz 2018 (Cohort 1, 10 and 75 mg RIF)",
+            "DDI Treatment - Rifampicin/Midazolam - Lutz 2018 (Cohort 1, 10 and 75 mg RIF)",
+            "DDI Treatment - Rifampicin/Midazolam - Lutz 2018 (Cohort 2, 2 and 600 mg RIF)",
+            "DDI Treatment - Rifampicin/Midazolam - Lutz 2018 (Cohort 2, 2 and 600 mg RIF)",
+            "DDI Control - Midazolam - Björkhem-Bergman 2013",
+            "DDI Treatment - Rifampicin/Midazolam - Björkhem-Bergman 2013 (RIF @ 10 mg)",
+            "DDI Treatment - Rifampicin/Midazolam - Björkhem-Bergman 2013 (RIF @ 100 mg)",
+            "DDI Treatment - Rifampicin/Midazolam - Björkhem-Bergman 2013 (RIF @ 20 mg)"
           ]
         },
         {
@@ -8598,7 +8788,17 @@
             "DDI Control - Midazolam - Yu 2018 (CYP3A5 s3,s3)",
             "DDI Treatment - Rifampicin/Midazolam - Yu 2004 (CYP3A5 s3,s3)",
             "DDI Control - Midazolam - Wiesinger 2020",
-            "DDI Treatment - Rifampicin/Midazolam - Wiesinger 2020"
+            "DDI Treatment - Rifampicin/Midazolam - Wiesinger 2020",
+            "DDI Control - Midazolam - Lutz 2018 (po)",
+            "DDI Control - Midazolam - Lutz 2018 (po)",
+            "DDI Treatment - Rifampicin/Midazolam - Lutz 2018 (Cohort 1, 10 and 75 mg RIF)",
+            "DDI Treatment - Rifampicin/Midazolam - Lutz 2018 (Cohort 1, 10 and 75 mg RIF)",
+            "DDI Treatment - Rifampicin/Midazolam - Lutz 2018 (Cohort 2, 2 and 600 mg RIF)",
+            "DDI Treatment - Rifampicin/Midazolam - Lutz 2018 (Cohort 2, 2 and 600 mg RIF)",
+            "DDI Control - Midazolam - Björkhem-Bergman 2013",
+            "DDI Treatment - Rifampicin/Midazolam - Björkhem-Bergman 2013 (RIF @ 10 mg)",
+            "DDI Treatment - Rifampicin/Midazolam - Björkhem-Bergman 2013 (RIF @ 100 mg)",
+            "DDI Treatment - Rifampicin/Midazolam - Björkhem-Bergman 2013 (RIF @ 20 mg)"
           ]
         },
         {
@@ -8656,7 +8856,17 @@
             "DDI Control - Midazolam - Yu 2018 (CYP3A5 s3,s3)",
             "DDI Treatment - Rifampicin/Midazolam - Yu 2004 (CYP3A5 s3,s3)",
             "DDI Control - Midazolam - Wiesinger 2020",
-            "DDI Treatment - Rifampicin/Midazolam - Wiesinger 2020"
+            "DDI Treatment - Rifampicin/Midazolam - Wiesinger 2020",
+            "DDI Control - Midazolam - Lutz 2018 (po)",
+            "DDI Control - Midazolam - Lutz 2018 (po)",
+            "DDI Treatment - Rifampicin/Midazolam - Lutz 2018 (Cohort 1, 10 and 75 mg RIF)",
+            "DDI Treatment - Rifampicin/Midazolam - Lutz 2018 (Cohort 1, 10 and 75 mg RIF)",
+            "DDI Treatment - Rifampicin/Midazolam - Lutz 2018 (Cohort 2, 2 and 600 mg RIF)",
+            "DDI Treatment - Rifampicin/Midazolam - Lutz 2018 (Cohort 2, 2 and 600 mg RIF)",
+            "DDI Control - Midazolam - Björkhem-Bergman 2013",
+            "DDI Treatment - Rifampicin/Midazolam - Björkhem-Bergman 2013 (RIF @ 10 mg)",
+            "DDI Treatment - Rifampicin/Midazolam - Björkhem-Bergman 2013 (RIF @ 100 mg)",
+            "DDI Treatment - Rifampicin/Midazolam - Björkhem-Bergman 2013 (RIF @ 20 mg)"
           ]
         },
         {
@@ -8714,7 +8924,17 @@
             "DDI Control - Midazolam - Yu 2018 (CYP3A5 s3,s3)",
             "DDI Treatment - Rifampicin/Midazolam - Yu 2004 (CYP3A5 s3,s3)",
             "DDI Control - Midazolam - Wiesinger 2020",
-            "DDI Treatment - Rifampicin/Midazolam - Wiesinger 2020"
+            "DDI Treatment - Rifampicin/Midazolam - Wiesinger 2020",
+            "DDI Control - Midazolam - Lutz 2018 (po)",
+            "DDI Control - Midazolam - Lutz 2018 (po)",
+            "DDI Treatment - Rifampicin/Midazolam - Lutz 2018 (Cohort 1, 10 and 75 mg RIF)",
+            "DDI Treatment - Rifampicin/Midazolam - Lutz 2018 (Cohort 1, 10 and 75 mg RIF)",
+            "DDI Treatment - Rifampicin/Midazolam - Lutz 2018 (Cohort 2, 2 and 600 mg RIF)",
+            "DDI Treatment - Rifampicin/Midazolam - Lutz 2018 (Cohort 2, 2 and 600 mg RIF)",
+            "DDI Control - Midazolam - Björkhem-Bergman 2013",
+            "DDI Treatment - Rifampicin/Midazolam - Björkhem-Bergman 2013 (RIF @ 10 mg)",
+            "DDI Treatment - Rifampicin/Midazolam - Björkhem-Bergman 2013 (RIF @ 100 mg)",
+            "DDI Treatment - Rifampicin/Midazolam - Björkhem-Bergman 2013 (RIF @ 20 mg)"
           ]
         }
       ]
@@ -11889,6 +12109,58 @@
       },
       {
         "SectionId": 322,
+        "Title": "Björkhem-Bergman 2013",
+        "SimulationDuration": 10,
+        "TimeUnit": "h",
+        "OutputMappings": [
+          {
+            "Project": "Rifampicin-Midazolam-DDI",
+            "Simulation": "DDI Control - Midazolam - Björkhem-Bergman 2013",
+            "Output": "Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
+            "ObservedData": [],
+            "StartTime": 0,
+            "TimeUnit": "h",
+            "Color": "#2166ac",
+            "Caption": "Control (without Rifampicin)",
+            "Symbol": "Circle"
+          },
+          {
+            "Project": "Rifampicin-Midazolam-DDI",
+            "Simulation": "DDI Treatment - Rifampicin/Midazolam - Björkhem-Bergman 2013 (RIF @ 10 mg)",
+            "Output": "Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
+            "ObservedData": [],
+            "StartTime": 336,
+            "TimeUnit": "h",
+            "Color": "#d6706b",
+            "Caption": "Treatment (with 10 mg Rifampicin)",
+            "Symbol": "Diamond"
+          },
+          {
+            "Project": "Rifampicin-Midazolam-DDI",
+            "Simulation": "DDI Treatment - Rifampicin/Midazolam - Björkhem-Bergman 2013 (RIF @ 20 mg)",
+            "Output": "Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
+            "ObservedData": [],
+            "StartTime": 336,
+            "TimeUnit": "h",
+            "Color": "#c54a4a",
+            "Caption": "Treatment (with 20 mg Rifampicin)",
+            "Symbol": "Triangle"
+          },
+          {
+            "Project": "Rifampicin-Midazolam-DDI",
+            "Simulation": "DDI Treatment - Rifampicin/Midazolam - Björkhem-Bergman 2013 (RIF @ 100 mg)",
+            "Output": "Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
+            "ObservedData": [],
+            "StartTime": 336,
+            "TimeUnit": "h",
+            "Color": "#b2182b",
+            "Caption": "Treatment (with 100 mg Rifampicin)",
+            "Symbol": "Square"
+          }
+        ]
+      },
+      {
+        "SectionId": 322,
         "Title": "Chung 2006",
         "SimulationDuration": 12,
         "TimeUnit": "h",
@@ -12370,6 +12642,80 @@
             "Color": "#b2182b",
             "Caption": "Treatment (with Rifampicin)",
             "Symbol": "Square"
+          }
+        ]
+      },
+      {
+        "SectionId": 322,
+        "Title": "Lutz 2008",
+        "SimulationDuration": 14,
+        "TimeUnit": "h",
+        "OutputMappings": [
+          {
+            "Project": "Rifampicin-Midazolam-DDI",
+            "Simulation": "DDI Control - Midazolam - Lutz 2018 (po)",
+            "Output": "Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
+            "ObservedData": "Lutz 2018 - Cohort 1, Control - Midazolam - PO - 2 mg - Plasma - agg. (n=20)",
+            "StartTime": 0,
+            "TimeUnit": "h",
+            "Color": "#2166ac",
+            "Caption": "Control Cohort 1 (without Rifampicin)",
+            "Symbol": "Circle"
+          },
+          {
+            "Project": "Rifampicin-Midazolam-DDI",
+            "Simulation": "DDI Control - Midazolam - Lutz 2018 (po)",
+            "Output": "Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
+            "ObservedData": "Lutz 2018 - Cohort 2, Control - Midazolam - PO - 2 mg - Plasma - agg. (n=20)",
+            "StartTime": 0,
+            "TimeUnit": "h",
+            "Color": "#2166ac",
+            "Caption": "Control Cohort 2 (without Rifampicin)",
+            "Symbol": "Square"
+          },
+          {
+            "Project": "Rifampicin-Midazolam-DDI",
+            "Simulation": "DDI Treatment - Rifampicin/Midazolam - Lutz 2018 (Cohort 2, 2 and 600 mg RIF)",
+            "Output": "Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
+            "ObservedData": "Lutz 2018 - Cohort 2, 2 mg Rifampicin - Midazolam - PO - 2 mg - Plasma - agg. (n=20)",
+            "StartTime": 228,
+            "TimeUnit": "h",
+            "Color": "#e4948e",
+            "Caption": "Treatment Cohort 2 (2 mg Rifampicin)",
+            "Symbol": "Cross"
+          },
+          {
+            "Project": "Rifampicin-Midazolam-DDI",
+            "Simulation": "DDI Treatment - Rifampicin/Midazolam - Lutz 2018 (Cohort 1, 10 and 75 mg RIF)",
+            "Output": "Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
+            "ObservedData": "Lutz 2018 - Cohort 1, 10 mg Rifampicin - Midazolam - PO - 2 mg - Plasma - agg. (n=20)",
+            "StartTime": 228,
+            "TimeUnit": "h",
+            "Color": "#d6706b",
+            "Caption": "Treatment Cohort 1 (10 mg Rifampicin)",
+            "Symbol": "Asterisk"
+          },
+          {
+            "Project": "Rifampicin-Midazolam-DDI",
+            "Simulation": "DDI Treatment - Rifampicin/Midazolam - Lutz 2018 (Cohort 1, 10 and 75 mg RIF)",
+            "Output": "Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
+            "ObservedData": "Lutz 2018 - Cohort 1, 75 mg Rifampicin - Midazolam - PO - 2 mg - Plasma - agg. (n=20)",
+            "StartTime": 660,
+            "TimeUnit": "h",
+            "Color": "#c54a4a",
+            "Caption": "Treatment Cohort 1 (10 mg Rifampicin)",
+            "Symbol": "Diamond"
+          },
+          {
+            "Project": "Rifampicin-Midazolam-DDI",
+            "Simulation": "DDI Treatment - Rifampicin/Midazolam - Lutz 2018 (Cohort 2, 2 and 600 mg RIF)",
+            "Output": "Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
+            "ObservedData": "Lutz 2018 - Cohort 2, 600 mg Rifampicin - Midazolam - PO - 2 mg - Plasma - agg. (n=20)",
+            "StartTime": 660,
+            "TimeUnit": "h",
+            "Color": "#b2182b",
+            "Caption": "Treatment Cohort 2 (2 mg Rifampicin)",
+            "Symbol": "Triangle"
           }
         ]
       },
@@ -15178,6 +15524,63 @@
               {
                 "Output": "Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
                 "ObservedData": "DDI Ratios",
+                "ObservedDataRecordId": 1355,
+                "SimulationControl": {
+                  "Project": "Rifampicin-Midazolam-DDI",
+                  "Simulation": "DDI Control - Midazolam - Björkhem-Bergman 2013",
+                  "StartTime": 0,
+                  "EndTime": 10,
+                  "TimeUnit": "h"
+                },
+                "SimulationDDI": {
+                  "Project": "Rifampicin-Midazolam-DDI",
+                  "Simulation": "DDI Treatment - Rifampicin/Midazolam - Björkhem-Bergman 2013 (RIF @ 10 mg)",
+                  "StartTime": 336,
+                  "EndTime": 346,
+                  "TimeUnit": "h"
+                }
+              },
+              {
+                "Output": "Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
+                "ObservedData": "DDI Ratios",
+                "ObservedDataRecordId": 1356,
+                "SimulationControl": {
+                  "Project": "Rifampicin-Midazolam-DDI",
+                  "Simulation": "DDI Control - Midazolam - Björkhem-Bergman 2013",
+                  "StartTime": 0,
+                  "EndTime": 10,
+                  "TimeUnit": "h"
+                },
+                "SimulationDDI": {
+                  "Project": "Rifampicin-Midazolam-DDI",
+                  "Simulation": "DDI Treatment - Rifampicin/Midazolam - Björkhem-Bergman 2013 (RIF @ 20 mg)",
+                  "StartTime": 336,
+                  "EndTime": 346,
+                  "TimeUnit": "h"
+                }
+              },
+              {
+                "Output": "Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
+                "ObservedData": "DDI Ratios",
+                "ObservedDataRecordId": 1357,
+                "SimulationControl": {
+                  "Project": "Rifampicin-Midazolam-DDI",
+                  "Simulation": "DDI Control - Midazolam - Björkhem-Bergman 2013",
+                  "StartTime": 0,
+                  "EndTime": 10,
+                  "TimeUnit": "h"
+                },
+                "SimulationDDI": {
+                  "Project": "Rifampicin-Midazolam-DDI",
+                  "Simulation": "DDI Treatment - Rifampicin/Midazolam - Björkhem-Bergman 2013 (RIF @ 100 mg)",
+                  "StartTime": 336,
+                  "EndTime": 346,
+                  "TimeUnit": "h"
+                }
+              },
+              {
+                "Output": "Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
+                "ObservedData": "DDI Ratios",
                 "ObservedDataRecordId": 113,
                 "SimulationControl": {
                   "Project": "Rifampicin-Midazolam-DDI",
@@ -15380,6 +15783,82 @@
                   "Project": "Rifampicin-Midazolam-DDI",
                   "Simulation": "DDI Treatment - Rifampicin/Midazolam - Link 2008 (po)",
                   "StartTime": 144,
+                  "EndTime": 9999,
+                  "TimeUnit": "h"
+                }
+              },
+              {
+                "Output": "Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
+                "ObservedData": "DDI Ratios",
+                "ObservedDataRecordId": 1350,
+                "SimulationControl": {
+                  "Project": "Rifampicin-Midazolam-DDI",
+                  "Simulation": "DDI Control - Midazolam - Lutz 2018 (po)",
+                  "StartTime": 0,
+                  "EndTime": 9999,
+                  "TimeUnit": "h"
+                },
+                "SimulationDDI": {
+                  "Project": "Rifampicin-Midazolam-DDI",
+                  "Simulation": "DDI Treatment - Rifampicin/Midazolam - Lutz 2018 (Cohort 2, 2 and 600 mg RIF)",
+                  "StartTime": 228,
+                  "EndTime": 660,
+                  "TimeUnit": "h"
+                }
+              },
+              {
+                "Output": "Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
+                "ObservedData": "DDI Ratios",
+                "ObservedDataRecordId": 1351,
+                "SimulationControl": {
+                  "Project": "Rifampicin-Midazolam-DDI",
+                  "Simulation": "DDI Control - Midazolam - Lutz 2018 (po)",
+                  "StartTime": 0,
+                  "EndTime": 9999,
+                  "TimeUnit": "h"
+                },
+                "SimulationDDI": {
+                  "Project": "Rifampicin-Midazolam-DDI",
+                  "Simulation": "DDI Treatment - Rifampicin/Midazolam - Lutz 2018 (Cohort 1, 10 and 75 mg RIF)",
+                  "StartTime": 228,
+                  "EndTime": 660,
+                  "TimeUnit": "h"
+                }
+              },
+              {
+                "Output": "Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
+                "ObservedData": "DDI Ratios",
+                "ObservedDataRecordId": 1352,
+                "SimulationControl": {
+                  "Project": "Rifampicin-Midazolam-DDI",
+                  "Simulation": "DDI Control - Midazolam - Lutz 2018 (po)",
+                  "StartTime": 0,
+                  "EndTime": 9999,
+                  "TimeUnit": "h"
+                },
+                "SimulationDDI": {
+                  "Project": "Rifampicin-Midazolam-DDI",
+                  "Simulation": "DDI Treatment - Rifampicin/Midazolam - Lutz 2018 (Cohort 1, 10 and 75 mg RIF)",
+                  "StartTime": 660,
+                  "EndTime": 9999,
+                  "TimeUnit": "h"
+                }
+              },
+              {
+                "Output": "Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
+                "ObservedData": "DDI Ratios",
+                "ObservedDataRecordId": 1353,
+                "SimulationControl": {
+                  "Project": "Rifampicin-Midazolam-DDI",
+                  "Simulation": "DDI Control - Midazolam - Lutz 2018 (po)",
+                  "StartTime": 0,
+                  "EndTime": 9999,
+                  "TimeUnit": "h"
+                },
+                "SimulationDDI": {
+                  "Project": "Rifampicin-Midazolam-DDI",
+                  "Simulation": "DDI Treatment - Rifampicin/Midazolam - Lutz 2018 (Cohort 2, 2 and 600 mg RIF)",
+                  "StartTime": 660,
                   "EndTime": 9999,
                   "TimeUnit": "h"
                 }
@@ -15606,7 +16085,7 @@
     {
       "Id": 1,
       "Title": "1 Introduction",
-      "Content": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Qualification-text-modules/v1.0/Empty.md",
+      "Content": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Qualification-text-modules/v1.1/Empty.md",
       "Sections": [
         {
           "Id": 11,
@@ -15755,122 +16234,122 @@
         {
           "Id": 301,
           "Title": "3.1 Cimetidine - Alfentanil DDI",
-          "Content": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Qualification-text-modules/v1.0/Empty.md"
+          "Content": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Qualification-text-modules/v1.1/Empty.md"
         },
         {
           "Id": 302,
           "Title": "3.2 Cimetidine - Alprazolam DDI",
-          "Content": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Qualification-text-modules/v1.0/Empty.md"
+          "Content": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Qualification-text-modules/v1.1/Empty.md"
         },
         {
           "Id": 303,
           "Title": "3.3 Cimetidine - Midazolam DDI",
-          "Content": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Qualification-text-modules/v1.0/Empty.md"
+          "Content": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Qualification-text-modules/v1.1/Empty.md"
         },
         {
           "Id": 304,
           "Title": "3.4 Cimetidine - Triazolam DDI",
-          "Content": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Qualification-text-modules/v1.0/Empty.md"
+          "Content": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Qualification-text-modules/v1.1/Empty.md"
         },
         {
           "Id": 305,
           "Title": "3.5 Cimetidine - Verapamil DDI",
-          "Content": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Qualification-text-modules/v1.0/Empty.md"
+          "Content": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Qualification-text-modules/v1.1/Empty.md"
         },
         {
           "Id": 306,
           "Title": "3.6 Clarithromycin - Midazolam DDI",
-          "Content": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Qualification-text-modules/v1.0/Empty.md"
+          "Content": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Qualification-text-modules/v1.1/Empty.md"
         },
         {
           "Id": 307,
           "Title": "3.7 Clarithromycin - Triazolam DDI",
-          "Content": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Qualification-text-modules/v1.0/Empty.md"
+          "Content": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Qualification-text-modules/v1.1/Empty.md"
         },
         {
           "Id": 308,
           "Title": "3.8 Erythromycin - Alfentanil DDI",
-          "Content": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Qualification-text-modules/v1.0/Empty.md"
+          "Content": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Qualification-text-modules/v1.1/Empty.md"
         },
         {
           "Id": 309,
           "Title": "3.9 Erythromycin - Alprazolam DDI",
-          "Content": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Qualification-text-modules/v1.0/Empty.md"
+          "Content": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Qualification-text-modules/v1.1/Empty.md"
         },
         {
           "Id": 310,
           "Title": "3.10 Erythromycin - Midazolam DDI",
-          "Content": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Qualification-text-modules/v1.0/Empty.md"
+          "Content": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Qualification-text-modules/v1.1/Empty.md"
         },
         {
           "Id": 311,
           "Title": "3.11 Erythromycin - Triazolam DDI",
-          "Content": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Qualification-text-modules/v1.0/Empty.md"
+          "Content": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Qualification-text-modules/v1.1/Empty.md"
         },
         {
           "Id": 312,
           "Title": "3.12 Fluvoxamine - Alprazolam DDI",
-          "Content": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Qualification-text-modules/v1.0/Empty.md"
+          "Content": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Qualification-text-modules/v1.1/Empty.md"
         },
         {
           "Id": 313,
           "Title": "3.13 Fluvoxamine - Midazolam DDI",
-          "Content": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Qualification-text-modules/v1.0/Empty.md"
+          "Content": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Qualification-text-modules/v1.1/Empty.md"
         },
         {
           "Id": 314,
           "Title": "3.14 Itraconazole - Alprazolam DDI",
-          "Content": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Qualification-text-modules/v1.0/Empty.md"
+          "Content": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Qualification-text-modules/v1.1/Empty.md"
         },
         {
           "Id": 315,
           "Title": "3.15 Itraconazole - Midazolam DDI",
-          "Content": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Qualification-text-modules/v1.0/Empty.md"
+          "Content": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Qualification-text-modules/v1.1/Empty.md"
         },
         {
           "Id": 316,
           "Title": "3.16 Itraconazole - Triazolam DDI",
-          "Content": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Qualification-text-modules/v1.0/Empty.md"
+          "Content": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Qualification-text-modules/v1.1/Empty.md"
         },
         {
           "Id": 317,
           "Title": "3.17 Verapamil - Midazolam DDI",
-          "Content": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Qualification-text-modules/v1.0/Empty.md"
+          "Content": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Qualification-text-modules/v1.1/Empty.md"
         },
         {
           "Id": 318,
           "Title": "3.18 Efavirenz - Alfentanil DDI",
-          "Content": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Qualification-text-modules/v1.0/Empty.md"
+          "Content": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Qualification-text-modules/v1.1/Empty.md"
         },
         {
           "Id": 319,
           "Title": "3.19 Efavirenz - Midazolam DDI",
-          "Content": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Qualification-text-modules/v1.0/Empty.md"
+          "Content": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Qualification-text-modules/v1.1/Empty.md"
         },
         {
           "Id": 320,
           "Title": "3.20 Rifampicin - Alfentanil DDI",
-          "Content": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Qualification-text-modules/v1.0/Empty.md"
+          "Content": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Qualification-text-modules/v1.1/Empty.md"
         },
         {
           "Id": 321,
           "Title": "3.21 Rifampicin - Alprazolam DDI",
-          "Content": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Qualification-text-modules/v1.0/Empty.md"
+          "Content": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Qualification-text-modules/v1.1/Empty.md"
         },
         {
           "Id": 322,
           "Title": "3.22 Rifampicin - Midazolam DDI",
-          "Content": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Qualification-text-modules/v1.0/Empty.md"
+          "Content": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Qualification-text-modules/v1.1/Empty.md"
         },
         {
           "Id": 323,
           "Title": "3.23 Rifampicin - Triazolam DDI",
-          "Content": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Qualification-text-modules/v1.0/Empty.md"
+          "Content": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Qualification-text-modules/v1.1/Empty.md"
         },
         {
           "Id": 324,
           "Title": "3.24 Rifampicin - Verapamil DDI",
-          "Content": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Qualification-text-modules/v1.0/Empty.md"
+          "Content": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Qualification-text-modules/v1.1/Empty.md"
         }
       ]
     },
@@ -15883,22 +16362,22 @@
     {
       "Id": 5,
       "Title": "5 Appendix",
-      "Content": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Qualification-text-modules/v1.0/Empty.md",
+      "Content": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Qualification-text-modules/v1.1/Empty.md",
       "Sections": [
         {
           "Id": 51,
           "Title": "5.1 Open Systems Pharmacology Suite (OSPS) Introduction",
-          "Content": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Qualification-text-modules/v1.0/OSPS_Introduction.md"
+          "Content": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Qualification-text-modules/v1.1/OSPS_Introduction.md"
         },
         {
           "Id": 52,
           "Title": "5.2 Mathematical Implementation of Drug-Drug Interactions",
-          "Content": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Qualification-text-modules/v1.0/Mathematical_Implementation_of_DDI.md"
+          "Content": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Qualification-text-modules/v1.1/Mathematical_Implementation_of_DDI.md"
         },
         {
           "Id": 53,
           "Title": "5.3 Automatic (re)-qualification workflow",
-          "Content": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Qualification-text-modules/v1.0/Qualification_Workflow.md"
+          "Content": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Qualification-text-modules/v1.1/Qualification_Workflow.md"
         }
       ]
     }
