@@ -25,7 +25,7 @@ PKSimPortableFolder = 'C:\Software\PKSim9.1.2';
 %
 
 baseDir = fullfile(cd);
-qualificationPlanName = 'qualification_plan.json';
+qualificationPlanName = 'qualification_plan_temp.json';
 
 % In case your folder structure is different from assumed above, 
 % qualificationPlan, REInput_path, REOutput_path and ReportOutput_path must be adjusted as well 
@@ -41,6 +41,10 @@ qualificationPlan = fullfile(baseDir,'input',qualificationPlanName);
 REInput_path = fullfile(baseDir,'re_input');
 REOutput_path = fullfile(baseDir,'re_output');
 ReportOutput_path=fullfile(baseDir,'report');
+
+if exist(fullfile(REInput_path),'dir')>0 rmdir(fullfile(cd,'re_input'),'s'); end
+if exist(fullfile(REOutput_path),'dir')>0 rmdir(fullfile(cd,'re_output'),'s'); end
+if exist(fullfile(ReportOutput_path),'dir')>0 rmdir(fullfile(cd,'report'),'s'); end
 
 % --------------------------------------------------------------
 % STEP #1: start qualification runner to generate inputs for the reporting engine
