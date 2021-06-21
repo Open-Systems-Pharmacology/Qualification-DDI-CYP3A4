@@ -11,7 +11,7 @@
     },
     {
       "Id": "Cimetidine",
-      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Cimetidine-Model/v1.0/Cimetidine-Model.json"
+      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Cimetidine-Model/v1.1/Cimetidine-Model.json"
     },
     {
       "Id": "Clarithromycin",
@@ -23,7 +23,7 @@
     },
     {
       "Id": "Erythromycin",
-      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Erythromycin-Model/v1.1/Erythromycin-Model.json"
+      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Erythromycin-Model/v1.2/Erythromycin-Model.json"
     },
     {
       "Id": "Fluvoxamine",
@@ -35,11 +35,11 @@
     },
     {
       "Id": "Midazolam",
-      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Midazolam-Model/v1.0/Midazolam-Model.json"
+      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Midazolam-Model/v1.1/Midazolam-Model.json"
     },
     {
       "Id": "Rifampicin",
-      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Rifampicin-Model/v1.1/Rifampicin-Model.json"
+      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Rifampicin-Model/v1.2/Rifampicin-Model.json"
     },
     {
       "Id": "Triazolam",
@@ -9468,7 +9468,7 @@
   "ObservedDataSets": [
     {
       "Id": "DDI Ratios",
-      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Database-for-observed-data/v1.1/DDI.csv",
+      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Database-for-observed-data/v1.3/DDI.csv",
       "Type": "DDIRatio"
     }
   ],
