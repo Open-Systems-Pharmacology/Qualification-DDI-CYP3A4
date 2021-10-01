@@ -1,5 +1,5 @@
 The release of the snapshot containing the respective simulations can be found here:
-https://github.com/Open-Systems-Pharmacology/Cimetidine-Triazolam-DDI/releases/tag/v1.0.
+https://github.com/Open-Systems-Pharmacology/Cimetidine-Triazolam-DDI/releases/tag/v1.1.
 
 The cimetidine-triazolam interaction was evaluated using four clinical DDI studies quantifying the interaction following four different dosing regimens ([Pourbaix 1985](#4-References), [Abernethy 1983](#4-References), [Cox 1986](#4-References), [Friedman 1988](#4-References)).
 

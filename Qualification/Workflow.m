@@ -6,15 +6,11 @@ close all
 clear all
 tic
 
-if exist(fullfile(cd,'re_input'),'dir')>0 rmdir(fullfile(cd,'re_input'),'s'); end
-if exist(fullfile(cd,'re_output'),'dir')>0 rmdir(fullfile(cd,'re_output'),'s'); end
-if exist(fullfile(cd,'report'),'dir')>0 rmdir(fullfile(cd,'report'),'s'); end
-
 % --------------------------------------------------------------
 % replace qualificationRunnerFolder and markdownJoinerFolder with your paths
-qualificationRunnerFolder = 'C:\Software\QualificationRunner';
+qualificationRunnerFolder = 'C:\Software\QualificationRunner9.1.1';
 markdownJoinerFolder = 'C:\Software\markdown-joiner';
-PKSimPortableFolder = 'C:\Software\PKSim';
+PKSimPortableFolder = 'C:\Software\PKSim9.1.2';
 
 % --------------------------------------------------------------
 % replace baseDir and qualificationPlanName with your paths
@@ -45,6 +41,10 @@ qualificationPlan = fullfile(baseDir,'input',qualificationPlanName);
 REInput_path = fullfile(baseDir,'re_input');
 REOutput_path = fullfile(baseDir,'re_output');
 ReportOutput_path=fullfile(baseDir,'report');
+
+if exist(fullfile(REInput_path),'dir')>0 rmdir(fullfile(cd,'re_input'),'s'); end
+if exist(fullfile(REOutput_path),'dir')>0 rmdir(fullfile(cd,'re_output'),'s'); end
+if exist(fullfile(ReportOutput_path),'dir')>0 rmdir(fullfile(cd,'report'),'s'); end
 
 % --------------------------------------------------------------
 % STEP #1: start qualification runner to generate inputs for the reporting engine

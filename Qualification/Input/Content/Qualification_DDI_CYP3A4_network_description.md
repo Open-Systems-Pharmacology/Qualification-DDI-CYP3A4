@@ -5,33 +5,33 @@ To qualify the OSP suite for the prediction of the CYP3A4 DDI potential of new d
 The following perpetrator compounds were selected: 
 
 - **Rifampicin** (strong CYP3A4 inducer)
-  Model snapshot and evaluation plan (*release* **v1.1**): https://github.com/Open-Systems-Pharmacology/Rifampicin-Model/releases/tag/v1.1
+  Model snapshot and evaluation plan (*release* **v1.2**): https://github.com/Open-Systems-Pharmacology/Rifampicin-Model/releases/tag/v1.2
 - **Efavirenz** (moderate CYP3A4 inducer)
-  Model snapshot and evaluation plan (*release* **v1.0**): https://github.com/Open-Systems-Pharmacology/Efavirenz-Model/releases/tag/v1.0
+  Model snapshot and evaluation plan (*release* **v1.1**): https://github.com/Open-Systems-Pharmacology/Efavirenz-Model/releases/tag/v1.1
 - **Cimetidine** (weak CYP3A4 inhibitor)
-  Model snapshot and evaluation plan (*release* **v1.0**): https://github.com/Open-Systems-Pharmacology/Cimetidine-Model/releases/tag/v1.0
+  Model snapshot and evaluation plan (*release* **v1.1**): https://github.com/Open-Systems-Pharmacology/Cimetidine-Model/releases/tag/v1.1
 - **Fluvoxamine** (weak/moderate CYP3A4 inhibitor)
   Model snapshot and evaluation plan (*release* **v1.1**): https://github.com/Open-Systems-Pharmacology/Fluvoxamine-Model/releases/tag/v1.1
 - **Verapamil** (moderate CYP3A4 inhibitor)
-  Model snapshot and evaluation plan (*release* **v1.1**): https://github.com/Open-Systems-Pharmacology/Verapamil-Model/releases/tag/v1.1
+  Model snapshot and evaluation plan (*release* **v1.2**): https://github.com/Open-Systems-Pharmacology/Verapamil-Model/releases/tag/v1.2
 - **Erythromycin** (moderate CYP3A4 inhibitor)
-  Model snapshot and evaluation plan (*release* **v1.1**): https://github.com/Open-Systems-Pharmacology/Erythromycin-Model/releases/tag/v1.1
+  Model snapshot and evaluation plan (*release* **v1.2**): https://github.com/Open-Systems-Pharmacology/Erythromycin-Model/releases/tag/v1.2
 - **Clarithromycin** (strong CYP3A4 inhibitor)
-  Model snapshot and evaluation plan (*release* **v1.1**): https://github.com/Open-Systems-Pharmacology/Clarithromycin-Model/releases/tag/v1.1
+  Model snapshot and evaluation plan (*release* **v1.2**): https://github.com/Open-Systems-Pharmacology/Clarithromycin-Model/releases/tag/v1.2
 - **Itraconazole** including metabolites (strong CYP3A4 inhibitor)
-  Model snapshot and evaluation plan (*release* **v1.2**): https://github.com/Open-Systems-Pharmacology/Itraconazole-Model/releases/tag/v1.2
+  Model snapshot and evaluation plan (*release* **v1.3**): https://github.com/Open-Systems-Pharmacology/Itraconazole-Model/releases/tag/v1.3
 
 
 The following sensitive CYP3A4 substrates as victim drugs were selected:
 
 - **Midazolam**
-  Model snapshot and evaluation plan (*release* **v1.0**): https://github.com/Open-Systems-Pharmacology/Midazolam-Model/releases/tag/v1.0
+  Model snapshot and evaluation plan (*release* **v1.1**): https://github.com/Open-Systems-Pharmacology/Midazolam-Model/releases/tag/v1.1
 - **Triazolam**
-  Model snapshot and evaluation plan (*release* **v1.0**): https://github.com/Open-Systems-Pharmacology/Triazolam-Model/releases/tag/v1.0
+  Model snapshot and evaluation plan (*release* **v1.1**): https://github.com/Open-Systems-Pharmacology/Triazolam-Model/releases/tag/v1.1
 - **Alprazolam**
-  Model snapshot and evaluation plan (*release* **v1.0**): https://github.com/Open-Systems-Pharmacology/Alprazolam-Model/releases/tag/v1.0
+  Model snapshot and evaluation plan (*release* **v1.1**): https://github.com/Open-Systems-Pharmacology/Alprazolam-Model/releases/tag/v1.1
 - **Alfentanil**
-  Model snapshot and evaluation plan (*release* **v2.1**): https://github.com/Open-Systems-Pharmacology/Alfentanil-Model/releases/tag/v2.1
+  Model snapshot and evaluation plan (*release* **v2.2**): https://github.com/Open-Systems-Pharmacology/Alfentanil-Model/releases/tag/v2.2
 
 
 
