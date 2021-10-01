@@ -15,7 +15,7 @@ The following perpetrator compounds were selected:
 - **Verapamil** (moderate CYP3A4 inhibitor)
   Model snapshot and evaluation plan (*release* **v1.2**): https://github.com/Open-Systems-Pharmacology/Verapamil-Model/releases/tag/v1.2
 - **Erythromycin** (moderate CYP3A4 inhibitor)
-  Model snapshot and evaluation plan (*release* **v1.3**): https://github.com/Open-Systems-Pharmacology/Erythromycin-Model/releases/tag/v1.3
+  Model snapshot and evaluation plan (*release* **v1.2**): https://github.com/Open-Systems-Pharmacology/Erythromycin-Model/releases/tag/v1.2
 - **Clarithromycin** (strong CYP3A4 inhibitor)
   Model snapshot and evaluation plan (*release* **v1.2**): https://github.com/Open-Systems-Pharmacology/Clarithromycin-Model/releases/tag/v1.2
 - **Itraconazole** including metabolites (strong CYP3A4 inhibitor)
