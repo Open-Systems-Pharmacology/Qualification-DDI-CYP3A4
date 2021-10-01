@@ -3,11 +3,11 @@
   "Projects": [
     {
       "Id": "Alfentanil",
-      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Alfentanil-Model/v2.1/Alfentanil-Model.json"
+      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Alfentanil-Model/v2.2/Alfentanil-Model.json"
     },
     {
       "Id": "Alprazolam",
-      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Alprazolam-Model/v1.0/Alprazolam-Model.json"
+      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Alprazolam-Model/v1.1/Alprazolam-Model.json"
     },
     {
       "Id": "Cimetidine",
@@ -15,11 +15,11 @@
     },
     {
       "Id": "Clarithromycin",
-      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Clarithromycin-Model/v1.1/Clarithromycin-Model.json"
+      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Clarithromycin-Model/v1.2/Clarithromycin-Model.json"
     },
     {
       "Id": "Efavirenz",
-      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Efavirenz-Model/v1.0/Efavirenz-Model.json"
+      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Efavirenz-Model/v1.1/Efavirenz-Model.json"
     },
     {
       "Id": "Erythromycin",
@@ -31,7 +31,7 @@
     },
     {
       "Id": "Itraconazole",
-      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Itraconazole-Model/v1.2/Itraconazole-Model.json"
+      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Itraconazole-Model/v1.3/Itraconazole-Model.json"
     },
     {
       "Id": "Midazolam",
@@ -43,15 +43,15 @@
     },
     {
       "Id": "Triazolam",
-      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Triazolam-Model/v1.0/Triazolam-Model.json"
+      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Triazolam-Model/v1.1/Triazolam-Model.json"
     },
     {
       "Id": "Verapamil",
-      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Verapamil-Model/v1.1/Verapamil-Model.json"
+      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Verapamil-Model/v1.2/Verapamil-Model.json"
     },
     {
       "Id": "Cimetidine-Alfentanil-DDI",
-      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Cimetidine-Alfentanil-DDI/v1.0/Cimetidine-Alfentanil-DDI.json",
+      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Cimetidine-Alfentanil-DDI/v1.1/Cimetidine-Alfentanil-DDI.json",
       "BuildingBlocks": [
         {
           "Type": "Compound",
@@ -267,7 +267,7 @@
     },
     {
       "Id": "Cimetidine-Alprazolam-DDI",
-      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Cimetidine-Alprazolam-DDI/v1.0/Cimetidine-Alprazolam-DDI.json",
+      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Cimetidine-Alprazolam-DDI/v1.1/Cimetidine-Alprazolam-DDI.json",
       "BuildingBlocks": [
         {
           "Type": "Compound",
@@ -537,7 +537,7 @@
     },
     {
       "Id": "Cimetidine-Midazolam-DDI",
-      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Cimetidine-Midazolam-DDI/v1.0/Cimetidine-Midazolam-DDI.json",
+      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Cimetidine-Midazolam-DDI/v1.1/Cimetidine-Midazolam-DDI.json",
       "BuildingBlocks": [
         {
           "Type": "Compound",
@@ -983,7 +983,7 @@
     },
     {
       "Id": "Cimetidine-Triazolam-DDI",
-      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Cimetidine-Triazolam-DDI/v1.0/Cimetidine-Triazolam-DDI.json",
+      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Cimetidine-Triazolam-DDI/v1.1/Cimetidine-Triazolam-DDI.json",
       "BuildingBlocks": [
         {
           "Type": "Compound",
@@ -1319,7 +1319,7 @@
     },
     {
       "Id": "Cimetidine-Verapamil-DDI",
-      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Cimetidine-Verapamil-DDI/v1.0/Cimetidine-Verapamil-DDI.json",
+      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Cimetidine-Verapamil-DDI/v1.1/Cimetidine-Verapamil-DDI.json",
       "BuildingBlocks": [
         {
           "Type": "Compound",
@@ -1584,7 +1584,7 @@
     },
     {
       "Id": "Clarithromycin-Midazolam-DDI",
-      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Clarithromycin-Midazolam-DDI/v1.1/Clarithromycin-Midazolam-DDI.json",
+      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Clarithromycin-Midazolam-DDI/v1.2/Clarithromycin-Midazolam-DDI.json",
       "BuildingBlocks": [
         {
           "Type": "Compound",
@@ -2269,7 +2269,7 @@
     },
     {
       "Id": "Clarithromycin-Triazolam-DDI",
-      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Clarithromycin-Triazolam-DDI/v1.1/Clarithromycin-Triazolam_DDI.json",
+      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Clarithromycin-Triazolam-DDI/v1.2/Clarithromycin-Triazolam_DDI.json",
       "BuildingBlocks": [
         {
           "Type": "Compound",
@@ -2511,7 +2511,7 @@
     },
     {
       "Id": "Erythromycin-Alfentanil-DDI",
-      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Erythromycin-Alfentanil-DDI/v1.1/Erythromycin-Alfentanil-DDI.json",
+      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Erythromycin-Alfentanil-DDI/v1.2/Erythromycin-Alfentanil-DDI.json",
       "BuildingBlocks": [
         {
           "Type": "Compound",
@@ -2754,7 +2754,7 @@
     },
     {
       "Id": "Erythromycin-Alprazolam-DDI",
-      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Erythromycin-Alprazolam-DDI/v1.1/Erythromycin-Alprazolam-DDI.json",
+      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Erythromycin-Alprazolam-DDI/v1.2/Erythromycin-Alprazolam-DDI.json",
       "BuildingBlocks": [
         {
           "Type": "Individual",
@@ -2990,7 +2990,7 @@
     },
     {
       "Id": "Erythromycin-Midazolam-DDI",
-      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Erythromycin-Midazolam-DDI/v1.1/Erythromycin-Midazolam-DDI.json",
+      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Erythromycin-Midazolam-DDI/v1.2/Erythromycin-Midazolam-DDI.json",
       "BuildingBlocks": [
         {
           "Type": "Compound",
@@ -3517,7 +3517,7 @@
     },
     {
       "Id": "Erythromycin-Triazolam-DDI",
-      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Erythromycin-Triazolam-DDI/v1.1/Erythromycin-Triazolam-DDI.json",
+      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Erythromycin-Triazolam-DDI/v1.2/Erythromycin-Triazolam-DDI.json",
       "BuildingBlocks": [
         {
           "Type": "Compound",
@@ -4013,7 +4013,7 @@
     },
     {
       "Id": "Fluvoxamine-Midazolam-DDI",
-      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Fluvoxamine-Midazolam-DDI/v1.1/Fluvoxamine-Midazolam-DDI.json",
+      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Fluvoxamine-Midazolam-DDI/v1.2/Fluvoxamine-Midazolam-DDI.json",
       "BuildingBlocks": [
         {
           "Type": "Compound",
@@ -4273,7 +4273,7 @@
     },
     {
       "Id": "Itraconazole-Alprazolam-DDI",
-      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Itraconazole-Alprazolam-DDI/v1.1/Itraconazole-Alprazolam-DDI.json",
+      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Itraconazole-Alprazolam-DDI/v1.2/Itraconazole-Alprazolam-DDI.json",
       "BuildingBlocks": [
         {
           "Type": "Individual",
@@ -4529,7 +4529,7 @@
     },
     {
       "Id": "Itraconazole-Midazolam-DDI",
-      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Itraconazole-Midazolam-DDI/v1.1/Itraconazole-Midazolam-DDI.json",
+      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Itraconazole-Midazolam-DDI/v1.2/Itraconazole-Midazolam-DDI.json",
       "BuildingBlocks": [
         {
           "Type": "Individual",
@@ -5110,7 +5110,7 @@
     },
     {
       "Id": "Itraconazole-Triazolam-DDI",
-      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Itraconazole-Triazolam-DDI/v1.1/Itraconazole-Triazolam-DDI.json",
+      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Itraconazole-Triazolam-DDI/v1.2/Itraconazole-Triazolam-DDI.json",
       "BuildingBlocks": [
         {
           "Type": "Compound",
@@ -5471,7 +5471,7 @@
     },
     {
       "Id": "Verapamil-Midazolam-DDI",
-      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Verapamil-Midazolam-DDI/v1.1/Verapamil-Midazolam-DDI.json",
+      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Verapamil-Midazolam-DDI/v1.2/Verapamil-Midazolam-DDI.json",
       "BuildingBlocks": [
         {
           "Type": "Compound",
@@ -6187,7 +6187,7 @@
     },
     {
       "Id": "Efavirenz-Midazolam-DDI",
-      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Efavirenz-Midazolam-DDI/v1.1/Efavirenz-Midazolam-DDI.json",
+      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Efavirenz-Midazolam-DDI/v1.2/Efavirenz-Midazolam-DDI.json",
       "BuildingBlocks": [
         {
           "Type": "Compound",
@@ -6452,7 +6452,7 @@
     },
     {
       "Id": "Rifampicin-Alfentanil-DDI",
-      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Rifampicin-Alfentanil-DDI/v1.1/Rifampicin-Alfentanil-DDI.json",
+      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Rifampicin-Alfentanil-DDI/v1.2/Rifampicin-Alfentanil-DDI.json",
       "BuildingBlocks": [
         {
           "Type": "Compound",
@@ -7152,7 +7152,7 @@
     },
     {
       "Id": "Rifampicin-Alprazolam-DDI",
-      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Rifampicin-Alprazolam-DDI/v1.1/Rifampicin-Alprazolam-DDI.json",
+      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Rifampicin-Alprazolam-DDI/v1.2/Rifampicin-Alprazolam-DDI.json",
       "BuildingBlocks": [
         {
           "Type": "Compound",
@@ -8985,7 +8985,7 @@
     },
     {
       "Id": "Rifampicin-Triazolam-DDI",
-      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Rifampicin-Triazolam-DDI/v1.1/Rifampicin-Triazolam-DDI.json",
+      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Rifampicin-Triazolam-DDI/v1.2/Rifampicin-Triazolam-DDI.json",
       "BuildingBlocks": [
         {
           "Type": "Compound",
@@ -9206,7 +9206,7 @@
     },
     {
       "Id": "Rifampicin-Verapamil-DDI",
-      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Rifampicin-Verapamil-DDI/v1.0/Rifampicin-Verapamil-DDI.json",
+      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Rifampicin-Verapamil-DDI/v1.1/Rifampicin-Verapamil-DDI.json",
       "BuildingBlocks": [
         {
           "Type": "Compound",
@@ -9636,7 +9636,7 @@
             "Project": "Cimetidine-Alprazolam-DDI",
             "Simulation": "Abernethy 1983 - Alprazolam 1 mg + 300 mg cimetidine QID",
             "Output": "Organism|PeripheralVenousBlood|Alprazolam|Plasma (Peripheral Venous Blood)",
-            "ObservedData": "Abernethy 1983 - Alprazoam + Cimetidine - Alprazolam - PO - 1 mg - Plasma - indiv.",
+            "ObservedData": "Abernethy 1983 - Alprazolam + Cimetidine - Alprazolam - PO - 1 mg - Plasma - indiv.",
             "StartTime": 12,
             "TimeUnit": "h",
             "Color": "#b2182b",
@@ -9666,7 +9666,7 @@
             "Project": "Cimetidine-Alprazolam-DDI",
             "Simulation": "Pourbaix 1985 - alprazolam 0.5 mg TID + cimetidine 200/400 mg QID",
             "Output": "Organism|PeripheralVenousBlood|Alprazolam|Plasma (Peripheral Venous Blood)",
-            "ObservedData": "Pourbaix 1985 - Alprazoam + Cimetidine - Alprazolam - PO - 0.5 mg - Plasma - agg. (n=8)",
+            "ObservedData": "Pourbaix 1985 - Alprazolam + Cimetidine - Alprazolam - PO - 0.5 mg - Plasma - agg. (n=8)",
             "StartTime": 336,
             "TimeUnit": "h",
             "Color": "#b2182b",

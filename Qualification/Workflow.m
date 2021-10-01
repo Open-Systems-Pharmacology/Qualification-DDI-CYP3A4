@@ -25,7 +25,7 @@ PKSimPortableFolder = 'C:\Software\PKSim9.1.2';
 %
 
 baseDir = fullfile(cd);
-qualificationPlanName = 'qualification_plan_temp.json';
+qualificationPlanName = 'qualification_plan.json';
 
 % In case your folder structure is different from assumed above, 
 % qualificationPlan, REInput_path, REOutput_path and ReportOutput_path must be adjusted as well 
