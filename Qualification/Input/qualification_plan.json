@@ -26,6 +26,10 @@
       "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Erythromycin-Model/v1.2/Erythromycin-Model.json"
     },
     {
+      "Id": "Fluconazole",
+      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Fluconazole-Model/v1.0/Fluconazole-Model.json"
+    },
+    {
       "Id": "Fluvoxamine",
       "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Fluvoxamine-Model/v1.1/Fluvoxamine-Model.json"
     },
@@ -3783,6 +3787,692 @@
             "Phillips1986_Perpetrator"
           ]
         }
+      ]
+    },
+    {
+      "Id": "Fluconazole-Alfentanil-DDI",
+      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Fluconazole-Alfentanil-DDI/v1.0/Fluconazole-Alfentanil-DDI.json",
+      "BuildingBlocks": [
+        {
+          "Type": "Compound",
+          "Name": "Fluconazole",
+          "Project": "Fluconazole"
+        },
+        {
+          "Type": "Formulation",
+          "Name": "Fluconazole_Weibull_high dose",
+          "Project": "Fluconazole"
+        },
+        {
+          "Type": "Compound",
+          "Name": "Alfentanil",
+          "Project": "Alfentanil"
+        }
+      ],
+      "SimulationParameters": [
+       
+      ]
+    },
+    {
+      "Id": "Fluconazole-Midazolam-DDI",
+      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Fluconazole-Midazolam-DDI/v1.0/Fluconazole-Midazolam-DDI.json",
+      "BuildingBlocks": [
+        {
+          "Type": "Compound",
+          "Name": "Fluconazole",
+          "Project": "Fluconazole"
+        },
+        {
+          "Type": "Formulation",
+          "Name": "Fluconazole_Weibull_high dose",
+          "Project": "Fluconazole"
+        },
+        {
+          "Type": "Formulation",
+          "Name": "Fluconazole_Weibull_medium high dose",
+          "Project": "Fluconazole"
+        },
+        {
+          "Type": "Compound",
+          "Name": "Midazolam",
+          "Project": "Midazolam"
+        },
+        {
+          "Type": "Formulation",
+          "Name": "Tablet (Dormicum)",
+          "Project": "Midazolam"
+        }
+      ],
+      "SimulationParameters": [
+        {
+          "Project": "Midazolam",
+          "Simulation": "po 3 mg (solution)",
+          "Path": "Neighborhoods|Duodenum_int_Duodenum_cell|Midazolam|P (interstitial->intracellular)",
+          "TargetSimulations": [
+            "Ahonen_midazolam_po_7.5mg_fluconazole_400mg_i.v_DDI",
+            "Ahonen_midazolam_po_7.5mg_fluconazole_400mg_po_DDI",
+            "Ahonen_midazolam_po_7.5mg_placebo",
+            "Olkkola_midazolam_fluconazole_DDI_day 1",
+            "Olkkola_midazolam_fluconazole_DDI_day 4",
+            "Olkkola_midazolam_fluconazole_DDI_day 6",
+            "Olkkola_midazolam_placebo_day 1",
+            "Olkkola_midazolam_placebo_day 4",
+            "Olkkola_midazolam_placebo_day 6"
+          ]
+        },
+        {
+          "Project": "Midazolam",
+          "Simulation": "po 3 mg (solution)",
+          "Path": "Neighborhoods|UpperJejunum_int_UpperJejunum_cell|Midazolam|P (interstitial->intracellular)",
+          "TargetSimulations": [
+            "Ahonen_midazolam_po_7.5mg_fluconazole_400mg_i.v_DDI",
+            "Ahonen_midazolam_po_7.5mg_fluconazole_400mg_po_DDI",
+            "Ahonen_midazolam_po_7.5mg_placebo",
+            "Olkkola_midazolam_fluconazole_DDI_day 1",
+            "Olkkola_midazolam_fluconazole_DDI_day 4",
+            "Olkkola_midazolam_fluconazole_DDI_day 6",
+            "Olkkola_midazolam_placebo_day 1",
+            "Olkkola_midazolam_placebo_day 4",
+            "Olkkola_midazolam_placebo_day 6"
+          ]
+        },
+        {
+          "Project": "Midazolam",
+          "Simulation": "po 3 mg (solution)",
+          "Path": "Neighborhoods|LowerJejunum_int_LowerJejunum_cell|Midazolam|P (interstitial->intracellular)",
+          "TargetSimulations": [
+            "Ahonen_midazolam_po_7.5mg_fluconazole_400mg_i.v_DDI",
+            "Ahonen_midazolam_po_7.5mg_fluconazole_400mg_po_DDI",
+            "Ahonen_midazolam_po_7.5mg_placebo",
+            "Olkkola_midazolam_fluconazole_DDI_day 1",
+            "Olkkola_midazolam_fluconazole_DDI_day 4",
+            "Olkkola_midazolam_fluconazole_DDI_day 6",
+            "Olkkola_midazolam_placebo_day 1",
+            "Olkkola_midazolam_placebo_day 4",
+            "Olkkola_midazolam_placebo_day 6"
+          ]
+        },
+        {
+          "Project": "Midazolam",
+          "Simulation": "po 3 mg (solution)",
+          "Path": "Neighborhoods|UpperIleum_int_UpperIleum_cell|Midazolam|P (interstitial->intracellular)",
+          "TargetSimulations": [
+            "Ahonen_midazolam_po_7.5mg_fluconazole_400mg_i.v_DDI",
+            "Ahonen_midazolam_po_7.5mg_fluconazole_400mg_po_DDI",
+            "Ahonen_midazolam_po_7.5mg_placebo",
+            "Olkkola_midazolam_fluconazole_DDI_day 1",
+            "Olkkola_midazolam_fluconazole_DDI_day 4",
+            "Olkkola_midazolam_fluconazole_DDI_day 6",
+            "Olkkola_midazolam_placebo_day 1",
+            "Olkkola_midazolam_placebo_day 4",
+            "Olkkola_midazolam_placebo_day 6"
+          ]
+        },
+        {
+          "Project": "Midazolam",
+          "Simulation": "po 3 mg (solution)",
+          "Path": "Neighborhoods|LowerIleum_int_LowerIleum_cell|Midazolam|P (interstitial->intracellular)",
+          "TargetSimulations": [
+            "Ahonen_midazolam_po_7.5mg_fluconazole_400mg_i.v_DDI",
+            "Ahonen_midazolam_po_7.5mg_fluconazole_400mg_po_DDI",
+            "Ahonen_midazolam_po_7.5mg_placebo",
+            "Olkkola_midazolam_fluconazole_DDI_day 1",
+            "Olkkola_midazolam_fluconazole_DDI_day 4",
+            "Olkkola_midazolam_fluconazole_DDI_day 6",
+            "Olkkola_midazolam_placebo_day 1",
+            "Olkkola_midazolam_placebo_day 4",
+            "Olkkola_midazolam_placebo_day 6"
+          ]
+        },
+        {
+          "Project": "Midazolam",
+          "Simulation": "po 3 mg (solution)",
+          "Path": "Neighborhoods|Caecum_int_Caecum_cell|Midazolam|P (interstitial->intracellular)",
+          "TargetSimulations": [
+            "Ahonen_midazolam_po_7.5mg_fluconazole_400mg_i.v_DDI",
+            "Ahonen_midazolam_po_7.5mg_fluconazole_400mg_po_DDI",
+            "Ahonen_midazolam_po_7.5mg_placebo",
+            "Olkkola_midazolam_fluconazole_DDI_day 1",
+            "Olkkola_midazolam_fluconazole_DDI_day 4",
+            "Olkkola_midazolam_fluconazole_DDI_day 6",
+            "Olkkola_midazolam_placebo_day 1",
+            "Olkkola_midazolam_placebo_day 4",
+            "Olkkola_midazolam_placebo_day 6"
+          ]
+        },
+        {
+          "Project": "Midazolam",
+          "Simulation": "po 3 mg (solution)",
+          "Path": "Neighborhoods|ColonAscendens_int_ColonAscendens_cell|Midazolam|P (interstitial->intracellular)",
+          "TargetSimulations": [
+            "Ahonen_midazolam_po_7.5mg_fluconazole_400mg_i.v_DDI",
+            "Ahonen_midazolam_po_7.5mg_fluconazole_400mg_po_DDI",
+            "Ahonen_midazolam_po_7.5mg_placebo",
+            "Olkkola_midazolam_fluconazole_DDI_day 1",
+            "Olkkola_midazolam_fluconazole_DDI_day 4",
+            "Olkkola_midazolam_fluconazole_DDI_day 6",
+            "Olkkola_midazolam_placebo_day 1",
+            "Olkkola_midazolam_placebo_day 4",
+            "Olkkola_midazolam_placebo_day 6"
+          ]
+        },
+        {
+          "Project": "Midazolam",
+          "Simulation": "po 3 mg (solution)",
+          "Path": "Neighborhoods|ColonTransversum_int_ColonTransversum_cell|Midazolam|P (interstitial->intracellular)",
+          "TargetSimulations": [
+            "Ahonen_midazolam_po_7.5mg_fluconazole_400mg_i.v_DDI",
+            "Ahonen_midazolam_po_7.5mg_fluconazole_400mg_po_DDI",
+            "Ahonen_midazolam_po_7.5mg_placebo",
+            "Olkkola_midazolam_fluconazole_DDI_day 1",
+            "Olkkola_midazolam_fluconazole_DDI_day 4",
+            "Olkkola_midazolam_fluconazole_DDI_day 6",
+            "Olkkola_midazolam_placebo_day 1",
+            "Olkkola_midazolam_placebo_day 4",
+            "Olkkola_midazolam_placebo_day 6"
+          ]
+        },
+        {
+          "Project": "Midazolam",
+          "Simulation": "po 3 mg (solution)",
+          "Path": "Neighborhoods|ColonDescendens_int_ColonDescendens_cell|Midazolam|P (interstitial->intracellular)",
+          "TargetSimulations": [
+            "Ahonen_midazolam_po_7.5mg_fluconazole_400mg_i.v_DDI",
+            "Ahonen_midazolam_po_7.5mg_fluconazole_400mg_po_DDI",
+            "Ahonen_midazolam_po_7.5mg_placebo",
+            "Olkkola_midazolam_fluconazole_DDI_day 1",
+            "Olkkola_midazolam_fluconazole_DDI_day 4",
+            "Olkkola_midazolam_fluconazole_DDI_day 6",
+            "Olkkola_midazolam_placebo_day 1",
+            "Olkkola_midazolam_placebo_day 4",
+            "Olkkola_midazolam_placebo_day 6"
+          ]
+        },
+        {
+          "Project": "Midazolam",
+          "Simulation": "po 3 mg (solution)",
+          "Path": "Neighborhoods|ColonSigmoid_int_ColonSigmoid_cell|Midazolam|P (interstitial->intracellular)",
+          "TargetSimulations": [
+            "Ahonen_midazolam_po_7.5mg_fluconazole_400mg_i.v_DDI",
+            "Ahonen_midazolam_po_7.5mg_fluconazole_400mg_po_DDI",
+            "Ahonen_midazolam_po_7.5mg_placebo",
+            "Olkkola_midazolam_fluconazole_DDI_day 1",
+            "Olkkola_midazolam_fluconazole_DDI_day 4",
+            "Olkkola_midazolam_fluconazole_DDI_day 6",
+            "Olkkola_midazolam_placebo_day 1",
+            "Olkkola_midazolam_placebo_day 4",
+            "Olkkola_midazolam_placebo_day 6"
+          ]
+        },
+        {
+          "Project": "Midazolam",
+          "Simulation": "po 3 mg (solution)",
+          "Path": "Neighborhoods|Rectum_int_Rectum_cell|Midazolam|P (interstitial->intracellular)",
+          "TargetSimulations": [
+            "Ahonen_midazolam_po_7.5mg_fluconazole_400mg_i.v_DDI",
+            "Ahonen_midazolam_po_7.5mg_fluconazole_400mg_po_DDI",
+            "Ahonen_midazolam_po_7.5mg_placebo",
+            "Olkkola_midazolam_fluconazole_DDI_day 1",
+            "Olkkola_midazolam_fluconazole_DDI_day 4",
+            "Olkkola_midazolam_fluconazole_DDI_day 6",
+            "Olkkola_midazolam_placebo_day 1",
+            "Olkkola_midazolam_placebo_day 4",
+            "Olkkola_midazolam_placebo_day 6"
+          ]
+        },
+        {
+          "Project": "Midazolam",
+          "Simulation": "po 3 mg (solution)",
+          "Path": "Neighborhoods|Duodenum_int_Duodenum_cell|Midazolam|P (intracellular->interstitial)",
+          "TargetSimulations": [
+            "Ahonen_midazolam_po_7.5mg_fluconazole_400mg_i.v_DDI",
+            "Ahonen_midazolam_po_7.5mg_fluconazole_400mg_po_DDI",
+            "Ahonen_midazolam_po_7.5mg_placebo",
+            "Olkkola_midazolam_fluconazole_DDI_day 1",
+            "Olkkola_midazolam_fluconazole_DDI_day 4",
+            "Olkkola_midazolam_fluconazole_DDI_day 6",
+            "Olkkola_midazolam_placebo_day 1",
+            "Olkkola_midazolam_placebo_day 4",
+            "Olkkola_midazolam_placebo_day 6"
+          ]
+        },
+        {
+          "Project": "Midazolam",
+          "Simulation": "po 3 mg (solution)",
+          "Path": "Neighborhoods|UpperJejunum_int_UpperJejunum_cell|Midazolam|P (intracellular->interstitial)",
+          "TargetSimulations": [
+            "Ahonen_midazolam_po_7.5mg_fluconazole_400mg_i.v_DDI",
+            "Ahonen_midazolam_po_7.5mg_fluconazole_400mg_po_DDI",
+            "Ahonen_midazolam_po_7.5mg_placebo",
+            "Olkkola_midazolam_fluconazole_DDI_day 1",
+            "Olkkola_midazolam_fluconazole_DDI_day 4",
+            "Olkkola_midazolam_fluconazole_DDI_day 6",
+            "Olkkola_midazolam_placebo_day 1",
+            "Olkkola_midazolam_placebo_day 4",
+            "Olkkola_midazolam_placebo_day 6"
+          ]
+        },
+        {
+          "Project": "Midazolam",
+          "Simulation": "po 3 mg (solution)",
+          "Path": "Neighborhoods|LowerJejunum_int_LowerJejunum_cell|Midazolam|P (intracellular->interstitial)",
+          "TargetSimulations": [
+            "Ahonen_midazolam_po_7.5mg_fluconazole_400mg_i.v_DDI",
+            "Ahonen_midazolam_po_7.5mg_fluconazole_400mg_po_DDI",
+            "Ahonen_midazolam_po_7.5mg_placebo",
+            "Olkkola_midazolam_fluconazole_DDI_day 1",
+            "Olkkola_midazolam_fluconazole_DDI_day 4",
+            "Olkkola_midazolam_fluconazole_DDI_day 6",
+            "Olkkola_midazolam_placebo_day 1",
+            "Olkkola_midazolam_placebo_day 4",
+            "Olkkola_midazolam_placebo_day 6"
+          ]
+        },
+        {
+          "Project": "Midazolam",
+          "Simulation": "po 3 mg (solution)",
+          "Path": "Neighborhoods|UpperIleum_int_UpperIleum_cell|Midazolam|P (intracellular->interstitial)",
+          "TargetSimulations": [
+            "Ahonen_midazolam_po_7.5mg_fluconazole_400mg_i.v_DDI",
+            "Ahonen_midazolam_po_7.5mg_fluconazole_400mg_po_DDI",
+            "Ahonen_midazolam_po_7.5mg_placebo",
+            "Olkkola_midazolam_fluconazole_DDI_day 1",
+            "Olkkola_midazolam_fluconazole_DDI_day 4",
+            "Olkkola_midazolam_fluconazole_DDI_day 6",
+            "Olkkola_midazolam_placebo_day 1",
+            "Olkkola_midazolam_placebo_day 4",
+            "Olkkola_midazolam_placebo_day 6"
+          ]
+        },
+        {
+          "Project": "Midazolam",
+          "Simulation": "po 3 mg (solution)",
+          "Path": "Neighborhoods|LowerIleum_int_LowerIleum_cell|Midazolam|P (intracellular->interstitial)",
+          "TargetSimulations": [
+            "Ahonen_midazolam_po_7.5mg_fluconazole_400mg_i.v_DDI",
+            "Ahonen_midazolam_po_7.5mg_fluconazole_400mg_po_DDI",
+            "Ahonen_midazolam_po_7.5mg_placebo",
+            "Olkkola_midazolam_fluconazole_DDI_day 1",
+            "Olkkola_midazolam_fluconazole_DDI_day 4",
+            "Olkkola_midazolam_fluconazole_DDI_day 6",
+            "Olkkola_midazolam_placebo_day 1",
+            "Olkkola_midazolam_placebo_day 4",
+            "Olkkola_midazolam_placebo_day 6"
+          ]
+        },
+        {
+          "Project": "Midazolam",
+          "Simulation": "po 3 mg (solution)",
+          "Path": "Neighborhoods|Caecum_int_Caecum_cell|Midazolam|P (intracellular->interstitial)",
+          "TargetSimulations": [
+            "Ahonen_midazolam_po_7.5mg_fluconazole_400mg_i.v_DDI",
+            "Ahonen_midazolam_po_7.5mg_fluconazole_400mg_po_DDI",
+            "Ahonen_midazolam_po_7.5mg_placebo",
+            "Olkkola_midazolam_fluconazole_DDI_day 1",
+            "Olkkola_midazolam_fluconazole_DDI_day 4",
+            "Olkkola_midazolam_fluconazole_DDI_day 6",
+            "Olkkola_midazolam_placebo_day 1",
+            "Olkkola_midazolam_placebo_day 4",
+            "Olkkola_midazolam_placebo_day 6"
+          ]
+        },
+        {
+          "Project": "Midazolam",
+          "Simulation": "po 3 mg (solution)",
+          "Path": "Neighborhoods|ColonAscendens_int_ColonAscendens_cell|Midazolam|P (intracellular->interstitial)",
+          "TargetSimulations": [
+            "Ahonen_midazolam_po_7.5mg_fluconazole_400mg_i.v_DDI",
+            "Ahonen_midazolam_po_7.5mg_fluconazole_400mg_po_DDI",
+            "Ahonen_midazolam_po_7.5mg_placebo",
+            "Olkkola_midazolam_fluconazole_DDI_day 1",
+            "Olkkola_midazolam_fluconazole_DDI_day 4",
+            "Olkkola_midazolam_fluconazole_DDI_day 6",
+            "Olkkola_midazolam_placebo_day 1",
+            "Olkkola_midazolam_placebo_day 4",
+            "Olkkola_midazolam_placebo_day 6"
+          ]
+        },
+        {
+          "Project": "Midazolam",
+          "Simulation": "po 3 mg (solution)",
+          "Path": "Neighborhoods|ColonTransversum_int_ColonTransversum_cell|Midazolam|P (intracellular->interstitial)",
+          "TargetSimulations": [
+            "Ahonen_midazolam_po_7.5mg_fluconazole_400mg_i.v_DDI",
+            "Ahonen_midazolam_po_7.5mg_fluconazole_400mg_po_DDI",
+            "Ahonen_midazolam_po_7.5mg_placebo",
+            "Olkkola_midazolam_fluconazole_DDI_day 1",
+            "Olkkola_midazolam_fluconazole_DDI_day 4",
+            "Olkkola_midazolam_fluconazole_DDI_day 6",
+            "Olkkola_midazolam_placebo_day 1",
+            "Olkkola_midazolam_placebo_day 4",
+            "Olkkola_midazolam_placebo_day 6"
+          ]
+        },
+        {
+          "Project": "Midazolam",
+          "Simulation": "po 3 mg (solution)",
+          "Path": "Neighborhoods|ColonDescendens_int_ColonDescendens_cell|Midazolam|P (intracellular->interstitial)",
+          "TargetSimulations": [
+            "Ahonen_midazolam_po_7.5mg_fluconazole_400mg_i.v_DDI",
+            "Ahonen_midazolam_po_7.5mg_fluconazole_400mg_po_DDI",
+            "Ahonen_midazolam_po_7.5mg_placebo",
+            "Olkkola_midazolam_fluconazole_DDI_day 1",
+            "Olkkola_midazolam_fluconazole_DDI_day 4",
+            "Olkkola_midazolam_fluconazole_DDI_day 6",
+            "Olkkola_midazolam_placebo_day 1",
+            "Olkkola_midazolam_placebo_day 4",
+            "Olkkola_midazolam_placebo_day 6"
+          ]
+        },
+        {
+          "Project": "Midazolam",
+          "Simulation": "po 3 mg (solution)",
+          "Path": "Neighborhoods|ColonSigmoid_int_ColonSigmoid_cell|Midazolam|P (intracellular->interstitial)",
+          "TargetSimulations": [
+            "Ahonen_midazolam_po_7.5mg_fluconazole_400mg_i.v_DDI",
+            "Ahonen_midazolam_po_7.5mg_fluconazole_400mg_po_DDI",
+            "Ahonen_midazolam_po_7.5mg_placebo",
+            "Olkkola_midazolam_fluconazole_DDI_day 1",
+            "Olkkola_midazolam_fluconazole_DDI_day 4",
+            "Olkkola_midazolam_fluconazole_DDI_day 6",
+            "Olkkola_midazolam_placebo_day 1",
+            "Olkkola_midazolam_placebo_day 4",
+            "Olkkola_midazolam_placebo_day 6"
+          ]
+        },
+        {
+          "Project": "Midazolam",
+          "Simulation": "po 3 mg (solution)",
+          "Path": "Neighborhoods|Rectum_int_Rectum_cell|Midazolam|P (intracellular->interstitial)",
+          "TargetSimulations": [
+            "Ahonen_midazolam_po_7.5mg_fluconazole_400mg_i.v_DDI",
+            "Ahonen_midazolam_po_7.5mg_fluconazole_400mg_po_DDI",
+            "Ahonen_midazolam_po_7.5mg_placebo",
+            "Olkkola_midazolam_fluconazole_DDI_day 1",
+            "Olkkola_midazolam_fluconazole_DDI_day 4",
+            "Olkkola_midazolam_fluconazole_DDI_day 6",
+            "Olkkola_midazolam_placebo_day 1",
+            "Olkkola_midazolam_placebo_day 4",
+            "Olkkola_midazolam_placebo_day 6"
+          ]
+        }
+       
+      ]
+    },
+    {
+      "Id": "Fluconazole-Triazolam-DDI",
+      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Fluconazole-Triazolam-DDI/v1.0/Fluconazole-Triazolam-DDI.json",
+      "BuildingBlocks": [
+        {
+          "Type": "Compound",
+          "Name": "Fluconazole",
+          "Project": "Fluconazole"
+        },
+        {
+          "Type": "Formulation",
+          "Name": "Fluconazole_Weibull_low dose",
+          "Project": "Fluconazole"
+        },
+        {
+          "Type": "Formulation",
+          "Name": "Fluconazole_Weibull_medium high dose",
+          "Project": "Fluconazole"
+        },
+        {
+          "Type": "Compound",
+          "Name": "Triazolam",
+          "Project": "Triazolam"
+        },
+        {
+          "Type": "Formulation",
+          "Name": "Halcion",
+          "Project": "Triazolam"
+        }
+      ],
+      "SimulationParameters": [
+        {
+          "Project": "Triazolam",
+          "Simulation": "PO_0.125mg",
+          "Path": "Neighborhoods|Duodenum_int_Duodenum_cell|Triazolam|P (interstitial->intracellular)",
+          "TargetSimulations": [
+            "Varhe triazolam 0.25 mg po fluconazole 100mg",
+            "Varhe triazolam 0.25 mg po placebo",
+            "Varhe triazolam 0.25 mg po fluconazole 200mg",
+            "Varhe triazolam 0.25 mg po fluconazole 50mg"
+          ]
+        },
+        {
+          "Project": "Triazolam",
+          "Simulation": "PO_0.125mg",
+          "Path": "Neighborhoods|UpperJejunum_int_UpperJejunum_cell|Triazolam|P (interstitial->intracellular)",
+          "TargetSimulations": [
+            "Varhe triazolam 0.25 mg po fluconazole 100mg",
+            "Varhe triazolam 0.25 mg po placebo",
+            "Varhe triazolam 0.25 mg po fluconazole 200mg",
+            "Varhe triazolam 0.25 mg po fluconazole 50mg"
+          ]
+        },
+        {
+          "Project": "Triazolam",
+          "Simulation": "PO_0.125mg",
+          "Path": "Neighborhoods|LowerJejunum_int_LowerJejunum_cell|Triazolam|P (interstitial->intracellular)",
+          "TargetSimulations": [
+            "Varhe triazolam 0.25 mg po fluconazole 100mg",
+            "Varhe triazolam 0.25 mg po placebo",
+            "Varhe triazolam 0.25 mg po fluconazole 200mg",
+            "Varhe triazolam 0.25 mg po fluconazole 50mg"
+          ]
+        },
+        {
+          "Project": "Triazolam",
+          "Simulation": "PO_0.125mg",
+          "Path": "Neighborhoods|UpperIleum_int_UpperIleum_cell|Triazolam|P (interstitial->intracellular)",
+          "TargetSimulations": [
+            "Varhe triazolam 0.25 mg po fluconazole 100mg",
+            "Varhe triazolam 0.25 mg po placebo",
+            "Varhe triazolam 0.25 mg po fluconazole 200mg",
+            "Varhe triazolam 0.25 mg po fluconazole 50mg"
+          ]
+        },
+        {
+          "Project": "Triazolam",
+          "Simulation": "PO_0.125mg",
+          "Path": "Neighborhoods|LowerIleum_int_LowerIleum_cell|Triazolam|P (interstitial->intracellular)",
+          "TargetSimulations": [
+            "Varhe triazolam 0.25 mg po fluconazole 100mg",
+            "Varhe triazolam 0.25 mg po placebo",
+            "Varhe triazolam 0.25 mg po fluconazole 200mg",
+            "Varhe triazolam 0.25 mg po fluconazole 50mg"
+          ]
+        },
+        {
+          "Project": "Triazolam",
+          "Simulation": "PO_0.125mg",
+          "Path": "Neighborhoods|Caecum_int_Caecum_cell|Triazolam|P (interstitial->intracellular)",
+          "TargetSimulations": [
+            "Varhe triazolam 0.25 mg po fluconazole 100mg",
+            "Varhe triazolam 0.25 mg po placebo",
+            "Varhe triazolam 0.25 mg po fluconazole 200mg",
+            "Varhe triazolam 0.25 mg po fluconazole 50mg"
+          ]
+        },
+        {
+          "Project": "Triazolam",
+          "Simulation": "PO_0.125mg",
+          "Path": "Neighborhoods|ColonAscendens_int_ColonAscendens_cell|Triazolam|P (interstitial->intracellular)",
+          "TargetSimulations": [
+            "Varhe triazolam 0.25 mg po fluconazole 100mg",
+            "Varhe triazolam 0.25 mg po placebo",
+            "Varhe triazolam 0.25 mg po fluconazole 200mg",
+            "Varhe triazolam 0.25 mg po fluconazole 50mg"
+          ]
+        },
+        {
+          "Project": "Triazolam",
+          "Simulation": "PO_0.125mg",
+          "Path": "Neighborhoods|ColonTransversum_int_ColonTransversum_cell|Triazolam|P (interstitial->intracellular)",
+          "TargetSimulations": [
+            "Varhe triazolam 0.25 mg po fluconazole 100mg",
+            "Varhe triazolam 0.25 mg po placebo",
+            "Varhe triazolam 0.25 mg po fluconazole 200mg",
+            "Varhe triazolam 0.25 mg po fluconazole 50mg"
+          ]
+        },
+        {
+          "Project": "Triazolam",
+          "Simulation": "PO_0.125mg",
+          "Path": "Neighborhoods|ColonDescendens_int_ColonDescendens_cell|Triazolam|P (interstitial->intracellular)",
+          "TargetSimulations": [
+            "Varhe triazolam 0.25 mg po fluconazole 100mg",
+            "Varhe triazolam 0.25 mg po placebo",
+            "Varhe triazolam 0.25 mg po fluconazole 200mg",
+            "Varhe triazolam 0.25 mg po fluconazole 50mg"
+          ]
+        },
+        {
+          "Project": "Triazolam",
+          "Simulation": "PO_0.125mg",
+          "Path": "Neighborhoods|ColonSigmoid_int_ColonSigmoid_cell|Triazolam|P (interstitial->intracellular)",
+          "TargetSimulations": [
+            "Varhe triazolam 0.25 mg po fluconazole 100mg",
+            "Varhe triazolam 0.25 mg po placebo",
+            "Varhe triazolam 0.25 mg po fluconazole 200mg",
+            "Varhe triazolam 0.25 mg po fluconazole 50mg"
+          ]
+        },
+        {
+          "Project": "Triazolam",
+          "Simulation": "PO_0.125mg",
+          "Path": "Neighborhoods|Rectum_int_Rectum_cell|Triazolam|P (interstitial->intracellular)",
+          "TargetSimulations": [
+            "Varhe triazolam 0.25 mg po fluconazole 100mg",
+            "Varhe triazolam 0.25 mg po placebo",
+            "Varhe triazolam 0.25 mg po fluconazole 200mg",
+            "Varhe triazolam 0.25 mg po fluconazole 50mg"
+          ]
+        },
+        {
+          "Project": "Triazolam",
+          "Simulation": "PO_0.125mg",
+          "Path": "Neighborhoods|Duodenum_int_Duodenum_cell|Triazolam|P (intracellular->interstitial)",
+          "TargetSimulations": [
+            "Varhe triazolam 0.25 mg po fluconazole 100mg",
+            "Varhe triazolam 0.25 mg po placebo",
+            "Varhe triazolam 0.25 mg po fluconazole 200mg",
+            "Varhe triazolam 0.25 mg po fluconazole 50mg"
+          ]
+        },
+        {
+          "Project": "Triazolam",
+          "Simulation": "PO_0.125mg",
+          "Path": "Neighborhoods|UpperJejunum_int_UpperJejunum_cell|Triazolam|P (intracellular->interstitial)",
+          "TargetSimulations": [
+            "Varhe triazolam 0.25 mg po fluconazole 100mg",
+            "Varhe triazolam 0.25 mg po placebo",
+            "Varhe triazolam 0.25 mg po fluconazole 200mg",
+            "Varhe triazolam 0.25 mg po fluconazole 50mg"
+          ]
+        },
+        {
+          "Project": "Triazolam",
+          "Simulation": "PO_0.125mg",
+          "Path": "Neighborhoods|LowerJejunum_int_LowerJejunum_cell|Triazolam|P (intracellular->interstitial)",
+          "TargetSimulations": [
+            "Varhe triazolam 0.25 mg po fluconazole 100mg",
+            "Varhe triazolam 0.25 mg po placebo",
+            "Varhe triazolam 0.25 mg po fluconazole 200mg",
+            "Varhe triazolam 0.25 mg po fluconazole 50mg"
+          ]
+        },
+        {
+          "Project": "Triazolam",
+          "Simulation": "PO_0.125mg",
+          "Path": "Neighborhoods|UpperIleum_int_UpperIleum_cell|Triazolam|P (intracellular->interstitial)",
+          "TargetSimulations": [
+            "Varhe triazolam 0.25 mg po fluconazole 100mg",
+            "Varhe triazolam 0.25 mg po placebo",
+            "Varhe triazolam 0.25 mg po fluconazole 200mg",
+            "Varhe triazolam 0.25 mg po fluconazole 50mg"
+          ]
+        },
+        {
+          "Project": "Triazolam",
+          "Simulation": "PO_0.125mg",
+          "Path": "Neighborhoods|LowerIleum_int_LowerIleum_cell|Triazolam|P (intracellular->interstitial)",
+          "TargetSimulations": [
+            "Varhe triazolam 0.25 mg po fluconazole 100mg",
+            "Varhe triazolam 0.25 mg po placebo",
+            "Varhe triazolam 0.25 mg po fluconazole 200mg",
+            "Varhe triazolam 0.25 mg po fluconazole 50mg"
+          ]
+        },
+        {
+          "Project": "Triazolam",
+          "Simulation": "PO_0.125mg",
+          "Path": "Neighborhoods|Caecum_int_Caecum_cell|Triazolam|P (intracellular->interstitial)",
+          "TargetSimulations": [
+            "Varhe triazolam 0.25 mg po fluconazole 100mg",
+            "Varhe triazolam 0.25 mg po placebo",
+            "Varhe triazolam 0.25 mg po fluconazole 200mg",
+            "Varhe triazolam 0.25 mg po fluconazole 50mg"
+          ]
+        },
+        {
+          "Project": "Triazolam",
+          "Simulation": "PO_0.125mg",
+          "Path": "Neighborhoods|ColonAscendens_int_ColonAscendens_cell|Triazolam|P (intracellular->interstitial)",
+          "TargetSimulations": [
+            "Varhe triazolam 0.25 mg po fluconazole 100mg",
+            "Varhe triazolam 0.25 mg po placebo",
+            "Varhe triazolam 0.25 mg po fluconazole 200mg",
+            "Varhe triazolam 0.25 mg po fluconazole 50mg"
+          ]
+        },
+        {
+          "Project": "Triazolam",
+          "Simulation": "PO_0.125mg",
+          "Path": "Neighborhoods|ColonTransversum_int_ColonTransversum_cell|Triazolam|P (intracellular->interstitial)",
+          "TargetSimulations": [
+            "Varhe triazolam 0.25 mg po fluconazole 100mg",
+            "Varhe triazolam 0.25 mg po placebo",
+            "Varhe triazolam 0.25 mg po fluconazole 200mg",
+            "Varhe triazolam 0.25 mg po fluconazole 50mg"
+          ]
+        },
+        {
+          "Project": "Triazolam",
+          "Simulation": "PO_0.125mg",
+          "Path": "Neighborhoods|ColonDescendens_int_ColonDescendens_cell|Triazolam|P (intracellular->interstitial)",
+          "TargetSimulations": [
+            "Varhe triazolam 0.25 mg po fluconazole 100mg",
+            "Varhe triazolam 0.25 mg po placebo",
+            "Varhe triazolam 0.25 mg po fluconazole 200mg",
+            "Varhe triazolam 0.25 mg po fluconazole 50mg"
+          ]
+        },
+        {
+          "Project": "Triazolam",
+          "Simulation": "PO_0.125mg",
+          "Path": "Neighborhoods|ColonSigmoid_int_ColonSigmoid_cell|Triazolam|P (intracellular->interstitial)",
+          "TargetSimulations": [
+            "Varhe triazolam 0.25 mg po fluconazole 100mg",
+            "Varhe triazolam 0.25 mg po placebo",
+            "Varhe triazolam 0.25 mg po fluconazole 200mg",
+            "Varhe triazolam 0.25 mg po fluconazole 50mg"
+          ]
+        },
+        {
+          "Project": "Triazolam",
+          "Simulation": "PO_0.125mg",
+          "Path": "Neighborhoods|Rectum_int_Rectum_cell|Triazolam|P (intracellular->interstitial)",
+          "TargetSimulations": [
+            "Varhe triazolam 0.25 mg po fluconazole 100mg",
+            "Varhe triazolam 0.25 mg po placebo",
+            "Varhe triazolam 0.25 mg po fluconazole 200mg",
+            "Varhe triazolam 0.25 mg po fluconazole 50mg"
+          ]
+        }
+       
       ]
     },
     {
@@ -13185,6 +13875,230 @@
             "Symbol": "Square"
           }
         ]
+      },
+      {
+        "SectionId": 325,
+        "Title": "Palkama 1998",
+        "SimulationDuration": 10,
+        "TimeUnit": "h",
+        "OutputMappings": [
+          {
+            "Project": "Fluconazole-Alfentanil-DDI",
+            "Simulation": "Alfentanil placebo",
+            "Output": "Organism|PeripheralVenousBlood|Alfentanil|Plasma (Peripheral Venous Blood)",
+            "ObservedData": "Palkama 1998 - Alfentanil placebo - Alfentanil - IV - 20 µg/kg - Plasma - agg. (n=9)",
+            "StartTime": 1,
+            "TimeUnit": "h",
+            "Color": "#2166ac",
+            "Caption": "Control (without fluconazole)",
+            "Symbol": "Circle"
+          },
+          {
+            "Project": "Fluconazole-Alfentanil-DDI",
+            "Simulation": "Alfentanil -Fluconzole i.v. DDI",
+            "Output": "Organism|PeripheralVenousBlood|Alfentanil|Plasma (Peripheral Venous Blood)",
+            "ObservedData": "Palkama 1998 - Alfentanil with perpetrator fluconazole i.v. - Alfentanil - IV - 20 µg/kg - Plasma - agg. (n=9)",
+            "StartTime": 1,
+            "TimeUnit": "h",
+            "Color": "#b2182b",
+            "Caption": "Treatment (with intravenous fluconazole)",
+            "Symbol": "Square"
+          },
+          {
+            "Project": "Fluconazole-Alfentanil-DDI",
+            "Simulation": "Alfentanil -Fluconzole oral. DDI",
+            "Output": "Organism|PeripheralVenousBlood|Alfentanil|Plasma (Peripheral Venous Blood)",
+            "ObservedData": "Palkama 1998 - Alfentanil with perpetrator fluconazole po - Alfentanil - IV - 20 µg/kg - Plasma - agg. (n=9)",
+            "StartTime": 1,
+            "TimeUnit": "h",
+            "Color": "#c54a4a",
+            "Caption": "Treatment (with oral fluconazole)",
+            "Symbol": "Triangle"
+          }
+        ]
+      },
+      {
+        "SectionId": 326,
+        "Title": "Ahonen 1997",
+        "SimulationDuration": 17,
+        "TimeUnit": "h",
+        "OutputMappings": [
+          {
+            "Project": "Fluconazole-Midazolam-DDI",
+            "Simulation": "Ahonen_midazolam_po_7.5mg_placebo",
+            "Output": "Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
+            "ObservedData": "Ahonen 1997 - Midazolam placebo - Midazolam - PO - 7.5 mg - Plasma - agg. (n=9)",
+            "StartTime": 1,
+            "TimeUnit": "h",
+            "Color": "#2166ac",
+            "Caption": "Control (without fluconazole)",
+            "Symbol": "Circle"
+          },
+          {
+            "Project": "Fluconazole-Midazolam-DDI",
+            "Simulation": "Ahonen_midazolam_po_7.5mg_fluconazole_400mg_i.v_DDI",
+            "Output": "Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
+            "ObservedData": "Ahonen 1997 - Midazolam with perpetrator fluconazole i.v - Midazolam - PO - 7.5 mg - Plasma - agg. (n=9)",
+            "StartTime": 1,
+            "TimeUnit": "h",
+            "Color": "#b2182b",
+            "Caption": "Treatment (with intravenous fluconazole)",
+            "Symbol": "Square"
+          },
+          {
+            "Project": "Fluconazole-Midazolam-DDI",
+            "Simulation": "Ahonen_midazolam_po_7.5mg_fluconazole_400mg_po_DDI",
+            "Output": "Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
+            "ObservedData": "Ahonen 1997 - Midazolam with perpetrator fluconazole oral - Midazolam - PO - 7.5 mg - Plasma - agg. (n=9)",
+            "StartTime": 1,
+            "TimeUnit": "h",
+            "Color": "#c54a4a",
+            "Caption": "Treatment (with oral fluconazole)",
+            "Symbol": "Triangle"
+          }
+        ]
+      },
+      {
+        "SectionId": 326,
+        "Title": "Olkkola 1996 Day 1",
+        "SimulationDuration": 7,
+        "TimeUnit": "h",
+        "OutputMappings": [
+          {
+            "Project": "Fluconazole-Midazolam-DDI",
+            "Simulation": "Olkkola_midazolam_placebo_day 1",
+            "Output": "Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
+            "ObservedData": "Olkkola 1996 - day 1 (po) Control (Perpetrator Placebo) - Midazolam - PO - 7.5 mg - Plasma - agg. (n=12)",
+            "StartTime": 0,
+            "TimeUnit": "h",
+            "Color": "#2166ac",
+            "Caption": "Control (without fluconazole)",
+            "Symbol": "Circle"
+          },
+          {
+            "Project": "Fluconazole-Midazolam-DDI",
+            "Simulation": "Olkkola_midazolam_fluconazole_DDI_day 1",
+            "Output": "Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
+            "ObservedData": "Olkkola 1996 - day 1 (po) with Perpetrator (Fluconazole) - Midazolam - PO - 7.5 mg - Plasma - agg. (n=12)",
+            "StartTime": 2,
+            "TimeUnit": "h",
+            "Color": "#b2182b",
+            "Caption": "Treatment (with fluconazole)",
+            "Symbol": "Square"
+          }
+        ]
+      },
+      {
+        "SectionId": 326,
+        "Title": "Olkkola 1996 Day 4",
+        "SimulationDuration": 7,
+        "TimeUnit": "h",
+        "OutputMappings": [
+          {
+            "Project": "Fluconazole-Midazolam-DDI",
+            "Simulation": "Olkkola_midazolam_placebo_day 4",
+            "Output": "Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
+            "ObservedData": "Olkkola 1996 - day 4 (iv) Control (Perpetrator Placebo) - Midazolam - IV - 0.05 mg/kg - Plasma - agg. (n=12)",
+            "StartTime": 0,
+            "TimeUnit": "h",
+            "Color": "#2166ac",
+            "Caption": "Control (without fluconazole)",
+            "Symbol": "Circle"
+          },
+          {
+            "Project": "Fluconazole-Midazolam-DDI",
+            "Simulation": "Olkkola_midazolam_fluconazole_DDI_day 4",
+            "Output": "Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
+            "ObservedData": "Olkkola 1996 - day 4 (iv) with Perpetrator (Fluconazole) - Midazolam - IV - 0.05 mg/kg - Plasma - agg. (n=12)",
+            "StartTime": 74,
+            "TimeUnit": "h",
+            "Color": "#b2182b",
+            "Caption": "Treatment (with fluconazole)",
+            "Symbol": "Square"
+          }
+        ]
+      },
+      {
+        "SectionId": 326,
+        "Title": "Olkkola 1996 Day 6",
+        "SimulationDuration": 17,
+        "TimeUnit": "h",
+        "OutputMappings": [
+          {
+            "Project": "Fluconazole-Midazolam-DDI",
+            "Simulation": "Olkkola_midazolam_placebo_day 6",
+            "Output": "Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
+            "ObservedData": "Olkkola 1996 - day 6 (po) Control (Perpetrator Placebo) - Midazolam - PO - 7.5 mg - Plasma - agg. (n=12)",
+            "StartTime": 0,
+            "TimeUnit": "h",
+            "Color": "#2166ac",
+            "Caption": "Control (without fluconazole)",
+            "Symbol": "Circle"
+          },
+          {
+            "Project": "Fluconazole-Midazolam-DDI",
+            "Simulation": "Olkkola_midazolam_fluconazole_DDI_day 6",
+            "Output": "Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
+            "ObservedData": "Olkkola 1996 - day 6 (po) with Perpetrator (Fluconazole) - Midazolam - PO - 7.5 mg - Plasma - agg. (n=12)",
+            "StartTime": 122,
+            "TimeUnit": "h",
+            "Color": "#b2182b",
+            "Caption": "Treatment (with fluconazole)",
+            "Symbol": "Square"
+          }
+        ]
+      },
+      {
+        "SectionId": 327,
+        "Title": "Varhe 1996c",
+        "SimulationDuration": 18,
+        "TimeUnit": "h",
+        "OutputMappings": [
+          {
+            "Project": "Fluconazole-Triazolam-DDI",
+            "Simulation": "Varhe triazolam 0.25 mg po placebo",
+            "Output": "Organism|PeripheralVenousBlood|Triazolam|Plasma (Peripheral Venous Blood)",
+            "ObservedData": "Varhe 1996c - Triazolam + placebo - Triazolam - PO - 0.25 mg - Plasma - agg. (n=8)",
+            "StartTime": 0,
+            "TimeUnit": "h",
+            "Color": "#2166ac",
+            "Caption": "Control (without fluconazole)",
+            "Symbol": "Circle"
+          },
+          {
+            "Project": "Fluconazole-Triazolam-DDI",
+            "Simulation": "Varhe triazolam 0.25 mg po fluconazole 50mg",
+            "Output": "Organism|PeripheralVenousBlood|Triazolam|Plasma (Peripheral Venous Blood)",
+            "ObservedData": "Varhe 1996c - Triazolam with perpetrator fluconazole 50mg - Triazolam - PO - 0.25 mg - Plasma - agg. (n=8)",
+            "StartTime": 73,
+            "TimeUnit": "h",
+            "Color": "#b2182b",
+            "Caption": "Treatment (with 50 mg fluconazole)",
+            "Symbol": "Square"
+          },
+          {
+            "Project": "Fluconazole-Triazolam-DDI",
+            "Simulation": "Varhe triazolam 0.25 mg po fluconazole 100mg",
+            "Output": "Organism|PeripheralVenousBlood|Triazolam|Plasma (Peripheral Venous Blood)",
+            "ObservedData": "Varhe 1996c - Triazolam with perpetrator fluconazole 100mg - Triazolam - PO - 0.25 mg - Plasma - agg. (n=8)",
+            "StartTime": 73,
+            "TimeUnit": "h",
+            "Color": "#c54a4a",
+            "Caption": "Treatment (with 100 mg fluconazole)",
+            "Symbol": "Triangle"
+          },
+          {
+            "Project": "Fluconazole-Triazolam-DDI",
+            "Simulation": "Varhe triazolam 0.25 mg po fluconazole 200mg",
+            "Output": "Organism|PeripheralVenousBlood|Triazolam|Plasma (Peripheral Venous Blood)",
+            "ObservedData": "Varhe 1996c - Triazolam with perpetrator fluconazole 200mg - Triazolam - PO - 0.25 mg - Plasma - agg. (n=8)",
+            "StartTime": 73,
+            "TimeUnit": "h",
+            "Color": "#d6706b",
+            "Caption": "Treatment (with 200 mg fluconazole)",
+            "Symbol": "Diamond"
+          }
+        ]
       }
     ],
     "DDIRatioPlots": [
@@ -16168,6 +17082,224 @@
                 }
               }
             ]
+          },
+          {
+            "Caption": "Fluconazole + Alfentanil (iv)",
+            "Color": "#e9a3c9",
+            "Symbol": "Square",
+            "DDIRatios": [
+              {
+                "Output": "Organism|PeripheralVenousBlood|Alfentanil|Plasma (Peripheral Venous Blood)",
+                "ObservedData": "DDI Ratios",
+                "ObservedDataRecordId": 1398,
+                "SimulationControl": {
+                  "Project": "Fluconazole-Alfentanil-DDI",
+                  "Simulation": "Alfentanil placebo",
+                  "StartTime": 1,
+                  "EndTime": 11,
+                  "TimeUnit": "h"
+                },
+                "SimulationDDI": {
+                  "Project": "Fluconazole-Alfentanil-DDI",
+                  "Simulation": "Alfentanil -Fluconzole i.v. DDI",
+                  "StartTime": 1,
+                  "EndTime": 11,
+                  "TimeUnit": "h"
+                }
+              },
+              {
+                "Output": "Organism|PeripheralVenousBlood|Alfentanil|Plasma (Peripheral Venous Blood)",
+                "ObservedData": "DDI Ratios",
+                "ObservedDataRecordId": 1399,
+                "SimulationControl": {
+                  "Project": "Fluconazole-Alfentanil-DDI",
+                  "Simulation": "Alfentanil placebo",
+                  "StartTime": 1,
+                  "EndTime": 11,
+                  "TimeUnit": "h"
+                },
+                "SimulationDDI": {
+                  "Project": "Fluconazole-Alfentanil-DDI",
+                  "Simulation": "Alfentanil -Fluconzole oral. DDI",
+                  "StartTime": 1,
+                  "EndTime": 11,
+                  "TimeUnit": "h"
+                }
+              }
+            ]
+          },
+          {
+            "Caption": "Fluconazole + Midazolam (po)",
+            "Color": "#01665e",
+            "Symbol": "Circle",
+            "DDIRatios": [
+              {
+                "Output": "Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
+                "ObservedData": "DDI Ratios",
+                "ObservedDataRecordId": 1392,
+                "SimulationControl": {
+                  "Project": "Fluconazole-Midazolam-DDI",
+                  "Simulation": "Ahonen_midazolam_po_7.5mg_placebo",
+                  "StartTime": 1,
+                  "EndTime": 8,
+                  "TimeUnit": "h"
+                },
+                "SimulationDDI": {
+                  "Project": "Fluconazole-Midazolam-DDI",
+                  "Simulation": "Ahonen_midazolam_po_7.5mg_fluconazole_400mg_i.v_DDI",
+                  "StartTime": 1,
+                  "EndTime": 8,
+                  "TimeUnit": "h"
+                }
+              },
+              {
+                "Output": "Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
+                "ObservedData": "DDI Ratios",
+                "ObservedDataRecordId": 1393,
+                "SimulationControl": {
+                  "Project": "Fluconazole-Midazolam-DDI",
+                  "Simulation": "Ahonen_midazolam_po_7.5mg_placebo",
+                  "StartTime": 1,
+                  "EndTime": 8,
+                  "TimeUnit": "h"
+                },
+                "SimulationDDI": {
+                  "Project": "Fluconazole-Midazolam-DDI",
+                  "Simulation": "Ahonen_midazolam_po_7.5mg_fluconazole_400mg_po_DDI",
+                  "StartTime": 1,
+                  "EndTime": 8,
+                  "TimeUnit": "h"
+                }
+              },
+              {
+                "Output": "Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
+                "ObservedData": "DDI Ratios",
+                "ObservedDataRecordId": 380,
+                "SimulationControl": {
+                  "Project": "Fluconazole-Midazolam-DDI",
+                  "Simulation": "Olkkola_midazolam_placebo_day 1",
+                  "StartTime": 0,
+                  "EndTime": 7,
+                  "TimeUnit": "h"
+                },
+                "SimulationDDI": {
+                  "Project": "Fluconazole-Midazolam-DDI",
+                  "Simulation": "Olkkola_midazolam_fluconazole_DDI_day 1",
+                  "StartTime": 0,
+                  "EndTime": 7,
+                  "TimeUnit": "h"
+                }
+              },
+              {
+                "Output": "Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
+                "ObservedData": "DDI Ratios",
+                "ObservedDataRecordId": 382,
+                "SimulationControl": {
+                  "Project": "Fluconazole-Midazolam-DDI",
+                  "Simulation": "Olkkola_midazolam_placebo_day 6",
+                  "StartTime": 0,
+                  "EndTime": 17,
+                  "TimeUnit": "h"
+                },
+                "SimulationDDI": {
+                  "Project": "Fluconazole-Midazolam-DDI",
+                  "Simulation": "Olkkola_midazolam_fluconazole_DDI_day 6",
+                  "StartTime": 122,
+                  "EndTime": 139,
+                  "TimeUnit": "h"
+                }
+              }
+            ]
+          },
+          {
+            "Caption": "Fluconazole + Midazolam (iv)",
+            "Color": "#01665e",
+            "Symbol": "Square",
+            "DDIRatios": [
+              {
+                "Output": "Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
+                "ObservedData": "DDI Ratios",
+                "ObservedDataRecordId": 381,
+                "SimulationControl": {
+                  "Project": "Fluconazole-Midazolam-DDI",
+                  "Simulation": "Olkkola_midazolam_placebo_day 4",
+                  "StartTime": 0,
+                  "EndTime": 7,
+                  "TimeUnit": "h"
+                },
+                "SimulationDDI": {
+                  "Project": "Fluconazole-Midazolam-DDI",
+                  "Simulation": "Olkkola_midazolam_fluconazole_DDI_day 4",
+                  "StartTime": 74,
+                  "EndTime": 91,
+                  "TimeUnit": "h"
+                }
+              }
+            ]
+          },
+          {
+            "Caption": "Fluconazole + Triazolam (po)",
+            "Color": "#dfc27d",
+            "Symbol": "Circle",
+            "DDIRatios": [
+              {
+                "Output": "Organism|PeripheralVenousBlood|Triazolam|Plasma (Peripheral Venous Blood)",
+                "ObservedData": "DDI Ratios",
+                "ObservedDataRecordId": 1394,
+                "SimulationControl": {
+                  "Project": "Fluconazole-Triazolam-DDI",
+                  "Simulation": "Varhe triazolam 0.25 mg po placebo",
+                  "StartTime": 0,
+                  "EndTime": 18,
+                  "TimeUnit": "h"
+                },
+                "SimulationDDI": {
+                  "Project": "Fluconazole-Triazolam-DDI",
+                  "Simulation": "Varhe triazolam 0.25 mg po fluconazole 50mg",
+                  "StartTime": 73,
+                  "EndTime": 91,
+                  "TimeUnit": "h"
+                }
+              },
+              {
+                "Output": "Organism|PeripheralVenousBlood|Triazolam|Plasma (Peripheral Venous Blood)",
+                "ObservedData": "DDI Ratios",
+                "ObservedDataRecordId": 1395,
+                "SimulationControl": {
+                  "Project": "Fluconazole-Triazolam-DDI",
+                  "Simulation": "Varhe triazolam 0.25 mg po placebo",
+                  "StartTime": 0,
+                  "EndTime": 18,
+                  "TimeUnit": "h"
+                },
+                "SimulationDDI": {
+                  "Project": "Fluconazole-Triazolam-DDI",
+                  "Simulation": "Varhe triazolam 0.25 mg po fluconazole 100mg",
+                  "StartTime": 73,
+                  "EndTime": 91,
+                  "TimeUnit": "h"
+                }
+              },
+              {
+                "Output": "Organism|PeripheralVenousBlood|Triazolam|Plasma (Peripheral Venous Blood)",
+                "ObservedData": "DDI Ratios",
+                "ObservedDataRecordId": 1396,
+                "SimulationControl": {
+                  "Project": "Fluconazole-Triazolam-DDI",
+                  "Simulation": "Varhe triazolam 0.25 mg po placebo",
+                  "StartTime": 0,
+                  "EndTime": 18,
+                  "TimeUnit": "h"
+                },
+                "SimulationDDI": {
+                  "Project": "Fluconazole-Triazolam-DDI",
+                  "Simulation": "Varhe triazolam 0.25 mg po fluconazole 200mg",
+                  "StartTime": 73,
+                  "EndTime": 91,
+                  "TimeUnit": "h"
+                }
+              }
+            ]
           }
         ]
       }
@@ -16309,6 +17441,21 @@
               "Id": 1224,
               "Title": "Rifampicin - Verapamil DDI",
               "Content": "Content/Rifampicin-Verapamil-DDI.md"
+            },            
+            {
+              "Id": 1225,
+              "Title": "Fluconazole - Alfentanil DDI",
+              "Content": "Content/Fluconazole-Alfentanil-DDI.md"
+            },
+            {
+              "Id": 1226,
+              "Title": "Fluconazole - Midazolam DDI",
+              "Content": "Content/Fluconazole-Midazolam-DDI.md"
+            },
+            {
+              "Id": 1227,
+              "Title": "Fluconazole - Triazolam DDI",
+              "Content": "Content/Fluconazole-Triazolam-DDI.md"
             }
           ]
         }
@@ -16442,6 +17589,21 @@
         {
           "Id": 324,
           "Title": "3.24 Rifampicin - Verapamil DDI",
+          "Content": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Qualification-text-modules/v1.2/Empty.md"
+        },
+        {
+          "Id": 325,
+          "Title": "3.12 Fluconazole - Alfentanil DDI",
+          "Content": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Qualification-text-modules/v1.2/Empty.md"
+        },
+        {
+          "Id": 326,
+          "Title": "3.13 Fluconazole - Midazolam DDI",
+          "Content": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Qualification-text-modules/v1.2/Empty.md"
+        },
+        {
+          "Id": 327,
+          "Title": "3.14 Fluconazole - Triazolam DDI",
           "Content": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Qualification-text-modules/v1.2/Empty.md"
         }
       ]
