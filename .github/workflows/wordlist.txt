@@ -1515,3 +1515,5 @@ Ploeger
 Rönquist
 Schultze
 vilaprisan
+Isohanni
+Palkama
