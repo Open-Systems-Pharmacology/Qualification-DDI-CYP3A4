@@ -6161,7 +6161,7 @@
     },
     {
       "Id": "Verapamil-Midazolam-DDI",
-      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Verapamil-Midazolam-DDI/v1.2/Verapamil-Midazolam-DDI.json",
+      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Verapamil-Midazolam-DDI/v1.3/Verapamil-Midazolam-DDI.json",
       "BuildingBlocks": [
         {
           "Type": "Compound",
