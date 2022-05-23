@@ -6,6 +6,24 @@
 
 
 
+## Carbamazepine-Alprazolam-DDI
+
+**Furukori 1998** Furukori, H., Otani, K., Yasui, N., *et al.* (2018). Effect of carbamazepine on the single oral dose pharmacokinetics of alprazolam. *Neuropsychopharmacology*, *18*(5), 364-369.
+
+
+
+## Carbamazepine-Efavirenz-DDI
+
+**Ji 2008** Ji, P., Damle, B., Xie, J., Unger, S. E., Grasela, D. M., & Kaul, S. (2008). Pharmacokinetic interaction between efavirenz and carbamazepine after multiple‐dose administration in healthy subjects. *The Journal of Clinical Pharmacology*, *48*(8), 948-956.
+
+
+
+## Carbamazepine-Midazolam-DDI
+
+**Lutz 2018** Lutz, J. D., Kirby, B. J., Wang, L., *et al.* (2018). Cytochrome P450 3A induction predicts P‐glycoprotein induction; part 2: prediction of decreased substrate exposure after rifabutin or carbamazepine. *Clinical Pharmacology & Therapeutics*, *104*(6), 1191-1198.
+
+
+
 ## Cimetidine-Alfentanil-DDI
 
 **Kienlen 1993** Kienlen, J., Levron, JC., Aubas, S. *et al.* Pharmacokinetics of Alfentanil in Patients Treated with Either Cimetidine or Ranitidine.  Drug Invest **6,** 257–262 (1993).
@@ -17,6 +35,12 @@
 **Pourbaix 1985** Pourbaix S, Desager JP, Hulhoven R, Smith RB, Harvengt C. Pharmacokinetic consequences of  long term coadministration of cimetidine and triazolobenzodiazepines,  alprazolam and triazolam, in healthy subjects. Int J Clin Pharmacol Ther Toxicol. 1985 Aug;23(8):447-51.
 
 **Abernethy 1983**  Abernethy DR,  Greenblatt DJ, Divoll M, Moschitto LJ, Harmatz JS, Shader RI.  Interaction of cimetidine with the triazolobenzodiazepines alprazolam  and triazolam. Psychopharmacology (Berl). 1983;80(3):275-8. doi:  10.1007/BF00436169.
+
+
+
+## Cimetidine-Carbamazepine-DDI
+
+**Dalton 1985** Dalton, M. J., Powell, J. R., & Messenheimer Jr, J. A. (1985). The Influence of Cimetidine on Single‐Dose Carbamazepine Pharmacokinetics. *Epilepsia*, *26*(2), 127-130.
 
 
 
@@ -89,6 +113,16 @@
 ## Erythromycin-Alprazolam-DDI
 
 **Yasui 1996** Yasui, N., Otani, K., Kaneko, S., Ohkubo, T., Osanai, T., Sugawara, K., ... & Ishizaki, T. (1996). A kinetic and dynamic study of oral alprazolam with and without erythromycin in humans: in vivo evidence for the involvement of CYP3A4 in alprazolam metabolism. *Clinical Pharmacology & Therapeutics*, *59*(5), 514-519.
+
+
+
+## Erythromycin-Carbamazepine-DDI
+
+**Barzaghi 1987** Barzaghi, N., Gatti, G., Crema, F., Monteleone, M., Amione, C., Leone, L., & Perucca, E. (1987). Inhibition by erythromycin of the conversion of carbamazepine to its active 10, 11‐epoxide metabolite. *British journal of clinical pharmacology*, *24*(6), 836-838.
+
+**Miles 1989** Miles, M. V., & Tennison, M. B. (1989). Erythromycin effects on multiple-dose carbamazepine kinetics. *Therapeutic drug monitoring*, *11*(1), 47-52.
+
+**Wong 1983** Wong, Y. Y., Ludden, T. M., & Bell, R. D. (1983). Effect of erythromycin on carbamazepine kinetics. *Clinical Pharmacology & Therapeutics*, *33*(4), 460-464.
 
 
 
