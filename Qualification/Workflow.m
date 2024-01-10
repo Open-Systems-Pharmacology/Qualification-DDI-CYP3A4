@@ -8,9 +8,9 @@ tic
 
 % --------------------------------------------------------------
 % replace qualificationRunnerFolder and markdownJoinerFolder with your paths
-qualificationRunnerFolder = 'C:\Software\QualificationRunner_11.0.9999';
-markdownJoinerFolder = 'C:\Software\markdown-joiner_1.2.0.8';
-PKSimPortableFolder = 'C:\Software\PK-Sim_11.0.9999';
+qualificationRunnerFolder = 'C:\OSP\QualificationRunner 11.0.138';
+markdownJoinerFolder = 'C:\OSP\markdown-joiner_1.2.0.8';
+PKSimPortableFolder = 'C:\OSP\PK-Sim_11.0.150';
 
 % --------------------------------------------------------------
 % replace baseDir and qualificationPlanName with your paths
