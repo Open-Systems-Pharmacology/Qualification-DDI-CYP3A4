@@ -1,7 +1,7 @@
 The release of the snapshot containing the respective simulations can be found here:
 https://github.com/Open-Systems-Pharmacology/Carbamazepine-Midazolam-DDI/releases/tag/vXX
 
-The carbamazepine-midazolam interaction was evaluated using one clinical DDI study ([Lutz 2018](#4-references)).
+The carbamazepine-midazolam interaction was evaluated using three clinical DDI studies ([Lutz 2018](#4-references), [Kanefendt 2023](#4-references)).
 
 | DataID | Enzyme | Perpetrator / victim      | Study design                                                                                                                                                                                                        | Clinical study                  |
 | ------ | ------ | ------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------- |
