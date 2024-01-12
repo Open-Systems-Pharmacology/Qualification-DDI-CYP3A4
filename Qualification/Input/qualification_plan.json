@@ -11,7 +11,7 @@
     },
     {
       "Id": "Cimetidine",
-      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Cimetidine-Model/v1.1/Cimetidine-Model.json"
+      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Cimetidine-Model/v1.2/Cimetidine-Model.json"
     },
     {
       "Id": "Clarithromycin",
@@ -55,7 +55,7 @@
     },
     {
       "Id": "Cimetidine-Alfentanil-DDI",
-      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Cimetidine-Alfentanil-DDI/v1.1/Cimetidine-Alfentanil-DDI.json",
+      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Cimetidine-Alfentanil-DDI/v1.2/Cimetidine-Alfentanil-DDI.json",
       "BuildingBlocks": [
         {
           "Type": "Compound",
@@ -271,7 +271,7 @@
     },
     {
       "Id": "Cimetidine-Alprazolam-DDI",
-      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Cimetidine-Alprazolam-DDI/v1.1/Cimetidine-Alprazolam-DDI.json",
+      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Cimetidine-Alprazolam-DDI/v1.2/Cimetidine-Alprazolam-DDI.json",
       "BuildingBlocks": [
         {
           "Type": "Compound",
@@ -541,7 +541,7 @@
     },
     {
       "Id": "Cimetidine-Midazolam-DDI",
-      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Cimetidine-Midazolam-DDI/v1.1/Cimetidine-Midazolam-DDI.json",
+      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Cimetidine-Midazolam-DDI/v1.2/Cimetidine-Midazolam-DDI.json",
       "BuildingBlocks": [
         {
           "Type": "Compound",
@@ -987,7 +987,7 @@
     },
     {
       "Id": "Cimetidine-Triazolam-DDI",
-      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Cimetidine-Triazolam-DDI/v1.1/Cimetidine-Triazolam-DDI.json",
+      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Cimetidine-Triazolam-DDI/v1.2/Cimetidine-Triazolam-DDI.json",
       "BuildingBlocks": [
         {
           "Type": "Compound",
@@ -1323,7 +1323,7 @@
     },
     {
       "Id": "Cimetidine-Verapamil-DDI",
-      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Cimetidine-Verapamil-DDI/v1.1/Cimetidine-Verapamil-DDI.json",
+      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Cimetidine-Verapamil-DDI/v1.2/Cimetidine-Verapamil-DDI.json",
       "BuildingBlocks": [
         {
           "Type": "Compound",
