@@ -10,6 +10,10 @@
       "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Alprazolam-Model/v1.1/Alprazolam-Model.json"
     },
     {
+      "Id": "Carbamazepine",
+      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Carbamazepine-Model/v1.2/Carbamazepine-Model.json"
+    },
+    {
       "Id": "Cimetidine",
       "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Cimetidine-Model/v1.2/Cimetidine-Model.json"
     },
@@ -52,6 +56,580 @@
     {
       "Id": "Verapamil",
       "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Verapamil-Model/v1.2/Verapamil-Model.json"
+    },
+    {
+      "Id": "Carbamazepine-Alprazolam-DDI",
+      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Carbamazepine-Alprazolam-DDI/v1.0/Carbamazepine-Alprazolam-DDI.json",
+      "BuildingBlocks": [
+        {
+          "Type": "Compound",
+          "Name": "Alprazolam",
+          "Project": "Alprazolam"
+        },
+        {
+          "Type": "Formulation",
+          "Name": "Solanax",
+          "Project": "Alprazolam"
+        },
+        {
+          "Type": "Compound",
+          "Name": "Carbamazepine",
+          "Project": "Carbamazepine"
+        },
+        {
+          "Type": "Formulation",
+          "Name": "CBZ_tabletIR_fasted (Tegretol)",
+          "Project": "Carbamazepine"
+        }
+      ],
+      "SimulationParameters": [
+        {
+          "Project": "Alprazolam",
+          "Simulation": "PO_0.5mg",
+          "Path": "Neighborhoods|Duodenum_int_Duodenum_cell|Alprazolam|P (interstitial->intracellular)",
+          "TargetSimulations": [
+            "Furukori1998_ControlPhase",
+            "Furukori1998_TreatmentPhase"
+          ]
+        },
+        {
+          "Project": "Alprazolam",
+          "Simulation": "PO_0.5mg",
+          "Path": "Neighborhoods|UpperJejunum_int_UpperJejunum_cell|Alprazolam|P (interstitial->intracellular)",
+          "TargetSimulations": [
+            "Furukori1998_ControlPhase",
+            "Furukori1998_TreatmentPhase"
+          ]
+        },
+        {
+          "Project": "Alprazolam",
+          "Simulation": "PO_0.5mg",
+          "Path": "Neighborhoods|LowerJejunum_int_LowerJejunum_cell|Alprazolam|P (interstitial->intracellular)",
+          "TargetSimulations": [
+            "Furukori1998_ControlPhase",
+            "Furukori1998_TreatmentPhase"
+          ]
+        },
+        {
+          "Project": "Alprazolam",
+          "Simulation": "PO_0.5mg",
+          "Path": "Neighborhoods|UpperIleum_int_UpperIleum_cell|Alprazolam|P (interstitial->intracellular)",
+          "TargetSimulations": [
+            "Furukori1998_ControlPhase",
+            "Furukori1998_TreatmentPhase"
+          ]
+        },
+        {
+          "Project": "Alprazolam",
+          "Simulation": "PO_0.5mg",
+          "Path": "Neighborhoods|LowerIleum_int_LowerIleum_cell|Alprazolam|P (interstitial->intracellular)",
+          "TargetSimulations": [
+            "Furukori1998_ControlPhase",
+            "Furukori1998_TreatmentPhase"
+          ]
+        },
+        {
+          "Project": "Alprazolam",
+          "Simulation": "PO_0.5mg",
+          "Path": "Neighborhoods|Caecum_int_Caecum_cell|Alprazolam|P (interstitial->intracellular)",
+          "TargetSimulations": [
+            "Furukori1998_ControlPhase",
+            "Furukori1998_TreatmentPhase"
+          ]
+        },
+        {
+          "Project": "Alprazolam",
+          "Simulation": "PO_0.5mg",
+          "Path": "Neighborhoods|ColonAscendens_int_ColonAscendens_cell|Alprazolam|P (interstitial->intracellular)",
+          "TargetSimulations": [
+            "Furukori1998_ControlPhase",
+            "Furukori1998_TreatmentPhase"
+          ]
+        },
+        {
+          "Project": "Alprazolam",
+          "Simulation": "PO_0.5mg",
+          "Path": "Neighborhoods|ColonTransversum_int_ColonTransversum_cell|Alprazolam|P (interstitial->intracellular)",
+          "TargetSimulations": [
+            "Furukori1998_ControlPhase",
+            "Furukori1998_TreatmentPhase"
+          ]
+        },
+        {
+          "Project": "Alprazolam",
+          "Simulation": "PO_0.5mg",
+          "Path": "Neighborhoods|ColonDescendens_int_ColonDescendens_cell|Alprazolam|P (interstitial->intracellular)",
+          "TargetSimulations": [
+            "Furukori1998_ControlPhase",
+            "Furukori1998_TreatmentPhase"
+          ]
+        },
+        {
+          "Project": "Alprazolam",
+          "Simulation": "PO_0.5mg",
+          "Path": "Neighborhoods|ColonSigmoid_int_ColonSigmoid_cell|Alprazolam|P (interstitial->intracellular)",
+          "TargetSimulations": [
+            "Furukori1998_ControlPhase",
+            "Furukori1998_TreatmentPhase"
+          ]
+        },
+        {
+          "Project": "Alprazolam",
+          "Simulation": "PO_0.5mg",
+          "Path": "Neighborhoods|Rectum_int_Rectum_cell|Alprazolam|P (interstitial->intracellular)",
+          "TargetSimulations": [
+            "Furukori1998_ControlPhase",
+            "Furukori1998_TreatmentPhase"
+          ]
+        },
+        {
+          "Project": "Alprazolam",
+          "Simulation": "PO_0.5mg",
+          "Path": "Neighborhoods|Duodenum_int_Duodenum_cell|Alprazolam|P (intracellular->interstitial)",
+          "TargetSimulations": [
+            "Furukori1998_ControlPhase",
+            "Furukori1998_TreatmentPhase"
+          ]
+        },
+        {
+          "Project": "Alprazolam",
+          "Simulation": "PO_0.5mg",
+          "Path": "Neighborhoods|UpperJejunum_int_UpperJejunum_cell|Alprazolam|P (intracellular->interstitial)",
+          "TargetSimulations": [
+            "Furukori1998_ControlPhase",
+            "Furukori1998_TreatmentPhase"
+          ]
+        },
+        {
+          "Project": "Alprazolam",
+          "Simulation": "PO_0.5mg",
+          "Path": "Neighborhoods|LowerJejunum_int_LowerJejunum_cell|Alprazolam|P (intracellular->interstitial)",
+          "TargetSimulations": [
+            "Furukori1998_ControlPhase",
+            "Furukori1998_TreatmentPhase"
+          ]
+        },
+        {
+          "Project": "Alprazolam",
+          "Simulation": "PO_0.5mg",
+          "Path": "Neighborhoods|UpperIleum_int_UpperIleum_cell|Alprazolam|P (intracellular->interstitial)",
+          "TargetSimulations": [
+            "Furukori1998_ControlPhase",
+            "Furukori1998_TreatmentPhase"
+          ]
+        },
+        {
+          "Project": "Alprazolam",
+          "Simulation": "PO_0.5mg",
+          "Path": "Neighborhoods|LowerIleum_int_LowerIleum_cell|Alprazolam|P (intracellular->interstitial)",
+          "TargetSimulations": [
+            "Furukori1998_ControlPhase",
+            "Furukori1998_TreatmentPhase"
+          ]
+        },
+        {
+          "Project": "Alprazolam",
+          "Simulation": "PO_0.5mg",
+          "Path": "Neighborhoods|Caecum_int_Caecum_cell|Alprazolam|P (intracellular->interstitial)",
+          "TargetSimulations": [
+            "Furukori1998_ControlPhase",
+            "Furukori1998_TreatmentPhase"
+          ]
+        },
+        {
+          "Project": "Alprazolam",
+          "Simulation": "PO_0.5mg",
+          "Path": "Neighborhoods|ColonAscendens_int_ColonAscendens_cell|Alprazolam|P (intracellular->interstitial)",
+          "TargetSimulations": [
+            "Furukori1998_ControlPhase",
+            "Furukori1998_TreatmentPhase"
+          ]
+        },
+        {
+          "Project": "Alprazolam",
+          "Simulation": "PO_0.5mg",
+          "Path": "Neighborhoods|ColonTransversum_int_ColonTransversum_cell|Alprazolam|P (intracellular->interstitial)",
+          "TargetSimulations": [
+            "Furukori1998_ControlPhase",
+            "Furukori1998_TreatmentPhase"
+          ]
+        },
+        {
+          "Project": "Alprazolam",
+          "Simulation": "PO_0.5mg",
+          "Path": "Neighborhoods|ColonDescendens_int_ColonDescendens_cell|Alprazolam|P (intracellular->interstitial)",
+          "TargetSimulations": [
+            "Furukori1998_ControlPhase",
+            "Furukori1998_TreatmentPhase"
+          ]
+        },
+        {
+          "Project": "Alprazolam",
+          "Simulation": "PO_0.5mg",
+          "Path": "Neighborhoods|ColonSigmoid_int_ColonSigmoid_cell|Alprazolam|P (intracellular->interstitial)",
+          "TargetSimulations": [
+            "Furukori1998_ControlPhase",
+            "Furukori1998_TreatmentPhase"
+          ]
+        },
+        {
+          "Project": "Alprazolam",
+          "Simulation": "PO_0.5mg",
+          "Path": "Neighborhoods|Rectum_int_Rectum_cell|Alprazolam|P (intracellular->interstitial)",
+          "TargetSimulations": [
+            "Furukori1998_ControlPhase",
+            "Furukori1998_TreatmentPhase"
+          ]
+        }
+      ]
+    },
+    {
+      "Id": "Carbamazepine-Efavirenz-DDI",
+      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Carbamazepine-Efavirenz-DDI/v1.0/Carbamazepine-Efavirenz-DDI.json",
+      "BuildingBlocks": [
+        {
+          "Type": "Compound",
+          "Name": "Carbamazepine",
+          "Project": "Carbamazepine"
+        },
+        {
+          "Type": "Formulation",
+          "Name": "CBZ_tabletIR_fasted (Tegretol)",
+          "Project": "Carbamazepine"
+        },
+        {
+          "Type": "Compound",
+          "Name": "Efavirenz",
+          "Project": "Efavirenz"
+        },
+        {
+          "Type": "Formulation",
+          "Name": "Sustiva",
+          "Project": "Efavirenz"
+        }
+      ],
+      "SimulationParameters": [
+        
+      ]
+    },
+    {
+      "Id": "Carbamazepine-Midazolam-DDI",
+      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Carbamazepine-Midazolam-DDI/v1.0/Carbamazepine-Midazolam-DDI.json",
+      "BuildingBlocks": [
+        {
+          "Type": "Compound",
+          "Name": "Midazolam",
+          "Project": "Midazolam"
+        },
+        {
+          "Type": "Formulation",
+          "Name": "Solution",
+          "Project": "Midazolam"
+        },
+        {
+          "Type": "Compound",
+          "Name": "Carbamazepine",
+          "Project": "Carbamazepine"
+        },
+        {
+          "Type": "Formulation",
+          "Name": "CBZ_tabletIR_fasted (Tegretol)",
+          "Project": "Carbamazepine"
+        },
+        {
+          "Type": "Formulation",
+          "Name": "CBZ_capsuleXR_fasted (Carbatrol)",
+          "Project": "Carbamazepine"
+        }
+      ],
+      "SimulationParameters": [
+        {
+          "Project": "Midazolam",
+          "Simulation": "po 3 mg (solution)",
+          "Path": "Neighborhoods|Duodenum_int_Duodenum_cell|Midazolam|P (interstitial->intracellular)",
+          "TargetSimulations": [
+            "Kanefendt2023_Study1_ControlPhase",
+            "Kanefendt2023_Study1_TreatmentPhase",
+            "Kanefendt2023_Study2_ControlPhase",
+            "Kanefendt2023_Study2_TreatmentPhase",
+            "Lutz2018_ControlPhase",
+            "Lutz2018_TreatmentPhase"
+          ]
+        },
+        {
+          "Project": "Midazolam",
+          "Simulation": "po 3 mg (solution)",
+          "Path": "Neighborhoods|UpperJejunum_int_UpperJejunum_cell|Midazolam|P (interstitial->intracellular)",
+          "TargetSimulations": [
+            "Kanefendt2023_Study1_ControlPhase",
+            "Kanefendt2023_Study1_TreatmentPhase",
+            "Kanefendt2023_Study2_ControlPhase",
+            "Kanefendt2023_Study2_TreatmentPhase",
+            "Lutz2018_ControlPhase",
+            "Lutz2018_TreatmentPhase"
+          ]
+        },
+        {
+          "Project": "Midazolam",
+          "Simulation": "po 3 mg (solution)",
+          "Path": "Neighborhoods|LowerJejunum_int_LowerJejunum_cell|Midazolam|P (interstitial->intracellular)",
+          "TargetSimulations": [
+            "Kanefendt2023_Study1_ControlPhase",
+            "Kanefendt2023_Study1_TreatmentPhase",
+            "Kanefendt2023_Study2_ControlPhase",
+            "Kanefendt2023_Study2_TreatmentPhase",
+            "Lutz2018_ControlPhase",
+            "Lutz2018_TreatmentPhase"
+          ]
+        },
+        {
+          "Project": "Midazolam",
+          "Simulation": "po 3 mg (solution)",
+          "Path": "Neighborhoods|UpperIleum_int_UpperIleum_cell|Midazolam|P (interstitial->intracellular)",
+          "TargetSimulations": [
+            "Kanefendt2023_Study1_ControlPhase",
+            "Kanefendt2023_Study1_TreatmentPhase",
+            "Kanefendt2023_Study2_ControlPhase",
+            "Kanefendt2023_Study2_TreatmentPhase",
+            "Lutz2018_ControlPhase",
+            "Lutz2018_TreatmentPhase"
+          ]
+        },
+        {
+          "Project": "Midazolam",
+          "Simulation": "po 3 mg (solution)",
+          "Path": "Neighborhoods|LowerIleum_int_LowerIleum_cell|Midazolam|P (interstitial->intracellular)",
+          "TargetSimulations": [
+            "Kanefendt2023_Study1_ControlPhase",
+            "Kanefendt2023_Study1_TreatmentPhase",
+            "Kanefendt2023_Study2_ControlPhase",
+            "Kanefendt2023_Study2_TreatmentPhase",
+            "Lutz2018_ControlPhase",
+            "Lutz2018_TreatmentPhase"
+          ]
+        },
+        {
+          "Project": "Midazolam",
+          "Simulation": "po 3 mg (solution)",
+          "Path": "Neighborhoods|Caecum_int_Caecum_cell|Midazolam|P (interstitial->intracellular)",
+          "TargetSimulations": [
+            "Kanefendt2023_Study1_ControlPhase",
+            "Kanefendt2023_Study1_TreatmentPhase",
+            "Kanefendt2023_Study2_ControlPhase",
+            "Kanefendt2023_Study2_TreatmentPhase",
+            "Lutz2018_ControlPhase",
+            "Lutz2018_TreatmentPhase"
+          ]
+        },
+        {
+          "Project": "Midazolam",
+          "Simulation": "po 3 mg (solution)",
+          "Path": "Neighborhoods|ColonAscendens_int_ColonAscendens_cell|Midazolam|P (interstitial->intracellular)",
+          "TargetSimulations": [
+            "Kanefendt2023_Study1_ControlPhase",
+            "Kanefendt2023_Study1_TreatmentPhase",
+            "Kanefendt2023_Study2_ControlPhase",
+            "Kanefendt2023_Study2_TreatmentPhase",
+            "Lutz2018_ControlPhase",
+            "Lutz2018_TreatmentPhase"
+          ]
+        },
+        {
+          "Project": "Midazolam",
+          "Simulation": "po 3 mg (solution)",
+          "Path": "Neighborhoods|ColonTransversum_int_ColonTransversum_cell|Midazolam|P (interstitial->intracellular)",
+          "TargetSimulations": [
+            "Kanefendt2023_Study1_ControlPhase",
+            "Kanefendt2023_Study1_TreatmentPhase",
+            "Kanefendt2023_Study2_ControlPhase",
+            "Kanefendt2023_Study2_TreatmentPhase",
+            "Lutz2018_ControlPhase",
+            "Lutz2018_TreatmentPhase"
+          ]
+        },
+        {
+          "Project": "Midazolam",
+          "Simulation": "po 3 mg (solution)",
+          "Path": "Neighborhoods|ColonDescendens_int_ColonDescendens_cell|Midazolam|P (interstitial->intracellular)",
+          "TargetSimulations": [
+            "Kanefendt2023_Study1_ControlPhase",
+            "Kanefendt2023_Study1_TreatmentPhase",
+            "Kanefendt2023_Study2_ControlPhase",
+            "Kanefendt2023_Study2_TreatmentPhase",
+            "Lutz2018_ControlPhase",
+            "Lutz2018_TreatmentPhase"
+          ]
+        },
+        {
+          "Project": "Midazolam",
+          "Simulation": "po 3 mg (solution)",
+          "Path": "Neighborhoods|ColonSigmoid_int_ColonSigmoid_cell|Midazolam|P (interstitial->intracellular)",
+          "TargetSimulations": [
+            "Kanefendt2023_Study1_ControlPhase",
+            "Kanefendt2023_Study1_TreatmentPhase",
+            "Kanefendt2023_Study2_ControlPhase",
+            "Kanefendt2023_Study2_TreatmentPhase",
+            "Lutz2018_ControlPhase",
+            "Lutz2018_TreatmentPhase"
+          ]
+        },
+        {
+          "Project": "Midazolam",
+          "Simulation": "po 3 mg (solution)",
+          "Path": "Neighborhoods|Rectum_int_Rectum_cell|Midazolam|P (interstitial->intracellular)",
+          "TargetSimulations": [
+            "Kanefendt2023_Study1_ControlPhase",
+            "Kanefendt2023_Study1_TreatmentPhase",
+            "Kanefendt2023_Study2_ControlPhase",
+            "Kanefendt2023_Study2_TreatmentPhase",
+            "Lutz2018_ControlPhase",
+            "Lutz2018_TreatmentPhase"
+          ]
+        },
+        {
+          "Project": "Midazolam",
+          "Simulation": "po 3 mg (solution)",
+          "Path": "Neighborhoods|Duodenum_int_Duodenum_cell|Midazolam|P (intracellular->interstitial)",
+          "TargetSimulations": [
+            "Kanefendt2023_Study1_ControlPhase",
+            "Kanefendt2023_Study1_TreatmentPhase",
+            "Kanefendt2023_Study2_ControlPhase",
+            "Kanefendt2023_Study2_TreatmentPhase",
+            "Lutz2018_ControlPhase",
+            "Lutz2018_TreatmentPhase"
+          ]
+        },
+        {
+          "Project": "Midazolam",
+          "Simulation": "po 3 mg (solution)",
+          "Path": "Neighborhoods|UpperJejunum_int_UpperJejunum_cell|Midazolam|P (intracellular->interstitial)",
+          "TargetSimulations": [
+            "Kanefendt2023_Study1_ControlPhase",
+            "Kanefendt2023_Study1_TreatmentPhase",
+            "Kanefendt2023_Study2_ControlPhase",
+            "Kanefendt2023_Study2_TreatmentPhase",
+            "Lutz2018_ControlPhase",
+            "Lutz2018_TreatmentPhase"
+          ]
+        },
+        {
+          "Project": "Midazolam",
+          "Simulation": "po 3 mg (solution)",
+          "Path": "Neighborhoods|LowerJejunum_int_LowerJejunum_cell|Midazolam|P (intracellular->interstitial)",
+          "TargetSimulations": [
+            "Kanefendt2023_Study1_ControlPhase",
+            "Kanefendt2023_Study1_TreatmentPhase",
+            "Kanefendt2023_Study2_ControlPhase",
+            "Kanefendt2023_Study2_TreatmentPhase",
+            "Lutz2018_ControlPhase",
+            "Lutz2018_TreatmentPhase"
+          ]
+        },
+        {
+          "Project": "Midazolam",
+          "Simulation": "po 3 mg (solution)",
+          "Path": "Neighborhoods|UpperIleum_int_UpperIleum_cell|Midazolam|P (intracellular->interstitial)",
+          "TargetSimulations": [
+            "Kanefendt2023_Study1_ControlPhase",
+            "Kanefendt2023_Study1_TreatmentPhase",
+            "Kanefendt2023_Study2_ControlPhase",
+            "Kanefendt2023_Study2_TreatmentPhase",
+            "Lutz2018_ControlPhase",
+            "Lutz2018_TreatmentPhase"
+          ]
+        },
+        {
+          "Project": "Midazolam",
+          "Simulation": "po 3 mg (solution)",
+          "Path": "Neighborhoods|LowerIleum_int_LowerIleum_cell|Midazolam|P (intracellular->interstitial)",
+          "TargetSimulations": [
+            "Kanefendt2023_Study1_ControlPhase",
+            "Kanefendt2023_Study1_TreatmentPhase",
+            "Kanefendt2023_Study2_ControlPhase",
+            "Kanefendt2023_Study2_TreatmentPhase",
+            "Lutz2018_ControlPhase",
+            "Lutz2018_TreatmentPhase"
+          ]
+        },
+        {
+          "Project": "Midazolam",
+          "Simulation": "po 3 mg (solution)",
+          "Path": "Neighborhoods|Caecum_int_Caecum_cell|Midazolam|P (intracellular->interstitial)",
+          "TargetSimulations": [
+            "Kanefendt2023_Study1_ControlPhase",
+            "Kanefendt2023_Study1_TreatmentPhase",
+            "Kanefendt2023_Study2_ControlPhase",
+            "Kanefendt2023_Study2_TreatmentPhase",
+            "Lutz2018_ControlPhase",
+            "Lutz2018_TreatmentPhase"
+          ]
+        },
+        {
+          "Project": "Midazolam",
+          "Simulation": "po 3 mg (solution)",
+          "Path": "Neighborhoods|ColonAscendens_int_ColonAscendens_cell|Midazolam|P (intracellular->interstitial)",
+          "TargetSimulations": [
+            "Kanefendt2023_Study1_ControlPhase",
+            "Kanefendt2023_Study1_TreatmentPhase",
+            "Kanefendt2023_Study2_ControlPhase",
+            "Kanefendt2023_Study2_TreatmentPhase",
+            "Lutz2018_ControlPhase",
+            "Lutz2018_TreatmentPhase"
+          ]
+        },
+        {
+          "Project": "Midazolam",
+          "Simulation": "po 3 mg (solution)",
+          "Path": "Neighborhoods|ColonTransversum_int_ColonTransversum_cell|Midazolam|P (intracellular->interstitial)",
+          "TargetSimulations": [
+            "Kanefendt2023_Study1_ControlPhase",
+            "Kanefendt2023_Study1_TreatmentPhase",
+            "Kanefendt2023_Study2_ControlPhase",
+            "Kanefendt2023_Study2_TreatmentPhase",
+            "Lutz2018_ControlPhase",
+            "Lutz2018_TreatmentPhase"
+          ]
+        },
+        {
+          "Project": "Midazolam",
+          "Simulation": "po 3 mg (solution)",
+          "Path": "Neighborhoods|ColonDescendens_int_ColonDescendens_cell|Midazolam|P (intracellular->interstitial)",
+          "TargetSimulations": [
+            "Kanefendt2023_Study1_ControlPhase",
+            "Kanefendt2023_Study1_TreatmentPhase",
+            "Kanefendt2023_Study2_ControlPhase",
+            "Kanefendt2023_Study2_TreatmentPhase",
+            "Lutz2018_ControlPhase",
+            "Lutz2018_TreatmentPhase"
+          ]
+        },
+        {
+          "Project": "Midazolam",
+          "Simulation": "po 3 mg (solution)",
+          "Path": "Neighborhoods|ColonSigmoid_int_ColonSigmoid_cell|Midazolam|P (intracellular->interstitial)",
+          "TargetSimulations": [
+            "Kanefendt2023_Study1_ControlPhase",
+            "Kanefendt2023_Study1_TreatmentPhase",
+            "Kanefendt2023_Study2_ControlPhase",
+            "Kanefendt2023_Study2_TreatmentPhase",
+            "Lutz2018_ControlPhase",
+            "Lutz2018_TreatmentPhase"
+          ]
+        },
+        {
+          "Project": "Midazolam",
+          "Simulation": "po 3 mg (solution)",
+          "Path": "Neighborhoods|Rectum_int_Rectum_cell|Midazolam|P (intracellular->interstitial)",
+          "TargetSimulations": [
+            "Kanefendt2023_Study1_ControlPhase",
+            "Kanefendt2023_Study1_TreatmentPhase",
+            "Kanefendt2023_Study2_ControlPhase",
+            "Kanefendt2023_Study2_TreatmentPhase",
+            "Lutz2018_ControlPhase",
+            "Lutz2018_TreatmentPhase"
+          ]
+        }
+      ]
     },
     {
       "Id": "Cimetidine-Alfentanil-DDI",
@@ -537,6 +1115,35 @@
             "Pourbaix 1985 - alprazolam 0.5 mg TID + cimetidine 200/400 mg QID"
           ]
         }
+      ]
+    },
+    {
+      "Id": "Cimetidine-Carbamazepine-DDI",
+      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Cimetidine-Carbamazepine-DDI/v1.1/Cimetidine-Carbamazepine-DDI.json",
+      "BuildingBlocks": [
+        {
+          "Type": "Compound",
+          "Name": "Cimetidine",
+          "Project": "Cimetidine"
+        },
+        {
+          "Type": "Formulation",
+          "Name": "Tablet",
+          "Project": "Cimetidine"
+        },
+        {
+          "Type": "Compound",
+          "Name": "Carbamazepine",
+          "Project": "Carbamazepine"
+        },
+        {
+          "Type": "Formulation",
+          "Name": "CBZ_tabletIR_fasted (Tegretol)",
+          "Project": "Carbamazepine"
+        }
+      ],
+      "SimulationParameters": [
+
       ]
     },
     {
@@ -2990,6 +3597,60 @@
             "Yasui1996_Perpetrator"
           ]
         }
+      ]
+    },
+    {
+      "Id": "Erythromycin-Carbamazepine-DDI",
+      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Erythromycin-Carbamazepine-DDI/v1.1/Erythromycin-Carbamazepine-DDI.json",
+      "BuildingBlocks": [
+        {
+          "Type": "Individual",
+          "Name": "Barzaghi1987",
+          "Project": "Carbamazepine"
+        },
+        {
+          "Type": "Individual",
+          "Name": "Miles1989",
+          "Project": "Carbamazepine"
+        },
+        {
+          "Type": "Individual",
+          "Name": "Wong1983",
+          "Project": "Carbamazepine"
+        },
+        {
+          "Type": "Compound",
+          "Name": "Carbamazepine",
+          "Project": "Carbamazepine"
+        },
+        {
+          "Type": "Formulation",
+          "Name": "CBZ_tabletIR_fasted (Tegretol)",
+          "Project": "Carbamazepine"
+        },
+        {
+          "Type": "Compound",
+          "Name": "Erythromycin",
+          "Project": "Erythromycin"
+        },
+        {
+          "Type": "Formulation",
+          "Name": "Erythromycin_Weibull_enteric-coated-pellets",
+          "Project": "Erythromycin"
+        },
+        {
+          "Type": "Formulation",
+          "Name": "Erythromycin_Weibull_filmtablet",
+          "Project": "Erythromycin"
+        },
+        {
+          "Type": "Formulation",
+          "Name": "Erythromycin_Weibull_filmtablet_250mg",
+          "Project": "Erythromycin"
+        }
+      ],
+      "SimulationParameters": [
+
       ]
     },
     {
