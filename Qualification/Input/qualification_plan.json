@@ -14760,6 +14760,246 @@
             "Symbol": "Diamond"
           }
         ]
+      },
+      {
+        "SectionId": 328,
+        "Title": "Furukori 1998",
+        "SimulationDuration": 48,
+        "TimeUnit": "h",
+        "OutputMappings": [
+          {
+            "Project": "Carbamazepine-Alprazolam-DDI",
+            "Simulation": "Furukori1998_ControlPhase",
+            "Output": "Organism|PeripheralVenousBlood|Alprazolam|Plasma (Peripheral Venous Blood)",
+            "ObservedData": "Furukori 1998 - treatment with placebo - Alprazolam - PO - 0.8 mg - Plasma - agg. (n=7)",
+            "StartTime": 0,
+            "TimeUnit": "h",
+            "Color": "#2166ac",
+            "Caption": "Control (without carbamazepine)",
+            "Symbol": "Circle"
+          },
+          {
+            "Project": "Carbamazepine-Alprazolam-DDI",
+            "Simulation": "Furukori1998_TreatmentPhase",
+            "Output": "Organism|PeripheralVenousBlood|Alprazolam|Plasma (Peripheral Venous Blood)",
+            "ObservedData": "Furukori 1998 - treatment with carbamazepine - Alprazolam - PO - 0.8 mg - Plasma - agg. (n=7)",
+            "StartTime": 170,
+            "TimeUnit": "h",
+            "Color": "#b2182b",
+            "Caption": "Treatment (with carbamazepine)",
+            "Symbol": "Square"
+          }
+        ]
+      },
+      {
+        "SectionId": 329,
+        "Title": "Kanefendt 2023 (Study 1)",
+        "SimulationDuration": 24,
+        "TimeUnit": "h",
+        "OutputMappings": [
+          {
+            "Project": "Carbamazepine-Midazolam-DDI",
+            "Simulation": "Kanefendt2023_Study1_ControlPhase",
+            "Output": "Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
+            "ObservedData": "Kanefendt 2023 - Study 1, midazolam alone - Midazolam - PO - 1 mg - Plasma - agg. (n=14)",
+            "StartTime": 0,
+            "TimeUnit": "h",
+            "Color": "#2166ac",
+            "Caption": "Control (without carbamazepine)",
+            "Symbol": "Circle"
+          },
+          {
+            "Project": "Carbamazepine-Midazolam-DDI",
+            "Simulation": "Kanefendt2023_Study1_TreatmentPhase",
+            "Output": "Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
+            "ObservedData": "Kanefendt 2023 - Study 1, midazolam after pretreatment with carbamazepine - Midazolam - PO - 1 mg - Plasma - agg. (n=14)",
+            "StartTime": 334,
+            "TimeUnit": "h",
+            "Color": "#b2182b",
+            "Caption": "Treatment (with carbamazepine)",
+            "Symbol": "Square"
+          }
+        ]
+      },
+      {
+        "SectionId": 329,
+        "Title": "Kanefendt 2023 (Study 2)",
+        "SimulationDuration": 24,
+        "TimeUnit": "h",
+        "OutputMappings": [
+          {
+            "Project": "Carbamazepine-Midazolam-DDI",
+            "Simulation": "Kanefendt2023_Study2_ControlPhase",
+            "Output": "Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
+            "ObservedData": "Kanefendt 2023 - Study 2, midazolam alone - Midazolam - PO - 1 mg - Plasma - agg. (n=13)",
+            "StartTime": 0,
+            "TimeUnit": "h",
+            "Color": "#2166ac",
+            "Caption": "Control (without carbamazepine)",
+            "Symbol": "Circle"
+          },
+          {
+            "Project": "Carbamazepine-Midazolam-DDI",
+            "Simulation": "Kanefendt2023_Study2_TreatmentPhase",
+            "Output": "Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
+            "ObservedData": "Kanefendt 2023 - Study 2, midazolam after pretreatment with carbamazepine - Midazolam - PO - 1 mg - Plasma - agg. (n=13)",
+            "StartTime": 336,
+            "TimeUnit": "h",
+            "Color": "#b2182b",
+            "Caption": "Treatment (with carbamazepine)",
+            "Symbol": "Square"
+          }
+        ]
+      },
+      {
+        "SectionId": 330,
+        "Title": "Ji 2008 (Arm 1)",
+        "SimulationDuration": 24,
+        "TimeUnit": "h",
+        "OutputMappings": [
+          {
+            "Project": "Carbamazepine-Efavirenz-DDI",
+            "Simulation": "Ji2008_Arm1_ControlPhase",
+            "Output": "Organism|PeripheralVenousBlood|Efavirenz|Plasma (Peripheral Venous Blood)",
+            "ObservedData": "Ji 2008 - Efavirenz, control (Arm 1) - Efavirenz - PO - 600 mg - Plasma - agg. (n=14)",
+            "StartTime": 312,
+            "TimeUnit": "h",
+            "Color": "#2166ac",
+            "Caption": "Control (without carbamazepine)",
+            "Symbol": "Circle"
+          },
+          {
+            "Project": "Carbamazepine-Efavirenz-DDI",
+            "Simulation": "Ji2008_Arm1_TreatmentPhase",
+            "Output": "Organism|PeripheralVenousBlood|Efavirenz|Plasma (Peripheral Venous Blood)",
+            "ObservedData": "Ji 2008 - Efavirenz + Carbamazepine, treatment (Arm 1) - Efavirenz - PO - 600 mg - Plasma - agg. (n=14)",
+            "StartTime": 816,
+            "TimeUnit": "h",
+            "Color": "#b2182b",
+            "Caption": "Treatment (with carbamazepine)",
+            "Symbol": "Square"
+          }
+        ]
+      },
+      {
+        "SectionId": 331,
+        "Title": "Barzaghi 1987",
+        "SimulationDuration": 96,
+        "TimeUnit": "h",
+        "OutputMappings": [
+          {
+            "Project": "Erythromycin-Carbamazepine-DDI",
+            "Simulation": "Barzaghi1987_ControlPhase",
+            "Output": "Organism|PeripheralVenousBlood|Carbamazepine|Plasma (Peripheral Venous Blood)",
+            "ObservedData": "Barzaghi 1987 - Without erythromycin - Carbamazepine - PO - 400 mg - Serum - agg. (n=7)",
+            "StartTime": 0,
+            "TimeUnit": "h",
+            "Color": "#2166ac",
+            "Caption": "Control (without carbamazepine)",
+            "Symbol": "Circle"
+          },
+          {
+            "Project": "Erythromycin-Carbamazepine-DDI",
+            "Simulation": "Barzaghi1987_TreatmentPhase",
+            "Output": "Organism|PeripheralVenousBlood|Carbamazepine|Plasma (Peripheral Venous Blood)",
+            "ObservedData": "Barzaghi 1987 - With erythromycin - Carbamazepine - PO - 400 mg - Serum - agg. (n=7)",
+            "StartTime": 144,
+            "TimeUnit": "h",
+            "Color": "#b2182b",
+            "Caption": "Treatment (with carbamazepine)",
+            "Symbol": "Square"
+          }
+        ]
+      },
+      {
+        "SectionId": 331,
+        "Title": "Wong 1983",
+        "SimulationDuration": 72,
+        "TimeUnit": "h",
+        "OutputMappings": [
+          {
+            "Project": "Erythromycin-Carbamazepine-DDI",
+            "Simulation": "Wong1983_ControlPhase",
+            "Output": "Organism|PeripheralVenousBlood|Carbamazepine|Plasma (Peripheral Venous Blood)",
+            "ObservedData": "Wong 1983 - Treatment B (without erythromycin) - Carbamazepine - PO - 400 mg - Plasma - indiv.",
+            "StartTime": 0,
+            "TimeUnit": "h",
+            "Color": "#2166ac",
+            "Caption": "Control (without carbamazepine)",
+            "Symbol": "Circle"
+          },
+          {
+            "Project": "Erythromycin-Carbamazepine-DDI",
+            "Simulation": "Wong1983_TreatmentPhase",
+            "Output": "Organism|PeripheralVenousBlood|Carbamazepine|Plasma (Peripheral Venous Blood)",
+            "ObservedData": "Wong 1983 - Treatment A (with erythromycin) - Carbamazepine - PO - 400 mg - Plasma - indiv.",
+            "StartTime": 120,
+            "TimeUnit": "h",
+            "Color": "#b2182b",
+            "Caption": "Treatment (with carbamazepine)",
+            "Symbol": "Square"
+          }
+        ]
+      },
+      {
+        "SectionId": 331,
+        "Title": "Miles 1989 (average dose of 357 mg)",
+        "SimulationDuration": 24,
+        "TimeUnit": "h",
+        "OutputMappings": [
+          {
+            "Project": "Erythromycin-Carbamazepine-DDI",
+            "Simulation": "Miles1989_ControlPhase_357mg",
+            "Output": "Organism|PeripheralVenousBlood|Carbamazepine|Plasma (Peripheral Venous Blood)",
+            "ObservedData": "Miles 1989 - CBZ before ERY - Carbamazepine - PO - 300-400; mean dose: 357.1 +/- 53.5 mg - Serum - agg. (n=7)",
+            "StartTime": 312,
+            "TimeUnit": "h",
+            "Color": "#2166ac",
+            "Caption": "Control (without carbamazepine)",
+            "Symbol": "Circle"
+          },
+          {
+            "Project": "Erythromycin-Carbamazepine-DDI",
+            "Simulation": "Miles1989_TreatmentPhase_357mg",
+            "Output": "Organism|PeripheralVenousBlood|Carbamazepine|Plasma (Peripheral Venous Blood)",
+            "ObservedData": "Miles 1989 - CBZ during ERY - Carbamazepine - PO - 300-400; mean dose: 357.1 +/- 53.5 mg - Serum - agg. (n=7)",
+            "StartTime": 388,
+            "TimeUnit": "h",
+            "Color": "#b2182b",
+            "Caption": "Treatment (with carbamazepine)",
+            "Symbol": "Square"
+          }
+        ]
+      },
+      {
+        "SectionId": 330,
+        "Title": "Ji 2008 (Arm 2)",
+        "SimulationDuration": 24,
+        "TimeUnit": "h",
+        "OutputMappings": [
+          {
+            "Project": "Carbamazepine-Efavirenz-DDI",
+            "Simulation": "Ji2008_Arm2_ControlPhase",
+            "Output": "Organism|PeripheralVenousBlood|Efavirenz|Plasma (Peripheral Venous Blood)",
+            "ObservedData": "Ji 2008 - Carbamazepine, control (Arm 2) - Carbamazepine - PO - 200 / 400 mg - Plasma - agg. (n=36)",
+            "StartTime": 480,
+            "TimeUnit": "h",
+            "Color": "#2166ac",
+            "Caption": "Control (without efavirenz)",
+            "Symbol": "Circle"
+          },
+          {
+            "Project": "Carbamazepine-Efavirenz-DDI",
+            "Simulation": "Ji2008_Arm2_TreatmentPhase",
+            "Output": "Organism|PeripheralVenousBlood|Efavirenz|Plasma (Peripheral Venous Blood)",
+            "ObservedData": "Ji 2008 - Carbamazepine + Efavirenz, treatment (Arm 2) - Carbamazepine - PO - 200 / 400 mg - Plasma - agg. (n=36)",
+            "StartTime": 816,
+            "TimeUnit": "h",
+            "Color": "#b2182b",
+            "Caption": "Treatment (with efavirenz)",
+            "Symbol": "Square"
+          }
+        ]
       }
     ],
     "DDIRatioPlots": [
