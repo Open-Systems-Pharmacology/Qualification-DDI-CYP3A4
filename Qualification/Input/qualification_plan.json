@@ -18117,6 +18117,31 @@
               "Id": 1227,
               "Title": "Fluconazole - Triazolam DDI",
               "Content": "Content/Fluconazole-Triazolam-DDI.md"
+            },
+            {
+              "Id": 1228,
+              "Title": "Carbamazepine - Alprazolam DDI",
+              "Content": "Content/Carbamazepine-Alprazolam-DDI.md"
+            },
+            {
+              "Id": 1229,
+              "Title": "Carbamazepine - Midazolam DDI",
+              "Content": "Content/Carbamazepine-Midazolam-DDI.md"
+            },
+            {
+              "Id": 1230,
+              "Title": "Carbamazepine - Efavirenz DDI",
+              "Content": "Content/Carbamazepine-Efavirenz-DDI.md"
+            },
+            {
+              "Id": 1231,
+              "Title": "Erythromycin - Carbamazepine DDI",
+              "Content": "Content/Erythromycin-Carbamazepine-DDI.md"
+            },
+            {
+              "Id": 1232,
+              "Title": "Cimetidine - Carbamazepine DDI",
+              "Content": "Content/Cimetidine-Carbamazepine-DDI.md"
             }
           ]
         }
@@ -18265,6 +18290,31 @@
         {
           "Id": 327,
           "Title": "3.27 Fluconazole - Triazolam DDI",
+          "Content": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Qualification-text-modules/v1.2/Empty.md"
+        },
+        {
+          "Id": 328,
+          "Title": "3.28 Carbamazepine - Alprazolam DDI",
+          "Content": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Qualification-text-modules/v1.2/Empty.md"
+        },
+        {
+          "Id": 329,
+          "Title": "3.29 Carbamazepine - Midazolam DDI",
+          "Content": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Qualification-text-modules/v1.2/Empty.md"
+        },
+        {
+          "Id": 330,
+          "Title": "3.30 Carbamazepine - Efavirenz DDI",
+          "Content": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Qualification-text-modules/v1.2/Empty.md"
+        },
+        {
+          "Id": 331,
+          "Title": "3.31 Erythromycin - Carbamazepine DDI",
+          "Content": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Qualification-text-modules/v1.2/Empty.md"
+        },
+        {
+          "Id": 332,
+          "Title": "3.32 Cimetidine - Carbamazepine DDI",
           "Content": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Qualification-text-modules/v1.2/Empty.md"
         }
       ]
