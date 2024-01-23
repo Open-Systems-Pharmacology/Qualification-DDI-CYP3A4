@@ -313,35 +313,6 @@
       ]
     },
     {
-      "Id": "Efavirenz-Carbamazepine-DDI",
-      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Carbamazepine-Efavirenz-DDI/v1.0/Carbamazepine-Efavirenz-DDI.json",
-      "BuildingBlocks": [
-        {
-          "Type": "Compound",
-          "Name": "Carbamazepine",
-          "Project": "Carbamazepine"
-        },
-        {
-          "Type": "Formulation",
-          "Name": "CBZ_tabletIR_fasted (Tegretol)",
-          "Project": "Carbamazepine"
-        },
-        {
-          "Type": "Compound",
-          "Name": "Efavirenz",
-          "Project": "Efavirenz"
-        },
-        {
-          "Type": "Formulation",
-          "Name": "Sustiva",
-          "Project": "Efavirenz"
-        }
-      ],
-      "SimulationParameters": [
-        
-      ]
-    },
-    {
       "Id": "Carbamazepine-Midazolam-DDI",
       "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Carbamazepine-Midazolam-DDI/v1.0/Carbamazepine-Midazolam-DDI.json",
       "BuildingBlocks": [
@@ -3147,6 +3118,35 @@
             "Greenblatt 1998a - Clarithromycin 500 mg MD, Triazolam 0.125 mg PO"
           ]
         }
+      ]
+    },
+    {
+      "Id": "Efavirenz-Carbamazepine-DDI",
+      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Efavirenz-Carbamazepine-DDI/v1.0/Efavirenz-Carbamazepine-DDI.json",
+      "BuildingBlocks": [
+        {
+          "Type": "Compound",
+          "Name": "Carbamazepine",
+          "Project": "Carbamazepine"
+        },
+        {
+          "Type": "Formulation",
+          "Name": "CBZ_tabletIR_fasted (Tegretol)",
+          "Project": "Carbamazepine"
+        },
+        {
+          "Type": "Compound",
+          "Name": "Efavirenz",
+          "Project": "Efavirenz"
+        },
+        {
+          "Type": "Formulation",
+          "Name": "Sustiva",
+          "Project": "Efavirenz"
+        }
+      ],
+      "SimulationParameters": [
+        
       ]
     },
     {
@@ -10848,7 +10848,7 @@
   "ObservedDataSets": [
     {
       "Id": "DDI Ratios",
-      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Database-for-observed-data/v1.4/DDI.csv",
+      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Database-for-observed-data/v1.5/DDI.csv",
       "Type": "DDIRatio"
     }
   ],
@@ -18346,6 +18346,257 @@
                   "Simulation": "Varhe triazolam 0.25 mg po fluconazole 200mg",
                   "StartTime": 73,
                   "EndTime": 91,
+                  "TimeUnit": "h"
+                }
+              }
+            ]
+          },
+          {
+            "Caption": "Carbamazepine + Alprazolam (po)",
+            "Color": "#FF5050",
+            "Symbol": "Circle",
+            "DDIRatios": [
+              {
+                "Output": "Organism|PeripheralVenousBlood|Alprazolam|Plasma (Peripheral Venous Blood)",
+                "ObservedData": "DDI Ratios",
+                "ObservedDataRecordId": 1457,
+                "SimulationControl": {
+                  "Project": "Carbamazepine-Alprazolam-DDI",
+                  "Simulation": "Furukori1998_ControlPhase",
+                  "StartTime": 0,
+                  "EndTime": "Inf",
+                  "TimeUnit": "h"
+                },
+                "SimulationDDI": {
+                  "Project": "Carbamazepine-Alprazolam-DDI",
+                  "Simulation": "Furukori1998_TreatmentPhase",
+                  "StartTime": 170,
+                  "EndTime": "Inf",
+                  "TimeUnit": "h"
+                }
+              }
+            ]
+          },
+          {
+            "Caption": "Carbamazepine + Midazolam (po)",
+            "Color": "#5C0000",
+            "Symbol": "Circle",
+            "DDIRatios": [
+              {
+                "Output": "Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
+                "ObservedData": "DDI Ratios",
+                "ObservedDataRecordId": 943,
+                "SimulationControl": {
+                  "Project": "Carbamazepine-Midazolam-DDI",
+                  "Simulation": "Kanefendt2023_Study1_ControlPhase",
+                  "StartTime": 0,
+                  "EndTime": "Inf",
+                  "TimeUnit": "h"
+                },
+                "SimulationDDI": {
+                  "Project": "Carbamazepine-Midazolam-DDI",
+                  "Simulation": "Kanefendt2023_Study1_TreatmentPhase",
+                  "StartTime": 334,
+                  "EndTime": "Inf",
+                  "TimeUnit": "h"
+                }
+              },
+              {
+                "Output": "Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
+                "ObservedData": "DDI Ratios",
+                "ObservedDataRecordId": 1133,
+                "SimulationControl": {
+                  "Project": "Carbamazepine-Midazolam-DDI",
+                  "Simulation": "Kanefendt2023_Study2_ControlPhase",
+                  "StartTime": 0,
+                  "EndTime": "Inf",
+                  "TimeUnit": "h"
+                },
+                "SimulationDDI": {
+                  "Project": "Carbamazepine-Midazolam-DDI",
+                  "Simulation": "Kanefendt2023_Study2_TreatmentPhase",
+                  "StartTime": 336,
+                  "EndTime": "Inf",
+                  "TimeUnit": "h"
+                }
+              },
+              {
+                "Output": "Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
+                "ObservedData": "DDI Ratios",
+                "ObservedDataRecordId": 1460,
+                "SimulationControl": {
+                  "Project": "Carbamazepine-Midazolam-DDI",
+                  "Simulation": "Lutz2018_ControlPhase",
+                  "StartTime": 0,
+                  "EndTime": "Inf",
+                  "TimeUnit": "h"
+                },
+                "SimulationDDI": {
+                  "Project": "Carbamazepine-Alprazolam-DDI",
+                  "Simulation": "Lutz2018_TreatmentPhase",
+                  "StartTime": 404,
+                  "EndTime": "Inf",
+                  "TimeUnit": "h"
+                }
+              }
+            ]
+          },
+          {
+            "Caption": "Carbamazepine + Efavirenz (po)",
+            "Color": "#B06900",
+            "Symbol": "Circle",
+            "DDIRatios": [
+              {
+                "Output": "Organism|PeripheralVenousBlood|Efavirenz|Plasma (Peripheral Venous Blood)",
+                "ObservedData": "DDI Ratios",
+                "ObservedDataRecordId": 959,
+                "SimulationControl": {
+                  "Project": "Carbamazepine-Efavirenz-DDI",
+                  "Simulation": "Ji2008_Arm1_ControlPhase",
+                  "StartTime": 312,
+                  "EndTime": 336,
+                  "TimeUnit": "h"
+                },
+                "SimulationDDI": {
+                  "Project": "Carbamazepine-Efavirenz-DDI",
+                  "Simulation": "Ji2008_Arm1_TreatmentPhase",
+                  "StartTime": 816,
+                  "EndTime": 840,
+                  "TimeUnit": "h"
+                }
+              }
+            ]
+          },
+          {
+            "Caption": "Erythromycin + Carbamazepine (po)",
+            "Color": "#7030A0",
+            "Symbol": "Circle",
+            "DDIRatios": [
+              {
+                "Output": "Organism|PeripheralVenousBlood|Carbamazepine|Plasma (Peripheral Venous Blood)",
+                "ObservedData": "DDI Ratios",
+                "ObservedDataRecordId": 465,
+                "SimulationControl": {
+                  "Project": "Erythromycin-Carbamazepine-DDI",
+                  "Simulation": "Barzaghi1987_ControlPhase",
+                  "StartTime": 0,
+                  "EndTime": "Inf",
+                  "TimeUnit": "h"
+                },
+                "SimulationDDI": {
+                  "Project": "Erythromycin-Carbamazepine-DDI",
+                  "Simulation": "Barzaghi1987_TreatmentPhase",
+                  "StartTime": 144,
+                  "EndTime": "Inf",
+                  "TimeUnit": "h"
+                }
+              },
+              {
+                "Output": "Organism|PeripheralVenousBlood|Carbamazepine|Plasma (Peripheral Venous Blood)",
+                "ObservedData": "DDI Ratios",
+                "ObservedDataRecordId": 1157,
+                "SimulationControl": {
+                  "Project": "Erythromycin-Carbamazepine-DDI",
+                  "Simulation": "Miles1989_ControlPhase_300mg",
+                  "StartTime": 312,
+                  "EndTime": 336,
+                  "TimeUnit": "h"
+                },
+                "SimulationDDI": {
+                  "Project": "Erythromycin-Carbamazepine-DDI",
+                  "Simulation": "Miles1989_TreatmentPhase_300mg",
+                  "StartTime": 384,
+                  "EndTime": 408,
+                  "TimeUnit": "h"
+                }
+              },
+              {
+                "Output": "Organism|PeripheralVenousBlood|Carbamazepine|Plasma (Peripheral Venous Blood)",
+                "ObservedData": "DDI Ratios",
+                "ObservedDataRecordId": 1158,
+                "SimulationControl": {
+                  "Project": "Erythromycin-Carbamazepine-DDI",
+                  "Simulation": "Miles1989_ControlPhase_400mg",
+                  "StartTime": 312,
+                  "EndTime": 336,
+                  "TimeUnit": "h"
+                },
+                "SimulationDDI": {
+                  "Project": "Erythromycin-Carbamazepine-DDI",
+                  "Simulation": "Miles1989_TreatmentPhase_400mg",
+                  "StartTime": 384,
+                  "EndTime": 408,
+                  "TimeUnit": "h"
+                }
+              },
+              {
+                "Output": "Organism|PeripheralVenousBlood|Carbamazepine|Plasma (Peripheral Venous Blood)",
+                "ObservedData": "DDI Ratios",
+                "ObservedDataRecordId": 1154,
+                "SimulationControl": {
+                  "Project": "Erythromycin-Carbamazepine-DDI",
+                  "Simulation": "Wong1983_ControlPhase",
+                  "StartTime": 0,
+                  "EndTime": "Inf",
+                  "TimeUnit": "h"
+                },
+                "SimulationDDI": {
+                  "Project": "Erythromycin-Carbamazepine-DDI",
+                  "Simulation": "Wong1983_TreatmentPhase",
+                  "StartTime": 120,
+                  "EndTime": "Inf",
+                  "TimeUnit": "h"
+                }
+              }
+            ]
+          },
+          {
+            "Caption": "Cimetidine + Carbamazepine (po)",
+            "Color": "#9BC2E6",
+            "Symbol": "Circle",
+            "DDIRatios": [
+              {
+                "Output": "Organism|PeripheralVenousBlood|Carbamazepine|Plasma (Peripheral Venous Blood)",
+                "ObservedData": "DDI Ratios",
+                "ObservedDataRecordId": 900,
+                "SimulationControl": {
+                  "Project": "Cimetidine-Carbamazepine-DDI",
+                  "Simulation": "Dalton1985a_ControlPhase",
+                  "StartTime": 0,
+                  "EndTime": "Inf",
+                  "TimeUnit": "h"
+                },
+                "SimulationDDI": {
+                  "Project": "Cimetidine-Carbamazepine-DDI",
+                  "Simulation": "Dalton1985a_TreatmentPhase",
+                  "StartTime": 48,
+                  "EndTime": "Inf",
+                  "TimeUnit": "h"
+                }
+              }
+            ]
+          },
+          {
+            "Caption": "Efavirenz + Carbamazepine (po)",
+            "Color": "#B4B4B4",
+            "Symbol": "Circle",
+            "DDIRatios": [
+              {
+                "Output": "Organism|PeripheralVenousBlood|Carbamazepine|Plasma (Peripheral Venous Blood)",
+                "ObservedData": "DDI Ratios",
+                "ObservedDataRecordId": 961,
+                "SimulationControl": {
+                  "Project": "Efavirenz-Carbamazepine-DDI",
+                  "Simulation": "Ji2008_Arm2_ControlPhase",
+                  "StartTime": 480,
+                  "EndTime": 504,
+                  "TimeUnit": "h"
+                },
+                "SimulationDDI": {
+                  "Project": "Efavirenz-Carbamazepine-DDI",
+                  "Simulation": "Ji2008_Arm2_TreatmentPhase",
+                  "StartTime": 816,
+                  "EndTime": 840,
                   "TimeUnit": "h"
                 }
               }
