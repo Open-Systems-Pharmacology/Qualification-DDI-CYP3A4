@@ -59,7 +59,7 @@
     },
     {
       "Id": "Carbamazepine-Alprazolam-DDI",
-      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Carbamazepine-Alprazolam-DDI/v1.0/Carbamazepine-Alprazolam-DDI.json",
+      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Carbamazepine-Alprazolam-DDI/v1.1/Carbamazepine-Alprazolam-DDI.json",
       "BuildingBlocks": [
         {
           "Type": "Compound",
