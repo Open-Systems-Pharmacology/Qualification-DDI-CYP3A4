@@ -285,7 +285,7 @@
     },
     {
       "Id": "Carbamazepine-Efavirenz-DDI",
-      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Carbamazepine-Efavirenz-DDI/v1.0/Carbamazepine-Efavirenz-DDI.json",
+      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Carbamazepine-Efavirenz-DDI/v1.1/Carbamazepine-Efavirenz-DDI.json",
       "BuildingBlocks": [
         {
           "Type": "Compound",
