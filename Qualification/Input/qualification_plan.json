@@ -18432,7 +18432,7 @@
                   "TimeUnit": "h"
                 },
                 "SimulationDDI": {
-                  "Project": "Carbamazepine-Alprazolam-DDI",
+                  "Project": "Carbamazepine-Midazolam-DDI",
                   "Simulation": "Lutz2018_TreatmentPhase",
                   "StartTime": 404,
                   "EndTime": "Inf",
