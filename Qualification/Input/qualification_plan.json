@@ -10,6 +10,10 @@
       "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Alprazolam-Model/v1.1/Alprazolam-Model.json"
     },
     {
+      "Id": "Carbamazepine",
+      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Carbamazepine-Model/v1.3/Carbamazepine-Model.json"
+    },
+    {
       "Id": "Cimetidine",
       "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Cimetidine-Model/v1.2/Cimetidine-Model.json"
     },
@@ -52,6 +56,580 @@
     {
       "Id": "Verapamil",
       "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Verapamil-Model/v1.2/Verapamil-Model.json"
+    },
+    {
+      "Id": "Carbamazepine-Alprazolam-DDI",
+      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Carbamazepine-Alprazolam-DDI/v1.1/Carbamazepine-Alprazolam-DDI.json",
+      "BuildingBlocks": [
+        {
+          "Type": "Compound",
+          "Name": "Alprazolam",
+          "Project": "Alprazolam"
+        },
+        {
+          "Type": "Formulation",
+          "Name": "Solanax",
+          "Project": "Alprazolam"
+        },
+        {
+          "Type": "Compound",
+          "Name": "Carbamazepine",
+          "Project": "Carbamazepine"
+        },
+        {
+          "Type": "Formulation",
+          "Name": "CBZ_tabletIR_fasted (Tegretol)",
+          "Project": "Carbamazepine"
+        }
+      ],
+      "SimulationParameters": [
+        {
+          "Project": "Alprazolam",
+          "Simulation": "PO_0.5mg",
+          "Path": "Neighborhoods|Duodenum_int_Duodenum_cell|Alprazolam|P (interstitial->intracellular)",
+          "TargetSimulations": [
+            "Furukori1998_ControlPhase",
+            "Furukori1998_TreatmentPhase"
+          ]
+        },
+        {
+          "Project": "Alprazolam",
+          "Simulation": "PO_0.5mg",
+          "Path": "Neighborhoods|UpperJejunum_int_UpperJejunum_cell|Alprazolam|P (interstitial->intracellular)",
+          "TargetSimulations": [
+            "Furukori1998_ControlPhase",
+            "Furukori1998_TreatmentPhase"
+          ]
+        },
+        {
+          "Project": "Alprazolam",
+          "Simulation": "PO_0.5mg",
+          "Path": "Neighborhoods|LowerJejunum_int_LowerJejunum_cell|Alprazolam|P (interstitial->intracellular)",
+          "TargetSimulations": [
+            "Furukori1998_ControlPhase",
+            "Furukori1998_TreatmentPhase"
+          ]
+        },
+        {
+          "Project": "Alprazolam",
+          "Simulation": "PO_0.5mg",
+          "Path": "Neighborhoods|UpperIleum_int_UpperIleum_cell|Alprazolam|P (interstitial->intracellular)",
+          "TargetSimulations": [
+            "Furukori1998_ControlPhase",
+            "Furukori1998_TreatmentPhase"
+          ]
+        },
+        {
+          "Project": "Alprazolam",
+          "Simulation": "PO_0.5mg",
+          "Path": "Neighborhoods|LowerIleum_int_LowerIleum_cell|Alprazolam|P (interstitial->intracellular)",
+          "TargetSimulations": [
+            "Furukori1998_ControlPhase",
+            "Furukori1998_TreatmentPhase"
+          ]
+        },
+        {
+          "Project": "Alprazolam",
+          "Simulation": "PO_0.5mg",
+          "Path": "Neighborhoods|Caecum_int_Caecum_cell|Alprazolam|P (interstitial->intracellular)",
+          "TargetSimulations": [
+            "Furukori1998_ControlPhase",
+            "Furukori1998_TreatmentPhase"
+          ]
+        },
+        {
+          "Project": "Alprazolam",
+          "Simulation": "PO_0.5mg",
+          "Path": "Neighborhoods|ColonAscendens_int_ColonAscendens_cell|Alprazolam|P (interstitial->intracellular)",
+          "TargetSimulations": [
+            "Furukori1998_ControlPhase",
+            "Furukori1998_TreatmentPhase"
+          ]
+        },
+        {
+          "Project": "Alprazolam",
+          "Simulation": "PO_0.5mg",
+          "Path": "Neighborhoods|ColonTransversum_int_ColonTransversum_cell|Alprazolam|P (interstitial->intracellular)",
+          "TargetSimulations": [
+            "Furukori1998_ControlPhase",
+            "Furukori1998_TreatmentPhase"
+          ]
+        },
+        {
+          "Project": "Alprazolam",
+          "Simulation": "PO_0.5mg",
+          "Path": "Neighborhoods|ColonDescendens_int_ColonDescendens_cell|Alprazolam|P (interstitial->intracellular)",
+          "TargetSimulations": [
+            "Furukori1998_ControlPhase",
+            "Furukori1998_TreatmentPhase"
+          ]
+        },
+        {
+          "Project": "Alprazolam",
+          "Simulation": "PO_0.5mg",
+          "Path": "Neighborhoods|ColonSigmoid_int_ColonSigmoid_cell|Alprazolam|P (interstitial->intracellular)",
+          "TargetSimulations": [
+            "Furukori1998_ControlPhase",
+            "Furukori1998_TreatmentPhase"
+          ]
+        },
+        {
+          "Project": "Alprazolam",
+          "Simulation": "PO_0.5mg",
+          "Path": "Neighborhoods|Rectum_int_Rectum_cell|Alprazolam|P (interstitial->intracellular)",
+          "TargetSimulations": [
+            "Furukori1998_ControlPhase",
+            "Furukori1998_TreatmentPhase"
+          ]
+        },
+        {
+          "Project": "Alprazolam",
+          "Simulation": "PO_0.5mg",
+          "Path": "Neighborhoods|Duodenum_int_Duodenum_cell|Alprazolam|P (intracellular->interstitial)",
+          "TargetSimulations": [
+            "Furukori1998_ControlPhase",
+            "Furukori1998_TreatmentPhase"
+          ]
+        },
+        {
+          "Project": "Alprazolam",
+          "Simulation": "PO_0.5mg",
+          "Path": "Neighborhoods|UpperJejunum_int_UpperJejunum_cell|Alprazolam|P (intracellular->interstitial)",
+          "TargetSimulations": [
+            "Furukori1998_ControlPhase",
+            "Furukori1998_TreatmentPhase"
+          ]
+        },
+        {
+          "Project": "Alprazolam",
+          "Simulation": "PO_0.5mg",
+          "Path": "Neighborhoods|LowerJejunum_int_LowerJejunum_cell|Alprazolam|P (intracellular->interstitial)",
+          "TargetSimulations": [
+            "Furukori1998_ControlPhase",
+            "Furukori1998_TreatmentPhase"
+          ]
+        },
+        {
+          "Project": "Alprazolam",
+          "Simulation": "PO_0.5mg",
+          "Path": "Neighborhoods|UpperIleum_int_UpperIleum_cell|Alprazolam|P (intracellular->interstitial)",
+          "TargetSimulations": [
+            "Furukori1998_ControlPhase",
+            "Furukori1998_TreatmentPhase"
+          ]
+        },
+        {
+          "Project": "Alprazolam",
+          "Simulation": "PO_0.5mg",
+          "Path": "Neighborhoods|LowerIleum_int_LowerIleum_cell|Alprazolam|P (intracellular->interstitial)",
+          "TargetSimulations": [
+            "Furukori1998_ControlPhase",
+            "Furukori1998_TreatmentPhase"
+          ]
+        },
+        {
+          "Project": "Alprazolam",
+          "Simulation": "PO_0.5mg",
+          "Path": "Neighborhoods|Caecum_int_Caecum_cell|Alprazolam|P (intracellular->interstitial)",
+          "TargetSimulations": [
+            "Furukori1998_ControlPhase",
+            "Furukori1998_TreatmentPhase"
+          ]
+        },
+        {
+          "Project": "Alprazolam",
+          "Simulation": "PO_0.5mg",
+          "Path": "Neighborhoods|ColonAscendens_int_ColonAscendens_cell|Alprazolam|P (intracellular->interstitial)",
+          "TargetSimulations": [
+            "Furukori1998_ControlPhase",
+            "Furukori1998_TreatmentPhase"
+          ]
+        },
+        {
+          "Project": "Alprazolam",
+          "Simulation": "PO_0.5mg",
+          "Path": "Neighborhoods|ColonTransversum_int_ColonTransversum_cell|Alprazolam|P (intracellular->interstitial)",
+          "TargetSimulations": [
+            "Furukori1998_ControlPhase",
+            "Furukori1998_TreatmentPhase"
+          ]
+        },
+        {
+          "Project": "Alprazolam",
+          "Simulation": "PO_0.5mg",
+          "Path": "Neighborhoods|ColonDescendens_int_ColonDescendens_cell|Alprazolam|P (intracellular->interstitial)",
+          "TargetSimulations": [
+            "Furukori1998_ControlPhase",
+            "Furukori1998_TreatmentPhase"
+          ]
+        },
+        {
+          "Project": "Alprazolam",
+          "Simulation": "PO_0.5mg",
+          "Path": "Neighborhoods|ColonSigmoid_int_ColonSigmoid_cell|Alprazolam|P (intracellular->interstitial)",
+          "TargetSimulations": [
+            "Furukori1998_ControlPhase",
+            "Furukori1998_TreatmentPhase"
+          ]
+        },
+        {
+          "Project": "Alprazolam",
+          "Simulation": "PO_0.5mg",
+          "Path": "Neighborhoods|Rectum_int_Rectum_cell|Alprazolam|P (intracellular->interstitial)",
+          "TargetSimulations": [
+            "Furukori1998_ControlPhase",
+            "Furukori1998_TreatmentPhase"
+          ]
+        }
+      ]
+    },
+    {
+      "Id": "Carbamazepine-Efavirenz-DDI",
+      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Carbamazepine-Efavirenz-DDI/v1.1/Carbamazepine-Efavirenz-DDI.json",
+      "BuildingBlocks": [
+        {
+          "Type": "Compound",
+          "Name": "Carbamazepine",
+          "Project": "Carbamazepine"
+        },
+        {
+          "Type": "Formulation",
+          "Name": "CBZ_tabletIR_fasted (Tegretol)",
+          "Project": "Carbamazepine"
+        },
+        {
+          "Type": "Compound",
+          "Name": "Efavirenz",
+          "Project": "Efavirenz"
+        },
+        {
+          "Type": "Formulation",
+          "Name": "Sustiva",
+          "Project": "Efavirenz"
+        }
+      ],
+      "SimulationParameters": [
+        
+      ]
+    },
+    {
+      "Id": "Carbamazepine-Midazolam-DDI",
+      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Carbamazepine-Midazolam-DDI/v1.0/Carbamazepine-Midazolam-DDI.json",
+      "BuildingBlocks": [
+        {
+          "Type": "Compound",
+          "Name": "Midazolam",
+          "Project": "Midazolam"
+        },
+        {
+          "Type": "Formulation",
+          "Name": "Oral solution",
+          "Project": "Midazolam"
+        },
+        {
+          "Type": "Compound",
+          "Name": "Carbamazepine",
+          "Project": "Carbamazepine"
+        },
+        {
+          "Type": "Formulation",
+          "Name": "CBZ_tabletIR_fasted (Tegretol)",
+          "Project": "Carbamazepine"
+        },
+        {
+          "Type": "Formulation",
+          "Name": "CBZ_capsuleXR_fasted (Carbatrol)",
+          "Project": "Carbamazepine"
+        }
+      ],
+      "SimulationParameters": [
+        {
+          "Project": "Midazolam",
+          "Simulation": "po 3 mg (solution)",
+          "Path": "Neighborhoods|Duodenum_int_Duodenum_cell|Midazolam|P (interstitial->intracellular)",
+          "TargetSimulations": [
+            "Kanefendt2023_Study1_ControlPhase",
+            "Kanefendt2023_Study1_TreatmentPhase",
+            "Kanefendt2023_Study2_ControlPhase",
+            "Kanefendt2023_Study2_TreatmentPhase",
+            "Lutz2018_ControlPhase",
+            "Lutz2018_TreatmentPhase"
+          ]
+        },
+        {
+          "Project": "Midazolam",
+          "Simulation": "po 3 mg (solution)",
+          "Path": "Neighborhoods|UpperJejunum_int_UpperJejunum_cell|Midazolam|P (interstitial->intracellular)",
+          "TargetSimulations": [
+            "Kanefendt2023_Study1_ControlPhase",
+            "Kanefendt2023_Study1_TreatmentPhase",
+            "Kanefendt2023_Study2_ControlPhase",
+            "Kanefendt2023_Study2_TreatmentPhase",
+            "Lutz2018_ControlPhase",
+            "Lutz2018_TreatmentPhase"
+          ]
+        },
+        {
+          "Project": "Midazolam",
+          "Simulation": "po 3 mg (solution)",
+          "Path": "Neighborhoods|LowerJejunum_int_LowerJejunum_cell|Midazolam|P (interstitial->intracellular)",
+          "TargetSimulations": [
+            "Kanefendt2023_Study1_ControlPhase",
+            "Kanefendt2023_Study1_TreatmentPhase",
+            "Kanefendt2023_Study2_ControlPhase",
+            "Kanefendt2023_Study2_TreatmentPhase",
+            "Lutz2018_ControlPhase",
+            "Lutz2018_TreatmentPhase"
+          ]
+        },
+        {
+          "Project": "Midazolam",
+          "Simulation": "po 3 mg (solution)",
+          "Path": "Neighborhoods|UpperIleum_int_UpperIleum_cell|Midazolam|P (interstitial->intracellular)",
+          "TargetSimulations": [
+            "Kanefendt2023_Study1_ControlPhase",
+            "Kanefendt2023_Study1_TreatmentPhase",
+            "Kanefendt2023_Study2_ControlPhase",
+            "Kanefendt2023_Study2_TreatmentPhase",
+            "Lutz2018_ControlPhase",
+            "Lutz2018_TreatmentPhase"
+          ]
+        },
+        {
+          "Project": "Midazolam",
+          "Simulation": "po 3 mg (solution)",
+          "Path": "Neighborhoods|LowerIleum_int_LowerIleum_cell|Midazolam|P (interstitial->intracellular)",
+          "TargetSimulations": [
+            "Kanefendt2023_Study1_ControlPhase",
+            "Kanefendt2023_Study1_TreatmentPhase",
+            "Kanefendt2023_Study2_ControlPhase",
+            "Kanefendt2023_Study2_TreatmentPhase",
+            "Lutz2018_ControlPhase",
+            "Lutz2018_TreatmentPhase"
+          ]
+        },
+        {
+          "Project": "Midazolam",
+          "Simulation": "po 3 mg (solution)",
+          "Path": "Neighborhoods|Caecum_int_Caecum_cell|Midazolam|P (interstitial->intracellular)",
+          "TargetSimulations": [
+            "Kanefendt2023_Study1_ControlPhase",
+            "Kanefendt2023_Study1_TreatmentPhase",
+            "Kanefendt2023_Study2_ControlPhase",
+            "Kanefendt2023_Study2_TreatmentPhase",
+            "Lutz2018_ControlPhase",
+            "Lutz2018_TreatmentPhase"
+          ]
+        },
+        {
+          "Project": "Midazolam",
+          "Simulation": "po 3 mg (solution)",
+          "Path": "Neighborhoods|ColonAscendens_int_ColonAscendens_cell|Midazolam|P (interstitial->intracellular)",
+          "TargetSimulations": [
+            "Kanefendt2023_Study1_ControlPhase",
+            "Kanefendt2023_Study1_TreatmentPhase",
+            "Kanefendt2023_Study2_ControlPhase",
+            "Kanefendt2023_Study2_TreatmentPhase",
+            "Lutz2018_ControlPhase",
+            "Lutz2018_TreatmentPhase"
+          ]
+        },
+        {
+          "Project": "Midazolam",
+          "Simulation": "po 3 mg (solution)",
+          "Path": "Neighborhoods|ColonTransversum_int_ColonTransversum_cell|Midazolam|P (interstitial->intracellular)",
+          "TargetSimulations": [
+            "Kanefendt2023_Study1_ControlPhase",
+            "Kanefendt2023_Study1_TreatmentPhase",
+            "Kanefendt2023_Study2_ControlPhase",
+            "Kanefendt2023_Study2_TreatmentPhase",
+            "Lutz2018_ControlPhase",
+            "Lutz2018_TreatmentPhase"
+          ]
+        },
+        {
+          "Project": "Midazolam",
+          "Simulation": "po 3 mg (solution)",
+          "Path": "Neighborhoods|ColonDescendens_int_ColonDescendens_cell|Midazolam|P (interstitial->intracellular)",
+          "TargetSimulations": [
+            "Kanefendt2023_Study1_ControlPhase",
+            "Kanefendt2023_Study1_TreatmentPhase",
+            "Kanefendt2023_Study2_ControlPhase",
+            "Kanefendt2023_Study2_TreatmentPhase",
+            "Lutz2018_ControlPhase",
+            "Lutz2018_TreatmentPhase"
+          ]
+        },
+        {
+          "Project": "Midazolam",
+          "Simulation": "po 3 mg (solution)",
+          "Path": "Neighborhoods|ColonSigmoid_int_ColonSigmoid_cell|Midazolam|P (interstitial->intracellular)",
+          "TargetSimulations": [
+            "Kanefendt2023_Study1_ControlPhase",
+            "Kanefendt2023_Study1_TreatmentPhase",
+            "Kanefendt2023_Study2_ControlPhase",
+            "Kanefendt2023_Study2_TreatmentPhase",
+            "Lutz2018_ControlPhase",
+            "Lutz2018_TreatmentPhase"
+          ]
+        },
+        {
+          "Project": "Midazolam",
+          "Simulation": "po 3 mg (solution)",
+          "Path": "Neighborhoods|Rectum_int_Rectum_cell|Midazolam|P (interstitial->intracellular)",
+          "TargetSimulations": [
+            "Kanefendt2023_Study1_ControlPhase",
+            "Kanefendt2023_Study1_TreatmentPhase",
+            "Kanefendt2023_Study2_ControlPhase",
+            "Kanefendt2023_Study2_TreatmentPhase",
+            "Lutz2018_ControlPhase",
+            "Lutz2018_TreatmentPhase"
+          ]
+        },
+        {
+          "Project": "Midazolam",
+          "Simulation": "po 3 mg (solution)",
+          "Path": "Neighborhoods|Duodenum_int_Duodenum_cell|Midazolam|P (intracellular->interstitial)",
+          "TargetSimulations": [
+            "Kanefendt2023_Study1_ControlPhase",
+            "Kanefendt2023_Study1_TreatmentPhase",
+            "Kanefendt2023_Study2_ControlPhase",
+            "Kanefendt2023_Study2_TreatmentPhase",
+            "Lutz2018_ControlPhase",
+            "Lutz2018_TreatmentPhase"
+          ]
+        },
+        {
+          "Project": "Midazolam",
+          "Simulation": "po 3 mg (solution)",
+          "Path": "Neighborhoods|UpperJejunum_int_UpperJejunum_cell|Midazolam|P (intracellular->interstitial)",
+          "TargetSimulations": [
+            "Kanefendt2023_Study1_ControlPhase",
+            "Kanefendt2023_Study1_TreatmentPhase",
+            "Kanefendt2023_Study2_ControlPhase",
+            "Kanefendt2023_Study2_TreatmentPhase",
+            "Lutz2018_ControlPhase",
+            "Lutz2018_TreatmentPhase"
+          ]
+        },
+        {
+          "Project": "Midazolam",
+          "Simulation": "po 3 mg (solution)",
+          "Path": "Neighborhoods|LowerJejunum_int_LowerJejunum_cell|Midazolam|P (intracellular->interstitial)",
+          "TargetSimulations": [
+            "Kanefendt2023_Study1_ControlPhase",
+            "Kanefendt2023_Study1_TreatmentPhase",
+            "Kanefendt2023_Study2_ControlPhase",
+            "Kanefendt2023_Study2_TreatmentPhase",
+            "Lutz2018_ControlPhase",
+            "Lutz2018_TreatmentPhase"
+          ]
+        },
+        {
+          "Project": "Midazolam",
+          "Simulation": "po 3 mg (solution)",
+          "Path": "Neighborhoods|UpperIleum_int_UpperIleum_cell|Midazolam|P (intracellular->interstitial)",
+          "TargetSimulations": [
+            "Kanefendt2023_Study1_ControlPhase",
+            "Kanefendt2023_Study1_TreatmentPhase",
+            "Kanefendt2023_Study2_ControlPhase",
+            "Kanefendt2023_Study2_TreatmentPhase",
+            "Lutz2018_ControlPhase",
+            "Lutz2018_TreatmentPhase"
+          ]
+        },
+        {
+          "Project": "Midazolam",
+          "Simulation": "po 3 mg (solution)",
+          "Path": "Neighborhoods|LowerIleum_int_LowerIleum_cell|Midazolam|P (intracellular->interstitial)",
+          "TargetSimulations": [
+            "Kanefendt2023_Study1_ControlPhase",
+            "Kanefendt2023_Study1_TreatmentPhase",
+            "Kanefendt2023_Study2_ControlPhase",
+            "Kanefendt2023_Study2_TreatmentPhase",
+            "Lutz2018_ControlPhase",
+            "Lutz2018_TreatmentPhase"
+          ]
+        },
+        {
+          "Project": "Midazolam",
+          "Simulation": "po 3 mg (solution)",
+          "Path": "Neighborhoods|Caecum_int_Caecum_cell|Midazolam|P (intracellular->interstitial)",
+          "TargetSimulations": [
+            "Kanefendt2023_Study1_ControlPhase",
+            "Kanefendt2023_Study1_TreatmentPhase",
+            "Kanefendt2023_Study2_ControlPhase",
+            "Kanefendt2023_Study2_TreatmentPhase",
+            "Lutz2018_ControlPhase",
+            "Lutz2018_TreatmentPhase"
+          ]
+        },
+        {
+          "Project": "Midazolam",
+          "Simulation": "po 3 mg (solution)",
+          "Path": "Neighborhoods|ColonAscendens_int_ColonAscendens_cell|Midazolam|P (intracellular->interstitial)",
+          "TargetSimulations": [
+            "Kanefendt2023_Study1_ControlPhase",
+            "Kanefendt2023_Study1_TreatmentPhase",
+            "Kanefendt2023_Study2_ControlPhase",
+            "Kanefendt2023_Study2_TreatmentPhase",
+            "Lutz2018_ControlPhase",
+            "Lutz2018_TreatmentPhase"
+          ]
+        },
+        {
+          "Project": "Midazolam",
+          "Simulation": "po 3 mg (solution)",
+          "Path": "Neighborhoods|ColonTransversum_int_ColonTransversum_cell|Midazolam|P (intracellular->interstitial)",
+          "TargetSimulations": [
+            "Kanefendt2023_Study1_ControlPhase",
+            "Kanefendt2023_Study1_TreatmentPhase",
+            "Kanefendt2023_Study2_ControlPhase",
+            "Kanefendt2023_Study2_TreatmentPhase",
+            "Lutz2018_ControlPhase",
+            "Lutz2018_TreatmentPhase"
+          ]
+        },
+        {
+          "Project": "Midazolam",
+          "Simulation": "po 3 mg (solution)",
+          "Path": "Neighborhoods|ColonDescendens_int_ColonDescendens_cell|Midazolam|P (intracellular->interstitial)",
+          "TargetSimulations": [
+            "Kanefendt2023_Study1_ControlPhase",
+            "Kanefendt2023_Study1_TreatmentPhase",
+            "Kanefendt2023_Study2_ControlPhase",
+            "Kanefendt2023_Study2_TreatmentPhase",
+            "Lutz2018_ControlPhase",
+            "Lutz2018_TreatmentPhase"
+          ]
+        },
+        {
+          "Project": "Midazolam",
+          "Simulation": "po 3 mg (solution)",
+          "Path": "Neighborhoods|ColonSigmoid_int_ColonSigmoid_cell|Midazolam|P (intracellular->interstitial)",
+          "TargetSimulations": [
+            "Kanefendt2023_Study1_ControlPhase",
+            "Kanefendt2023_Study1_TreatmentPhase",
+            "Kanefendt2023_Study2_ControlPhase",
+            "Kanefendt2023_Study2_TreatmentPhase",
+            "Lutz2018_ControlPhase",
+            "Lutz2018_TreatmentPhase"
+          ]
+        },
+        {
+          "Project": "Midazolam",
+          "Simulation": "po 3 mg (solution)",
+          "Path": "Neighborhoods|Rectum_int_Rectum_cell|Midazolam|P (intracellular->interstitial)",
+          "TargetSimulations": [
+            "Kanefendt2023_Study1_ControlPhase",
+            "Kanefendt2023_Study1_TreatmentPhase",
+            "Kanefendt2023_Study2_ControlPhase",
+            "Kanefendt2023_Study2_TreatmentPhase",
+            "Lutz2018_ControlPhase",
+            "Lutz2018_TreatmentPhase"
+          ]
+        }
+      ]
     },
     {
       "Id": "Cimetidine-Alfentanil-DDI",
@@ -537,6 +1115,35 @@
             "Pourbaix 1985 - alprazolam 0.5 mg TID + cimetidine 200/400 mg QID"
           ]
         }
+      ]
+    },
+    {
+      "Id": "Cimetidine-Carbamazepine-DDI",
+      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Cimetidine-Carbamazepine-DDI/v1.1/Cimetidine-Carbamazepine-DDI.json",
+      "BuildingBlocks": [
+        {
+          "Type": "Compound",
+          "Name": "Cimetidine",
+          "Project": "Cimetidine"
+        },
+        {
+          "Type": "Formulation",
+          "Name": "Tablet",
+          "Project": "Cimetidine"
+        },
+        {
+          "Type": "Compound",
+          "Name": "Carbamazepine",
+          "Project": "Carbamazepine"
+        },
+        {
+          "Type": "Formulation",
+          "Name": "CBZ_tabletIR_fasted (Tegretol)",
+          "Project": "Carbamazepine"
+        }
+      ],
+      "SimulationParameters": [
+
       ]
     },
     {
@@ -2514,6 +3121,35 @@
       ]
     },
     {
+      "Id": "Efavirenz-Carbamazepine-DDI",
+      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Efavirenz-Carbamazepine-DDI/v1.0/Efavirenz-Carbamazepine-DDI.json",
+      "BuildingBlocks": [
+        {
+          "Type": "Compound",
+          "Name": "Carbamazepine",
+          "Project": "Carbamazepine"
+        },
+        {
+          "Type": "Formulation",
+          "Name": "CBZ_tabletIR_fasted (Tegretol)",
+          "Project": "Carbamazepine"
+        },
+        {
+          "Type": "Compound",
+          "Name": "Efavirenz",
+          "Project": "Efavirenz"
+        },
+        {
+          "Type": "Formulation",
+          "Name": "Sustiva",
+          "Project": "Efavirenz"
+        }
+      ],
+      "SimulationParameters": [
+        
+      ]
+    },
+    {
       "Id": "Erythromycin-Alfentanil-DDI",
       "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Erythromycin-Alfentanil-DDI/v1.2/Erythromycin-Alfentanil-DDI.json",
       "BuildingBlocks": [
@@ -2990,6 +3626,60 @@
             "Yasui1996_Perpetrator"
           ]
         }
+      ]
+    },
+    {
+      "Id": "Erythromycin-Carbamazepine-DDI",
+      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Erythromycin-Carbamazepine-DDI/v1.1/Erythromycin-Carbamazepine-DDI.json",
+      "BuildingBlocks": [
+        {
+          "Type": "Individual",
+          "Name": "Barzaghi1987",
+          "Project": "Carbamazepine"
+        },
+        {
+          "Type": "Individual",
+          "Name": "Miles1989",
+          "Project": "Carbamazepine"
+        },
+        {
+          "Type": "Individual",
+          "Name": "Wong1983",
+          "Project": "Carbamazepine"
+        },
+        {
+          "Type": "Compound",
+          "Name": "Carbamazepine",
+          "Project": "Carbamazepine"
+        },
+        {
+          "Type": "Formulation",
+          "Name": "CBZ_tabletIR_fasted (Tegretol)",
+          "Project": "Carbamazepine"
+        },
+        {
+          "Type": "Compound",
+          "Name": "Erythromycin",
+          "Project": "Erythromycin"
+        },
+        {
+          "Type": "Formulation",
+          "Name": "Erythromycin_Weibull_enteric-coated-pellets",
+          "Project": "Erythromycin"
+        },
+        {
+          "Type": "Formulation",
+          "Name": "Erythromycin_Weibull_filmtablet",
+          "Project": "Erythromycin"
+        },
+        {
+          "Type": "Formulation",
+          "Name": "Erythromycin_Weibull_filmtablet_250mg",
+          "Project": "Erythromycin"
+        }
+      ],
+      "SimulationParameters": [
+
       ]
     },
     {
@@ -10158,7 +10848,7 @@
   "ObservedDataSets": [
     {
       "Id": "DDI Ratios",
-      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Database-for-observed-data/v1.4/DDI.csv",
+      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Database-for-observed-data/v1.5/DDI.csv",
       "Type": "DDIRatio"
     }
   ],
@@ -10276,7 +10966,7 @@
     "GOFMergedPlots": [],
     "ComparisonTimeProfilePlots": [
       {
-        "SectionId": 301,
+        "SectionId": 304,
         "Title": "Kienlen 1993",
         "SimulationDuration": 10,
         "TimeUnit": "h",
@@ -10306,7 +10996,7 @@
         ]
       },
       {
-        "SectionId": 302,
+        "SectionId": 305,
         "Title": "Abernethy 1983",
         "SimulationDuration": 24,
         "TimeUnit": "h",
@@ -10336,7 +11026,7 @@
         ]
       },
       {
-        "SectionId": 302,
+        "SectionId": 305,
         "Title": "Pourbaix 1985",
         "SimulationDuration": 72,
         "TimeUnit": "h",
@@ -10366,7 +11056,7 @@
         ]
       },
       {
-        "SectionId": 303,
+        "SectionId": 307,
         "Title": "Greenblatt 1986 (midazolam IV)",
         "SimulationDuration": 12,
         "TimeUnit": "h",
@@ -10396,7 +11086,7 @@
         ]
       },
       {
-        "SectionId": 303,
+        "SectionId": 307,
         "Title": "Greenblatt 1986 (midazolam PO)",
         "SimulationDuration": 12,
         "TimeUnit": "h",
@@ -10426,7 +11116,7 @@
         ]
       },
       {
-        "SectionId": 303,
+        "SectionId": 307,
         "Title": "Martinez 1999",
         "SimulationDuration": 24,
         "TimeUnit": "h",
@@ -10456,7 +11146,7 @@
         ]
       },
       {
-        "SectionId": 303,
+        "SectionId": 307,
         "Title": "Fee 1987",
         "SimulationDuration": 15,
         "TimeUnit": "h",
@@ -10486,7 +11176,7 @@
         ]
       },
       {
-        "SectionId": 303,
+        "SectionId": 307,
         "Title": "Salonen 1986",
         "SimulationDuration": 10,
         "TimeUnit": "h",
@@ -10516,7 +11206,7 @@
         ]
       },
       {
-        "SectionId": 303,
+        "SectionId": 307,
         "Title": "Elliott 1984",
         "SimulationDuration": 15,
         "TimeUnit": "h",
@@ -10546,7 +11236,7 @@
         ]
       },
       {
-        "SectionId": 304,
+        "SectionId": 308,
         "Title": "Abernethy 1983",
         "SimulationDuration": 20,
         "TimeUnit": "h",
@@ -10576,7 +11266,7 @@
         ]
       },
       {
-        "SectionId": 304,
+        "SectionId": 308,
         "Title": "Friedman 1988",
         "SimulationDuration": 12,
         "TimeUnit": "h",
@@ -10606,7 +11296,7 @@
         ]
       },
       {
-        "SectionId": 304,
+        "SectionId": 308,
         "Title": "Pourbaix 1985",
         "SimulationDuration": 24,
         "TimeUnit": "h",
@@ -10636,7 +11326,7 @@
         ]
       },
       {
-        "SectionId": 304,
+        "SectionId": 308,
         "Title": "Cox 1986",
         "SimulationDuration": 15,
         "TimeUnit": "h",
@@ -10666,7 +11356,7 @@
         ]
       },
       {
-        "SectionId": 305,
+        "SectionId": 309,
         "Title": "Smith 1984 (verapamil IV)",
         "SimulationDuration": 12,
         "TimeUnit": "h",
@@ -10696,7 +11386,7 @@
         ]
       },
       {
-        "SectionId": 305,
+        "SectionId": 309,
         "Title": "Smith 1984 (verapamil PO)",
         "SimulationDuration": 12,
         "TimeUnit": "h",
@@ -10726,7 +11416,7 @@
         ]
       },
       {
-        "SectionId": 306,
+        "SectionId": 310,
         "Title": "Gorski 1998 (midazolam IV)",
         "SimulationDuration": 14,
         "TimeUnit": "h",
@@ -10756,7 +11446,7 @@
         ]
       },
       {
-        "SectionId": 306,
+        "SectionId": 310,
         "Title": "Gorski 1998 (midazolam po)",
         "SimulationDuration": 14,
         "TimeUnit": "h",
@@ -10786,7 +11476,7 @@
         ]
       },
       {
-        "SectionId": 306,
+        "SectionId": 310,
         "Title": "Gurley 2006",
         "SimulationDuration": 10,
         "TimeUnit": "h",
@@ -10816,7 +11506,7 @@
         ]
       },
       {
-        "SectionId": 306,
+        "SectionId": 310,
         "Title": "Gurley 2008a",
         "SimulationDuration": 10,
         "TimeUnit": "h",
@@ -10846,7 +11536,7 @@
         ]
       },
       {
-        "SectionId": 306,
+        "SectionId": 310,
         "Title": "Markert 2013",
         "SimulationDuration": 20,
         "TimeUnit": "h",
@@ -10876,7 +11566,7 @@
         ]
       },
       {
-        "SectionId": 306,
+        "SectionId": 310,
         "Title": "Prueksaritanont 2017",
         "SimulationDuration": 48,
         "TimeUnit": "h",
@@ -10906,7 +11596,7 @@
         ]
       },
       {
-        "SectionId": 306,
+        "SectionId": 310,
         "Title": "Quinney 2008 (midazolam IV)",
         "SimulationDuration": 15,
         "TimeUnit": "h",
@@ -10936,7 +11626,7 @@
         ]
       },
       {
-        "SectionId": 306,
+        "SectionId": 310,
         "Title": "Quinney 2008 (midazolam po)",
         "SimulationDuration": 15,
         "TimeUnit": "h",
@@ -10966,7 +11656,7 @@
         ]
       },
       {
-        "SectionId": 306,
+        "SectionId": 310,
         "Title": "van Dyk 2018",
         "SimulationDuration": 10,
         "TimeUnit": "h",
@@ -10996,7 +11686,7 @@
         ]
       },
       {
-        "SectionId": 306,
+        "SectionId": 310,
         "Title": "Yeates 1996",
         "SimulationDuration": 24,
         "TimeUnit": "h",
@@ -11026,7 +11716,7 @@
         ]
       },
       {
-        "SectionId": 307,
+        "SectionId": 311,
         "Title": "Greenblatt 1998a",
         "SimulationDuration": 24,
         "TimeUnit": "h",
@@ -11056,7 +11746,7 @@
         ]
       },
       {
-        "SectionId": 308,
+        "SectionId": 315,
         "Title": "Bartkowski 1989",
         "SimulationDuration": 10,
         "TimeUnit": "h",
@@ -11097,7 +11787,7 @@
         ]
       },
       {
-        "SectionId": 308,
+        "SectionId": 315,
         "Title": "Bartkowski 1993",
         "SimulationDuration": 10,
         "TimeUnit": "h",
@@ -11138,7 +11828,7 @@
         ]
       },
       {
-        "SectionId": 309,
+        "SectionId": 316,
         "Title": "Yasui 1996",
         "SimulationDuration": 48,
         "TimeUnit": "h",
@@ -11168,7 +11858,7 @@
         ]
       },
       {
-        "SectionId": 310,
+        "SectionId": 318,
         "Title": "Carls 2014",
         "SimulationDuration": 12,
         "TimeUnit": "h",
@@ -11209,7 +11899,7 @@
         ]
       },
       {
-        "SectionId": 310,
+        "SectionId": 318,
         "Title": "Okudaira 2007",
         "SimulationDuration": 24,
         "TimeUnit": "h",
@@ -11261,7 +11951,7 @@
         ]
       },
       {
-        "SectionId": 310,
+        "SectionId": 318,
         "Title": "Olkkola 1993 (midazolam IV)",
         "SimulationDuration": 20,
         "TimeUnit": "h",
@@ -11291,7 +11981,7 @@
         ]
       },
       {
-        "SectionId": 310,
+        "SectionId": 318,
         "Title": "Olkkola 1993 (midazolam po)",
         "SimulationDuration": 20,
         "TimeUnit": "h",
@@ -11321,7 +12011,7 @@
         ]
       },
       {
-        "SectionId": 310,
+        "SectionId": 318,
         "Title": "Swart 2002",
         "SimulationDuration": 6,
         "TimeUnit": "h",
@@ -11351,7 +12041,7 @@
         ]
       },
       {
-        "SectionId": 310,
+        "SectionId": 318,
         "Title": "Zimmermann 1996",
         "SimulationDuration": 24,
         "TimeUnit": "h",
@@ -11381,7 +12071,7 @@
         ]
       },
       {
-        "SectionId": 311,
+        "SectionId": 319,
         "Title": "Greenblatt 1998",
         "SimulationDuration": 24,
         "TimeUnit": "h",
@@ -11411,7 +12101,7 @@
         ]
       },
       {
-        "SectionId": 311,
+        "SectionId": 319,
         "Title": "Phillips 1986",
         "SimulationDuration": 24,
         "TimeUnit": "h",
@@ -11441,7 +12131,7 @@
         ]
       },
       {
-        "SectionId": 312,
+        "SectionId": 323,
         "Title": "Fleishaker 1994 (Day 1, first dose)",
         "SimulationDuration": 6,
         "TimeUnit": "h",
@@ -11471,7 +12161,7 @@
         ]
       },
       {
-        "SectionId": 312,
+        "SectionId": 323,
         "Title": "Fleishaker 1994 (Day 10)",
         "SimulationDuration": 24,
         "TimeUnit": "h",
@@ -11501,7 +12191,7 @@
         ]
       },
       {
-        "SectionId": 313,
+        "SectionId": 324,
         "Title": "Kashuba 1998",
         "SimulationDuration": 24,
         "TimeUnit": "h",
@@ -11531,7 +12221,7 @@
         ]
       },
       {
-        "SectionId": 313,
+        "SectionId": 324,
         "Title": "Lam 2003",
         "SimulationDuration": 24,
         "TimeUnit": "h",
@@ -11561,7 +12251,7 @@
         ]
       },
       {
-        "SectionId": 314,
+        "SectionId": 325,
         "Title": "Yasui 1998",
         "SimulationDuration": 48,
         "TimeUnit": "h",
@@ -11591,7 +12281,7 @@
         ]
       },
       {
-        "SectionId": 315,
+        "SectionId": 326,
         "Title": "Ahonen 1995",
         "SimulationDuration": 20,
         "TimeUnit": "h",
@@ -11621,7 +12311,7 @@
         ]
       },
       {
-        "SectionId": 315,
+        "SectionId": 326,
         "Title": "Backman 1998",
         "SimulationDuration": 20,
         "TimeUnit": "h",
@@ -11662,7 +12352,7 @@
         ]
       },
       {
-        "SectionId": 315,
+        "SectionId": 326,
         "Title": "Olkkola 1994",
         "SimulationDuration": 20,
         "TimeUnit": "h",
@@ -11692,7 +12382,7 @@
         ]
       },
       {
-        "SectionId": 315,
+        "SectionId": 326,
         "Title": "Olkkola 1996 (day 1 po)",
         "SimulationDuration": 20,
         "TimeUnit": "h",
@@ -11722,7 +12412,7 @@
         ]
       },
       {
-        "SectionId": 315,
+        "SectionId": 326,
         "Title": "Olkkola 1996 (day 4 iv)",
         "SimulationDuration": 20,
         "TimeUnit": "h",
@@ -11752,7 +12442,7 @@
         ]
       },
       {
-        "SectionId": 315,
+        "SectionId": 326,
         "Title": "Olkkola 1996 (day 6 po)",
         "SimulationDuration": 20,
         "TimeUnit": "h",
@@ -11782,7 +12472,7 @@
         ]
       },
       {
-        "SectionId": 315,
+        "SectionId": 326,
         "Title": "Prueksaritanont 2017",
         "SimulationDuration": 72,
         "TimeUnit": "h",
@@ -11812,7 +12502,7 @@
         ]
       },
       {
-        "SectionId": 315,
+        "SectionId": 326,
         "Title": "Templeton 2010",
         "SimulationDuration": 24,
         "TimeUnit": "h",
@@ -11864,7 +12554,7 @@
         ]
       },
       {
-        "SectionId": 315,
+        "SectionId": 326,
         "Title": "Yu 2004 (CYP3A5*3/*3)",
         "SimulationDuration": 24,
         "TimeUnit": "h",
@@ -11894,7 +12584,7 @@
         ]
       },
       {
-        "SectionId": 316,
+        "SectionId": 327,
         "Title": "Neuvonen 1996",
         "SimulationDuration": 24,
         "TimeUnit": "h",
@@ -11957,7 +12647,7 @@
         ]
       },
       {
-        "SectionId": 316,
+        "SectionId": 327,
         "Title": "Varhe 1994",
         "SimulationDuration": 24,
         "TimeUnit": "h",
@@ -11987,7 +12677,7 @@
         ]
       },
       {
-        "SectionId": 317,
+        "SectionId": 333,
         "Title": "Backman 1994",
         "SimulationDuration": 20,
         "TimeUnit": "h",
@@ -12017,7 +12707,7 @@
         ]
       },
       {
-        "SectionId": 317,
+        "SectionId": 333,
         "Title": "Wang 2005 (iv)",
         "SimulationDuration": 24,
         "TimeUnit": "h",
@@ -12047,7 +12737,7 @@
         ]
       },
       {
-        "SectionId": 317,
+        "SectionId": 333,
         "Title": "Wang 2005 (po)",
         "SimulationDuration": 24,
         "TimeUnit": "h",
@@ -12077,7 +12767,7 @@
         ]
       },
       {
-        "SectionId": 318,
+        "SectionId": 312,
         "Title": "Kharasch 2012 IV",
         "SimulationDuration": 7.5,
         "TimeUnit": "h",
@@ -12107,7 +12797,7 @@
         ]
       },
       {
-        "SectionId": 318,
+        "SectionId": 312,
         "Title": "Kharasch 2012 PO",
         "SimulationDuration": 10,
         "TimeUnit": "h",
@@ -12137,7 +12827,7 @@
         ]
       },
       {
-        "SectionId": 319,
+        "SectionId": 314,
         "Title": "Mikus 2017 IV",
         "SimulationDuration": 9,
         "TimeUnit": "h",
@@ -12211,7 +12901,7 @@
         ]
       },
       {
-        "SectionId": 319,
+        "SectionId": 314,
         "Title": "Mikus 2017 PO",
         "SimulationDuration": 8,
         "TimeUnit": "h",
@@ -12285,7 +12975,7 @@
         ]
       },
       {
-        "SectionId": 319,
+        "SectionId": 314,
         "Title": "Katzenmaier 2010",
         "SimulationDuration": 12,
         "TimeUnit": "h",
@@ -12315,7 +13005,7 @@
         ]
       },
       {
-        "SectionId": 320,
+        "SectionId": 328,
         "Title": "Kharasch 1997",
         "SimulationDuration": 12,
         "TimeUnit": "h",
@@ -12345,7 +13035,7 @@
         ]
       },
       {
-        "SectionId": 320,
+        "SectionId": 328,
         "Title": "Kharasch 2004 (iv)",
         "SimulationDuration": 12,
         "TimeUnit": "h",
@@ -12375,7 +13065,7 @@
         ]
       },
       {
-        "SectionId": 320,
+        "SectionId": 328,
         "Title": "Kharasch 2004 (po)",
         "SimulationDuration": 12,
         "TimeUnit": "h",
@@ -12405,7 +13095,7 @@
         ]
       },
       {
-        "SectionId": 320,
+        "SectionId": 328,
         "Title": "Kharasch 2011 (iv)",
         "SimulationDuration": 12,
         "TimeUnit": "h",
@@ -12468,7 +13158,7 @@
         ]
       },
       {
-        "SectionId": 320,
+        "SectionId": 328,
         "Title": "Kharasch 2011 (po)",
         "SimulationDuration": 12,
         "TimeUnit": "h",
@@ -12531,7 +13221,7 @@
         ]
       },
       {
-        "SectionId": 320,
+        "SectionId": 328,
         "Title": "Kharasch 2011b (iv during sequential administration of iv unlabeled alfentanil and oral deuterated alfentanil)",
         "SimulationDuration": 12,
         "TimeUnit": "h",
@@ -12561,7 +13251,7 @@
         ]
       },
       {
-        "SectionId": 320,
+        "SectionId": 328,
         "Title": "Kharasch 2011b (iv during simultaneous administration of iv unlabeled alfentanil and oral deuterated alfentanil)",
         "SimulationDuration": 12,
         "TimeUnit": "h",
@@ -12591,7 +13281,7 @@
         ]
       },
       {
-        "SectionId": 320,
+        "SectionId": 328,
         "Title": "Kharasch 2011b (po during sequential administration of iv unlabeled alfentanil and oral deuterated alfentanil)",
         "SimulationDuration": 12,
         "TimeUnit": "h",
@@ -12621,7 +13311,7 @@
         ]
       },
       {
-        "SectionId": 320,
+        "SectionId": 328,
         "Title": "Kharasch 2011b (po during simultaneous administration of iv unlabeled alfentanil and oral deuterated alfentanil)",
         "SimulationDuration": 12,
         "TimeUnit": "h",
@@ -12651,7 +13341,7 @@
         ]
       },
       {
-        "SectionId": 320,
+        "SectionId": 328,
         "Title": "Phimmasone 2001",
         "SimulationDuration": 24,
         "TimeUnit": "h",
@@ -12681,7 +13371,7 @@
         ]
       },
       {
-        "SectionId": 321,
+        "SectionId": 329,
         "Title": "Gashaw 2003 (Day 7)",
         "SimulationDuration": 12,
         "TimeUnit": "h",
@@ -12711,7 +13401,7 @@
         ]
       },
       {
-        "SectionId": 321,
+        "SectionId": 329,
         "Title": "Gashaw 2003 (after washout phase)",
         "SimulationDuration": 12,
         "TimeUnit": "h",
@@ -12741,7 +13431,7 @@
         ]
       },
       {
-        "SectionId": 321,
+        "SectionId": 329,
         "Title": "Schmider 1999",
         "SimulationDuration": 24,
         "TimeUnit": "h",
@@ -12771,7 +13461,7 @@
         ]
       },
       {
-        "SectionId": 322,
+        "SectionId": 330,
         "Title": "Backman 1996",
         "SimulationDuration": 24,
         "TimeUnit": "h",
@@ -12801,7 +13491,7 @@
         ]
       },
       {
-        "SectionId": 322,
+        "SectionId": 330,
         "Title": "Backman 1998 (Phase IV and V vs. I)",
         "SimulationDuration": 12,
         "TimeUnit": "h",
@@ -12842,7 +13532,7 @@
         ]
       },
       {
-        "SectionId": 322,
+        "SectionId": 330,
         "Title": "Björkhem-Bergman 2013",
         "SimulationDuration": 10,
         "TimeUnit": "h",
@@ -12894,7 +13584,7 @@
         ]
       },
       {
-        "SectionId": 322,
+        "SectionId": 330,
         "Title": "Chattopadhyay 2018",
         "SimulationDuration": 25,
         "TimeUnit": "h",
@@ -12924,7 +13614,7 @@
         ]
       },
       {
-        "SectionId": 322,
+        "SectionId": 330,
         "Title": "Chung 2006",
         "SimulationDuration": 12,
         "TimeUnit": "h",
@@ -12954,7 +13644,7 @@
         ]
       },
       {
-        "SectionId": 322,
+        "SectionId": 330,
         "Title": "Eap 2004 (7.5 mg)",
         "SimulationDuration": 12,
         "TimeUnit": "h",
@@ -12984,7 +13674,7 @@
         ]
       },
       {
-        "SectionId": 322,
+        "SectionId": 330,
         "Title": "Gorski 2003 (iv)",
         "SimulationDuration": 12,
         "TimeUnit": "h",
@@ -13014,7 +13704,7 @@
         ]
       },
       {
-        "SectionId": 322,
+        "SectionId": 330,
         "Title": "Gorski 2003 (po)",
         "SimulationDuration": 12,
         "TimeUnit": "h",
@@ -13044,7 +13734,7 @@
         ]
       },
       {
-        "SectionId": 322,
+        "SectionId": 330,
         "Title": "Gurley 2006",
         "SimulationDuration": 12,
         "TimeUnit": "h",
@@ -13074,7 +13764,7 @@
         ]
       },
       {
-        "SectionId": 322,
+        "SectionId": 330,
         "Title": "Gurley 2008a",
         "SimulationDuration": 12,
         "TimeUnit": "h",
@@ -13104,7 +13794,7 @@
         ]
       },
       {
-        "SectionId": 322,
+        "SectionId": 330,
         "Title": "Kharasch 1997",
         "SimulationDuration": 15,
         "TimeUnit": "h",
@@ -13134,7 +13824,7 @@
         ]
       },
       {
-        "SectionId": 322,
+        "SectionId": 330,
         "Title": "Kharasch 2004 (iv)",
         "SimulationDuration": 12,
         "TimeUnit": "h",
@@ -13164,7 +13854,7 @@
         ]
       },
       {
-        "SectionId": 322,
+        "SectionId": 330,
         "Title": "Kharasch 2004 (po)",
         "SimulationDuration": 12,
         "TimeUnit": "h",
@@ -13194,7 +13884,7 @@
         ]
       },
       {
-        "SectionId": 322,
+        "SectionId": 330,
         "Title": "Kharasch 2011 (iv)",
         "SimulationDuration": 12,
         "TimeUnit": "h",
@@ -13257,7 +13947,7 @@
         ]
       },
       {
-        "SectionId": 322,
+        "SectionId": 330,
         "Title": "Kharasch 2011 (po)",
         "SimulationDuration": 12,
         "TimeUnit": "h",
@@ -13320,7 +14010,7 @@
         ]
       },
       {
-        "SectionId": 322,
+        "SectionId": 330,
         "Title": "Kim 2018",
         "SimulationDuration": 12,
         "TimeUnit": "h",
@@ -13350,7 +14040,7 @@
         ]
       },
       {
-        "SectionId": 322,
+        "SectionId": 330,
         "Title": "Link 2008 (iv)",
         "SimulationDuration": 24,
         "TimeUnit": "h",
@@ -13380,7 +14070,7 @@
         ]
       },
       {
-        "SectionId": 322,
+        "SectionId": 330,
         "Title": "Link 2008 (po)",
         "SimulationDuration": 24,
         "TimeUnit": "h",
@@ -13410,7 +14100,7 @@
         ]
       },
       {
-        "SectionId": 322,
+        "SectionId": 330,
         "Title": "Lutz 2008",
         "SimulationDuration": 14,
         "TimeUnit": "h",
@@ -13484,7 +14174,7 @@
         ]
       },
       {
-        "SectionId": 322,
+        "SectionId": 330,
         "Title": "Phimmasone 2001",
         "SimulationDuration": 12,
         "TimeUnit": "h",
@@ -13514,7 +14204,7 @@
         ]
       },
       {
-        "SectionId": 322,
+        "SectionId": 330,
         "Title": "Prueksaritanont 2017",
         "SimulationDuration": 24,
         "TimeUnit": "h",
@@ -13544,7 +14234,7 @@
         ]
       },
       {
-        "SectionId": 322,
+        "SectionId": 330,
         "Title": "Reitman 2011",
         "SimulationDuration": 15,
         "TimeUnit": "h",
@@ -13596,7 +14286,7 @@
         ]
       },
       {
-        "SectionId": 322,
+        "SectionId": 330,
         "Title": "Shin 2013",
         "SimulationDuration": 24,
         "TimeUnit": "h",
@@ -13626,7 +14316,7 @@
         ]
       },
       {
-        "SectionId": 322,
+        "SectionId": 330,
         "Title": "Shin 2016",
         "SimulationDuration": 24,
         "TimeUnit": "h",
@@ -13656,7 +14346,7 @@
         ]
       },
       {
-        "SectionId": 322,
+        "SectionId": 330,
         "Title": "Szalat 2007",
         "SimulationDuration": 6,
         "TimeUnit": "h",
@@ -13686,7 +14376,7 @@
         ]
       },
       {
-        "SectionId": 322,
+        "SectionId": 330,
         "Title": "van Dyk 2018",
         "SimulationDuration": 12,
         "TimeUnit": "h",
@@ -13716,7 +14406,7 @@
         ]
       },
       {
-        "SectionId": 322,
+        "SectionId": 330,
         "Title": "Wiesinger 2020",
         "SimulationDuration": 24,
         "TimeUnit": "h",
@@ -13757,7 +14447,7 @@
         ]
       },
       {
-        "SectionId": 322,
+        "SectionId": 330,
         "Title": "Yu 2004 (CYP3A5*3/*3)",
         "SimulationDuration": 15,
         "TimeUnit": "h",
@@ -13787,7 +14477,7 @@
         ]
       },
       {
-        "SectionId": 323,
+        "SectionId": 331,
         "Title": "Villikka 1997",
         "SimulationDuration": 12,
         "TimeUnit": "h",
@@ -13817,7 +14507,7 @@
         ]
       },
       {
-        "SectionId": 324,
+        "SectionId": 332,
         "Title": "Barbarash 1988 (verapamil IV)",
         "SimulationDuration": 15,
         "TimeUnit": "h",
@@ -13847,7 +14537,7 @@
         ]
       },
       {
-        "SectionId": 324,
+        "SectionId": 332,
         "Title": "Barbarash 1988 (verapamil PO)",
         "SimulationDuration": 15,
         "TimeUnit": "h",
@@ -13877,7 +14567,7 @@
         ]
       },
       {
-        "SectionId": 325,
+        "SectionId": 320,
         "Title": "Palkama 1998",
         "SimulationDuration": 10,
         "TimeUnit": "h",
@@ -13918,7 +14608,7 @@
         ]
       },
       {
-        "SectionId": 326,
+        "SectionId": 321,
         "Title": "Ahonen 1997",
         "SimulationDuration": 17,
         "TimeUnit": "h",
@@ -13959,7 +14649,7 @@
         ]
       },
       {
-        "SectionId": 326,
+        "SectionId": 321,
         "Title": "Olkkola 1996 Day 1",
         "SimulationDuration": 7,
         "TimeUnit": "h",
@@ -13989,7 +14679,7 @@
         ]
       },
       {
-        "SectionId": 326,
+        "SectionId": 321,
         "Title": "Olkkola 1996 Day 4",
         "SimulationDuration": 7,
         "TimeUnit": "h",
@@ -14019,7 +14709,7 @@
         ]
       },
       {
-        "SectionId": 326,
+        "SectionId": 321,
         "Title": "Olkkola 1996 Day 6",
         "SimulationDuration": 17,
         "TimeUnit": "h",
@@ -14049,7 +14739,7 @@
         ]
       },
       {
-        "SectionId": 327,
+        "SectionId": 322,
         "Title": "Varhe 1996c",
         "SimulationDuration": 18,
         "TimeUnit": "h",
@@ -14097,6 +14787,366 @@
             "Color": "#d6706b",
             "Caption": "Treatment (with 200 mg fluconazole)",
             "Symbol": "Diamond"
+          }
+        ]
+      },
+      {
+        "SectionId": 301,
+        "Title": "Furukori 1998",
+        "SimulationDuration": 48,
+        "TimeUnit": "h",
+        "OutputMappings": [
+          {
+            "Project": "Carbamazepine-Alprazolam-DDI",
+            "Simulation": "Furukori1998_ControlPhase",
+            "Output": "Organism|PeripheralVenousBlood|Alprazolam|Plasma (Peripheral Venous Blood)",
+            "ObservedData": "Furukori 1998 - treatment with placebo - Alprazolam - PO - 0.8 mg - Plasma - agg. (n=7)",
+            "StartTime": 0,
+            "TimeUnit": "h",
+            "Color": "#2166ac",
+            "Caption": "Control (without carbamazepine)",
+            "Symbol": "Circle"
+          },
+          {
+            "Project": "Carbamazepine-Alprazolam-DDI",
+            "Simulation": "Furukori1998_TreatmentPhase",
+            "Output": "Organism|PeripheralVenousBlood|Alprazolam|Plasma (Peripheral Venous Blood)",
+            "ObservedData": "Furukori 1998 - treatment with carbamazepine - Alprazolam - PO - 0.8 mg - Plasma - agg. (n=7)",
+            "StartTime": 170,
+            "TimeUnit": "h",
+            "Color": "#b2182b",
+            "Caption": "Treatment (with carbamazepine)",
+            "Symbol": "Square"
+          }
+        ]
+      },
+      {
+        "SectionId": 303,
+        "Title": "Kanefendt 2023 (Study 1)",
+        "SimulationDuration": 24,
+        "TimeUnit": "h",
+        "OutputMappings": [
+          {
+            "Project": "Carbamazepine-Midazolam-DDI",
+            "Simulation": "Kanefendt2023_Study1_ControlPhase",
+            "Output": "Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
+            "ObservedData": "Kanefendt 2023 - Study 1, midazolam alone - Midazolam - PO - 1 mg - Plasma - agg. (n=14)",
+            "StartTime": 0,
+            "TimeUnit": "h",
+            "Color": "#2166ac",
+            "Caption": "Control (without carbamazepine)",
+            "Symbol": "Circle"
+          },
+          {
+            "Project": "Carbamazepine-Midazolam-DDI",
+            "Simulation": "Kanefendt2023_Study1_TreatmentPhase",
+            "Output": "Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
+            "ObservedData": "Kanefendt 2023 - Study 1, midazolam after pretreatment with carbamazepine - Midazolam - PO - 1 mg - Plasma - agg. (n=14)",
+            "StartTime": 334,
+            "TimeUnit": "h",
+            "Color": "#b2182b",
+            "Caption": "Treatment (with carbamazepine)",
+            "Symbol": "Square"
+          }
+        ]
+      },
+      {
+        "SectionId": 303,
+        "Title": "Kanefendt 2023 (Study 2)",
+        "SimulationDuration": 24,
+        "TimeUnit": "h",
+        "OutputMappings": [
+          {
+            "Project": "Carbamazepine-Midazolam-DDI",
+            "Simulation": "Kanefendt2023_Study2_ControlPhase",
+            "Output": "Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
+            "ObservedData": "Kanefendt 2023 - Study 2, midazolam alone - Midazolam - PO - 1 mg - Plasma - agg. (n=13)",
+            "StartTime": 0,
+            "TimeUnit": "h",
+            "Color": "#2166ac",
+            "Caption": "Control (without carbamazepine)",
+            "Symbol": "Circle"
+          },
+          {
+            "Project": "Carbamazepine-Midazolam-DDI",
+            "Simulation": "Kanefendt2023_Study2_TreatmentPhase",
+            "Output": "Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
+            "ObservedData": "Kanefendt 2023 - Study 2, midazolam after pretreatment with carbamazepine - Midazolam - PO - 1 mg - Plasma - agg. (n=13)",
+            "StartTime": 336,
+            "TimeUnit": "h",
+            "Color": "#b2182b",
+            "Caption": "Treatment (with carbamazepine)",
+            "Symbol": "Square"
+          }
+        ]
+      },
+      {
+        "SectionId": 303,
+        "Title": "Lutz 2018",
+        "SimulationDuration": 24,
+        "TimeUnit": "h",
+        "OutputMappings": [
+          {
+            "Project": "Carbamazepine-Midazolam-DDI",
+            "Simulation": "Lutz2018_ControlPhase",
+            "Output": "Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
+            "ObservedData": [],
+            "StartTime": 0,
+            "TimeUnit": "h",
+            "Color": "#2166ac",
+            "Caption": "Control (without carbamazepine)",
+            "Symbol": "Circle"
+          },
+          {
+            "Project": "Carbamazepine-Midazolam-DDI",
+            "Simulation": "Lutz2018_TreatmentPhase",
+            "Output": "Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
+            "ObservedData": [],
+            "StartTime": 576,
+            "TimeUnit": "h",
+            "Color": "#b2182b",
+            "Caption": "Treatment (with carbamazepine)",
+            "Symbol": "Square"
+          }
+        ]
+      },
+      {
+        "SectionId": 302,
+        "Title": "Ji 2008 (Arm 1, Perpetrator: Carbamazepine, Victim: Efavirenz)",
+        "SimulationDuration": 24,
+        "TimeUnit": "h",
+        "OutputMappings": [
+          {
+            "Project": "Carbamazepine-Efavirenz-DDI",
+            "Simulation": "Ji2008_Arm1_ControlPhase",
+            "Output": "Organism|PeripheralVenousBlood|Efavirenz|Plasma (Peripheral Venous Blood)",
+            "ObservedData": "Ji 2008 - Efavirenz, control (Arm 1) - Efavirenz - PO - 600 mg - Plasma - agg. (n=14)",
+            "StartTime": 312,
+            "TimeUnit": "h",
+            "Color": "#2166ac",
+            "Caption": "Control (without carbamazepine)",
+            "Symbol": "Circle"
+          },
+          {
+            "Project": "Carbamazepine-Efavirenz-DDI",
+            "Simulation": "Ji2008_Arm1_TreatmentPhase",
+            "Output": "Organism|PeripheralVenousBlood|Efavirenz|Plasma (Peripheral Venous Blood)",
+            "ObservedData": "Ji 2008 - Efavirenz + Carbamazepine, treatment (Arm 1) - Efavirenz - PO - 600 mg - Plasma - agg. (n=14)",
+            "StartTime": 816,
+            "TimeUnit": "h",
+            "Color": "#b2182b",
+            "Caption": "Treatment (with carbamazepine)",
+            "Symbol": "Square"
+          }
+        ]
+      },
+      {
+        "SectionId": 317,
+        "Title": "Barzaghi 1987",
+        "SimulationDuration": 96,
+        "TimeUnit": "h",
+        "OutputMappings": [
+          {
+            "Project": "Erythromycin-Carbamazepine-DDI",
+            "Simulation": "Barzaghi1987_ControlPhase",
+            "Output": "Organism|PeripheralVenousBlood|Carbamazepine|Plasma (Peripheral Venous Blood)",
+            "ObservedData": "Barzaghi 1987 - Without erythromycin - Carbamazepine - PO - 400 mg - Serum - agg. (n=7)",
+            "StartTime": 0,
+            "TimeUnit": "h",
+            "Color": "#2166ac",
+            "Caption": "Control (without carbamazepine)",
+            "Symbol": "Circle"
+          },
+          {
+            "Project": "Erythromycin-Carbamazepine-DDI",
+            "Simulation": "Barzaghi1987_TreatmentPhase",
+            "Output": "Organism|PeripheralVenousBlood|Carbamazepine|Plasma (Peripheral Venous Blood)",
+            "ObservedData": "Barzaghi 1987 - With erythromycin - Carbamazepine - PO - 400 mg - Serum - agg. (n=7)",
+            "StartTime": 144,
+            "TimeUnit": "h",
+            "Color": "#b2182b",
+            "Caption": "Treatment (with carbamazepine)",
+            "Symbol": "Square"
+          }
+        ]
+      },
+      {
+        "SectionId": 317,
+        "Title": "Wong 1983",
+        "SimulationDuration": 72,
+        "TimeUnit": "h",
+        "OutputMappings": [
+          {
+            "Project": "Erythromycin-Carbamazepine-DDI",
+            "Simulation": "Wong1983_ControlPhase",
+            "Output": "Organism|PeripheralVenousBlood|Carbamazepine|Plasma (Peripheral Venous Blood)",
+            "ObservedData": "Wong 1983 - Treatment B (without erythromycin) - Carbamazepine - PO - 400 mg - Plasma - indiv.",
+            "StartTime": 0,
+            "TimeUnit": "h",
+            "Color": "#2166ac",
+            "Caption": "Control (without carbamazepine)",
+            "Symbol": "Circle"
+          },
+          {
+            "Project": "Erythromycin-Carbamazepine-DDI",
+            "Simulation": "Wong1983_TreatmentPhase",
+            "Output": "Organism|PeripheralVenousBlood|Carbamazepine|Plasma (Peripheral Venous Blood)",
+            "ObservedData": "Wong 1983 - Treatment A (with erythromycin) - Carbamazepine - PO - 400 mg - Plasma - indiv.",
+            "StartTime": 120,
+            "TimeUnit": "h",
+            "Color": "#b2182b",
+            "Caption": "Treatment (with carbamazepine)",
+            "Symbol": "Square"
+          }
+        ]
+      },
+      {
+        "SectionId": 317,
+        "Title": "Miles 1989 (average dose of 357 mg)",
+        "SimulationDuration": 24,
+        "TimeUnit": "h",
+        "OutputMappings": [
+          {
+            "Project": "Erythromycin-Carbamazepine-DDI",
+            "Simulation": "Miles1989_ControlPhase_357mg",
+            "Output": "Organism|PeripheralVenousBlood|Carbamazepine|Plasma (Peripheral Venous Blood)",
+            "ObservedData": "Miles 1989 - CBZ before ERY - Carbamazepine - PO - 300-400; mean dose: 357.1 +/- 53.5 mg - Serum - agg. (n=7)",
+            "StartTime": 312,
+            "TimeUnit": "h",
+            "Color": "#2166ac",
+            "Caption": "Control (without carbamazepine)",
+            "Symbol": "Circle"
+          },
+          {
+            "Project": "Erythromycin-Carbamazepine-DDI",
+            "Simulation": "Miles1989_TreatmentPhase_357mg",
+            "Output": "Organism|PeripheralVenousBlood|Carbamazepine|Plasma (Peripheral Venous Blood)",
+            "ObservedData": "Miles 1989 - CBZ during ERY - Carbamazepine - PO - 300-400; mean dose: 357.1 +/- 53.5 mg - Serum - agg. (n=7)",
+            "StartTime": 384,
+            "TimeUnit": "h",
+            "Color": "#b2182b",
+            "Caption": "Treatment (with carbamazepine)",
+            "Symbol": "Square"
+          }
+        ]
+      },
+      {
+        "SectionId": 317,
+        "Title": "Miles 1989 (300 mg)",
+        "SimulationDuration": 24,
+        "TimeUnit": "h",
+        "OutputMappings": [
+          {
+            "Project": "Erythromycin-Carbamazepine-DDI",
+            "Simulation": "Miles1989_ControlPhase_300mg",
+            "Output": "Organism|PeripheralVenousBlood|Carbamazepine|Plasma (Peripheral Venous Blood)",
+            "ObservedData": [],
+            "StartTime": 312,
+            "TimeUnit": "h",
+            "Color": "#2166ac",
+            "Caption": "Control (without carbamazepine)",
+            "Symbol": "Circle"
+          },
+          {
+            "Project": "Erythromycin-Carbamazepine-DDI",
+            "Simulation": "Miles1989_TreatmentPhase_300mg",
+            "Output": "Organism|PeripheralVenousBlood|Carbamazepine|Plasma (Peripheral Venous Blood)",
+            "ObservedData": [],
+            "StartTime": 384,
+            "TimeUnit": "h",
+            "Color": "#b2182b",
+            "Caption": "Treatment (with carbamazepine)",
+            "Symbol": "Square"
+          }
+        ]
+      },
+      {
+        "SectionId": 317,
+        "Title": "Miles 1989 (400 mg)",
+        "SimulationDuration": 24,
+        "TimeUnit": "h",
+        "OutputMappings": [
+          {
+            "Project": "Erythromycin-Carbamazepine-DDI",
+            "Simulation": "Miles1989_ControlPhase_400mg",
+            "Output": "Organism|PeripheralVenousBlood|Carbamazepine|Plasma (Peripheral Venous Blood)",
+            "ObservedData": [],
+            "StartTime": 312,
+            "TimeUnit": "h",
+            "Color": "#2166ac",
+            "Caption": "Control (without carbamazepine)",
+            "Symbol": "Circle"
+          },
+          {
+            "Project": "Erythromycin-Carbamazepine-DDI",
+            "Simulation": "Miles1989_TreatmentPhase_400mg",
+            "Output": "Organism|PeripheralVenousBlood|Carbamazepine|Plasma (Peripheral Venous Blood)",
+            "ObservedData": [],
+            "StartTime": 384,
+            "TimeUnit": "h",
+            "Color": "#b2182b",
+            "Caption": "Treatment (with carbamazepine)",
+            "Symbol": "Square"
+          }
+        ]
+      },
+      {
+        "SectionId": 306,
+        "Title": "Dalton 1985a",
+        "SimulationDuration": 154,
+        "TimeUnit": "h",
+        "OutputMappings": [
+          {
+            "Project": "Cimetidine-Carbamazepine-DDI",
+            "Simulation": "Dalton1985a_ControlPhase",
+            "Output": "Organism|PeripheralVenousBlood|Carbamazepine|Plasma (Peripheral Venous Blood)",
+            "ObservedData": "Dalton 1985a - Placebo (without cimetidine) - Carbamazepine - PO - 600 mg - Plasma - agg. (n=8)",
+            "StartTime": 0,
+            "TimeUnit": "h",
+            "Color": "#2166ac",
+            "Caption": "Control (without cimetidine)",
+            "Symbol": "Circle"
+          },
+          {
+            "Project": "Cimetidine-Carbamazepine-DDI",
+            "Simulation": "Dalton1985a_TreatmentPhase",
+            "Output": "Organism|PeripheralVenousBlood|Carbamazepine|Plasma (Peripheral Venous Blood)",
+            "ObservedData": [],
+            "StartTime": 47,
+            "TimeUnit": "h",
+            "Color": "#b2182b",
+            "Caption": "Treatment (with cimetidine)",
+            "Symbol": "Square"
+          }
+        ]
+      },
+      {
+        "SectionId": 313,
+        "Title": "Ji 2008 (Arm 2, Perpetrator: Efavirenz, Victim: Carbamazepine)",
+        "SimulationDuration": 24,
+        "TimeUnit": "h",
+        "OutputMappings": [
+          {
+            "Project": "Efavirenz-Carbamazepine-DDI",
+            "Simulation": "Ji2008_Arm2_ControlPhase",
+            "Output": "Organism|PeripheralVenousBlood|Carbamazepine|Plasma (Peripheral Venous Blood)",
+            "ObservedData": "Ji 2008 - Carbamazepine, control (Arm 2) - Carbamazepine - PO - 200 / 400 mg - Plasma - agg. (n=36)",
+            "StartTime": 480,
+            "TimeUnit": "h",
+            "Color": "#2166ac",
+            "Caption": "Control (without efavirenz)",
+            "Symbol": "Circle"
+          },
+          {
+            "Project": "Efavirenz-Carbamazepine-DDI",
+            "Simulation": "Ji2008_Arm2_TreatmentPhase",
+            "Output": "Organism|PeripheralVenousBlood|Carbamazepine|Plasma (Peripheral Venous Blood)",
+            "ObservedData": "Ji 2008 - Carbamazepine + Efavirenz, treatment (Arm 2) - Carbamazepine - PO - 200 / 400 mg - Plasma - agg. (n=36)",
+            "StartTime": 816,
+            "TimeUnit": "h",
+            "Color": "#b2182b",
+            "Caption": "Treatment (with efavirenz)",
+            "Symbol": "Square"
           }
         ]
       }
@@ -17300,6 +18350,257 @@
                 }
               }
             ]
+          },
+          {
+            "Caption": "Carbamazepine + Alprazolam (po)",
+            "Color": "#FF5050",
+            "Symbol": "Circle",
+            "DDIRatios": [
+              {
+                "Output": "Organism|PeripheralVenousBlood|Alprazolam|Plasma (Peripheral Venous Blood)",
+                "ObservedData": "DDI Ratios",
+                "ObservedDataRecordId": 1457,
+                "SimulationControl": {
+                  "Project": "Carbamazepine-Alprazolam-DDI",
+                  "Simulation": "Furukori1998_ControlPhase",
+                  "StartTime": 0,
+                  "EndTime": "Inf",
+                  "TimeUnit": "h"
+                },
+                "SimulationDDI": {
+                  "Project": "Carbamazepine-Alprazolam-DDI",
+                  "Simulation": "Furukori1998_TreatmentPhase",
+                  "StartTime": 170,
+                  "EndTime": "Inf",
+                  "TimeUnit": "h"
+                }
+              }
+            ]
+          },
+          {
+            "Caption": "Carbamazepine + Midazolam (po)",
+            "Color": "#5C0000",
+            "Symbol": "Circle",
+            "DDIRatios": [
+              {
+                "Output": "Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
+                "ObservedData": "DDI Ratios",
+                "ObservedDataRecordId": 943,
+                "SimulationControl": {
+                  "Project": "Carbamazepine-Midazolam-DDI",
+                  "Simulation": "Kanefendt2023_Study1_ControlPhase",
+                  "StartTime": 0,
+                  "EndTime": "Inf",
+                  "TimeUnit": "h"
+                },
+                "SimulationDDI": {
+                  "Project": "Carbamazepine-Midazolam-DDI",
+                  "Simulation": "Kanefendt2023_Study1_TreatmentPhase",
+                  "StartTime": 334,
+                  "EndTime": "Inf",
+                  "TimeUnit": "h"
+                }
+              },
+              {
+                "Output": "Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
+                "ObservedData": "DDI Ratios",
+                "ObservedDataRecordId": 1133,
+                "SimulationControl": {
+                  "Project": "Carbamazepine-Midazolam-DDI",
+                  "Simulation": "Kanefendt2023_Study2_ControlPhase",
+                  "StartTime": 0,
+                  "EndTime": "Inf",
+                  "TimeUnit": "h"
+                },
+                "SimulationDDI": {
+                  "Project": "Carbamazepine-Midazolam-DDI",
+                  "Simulation": "Kanefendt2023_Study2_TreatmentPhase",
+                  "StartTime": 336,
+                  "EndTime": "Inf",
+                  "TimeUnit": "h"
+                }
+              },
+              {
+                "Output": "Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
+                "ObservedData": "DDI Ratios",
+                "ObservedDataRecordId": 1460,
+                "SimulationControl": {
+                  "Project": "Carbamazepine-Midazolam-DDI",
+                  "Simulation": "Lutz2018_ControlPhase",
+                  "StartTime": 0,
+                  "EndTime": "Inf",
+                  "TimeUnit": "h"
+                },
+                "SimulationDDI": {
+                  "Project": "Carbamazepine-Midazolam-DDI",
+                  "Simulation": "Lutz2018_TreatmentPhase",
+                  "StartTime": 404,
+                  "EndTime": "Inf",
+                  "TimeUnit": "h"
+                }
+              }
+            ]
+          },
+          {
+            "Caption": "Carbamazepine + Efavirenz (po)",
+            "Color": "#B06900",
+            "Symbol": "Circle",
+            "DDIRatios": [
+              {
+                "Output": "Organism|PeripheralVenousBlood|Efavirenz|Plasma (Peripheral Venous Blood)",
+                "ObservedData": "DDI Ratios",
+                "ObservedDataRecordId": 959,
+                "SimulationControl": {
+                  "Project": "Carbamazepine-Efavirenz-DDI",
+                  "Simulation": "Ji2008_Arm1_ControlPhase",
+                  "StartTime": 312,
+                  "EndTime": 336,
+                  "TimeUnit": "h"
+                },
+                "SimulationDDI": {
+                  "Project": "Carbamazepine-Efavirenz-DDI",
+                  "Simulation": "Ji2008_Arm1_TreatmentPhase",
+                  "StartTime": 816,
+                  "EndTime": 840,
+                  "TimeUnit": "h"
+                }
+              }
+            ]
+          },
+          {
+            "Caption": "Erythromycin + Carbamazepine (po)",
+            "Color": "#7030A0",
+            "Symbol": "Circle",
+            "DDIRatios": [
+              {
+                "Output": "Organism|PeripheralVenousBlood|Carbamazepine|Plasma (Peripheral Venous Blood)",
+                "ObservedData": "DDI Ratios",
+                "ObservedDataRecordId": 465,
+                "SimulationControl": {
+                  "Project": "Erythromycin-Carbamazepine-DDI",
+                  "Simulation": "Barzaghi1987_ControlPhase",
+                  "StartTime": 0,
+                  "EndTime": "Inf",
+                  "TimeUnit": "h"
+                },
+                "SimulationDDI": {
+                  "Project": "Erythromycin-Carbamazepine-DDI",
+                  "Simulation": "Barzaghi1987_TreatmentPhase",
+                  "StartTime": 144,
+                  "EndTime": "Inf",
+                  "TimeUnit": "h"
+                }
+              },
+              {
+                "Output": "Organism|PeripheralVenousBlood|Carbamazepine|Plasma (Peripheral Venous Blood)",
+                "ObservedData": "DDI Ratios",
+                "ObservedDataRecordId": 1157,
+                "SimulationControl": {
+                  "Project": "Erythromycin-Carbamazepine-DDI",
+                  "Simulation": "Miles1989_ControlPhase_300mg",
+                  "StartTime": 312,
+                  "EndTime": 336,
+                  "TimeUnit": "h"
+                },
+                "SimulationDDI": {
+                  "Project": "Erythromycin-Carbamazepine-DDI",
+                  "Simulation": "Miles1989_TreatmentPhase_300mg",
+                  "StartTime": 384,
+                  "EndTime": 408,
+                  "TimeUnit": "h"
+                }
+              },
+              {
+                "Output": "Organism|PeripheralVenousBlood|Carbamazepine|Plasma (Peripheral Venous Blood)",
+                "ObservedData": "DDI Ratios",
+                "ObservedDataRecordId": 1158,
+                "SimulationControl": {
+                  "Project": "Erythromycin-Carbamazepine-DDI",
+                  "Simulation": "Miles1989_ControlPhase_400mg",
+                  "StartTime": 312,
+                  "EndTime": 336,
+                  "TimeUnit": "h"
+                },
+                "SimulationDDI": {
+                  "Project": "Erythromycin-Carbamazepine-DDI",
+                  "Simulation": "Miles1989_TreatmentPhase_400mg",
+                  "StartTime": 384,
+                  "EndTime": 408,
+                  "TimeUnit": "h"
+                }
+              },
+              {
+                "Output": "Organism|PeripheralVenousBlood|Carbamazepine|Plasma (Peripheral Venous Blood)",
+                "ObservedData": "DDI Ratios",
+                "ObservedDataRecordId": 1154,
+                "SimulationControl": {
+                  "Project": "Erythromycin-Carbamazepine-DDI",
+                  "Simulation": "Wong1983_ControlPhase",
+                  "StartTime": 0,
+                  "EndTime": "Inf",
+                  "TimeUnit": "h"
+                },
+                "SimulationDDI": {
+                  "Project": "Erythromycin-Carbamazepine-DDI",
+                  "Simulation": "Wong1983_TreatmentPhase",
+                  "StartTime": 120,
+                  "EndTime": "Inf",
+                  "TimeUnit": "h"
+                }
+              }
+            ]
+          },
+          {
+            "Caption": "Cimetidine + Carbamazepine (po)",
+            "Color": "#9BC2E6",
+            "Symbol": "Circle",
+            "DDIRatios": [
+              {
+                "Output": "Organism|PeripheralVenousBlood|Carbamazepine|Plasma (Peripheral Venous Blood)",
+                "ObservedData": "DDI Ratios",
+                "ObservedDataRecordId": 900,
+                "SimulationControl": {
+                  "Project": "Cimetidine-Carbamazepine-DDI",
+                  "Simulation": "Dalton1985a_ControlPhase",
+                  "StartTime": 0,
+                  "EndTime": "Inf",
+                  "TimeUnit": "h"
+                },
+                "SimulationDDI": {
+                  "Project": "Cimetidine-Carbamazepine-DDI",
+                  "Simulation": "Dalton1985a_TreatmentPhase",
+                  "StartTime": 48,
+                  "EndTime": "Inf",
+                  "TimeUnit": "h"
+                }
+              }
+            ]
+          },
+          {
+            "Caption": "Efavirenz + Carbamazepine (po)",
+            "Color": "#B4B4B4",
+            "Symbol": "Circle",
+            "DDIRatios": [
+              {
+                "Output": "Organism|PeripheralVenousBlood|Carbamazepine|Plasma (Peripheral Venous Blood)",
+                "ObservedData": "DDI Ratios",
+                "ObservedDataRecordId": 961,
+                "SimulationControl": {
+                  "Project": "Efavirenz-Carbamazepine-DDI",
+                  "Simulation": "Ji2008_Arm2_ControlPhase",
+                  "StartTime": 480,
+                  "EndTime": 504,
+                  "TimeUnit": "h"
+                },
+                "SimulationDDI": {
+                  "Project": "Efavirenz-Carbamazepine-DDI",
+                  "Simulation": "Ji2008_Arm2_TreatmentPhase",
+                  "StartTime": 816,
+                  "EndTime": 840,
+                  "TimeUnit": "h"
+                }
+              }
+            ]
           }
         ]
       }
@@ -17324,138 +18625,168 @@
           "Sections": [
             {
               "Id": 1201,
+              "Title": "Carbamazepine - Alprazolam DDI",
+              "Content": "Content/Carbamazepine-Alprazolam-DDI.md"
+            },
+            {
+              "Id": 1202,
+              "Title": "Carbamazepine - Efavirenz DDI",
+              "Content": "Content/Carbamazepine-Efavirenz-DDI.md"
+            },
+            {
+              "Id": 1203,
+              "Title": "Carbamazepine - Midazolam DDI",
+              "Content": "Content/Carbamazepine-Midazolam-DDI.md"
+            },
+            {
+              "Id": 1204,
               "Title": "Cimetidine - Alfentanil DDI",
               "Content": "Content/Cimetidine-Alfentanil-DDI.md"
             },
             {
-              "Id": 1202,
+              "Id": 1205,
               "Title": "Cimetidine - Alprazolam DDI",
               "Content": "Content/Cimetidine-Alprazolam-DDI.md"
             },
             {
-              "Id": 1203,
+              "Id": 1206,
+              "Title": "Cimetidine - Carbamazepine DDI",
+              "Content": "Content/Cimetidine-Carbamazepine-DDI.md"
+            },
+            {
+              "Id": 1207,
               "Title": "Cimetidine - Midazolam DDI",
               "Content": "Content/Cimetidine-Midazolam-DDI.md"
             },
             {
-              "Id": 1204,
+              "Id": 1208,
               "Title": "Cimetidine - Triazolam DDI",
               "Content": "Content/Cimetidine-Triazolam-DDI.md"
             },
             {
-              "Id": 1205,
+              "Id": 1209,
               "Title": "Cimetidine - Verapamil DDI",
               "Content": "Content/Cimetidine-Verapamil-DDI.md"
             },
             {
-              "Id": 1206,
+              "Id": 1210,
               "Title": "Clarithromycin - Midazolam DDI",
               "Content": "Content/Clarithromycin-Midazolam-DDI.md"
             },
             {
-              "Id": 1207,
+              "Id": 1211,
               "Title": "Clarithromycin - Triazolam DDI",
               "Content": "Content/Clarithromycin-Triazolam-DDI.md"
             },
             {
-              "Id": 1208,
-              "Title": "Erythromycin - Alfentanil DDI",
-              "Content": "Content/Erythromycin-Alfentanil-DDI.md"
-            },
-            {
-              "Id": 1209,
-              "Title": "Erythromycin - Alprazolam DDI",
-              "Content": "Content/Erythromycin-Alprazolam-DDI.md"
-            },
-            {
-              "Id": 1210,
-              "Title": "Erythromycin - Midazolam DDI",
-              "Content": "Content/Erythromycin-Midazolam-DDI.md"
-            },
-            {
-              "Id": 1211,
-              "Title": "Erythromycin - Triazolam DDI",
-              "Content": "Content/Erythromycin-Triazolam-DDI.md"
-            },
-            {
               "Id": 1212,
-              "Title": "Fluvoxamine - Alprazolam DDI",
-              "Content": "Content/Fluvoxamine-Alprazolam-DDI.md"
-            },
-            {
-              "Id": 1213,
-              "Title": "Fluvoxamine - Midazolam DDI",
-              "Content": "Content/Fluvoxamine-Midazolam-DDI.md"
-            },
-            {
-              "Id": 1214,
-              "Title": "Itraconazole - Alprazolam DDI",
-              "Content": "Content/Itraconazole-Alprazolam-DDI.md"
-            },
-            {
-              "Id": 1215,
-              "Title": "Itraconazole - Midazolam DDI",
-              "Content": "Content/Itraconazole-Midazolam-DDI.md"
-            },
-            {
-              "Id": 1216,
-              "Title": "Itraconazole - Triazolam DDI",
-              "Content": "Content/Itraconazole-Triazolam-DDI.md"
-            },
-            {
-              "Id": 1217,
-              "Title": "Verapamil - Midazolam DDI",
-              "Content": "Content/Verapamil-Midazolam-DDI.md"
-            },
-            {
-              "Id": 1218,
               "Title": "Efavirenz - Alfentanil-DDI",
               "Content": "Content/Efavirenz-Alfentanil-DDI.md"
             },
             {
-              "Id": 1219,
+              "Id": 1213,
+              "Title": "Efavirenz - Carbamazepine DDI",
+              "Content": "Content/Efavirenz-Carbamazepine-DDI.md"
+            },
+            {
+              "Id": 1214,
               "Title": "Efavirenz - Midazolam DDI",
               "Content": "Content/Efavirenz-Midazolam-DDI.md"
             },
             {
+              "Id": 1215,
+              "Title": "Erythromycin - Alfentanil DDI",
+              "Content": "Content/Erythromycin-Alfentanil-DDI.md"
+            },
+            {
+              "Id": 1216,
+              "Title": "Erythromycin - Alprazolam DDI",
+              "Content": "Content/Erythromycin-Alprazolam-DDI.md"
+            },
+            {
+              "Id": 1217,
+              "Title": "Erythromycin - Carbamazepine DDI",
+              "Content": "Content/Erythromycin-Carbamazepine-DDI.md"
+            },
+            {
+              "Id": 1218,
+              "Title": "Erythromycin - Midazolam DDI",
+              "Content": "Content/Erythromycin-Midazolam-DDI.md"
+            },
+            {
+              "Id": 1219,
+              "Title": "Erythromycin - Triazolam DDI",
+              "Content": "Content/Erythromycin-Triazolam-DDI.md"
+            },
+            {
               "Id": 1220,
-              "Title": "Rifampicin - Alfentanil DDI",
-              "Content": "Content/Rifampicin-Alfentanil-DDI.md"
-            },
-            {
-              "Id": 1221,
-              "Title": "Rifampicin - Alprazolam DDI",
-              "Content": "Content/Rifampicin-Alprazolam-DDI.md"
-            },
-            {
-              "Id": 1222,
-              "Title": "Rifampicin - Midazolam DDI",
-              "Content": "Content/Rifampicin-Midazolam-DDI.md"
-            },
-            {
-              "Id": 1223,
-              "Title": "Rifampicin - Triazolam DDI",
-              "Content": "Content/Rifampicin-Triazolam-DDI.md"
-            },
-            {
-              "Id": 1224,
-              "Title": "Rifampicin - Verapamil DDI",
-              "Content": "Content/Rifampicin-Verapamil-DDI.md"
-            },            
-            {
-              "Id": 1225,
               "Title": "Fluconazole - Alfentanil DDI",
               "Content": "Content/Fluconazole-Alfentanil-DDI.md"
             },
             {
-              "Id": 1226,
+              "Id": 1221,
               "Title": "Fluconazole - Midazolam DDI",
               "Content": "Content/Fluconazole-Midazolam-DDI.md"
             },
             {
-              "Id": 1227,
+              "Id": 1222,
               "Title": "Fluconazole - Triazolam DDI",
               "Content": "Content/Fluconazole-Triazolam-DDI.md"
+            },
+            {
+              "Id": 1223,
+              "Title": "Fluvoxamine - Alprazolam DDI",
+              "Content": "Content/Fluvoxamine-Alprazolam-DDI.md"
+            },
+            {
+              "Id": 1224,
+              "Title": "Fluvoxamine - Midazolam DDI",
+              "Content": "Content/Fluvoxamine-Midazolam-DDI.md"
+            },
+            {
+              "Id": 1225,
+              "Title": "Itraconazole - Alprazolam DDI",
+              "Content": "Content/Itraconazole-Alprazolam-DDI.md"
+            },
+            {
+              "Id": 1226,
+              "Title": "Itraconazole - Midazolam DDI",
+              "Content": "Content/Itraconazole-Midazolam-DDI.md"
+            },
+            {
+              "Id": 1227,
+              "Title": "Itraconazole - Triazolam DDI",
+              "Content": "Content/Itraconazole-Triazolam-DDI.md"
+            },
+            {
+              "Id": 1228,
+              "Title": "Rifampicin - Alfentanil DDI",
+              "Content": "Content/Rifampicin-Alfentanil-DDI.md"
+            },
+            {
+              "Id": 1229,
+              "Title": "Rifampicin - Alprazolam DDI",
+              "Content": "Content/Rifampicin-Alprazolam-DDI.md"
+            },
+            {
+              "Id": 1230,
+              "Title": "Rifampicin - Midazolam DDI",
+              "Content": "Content/Rifampicin-Midazolam-DDI.md"
+            },
+            {
+              "Id": 1231,
+              "Title": "Rifampicin - Triazolam DDI",
+              "Content": "Content/Rifampicin-Triazolam-DDI.md"
+            },
+            {
+              "Id": 1232,
+              "Title": "Rifampicin - Verapamil DDI",
+              "Content": "Content/Rifampicin-Verapamil-DDI.md"
+            },
+            {
+              "Id": 1233,
+              "Title": "Verapamil - Midazolam DDI",
+              "Content": "Content/Verapamil-Midazolam-DDI.md"
             }
           ]
         }
@@ -17473,137 +18804,167 @@
       "Sections": [
         {
           "Id": 301,
-          "Title": "3.1 Cimetidine - Alfentanil DDI",
+          "Title": "3.1 Carbamazepine - Alprazolam DDI",
           "Content": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Qualification-text-modules/v1.2/Empty.md"
         },
         {
           "Id": 302,
-          "Title": "3.2 Cimetidine - Alprazolam DDI",
+          "Title": "3.2 Carbamazepine - Efavirenz DDI",
           "Content": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Qualification-text-modules/v1.2/Empty.md"
         },
         {
           "Id": 303,
-          "Title": "3.3 Cimetidine - Midazolam DDI",
+          "Title": "3.3 Carbamazepine - Midazolam DDI",
           "Content": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Qualification-text-modules/v1.2/Empty.md"
         },
         {
           "Id": 304,
-          "Title": "3.4 Cimetidine - Triazolam DDI",
+          "Title": "3.4 Cimetidine - Alfentanil DDI",
           "Content": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Qualification-text-modules/v1.2/Empty.md"
         },
         {
           "Id": 305,
-          "Title": "3.5 Cimetidine - Verapamil DDI",
+          "Title": "3.5 Cimetidine - Alprazolam DDI",
           "Content": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Qualification-text-modules/v1.2/Empty.md"
         },
         {
           "Id": 306,
-          "Title": "3.6 Clarithromycin - Midazolam DDI",
+          "Title": "3.6 Cimetidine - Carbamazepine DDI",
           "Content": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Qualification-text-modules/v1.2/Empty.md"
         },
         {
           "Id": 307,
-          "Title": "3.7 Clarithromycin - Triazolam DDI",
+          "Title": "3.7 Cimetidine - Midazolam DDI",
           "Content": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Qualification-text-modules/v1.2/Empty.md"
         },
         {
           "Id": 308,
-          "Title": "3.8 Erythromycin - Alfentanil DDI",
+          "Title": "3.8 Cimetidine - Triazolam DDI",
           "Content": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Qualification-text-modules/v1.2/Empty.md"
         },
         {
           "Id": 309,
-          "Title": "3.9 Erythromycin - Alprazolam DDI",
+          "Title": "3.9 Cimetidine - Verapamil DDI",
           "Content": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Qualification-text-modules/v1.2/Empty.md"
         },
         {
           "Id": 310,
-          "Title": "3.10 Erythromycin - Midazolam DDI",
+          "Title": "3.10 Clarithromycin - Midazolam DDI",
           "Content": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Qualification-text-modules/v1.2/Empty.md"
         },
         {
           "Id": 311,
-          "Title": "3.11 Erythromycin - Triazolam DDI",
+          "Title": "3.11 Clarithromycin - Triazolam DDI",
           "Content": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Qualification-text-modules/v1.2/Empty.md"
         },
         {
           "Id": 312,
-          "Title": "3.12 Fluvoxamine - Alprazolam DDI",
+          "Title": "3.12 Efavirenz - Alfentanil DDI",
           "Content": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Qualification-text-modules/v1.2/Empty.md"
         },
         {
           "Id": 313,
-          "Title": "3.13 Fluvoxamine - Midazolam DDI",
+          "Title": "3.13 Efavirenz - Carbamazepine DDI",
           "Content": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Qualification-text-modules/v1.2/Empty.md"
         },
         {
           "Id": 314,
-          "Title": "3.14 Itraconazole - Alprazolam DDI",
+          "Title": "3.14 Efavirenz - Midazolam DDI",
           "Content": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Qualification-text-modules/v1.2/Empty.md"
         },
         {
           "Id": 315,
-          "Title": "3.15 Itraconazole - Midazolam DDI",
+          "Title": "3.15 Erythromycin - Alfentanil DDI",
           "Content": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Qualification-text-modules/v1.2/Empty.md"
         },
         {
           "Id": 316,
-          "Title": "3.16 Itraconazole - Triazolam DDI",
+          "Title": "3.16 Erythromycin - Alprazolam DDI",
           "Content": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Qualification-text-modules/v1.2/Empty.md"
         },
         {
           "Id": 317,
-          "Title": "3.17 Verapamil - Midazolam DDI",
+          "Title": "3.17 Erythromycin - Carbamazepine DDI",
           "Content": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Qualification-text-modules/v1.2/Empty.md"
         },
         {
           "Id": 318,
-          "Title": "3.18 Efavirenz - Alfentanil DDI",
+          "Title": "3.18 Erythromycin - Midazolam DDI",
           "Content": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Qualification-text-modules/v1.2/Empty.md"
         },
         {
           "Id": 319,
-          "Title": "3.19 Efavirenz - Midazolam DDI",
+          "Title": "3.19 Erythromycin - Triazolam DDI",
           "Content": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Qualification-text-modules/v1.2/Empty.md"
         },
         {
           "Id": 320,
-          "Title": "3.20 Rifampicin - Alfentanil DDI",
+          "Title": "3.20 Fluconazole - Alfentanil DDI",
           "Content": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Qualification-text-modules/v1.2/Empty.md"
         },
         {
           "Id": 321,
-          "Title": "3.21 Rifampicin - Alprazolam DDI",
+          "Title": "3.21 Fluconazole - Midazolam DDI",
           "Content": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Qualification-text-modules/v1.2/Empty.md"
         },
         {
           "Id": 322,
-          "Title": "3.22 Rifampicin - Midazolam DDI",
+          "Title": "3.22 Fluconazole - Triazolam DDI",
           "Content": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Qualification-text-modules/v1.2/Empty.md"
         },
         {
           "Id": 323,
-          "Title": "3.23 Rifampicin - Triazolam DDI",
+          "Title": "3.23 Fluvoxamine - Alprazolam DDI",
           "Content": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Qualification-text-modules/v1.2/Empty.md"
         },
         {
           "Id": 324,
-          "Title": "3.24 Rifampicin - Verapamil DDI",
+          "Title": "3.24 Fluvoxamine - Midazolam DDI",
           "Content": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Qualification-text-modules/v1.2/Empty.md"
         },
         {
           "Id": 325,
-          "Title": "3.25 Fluconazole - Alfentanil DDI",
+          "Title": "3.25 Itraconazole - Alprazolam DDI",
           "Content": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Qualification-text-modules/v1.2/Empty.md"
         },
         {
           "Id": 326,
-          "Title": "3.26 Fluconazole - Midazolam DDI",
+          "Title": "3.26 Itraconazole - Midazolam DDI",
           "Content": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Qualification-text-modules/v1.2/Empty.md"
         },
         {
           "Id": 327,
-          "Title": "3.27 Fluconazole - Triazolam DDI",
+          "Title": "3.27 Itraconazole - Triazolam DDI",
+          "Content": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Qualification-text-modules/v1.2/Empty.md"
+        },
+        {
+          "Id": 328,
+          "Title": "3.28 Rifampicin - Alfentanil DDI",
+          "Content": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Qualification-text-modules/v1.2/Empty.md"
+        },
+        {
+          "Id": 329,
+          "Title": "3.29 Rifampicin - Alprazolam DDI",
+          "Content": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Qualification-text-modules/v1.2/Empty.md"
+        },
+        {
+          "Id": 330,
+          "Title": "3.30 Rifampicin - Midazolam DDI",
+          "Content": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Qualification-text-modules/v1.2/Empty.md"
+        },
+        {
+          "Id": 331,
+          "Title": "3.31 Rifampicin - Triazolam DDI",
+          "Content": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Qualification-text-modules/v1.2/Empty.md"
+        },
+        {
+          "Id": 332,
+          "Title": "3.32 Rifampicin - Verapamil DDI",
+          "Content": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Qualification-text-modules/v1.2/Empty.md"
+        },
+        {
+          "Id": 333,
+          "Title": "3.33 Verapamil - Midazolam DDI",
           "Content": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Qualification-text-modules/v1.2/Empty.md"
         }
       ]
