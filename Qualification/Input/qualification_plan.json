@@ -18611,7 +18611,7 @@
     {
       "Id": 1,
       "Title": "1 Introduction",
-      "Content": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Qualification-text-modules/v1.2/Empty.md",
+      "Content": "Content/Empty.md",
       "Sections": [
         {
           "Id": 11,
@@ -18805,167 +18805,167 @@
         {
           "Id": 301,
           "Title": "3.1 Carbamazepine - Alprazolam DDI",
-          "Content": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Qualification-text-modules/v1.2/Empty.md"
+          "Content": "Content/Empty.md"
         },
         {
           "Id": 302,
           "Title": "3.2 Carbamazepine - Efavirenz DDI",
-          "Content": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Qualification-text-modules/v1.2/Empty.md"
+          "Content": "Content/Empty.md"
         },
         {
           "Id": 303,
           "Title": "3.3 Carbamazepine - Midazolam DDI",
-          "Content": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Qualification-text-modules/v1.2/Empty.md"
+          "Content": "Content/Empty.md"
         },
         {
           "Id": 304,
           "Title": "3.4 Cimetidine - Alfentanil DDI",
-          "Content": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Qualification-text-modules/v1.2/Empty.md"
+          "Content": "Content/Empty.md"
         },
         {
           "Id": 305,
           "Title": "3.5 Cimetidine - Alprazolam DDI",
-          "Content": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Qualification-text-modules/v1.2/Empty.md"
+          "Content": "Content/Empty.md"
         },
         {
           "Id": 306,
           "Title": "3.6 Cimetidine - Carbamazepine DDI",
-          "Content": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Qualification-text-modules/v1.2/Empty.md"
+          "Content": "Content/Empty.md"
         },
         {
           "Id": 307,
           "Title": "3.7 Cimetidine - Midazolam DDI",
-          "Content": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Qualification-text-modules/v1.2/Empty.md"
+          "Content": "Content/Empty.md"
         },
         {
           "Id": 308,
           "Title": "3.8 Cimetidine - Triazolam DDI",
-          "Content": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Qualification-text-modules/v1.2/Empty.md"
+          "Content": "Content/Empty.md"
         },
         {
           "Id": 309,
           "Title": "3.9 Cimetidine - Verapamil DDI",
-          "Content": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Qualification-text-modules/v1.2/Empty.md"
+          "Content": "Content/Empty.md"
         },
         {
           "Id": 310,
           "Title": "3.10 Clarithromycin - Midazolam DDI",
-          "Content": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Qualification-text-modules/v1.2/Empty.md"
+          "Content": "Content/Empty.md"
         },
         {
           "Id": 311,
           "Title": "3.11 Clarithromycin - Triazolam DDI",
-          "Content": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Qualification-text-modules/v1.2/Empty.md"
+          "Content": "Content/Empty.md"
         },
         {
           "Id": 312,
           "Title": "3.12 Efavirenz - Alfentanil DDI",
-          "Content": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Qualification-text-modules/v1.2/Empty.md"
+          "Content": "Content/Empty.md"
         },
         {
           "Id": 313,
           "Title": "3.13 Efavirenz - Carbamazepine DDI",
-          "Content": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Qualification-text-modules/v1.2/Empty.md"
+          "Content": "Content/Empty.md"
         },
         {
           "Id": 314,
           "Title": "3.14 Efavirenz - Midazolam DDI",
-          "Content": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Qualification-text-modules/v1.2/Empty.md"
+          "Content": "Content/Empty.md"
         },
         {
           "Id": 315,
           "Title": "3.15 Erythromycin - Alfentanil DDI",
-          "Content": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Qualification-text-modules/v1.2/Empty.md"
+          "Content": "Content/Empty.md"
         },
         {
           "Id": 316,
           "Title": "3.16 Erythromycin - Alprazolam DDI",
-          "Content": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Qualification-text-modules/v1.2/Empty.md"
+          "Content": "Content/Empty.md"
         },
         {
           "Id": 317,
           "Title": "3.17 Erythromycin - Carbamazepine DDI",
-          "Content": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Qualification-text-modules/v1.2/Empty.md"
+          "Content": "Content/Empty.md"
         },
         {
           "Id": 318,
           "Title": "3.18 Erythromycin - Midazolam DDI",
-          "Content": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Qualification-text-modules/v1.2/Empty.md"
+          "Content": "Content/Empty.md"
         },
         {
           "Id": 319,
           "Title": "3.19 Erythromycin - Triazolam DDI",
-          "Content": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Qualification-text-modules/v1.2/Empty.md"
+          "Content": "Content/Empty.md"
         },
         {
           "Id": 320,
           "Title": "3.20 Fluconazole - Alfentanil DDI",
-          "Content": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Qualification-text-modules/v1.2/Empty.md"
+          "Content": "Content/Empty.md"
         },
         {
           "Id": 321,
           "Title": "3.21 Fluconazole - Midazolam DDI",
-          "Content": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Qualification-text-modules/v1.2/Empty.md"
+          "Content": "Content/Empty.md"
         },
         {
           "Id": 322,
           "Title": "3.22 Fluconazole - Triazolam DDI",
-          "Content": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Qualification-text-modules/v1.2/Empty.md"
+          "Content": "Content/Empty.md"
         },
         {
           "Id": 323,
           "Title": "3.23 Fluvoxamine - Alprazolam DDI",
-          "Content": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Qualification-text-modules/v1.2/Empty.md"
+          "Content": "Content/Empty.md"
         },
         {
           "Id": 324,
           "Title": "3.24 Fluvoxamine - Midazolam DDI",
-          "Content": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Qualification-text-modules/v1.2/Empty.md"
+          "Content": "Content/Empty.md"
         },
         {
           "Id": 325,
           "Title": "3.25 Itraconazole - Alprazolam DDI",
-          "Content": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Qualification-text-modules/v1.2/Empty.md"
+          "Content": "Content/Empty.md"
         },
         {
           "Id": 326,
           "Title": "3.26 Itraconazole - Midazolam DDI",
-          "Content": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Qualification-text-modules/v1.2/Empty.md"
+          "Content": "Content/Empty.md"
         },
         {
           "Id": 327,
           "Title": "3.27 Itraconazole - Triazolam DDI",
-          "Content": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Qualification-text-modules/v1.2/Empty.md"
+          "Content": "Content/Empty.md"
         },
         {
           "Id": 328,
           "Title": "3.28 Rifampicin - Alfentanil DDI",
-          "Content": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Qualification-text-modules/v1.2/Empty.md"
+          "Content": "Content/Empty.md"
         },
         {
           "Id": 329,
           "Title": "3.29 Rifampicin - Alprazolam DDI",
-          "Content": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Qualification-text-modules/v1.2/Empty.md"
+          "Content": "Content/Empty.md"
         },
         {
           "Id": 330,
           "Title": "3.30 Rifampicin - Midazolam DDI",
-          "Content": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Qualification-text-modules/v1.2/Empty.md"
+          "Content": "Content/Empty.md"
         },
         {
           "Id": 331,
           "Title": "3.31 Rifampicin - Triazolam DDI",
-          "Content": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Qualification-text-modules/v1.2/Empty.md"
+          "Content": "Content/Empty.md"
         },
         {
           "Id": 332,
           "Title": "3.32 Rifampicin - Verapamil DDI",
-          "Content": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Qualification-text-modules/v1.2/Empty.md"
+          "Content": "Content/Empty.md"
         },
         {
           "Id": 333,
           "Title": "3.33 Verapamil - Midazolam DDI",
-          "Content": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Qualification-text-modules/v1.2/Empty.md"
+          "Content": "Content/Empty.md"
         }
       ]
     },
@@ -18978,22 +18978,22 @@
     {
       "Id": 5,
       "Title": "5 Appendix",
-      "Content": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Qualification-text-modules/v1.2/Empty.md",
+      "Content": "Content/Empty.md",
       "Sections": [
         {
           "Id": 51,
           "Title": "5.1 Open Systems Pharmacology Suite (OSPS) Introduction",
-          "Content": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Qualification-text-modules/v1.2/OSPS_Introduction.md"
+          "Content": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Qualification-text-modules/v1.3/OSPS_Introduction.md"
         },
         {
           "Id": 52,
           "Title": "5.2 Mathematical Implementation of Drug-Drug Interactions",
-          "Content": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Qualification-text-modules/v1.2/Mathematical_Implementation_of_DDI.md"
+          "Content": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Qualification-text-modules/v1.3/Mathematical_Implementation_of_DDI.md"
         },
         {
           "Id": 53,
           "Title": "5.3 Automatic (re)-qualification workflow",
-          "Content": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Qualification-text-modules/v1.2/Qualification_Workflow.md"
+          "Content": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Qualification-text-modules/v1.3/Qualification_Workflow.md"
         }
       ]
     }
