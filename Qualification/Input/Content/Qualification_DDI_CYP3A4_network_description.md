@@ -5,7 +5,7 @@ The following perpetrator compounds were selected:
 - **Rifampicin** (strong CYP3A4 inducer)
   Model snapshot and evaluation plan (*release* **v1.2**): https://github.com/Open-Systems-Pharmacology/Rifampicin-Model/releases/tag/v1.2
 - **Carbamazepine** (moderate CYP3A4 inducer)
-  Model snapshot and evaluation plan (*release* **v1.3**): [https://github.com/Open-Systems-Pharmacology/Carbamazepine-Model/releases/tag/v1.3](https://github.com/Open-Systems-Pharmacology/Carbamazepine-Model/releases/tag/v1.3)
+  Model snapshot and evaluation plan (*release* **v1.3**): https://github.com/Open-Systems-Pharmacology/Carbamazepine-Model/releases/tag/v1.3
 - **Efavirenz** (moderate CYP3A4 inducer)
   Model snapshot and evaluation plan (*release* **v1.1**): https://github.com/Open-Systems-Pharmacology/Efavirenz-Model/releases/tag/v1.1
 - **Cimetidine** (weak CYP3A4 inhibitor)
@@ -41,4 +41,4 @@ The following sensitive CYP3A4 substrates as victim drugs were selected:
 
 <sub>The arrows indicate where at least one clinical DDI study between the two connected substances was available and included in the model network. Red indicates inhibition and green indicates induction as the primary type of interaction. Thin arrows indicate weak, mid-thick arrows moderate and thick arrows strong CYP3A4 modulation by the perpetrator.</sub>
 
-The published DDI studies between the respective perpetrators and victim drugs were simulated and compared to observed data. The following sections give an overview of the clinical studies being part of this qualification report. The respective data identifier (DataID) refers to the **ID** of the dataset in the [OSP PK database](https://github.com/Open-Systems-Pharmacology/Database-for-observed-data).
+The published DDI studies between the respective perpetrators and victim drugs were simulated and compared to observed data. The following sections give an overview of the clinical studies being part of this qualification report. The respective data identifier (DataID) refers to the **ID** of the dataset in the OSP PK database, version 1.5 (https://github.com/Open-Systems-Pharmacology/Database-for-observed-data/releases/tag/v1.5).
