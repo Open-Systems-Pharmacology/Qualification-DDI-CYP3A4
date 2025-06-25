@@ -1,5 +1,5 @@
 {
-  "$schema": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/QualificationPlan/v2.3/schemas/OSP_Qualification_Plan_Schema.json",
+  "$schema": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/QualificationPlan/v3.3/schemas/OSP_Qualification_Plan_Schema.json",
   "Projects": [
     {
       "Id": "Alfentanil",
@@ -308,9 +308,7 @@
           "Project": "Efavirenz"
         }
       ],
-      "SimulationParameters": [
-        
-      ]
+      "SimulationParameters": []
     },
     {
       "Id": "Carbamazepine-Midazolam-DDI",
@@ -1142,9 +1140,7 @@
           "Project": "Carbamazepine"
         }
       ],
-      "SimulationParameters": [
-
-      ]
+      "SimulationParameters": []
     },
     {
       "Id": "Cimetidine-Midazolam-DDI",
@@ -3145,9 +3141,7 @@
           "Project": "Efavirenz"
         }
       ],
-      "SimulationParameters": [
-        
-      ]
+      "SimulationParameters": []
     },
     {
       "Id": "Erythromycin-Alfentanil-DDI",
@@ -3678,9 +3672,7 @@
           "Project": "Erythromycin"
         }
       ],
-      "SimulationParameters": [
-
-      ]
+      "SimulationParameters": []
     },
     {
       "Id": "Erythromycin-Midazolam-DDI",
@@ -4499,9 +4491,7 @@
           "Project": "Alfentanil"
         }
       ],
-      "SimulationParameters": [
-       
-      ]
+      "SimulationParameters": []
     },
     {
       "Id": "Fluconazole-Midazolam-DDI",
@@ -4886,7 +4876,6 @@
             "Olkkola_midazolam_placebo_day 6"
           ]
         }
-       
       ]
     },
     {
@@ -5162,7 +5151,6 @@
             "Varhe triazolam 0.25 mg po fluconazole 50mg"
           ]
         }
-       
       ]
     },
     {
@@ -10848,7 +10836,7 @@
   "ObservedDataSets": [
     {
       "Id": "DDI Ratios",
-      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Database-for-observed-data/v1.5/DDI.csv",
+      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Database-for-observed-data/v1.7/DDI.csv",
       "Type": "DDIRatio"
     }
   ],
@@ -10966,7 +10954,7 @@
     "GOFMergedPlots": [],
     "ComparisonTimeProfilePlots": [
       {
-        "SectionId": 304,
+        "SectionReference": "cimetidine-alfentanil-ddi",
         "Title": "Kienlen 1993",
         "SimulationDuration": 10,
         "TimeUnit": "h",
@@ -10996,7 +10984,7 @@
         ]
       },
       {
-        "SectionId": 305,
+        "SectionReference": "cimetidine-alprazolam-ddi",
         "Title": "Abernethy 1983",
         "SimulationDuration": 24,
         "TimeUnit": "h",
@@ -11026,7 +11014,7 @@
         ]
       },
       {
-        "SectionId": 305,
+        "SectionReference": "cimetidine-alprazolam-ddi",
         "Title": "Pourbaix 1985",
         "SimulationDuration": 72,
         "TimeUnit": "h",
@@ -11056,7 +11044,7 @@
         ]
       },
       {
-        "SectionId": 307,
+        "SectionReference": "cimetidine-midazolam-ddi",
         "Title": "Greenblatt 1986 (midazolam IV)",
         "SimulationDuration": 12,
         "TimeUnit": "h",
@@ -11086,7 +11074,7 @@
         ]
       },
       {
-        "SectionId": 307,
+        "SectionReference": "cimetidine-midazolam-ddi",
         "Title": "Greenblatt 1986 (midazolam PO)",
         "SimulationDuration": 12,
         "TimeUnit": "h",
@@ -11116,7 +11104,7 @@
         ]
       },
       {
-        "SectionId": 307,
+        "SectionReference": "cimetidine-midazolam-ddi",
         "Title": "Martinez 1999",
         "SimulationDuration": 24,
         "TimeUnit": "h",
@@ -11146,7 +11134,7 @@
         ]
       },
       {
-        "SectionId": 307,
+        "SectionReference": "cimetidine-midazolam-ddi",
         "Title": "Fee 1987",
         "SimulationDuration": 15,
         "TimeUnit": "h",
@@ -11176,7 +11164,7 @@
         ]
       },
       {
-        "SectionId": 307,
+        "SectionReference": "cimetidine-midazolam-ddi",
         "Title": "Salonen 1986",
         "SimulationDuration": 10,
         "TimeUnit": "h",
@@ -11206,7 +11194,7 @@
         ]
       },
       {
-        "SectionId": 307,
+        "SectionReference": "cimetidine-midazolam-ddi",
         "Title": "Elliott 1984",
         "SimulationDuration": 15,
         "TimeUnit": "h",
@@ -11236,7 +11224,7 @@
         ]
       },
       {
-        "SectionId": 308,
+        "SectionReference": "cimetidine-triazolam-ddi",
         "Title": "Abernethy 1983",
         "SimulationDuration": 20,
         "TimeUnit": "h",
@@ -11266,7 +11254,7 @@
         ]
       },
       {
-        "SectionId": 308,
+        "SectionReference": "cimetidine-triazolam-ddi",
         "Title": "Friedman 1988",
         "SimulationDuration": 12,
         "TimeUnit": "h",
@@ -11296,7 +11284,7 @@
         ]
       },
       {
-        "SectionId": 308,
+        "SectionReference": "cimetidine-triazolam-ddi",
         "Title": "Pourbaix 1985",
         "SimulationDuration": 24,
         "TimeUnit": "h",
@@ -11326,7 +11314,7 @@
         ]
       },
       {
-        "SectionId": 308,
+        "SectionReference": "cimetidine-triazolam-ddi",
         "Title": "Cox 1986",
         "SimulationDuration": 15,
         "TimeUnit": "h",
@@ -11356,7 +11344,7 @@
         ]
       },
       {
-        "SectionId": 309,
+        "SectionReference": "cimetidine-verapamil-ddi",
         "Title": "Smith 1984 (verapamil IV)",
         "SimulationDuration": 12,
         "TimeUnit": "h",
@@ -11386,7 +11374,7 @@
         ]
       },
       {
-        "SectionId": 309,
+        "SectionReference": "cimetidine-verapamil-ddi",
         "Title": "Smith 1984 (verapamil PO)",
         "SimulationDuration": 12,
         "TimeUnit": "h",
@@ -11416,7 +11404,7 @@
         ]
       },
       {
-        "SectionId": 310,
+        "SectionReference": "clarithromycin-midazolam-ddi",
         "Title": "Gorski 1998 (midazolam IV)",
         "SimulationDuration": 14,
         "TimeUnit": "h",
@@ -11446,7 +11434,7 @@
         ]
       },
       {
-        "SectionId": 310,
+        "SectionReference": "clarithromycin-midazolam-ddi",
         "Title": "Gorski 1998 (midazolam po)",
         "SimulationDuration": 14,
         "TimeUnit": "h",
@@ -11476,7 +11464,7 @@
         ]
       },
       {
-        "SectionId": 310,
+        "SectionReference": "clarithromycin-midazolam-ddi",
         "Title": "Gurley 2006",
         "SimulationDuration": 10,
         "TimeUnit": "h",
@@ -11506,7 +11494,7 @@
         ]
       },
       {
-        "SectionId": 310,
+        "SectionReference": "clarithromycin-midazolam-ddi",
         "Title": "Gurley 2008a",
         "SimulationDuration": 10,
         "TimeUnit": "h",
@@ -11536,7 +11524,7 @@
         ]
       },
       {
-        "SectionId": 310,
+        "SectionReference": "clarithromycin-midazolam-ddi",
         "Title": "Markert 2013",
         "SimulationDuration": 20,
         "TimeUnit": "h",
@@ -11566,7 +11554,7 @@
         ]
       },
       {
-        "SectionId": 310,
+        "SectionReference": "clarithromycin-midazolam-ddi",
         "Title": "Prueksaritanont 2017",
         "SimulationDuration": 48,
         "TimeUnit": "h",
@@ -11596,7 +11584,7 @@
         ]
       },
       {
-        "SectionId": 310,
+        "SectionReference": "clarithromycin-midazolam-ddi",
         "Title": "Quinney 2008 (midazolam IV)",
         "SimulationDuration": 15,
         "TimeUnit": "h",
@@ -11626,7 +11614,7 @@
         ]
       },
       {
-        "SectionId": 310,
+        "SectionReference": "clarithromycin-midazolam-ddi",
         "Title": "Quinney 2008 (midazolam po)",
         "SimulationDuration": 15,
         "TimeUnit": "h",
@@ -11656,7 +11644,7 @@
         ]
       },
       {
-        "SectionId": 310,
+        "SectionReference": "clarithromycin-midazolam-ddi",
         "Title": "van Dyk 2018",
         "SimulationDuration": 10,
         "TimeUnit": "h",
@@ -11686,7 +11674,7 @@
         ]
       },
       {
-        "SectionId": 310,
+        "SectionReference": "clarithromycin-midazolam-ddi",
         "Title": "Yeates 1996",
         "SimulationDuration": 24,
         "TimeUnit": "h",
@@ -11716,7 +11704,7 @@
         ]
       },
       {
-        "SectionId": 311,
+        "SectionReference": "clarithromycin-triazolam-ddi",
         "Title": "Greenblatt 1998a",
         "SimulationDuration": 24,
         "TimeUnit": "h",
@@ -11746,7 +11734,7 @@
         ]
       },
       {
-        "SectionId": 315,
+        "SectionReference": "erythromycin-alfentanil-ddi",
         "Title": "Bartkowski 1989",
         "SimulationDuration": 10,
         "TimeUnit": "h",
@@ -11787,7 +11775,7 @@
         ]
       },
       {
-        "SectionId": 315,
+        "SectionReference": "erythromycin-alfentanil-ddi",
         "Title": "Bartkowski 1993",
         "SimulationDuration": 10,
         "TimeUnit": "h",
@@ -11828,7 +11816,7 @@
         ]
       },
       {
-        "SectionId": 316,
+        "SectionReference": "erythromycin-alprazolam-ddi",
         "Title": "Yasui 1996",
         "SimulationDuration": 48,
         "TimeUnit": "h",
@@ -11858,7 +11846,7 @@
         ]
       },
       {
-        "SectionId": 318,
+        "SectionReference": "erythromycin-midazolam-ddi",
         "Title": "Carls 2014",
         "SimulationDuration": 12,
         "TimeUnit": "h",
@@ -11899,7 +11887,7 @@
         ]
       },
       {
-        "SectionId": 318,
+        "SectionReference": "erythromycin-midazolam-ddi",
         "Title": "Okudaira 2007",
         "SimulationDuration": 24,
         "TimeUnit": "h",
@@ -11951,7 +11939,7 @@
         ]
       },
       {
-        "SectionId": 318,
+        "SectionReference": "erythromycin-midazolam-ddi",
         "Title": "Olkkola 1993 (midazolam IV)",
         "SimulationDuration": 20,
         "TimeUnit": "h",
@@ -11981,7 +11969,7 @@
         ]
       },
       {
-        "SectionId": 318,
+        "SectionReference": "erythromycin-midazolam-ddi",
         "Title": "Olkkola 1993 (midazolam po)",
         "SimulationDuration": 20,
         "TimeUnit": "h",
@@ -12011,7 +11999,7 @@
         ]
       },
       {
-        "SectionId": 318,
+        "SectionReference": "erythromycin-midazolam-ddi",
         "Title": "Swart 2002",
         "SimulationDuration": 6,
         "TimeUnit": "h",
@@ -12041,7 +12029,7 @@
         ]
       },
       {
-        "SectionId": 318,
+        "SectionReference": "erythromycin-midazolam-ddi",
         "Title": "Zimmermann 1996",
         "SimulationDuration": 24,
         "TimeUnit": "h",
@@ -12071,7 +12059,7 @@
         ]
       },
       {
-        "SectionId": 319,
+        "SectionReference": "erythromycin-triazolam-ddi",
         "Title": "Greenblatt 1998",
         "SimulationDuration": 24,
         "TimeUnit": "h",
@@ -12101,7 +12089,7 @@
         ]
       },
       {
-        "SectionId": 319,
+        "SectionReference": "erythromycin-triazolam-ddi",
         "Title": "Phillips 1986",
         "SimulationDuration": 24,
         "TimeUnit": "h",
@@ -12131,7 +12119,7 @@
         ]
       },
       {
-        "SectionId": 323,
+        "SectionReference": "fluvoxamine-alprazolam-ddi",
         "Title": "Fleishaker 1994 (Day 1, first dose)",
         "SimulationDuration": 6,
         "TimeUnit": "h",
@@ -12161,7 +12149,7 @@
         ]
       },
       {
-        "SectionId": 323,
+        "SectionReference": "fluvoxamine-alprazolam-ddi",
         "Title": "Fleishaker 1994 (Day 10)",
         "SimulationDuration": 24,
         "TimeUnit": "h",
@@ -12191,7 +12179,7 @@
         ]
       },
       {
-        "SectionId": 324,
+        "SectionReference": "fluvoxamine-midazolam-ddi",
         "Title": "Kashuba 1998",
         "SimulationDuration": 24,
         "TimeUnit": "h",
@@ -12221,7 +12209,7 @@
         ]
       },
       {
-        "SectionId": 324,
+        "SectionReference": "fluvoxamine-midazolam-ddi",
         "Title": "Lam 2003",
         "SimulationDuration": 24,
         "TimeUnit": "h",
@@ -12251,7 +12239,7 @@
         ]
       },
       {
-        "SectionId": 325,
+        "SectionReference": "itraconazole-alprazolam-ddi",
         "Title": "Yasui 1998",
         "SimulationDuration": 48,
         "TimeUnit": "h",
@@ -12281,7 +12269,7 @@
         ]
       },
       {
-        "SectionId": 326,
+        "SectionReference": "itraconazole-midazolam-ddi",
         "Title": "Ahonen 1995",
         "SimulationDuration": 20,
         "TimeUnit": "h",
@@ -12311,7 +12299,7 @@
         ]
       },
       {
-        "SectionId": 326,
+        "SectionReference": "itraconazole-midazolam-ddi",
         "Title": "Backman 1998",
         "SimulationDuration": 20,
         "TimeUnit": "h",
@@ -12352,7 +12340,7 @@
         ]
       },
       {
-        "SectionId": 326,
+        "SectionReference": "itraconazole-midazolam-ddi",
         "Title": "Olkkola 1994",
         "SimulationDuration": 20,
         "TimeUnit": "h",
@@ -12382,7 +12370,7 @@
         ]
       },
       {
-        "SectionId": 326,
+        "SectionReference": "itraconazole-midazolam-ddi",
         "Title": "Olkkola 1996 (day 1 po)",
         "SimulationDuration": 20,
         "TimeUnit": "h",
@@ -12412,7 +12400,7 @@
         ]
       },
       {
-        "SectionId": 326,
+        "SectionReference": "itraconazole-midazolam-ddi",
         "Title": "Olkkola 1996 (day 4 iv)",
         "SimulationDuration": 20,
         "TimeUnit": "h",
@@ -12442,7 +12430,7 @@
         ]
       },
       {
-        "SectionId": 326,
+        "SectionReference": "itraconazole-midazolam-ddi",
         "Title": "Olkkola 1996 (day 6 po)",
         "SimulationDuration": 20,
         "TimeUnit": "h",
@@ -12472,7 +12460,7 @@
         ]
       },
       {
-        "SectionId": 326,
+        "SectionReference": "itraconazole-midazolam-ddi",
         "Title": "Prueksaritanont 2017",
         "SimulationDuration": 72,
         "TimeUnit": "h",
@@ -12502,7 +12490,7 @@
         ]
       },
       {
-        "SectionId": 326,
+        "SectionReference": "itraconazole-midazolam-ddi",
         "Title": "Templeton 2010",
         "SimulationDuration": 24,
         "TimeUnit": "h",
@@ -12554,7 +12542,7 @@
         ]
       },
       {
-        "SectionId": 326,
+        "SectionReference": "itraconazole-midazolam-ddi",
         "Title": "Yu 2004 (CYP3A5*3/*3)",
         "SimulationDuration": 24,
         "TimeUnit": "h",
@@ -12584,7 +12572,7 @@
         ]
       },
       {
-        "SectionId": 327,
+        "SectionReference": "itraconazole-triazolam-ddi",
         "Title": "Neuvonen 1996",
         "SimulationDuration": 24,
         "TimeUnit": "h",
@@ -12647,7 +12635,7 @@
         ]
       },
       {
-        "SectionId": 327,
+        "SectionReference": "itraconazole-triazolam-ddi",
         "Title": "Varhe 1994",
         "SimulationDuration": 24,
         "TimeUnit": "h",
@@ -12677,7 +12665,7 @@
         ]
       },
       {
-        "SectionId": 333,
+        "SectionReference": "verapamil-midazolam-ddi",
         "Title": "Backman 1994",
         "SimulationDuration": 20,
         "TimeUnit": "h",
@@ -12707,7 +12695,7 @@
         ]
       },
       {
-        "SectionId": 333,
+        "SectionReference": "verapamil-midazolam-ddi",
         "Title": "Wang 2005 (iv)",
         "SimulationDuration": 24,
         "TimeUnit": "h",
@@ -12737,7 +12725,7 @@
         ]
       },
       {
-        "SectionId": 333,
+        "SectionReference": "verapamil-midazolam-ddi",
         "Title": "Wang 2005 (po)",
         "SimulationDuration": 24,
         "TimeUnit": "h",
@@ -12767,7 +12755,7 @@
         ]
       },
       {
-        "SectionId": 312,
+        "SectionReference": "efavirenz-alfentanil-ddi",
         "Title": "Kharasch 2012 IV",
         "SimulationDuration": 7.5,
         "TimeUnit": "h",
@@ -12797,7 +12785,7 @@
         ]
       },
       {
-        "SectionId": 312,
+        "SectionReference": "efavirenz-alfentanil-ddi",
         "Title": "Kharasch 2012 PO",
         "SimulationDuration": 10,
         "TimeUnit": "h",
@@ -12827,7 +12815,7 @@
         ]
       },
       {
-        "SectionId": 314,
+        "SectionReference": "efavirenz-midazolam-ddi",
         "Title": "Mikus 2017 IV",
         "SimulationDuration": 9,
         "TimeUnit": "h",
@@ -12896,12 +12884,12 @@
             "TimeUnit": "h",
             "Color": "#f0b7b2",
             "Caption": "Treatment (with Efavirenz), Day 22",
-            "Symbol": ""
+            "Symbol": "Asterisk"
           }
         ]
       },
       {
-        "SectionId": 314,
+        "SectionReference": "efavirenz-midazolam-ddi",
         "Title": "Mikus 2017 PO",
         "SimulationDuration": 8,
         "TimeUnit": "h",
@@ -12975,7 +12963,7 @@
         ]
       },
       {
-        "SectionId": 314,
+        "SectionReference": "efavirenz-midazolam-ddi",
         "Title": "Katzenmaier 2010",
         "SimulationDuration": 12,
         "TimeUnit": "h",
@@ -13005,7 +12993,7 @@
         ]
       },
       {
-        "SectionId": 328,
+        "SectionReference": "rifampicin-alfentanil-ddi",
         "Title": "Kharasch 1997",
         "SimulationDuration": 12,
         "TimeUnit": "h",
@@ -13035,7 +13023,7 @@
         ]
       },
       {
-        "SectionId": 328,
+        "SectionReference": "rifampicin-alfentanil-ddi",
         "Title": "Kharasch 2004 (iv)",
         "SimulationDuration": 12,
         "TimeUnit": "h",
@@ -13065,7 +13053,7 @@
         ]
       },
       {
-        "SectionId": 328,
+        "SectionReference": "rifampicin-alfentanil-ddi",
         "Title": "Kharasch 2004 (po)",
         "SimulationDuration": 12,
         "TimeUnit": "h",
@@ -13095,7 +13083,7 @@
         ]
       },
       {
-        "SectionId": 328,
+        "SectionReference": "rifampicin-alfentanil-ddi",
         "Title": "Kharasch 2011 (iv)",
         "SimulationDuration": 12,
         "TimeUnit": "h",
@@ -13158,7 +13146,7 @@
         ]
       },
       {
-        "SectionId": 328,
+        "SectionReference": "rifampicin-alfentanil-ddi",
         "Title": "Kharasch 2011 (po)",
         "SimulationDuration": 12,
         "TimeUnit": "h",
@@ -13221,7 +13209,7 @@
         ]
       },
       {
-        "SectionId": 328,
+        "SectionReference": "rifampicin-alfentanil-ddi",
         "Title": "Kharasch 2011b (iv during sequential administration of iv unlabeled alfentanil and oral deuterated alfentanil)",
         "SimulationDuration": 12,
         "TimeUnit": "h",
@@ -13251,7 +13239,7 @@
         ]
       },
       {
-        "SectionId": 328,
+        "SectionReference": "rifampicin-alfentanil-ddi",
         "Title": "Kharasch 2011b (iv during simultaneous administration of iv unlabeled alfentanil and oral deuterated alfentanil)",
         "SimulationDuration": 12,
         "TimeUnit": "h",
@@ -13281,7 +13269,7 @@
         ]
       },
       {
-        "SectionId": 328,
+        "SectionReference": "rifampicin-alfentanil-ddi",
         "Title": "Kharasch 2011b (po during sequential administration of iv unlabeled alfentanil and oral deuterated alfentanil)",
         "SimulationDuration": 12,
         "TimeUnit": "h",
@@ -13311,7 +13299,7 @@
         ]
       },
       {
-        "SectionId": 328,
+        "SectionReference": "rifampicin-alfentanil-ddi",
         "Title": "Kharasch 2011b (po during simultaneous administration of iv unlabeled alfentanil and oral deuterated alfentanil)",
         "SimulationDuration": 12,
         "TimeUnit": "h",
@@ -13341,7 +13329,7 @@
         ]
       },
       {
-        "SectionId": 328,
+        "SectionReference": "rifampicin-alfentanil-ddi",
         "Title": "Phimmasone 2001",
         "SimulationDuration": 24,
         "TimeUnit": "h",
@@ -13371,7 +13359,7 @@
         ]
       },
       {
-        "SectionId": 329,
+        "SectionReference": "rifampicin-alprazolam-ddi",
         "Title": "Gashaw 2003 (Day 7)",
         "SimulationDuration": 12,
         "TimeUnit": "h",
@@ -13401,7 +13389,7 @@
         ]
       },
       {
-        "SectionId": 329,
+        "SectionReference": "rifampicin-alprazolam-ddi",
         "Title": "Gashaw 2003 (after washout phase)",
         "SimulationDuration": 12,
         "TimeUnit": "h",
@@ -13431,7 +13419,7 @@
         ]
       },
       {
-        "SectionId": 329,
+        "SectionReference": "rifampicin-alprazolam-ddi",
         "Title": "Schmider 1999",
         "SimulationDuration": 24,
         "TimeUnit": "h",
@@ -13461,7 +13449,7 @@
         ]
       },
       {
-        "SectionId": 330,
+        "SectionReference": "rifampicin-midazolam-ddi",
         "Title": "Backman 1996",
         "SimulationDuration": 24,
         "TimeUnit": "h",
@@ -13491,7 +13479,7 @@
         ]
       },
       {
-        "SectionId": 330,
+        "SectionReference": "rifampicin-midazolam-ddi",
         "Title": "Backman 1998 (Phase IV and V vs. I)",
         "SimulationDuration": 12,
         "TimeUnit": "h",
@@ -13532,7 +13520,7 @@
         ]
       },
       {
-        "SectionId": 330,
+        "SectionReference": "rifampicin-midazolam-ddi",
         "Title": "Björkhem-Bergman 2013",
         "SimulationDuration": 10,
         "TimeUnit": "h",
@@ -13584,7 +13572,7 @@
         ]
       },
       {
-        "SectionId": 330,
+        "SectionReference": "rifampicin-midazolam-ddi",
         "Title": "Chattopadhyay 2018",
         "SimulationDuration": 25,
         "TimeUnit": "h",
@@ -13614,7 +13602,7 @@
         ]
       },
       {
-        "SectionId": 330,
+        "SectionReference": "rifampicin-midazolam-ddi",
         "Title": "Chung 2006",
         "SimulationDuration": 12,
         "TimeUnit": "h",
@@ -13644,7 +13632,7 @@
         ]
       },
       {
-        "SectionId": 330,
+        "SectionReference": "rifampicin-midazolam-ddi",
         "Title": "Eap 2004 (7.5 mg)",
         "SimulationDuration": 12,
         "TimeUnit": "h",
@@ -13674,7 +13662,7 @@
         ]
       },
       {
-        "SectionId": 330,
+        "SectionReference": "rifampicin-midazolam-ddi",
         "Title": "Gorski 2003 (iv)",
         "SimulationDuration": 12,
         "TimeUnit": "h",
@@ -13704,7 +13692,7 @@
         ]
       },
       {
-        "SectionId": 330,
+        "SectionReference": "rifampicin-midazolam-ddi",
         "Title": "Gorski 2003 (po)",
         "SimulationDuration": 12,
         "TimeUnit": "h",
@@ -13734,7 +13722,7 @@
         ]
       },
       {
-        "SectionId": 330,
+        "SectionReference": "rifampicin-midazolam-ddi",
         "Title": "Gurley 2006",
         "SimulationDuration": 12,
         "TimeUnit": "h",
@@ -13764,7 +13752,7 @@
         ]
       },
       {
-        "SectionId": 330,
+        "SectionReference": "rifampicin-midazolam-ddi",
         "Title": "Gurley 2008a",
         "SimulationDuration": 12,
         "TimeUnit": "h",
@@ -13794,7 +13782,7 @@
         ]
       },
       {
-        "SectionId": 330,
+        "SectionReference": "rifampicin-midazolam-ddi",
         "Title": "Kharasch 1997",
         "SimulationDuration": 15,
         "TimeUnit": "h",
@@ -13824,7 +13812,7 @@
         ]
       },
       {
-        "SectionId": 330,
+        "SectionReference": "rifampicin-midazolam-ddi",
         "Title": "Kharasch 2004 (iv)",
         "SimulationDuration": 12,
         "TimeUnit": "h",
@@ -13854,7 +13842,7 @@
         ]
       },
       {
-        "SectionId": 330,
+        "SectionReference": "rifampicin-midazolam-ddi",
         "Title": "Kharasch 2004 (po)",
         "SimulationDuration": 12,
         "TimeUnit": "h",
@@ -13884,7 +13872,7 @@
         ]
       },
       {
-        "SectionId": 330,
+        "SectionReference": "rifampicin-midazolam-ddi",
         "Title": "Kharasch 2011 (iv)",
         "SimulationDuration": 12,
         "TimeUnit": "h",
@@ -13947,7 +13935,7 @@
         ]
       },
       {
-        "SectionId": 330,
+        "SectionReference": "rifampicin-midazolam-ddi",
         "Title": "Kharasch 2011 (po)",
         "SimulationDuration": 12,
         "TimeUnit": "h",
@@ -14010,7 +13998,7 @@
         ]
       },
       {
-        "SectionId": 330,
+        "SectionReference": "rifampicin-midazolam-ddi",
         "Title": "Kim 2018",
         "SimulationDuration": 12,
         "TimeUnit": "h",
@@ -14040,7 +14028,7 @@
         ]
       },
       {
-        "SectionId": 330,
+        "SectionReference": "rifampicin-midazolam-ddi",
         "Title": "Link 2008 (iv)",
         "SimulationDuration": 24,
         "TimeUnit": "h",
@@ -14070,7 +14058,7 @@
         ]
       },
       {
-        "SectionId": 330,
+        "SectionReference": "rifampicin-midazolam-ddi",
         "Title": "Link 2008 (po)",
         "SimulationDuration": 24,
         "TimeUnit": "h",
@@ -14100,7 +14088,7 @@
         ]
       },
       {
-        "SectionId": 330,
+        "SectionReference": "rifampicin-midazolam-ddi",
         "Title": "Lutz 2008",
         "SimulationDuration": 14,
         "TimeUnit": "h",
@@ -14174,7 +14162,7 @@
         ]
       },
       {
-        "SectionId": 330,
+        "SectionReference": "rifampicin-midazolam-ddi",
         "Title": "Phimmasone 2001",
         "SimulationDuration": 12,
         "TimeUnit": "h",
@@ -14204,7 +14192,7 @@
         ]
       },
       {
-        "SectionId": 330,
+        "SectionReference": "rifampicin-midazolam-ddi",
         "Title": "Prueksaritanont 2017",
         "SimulationDuration": 24,
         "TimeUnit": "h",
@@ -14234,7 +14222,7 @@
         ]
       },
       {
-        "SectionId": 330,
+        "SectionReference": "rifampicin-midazolam-ddi",
         "Title": "Reitman 2011",
         "SimulationDuration": 15,
         "TimeUnit": "h",
@@ -14286,7 +14274,7 @@
         ]
       },
       {
-        "SectionId": 330,
+        "SectionReference": "rifampicin-midazolam-ddi",
         "Title": "Shin 2013",
         "SimulationDuration": 24,
         "TimeUnit": "h",
@@ -14316,7 +14304,7 @@
         ]
       },
       {
-        "SectionId": 330,
+        "SectionReference": "rifampicin-midazolam-ddi",
         "Title": "Shin 2016",
         "SimulationDuration": 24,
         "TimeUnit": "h",
@@ -14346,7 +14334,7 @@
         ]
       },
       {
-        "SectionId": 330,
+        "SectionReference": "rifampicin-midazolam-ddi",
         "Title": "Szalat 2007",
         "SimulationDuration": 6,
         "TimeUnit": "h",
@@ -14376,7 +14364,7 @@
         ]
       },
       {
-        "SectionId": 330,
+        "SectionReference": "rifampicin-midazolam-ddi",
         "Title": "van Dyk 2018",
         "SimulationDuration": 12,
         "TimeUnit": "h",
@@ -14406,7 +14394,7 @@
         ]
       },
       {
-        "SectionId": 330,
+        "SectionReference": "rifampicin-midazolam-ddi",
         "Title": "Wiesinger 2020",
         "SimulationDuration": 24,
         "TimeUnit": "h",
@@ -14447,7 +14435,7 @@
         ]
       },
       {
-        "SectionId": 330,
+        "SectionReference": "rifampicin-midazolam-ddi",
         "Title": "Yu 2004 (CYP3A5*3/*3)",
         "SimulationDuration": 15,
         "TimeUnit": "h",
@@ -14477,7 +14465,7 @@
         ]
       },
       {
-        "SectionId": 331,
+        "SectionReference": "rifampicin-triazolam-ddi",
         "Title": "Villikka 1997",
         "SimulationDuration": 12,
         "TimeUnit": "h",
@@ -14507,7 +14495,7 @@
         ]
       },
       {
-        "SectionId": 332,
+        "SectionReference": "rifampicin-verapamil-ddi",
         "Title": "Barbarash 1988 (verapamil IV)",
         "SimulationDuration": 15,
         "TimeUnit": "h",
@@ -14537,7 +14525,7 @@
         ]
       },
       {
-        "SectionId": 332,
+        "SectionReference": "rifampicin-verapamil-ddi",
         "Title": "Barbarash 1988 (verapamil PO)",
         "SimulationDuration": 15,
         "TimeUnit": "h",
@@ -14567,7 +14555,7 @@
         ]
       },
       {
-        "SectionId": 320,
+        "SectionReference": "fluconazole-alfentanil-ddi",
         "Title": "Palkama 1998",
         "SimulationDuration": 10,
         "TimeUnit": "h",
@@ -14608,7 +14596,7 @@
         ]
       },
       {
-        "SectionId": 321,
+        "SectionReference": "fluconazole-midazolam-ddi",
         "Title": "Ahonen 1997",
         "SimulationDuration": 17,
         "TimeUnit": "h",
@@ -14649,7 +14637,7 @@
         ]
       },
       {
-        "SectionId": 321,
+        "SectionReference": "fluconazole-midazolam-ddi",
         "Title": "Olkkola 1996 Day 1",
         "SimulationDuration": 7,
         "TimeUnit": "h",
@@ -14679,7 +14667,7 @@
         ]
       },
       {
-        "SectionId": 321,
+        "SectionReference": "fluconazole-midazolam-ddi",
         "Title": "Olkkola 1996 Day 4",
         "SimulationDuration": 7,
         "TimeUnit": "h",
@@ -14709,7 +14697,7 @@
         ]
       },
       {
-        "SectionId": 321,
+        "SectionReference": "fluconazole-midazolam-ddi",
         "Title": "Olkkola 1996 Day 6",
         "SimulationDuration": 17,
         "TimeUnit": "h",
@@ -14739,7 +14727,7 @@
         ]
       },
       {
-        "SectionId": 322,
+        "SectionReference": "fluconazole-triazolam-ddi",
         "Title": "Varhe 1996c",
         "SimulationDuration": 18,
         "TimeUnit": "h",
@@ -14791,7 +14779,7 @@
         ]
       },
       {
-        "SectionId": 301,
+        "SectionReference": "carbamazepine-alprazolam-ddi",
         "Title": "Furukori 1998",
         "SimulationDuration": 48,
         "TimeUnit": "h",
@@ -14821,7 +14809,7 @@
         ]
       },
       {
-        "SectionId": 303,
+        "SectionReference": "carbamazepine-midazolam-ddi",
         "Title": "Kanefendt 2023 (Study 1)",
         "SimulationDuration": 24,
         "TimeUnit": "h",
@@ -14851,7 +14839,7 @@
         ]
       },
       {
-        "SectionId": 303,
+        "SectionReference": "carbamazepine-midazolam-ddi",
         "Title": "Kanefendt 2023 (Study 2)",
         "SimulationDuration": 24,
         "TimeUnit": "h",
@@ -14881,7 +14869,7 @@
         ]
       },
       {
-        "SectionId": 303,
+        "SectionReference": "carbamazepine-midazolam-ddi",
         "Title": "Lutz 2018",
         "SimulationDuration": 24,
         "TimeUnit": "h",
@@ -14911,7 +14899,7 @@
         ]
       },
       {
-        "SectionId": 302,
+        "SectionReference": "carbamazepine-efavirenz-ddi",
         "Title": "Ji 2008 (Arm 1, Perpetrator: Carbamazepine, Victim: Efavirenz)",
         "SimulationDuration": 24,
         "TimeUnit": "h",
@@ -14941,7 +14929,7 @@
         ]
       },
       {
-        "SectionId": 317,
+        "SectionReference": "erythromycin-carbamazepine-ddi",
         "Title": "Barzaghi 1987",
         "SimulationDuration": 96,
         "TimeUnit": "h",
@@ -14971,7 +14959,7 @@
         ]
       },
       {
-        "SectionId": 317,
+        "SectionReference": "erythromycin-carbamazepine-ddi",
         "Title": "Wong 1983",
         "SimulationDuration": 72,
         "TimeUnit": "h",
@@ -15001,7 +14989,7 @@
         ]
       },
       {
-        "SectionId": 317,
+        "SectionReference": "erythromycin-carbamazepine-ddi",
         "Title": "Miles 1989 (average dose of 357 mg)",
         "SimulationDuration": 24,
         "TimeUnit": "h",
@@ -15031,7 +15019,7 @@
         ]
       },
       {
-        "SectionId": 317,
+        "SectionReference": "erythromycin-carbamazepine-ddi",
         "Title": "Miles 1989 (300 mg)",
         "SimulationDuration": 24,
         "TimeUnit": "h",
@@ -15061,7 +15049,7 @@
         ]
       },
       {
-        "SectionId": 317,
+        "SectionReference": "erythromycin-carbamazepine-ddi",
         "Title": "Miles 1989 (400 mg)",
         "SimulationDuration": 24,
         "TimeUnit": "h",
@@ -15091,7 +15079,7 @@
         ]
       },
       {
-        "SectionId": 306,
+        "SectionReference": "cimetidine-carbamazepine-ddi",
         "Title": "Dalton 1985a",
         "SimulationDuration": 154,
         "TimeUnit": "h",
@@ -15121,7 +15109,7 @@
         ]
       },
       {
-        "SectionId": 313,
+        "SectionReference": "efavirenz-carbamazepine-ddi",
         "Title": "Ji 2008 (Arm 2, Perpetrator: Efavirenz, Victim: Carbamazepine)",
         "SimulationDuration": 24,
         "TimeUnit": "h",
@@ -15153,15 +15141,26 @@
     ],
     "DDIRatioPlots": [
       {
-        "SectionId": 2,
+        "SectionReference": "qualification-cyp3a4-ddi",
         "Title": "CYP3A4 DDI",
-        "PKParameter": "AUC|CMAX",
-        "PlotType": "predictedVsObserved|residualsVsObserved",
+        "PKParameters": [
+          "AUC",
+          "CMAX"
+        ],
+        "PlotTypes": [
+          "predictedVsObserved",
+          "residualsVsObserved"
+        ],
         "Artifacts": [
           "Plot",
           "GMFE",
           "Measure",
           "Table"
+        ],
+        "Subunits": [
+          "Mechanism",
+          "Perpetrator",
+          "Victim"
         ],
         "Groups": [
           {
@@ -15177,14 +15176,12 @@
                   "Project": "Cimetidine-Alfentanil-DDI",
                   "Simulation": "Kienlen 1993 - Alfentanil iv control",
                   "StartTime": 0,
-                  "EndTime": "Inf",
                   "TimeUnit": "h"
                 },
                 "SimulationDDI": {
                   "Project": "Cimetidine-Alfentanil-DDI",
                   "Simulation": "Kienlen 1993 - Alfentanil iv + Cimetidine iv",
                   "StartTime": 48,
-                  "EndTime": "Inf",
                   "TimeUnit": "h"
                 }
               }
@@ -15203,14 +15200,12 @@
                   "Project": "Cimetidine-Alprazolam-DDI",
                   "Simulation": "Abernethy 1983 - Alprazolam 1 mg control",
                   "StartTime": 0,
-                  "EndTime": "Inf",
                   "TimeUnit": "h"
                 },
                 "SimulationDDI": {
                   "Project": "Cimetidine-Alprazolam-DDI",
                   "Simulation": "Abernethy 1983 - Alprazolam 1 mg + 300 mg cimetidine QID",
                   "StartTime": 12,
-                  "EndTime": "Inf",
                   "TimeUnit": "h"
                 }
               },
@@ -15248,14 +15243,12 @@
                   "Project": "Cimetidine-Midazolam-DDI",
                   "Simulation": "Greenblatt 1986, Midazolam iv control",
                   "StartTime": 0,
-                  "EndTime": "Inf",
                   "TimeUnit": "h"
                 },
                 "SimulationDDI": {
                   "Project": "Cimetidine-Midazolam-DDI",
                   "Simulation": "Greenblatt 1986, Midazolam iv + 300 mg cimetidine QID",
                   "StartTime": 24,
-                  "EndTime": "Inf",
                   "TimeUnit": "h"
                 }
               }
@@ -15274,14 +15267,12 @@
                   "Project": "Cimetidine-Midazolam-DDI",
                   "Simulation": "Greenblatt 1986, Midazolam po control",
                   "StartTime": 0,
-                  "EndTime": "Inf",
                   "TimeUnit": "h"
                 },
                 "SimulationDDI": {
                   "Project": "Cimetidine-Midazolam-DDI",
                   "Simulation": "Greenblatt 1986, Midazolam po + 300 mg cimetidine QID",
                   "StartTime": 24,
-                  "EndTime": "Inf",
                   "TimeUnit": "h"
                 }
               },
@@ -15293,14 +15284,12 @@
                   "Project": "Cimetidine-Midazolam-DDI",
                   "Simulation": "Martinez 1999, Midazolam po control",
                   "StartTime": 0,
-                  "EndTime": "Inf",
                   "TimeUnit": "h"
                 },
                 "SimulationDDI": {
                   "Project": "Cimetidine-Midazolam-DDI",
                   "Simulation": "Martinez 1999, Midazolam po + 800 mg cimetidine",
                   "StartTime": 0,
-                  "EndTime": "Inf",
                   "TimeUnit": "h"
                 }
               },
@@ -15312,14 +15301,12 @@
                   "Project": "Cimetidine-Midazolam-DDI",
                   "Simulation": "Fee 1987, Midazolam po control",
                   "StartTime": 0,
-                  "EndTime": "Inf",
                   "TimeUnit": "h"
                 },
                 "SimulationDDI": {
                   "Project": "Cimetidine-Midazolam-DDI",
                   "Simulation": "Fee 1987, Midazolam po + 400 mg cimetidine BID",
                   "StartTime": 25,
-                  "EndTime": "Inf",
                   "TimeUnit": "h"
                 }
               },
@@ -15350,14 +15337,12 @@
                   "Project": "Cimetidine-Midazolam-DDI",
                   "Simulation": "Elliott 1984, Midazolam po control",
                   "StartTime": 0,
-                  "EndTime": "Inf",
                   "TimeUnit": "h"
                 },
                 "SimulationDDI": {
                   "Project": "Cimetidine-Midazolam-DDI",
                   "Simulation": "Elliott 1984, Midazolam po + 200/400 mg cimetidine",
                   "StartTime": 26.5,
-                  "EndTime": "Inf",
                   "TimeUnit": "h"
                 }
               }
@@ -15376,14 +15361,12 @@
                   "Project": "Cimetidine-Triazolam-DDI",
                   "Simulation": "Abernethy 1983/Friedman 1988 - Triazolam control",
                   "StartTime": 0,
-                  "EndTime": "Inf",
                   "TimeUnit": "h"
                 },
                 "SimulationDDI": {
                   "Project": "Cimetidine-Triazolam-DDI",
                   "Simulation": "Abernethy 1983 - Triazolam + cimetidine 300 mg QID",
                   "StartTime": 12,
-                  "EndTime": "Inf",
                   "TimeUnit": "h"
                 }
               },
@@ -15395,14 +15378,12 @@
                   "Project": "Cimetidine-Triazolam-DDI",
                   "Simulation": "Abernethy 1983/Friedman 1988 - Triazolam control",
                   "StartTime": 0,
-                  "EndTime": "Inf",
                   "TimeUnit": "h"
                 },
                 "SimulationDDI": {
                   "Project": "Cimetidine-Triazolam-DDI",
                   "Simulation": "Friedman 1988 - Triazolam + cimetidine 300 mg QID",
                   "StartTime": 24,
-                  "EndTime": "Inf",
                   "TimeUnit": "h"
                 }
               },
@@ -15433,14 +15414,12 @@
                   "Project": "Cimetidine-Triazolam-DDI",
                   "Simulation": "Cox 1986 - Triazolam intraduodenal control",
                   "StartTime": 0,
-                  "EndTime": "Inf",
                   "TimeUnit": "h"
                 },
                 "SimulationDDI": {
                   "Project": "Cimetidine-Triazolam-DDI",
                   "Simulation": "Cox 1986 - Triazolam intraduodenal + cimetidine 300 mg QID",
                   "StartTime": 13,
-                  "EndTime": "Inf",
                   "TimeUnit": "h"
                 }
               }
@@ -15459,14 +15438,12 @@
                   "Project": "Cimetidine-Verapamil-DDI",
                   "Simulation": "Smith 1984 - Verapamil 10 mg iv control",
                   "StartTime": 0,
-                  "EndTime": "Inf",
                   "TimeUnit": "h"
                 },
                 "SimulationDDI": {
                   "Project": "Cimetidine-Verapamil-DDI",
                   "Simulation": "Smith 1984 - Verapamil 10 mg iv + cimetidine 300 mg qid",
                   "StartTime": 168,
-                  "EndTime": "Inf",
                   "TimeUnit": "h"
                 }
               }
@@ -15485,14 +15462,12 @@
                   "Project": "Cimetidine-Verapamil-DDI",
                   "Simulation": "Smith 1984 - Verapamil 120 mg po control",
                   "StartTime": 0,
-                  "EndTime": "Inf",
                   "TimeUnit": "h"
                 },
                 "SimulationDDI": {
                   "Project": "Cimetidine-Verapamil-DDI",
                   "Simulation": "Smith 1984 - Verapamil 120 mg po + 300 mg cimetidine qid",
                   "StartTime": 168,
-                  "EndTime": "Inf",
                   "TimeUnit": "h"
                 }
               }
@@ -15511,14 +15486,12 @@
                   "Project": "Clarithromycin-Midazolam-DDI",
                   "Simulation": "Gorski 1998, Midazolam 0.05 mg/kg iv",
                   "StartTime": 0,
-                  "EndTime": "Inf",
                   "TimeUnit": "h"
                 },
                 "SimulationDDI": {
                   "Project": "Clarithromycin-Midazolam-DDI",
                   "Simulation": "Gorski 1998, Midazolam 0.05 mg/kg iv, Clari 500 mg BID po, day 7",
                   "StartTime": 146,
-                  "EndTime": "Inf",
                   "TimeUnit": "h"
                 }
               },
@@ -15530,14 +15503,12 @@
                   "Project": "Clarithromycin-Midazolam-DDI",
                   "Simulation": "DDI Control - Midazolam - iv - Quinney 2008",
                   "StartTime": 0,
-                  "EndTime": "Inf",
                   "TimeUnit": "h"
                 },
                 "SimulationDDI": {
                   "Project": "Clarithromycin-Midazolam-DDI",
                   "Simulation": "DDI Treatment - Clarithromycin/Midazolam - iv - Quinney 2008",
                   "StartTime": 146,
-                  "EndTime": "Inf",
                   "TimeUnit": "h"
                 }
               }
@@ -15556,14 +15527,12 @@
                   "Project": "Clarithromycin-Midazolam-DDI",
                   "Simulation": "Gorski 1998, Midazolam 4 mg po",
                   "StartTime": 0,
-                  "EndTime": "Inf",
                   "TimeUnit": "h"
                 },
                 "SimulationDDI": {
                   "Project": "Clarithromycin-Midazolam-DDI",
                   "Simulation": "Gorski 1998, Midazolam 4 mg po, Clari 500 mg BID po, day 7",
                   "StartTime": 146,
-                  "EndTime": "Inf",
                   "TimeUnit": "h"
                 }
               },
@@ -15575,14 +15544,12 @@
                   "Project": "Clarithromycin-Midazolam-DDI",
                   "Simulation": "DDI Control - Midazolam - Gurley 2006",
                   "StartTime": 0,
-                  "EndTime": "Inf",
                   "TimeUnit": "h"
                 },
                 "SimulationDDI": {
                   "Project": "Clarithromycin-Midazolam-DDI",
                   "Simulation": "DDI Treatment - Clarithromycin/Midazolam - Gurley 2006",
                   "StartTime": 146,
-                  "EndTime": "Inf",
                   "TimeUnit": "h"
                 }
               },
@@ -15594,14 +15561,12 @@
                   "Project": "Clarithromycin-Midazolam-DDI",
                   "Simulation": "DDI Control - Midazolam - Gurley 2008a",
                   "StartTime": 0,
-                  "EndTime": "Inf",
                   "TimeUnit": "h"
                 },
                 "SimulationDDI": {
                   "Project": "Clarithromycin-Midazolam-DDI",
                   "Simulation": "DDI Treatment - Clarithromycin/Midazolam - Gurley 2008a",
                   "StartTime": 146,
-                  "EndTime": "Inf",
                   "TimeUnit": "h"
                 }
               },
@@ -15613,14 +15578,12 @@
                   "Project": "Clarithromycin-Midazolam-DDI",
                   "Simulation": "Markert 2013, Midazolam 3 mg po",
                   "StartTime": 0,
-                  "EndTime": "Inf",
                   "TimeUnit": "h"
                 },
                 "SimulationDDI": {
                   "Project": "Clarithromycin-Midazolam-DDI",
                   "Simulation": "Markert 2013, Midazolam 3 mg po, Clari 500 mg BID po day 3",
                   "StartTime": 72.25,
-                  "EndTime": "Inf",
                   "TimeUnit": "h"
                 }
               },
@@ -15632,14 +15595,12 @@
                   "Project": "Clarithromycin-Midazolam-DDI",
                   "Simulation": "DDI Control - Midazolam - Prueksaritanont 2017",
                   "StartTime": 0,
-                  "EndTime": "Inf",
                   "TimeUnit": "h"
                 },
                 "SimulationDDI": {
                   "Project": "Clarithromycin-Midazolam-DDI",
                   "Simulation": "DDI Treatment - Clarithromycin/Midazolam - Prueksaritanont 2017",
                   "StartTime": 72,
-                  "EndTime": "Inf",
                   "TimeUnit": "h"
                 }
               },
@@ -15651,14 +15612,12 @@
                   "Project": "Clarithromycin-Midazolam-DDI",
                   "Simulation": "DDI Control - Midazolam - po - Quinney 2008",
                   "StartTime": 0,
-                  "EndTime": "Inf",
                   "TimeUnit": "h"
                 },
                 "SimulationDDI": {
                   "Project": "Clarithromycin-Midazolam-DDI",
                   "Simulation": "DDI Treatment - Clarithromycin/Midazolam - po - Quinney 2008",
                   "StartTime": 146,
-                  "EndTime": "Inf",
                   "TimeUnit": "h"
                 }
               },
@@ -15689,14 +15648,12 @@
                   "Project": "Clarithromycin-Midazolam-DDI",
                   "Simulation": "Yeates 1996, Midazolam 15 mg po",
                   "StartTime": 0,
-                  "EndTime": "Inf",
                   "TimeUnit": "h"
                 },
                 "SimulationDDI": {
                   "Project": "Clarithromycin-Midazolam-DDI",
                   "Simulation": "Yeates 1996, Midazolam 15 mg po, Clari 250 mg BID po day 5",
                   "StartTime": 97.5,
-                  "EndTime": "Inf",
                   "TimeUnit": "h"
                 }
               }
@@ -15715,14 +15672,12 @@
                   "Project": "Clarithromycin-Triazolam-DDI",
                   "Simulation": "Greenblatt 1998a - Triazolam control - 0.125 mg PO SD",
                   "StartTime": 0,
-                  "EndTime": "Inf",
                   "TimeUnit": "h"
                 },
                 "SimulationDDI": {
                   "Project": "Clarithromycin-Triazolam-DDI",
                   "Simulation": "Greenblatt 1998a - Clarithromycin 500 mg MD, Triazolam 0.125 mg PO",
                   "StartTime": 25,
-                  "EndTime": "Inf",
                   "TimeUnit": "h"
                 }
               }
@@ -15741,14 +15696,12 @@
                   "Project": "Erythromycin-Alfentanil-DDI",
                   "Simulation": "Bartkowski1989_Control",
                   "StartTime": 0,
-                  "EndTime": "Inf",
                   "TimeUnit": "h"
                 },
                 "SimulationDDI": {
                   "Project": "Erythromycin-Alfentanil-DDI",
                   "Simulation": "Bartkowski1989_Perpetrator_Day1",
                   "StartTime": 1.5,
-                  "EndTime": "Inf",
                   "TimeUnit": "h"
                 }
               },
@@ -15760,14 +15713,12 @@
                   "Project": "Erythromycin-Alfentanil-DDI",
                   "Simulation": "Bartkowski1989_Control",
                   "StartTime": 0,
-                  "EndTime": "Inf",
                   "TimeUnit": "h"
                 },
                 "SimulationDDI": {
                   "Project": "Erythromycin-Alfentanil-DDI",
                   "Simulation": "Bartkowski1989_Perpetrator_Day7",
                   "StartTime": 145.5,
-                  "EndTime": "Inf",
                   "TimeUnit": "h"
                 }
               }
@@ -15786,14 +15737,12 @@
                   "Project": "Erythromycin-Alprazolam-DDI",
                   "Simulation": "Yasui1996_Control",
                   "StartTime": 0,
-                  "EndTime": "Inf",
                   "TimeUnit": "h"
                 },
                 "SimulationDDI": {
                   "Project": "Erythromycin-Alprazolam-DDI",
                   "Simulation": "Yasui1996_Perpetrator",
                   "StartTime": 170,
-                  "EndTime": "Inf",
                   "TimeUnit": "h"
                 }
               }
@@ -15812,14 +15761,12 @@
                   "Project": "Erythromycin-Triazolam-DDI",
                   "Simulation": "Greenblatt1998_Control",
                   "StartTime": 0,
-                  "EndTime": "Inf",
                   "TimeUnit": "h"
                 },
                 "SimulationDDI": {
                   "Project": "Erythromycin-Triazolam-DDI",
                   "Simulation": "Greenblatt1998_Perpetrator",
                   "StartTime": 25,
-                  "EndTime": "Inf",
                   "TimeUnit": "h"
                 }
               },
@@ -15831,14 +15778,12 @@
                   "Project": "Erythromycin-Triazolam-DDI",
                   "Simulation": "Phillips1986_Control",
                   "StartTime": 0,
-                  "EndTime": "Inf",
                   "TimeUnit": "h"
                 },
                 "SimulationDDI": {
                   "Project": "Erythromycin-Triazolam-DDI",
                   "Simulation": "Phillips1986_Perpetrator",
                   "StartTime": 64,
-                  "EndTime": "Inf",
                   "TimeUnit": "h"
                 }
               }
@@ -15857,14 +15802,12 @@
                   "Project": "Erythromycin-Midazolam-DDI",
                   "Simulation": "Control_Swart2002",
                   "StartTime": 0,
-                  "EndTime": "Inf",
                   "TimeUnit": "h"
                 },
                 "SimulationDDI": {
                   "Project": "Erythromycin-Midazolam-DDI",
                   "Simulation": "Treatment_Swart2002",
                   "StartTime": 96,
-                  "EndTime": "Inf",
                   "TimeUnit": "h"
                 }
               },
@@ -15876,14 +15819,12 @@
                   "Project": "Erythromycin-Midazolam-DDI",
                   "Simulation": "Control_Olkkola1993_IV",
                   "StartTime": 0,
-                  "EndTime": "Inf",
                   "TimeUnit": "h"
                 },
                 "SimulationDDI": {
                   "Project": "Erythromycin-Midazolam-DDI",
                   "Simulation": "Treatment_Olkkola1993_IV",
                   "StartTime": 128,
-                  "EndTime": "Inf",
                   "TimeUnit": "h"
                 }
               }
@@ -15902,14 +15843,12 @@
                   "Project": "Erythromycin-Midazolam-DDI",
                   "Simulation": "Control_Olkkola1993_Oral",
                   "StartTime": 0,
-                  "EndTime": "Inf",
                   "TimeUnit": "h"
                 },
                 "SimulationDDI": {
                   "Project": "Erythromycin-Midazolam-DDI",
                   "Simulation": "Treatment_Olkkola1993_Oral",
                   "StartTime": 128,
-                  "EndTime": "Inf",
                   "TimeUnit": "h"
                 }
               },
@@ -15921,14 +15860,12 @@
                   "Project": "Erythromycin-Midazolam-DDI",
                   "Simulation": "Control_Zimmermann1996",
                   "StartTime": 0,
-                  "EndTime": "Inf",
                   "TimeUnit": "h"
                 },
                 "SimulationDDI": {
                   "Project": "Erythromycin-Midazolam-DDI",
                   "Simulation": "Treatment_Zimmermann1996",
                   "StartTime": 97.5,
-                  "EndTime": "Inf",
                   "TimeUnit": "h"
                 }
               },
@@ -16580,14 +16517,12 @@
                   "Project": "Efavirenz-Alfentanil-DDI",
                   "Simulation": "Kharasch 2012, Alfentanil IV alone",
                   "StartTime": 0,
-                  "EndTime": "Inf",
                   "TimeUnit": "h"
                 },
                 "SimulationDDI": {
                   "Project": "Efavirenz-Alfentanil-DDI",
                   "Simulation": "Kharasch 2012, Alfentanil + Efavirenz 600 mg OD",
                   "StartTime": 360.5,
-                  "EndTime": "Inf",
                   "TimeUnit": "h"
                 }
               }
@@ -17173,7 +17108,6 @@
                   "Project": "Rifampicin-Alprazolam-DDI",
                   "Simulation": "Gashaw 2003 - Alprazolam control",
                   "StartTime": 0,
-                  "EndTime": "Inf",
                   "TimeUnit": "h"
                 },
                 "SimulationDDI": {
@@ -17192,14 +17126,12 @@
                   "Project": "Rifampicin-Alprazolam-DDI",
                   "Simulation": "Gashaw 2003 - Alprazolam control",
                   "StartTime": 0,
-                  "EndTime": "Inf",
                   "TimeUnit": "h"
                 },
                 "SimulationDDI": {
                   "Project": "Rifampicin-Alprazolam-DDI",
                   "Simulation": "Gashaw 2003 - Alprazolam + Rifampicin",
                   "StartTime": 436,
-                  "EndTime": "Inf",
                   "TimeUnit": "h"
                 }
               },
@@ -17211,14 +17143,12 @@
                   "Project": "Rifampicin-Alprazolam-DDI",
                   "Simulation": "Schmider 1999 - Alprazolam control",
                   "StartTime": 0,
-                  "EndTime": "Inf",
                   "TimeUnit": "h"
                 },
                 "SimulationDDI": {
                   "Project": "Rifampicin-Alprazolam-DDI",
                   "Simulation": "Schmider 1999 - Alprazolam + Rifampicin",
                   "StartTime": 96,
-                  "EndTime": "Inf",
                   "TimeUnit": "h"
                 }
               }
@@ -18068,14 +17998,12 @@
                   "Project": "Rifampicin-Triazolam-DDI",
                   "Simulation": "Villikka 1997 - Triazolam control - 0.5 mg SD PO",
                   "StartTime": 0,
-                  "EndTime": "Inf",
                   "TimeUnit": "h"
                 },
                 "SimulationDDI": {
                   "Project": "Rifampicin-Triazolam-DDI",
                   "Simulation": "Villikka 1997 - Rifampicin 600 mg over 5 days and Triazolam 0.5 mg SD PO",
                   "StartTime": 113,
-                  "EndTime": "Inf",
                   "TimeUnit": "h"
                 }
               }
@@ -18094,14 +18022,12 @@
                   "Project": "Rifampicin-Verapamil-DDI",
                   "Simulation": "DDI Control - Verapamil - Barbarash 1988 (iv)",
                   "StartTime": 0,
-                  "EndTime": "Inf",
                   "TimeUnit": "h"
                 },
                 "SimulationDDI": {
                   "Project": "Rifampicin-Verapamil-DDI",
                   "Simulation": "DDI Treatment - Rifampicin/Verapamil - Barbarash 1988 (iv)",
                   "StartTime": 300,
-                  "EndTime": "Inf",
                   "TimeUnit": "h"
                 }
               }
@@ -18120,14 +18046,12 @@
                   "Project": "Rifampicin-Verapamil-DDI",
                   "Simulation": "DDI Control - Verapamil - Barbarash 1988 (po)",
                   "StartTime": 0,
-                  "EndTime": "Inf",
                   "TimeUnit": "h"
                 },
                 "SimulationDDI": {
                   "Project": "Rifampicin-Verapamil-DDI",
                   "Simulation": "DDI Treatment - Rifampicin/Verapamil - Barbarash 1988 (po)",
                   "StartTime": 348,
-                  "EndTime": "Inf",
                   "TimeUnit": "h"
                 }
               }
@@ -18364,14 +18288,12 @@
                   "Project": "Carbamazepine-Alprazolam-DDI",
                   "Simulation": "Furukori1998_ControlPhase",
                   "StartTime": 0,
-                  "EndTime": "Inf",
                   "TimeUnit": "h"
                 },
                 "SimulationDDI": {
                   "Project": "Carbamazepine-Alprazolam-DDI",
                   "Simulation": "Furukori1998_TreatmentPhase",
                   "StartTime": 170,
-                  "EndTime": "Inf",
                   "TimeUnit": "h"
                 }
               }
@@ -18390,14 +18312,12 @@
                   "Project": "Carbamazepine-Midazolam-DDI",
                   "Simulation": "Kanefendt2023_Study1_ControlPhase",
                   "StartTime": 0,
-                  "EndTime": "Inf",
                   "TimeUnit": "h"
                 },
                 "SimulationDDI": {
                   "Project": "Carbamazepine-Midazolam-DDI",
                   "Simulation": "Kanefendt2023_Study1_TreatmentPhase",
                   "StartTime": 334,
-                  "EndTime": "Inf",
                   "TimeUnit": "h"
                 }
               },
@@ -18409,14 +18329,12 @@
                   "Project": "Carbamazepine-Midazolam-DDI",
                   "Simulation": "Kanefendt2023_Study2_ControlPhase",
                   "StartTime": 0,
-                  "EndTime": "Inf",
                   "TimeUnit": "h"
                 },
                 "SimulationDDI": {
                   "Project": "Carbamazepine-Midazolam-DDI",
                   "Simulation": "Kanefendt2023_Study2_TreatmentPhase",
                   "StartTime": 336,
-                  "EndTime": "Inf",
                   "TimeUnit": "h"
                 }
               },
@@ -18428,14 +18346,12 @@
                   "Project": "Carbamazepine-Midazolam-DDI",
                   "Simulation": "Lutz2018_ControlPhase",
                   "StartTime": 0,
-                  "EndTime": "Inf",
                   "TimeUnit": "h"
                 },
                 "SimulationDDI": {
                   "Project": "Carbamazepine-Midazolam-DDI",
                   "Simulation": "Lutz2018_TreatmentPhase",
                   "StartTime": 404,
-                  "EndTime": "Inf",
                   "TimeUnit": "h"
                 }
               }
@@ -18480,14 +18396,12 @@
                   "Project": "Erythromycin-Carbamazepine-DDI",
                   "Simulation": "Barzaghi1987_ControlPhase",
                   "StartTime": 0,
-                  "EndTime": "Inf",
                   "TimeUnit": "h"
                 },
                 "SimulationDDI": {
                   "Project": "Erythromycin-Carbamazepine-DDI",
                   "Simulation": "Barzaghi1987_TreatmentPhase",
                   "StartTime": 144,
-                  "EndTime": "Inf",
                   "TimeUnit": "h"
                 }
               },
@@ -18537,14 +18451,12 @@
                   "Project": "Erythromycin-Carbamazepine-DDI",
                   "Simulation": "Wong1983_ControlPhase",
                   "StartTime": 0,
-                  "EndTime": "Inf",
                   "TimeUnit": "h"
                 },
                 "SimulationDDI": {
                   "Project": "Erythromycin-Carbamazepine-DDI",
                   "Simulation": "Wong1983_TreatmentPhase",
                   "StartTime": 120,
-                  "EndTime": "Inf",
                   "TimeUnit": "h"
                 }
               }
@@ -18563,14 +18475,12 @@
                   "Project": "Cimetidine-Carbamazepine-DDI",
                   "Simulation": "Dalton1985a_ControlPhase",
                   "StartTime": 0,
-                  "EndTime": "Inf",
                   "TimeUnit": "h"
                 },
                 "SimulationDDI": {
                   "Project": "Cimetidine-Carbamazepine-DDI",
                   "Simulation": "Dalton1985a_TreatmentPhase",
                   "StartTime": 48,
-                  "EndTime": "Inf",
                   "TimeUnit": "h"
                 }
               }
@@ -18609,182 +18519,181 @@
   "Inputs": [],
   "Sections": [
     {
-      "Id": 1,
-      "Title": "1 Introduction",
-      "Content": "Content/Empty.md",
+      "Reference": "introduction",
+      "Title": "Introduction",
       "Sections": [
         {
-          "Id": 11,
-          "Title": "1.1 Objective",
+          "Reference": "objective",
+          "Title": "Objective",
           "Content": "Content/Qualification_DDI_CYP3A4_objective.md"
         },
         {
-          "Id": 12,
-          "Title": "1.2 CYP3A4 DDI Network",
+          "Reference": "cyp3a4-ddi-network",
+          "Title": "CYP3A4 DDI Network",
           "Content": "Content/Qualification_DDI_CYP3A4_network_description.md",
           "Sections": [
             {
-              "Id": 1201,
+              "Reference": "carbamazepine-alprazolam-ddi",
               "Title": "Carbamazepine - Alprazolam DDI",
               "Content": "Content/Carbamazepine-Alprazolam-DDI.md"
             },
             {
-              "Id": 1202,
+              "Reference": "carbamazepine-efavirenz-ddi",
               "Title": "Carbamazepine - Efavirenz DDI",
               "Content": "Content/Carbamazepine-Efavirenz-DDI.md"
             },
             {
-              "Id": 1203,
+              "Reference": "carbamazepine-midazolam-ddi",
               "Title": "Carbamazepine - Midazolam DDI",
               "Content": "Content/Carbamazepine-Midazolam-DDI.md"
             },
             {
-              "Id": 1204,
+              "Reference": "cimetidine-alfentanil-ddi",
               "Title": "Cimetidine - Alfentanil DDI",
               "Content": "Content/Cimetidine-Alfentanil-DDI.md"
             },
             {
-              "Id": 1205,
+              "Reference": "cimetidine-alprazolam-ddi",
               "Title": "Cimetidine - Alprazolam DDI",
               "Content": "Content/Cimetidine-Alprazolam-DDI.md"
             },
             {
-              "Id": 1206,
+              "Reference": "cimetidine-carbamazepine-ddi",
               "Title": "Cimetidine - Carbamazepine DDI",
               "Content": "Content/Cimetidine-Carbamazepine-DDI.md"
             },
             {
-              "Id": 1207,
+              "Reference": "cimetidine-midazolam-ddi",
               "Title": "Cimetidine - Midazolam DDI",
               "Content": "Content/Cimetidine-Midazolam-DDI.md"
             },
             {
-              "Id": 1208,
+              "Reference": "cimetidine-triazolam-ddi",
               "Title": "Cimetidine - Triazolam DDI",
               "Content": "Content/Cimetidine-Triazolam-DDI.md"
             },
             {
-              "Id": 1209,
+              "Reference": "cimetidine-verapamil-ddi",
               "Title": "Cimetidine - Verapamil DDI",
               "Content": "Content/Cimetidine-Verapamil-DDI.md"
             },
             {
-              "Id": 1210,
+              "Reference": "clarithromycin-midazolam-ddi",
               "Title": "Clarithromycin - Midazolam DDI",
               "Content": "Content/Clarithromycin-Midazolam-DDI.md"
             },
             {
-              "Id": 1211,
+              "Reference": "clarithromycin-triazolam-ddi",
               "Title": "Clarithromycin - Triazolam DDI",
               "Content": "Content/Clarithromycin-Triazolam-DDI.md"
             },
             {
-              "Id": 1212,
+              "Reference": "efavirenz-alfentanil-ddi",
               "Title": "Efavirenz - Alfentanil-DDI",
               "Content": "Content/Efavirenz-Alfentanil-DDI.md"
             },
             {
-              "Id": 1213,
+              "Reference": "efavirenz-carbamazepine-ddi",
               "Title": "Efavirenz - Carbamazepine DDI",
               "Content": "Content/Efavirenz-Carbamazepine-DDI.md"
             },
             {
-              "Id": 1214,
+              "Reference": "efavirenz-midazolam-ddi",
               "Title": "Efavirenz - Midazolam DDI",
               "Content": "Content/Efavirenz-Midazolam-DDI.md"
             },
             {
-              "Id": 1215,
+              "Reference": "erythromycin-alfentanil-ddi",
               "Title": "Erythromycin - Alfentanil DDI",
               "Content": "Content/Erythromycin-Alfentanil-DDI.md"
             },
             {
-              "Id": 1216,
+              "Reference": "erythromycin-alprazolam-ddi",
               "Title": "Erythromycin - Alprazolam DDI",
               "Content": "Content/Erythromycin-Alprazolam-DDI.md"
             },
             {
-              "Id": 1217,
+              "Reference": "erythromycin-carbamazepine-ddi",
               "Title": "Erythromycin - Carbamazepine DDI",
               "Content": "Content/Erythromycin-Carbamazepine-DDI.md"
             },
             {
-              "Id": 1218,
+              "Reference": "erythromycin-midazolam-ddi",
               "Title": "Erythromycin - Midazolam DDI",
               "Content": "Content/Erythromycin-Midazolam-DDI.md"
             },
             {
-              "Id": 1219,
+              "Reference": "erythromycin-triazolam-ddi",
               "Title": "Erythromycin - Triazolam DDI",
               "Content": "Content/Erythromycin-Triazolam-DDI.md"
             },
             {
-              "Id": 1220,
+              "Reference": "fluconazole-alfentanil-ddi",
               "Title": "Fluconazole - Alfentanil DDI",
               "Content": "Content/Fluconazole-Alfentanil-DDI.md"
             },
             {
-              "Id": 1221,
+              "Reference": "fluconazole-midazolam-ddi",
               "Title": "Fluconazole - Midazolam DDI",
               "Content": "Content/Fluconazole-Midazolam-DDI.md"
             },
             {
-              "Id": 1222,
+              "Reference": "fluconazole-triazolam-ddi",
               "Title": "Fluconazole - Triazolam DDI",
               "Content": "Content/Fluconazole-Triazolam-DDI.md"
             },
             {
-              "Id": 1223,
+              "Reference": "fluvoxamine-alprazolam-ddi",
               "Title": "Fluvoxamine - Alprazolam DDI",
               "Content": "Content/Fluvoxamine-Alprazolam-DDI.md"
             },
             {
-              "Id": 1224,
+              "Reference": "fluvoxamine-midazolam-ddi",
               "Title": "Fluvoxamine - Midazolam DDI",
               "Content": "Content/Fluvoxamine-Midazolam-DDI.md"
             },
             {
-              "Id": 1225,
+              "Reference": "itraconazole-alprazolam-ddi",
               "Title": "Itraconazole - Alprazolam DDI",
               "Content": "Content/Itraconazole-Alprazolam-DDI.md"
             },
             {
-              "Id": 1226,
+              "Reference": "itraconazole-midazolam-ddi",
               "Title": "Itraconazole - Midazolam DDI",
               "Content": "Content/Itraconazole-Midazolam-DDI.md"
             },
             {
-              "Id": 1227,
-              "Title": "Itraconazole - Triazolam DDI",
+              "Reference": "itraconazole-triazolam-ddi",
+              "Title": "Itraconazole-Triazolam DDI",
               "Content": "Content/Itraconazole-Triazolam-DDI.md"
             },
             {
-              "Id": 1228,
+              "Reference": "rifampicin-alfentanil-ddi",
               "Title": "Rifampicin - Alfentanil DDI",
               "Content": "Content/Rifampicin-Alfentanil-DDI.md"
             },
             {
-              "Id": 1229,
+              "Reference": "rifampicin-alprazolam-ddi",
               "Title": "Rifampicin - Alprazolam DDI",
               "Content": "Content/Rifampicin-Alprazolam-DDI.md"
             },
             {
-              "Id": 1230,
+              "Reference": "rifampicin-midazolam-ddi",
               "Title": "Rifampicin - Midazolam DDI",
               "Content": "Content/Rifampicin-Midazolam-DDI.md"
             },
             {
-              "Id": 1231,
+              "Reference": "rifampicin-triazolam-ddi",
               "Title": "Rifampicin - Triazolam DDI",
               "Content": "Content/Rifampicin-Triazolam-DDI.md"
             },
             {
-              "Id": 1232,
+              "Reference": "rifampicin-verapamil-ddi",
               "Title": "Rifampicin - Verapamil DDI",
               "Content": "Content/Rifampicin-Verapamil-DDI.md"
             },
             {
-              "Id": 1233,
+              "Reference": "verapamil-midazolam-ddi",
               "Title": "Verapamil - Midazolam DDI",
               "Content": "Content/Verapamil-Midazolam-DDI.md"
             }
@@ -18793,206 +18702,172 @@
       ]
     },
     {
-      "Id": 2,
-      "Title": "2 Qualification of Use Case CYP3A4-mediated DDI",
+      "Reference": "qualification-cyp3a4-ddi",
+      "Title": "Qualification of Use Case CYP3A4-mediated DDI",
       "Content": "Content/Intro_evaluation_DDI_network.md"
     },
     {
-      "Id": 3,
-      "Title": "3 Concentration-Time Profiles",
+      "Reference": "ct-profiles",
+      "Title": "Concentration-Time Profiles",
       "Content": "Content/Intro_evaluation_CTprofiles.md",
       "Sections": [
         {
-          "Id": 301,
-          "Title": "3.1 Carbamazepine - Alprazolam DDI",
-          "Content": "Content/Empty.md"
+          "Reference": "carbamazepine-alprazolam-ddi",
+          "Title": "Carbamazepine - Alprazolam DDI"
         },
         {
-          "Id": 302,
-          "Title": "3.2 Carbamazepine - Efavirenz DDI",
-          "Content": "Content/Empty.md"
+          "Reference": "carbamazepine-efavirenz-ddi",
+          "Title": "Carbamazepine - Efavirenz DDI"
         },
         {
-          "Id": 303,
-          "Title": "3.3 Carbamazepine - Midazolam DDI",
-          "Content": "Content/Empty.md"
+          "Reference": "carbamazepine-midazolam-ddi",
+          "Title": "Carbamazepine - Midazolam DDI"
         },
         {
-          "Id": 304,
-          "Title": "3.4 Cimetidine - Alfentanil DDI",
-          "Content": "Content/Empty.md"
+          "Reference": "cimetidine-alfentanil-ddi",
+          "Title": "Cimetidine - Alfentanil DDI"
         },
         {
-          "Id": 305,
-          "Title": "3.5 Cimetidine - Alprazolam DDI",
-          "Content": "Content/Empty.md"
+          "Reference": "cimetidine-alprazolam-ddi",
+          "Title": "Cimetidine - Alprazolam DDI"
         },
         {
-          "Id": 306,
-          "Title": "3.6 Cimetidine - Carbamazepine DDI",
-          "Content": "Content/Empty.md"
+          "Reference": "cimetidine-carbamazepine-ddi",
+          "Title": "Cimetidine - Carbamazepine DDI"
         },
         {
-          "Id": 307,
-          "Title": "3.7 Cimetidine - Midazolam DDI",
-          "Content": "Content/Empty.md"
+          "Reference": "cimetidine-midazolam-ddi",
+          "Title": "Cimetidine - Midazolam DDI"
         },
         {
-          "Id": 308,
-          "Title": "3.8 Cimetidine - Triazolam DDI",
-          "Content": "Content/Empty.md"
+          "Reference": "cimetidine-triazolam-ddi",
+          "Title": "Cimetidine - Triazolam DDI"
         },
         {
-          "Id": 309,
-          "Title": "3.9 Cimetidine - Verapamil DDI",
-          "Content": "Content/Empty.md"
+          "Reference": "cimetidine-verapamil-ddi",
+          "Title": "Cimetidine - Verapamil DDI"
         },
         {
-          "Id": 310,
-          "Title": "3.10 Clarithromycin - Midazolam DDI",
-          "Content": "Content/Empty.md"
+          "Reference": "clarithromycin-midazolam-ddi",
+          "Title": "Clarithromycin - Midazolam DDI"
         },
         {
-          "Id": 311,
-          "Title": "3.11 Clarithromycin - Triazolam DDI",
-          "Content": "Content/Empty.md"
+          "Reference": "clarithromycin-triazolam-ddi",
+          "Title": "Clarithromycin - Triazolam DDI"
         },
         {
-          "Id": 312,
-          "Title": "3.12 Efavirenz - Alfentanil DDI",
-          "Content": "Content/Empty.md"
+          "Reference": "efavirenz-alfentanil-ddi",
+          "Title": "Efavirenz - Alfentanil DDI"
         },
         {
-          "Id": 313,
-          "Title": "3.13 Efavirenz - Carbamazepine DDI",
-          "Content": "Content/Empty.md"
+          "Reference": "efavirenz-carbamazepine-ddi",
+          "Title": "Efavirenz - Carbamazepine DDI"
         },
         {
-          "Id": 314,
-          "Title": "3.14 Efavirenz - Midazolam DDI",
-          "Content": "Content/Empty.md"
+          "Reference": "efavirenz-midazolam-ddi",
+          "Title": "Efavirenz - Midazolam DDI"
         },
         {
-          "Id": 315,
-          "Title": "3.15 Erythromycin - Alfentanil DDI",
-          "Content": "Content/Empty.md"
+          "Reference": "erythromycin-alfentanil-ddi",
+          "Title": "Erythromycin - Alfentanil DDI"
         },
         {
-          "Id": 316,
-          "Title": "3.16 Erythromycin - Alprazolam DDI",
-          "Content": "Content/Empty.md"
+          "Reference": "erythromycin-alprazolam-ddi",
+          "Title": "Erythromycin - Alprazolam DDI"
         },
         {
-          "Id": 317,
-          "Title": "3.17 Erythromycin - Carbamazepine DDI",
-          "Content": "Content/Empty.md"
+          "Reference": "erythromycin-carbamazepine-ddi",
+          "Title": "Erythromycin - Carbamazepine DDI"
         },
         {
-          "Id": 318,
-          "Title": "3.18 Erythromycin - Midazolam DDI",
-          "Content": "Content/Empty.md"
+          "Reference": "erythromycin-midazolam-ddi",
+          "Title": "Erythromycin - Midazolam DDI"
         },
         {
-          "Id": 319,
-          "Title": "3.19 Erythromycin - Triazolam DDI",
-          "Content": "Content/Empty.md"
+          "Reference": "erythromycin-triazolam-ddi",
+          "Title": "Erythromycin - Triazolam DDI"
         },
         {
-          "Id": 320,
-          "Title": "3.20 Fluconazole - Alfentanil DDI",
-          "Content": "Content/Empty.md"
+          "Reference": "fluconazole-alfentanil-ddi",
+          "Title": "Fluconazole - Alfentanil DDI"
         },
         {
-          "Id": 321,
-          "Title": "3.21 Fluconazole - Midazolam DDI",
-          "Content": "Content/Empty.md"
+          "Reference": "fluconazole-midazolam-ddi",
+          "Title": "Fluconazole - Midazolam DDI"
         },
         {
-          "Id": 322,
-          "Title": "3.22 Fluconazole - Triazolam DDI",
-          "Content": "Content/Empty.md"
+          "Reference": "fluconazole-triazolam-ddi",
+          "Title": "Fluconazole - Triazolam DDI"
         },
         {
-          "Id": 323,
-          "Title": "3.23 Fluvoxamine - Alprazolam DDI",
-          "Content": "Content/Empty.md"
+          "Reference": "fluvoxamine-alprazolam-ddi",
+          "Title": "Fluvoxamine - Alprazolam DDI"
         },
         {
-          "Id": 324,
-          "Title": "3.24 Fluvoxamine - Midazolam DDI",
-          "Content": "Content/Empty.md"
+          "Reference": "fluvoxamine-midazolam-ddi",
+          "Title": "Fluvoxamine - Midazolam DDI"
         },
         {
-          "Id": 325,
-          "Title": "3.25 Itraconazole - Alprazolam DDI",
-          "Content": "Content/Empty.md"
+          "Reference": "itraconazole-alprazolam-ddi",
+          "Title": "Itraconazole - Alprazolam DDI"
         },
         {
-          "Id": 326,
-          "Title": "3.26 Itraconazole - Midazolam DDI",
-          "Content": "Content/Empty.md"
+          "Reference": "itraconazole-midazolam-ddi",
+          "Title": "Itraconazole - Midazolam DDI"
         },
         {
-          "Id": 327,
-          "Title": "3.27 Itraconazole - Triazolam DDI",
-          "Content": "Content/Empty.md"
+          "Reference": "itraconazole-triazolam-ddi",
+          "Title": "Itraconazole - Triazolam DDI"
         },
         {
-          "Id": 328,
-          "Title": "3.28 Rifampicin - Alfentanil DDI",
-          "Content": "Content/Empty.md"
+          "Reference": "rifampicin-alfentanil-ddi",
+          "Title": "Rifampicin - Alfentanil DDI"
         },
         {
-          "Id": 329,
-          "Title": "3.29 Rifampicin - Alprazolam DDI",
-          "Content": "Content/Empty.md"
+          "Reference": "rifampicin-alprazolam-ddi",
+          "Title": "Rifampicin - Alprazolam DDI"
         },
         {
-          "Id": 330,
-          "Title": "3.30 Rifampicin - Midazolam DDI",
-          "Content": "Content/Empty.md"
+          "Reference": "rifampicin-midazolam-ddi",
+          "Title": "Rifampicin - Midazolam DDI"
         },
         {
-          "Id": 331,
-          "Title": "3.31 Rifampicin - Triazolam DDI",
-          "Content": "Content/Empty.md"
+          "Reference": "rifampicin-triazolam-ddi",
+          "Title": "Rifampicin - Triazolam DDI"
         },
         {
-          "Id": 332,
-          "Title": "3.32 Rifampicin - Verapamil DDI",
-          "Content": "Content/Empty.md"
+          "Reference": "rifampicin-verapamil-ddi",
+          "Title": "Rifampicin - Verapamil DDI"
         },
         {
-          "Id": 333,
-          "Title": "3.33 Verapamil - Midazolam DDI",
-          "Content": "Content/Empty.md"
+          "Reference": "verapamil-midazolam-ddi",
+          "Title": "Verapamil - Midazolam DDI"
         }
       ]
     },
     {
-      "Id": 4,
-      "Title": "4 References",
+      "Reference": "main-references",
+      "Title": "References",
       "Content": "Content/References.md",
       "Sections": []
     },
     {
-      "Id": 5,
-      "Title": "5 Appendix",
-      "Content": "Content/Empty.md",
+      "Reference": "appendix",
+      "Title": "Appendix",
       "Sections": [
         {
-          "Id": 51,
-          "Title": "5.1 Open Systems Pharmacology Suite (OSPS) Introduction",
+          "Reference": "osp-introduction",
+          "Title": "Open Systems Pharmacology Suite (OSPS) Introduction",
           "Content": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Qualification-text-modules/v1.3/OSPS_Introduction.md"
         },
         {
-          "Id": 52,
-          "Title": "5.2 Mathematical Implementation of Drug-Drug Interactions",
+          "Reference": "mathematical-implementation-of-ddi",
+          "Title": "Mathematical Implementation of Drug-Drug Interactions",
           "Content": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Qualification-text-modules/v1.3/Mathematical_Implementation_of_DDI.md"
         },
         {
-          "Id": 53,
-          "Title": "5.3 Automatic (re)-qualification workflow",
+          "Reference": "requalification-workflow",
+          "Title": "Automatic (re)-qualification workflow",
           "Content": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Qualification-text-modules/v1.3/Qualification_Workflow.md"
         }
       ]
