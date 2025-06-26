@@ -13,7 +13,7 @@ The following perpetrator compounds were selected:
 - **Fluvoxamine** (weak/moderate CYP3A4 inhibitor)
   Model snapshot and evaluation plan (*release* **v2.0**): https://github.com/Open-Systems-Pharmacology/Fluvoxamine-Model/releases/tag/v2.0
 - **Verapamil** (moderate CYP3A4 inhibitor)
-  Model snapshot and evaluation plan (*release* **v2.1**): https://github.com/Open-Systems-Pharmacology/Verapamil-Model/releases/tag/v2.1
+  Model snapshot and evaluation plan (*release* **v1.2**): https://github.com/Open-Systems-Pharmacology/Verapamil-Model/releases/tag/v1.2
 - **Fluconazole** (moderate CYP3A4 inhibitor)
   Model snapshot and evaluation plan (*release* **v2.0**): https://github.com/Open-Systems-Pharmacology/Fluconazole-Model/releases/tag/v2.0
 - **Erythromycin** (moderate CYP3A4 inhibitor)
