@@ -18533,167 +18533,167 @@
           "Content": "Content/Qualification_DDI_CYP3A4_network_description.md",
           "Sections": [
             {
-              "Reference": "carbamazepine-alprazolam-ddi",
+              "Reference": "network-carbamazepine-alprazolam-ddi",
               "Title": "Carbamazepine - Alprazolam DDI",
               "Content": "Content/Carbamazepine-Alprazolam-DDI.md"
             },
             {
-              "Reference": "carbamazepine-efavirenz-ddi",
+              "Reference": "network-carbamazepine-efavirenz-ddi",
               "Title": "Carbamazepine - Efavirenz DDI",
               "Content": "Content/Carbamazepine-Efavirenz-DDI.md"
             },
             {
-              "Reference": "carbamazepine-midazolam-ddi",
+              "Reference": "network-carbamazepine-midazolam-ddi",
               "Title": "Carbamazepine - Midazolam DDI",
               "Content": "Content/Carbamazepine-Midazolam-DDI.md"
             },
             {
-              "Reference": "cimetidine-alfentanil-ddi",
+              "Reference": "network-cimetidine-alfentanil-ddi",
               "Title": "Cimetidine - Alfentanil DDI",
               "Content": "Content/Cimetidine-Alfentanil-DDI.md"
             },
             {
-              "Reference": "cimetidine-alprazolam-ddi",
+              "Reference": "network-cimetidine-alprazolam-ddi",
               "Title": "Cimetidine - Alprazolam DDI",
               "Content": "Content/Cimetidine-Alprazolam-DDI.md"
             },
             {
-              "Reference": "cimetidine-carbamazepine-ddi",
+              "Reference": "network-cimetidine-carbamazepine-ddi",
               "Title": "Cimetidine - Carbamazepine DDI",
               "Content": "Content/Cimetidine-Carbamazepine-DDI.md"
             },
             {
-              "Reference": "cimetidine-midazolam-ddi",
+              "Reference": "network-cimetidine-midazolam-ddi",
               "Title": "Cimetidine - Midazolam DDI",
               "Content": "Content/Cimetidine-Midazolam-DDI.md"
             },
             {
-              "Reference": "cimetidine-triazolam-ddi",
+              "Reference": "network-cimetidine-triazolam-ddi",
               "Title": "Cimetidine - Triazolam DDI",
               "Content": "Content/Cimetidine-Triazolam-DDI.md"
             },
             {
-              "Reference": "cimetidine-verapamil-ddi",
+              "Reference": "network-cimetidine-verapamil-ddi",
               "Title": "Cimetidine - Verapamil DDI",
               "Content": "Content/Cimetidine-Verapamil-DDI.md"
             },
             {
-              "Reference": "clarithromycin-midazolam-ddi",
+              "Reference": "network-clarithromycin-midazolam-ddi",
               "Title": "Clarithromycin - Midazolam DDI",
               "Content": "Content/Clarithromycin-Midazolam-DDI.md"
             },
             {
-              "Reference": "clarithromycin-triazolam-ddi",
+              "Reference": "network-clarithromycin-triazolam-ddi",
               "Title": "Clarithromycin - Triazolam DDI",
               "Content": "Content/Clarithromycin-Triazolam-DDI.md"
             },
             {
-              "Reference": "efavirenz-alfentanil-ddi",
+              "Reference": "network-efavirenz-alfentanil-ddi",
               "Title": "Efavirenz - Alfentanil-DDI",
               "Content": "Content/Efavirenz-Alfentanil-DDI.md"
             },
             {
-              "Reference": "efavirenz-carbamazepine-ddi",
+              "Reference": "network-efavirenz-carbamazepine-ddi",
               "Title": "Efavirenz - Carbamazepine DDI",
               "Content": "Content/Efavirenz-Carbamazepine-DDI.md"
             },
             {
-              "Reference": "efavirenz-midazolam-ddi",
+              "Reference": "network-efavirenz-midazolam-ddi",
               "Title": "Efavirenz - Midazolam DDI",
               "Content": "Content/Efavirenz-Midazolam-DDI.md"
             },
             {
-              "Reference": "erythromycin-alfentanil-ddi",
+              "Reference": "network-erythromycin-alfentanil-ddi",
               "Title": "Erythromycin - Alfentanil DDI",
               "Content": "Content/Erythromycin-Alfentanil-DDI.md"
             },
             {
-              "Reference": "erythromycin-alprazolam-ddi",
+              "Reference": "network-erythromycin-alprazolam-ddi",
               "Title": "Erythromycin - Alprazolam DDI",
               "Content": "Content/Erythromycin-Alprazolam-DDI.md"
             },
             {
-              "Reference": "erythromycin-carbamazepine-ddi",
+              "Reference": "network-erythromycin-carbamazepine-ddi",
               "Title": "Erythromycin - Carbamazepine DDI",
               "Content": "Content/Erythromycin-Carbamazepine-DDI.md"
             },
             {
-              "Reference": "erythromycin-midazolam-ddi",
+              "Reference": "network-erythromycin-midazolam-ddi",
               "Title": "Erythromycin - Midazolam DDI",
               "Content": "Content/Erythromycin-Midazolam-DDI.md"
             },
             {
-              "Reference": "erythromycin-triazolam-ddi",
+              "Reference": "network-erythromycin-triazolam-ddi",
               "Title": "Erythromycin - Triazolam DDI",
               "Content": "Content/Erythromycin-Triazolam-DDI.md"
             },
             {
-              "Reference": "fluconazole-alfentanil-ddi",
+              "Reference": "network-fluconazole-alfentanil-ddi",
               "Title": "Fluconazole - Alfentanil DDI",
               "Content": "Content/Fluconazole-Alfentanil-DDI.md"
             },
             {
-              "Reference": "fluconazole-midazolam-ddi",
+              "Reference": "network-fluconazole-midazolam-ddi",
               "Title": "Fluconazole - Midazolam DDI",
               "Content": "Content/Fluconazole-Midazolam-DDI.md"
             },
             {
-              "Reference": "fluconazole-triazolam-ddi",
+              "Reference": "network-fluconazole-triazolam-ddi",
               "Title": "Fluconazole - Triazolam DDI",
               "Content": "Content/Fluconazole-Triazolam-DDI.md"
             },
             {
-              "Reference": "fluvoxamine-alprazolam-ddi",
+              "Reference": "network-fluvoxamine-alprazolam-ddi",
               "Title": "Fluvoxamine - Alprazolam DDI",
               "Content": "Content/Fluvoxamine-Alprazolam-DDI.md"
             },
             {
-              "Reference": "fluvoxamine-midazolam-ddi",
+              "Reference": "network-fluvoxamine-midazolam-ddi",
               "Title": "Fluvoxamine - Midazolam DDI",
               "Content": "Content/Fluvoxamine-Midazolam-DDI.md"
             },
             {
-              "Reference": "itraconazole-alprazolam-ddi",
+              "Reference": "network-itraconazole-alprazolam-ddi",
               "Title": "Itraconazole - Alprazolam DDI",
               "Content": "Content/Itraconazole-Alprazolam-DDI.md"
             },
             {
-              "Reference": "itraconazole-midazolam-ddi",
+              "Reference": "network-itraconazole-midazolam-ddi",
               "Title": "Itraconazole - Midazolam DDI",
               "Content": "Content/Itraconazole-Midazolam-DDI.md"
             },
             {
-              "Reference": "itraconazole-triazolam-ddi",
+              "Reference": "network-itraconazole-triazolam-ddi",
               "Title": "Itraconazole-Triazolam DDI",
               "Content": "Content/Itraconazole-Triazolam-DDI.md"
             },
             {
-              "Reference": "rifampicin-alfentanil-ddi",
+              "Reference": "network-rifampicin-alfentanil-ddi",
               "Title": "Rifampicin - Alfentanil DDI",
               "Content": "Content/Rifampicin-Alfentanil-DDI.md"
             },
             {
-              "Reference": "rifampicin-alprazolam-ddi",
+              "Reference": "network-rifampicin-alprazolam-ddi",
               "Title": "Rifampicin - Alprazolam DDI",
               "Content": "Content/Rifampicin-Alprazolam-DDI.md"
             },
             {
-              "Reference": "rifampicin-midazolam-ddi",
+              "Reference": "network-rifampicin-midazolam-ddi",
               "Title": "Rifampicin - Midazolam DDI",
               "Content": "Content/Rifampicin-Midazolam-DDI.md"
             },
             {
-              "Reference": "rifampicin-triazolam-ddi",
+              "Reference": "network-rifampicin-triazolam-ddi",
               "Title": "Rifampicin - Triazolam DDI",
               "Content": "Content/Rifampicin-Triazolam-DDI.md"
             },
             {
-              "Reference": "rifampicin-verapamil-ddi",
+              "Reference": "network-rifampicin-verapamil-ddi",
               "Title": "Rifampicin - Verapamil DDI",
               "Content": "Content/Rifampicin-Verapamil-DDI.md"
             },
             {
-              "Reference": "verapamil-midazolam-ddi",
+              "Reference": "network-verapamil-midazolam-ddi",
               "Title": "Verapamil - Midazolam DDI",
               "Content": "Content/Verapamil-Midazolam-DDI.md"
             }
