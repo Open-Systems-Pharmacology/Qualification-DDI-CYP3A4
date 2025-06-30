@@ -1,5 +1,5 @@
 The release of the snapshot containing the respective simulations can be found here:
-https://github.com/Open-Systems-Pharmacology/Efavirenz-Carbamazepine-DDI/releases/tag/v1.0
+[https://github.com/Open-Systems-Pharmacology/Efavirenz-Carbamazepine-DDI/releases/tag/v1.0](https://github.com/Open-Systems-Pharmacology/Efavirenz-Carbamazepine-DDI/releases/tag/v1.0)
 
 The efavirenz-carbamazepine interaction was evaluated using one clinical DDI study ([Ji 2008](#4-references)).
 
