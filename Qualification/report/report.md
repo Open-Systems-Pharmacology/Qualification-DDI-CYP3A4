@@ -758,8 +758,8 @@ In the plots,
 
 |PK parameter |GMFE |
 |:------------|:----|
-|AUC          |1.45 |
-|CMAX         |1.38 |
+|AUC          |1.38 |
+|CMAX         |1.33 |
 
 <br>
 <br>
@@ -771,8 +771,8 @@ In the plots,
 |AUC                          |Number |Ratio [%] |
 |:----------------------------|:------|:---------|
 |Points total                 |164    |-        |
-|Points within Guest *et al.* |108    |65.85     |
-|Points within 2 fold         |138    |84.15     |
+|Points within Guest *et al.* |118    |71.95     |
+|Points within 2 fold         |145    |88.41     |
 
 <br>
 <br>
@@ -784,8 +784,8 @@ In the plots,
 |CMAX                         |Number |Ratio [%] |
 |:----------------------------|:------|:---------|
 |Points total                 |111    |-        |
-|Points within Guest *et al.* |55     |49.55     |
-|Points within 2 fold         |98     |88.29     |
+|Points within Guest *et al.* |63     |56.76     |
+|Points within 2 fold         |101    |90.99     |
 
 <br>
 <br>
@@ -850,9 +850,9 @@ In the plots,
 |377    |Itraconazole, 200 mg, PO, SD                                                                                                                                                                                                       |Midazolam, PO            |4.49                |3.40               |1.32               |2.20                 |1.80                |1.22                |Olkkola 1996          |
 |378    |Itraconazole, 200 mg, PO, MD OD (4 days)                                                                                                                                                                                           |Midazolam, IV            |2.29                |3.23               |0.71               |1.01                 |-                  |-                  |Olkkola 1996          |
 |379    |Itraconazole, 200 mg, PO, MD OD (6 days)                                                                                                                                                                                           |Midazolam, PO            |6.24                |6.60               |0.95               |2.57                 |2.50                |1.03                |Olkkola 1996          |
-|380    |Fluconazole, 400 mg, PO, SD                                                                                                                                                                                                        |Midazolam, PO            |0.90                |2.50               |0.36               |1.00                 |2.50                |0.40                |Olkkola 1996          |
-|381    |Fluconazole, 400/200 mg, PO, MD OD (4 days)                                                                                                                                                                                        |Midazolam, IV            |0.94                |2.04               |0.46               |0.23                 |-                  |-                  |Olkkola 1996          |
-|382    |Fluconazole, 400/200 mg, PO, MD OD (6 days)                                                                                                                                                                                        |Midazolam, PO            |1.00                |3.60               |0.28               |1.00                 |1.70                |0.59                |Olkkola 1996          |
+|380    |Fluconazole, 400 mg, PO, SD                                                                                                                                                                                                        |Midazolam, PO            |2.71                |2.50               |1.08               |2.19                 |2.50                |0.88                |Olkkola 1996          |
+|381    |Fluconazole, 400/200 mg, PO, MD OD (4 days)                                                                                                                                                                                        |Midazolam, IV            |2.13                |2.04               |1.05               |0.32                 |-                  |-                  |Olkkola 1996          |
+|382    |Fluconazole, 400/200 mg, PO, MD OD (6 days)                                                                                                                                                                                        |Midazolam, PO            |4.20                |3.60               |1.17               |2.25                 |1.70                |1.32                |Olkkola 1996          |
 |389    |Rifampicin, 600 mg, PO, MD OD (5 days)                                                                                                                                                                                             |Midazolam, IV            |0.48                |0.51               |0.93               |0.91                 |-                  |-                  |Phimmasone 2001       |
 |391    |Rifampicin, 600 mg, PO, MD OD (5 days)                                                                                                                                                                                             |Alfentanil, IV           |0.36                |0.55               |0.66               |0.90                 |-                  |-                  |Phimmasone 2001       |
 |392    |Rifampicin, 600 mg, PO, MD OD (28 days)                                                                                                                                                                                            |Midazolam, PO            |0.21                |0.12               |1.67               |0.27                 |0.16                |1.66                |Reitman 2011          |
@@ -930,13 +930,13 @@ In the plots,
 |1356   |Rifampicin, 20 mg, PO, MD OD (14 days)                                                                                                                                                                                             |Midazolam, PO            |0.23                |0.38               |0.59               |0.35                 |-                  |-                  |Björkhem-Bergman 2013 |
 |1357   |Rifampicin, 100 mg, PO, MD OD (14 days)                                                                                                                                                                                            |Midazolam, PO            |0.08                |0.25               |0.32               |0.15                 |-                  |-                  |Björkhem-Bergman 2013 |
 |1362   |Rifampicin, 600 mg, PO, MD OD (11 days)                                                                                                                                                                                            |Midazolam, PO            |0.03                |0.14               |0.22               |0.07                 |0.14                |0.50                |Chattopadhyay 2018    |
-|1392   |Fluconazole, 400 mg, IV, SD                                                                                                                                                                                                        |Midazolam, PO            |1.00                |3.08               |0.32               |1.00                 |1.79                |0.56                |Ahonen 1997           |
-|1393   |Fluconazole, 400 mg, PO, SD                                                                                                                                                                                                        |Midazolam, PO            |1.00                |3.41               |0.29               |1.00                 |2.30                |0.44                |Ahonen 1997           |
-|1394   |Fluconazole, 50 mg, PO, MD for 4 days                                                                                                                                                                                              |Triazolam, PO            |1.00                |1.59               |0.63               |1.00                 |1.47                |0.68                |Varhe 1996c           |
-|1395   |Fluconazole, 100 mg, PO, MD for 4 days                                                                                                                                                                                             |Triazolam, PO            |1.00                |1.99               |0.50               |1.00                 |1.40                |0.71                |Varhe 1996c           |
-|1396   |Fluconazole, 200 mg, PO, MD for 4 days                                                                                                                                                                                             |Triazolam, PO            |1.00                |3.65               |0.27               |1.00                 |2.33                |0.43                |Varhe 1996c           |
-|1398   |Fluconazole, 400 mg, IV, SD                                                                                                                                                                                                        |Alfentanil, IV           |1.00                |2.07               |0.48               |1.00                 |1.20                |0.83                |Palkama 1998          |
-|1399   |Fluconazole, 400 mg, PO, SD                                                                                                                                                                                                        |Alfentanil, IV           |1.00                |1.97               |0.51               |1.00                 |1.04                |0.96                |Palkama 1998          |
+|1392   |Fluconazole, 400 mg, IV, SD                                                                                                                                                                                                        |Midazolam, PO            |3.12                |3.08               |1.01               |2.09                 |1.79                |1.17                |Ahonen 1997           |
+|1393   |Fluconazole, 400 mg, PO, SD                                                                                                                                                                                                        |Midazolam, PO            |3.41                |3.41               |1.00               |2.19                 |2.30                |0.95                |Ahonen 1997           |
+|1394   |Fluconazole, 50 mg, PO, MD for 4 days                                                                                                                                                                                              |Triazolam, PO            |1.79                |1.59               |1.13               |1.37                 |1.47                |0.94                |Varhe 1996c           |
+|1395   |Fluconazole, 100 mg, PO, MD for 4 days                                                                                                                                                                                             |Triazolam, PO            |2.72                |1.99               |1.36               |1.76                 |1.40                |1.26                |Varhe 1996c           |
+|1396   |Fluconazole, 200 mg, PO, MD for 4 days                                                                                                                                                                                             |Triazolam, PO            |4.14                |3.65               |1.13               |2.16                 |2.33                |0.93                |Varhe 1996c           |
+|1398   |Fluconazole, 400 mg, IV, SD                                                                                                                                                                                                        |Alfentanil, IV           |2.21                |2.07               |1.07               |1.01                 |1.20                |0.84                |Palkama 1998          |
+|1399   |Fluconazole, 400 mg, PO, SD                                                                                                                                                                                                        |Alfentanil, IV           |2.11                |1.97               |1.07               |1.01                 |1.04                |0.97                |Palkama 1998          |
 |1457   |Carbamazepine, 300 mg, PO, MD                                                                                                                                                                                                      |Alprazolam, PO           |0.58                |0.42               |1.37               |0.89                 |1.11                |0.80                |Furukori 1998         |
 |1460   |Carbamazepine, 100, then escalated to 300 mg, PO, MD                                                                                                                                                                               |Midazolam, PO            |0.23                |0.21               |1.09               |0.37                 |0.32                |1.16                |Lutz 2018b            |
 |2002   |Rifampicin, 300 mg, PO, MD OD (7 days)                                                                                                                                                                                             |Midazolam, PO            |0.04                |0.26               |0.16               |0.08                 |0.38                |0.22                |van Dyk 2018          |
@@ -1162,8 +1162,8 @@ In the plots,
 
 |PK parameter |GMFE |
 |:------------|:----|
-|AUC          |1.65 |
-|CMAX         |1.37 |
+|AUC          |1.39 |
+|CMAX         |1.25 |
 
 <br>
 <br>
@@ -1175,8 +1175,8 @@ In the plots,
 |AUC                          |Number |Ratio [%] |
 |:----------------------------|:------|:---------|
 |Points total                 |48     |-        |
-|Points within Guest *et al.* |20     |41.67     |
-|Points within 2 fold         |36     |75.00     |
+|Points within Guest *et al.* |30     |62.50     |
+|Points within 2 fold         |43     |89.58     |
 
 <br>
 <br>
@@ -1188,8 +1188,8 @@ In the plots,
 |CMAX                         |Number |Ratio [%] |
 |:----------------------------|:------|:---------|
 |Points total                 |36     |-        |
-|Points within Guest *et al.* |17     |47.22     |
-|Points within 2 fold         |32     |88.89     |
+|Points within Guest *et al.* |25     |69.44     |
+|Points within 2 fold         |35     |97.22     |
 
 <br>
 <br>
@@ -1620,8 +1620,8 @@ In the plots,
 
 |PK parameter |GMFE |
 |:------------|:----|
-|AUC          |2.53 |
-|CMAX         |1.68 |
+|AUC          |1.10 |
+|CMAX         |1.14 |
 
 <br>
 <br>
@@ -1633,8 +1633,8 @@ In the plots,
 |AUC                          |Number |Ratio [%] |
 |:----------------------------|:------|:---------|
 |Points total                 |10     |-        |
-|Points within Guest *et al.* |0      |0         |
-|Points within 2 fold         |3      |30        |
+|Points within Guest *et al.* |10     |100       |
+|Points within 2 fold         |10     |100       |
 
 <br>
 <br>
@@ -1646,8 +1646,8 @@ In the plots,
 |CMAX                         |Number |Ratio [%] |
 |:----------------------------|:------|:---------|
 |Points total                 |9      |-        |
-|Points within Guest *et al.* |0      |0.00      |
-|Points within 2 fold         |6      |66.67     |
+|Points within Guest *et al.* |8      |88.89     |
+|Points within 2 fold         |9      |100.00    |
 
 <br>
 <br>
@@ -2002,7 +2002,7 @@ In the plots,
 
 |PK parameter |GMFE |
 |:------------|:----|
-|AUC          |1.34 |
+|AUC          |1.27 |
 |CMAX         |1.29 |
 
 <br>
@@ -2015,8 +2015,8 @@ In the plots,
 |AUC                          |Number |Ratio [%] |
 |:----------------------------|:------|:---------|
 |Points total                 |23     |-        |
-|Points within Guest *et al.* |16     |69.57     |
-|Points within 2 fold         |22     |95.65     |
+|Points within Guest *et al.* |18     |78.26     |
+|Points within 2 fold         |23     |100.00    |
 
 <br>
 <br>
@@ -2028,7 +2028,7 @@ In the plots,
 |CMAX                         |Number |Ratio [%] |
 |:----------------------------|:------|:---------|
 |Points total                 |14     |-        |
-|Points within Guest *et al.* |3      |21.43     |
+|Points within Guest *et al.* |4      |28.57     |
 |Points within 2 fold         |14     |100.00    |
 
 <br>
@@ -2306,8 +2306,8 @@ In the plots,
 
 |PK parameter |GMFE |
 |:------------|:----|
-|AUC          |1.48 |
-|CMAX         |1.44 |
+|AUC          |1.41 |
+|CMAX         |1.39 |
 
 <br>
 <br>
@@ -2319,8 +2319,8 @@ In the plots,
 |AUC                          |Number |Ratio [%] |
 |:----------------------------|:------|:---------|
 |Points total                 |104    |-        |
-|Points within Guest *et al.* |71     |68.27     |
-|Points within 2 fold         |82     |78.85     |
+|Points within Guest *et al.* |76     |73.08     |
+|Points within 2 fold         |87     |83.65     |
 
 <br>
 <br>
@@ -2332,8 +2332,8 @@ In the plots,
 |CMAX                         |Number |Ratio [%] |
 |:----------------------------|:------|:---------|
 |Points total                 |65     |-        |
-|Points within Guest *et al.* |37     |56.92     |
-|Points within 2 fold         |54     |83.08     |
+|Points within Guest *et al.* |41     |63.08     |
+|Points within 2 fold         |56     |86.15     |
 
 <br>
 <br>
@@ -2382,8 +2382,8 @@ In the plots,
 
 |PK parameter |GMFE |
 |:------------|:----|
-|AUC          |1.60 |
-|CMAX         |1.25 |
+|AUC          |1.42 |
+|CMAX         |1.16 |
 
 <br>
 <br>
@@ -2395,8 +2395,8 @@ In the plots,
 |AUC                          |Number |Ratio [%] |
 |:----------------------------|:------|:---------|
 |Points total                 |16     |-        |
-|Points within Guest *et al.* |8      |50.00     |
-|Points within 2 fold         |13     |81.25     |
+|Points within Guest *et al.* |11     |68.75     |
+|Points within 2 fold         |14     |87.50     |
 
 <br>
 <br>
@@ -2408,8 +2408,8 @@ In the plots,
 |CMAX                         |Number |Ratio [%] |
 |:----------------------------|:------|:---------|
 |Points total                 |16     |-        |
-|Points within Guest *et al.* |10     |62.50     |
-|Points within 2 fold         |15     |93.75     |
+|Points within Guest *et al.* |13     |81.25     |
+|Points within 2 fold         |16     |100.00    |
 
 <br>
 <br>

@@ -31,7 +31,7 @@
     },
     {
       "Id": "Fluconazole",
-      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Fluconazole-Model/v2.0/Fluconazole-Model.json"
+      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Fluconazole-Model/v1.0/Fluconazole-Model.json"
     },
     {
       "Id": "Fluvoxamine",
