@@ -1,5 +1,5 @@
 The release of the snapshot containing the respective simulations can be found here:
-https://github.com/Open-Systems-Pharmacology/Erythromycin-Carbamazepine-DDI/releases/tag/v1.1
+[https://github.com/Open-Systems-Pharmacology/Erythromycin-Carbamazepine-DDI/releases/tag/v1.2](https://github.com/Open-Systems-Pharmacology/Erythromycin-Carbamazepine-DDI/releases/tag/v1.2)
 
 The erythromycin-carbamazepine interaction was evaluated using three clinical DDI studies ([Barzaghi 1987](#4-references), [Miles 1989](#4-references), [Wong 1983](#4-references)).
 
