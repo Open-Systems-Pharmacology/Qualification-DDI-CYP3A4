@@ -312,7 +312,7 @@
     },
     {
       "Id": "Carbamazepine-Midazolam-DDI",
-      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Carbamazepine-Midazolam-DDI/4edc1eb99ffdf7fd9aab82112967d708dccf1acc/Carbamazepine-Midazolam-DDI.json",
+      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Carbamazepine-Midazolam-DDI/v1.0/Carbamazepine-Midazolam-DDI.json",
       "BuildingBlocks": [
         {
           "Type": "Compound",
@@ -14884,7 +14884,7 @@
             "Project": "Carbamazepine-Midazolam-DDI",
             "Simulation": "Datta-Mannan2024_ControlPhase",
             "Output": "Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
-            "ObservedData": [],
+            "ObservedData": "Datta-Mannan 2024 - Midazolam without carbamazepine - Midazolam - PO - 1.2 mg - Plasma - agg. (n=15)",
             "StartTime": 0,
             "TimeUnit": "h",
             "Color": "#2166ac",
@@ -14906,7 +14906,7 @@
             "Project": "Carbamazepine-Midazolam-DDI",
             "Simulation": "Datta-Mannan2024_TreatmentPhase_Day14",
             "Output": "Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
-            "ObservedData": [],
+            "ObservedData": "Datta-Mannan 2024 - Midazolam with carbamazepine on Day 14 - Midazolam - PO - 1.2 mg - Plasma - agg. (n=14)",
             "StartTime": 288,
             "TimeUnit": "h",
             "Color": "#c54a4a",
