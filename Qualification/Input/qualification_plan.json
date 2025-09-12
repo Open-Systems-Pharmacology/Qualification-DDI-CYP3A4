@@ -312,7 +312,7 @@
     },
     {
       "Id": "Carbamazepine-Midazolam-DDI",
-      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Carbamazepine-Midazolam-DDI/v1.0/Carbamazepine-Midazolam-DDI.json",
+      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Carbamazepine-Midazolam-DDI/6be5a712b2bb7378f065ddef6ec567a946f0bc63/Carbamazepine-Midazolam-DDI.json",
       "BuildingBlocks": [
         {
           "Type": "Compound",
@@ -351,7 +351,10 @@
             "Kanefendt2023_Study2_ControlPhase",
             "Kanefendt2023_Study2_TreatmentPhase",
             "Lutz2018_ControlPhase",
-            "Lutz2018_TreatmentPhase"
+            "Lutz2018_TreatmentPhase",
+            "Datta-Mannan2024_ControlPhase",
+            "Datta-Mannan2024_TreatmentPhase_Day11",
+            "Datta-Mannan2024_TreatmentPhase_Day14"
           ]
         },
         {
@@ -364,7 +367,10 @@
             "Kanefendt2023_Study2_ControlPhase",
             "Kanefendt2023_Study2_TreatmentPhase",
             "Lutz2018_ControlPhase",
-            "Lutz2018_TreatmentPhase"
+            "Lutz2018_TreatmentPhase",
+            "Datta-Mannan2024_ControlPhase",
+            "Datta-Mannan2024_TreatmentPhase_Day11",
+            "Datta-Mannan2024_TreatmentPhase_Day14"
           ]
         },
         {
@@ -377,7 +383,10 @@
             "Kanefendt2023_Study2_ControlPhase",
             "Kanefendt2023_Study2_TreatmentPhase",
             "Lutz2018_ControlPhase",
-            "Lutz2018_TreatmentPhase"
+            "Lutz2018_TreatmentPhase",
+            "Datta-Mannan2024_ControlPhase",
+            "Datta-Mannan2024_TreatmentPhase_Day11",
+            "Datta-Mannan2024_TreatmentPhase_Day14"
           ]
         },
         {
@@ -390,7 +399,10 @@
             "Kanefendt2023_Study2_ControlPhase",
             "Kanefendt2023_Study2_TreatmentPhase",
             "Lutz2018_ControlPhase",
-            "Lutz2018_TreatmentPhase"
+            "Lutz2018_TreatmentPhase",
+            "Datta-Mannan2024_ControlPhase",
+            "Datta-Mannan2024_TreatmentPhase_Day11",
+            "Datta-Mannan2024_TreatmentPhase_Day14"
           ]
         },
         {
@@ -403,7 +415,10 @@
             "Kanefendt2023_Study2_ControlPhase",
             "Kanefendt2023_Study2_TreatmentPhase",
             "Lutz2018_ControlPhase",
-            "Lutz2018_TreatmentPhase"
+            "Lutz2018_TreatmentPhase",
+            "Datta-Mannan2024_ControlPhase",
+            "Datta-Mannan2024_TreatmentPhase_Day11",
+            "Datta-Mannan2024_TreatmentPhase_Day14"
           ]
         },
         {
@@ -416,7 +431,10 @@
             "Kanefendt2023_Study2_ControlPhase",
             "Kanefendt2023_Study2_TreatmentPhase",
             "Lutz2018_ControlPhase",
-            "Lutz2018_TreatmentPhase"
+            "Lutz2018_TreatmentPhase",
+            "Datta-Mannan2024_ControlPhase",
+            "Datta-Mannan2024_TreatmentPhase_Day11",
+            "Datta-Mannan2024_TreatmentPhase_Day14"
           ]
         },
         {
@@ -429,7 +447,10 @@
             "Kanefendt2023_Study2_ControlPhase",
             "Kanefendt2023_Study2_TreatmentPhase",
             "Lutz2018_ControlPhase",
-            "Lutz2018_TreatmentPhase"
+            "Lutz2018_TreatmentPhase",
+            "Datta-Mannan2024_ControlPhase",
+            "Datta-Mannan2024_TreatmentPhase_Day11",
+            "Datta-Mannan2024_TreatmentPhase_Day14"
           ]
         },
         {
@@ -442,7 +463,10 @@
             "Kanefendt2023_Study2_ControlPhase",
             "Kanefendt2023_Study2_TreatmentPhase",
             "Lutz2018_ControlPhase",
-            "Lutz2018_TreatmentPhase"
+            "Lutz2018_TreatmentPhase",
+            "Datta-Mannan2024_ControlPhase",
+            "Datta-Mannan2024_TreatmentPhase_Day11",
+            "Datta-Mannan2024_TreatmentPhase_Day14"
           ]
         },
         {
@@ -455,7 +479,10 @@
             "Kanefendt2023_Study2_ControlPhase",
             "Kanefendt2023_Study2_TreatmentPhase",
             "Lutz2018_ControlPhase",
-            "Lutz2018_TreatmentPhase"
+            "Lutz2018_TreatmentPhase",
+            "Datta-Mannan2024_ControlPhase",
+            "Datta-Mannan2024_TreatmentPhase_Day11",
+            "Datta-Mannan2024_TreatmentPhase_Day14"
           ]
         },
         {
@@ -468,7 +495,10 @@
             "Kanefendt2023_Study2_ControlPhase",
             "Kanefendt2023_Study2_TreatmentPhase",
             "Lutz2018_ControlPhase",
-            "Lutz2018_TreatmentPhase"
+            "Lutz2018_TreatmentPhase",
+            "Datta-Mannan2024_ControlPhase",
+            "Datta-Mannan2024_TreatmentPhase_Day11",
+            "Datta-Mannan2024_TreatmentPhase_Day14"
           ]
         },
         {
@@ -481,7 +511,10 @@
             "Kanefendt2023_Study2_ControlPhase",
             "Kanefendt2023_Study2_TreatmentPhase",
             "Lutz2018_ControlPhase",
-            "Lutz2018_TreatmentPhase"
+            "Lutz2018_TreatmentPhase",
+            "Datta-Mannan2024_ControlPhase",
+            "Datta-Mannan2024_TreatmentPhase_Day11",
+            "Datta-Mannan2024_TreatmentPhase_Day14"
           ]
         },
         {
@@ -494,7 +527,10 @@
             "Kanefendt2023_Study2_ControlPhase",
             "Kanefendt2023_Study2_TreatmentPhase",
             "Lutz2018_ControlPhase",
-            "Lutz2018_TreatmentPhase"
+            "Lutz2018_TreatmentPhase",
+            "Datta-Mannan2024_ControlPhase",
+            "Datta-Mannan2024_TreatmentPhase_Day11",
+            "Datta-Mannan2024_TreatmentPhase_Day14"
           ]
         },
         {
@@ -507,7 +543,10 @@
             "Kanefendt2023_Study2_ControlPhase",
             "Kanefendt2023_Study2_TreatmentPhase",
             "Lutz2018_ControlPhase",
-            "Lutz2018_TreatmentPhase"
+            "Lutz2018_TreatmentPhase",
+            "Datta-Mannan2024_ControlPhase",
+            "Datta-Mannan2024_TreatmentPhase_Day11",
+            "Datta-Mannan2024_TreatmentPhase_Day14"
           ]
         },
         {
@@ -520,7 +559,10 @@
             "Kanefendt2023_Study2_ControlPhase",
             "Kanefendt2023_Study2_TreatmentPhase",
             "Lutz2018_ControlPhase",
-            "Lutz2018_TreatmentPhase"
+            "Lutz2018_TreatmentPhase",
+            "Datta-Mannan2024_ControlPhase",
+            "Datta-Mannan2024_TreatmentPhase_Day11",
+            "Datta-Mannan2024_TreatmentPhase_Day14"
           ]
         },
         {
@@ -533,7 +575,10 @@
             "Kanefendt2023_Study2_ControlPhase",
             "Kanefendt2023_Study2_TreatmentPhase",
             "Lutz2018_ControlPhase",
-            "Lutz2018_TreatmentPhase"
+            "Lutz2018_TreatmentPhase",
+            "Datta-Mannan2024_ControlPhase",
+            "Datta-Mannan2024_TreatmentPhase_Day11",
+            "Datta-Mannan2024_TreatmentPhase_Day14"
           ]
         },
         {
@@ -546,7 +591,10 @@
             "Kanefendt2023_Study2_ControlPhase",
             "Kanefendt2023_Study2_TreatmentPhase",
             "Lutz2018_ControlPhase",
-            "Lutz2018_TreatmentPhase"
+            "Lutz2018_TreatmentPhase",
+            "Datta-Mannan2024_ControlPhase",
+            "Datta-Mannan2024_TreatmentPhase_Day11",
+            "Datta-Mannan2024_TreatmentPhase_Day14"
           ]
         },
         {
@@ -559,7 +607,10 @@
             "Kanefendt2023_Study2_ControlPhase",
             "Kanefendt2023_Study2_TreatmentPhase",
             "Lutz2018_ControlPhase",
-            "Lutz2018_TreatmentPhase"
+            "Lutz2018_TreatmentPhase",
+            "Datta-Mannan2024_ControlPhase",
+            "Datta-Mannan2024_TreatmentPhase_Day11",
+            "Datta-Mannan2024_TreatmentPhase_Day14"
           ]
         },
         {
@@ -572,7 +623,10 @@
             "Kanefendt2023_Study2_ControlPhase",
             "Kanefendt2023_Study2_TreatmentPhase",
             "Lutz2018_ControlPhase",
-            "Lutz2018_TreatmentPhase"
+            "Lutz2018_TreatmentPhase",
+            "Datta-Mannan2024_ControlPhase",
+            "Datta-Mannan2024_TreatmentPhase_Day11",
+            "Datta-Mannan2024_TreatmentPhase_Day14"
           ]
         },
         {
@@ -585,7 +639,10 @@
             "Kanefendt2023_Study2_ControlPhase",
             "Kanefendt2023_Study2_TreatmentPhase",
             "Lutz2018_ControlPhase",
-            "Lutz2018_TreatmentPhase"
+            "Lutz2018_TreatmentPhase",
+            "Datta-Mannan2024_ControlPhase",
+            "Datta-Mannan2024_TreatmentPhase_Day11",
+            "Datta-Mannan2024_TreatmentPhase_Day14"
           ]
         },
         {
@@ -598,7 +655,10 @@
             "Kanefendt2023_Study2_ControlPhase",
             "Kanefendt2023_Study2_TreatmentPhase",
             "Lutz2018_ControlPhase",
-            "Lutz2018_TreatmentPhase"
+            "Lutz2018_TreatmentPhase",
+            "Datta-Mannan2024_ControlPhase",
+            "Datta-Mannan2024_TreatmentPhase_Day11",
+            "Datta-Mannan2024_TreatmentPhase_Day14"
           ]
         },
         {
@@ -611,7 +671,10 @@
             "Kanefendt2023_Study2_ControlPhase",
             "Kanefendt2023_Study2_TreatmentPhase",
             "Lutz2018_ControlPhase",
-            "Lutz2018_TreatmentPhase"
+            "Lutz2018_TreatmentPhase",
+            "Datta-Mannan2024_ControlPhase",
+            "Datta-Mannan2024_TreatmentPhase_Day11",
+            "Datta-Mannan2024_TreatmentPhase_Day14"
           ]
         },
         {
@@ -624,7 +687,10 @@
             "Kanefendt2023_Study2_ControlPhase",
             "Kanefendt2023_Study2_TreatmentPhase",
             "Lutz2018_ControlPhase",
-            "Lutz2018_TreatmentPhase"
+            "Lutz2018_TreatmentPhase",
+            "Datta-Mannan2024_ControlPhase",
+            "Datta-Mannan2024_TreatmentPhase_Day11",
+            "Datta-Mannan2024_TreatmentPhase_Day14"
           ]
         }
       ]
@@ -10836,7 +10902,7 @@
   "ObservedDataSets": [
     {
       "Id": "DDI Ratios",
-      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Database-for-observed-data/v1.7/DDI.csv",
+      "Path": "https://raw.githubusercontent.com/AndreDlm/Database-for-observed-data/790a08a129cdfa7aec1530740d98a948385c3c04/DDI.csv",
       "Type": "DDIRatio"
     }
   ],
@@ -14810,6 +14876,47 @@
       },
       {
         "SectionReference": "carbamazepine-midazolam-ddi",
+        "Title": "Datta-Mannan 2024",
+        "SimulationDuration": 24,
+        "TimeUnit": "h",
+        "OutputMappings": [
+          {
+            "Project": "Carbamazepine-Midazolam-DDI",
+            "Simulation": "Datta-Mannan2024_ControlPhase",
+            "Output": "Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
+            "ObservedData": "Datta-Mannan 2024 - Midazolam without carbamazepine - Midazolam - PO - 1.2 mg - Plasma - agg. (n=15)",
+            "StartTime": 0,
+            "TimeUnit": "h",
+            "Color": "#2166ac",
+            "Caption": "Control (without carbamazepine)",
+            "Symbol": "Circle"
+          },
+          {
+            "Project": "Carbamazepine-Midazolam-DDI",
+            "Simulation": "Datta-Mannan2024_TreatmentPhase_Day11",
+            "Output": "Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
+            "ObservedData": [],
+            "StartTime": 216,
+            "TimeUnit": "h",
+            "Color": "#b2182b",
+            "Caption": "Treatment (with carbamazepine), Midazolam administered on Day 11",
+            "Symbol": "Square"
+          },
+          {
+            "Project": "Carbamazepine-Midazolam-DDI",
+            "Simulation": "Datta-Mannan2024_TreatmentPhase_Day14",
+            "Output": "Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
+            "ObservedData": "Datta-Mannan 2024 - Midazolam with carbamazepine on Day 14 - Midazolam - PO - 1.2 mg - Plasma - agg. (n=14)",
+            "StartTime": 288,
+            "TimeUnit": "h",
+            "Color": "#c54a4a",
+            "Caption": "Treatment (with carbamazepine), Midazolam administered on Day 14",
+            "Symbol": "Triangle"
+          }
+        ]
+      },
+      {
+        "SectionReference": "carbamazepine-midazolam-ddi",
         "Title": "Kanefendt 2023 (Study 1)",
         "SimulationDuration": 24,
         "TimeUnit": "h",
@@ -18173,6 +18280,40 @@
             "Color": "#5C0000",
             "Symbol": "Circle",
             "DDIRatios": [
+              {
+                "Output": "Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
+                "ObservedData": "DDI Ratios",
+                "ObservedDataRecordId": 1464,
+                "SimulationControl": {
+                  "Project": "Carbamazepine-Midazolam-DDI",
+                  "Simulation": "Datta-Mannan2024_ControlPhase",
+                  "StartTime": 0,
+                  "TimeUnit": "h"
+                },
+                "SimulationDDI": {
+                  "Project": "Carbamazepine-Midazolam-DDI",
+                  "Simulation": "Datta-Mannan2024_TreatmentPhase_Day11",
+                  "StartTime": 216,
+                  "TimeUnit": "h"
+                }
+              },
+              {
+                "Output": "Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
+                "ObservedData": "DDI Ratios",
+                "ObservedDataRecordId": 1465,
+                "SimulationControl": {
+                  "Project": "Carbamazepine-Midazolam-DDI",
+                  "Simulation": "Datta-Mannan2024_ControlPhase",
+                  "StartTime": 0,
+                  "TimeUnit": "h"
+                },
+                "SimulationDDI": {
+                  "Project": "Carbamazepine-Midazolam-DDI",
+                  "Simulation": "Datta-Mannan2024_TreatmentPhase_Day14",
+                  "StartTime": 288,
+                  "TimeUnit": "h"
+                }
+              },
               {
                 "Output": "Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
                 "ObservedData": "DDI Ratios",
