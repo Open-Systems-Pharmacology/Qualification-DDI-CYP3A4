@@ -1,5 +1,5 @@
 The release of the snapshot containing the respective simulations can be found here:
-[https://github.com/Open-Systems-Pharmacology/Carbamazepine-Midazolam-DDI/releases/tag/v1.0](https://github.com/Open-Systems-Pharmacology/Carbamazepine-Midazolam-DDI/releases/tag/v1.0)
+[https://github.com/Open-Systems-Pharmacology/Carbamazepine-Midazolam-DDI/releases/tag/v1.1](https://github.com/Open-Systems-Pharmacology/Carbamazepine-Midazolam-DDI/releases/tag/v1.1)
 
 The carbamazepine-midazolam interaction was evaluated using three clinical DDI studies ([Lutz 2018](#4-references), [Kanefendt 2023](#4-references), [Datta-Mannan 2024](#4-references)).
 
