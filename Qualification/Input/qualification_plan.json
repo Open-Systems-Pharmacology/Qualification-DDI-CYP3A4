@@ -10902,7 +10902,7 @@
   "ObservedDataSets": [
     {
       "Id": "DDI Ratios",
-      "Path": "https://raw.githubusercontent.com/AndreDlm/Database-for-observed-data/790a08a129cdfa7aec1530740d98a948385c3c04/DDI.csv",
+      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Database-for-observed-data/v1.8/DDI.csv",
       "Type": "DDIRatio"
     }
   ],
