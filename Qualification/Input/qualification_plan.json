@@ -312,7 +312,7 @@
     },
     {
       "Id": "Carbamazepine-Midazolam-DDI",
-      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Carbamazepine-Midazolam-DDI/6be5a712b2bb7378f065ddef6ec567a946f0bc63/Carbamazepine-Midazolam-DDI.json",
+      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Carbamazepine-Midazolam-DDI/v1.1/Carbamazepine-Midazolam-DDI.json",
       "BuildingBlocks": [
         {
           "Type": "Compound",
