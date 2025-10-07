@@ -14,6 +14,8 @@
 
 ## Carbamazepine-Midazolam-DDI
 
+**Datta-Mannan 2024** Datta‐Mannan, A., Shanks, E., Yuen, E., Jin, Y., Rehmel, J., & Hall, S. D. (2024). Identification of a Safe and Tolerable Carbamazepine Dosing Paradigm that Facilitates Effective Evaluation of CYP3A4 Induction. *Clinical Pharmacology & Therapeutics*, 116(4), 1034-1041.
+
 **Lutz 2018** Lutz, J. D., Kirby, B. J., Wang, L., *et al.* (2018). Cytochrome P450 3A induction predicts P‐glycoprotein induction; part 2: prediction of decreased substrate exposure after rifabutin or carbamazepine. *Clinical Pharmacology & Therapeutics*, *104*(6), 1191-1198.
 
 **Kanefendt 2023** Kanefendt, F., Dallmann, A., Chen, H., Francke, K., Liu, T., Brase, C., Frechen, S., & Schultze-Mosgau, M. H. (2024). Assessment of the CYP3A4 Induction Potential by Carbamazepine: Insights from two Clinical DDI Studies and PBPK Modeling. *Clinical pharmacology and therapeutics*. doi: 10.1002/cpt.3151. Epub ahead of print.
