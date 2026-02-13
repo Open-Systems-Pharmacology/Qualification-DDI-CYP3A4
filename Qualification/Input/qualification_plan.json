@@ -55,7 +55,7 @@
     },
     {
       "Id": "Verapamil",
-      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Verapamil-Model/v1.2/Verapamil-Model.json"
+      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Verapamil-Model/v2.1/Verapamil-Model.json"
     },
     {
       "Id": "Carbamazepine-Alprazolam-DDI",
@@ -2001,257 +2001,28 @@
         },
         {
           "Type": "Compound",
-          "Name": "Verapamil",
+          "Name": "R-Norverapamil",
+          "Project": "Verapamil"
+        },
+        {
+          "Type": "Compound",
+          "Name": "S-Norverapamil",
+          "Project": "Verapamil"
+        },
+        {
+          "Type": "Compound",
+          "Name": "R-Verapamil",
+          "Project": "Verapamil"
+        },
+        {
+          "Type": "Compound",
+          "Name": "S-Verapamil",
           "Project": "Verapamil"
         },
         {
           "Type": "Formulation",
           "Name": "Tablet",
           "Project": "Cimetidine"
-        }
-      ],
-      "SimulationParameters": [
-        {
-          "Project": "Verapamil",
-          "Simulation": "Barbarash 1988 + Johnston 1981 + McAllister 1982 +Hla 1987 (120 mg PO SD)",
-          "Path": "Neighborhoods|Duodenum_int_Duodenum_cell|Verapamil|P (interstitial->intracellular)",
-          "TargetSimulations": [
-            "Smith 1984 - Verapamil 10 mg iv control",
-            "Smith 1984 - Verapamil 120 mg po control",
-            "Smith 1984 - Verapamil 10 mg iv + cimetidine 300 mg qid",
-            "Smith 1984 - Verapamil 120 mg po + 300 mg cimetidine qid"
-          ]
-        },
-        {
-          "Project": "Verapamil",
-          "Simulation": "Barbarash 1988 + Johnston 1981 + McAllister 1982 +Hla 1987 (120 mg PO SD)",
-          "Path": "Neighborhoods|UpperJejunum_int_UpperJejunum_cell|Verapamil|P (interstitial->intracellular)",
-          "TargetSimulations": [
-            "Smith 1984 - Verapamil 10 mg iv control",
-            "Smith 1984 - Verapamil 120 mg po control",
-            "Smith 1984 - Verapamil 10 mg iv + cimetidine 300 mg qid",
-            "Smith 1984 - Verapamil 120 mg po + 300 mg cimetidine qid"
-          ]
-        },
-        {
-          "Project": "Verapamil",
-          "Simulation": "Barbarash 1988 + Johnston 1981 + McAllister 1982 +Hla 1987 (120 mg PO SD)",
-          "Path": "Neighborhoods|LowerJejunum_int_LowerJejunum_cell|Verapamil|P (interstitial->intracellular)",
-          "TargetSimulations": [
-            "Smith 1984 - Verapamil 10 mg iv control",
-            "Smith 1984 - Verapamil 120 mg po control",
-            "Smith 1984 - Verapamil 10 mg iv + cimetidine 300 mg qid",
-            "Smith 1984 - Verapamil 120 mg po + 300 mg cimetidine qid"
-          ]
-        },
-        {
-          "Project": "Verapamil",
-          "Simulation": "Barbarash 1988 + Johnston 1981 + McAllister 1982 +Hla 1987 (120 mg PO SD)",
-          "Path": "Neighborhoods|UpperIleum_int_UpperIleum_cell|Verapamil|P (interstitial->intracellular)",
-          "TargetSimulations": [
-            "Smith 1984 - Verapamil 10 mg iv control",
-            "Smith 1984 - Verapamil 120 mg po control",
-            "Smith 1984 - Verapamil 10 mg iv + cimetidine 300 mg qid",
-            "Smith 1984 - Verapamil 120 mg po + 300 mg cimetidine qid"
-          ]
-        },
-        {
-          "Project": "Verapamil",
-          "Simulation": "Barbarash 1988 + Johnston 1981 + McAllister 1982 +Hla 1987 (120 mg PO SD)",
-          "Path": "Neighborhoods|LowerIleum_int_LowerIleum_cell|Verapamil|P (interstitial->intracellular)",
-          "TargetSimulations": [
-            "Smith 1984 - Verapamil 10 mg iv control",
-            "Smith 1984 - Verapamil 120 mg po control",
-            "Smith 1984 - Verapamil 10 mg iv + cimetidine 300 mg qid",
-            "Smith 1984 - Verapamil 120 mg po + 300 mg cimetidine qid"
-          ]
-        },
-        {
-          "Project": "Verapamil",
-          "Simulation": "Barbarash 1988 + Johnston 1981 + McAllister 1982 +Hla 1987 (120 mg PO SD)",
-          "Path": "Neighborhoods|Caecum_int_Caecum_cell|Verapamil|P (interstitial->intracellular)",
-          "TargetSimulations": [
-            "Smith 1984 - Verapamil 10 mg iv control",
-            "Smith 1984 - Verapamil 120 mg po control",
-            "Smith 1984 - Verapamil 10 mg iv + cimetidine 300 mg qid",
-            "Smith 1984 - Verapamil 120 mg po + 300 mg cimetidine qid"
-          ]
-        },
-        {
-          "Project": "Verapamil",
-          "Simulation": "Barbarash 1988 + Johnston 1981 + McAllister 1982 +Hla 1987 (120 mg PO SD)",
-          "Path": "Neighborhoods|ColonAscendens_int_ColonAscendens_cell|Verapamil|P (interstitial->intracellular)",
-          "TargetSimulations": [
-            "Smith 1984 - Verapamil 10 mg iv control",
-            "Smith 1984 - Verapamil 120 mg po control",
-            "Smith 1984 - Verapamil 10 mg iv + cimetidine 300 mg qid",
-            "Smith 1984 - Verapamil 120 mg po + 300 mg cimetidine qid"
-          ]
-        },
-        {
-          "Project": "Verapamil",
-          "Simulation": "Barbarash 1988 + Johnston 1981 + McAllister 1982 +Hla 1987 (120 mg PO SD)",
-          "Path": "Neighborhoods|ColonTransversum_int_ColonTransversum_cell|Verapamil|P (interstitial->intracellular)",
-          "TargetSimulations": [
-            "Smith 1984 - Verapamil 10 mg iv control",
-            "Smith 1984 - Verapamil 120 mg po control",
-            "Smith 1984 - Verapamil 10 mg iv + cimetidine 300 mg qid",
-            "Smith 1984 - Verapamil 120 mg po + 300 mg cimetidine qid"
-          ]
-        },
-        {
-          "Project": "Verapamil",
-          "Simulation": "Barbarash 1988 + Johnston 1981 + McAllister 1982 +Hla 1987 (120 mg PO SD)",
-          "Path": "Neighborhoods|ColonDescendens_int_ColonDescendens_cell|Verapamil|P (interstitial->intracellular)",
-          "TargetSimulations": [
-            "Smith 1984 - Verapamil 10 mg iv control",
-            "Smith 1984 - Verapamil 120 mg po control",
-            "Smith 1984 - Verapamil 10 mg iv + cimetidine 300 mg qid",
-            "Smith 1984 - Verapamil 120 mg po + 300 mg cimetidine qid"
-          ]
-        },
-        {
-          "Project": "Verapamil",
-          "Simulation": "Barbarash 1988 + Johnston 1981 + McAllister 1982 +Hla 1987 (120 mg PO SD)",
-          "Path": "Neighborhoods|ColonSigmoid_int_ColonSigmoid_cell|Verapamil|P (interstitial->intracellular)",
-          "TargetSimulations": [
-            "Smith 1984 - Verapamil 10 mg iv control",
-            "Smith 1984 - Verapamil 120 mg po control",
-            "Smith 1984 - Verapamil 10 mg iv + cimetidine 300 mg qid",
-            "Smith 1984 - Verapamil 120 mg po + 300 mg cimetidine qid"
-          ]
-        },
-        {
-          "Project": "Verapamil",
-          "Simulation": "Barbarash 1988 + Johnston 1981 + McAllister 1982 +Hla 1987 (120 mg PO SD)",
-          "Path": "Neighborhoods|Rectum_int_Rectum_cell|Verapamil|P (interstitial->intracellular)",
-          "TargetSimulations": [
-            "Smith 1984 - Verapamil 10 mg iv control",
-            "Smith 1984 - Verapamil 120 mg po control",
-            "Smith 1984 - Verapamil 10 mg iv + cimetidine 300 mg qid",
-            "Smith 1984 - Verapamil 120 mg po + 300 mg cimetidine qid"
-          ]
-        },
-        {
-          "Project": "Verapamil",
-          "Simulation": "Barbarash 1988 + Johnston 1981 + McAllister 1982 +Hla 1987 (120 mg PO SD)",
-          "Path": "Neighborhoods|Duodenum_int_Duodenum_cell|Verapamil|P (intracellular->interstitial)",
-          "TargetSimulations": [
-            "Smith 1984 - Verapamil 10 mg iv control",
-            "Smith 1984 - Verapamil 120 mg po control",
-            "Smith 1984 - Verapamil 10 mg iv + cimetidine 300 mg qid",
-            "Smith 1984 - Verapamil 120 mg po + 300 mg cimetidine qid"
-          ]
-        },
-        {
-          "Project": "Verapamil",
-          "Simulation": "Barbarash 1988 + Johnston 1981 + McAllister 1982 +Hla 1987 (120 mg PO SD)",
-          "Path": "Neighborhoods|UpperJejunum_int_UpperJejunum_cell|Verapamil|P (intracellular->interstitial)",
-          "TargetSimulations": [
-            "Smith 1984 - Verapamil 10 mg iv control",
-            "Smith 1984 - Verapamil 120 mg po control",
-            "Smith 1984 - Verapamil 10 mg iv + cimetidine 300 mg qid",
-            "Smith 1984 - Verapamil 120 mg po + 300 mg cimetidine qid"
-          ]
-        },
-        {
-          "Project": "Verapamil",
-          "Simulation": "Barbarash 1988 + Johnston 1981 + McAllister 1982 +Hla 1987 (120 mg PO SD)",
-          "Path": "Neighborhoods|LowerJejunum_int_LowerJejunum_cell|Verapamil|P (intracellular->interstitial)",
-          "TargetSimulations": [
-            "Smith 1984 - Verapamil 10 mg iv control",
-            "Smith 1984 - Verapamil 120 mg po control",
-            "Smith 1984 - Verapamil 10 mg iv + cimetidine 300 mg qid",
-            "Smith 1984 - Verapamil 120 mg po + 300 mg cimetidine qid"
-          ]
-        },
-        {
-          "Project": "Verapamil",
-          "Simulation": "Barbarash 1988 + Johnston 1981 + McAllister 1982 +Hla 1987 (120 mg PO SD)",
-          "Path": "Neighborhoods|UpperIleum_int_UpperIleum_cell|Verapamil|P (intracellular->interstitial)",
-          "TargetSimulations": [
-            "Smith 1984 - Verapamil 10 mg iv control",
-            "Smith 1984 - Verapamil 120 mg po control",
-            "Smith 1984 - Verapamil 10 mg iv + cimetidine 300 mg qid",
-            "Smith 1984 - Verapamil 120 mg po + 300 mg cimetidine qid"
-          ]
-        },
-        {
-          "Project": "Verapamil",
-          "Simulation": "Barbarash 1988 + Johnston 1981 + McAllister 1982 +Hla 1987 (120 mg PO SD)",
-          "Path": "Neighborhoods|LowerIleum_int_LowerIleum_cell|Verapamil|P (intracellular->interstitial)",
-          "TargetSimulations": [
-            "Smith 1984 - Verapamil 10 mg iv control",
-            "Smith 1984 - Verapamil 120 mg po control",
-            "Smith 1984 - Verapamil 10 mg iv + cimetidine 300 mg qid",
-            "Smith 1984 - Verapamil 120 mg po + 300 mg cimetidine qid"
-          ]
-        },
-        {
-          "Project": "Verapamil",
-          "Simulation": "Barbarash 1988 + Johnston 1981 + McAllister 1982 +Hla 1987 (120 mg PO SD)",
-          "Path": "Neighborhoods|Caecum_int_Caecum_cell|Verapamil|P (intracellular->interstitial)",
-          "TargetSimulations": [
-            "Smith 1984 - Verapamil 10 mg iv control",
-            "Smith 1984 - Verapamil 120 mg po control",
-            "Smith 1984 - Verapamil 10 mg iv + cimetidine 300 mg qid",
-            "Smith 1984 - Verapamil 120 mg po + 300 mg cimetidine qid"
-          ]
-        },
-        {
-          "Project": "Verapamil",
-          "Simulation": "Barbarash 1988 + Johnston 1981 + McAllister 1982 +Hla 1987 (120 mg PO SD)",
-          "Path": "Neighborhoods|ColonAscendens_int_ColonAscendens_cell|Verapamil|P (intracellular->interstitial)",
-          "TargetSimulations": [
-            "Smith 1984 - Verapamil 10 mg iv control",
-            "Smith 1984 - Verapamil 120 mg po control",
-            "Smith 1984 - Verapamil 10 mg iv + cimetidine 300 mg qid",
-            "Smith 1984 - Verapamil 120 mg po + 300 mg cimetidine qid"
-          ]
-        },
-        {
-          "Project": "Verapamil",
-          "Simulation": "Barbarash 1988 + Johnston 1981 + McAllister 1982 +Hla 1987 (120 mg PO SD)",
-          "Path": "Neighborhoods|ColonTransversum_int_ColonTransversum_cell|Verapamil|P (intracellular->interstitial)",
-          "TargetSimulations": [
-            "Smith 1984 - Verapamil 10 mg iv control",
-            "Smith 1984 - Verapamil 120 mg po control",
-            "Smith 1984 - Verapamil 10 mg iv + cimetidine 300 mg qid",
-            "Smith 1984 - Verapamil 120 mg po + 300 mg cimetidine qid"
-          ]
-        },
-        {
-          "Project": "Verapamil",
-          "Simulation": "Barbarash 1988 + Johnston 1981 + McAllister 1982 +Hla 1987 (120 mg PO SD)",
-          "Path": "Neighborhoods|ColonDescendens_int_ColonDescendens_cell|Verapamil|P (intracellular->interstitial)",
-          "TargetSimulations": [
-            "Smith 1984 - Verapamil 10 mg iv control",
-            "Smith 1984 - Verapamil 120 mg po control",
-            "Smith 1984 - Verapamil 10 mg iv + cimetidine 300 mg qid",
-            "Smith 1984 - Verapamil 120 mg po + 300 mg cimetidine qid"
-          ]
-        },
-        {
-          "Project": "Verapamil",
-          "Simulation": "Barbarash 1988 + Johnston 1981 + McAllister 1982 +Hla 1987 (120 mg PO SD)",
-          "Path": "Neighborhoods|ColonSigmoid_int_ColonSigmoid_cell|Verapamil|P (intracellular->interstitial)",
-          "TargetSimulations": [
-            "Smith 1984 - Verapamil 10 mg iv control",
-            "Smith 1984 - Verapamil 120 mg po control",
-            "Smith 1984 - Verapamil 10 mg iv + cimetidine 300 mg qid",
-            "Smith 1984 - Verapamil 120 mg po + 300 mg cimetidine qid"
-          ]
-        },
-        {
-          "Project": "Verapamil",
-          "Simulation": "Barbarash 1988 + Johnston 1981 + McAllister 1982 +Hla 1987 (120 mg PO SD)",
-          "Path": "Neighborhoods|Rectum_int_Rectum_cell|Verapamil|P (intracellular->interstitial)",
-          "TargetSimulations": [
-            "Smith 1984 - Verapamil 10 mg iv control",
-            "Smith 1984 - Verapamil 120 mg po control",
-            "Smith 1984 - Verapamil 10 mg iv + cimetidine 300 mg qid",
-            "Smith 1984 - Verapamil 120 mg po + 300 mg cimetidine qid"
-          ]
         }
       ]
     },
@@ -6914,7 +6685,22 @@
         },
         {
           "Type": "Compound",
-          "Name": "Verapamil",
+          "Name": "R-Norverapamil",
+          "Project": "Verapamil"
+        },
+        {
+          "Type": "Compound",
+          "Name": "S-Norverapamil",
+          "Project": "Verapamil"
+        },
+        {
+          "Type": "Compound",
+          "Name": "R-Verapamil",
+          "Project": "Verapamil"
+        },
+        {
+          "Type": "Compound",
+          "Name": "S-Verapamil",
           "Project": "Verapamil"
         },
         {
@@ -7168,204 +6954,6 @@
             "DDI Control - Midazolam - Backman 1994",
             "DDI Treatment - Verapamil/Midazolam - Backman 1994",
             "DDI Control - Midazolam - Wang 2005",
-            "DDI Treatment - Verapamil/Midazolam - Wang 2005"
-          ]
-        },
-        {
-          "Project": "Verapamil",
-          "Simulation": "Barbarash 1988 + Johnston 1981 + McAllister 1982 +Hla 1987 (120 mg PO SD)",
-          "Path": "Neighborhoods|Duodenum_int_Duodenum_cell|Verapamil|P (interstitial->intracellular)",
-          "TargetSimulations": [
-            "DDI Treatment - Verapamil/Midazolam - Backman 1994",
-            "DDI Treatment - Verapamil/Midazolam - Wang 2005"
-          ]
-        },
-        {
-          "Project": "Verapamil",
-          "Simulation": "Barbarash 1988 + Johnston 1981 + McAllister 1982 +Hla 1987 (120 mg PO SD)",
-          "Path": "Neighborhoods|UpperJejunum_int_UpperJejunum_cell|Verapamil|P (interstitial->intracellular)",
-          "TargetSimulations": [
-            "DDI Treatment - Verapamil/Midazolam - Backman 1994",
-            "DDI Treatment - Verapamil/Midazolam - Wang 2005"
-          ]
-        },
-        {
-          "Project": "Verapamil",
-          "Simulation": "Barbarash 1988 + Johnston 1981 + McAllister 1982 +Hla 1987 (120 mg PO SD)",
-          "Path": "Neighborhoods|LowerJejunum_int_LowerJejunum_cell|Verapamil|P (interstitial->intracellular)",
-          "TargetSimulations": [
-            "DDI Treatment - Verapamil/Midazolam - Backman 1994",
-            "DDI Treatment - Verapamil/Midazolam - Wang 2005"
-          ]
-        },
-        {
-          "Project": "Verapamil",
-          "Simulation": "Barbarash 1988 + Johnston 1981 + McAllister 1982 +Hla 1987 (120 mg PO SD)",
-          "Path": "Neighborhoods|UpperIleum_int_UpperIleum_cell|Verapamil|P (interstitial->intracellular)",
-          "TargetSimulations": [
-            "DDI Treatment - Verapamil/Midazolam - Backman 1994",
-            "DDI Treatment - Verapamil/Midazolam - Wang 2005"
-          ]
-        },
-        {
-          "Project": "Verapamil",
-          "Simulation": "Barbarash 1988 + Johnston 1981 + McAllister 1982 +Hla 1987 (120 mg PO SD)",
-          "Path": "Neighborhoods|LowerIleum_int_LowerIleum_cell|Verapamil|P (interstitial->intracellular)",
-          "TargetSimulations": [
-            "DDI Treatment - Verapamil/Midazolam - Backman 1994",
-            "DDI Treatment - Verapamil/Midazolam - Wang 2005"
-          ]
-        },
-        {
-          "Project": "Verapamil",
-          "Simulation": "Barbarash 1988 + Johnston 1981 + McAllister 1982 +Hla 1987 (120 mg PO SD)",
-          "Path": "Neighborhoods|Caecum_int_Caecum_cell|Verapamil|P (interstitial->intracellular)",
-          "TargetSimulations": [
-            "DDI Treatment - Verapamil/Midazolam - Backman 1994",
-            "DDI Treatment - Verapamil/Midazolam - Wang 2005"
-          ]
-        },
-        {
-          "Project": "Verapamil",
-          "Simulation": "Barbarash 1988 + Johnston 1981 + McAllister 1982 +Hla 1987 (120 mg PO SD)",
-          "Path": "Neighborhoods|ColonAscendens_int_ColonAscendens_cell|Verapamil|P (interstitial->intracellular)",
-          "TargetSimulations": [
-            "DDI Treatment - Verapamil/Midazolam - Backman 1994",
-            "DDI Treatment - Verapamil/Midazolam - Wang 2005"
-          ]
-        },
-        {
-          "Project": "Verapamil",
-          "Simulation": "Barbarash 1988 + Johnston 1981 + McAllister 1982 +Hla 1987 (120 mg PO SD)",
-          "Path": "Neighborhoods|ColonTransversum_int_ColonTransversum_cell|Verapamil|P (interstitial->intracellular)",
-          "TargetSimulations": [
-            "DDI Treatment - Verapamil/Midazolam - Backman 1994",
-            "DDI Treatment - Verapamil/Midazolam - Wang 2005"
-          ]
-        },
-        {
-          "Project": "Verapamil",
-          "Simulation": "Barbarash 1988 + Johnston 1981 + McAllister 1982 +Hla 1987 (120 mg PO SD)",
-          "Path": "Neighborhoods|ColonDescendens_int_ColonDescendens_cell|Verapamil|P (interstitial->intracellular)",
-          "TargetSimulations": [
-            "DDI Treatment - Verapamil/Midazolam - Backman 1994",
-            "DDI Treatment - Verapamil/Midazolam - Wang 2005"
-          ]
-        },
-        {
-          "Project": "Verapamil",
-          "Simulation": "Barbarash 1988 + Johnston 1981 + McAllister 1982 +Hla 1987 (120 mg PO SD)",
-          "Path": "Neighborhoods|ColonSigmoid_int_ColonSigmoid_cell|Verapamil|P (interstitial->intracellular)",
-          "TargetSimulations": [
-            "DDI Treatment - Verapamil/Midazolam - Backman 1994",
-            "DDI Treatment - Verapamil/Midazolam - Wang 2005"
-          ]
-        },
-        {
-          "Project": "Verapamil",
-          "Simulation": "Barbarash 1988 + Johnston 1981 + McAllister 1982 +Hla 1987 (120 mg PO SD)",
-          "Path": "Neighborhoods|Rectum_int_Rectum_cell|Verapamil|P (interstitial->intracellular)",
-          "TargetSimulations": [
-            "DDI Treatment - Verapamil/Midazolam - Backman 1994",
-            "DDI Treatment - Verapamil/Midazolam - Wang 2005"
-          ]
-        },
-        {
-          "Project": "Verapamil",
-          "Simulation": "Barbarash 1988 + Johnston 1981 + McAllister 1982 +Hla 1987 (120 mg PO SD)",
-          "Path": "Neighborhoods|Duodenum_int_Duodenum_cell|Verapamil|P (intracellular->interstitial)",
-          "TargetSimulations": [
-            "DDI Treatment - Verapamil/Midazolam - Backman 1994",
-            "DDI Treatment - Verapamil/Midazolam - Wang 2005"
-          ]
-        },
-        {
-          "Project": "Verapamil",
-          "Simulation": "Barbarash 1988 + Johnston 1981 + McAllister 1982 +Hla 1987 (120 mg PO SD)",
-          "Path": "Neighborhoods|UpperJejunum_int_UpperJejunum_cell|Verapamil|P (intracellular->interstitial)",
-          "TargetSimulations": [
-            "DDI Treatment - Verapamil/Midazolam - Backman 1994",
-            "DDI Treatment - Verapamil/Midazolam - Wang 2005"
-          ]
-        },
-        {
-          "Project": "Verapamil",
-          "Simulation": "Barbarash 1988 + Johnston 1981 + McAllister 1982 +Hla 1987 (120 mg PO SD)",
-          "Path": "Neighborhoods|LowerJejunum_int_LowerJejunum_cell|Verapamil|P (intracellular->interstitial)",
-          "TargetSimulations": [
-            "DDI Treatment - Verapamil/Midazolam - Backman 1994",
-            "DDI Treatment - Verapamil/Midazolam - Wang 2005"
-          ]
-        },
-        {
-          "Project": "Verapamil",
-          "Simulation": "Barbarash 1988 + Johnston 1981 + McAllister 1982 +Hla 1987 (120 mg PO SD)",
-          "Path": "Neighborhoods|UpperIleum_int_UpperIleum_cell|Verapamil|P (intracellular->interstitial)",
-          "TargetSimulations": [
-            "DDI Treatment - Verapamil/Midazolam - Backman 1994",
-            "DDI Treatment - Verapamil/Midazolam - Wang 2005"
-          ]
-        },
-        {
-          "Project": "Verapamil",
-          "Simulation": "Barbarash 1988 + Johnston 1981 + McAllister 1982 +Hla 1987 (120 mg PO SD)",
-          "Path": "Neighborhoods|LowerIleum_int_LowerIleum_cell|Verapamil|P (intracellular->interstitial)",
-          "TargetSimulations": [
-            "DDI Treatment - Verapamil/Midazolam - Backman 1994",
-            "DDI Treatment - Verapamil/Midazolam - Wang 2005"
-          ]
-        },
-        {
-          "Project": "Verapamil",
-          "Simulation": "Barbarash 1988 + Johnston 1981 + McAllister 1982 +Hla 1987 (120 mg PO SD)",
-          "Path": "Neighborhoods|Caecum_int_Caecum_cell|Verapamil|P (intracellular->interstitial)",
-          "TargetSimulations": [
-            "DDI Treatment - Verapamil/Midazolam - Backman 1994",
-            "DDI Treatment - Verapamil/Midazolam - Wang 2005"
-          ]
-        },
-        {
-          "Project": "Verapamil",
-          "Simulation": "Barbarash 1988 + Johnston 1981 + McAllister 1982 +Hla 1987 (120 mg PO SD)",
-          "Path": "Neighborhoods|ColonAscendens_int_ColonAscendens_cell|Verapamil|P (intracellular->interstitial)",
-          "TargetSimulations": [
-            "DDI Treatment - Verapamil/Midazolam - Backman 1994",
-            "DDI Treatment - Verapamil/Midazolam - Wang 2005"
-          ]
-        },
-        {
-          "Project": "Verapamil",
-          "Simulation": "Barbarash 1988 + Johnston 1981 + McAllister 1982 +Hla 1987 (120 mg PO SD)",
-          "Path": "Neighborhoods|ColonTransversum_int_ColonTransversum_cell|Verapamil|P (intracellular->interstitial)",
-          "TargetSimulations": [
-            "DDI Treatment - Verapamil/Midazolam - Backman 1994",
-            "DDI Treatment - Verapamil/Midazolam - Wang 2005"
-          ]
-        },
-        {
-          "Project": "Verapamil",
-          "Simulation": "Barbarash 1988 + Johnston 1981 + McAllister 1982 +Hla 1987 (120 mg PO SD)",
-          "Path": "Neighborhoods|ColonDescendens_int_ColonDescendens_cell|Verapamil|P (intracellular->interstitial)",
-          "TargetSimulations": [
-            "DDI Treatment - Verapamil/Midazolam - Backman 1994",
-            "DDI Treatment - Verapamil/Midazolam - Wang 2005"
-          ]
-        },
-        {
-          "Project": "Verapamil",
-          "Simulation": "Barbarash 1988 + Johnston 1981 + McAllister 1982 +Hla 1987 (120 mg PO SD)",
-          "Path": "Neighborhoods|ColonSigmoid_int_ColonSigmoid_cell|Verapamil|P (intracellular->interstitial)",
-          "TargetSimulations": [
-            "DDI Treatment - Verapamil/Midazolam - Backman 1994",
-            "DDI Treatment - Verapamil/Midazolam - Wang 2005"
-          ]
-        },
-        {
-          "Project": "Verapamil",
-          "Simulation": "Barbarash 1988 + Johnston 1981 + McAllister 1982 +Hla 1987 (120 mg PO SD)",
-          "Path": "Neighborhoods|Rectum_int_Rectum_cell|Verapamil|P (intracellular->interstitial)",
-          "TargetSimulations": [
-            "DDI Treatment - Verapamil/Midazolam - Backman 1994",
             "DDI Treatment - Verapamil/Midazolam - Wang 2005"
           ]
         }
@@ -10649,252 +10237,23 @@
         },
         {
           "Type": "Compound",
-          "Name": "Verapamil",
+          "Name": "R-Norverapamil",
           "Project": "Verapamil"
-        }
-      ],
-      "SimulationParameters": [
-        {
-          "Project": "Verapamil",
-          "Simulation": "Barbarash 1988 + Johnston 1981 + McAllister 1982 +Hla 1987 (120 mg PO SD)",
-          "Path": "Neighborhoods|Duodenum_int_Duodenum_cell|Verapamil|P (interstitial->intracellular)",
-          "TargetSimulations": [
-            "DDI Control - Verapamil - Barbarash 1988 (iv)",
-            "DDI Control - Verapamil - Barbarash 1988 (po)",
-            "DDI Treatment - Rifampicin/Verapamil - Barbarash 1988 (iv)",
-            "DDI Treatment - Rifampicin/Verapamil - Barbarash 1988 (po)"
-          ]
         },
         {
-          "Project": "Verapamil",
-          "Simulation": "Barbarash 1988 + Johnston 1981 + McAllister 1982 +Hla 1987 (120 mg PO SD)",
-          "Path": "Neighborhoods|UpperJejunum_int_UpperJejunum_cell|Verapamil|P (interstitial->intracellular)",
-          "TargetSimulations": [
-            "DDI Control - Verapamil - Barbarash 1988 (iv)",
-            "DDI Control - Verapamil - Barbarash 1988 (po)",
-            "DDI Treatment - Rifampicin/Verapamil - Barbarash 1988 (iv)",
-            "DDI Treatment - Rifampicin/Verapamil - Barbarash 1988 (po)"
-          ]
+          "Type": "Compound",
+          "Name": "S-Norverapamil",
+          "Project": "Verapamil"
         },
         {
-          "Project": "Verapamil",
-          "Simulation": "Barbarash 1988 + Johnston 1981 + McAllister 1982 +Hla 1987 (120 mg PO SD)",
-          "Path": "Neighborhoods|LowerJejunum_int_LowerJejunum_cell|Verapamil|P (interstitial->intracellular)",
-          "TargetSimulations": [
-            "DDI Control - Verapamil - Barbarash 1988 (iv)",
-            "DDI Control - Verapamil - Barbarash 1988 (po)",
-            "DDI Treatment - Rifampicin/Verapamil - Barbarash 1988 (iv)",
-            "DDI Treatment - Rifampicin/Verapamil - Barbarash 1988 (po)"
-          ]
+          "Type": "Compound",
+          "Name": "R-Verapamil",
+          "Project": "Verapamil"
         },
         {
-          "Project": "Verapamil",
-          "Simulation": "Barbarash 1988 + Johnston 1981 + McAllister 1982 +Hla 1987 (120 mg PO SD)",
-          "Path": "Neighborhoods|UpperIleum_int_UpperIleum_cell|Verapamil|P (interstitial->intracellular)",
-          "TargetSimulations": [
-            "DDI Control - Verapamil - Barbarash 1988 (iv)",
-            "DDI Control - Verapamil - Barbarash 1988 (po)",
-            "DDI Treatment - Rifampicin/Verapamil - Barbarash 1988 (iv)",
-            "DDI Treatment - Rifampicin/Verapamil - Barbarash 1988 (po)"
-          ]
-        },
-        {
-          "Project": "Verapamil",
-          "Simulation": "Barbarash 1988 + Johnston 1981 + McAllister 1982 +Hla 1987 (120 mg PO SD)",
-          "Path": "Neighborhoods|LowerIleum_int_LowerIleum_cell|Verapamil|P (interstitial->intracellular)",
-          "TargetSimulations": [
-            "DDI Control - Verapamil - Barbarash 1988 (iv)",
-            "DDI Control - Verapamil - Barbarash 1988 (po)",
-            "DDI Treatment - Rifampicin/Verapamil - Barbarash 1988 (iv)",
-            "DDI Treatment - Rifampicin/Verapamil - Barbarash 1988 (po)"
-          ]
-        },
-        {
-          "Project": "Verapamil",
-          "Simulation": "Barbarash 1988 + Johnston 1981 + McAllister 1982 +Hla 1987 (120 mg PO SD)",
-          "Path": "Neighborhoods|Caecum_int_Caecum_cell|Verapamil|P (interstitial->intracellular)",
-          "TargetSimulations": [
-            "DDI Control - Verapamil - Barbarash 1988 (iv)",
-            "DDI Control - Verapamil - Barbarash 1988 (po)",
-            "DDI Treatment - Rifampicin/Verapamil - Barbarash 1988 (iv)",
-            "DDI Treatment - Rifampicin/Verapamil - Barbarash 1988 (po)"
-          ]
-        },
-        {
-          "Project": "Verapamil",
-          "Simulation": "Barbarash 1988 + Johnston 1981 + McAllister 1982 +Hla 1987 (120 mg PO SD)",
-          "Path": "Neighborhoods|ColonAscendens_int_ColonAscendens_cell|Verapamil|P (interstitial->intracellular)",
-          "TargetSimulations": [
-            "DDI Control - Verapamil - Barbarash 1988 (iv)",
-            "DDI Control - Verapamil - Barbarash 1988 (po)",
-            "DDI Treatment - Rifampicin/Verapamil - Barbarash 1988 (iv)",
-            "DDI Treatment - Rifampicin/Verapamil - Barbarash 1988 (po)"
-          ]
-        },
-        {
-          "Project": "Verapamil",
-          "Simulation": "Barbarash 1988 + Johnston 1981 + McAllister 1982 +Hla 1987 (120 mg PO SD)",
-          "Path": "Neighborhoods|ColonTransversum_int_ColonTransversum_cell|Verapamil|P (interstitial->intracellular)",
-          "TargetSimulations": [
-            "DDI Control - Verapamil - Barbarash 1988 (iv)",
-            "DDI Control - Verapamil - Barbarash 1988 (po)",
-            "DDI Treatment - Rifampicin/Verapamil - Barbarash 1988 (iv)",
-            "DDI Treatment - Rifampicin/Verapamil - Barbarash 1988 (po)"
-          ]
-        },
-        {
-          "Project": "Verapamil",
-          "Simulation": "Barbarash 1988 + Johnston 1981 + McAllister 1982 +Hla 1987 (120 mg PO SD)",
-          "Path": "Neighborhoods|ColonDescendens_int_ColonDescendens_cell|Verapamil|P (interstitial->intracellular)",
-          "TargetSimulations": [
-            "DDI Control - Verapamil - Barbarash 1988 (iv)",
-            "DDI Control - Verapamil - Barbarash 1988 (po)",
-            "DDI Treatment - Rifampicin/Verapamil - Barbarash 1988 (iv)",
-            "DDI Treatment - Rifampicin/Verapamil - Barbarash 1988 (po)"
-          ]
-        },
-        {
-          "Project": "Verapamil",
-          "Simulation": "Barbarash 1988 + Johnston 1981 + McAllister 1982 +Hla 1987 (120 mg PO SD)",
-          "Path": "Neighborhoods|ColonSigmoid_int_ColonSigmoid_cell|Verapamil|P (interstitial->intracellular)",
-          "TargetSimulations": [
-            "DDI Control - Verapamil - Barbarash 1988 (iv)",
-            "DDI Control - Verapamil - Barbarash 1988 (po)",
-            "DDI Treatment - Rifampicin/Verapamil - Barbarash 1988 (iv)",
-            "DDI Treatment - Rifampicin/Verapamil - Barbarash 1988 (po)"
-          ]
-        },
-        {
-          "Project": "Verapamil",
-          "Simulation": "Barbarash 1988 + Johnston 1981 + McAllister 1982 +Hla 1987 (120 mg PO SD)",
-          "Path": "Neighborhoods|Rectum_int_Rectum_cell|Verapamil|P (interstitial->intracellular)",
-          "TargetSimulations": [
-            "DDI Control - Verapamil - Barbarash 1988 (iv)",
-            "DDI Control - Verapamil - Barbarash 1988 (po)",
-            "DDI Treatment - Rifampicin/Verapamil - Barbarash 1988 (iv)",
-            "DDI Treatment - Rifampicin/Verapamil - Barbarash 1988 (po)"
-          ]
-        },
-        {
-          "Project": "Verapamil",
-          "Simulation": "Barbarash 1988 + Johnston 1981 + McAllister 1982 +Hla 1987 (120 mg PO SD)",
-          "Path": "Neighborhoods|Duodenum_int_Duodenum_cell|Verapamil|P (intracellular->interstitial)",
-          "TargetSimulations": [
-            "DDI Control - Verapamil - Barbarash 1988 (iv)",
-            "DDI Control - Verapamil - Barbarash 1988 (po)",
-            "DDI Treatment - Rifampicin/Verapamil - Barbarash 1988 (iv)",
-            "DDI Treatment - Rifampicin/Verapamil - Barbarash 1988 (po)"
-          ]
-        },
-        {
-          "Project": "Verapamil",
-          "Simulation": "Barbarash 1988 + Johnston 1981 + McAllister 1982 +Hla 1987 (120 mg PO SD)",
-          "Path": "Neighborhoods|UpperJejunum_int_UpperJejunum_cell|Verapamil|P (intracellular->interstitial)",
-          "TargetSimulations": [
-            "DDI Control - Verapamil - Barbarash 1988 (iv)",
-            "DDI Control - Verapamil - Barbarash 1988 (po)",
-            "DDI Treatment - Rifampicin/Verapamil - Barbarash 1988 (iv)",
-            "DDI Treatment - Rifampicin/Verapamil - Barbarash 1988 (po)"
-          ]
-        },
-        {
-          "Project": "Verapamil",
-          "Simulation": "Barbarash 1988 + Johnston 1981 + McAllister 1982 +Hla 1987 (120 mg PO SD)",
-          "Path": "Neighborhoods|LowerJejunum_int_LowerJejunum_cell|Verapamil|P (intracellular->interstitial)",
-          "TargetSimulations": [
-            "DDI Control - Verapamil - Barbarash 1988 (iv)",
-            "DDI Control - Verapamil - Barbarash 1988 (po)",
-            "DDI Treatment - Rifampicin/Verapamil - Barbarash 1988 (iv)",
-            "DDI Treatment - Rifampicin/Verapamil - Barbarash 1988 (po)"
-          ]
-        },
-        {
-          "Project": "Verapamil",
-          "Simulation": "Barbarash 1988 + Johnston 1981 + McAllister 1982 +Hla 1987 (120 mg PO SD)",
-          "Path": "Neighborhoods|UpperIleum_int_UpperIleum_cell|Verapamil|P (intracellular->interstitial)",
-          "TargetSimulations": [
-            "DDI Control - Verapamil - Barbarash 1988 (iv)",
-            "DDI Control - Verapamil - Barbarash 1988 (po)",
-            "DDI Treatment - Rifampicin/Verapamil - Barbarash 1988 (iv)",
-            "DDI Treatment - Rifampicin/Verapamil - Barbarash 1988 (po)"
-          ]
-        },
-        {
-          "Project": "Verapamil",
-          "Simulation": "Barbarash 1988 + Johnston 1981 + McAllister 1982 +Hla 1987 (120 mg PO SD)",
-          "Path": "Neighborhoods|LowerIleum_int_LowerIleum_cell|Verapamil|P (intracellular->interstitial)",
-          "TargetSimulations": [
-            "DDI Control - Verapamil - Barbarash 1988 (iv)",
-            "DDI Control - Verapamil - Barbarash 1988 (po)",
-            "DDI Treatment - Rifampicin/Verapamil - Barbarash 1988 (iv)",
-            "DDI Treatment - Rifampicin/Verapamil - Barbarash 1988 (po)"
-          ]
-        },
-        {
-          "Project": "Verapamil",
-          "Simulation": "Barbarash 1988 + Johnston 1981 + McAllister 1982 +Hla 1987 (120 mg PO SD)",
-          "Path": "Neighborhoods|Caecum_int_Caecum_cell|Verapamil|P (intracellular->interstitial)",
-          "TargetSimulations": [
-            "DDI Control - Verapamil - Barbarash 1988 (iv)",
-            "DDI Control - Verapamil - Barbarash 1988 (po)",
-            "DDI Treatment - Rifampicin/Verapamil - Barbarash 1988 (iv)",
-            "DDI Treatment - Rifampicin/Verapamil - Barbarash 1988 (po)"
-          ]
-        },
-        {
-          "Project": "Verapamil",
-          "Simulation": "Barbarash 1988 + Johnston 1981 + McAllister 1982 +Hla 1987 (120 mg PO SD)",
-          "Path": "Neighborhoods|ColonAscendens_int_ColonAscendens_cell|Verapamil|P (intracellular->interstitial)",
-          "TargetSimulations": [
-            "DDI Control - Verapamil - Barbarash 1988 (iv)",
-            "DDI Control - Verapamil - Barbarash 1988 (po)",
-            "DDI Treatment - Rifampicin/Verapamil - Barbarash 1988 (iv)",
-            "DDI Treatment - Rifampicin/Verapamil - Barbarash 1988 (po)"
-          ]
-        },
-        {
-          "Project": "Verapamil",
-          "Simulation": "Barbarash 1988 + Johnston 1981 + McAllister 1982 +Hla 1987 (120 mg PO SD)",
-          "Path": "Neighborhoods|ColonTransversum_int_ColonTransversum_cell|Verapamil|P (intracellular->interstitial)",
-          "TargetSimulations": [
-            "DDI Control - Verapamil - Barbarash 1988 (iv)",
-            "DDI Control - Verapamil - Barbarash 1988 (po)",
-            "DDI Treatment - Rifampicin/Verapamil - Barbarash 1988 (iv)",
-            "DDI Treatment - Rifampicin/Verapamil - Barbarash 1988 (po)"
-          ]
-        },
-        {
-          "Project": "Verapamil",
-          "Simulation": "Barbarash 1988 + Johnston 1981 + McAllister 1982 +Hla 1987 (120 mg PO SD)",
-          "Path": "Neighborhoods|ColonDescendens_int_ColonDescendens_cell|Verapamil|P (intracellular->interstitial)",
-          "TargetSimulations": [
-            "DDI Control - Verapamil - Barbarash 1988 (iv)",
-            "DDI Control - Verapamil - Barbarash 1988 (po)",
-            "DDI Treatment - Rifampicin/Verapamil - Barbarash 1988 (iv)",
-            "DDI Treatment - Rifampicin/Verapamil - Barbarash 1988 (po)"
-          ]
-        },
-        {
-          "Project": "Verapamil",
-          "Simulation": "Barbarash 1988 + Johnston 1981 + McAllister 1982 +Hla 1987 (120 mg PO SD)",
-          "Path": "Neighborhoods|ColonSigmoid_int_ColonSigmoid_cell|Verapamil|P (intracellular->interstitial)",
-          "TargetSimulations": [
-            "DDI Control - Verapamil - Barbarash 1988 (iv)",
-            "DDI Control - Verapamil - Barbarash 1988 (po)",
-            "DDI Treatment - Rifampicin/Verapamil - Barbarash 1988 (iv)",
-            "DDI Treatment - Rifampicin/Verapamil - Barbarash 1988 (po)"
-          ]
-        },
-        {
-          "Project": "Verapamil",
-          "Simulation": "Barbarash 1988 + Johnston 1981 + McAllister 1982 +Hla 1987 (120 mg PO SD)",
-          "Path": "Neighborhoods|Rectum_int_Rectum_cell|Verapamil|P (intracellular->interstitial)",
-          "TargetSimulations": [
-            "DDI Control - Verapamil - Barbarash 1988 (iv)",
-            "DDI Control - Verapamil - Barbarash 1988 (po)",
-            "DDI Treatment - Rifampicin/Verapamil - Barbarash 1988 (iv)",
-            "DDI Treatment - Rifampicin/Verapamil - Barbarash 1988 (po)"
-          ]
+          "Type": "Compound",
+          "Name": "S-Verapamil",
+          "Project": "Verapamil"
         }
       ]
     }
@@ -14563,13 +13922,13 @@
       {
         "SectionReference": "rifampicin-verapamil-ddi",
         "Title": "Barbarash 1988 (verapamil IV)",
-        "SimulationDuration": 15,
+        "SimulationDuration": 12,
         "TimeUnit": "h",
         "OutputMappings": [
           {
             "Project": "Rifampicin-Verapamil-DDI",
-            "Simulation": "DDI Control - Verapamil - Barbarash 1988 (iv)",
-            "Output": "Organism|PeripheralVenousBlood|Verapamil|Plasma (Peripheral Venous Blood)",
+            "Simulation": "DDI_Rifampicin-Verapamil 10 mg iv, Control, Barbarash 1988, n=6",
+            "Output": "Organism|PeripheralVenousBlood|R-Verapamil|Sum-Verapamil Plasma (Peripheral Venous Blood)",
             "ObservedData": "Barbarash 1988 - Verapamil IV control - Verapamil - IV - 10 mg - Serum - agg. (n=6)",
             "StartTime": 0,
             "TimeUnit": "h",
@@ -14579,8 +13938,8 @@
           },
           {
             "Project": "Rifampicin-Verapamil-DDI",
-            "Simulation": "DDI Treatment - Rifampicin/Verapamil - Barbarash 1988 (iv)",
-            "Output": "Organism|PeripheralVenousBlood|Verapamil|Plasma (Peripheral Venous Blood)",
+            "Simulation": "DDI_Rifampicin-Verapamil 10 mg iv, DDI, Barbarash 1988, n=6",
+            "Output": "Organism|PeripheralVenousBlood|R-Verapamil|Sum-Verapamil Plasma (Peripheral Venous Blood)",
             "ObservedData": "Barbarash 1988 - Verapamil IV after 2 weeks of Rifampicin therapy - Verapamil - IV - 10 mg - Serum - agg. (n=6)",
             "StartTime": 300,
             "TimeUnit": "h",
@@ -14593,15 +13952,15 @@
       {
         "SectionReference": "rifampicin-verapamil-ddi",
         "Title": "Barbarash 1988 (verapamil PO)",
-        "SimulationDuration": 15,
+        "SimulationDuration": 12,
         "TimeUnit": "h",
         "OutputMappings": [
           {
             "Project": "Rifampicin-Verapamil-DDI",
-            "Simulation": "DDI Control - Verapamil - Barbarash 1988 (po)",
-            "Output": "Organism|PeripheralVenousBlood|Verapamil|Plasma (Peripheral Venous Blood)",
+            "Simulation": "DDI_Rifampicin-Verapamil 10 mg iv + 120 mg po, Control, Barbarash 1988, n=6",
+            "Output": "Organism|PeripheralVenousBlood|R-Verapamil|Sum-Verapamil Plasma (Peripheral Venous Blood)",
             "ObservedData": "Barbarash 1988 - Verapamil PO control - Verapamil - PO - 120 mg - Serum - agg. (n=6)",
-            "StartTime": 0,
+            "StartTime": 48,
             "TimeUnit": "h",
             "Color": "#2166ac",
             "Caption": "Control (without Rifampicin)",
@@ -14609,8 +13968,8 @@
           },
           {
             "Project": "Rifampicin-Verapamil-DDI",
-            "Simulation": "DDI Treatment - Rifampicin/Verapamil - Barbarash 1988 (po)",
-            "Output": "Organism|PeripheralVenousBlood|Verapamil|Plasma (Peripheral Venous Blood)",
+            "Simulation": "DDI_Rifampicin-Verapamil 10 mg iv + 120 mg po, DDI, Barbarash 1988, n=6",
+            "Output": "Organism|PeripheralVenousBlood|R-Verapamil|Sum-Verapamil Plasma (Peripheral Venous Blood)",
             "ObservedData": "Barbarash 1988 - Verapamil PO after 2 weeks of Rifampicin therapy - Verapamil - PO - 120 mg - Serum - agg. (n=6)",
             "StartTime": 348,
             "TimeUnit": "h",
@@ -17991,18 +17350,18 @@
             "Symbol": "Square",
             "DDIRatios": [
               {
-                "Output": "Organism|PeripheralVenousBlood|Verapamil|Plasma (Peripheral Venous Blood)",
+                "Output": "Organism|PeripheralVenousBlood|R-Verapamil|Sum-Verapamil Plasma (Peripheral Venous Blood)",
                 "ObservedData": "DDI Ratios",
                 "ObservedDataRecordId": 2056,
                 "SimulationControl": {
                   "Project": "Rifampicin-Verapamil-DDI",
-                  "Simulation": "DDI Control - Verapamil - Barbarash 1988 (iv)",
+                  "Simulation": "DDI_Rifampicin-Verapamil 10 mg iv, Control, Barbarash 1988, n=6",
                   "StartTime": 0,
                   "TimeUnit": "h"
                 },
                 "SimulationDDI": {
                   "Project": "Rifampicin-Verapamil-DDI",
-                  "Simulation": "DDI Treatment - Rifampicin/Verapamil - Barbarash 1988 (iv)",
+                  "Simulation": "DDI_Rifampicin-Verapamil 10 mg iv, DDI, Barbarash 1988, n=6",
                   "StartTime": 300,
                   "TimeUnit": "h"
                 }
@@ -18015,18 +17374,18 @@
             "Symbol": "Circle",
             "DDIRatios": [
               {
-                "Output": "Organism|PeripheralVenousBlood|Verapamil|Plasma (Peripheral Venous Blood)",
+                "Output": "Organism|PeripheralVenousBlood|R-Verapamil|Sum-Verapamil Plasma (Peripheral Venous Blood)",
                 "ObservedData": "DDI Ratios",
                 "ObservedDataRecordId": 2058,
                 "SimulationControl": {
                   "Project": "Rifampicin-Verapamil-DDI",
-                  "Simulation": "DDI Control - Verapamil - Barbarash 1988 (po)",
-                  "StartTime": 0,
+                  "Simulation": "DDI_Rifampicin-Verapamil 10 mg iv + 120 mg po, Control, Barbarash 1988, n=6",
+                  "StartTime": 48,
                   "TimeUnit": "h"
                 },
                 "SimulationDDI": {
                   "Project": "Rifampicin-Verapamil-DDI",
-                  "Simulation": "DDI Treatment - Rifampicin/Verapamil - Barbarash 1988 (po)",
+                  "Simulation": "DDI_Rifampicin-Verapamil 10 mg iv + 120 mg po, DDI, Barbarash 1988, n=6",
                   "StartTime": 348,
                   "TimeUnit": "h"
                 }
