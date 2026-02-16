@@ -6705,13 +6705,8 @@
         },
         {
           "Type": "Formulation",
-          "Name": "controlled release",
+          "Name": "Retard Tablet Verapamil (Knoll)",
           "Project": "Verapamil"
-        },
-        {
-          "Type": "Formulation",
-          "Name": "Tablet (Dormicum)",
-          "Project": "Midazolam"
         }
       ],
       "SimulationParameters": [
@@ -6720,10 +6715,12 @@
           "Simulation": "po 3 mg (solution)",
           "Path": "Neighborhoods|Duodenum_int_Duodenum_cell|Midazolam|P (interstitial->intracellular)",
           "TargetSimulations": [
-            "DDI Control - Midazolam - Backman 1994",
-            "DDI Treatment - Verapamil/Midazolam - Backman 1994",
-            "DDI Control - Midazolam - Wang 2005",
-            "DDI Treatment - Verapamil/Midazolam - Wang 2005"
+            "DDI_Verapamil-Midazolam 15 mg po, Control, Backman 1994, n=9",
+            "DDI_Verapamil-Midazolam 15 mg po, DDI, Backman 1994, n=9",
+            "DDI_Verapamil-Midazolam 0.05 mg/kg iv, Control, Wang 2005, n=8",
+            "DDI_Verapamil-Midazolam 0.05 mg/kg iv, DDI, Wang 2005, n=8",
+            "DDI_Verapamil-Midazolam 0.05 mg/kg iv, 4 mg po, Control, Wang 2005, n=8",
+            "DDI_Verapamil-Midazolam 0.05 mg/kg iv, 4 mg po, DDI, Wang 2005, n=8"
           ]
         },
         {
@@ -6731,10 +6728,12 @@
           "Simulation": "po 3 mg (solution)",
           "Path": "Neighborhoods|UpperJejunum_int_UpperJejunum_cell|Midazolam|P (interstitial->intracellular)",
           "TargetSimulations": [
-            "DDI Control - Midazolam - Backman 1994",
-            "DDI Treatment - Verapamil/Midazolam - Backman 1994",
-            "DDI Control - Midazolam - Wang 2005",
-            "DDI Treatment - Verapamil/Midazolam - Wang 2005"
+            "DDI_Verapamil-Midazolam 15 mg po, Control, Backman 1994, n=9",
+            "DDI_Verapamil-Midazolam 15 mg po, DDI, Backman 1994, n=9",
+            "DDI_Verapamil-Midazolam 0.05 mg/kg iv, Control, Wang 2005, n=8",
+            "DDI_Verapamil-Midazolam 0.05 mg/kg iv, DDI, Wang 2005, n=8",
+            "DDI_Verapamil-Midazolam 0.05 mg/kg iv, 4 mg po, Control, Wang 2005, n=8",
+            "DDI_Verapamil-Midazolam 0.05 mg/kg iv, 4 mg po, DDI, Wang 2005, n=8"
           ]
         },
         {
@@ -6742,10 +6741,12 @@
           "Simulation": "po 3 mg (solution)",
           "Path": "Neighborhoods|LowerJejunum_int_LowerJejunum_cell|Midazolam|P (interstitial->intracellular)",
           "TargetSimulations": [
-            "DDI Control - Midazolam - Backman 1994",
-            "DDI Treatment - Verapamil/Midazolam - Backman 1994",
-            "DDI Control - Midazolam - Wang 2005",
-            "DDI Treatment - Verapamil/Midazolam - Wang 2005"
+            "DDI_Verapamil-Midazolam 15 mg po, Control, Backman 1994, n=9",
+            "DDI_Verapamil-Midazolam 15 mg po, DDI, Backman 1994, n=9",
+            "DDI_Verapamil-Midazolam 0.05 mg/kg iv, Control, Wang 2005, n=8",
+            "DDI_Verapamil-Midazolam 0.05 mg/kg iv, DDI, Wang 2005, n=8",
+            "DDI_Verapamil-Midazolam 0.05 mg/kg iv, 4 mg po, Control, Wang 2005, n=8",
+            "DDI_Verapamil-Midazolam 0.05 mg/kg iv, 4 mg po, DDI, Wang 2005, n=8"
           ]
         },
         {
@@ -6753,10 +6754,12 @@
           "Simulation": "po 3 mg (solution)",
           "Path": "Neighborhoods|UpperIleum_int_UpperIleum_cell|Midazolam|P (interstitial->intracellular)",
           "TargetSimulations": [
-            "DDI Control - Midazolam - Backman 1994",
-            "DDI Treatment - Verapamil/Midazolam - Backman 1994",
-            "DDI Control - Midazolam - Wang 2005",
-            "DDI Treatment - Verapamil/Midazolam - Wang 2005"
+            "DDI_Verapamil-Midazolam 15 mg po, Control, Backman 1994, n=9",
+            "DDI_Verapamil-Midazolam 15 mg po, DDI, Backman 1994, n=9",
+            "DDI_Verapamil-Midazolam 0.05 mg/kg iv, Control, Wang 2005, n=8",
+            "DDI_Verapamil-Midazolam 0.05 mg/kg iv, DDI, Wang 2005, n=8",
+            "DDI_Verapamil-Midazolam 0.05 mg/kg iv, 4 mg po, Control, Wang 2005, n=8",
+            "DDI_Verapamil-Midazolam 0.05 mg/kg iv, 4 mg po, DDI, Wang 2005, n=8"
           ]
         },
         {
@@ -6764,10 +6767,12 @@
           "Simulation": "po 3 mg (solution)",
           "Path": "Neighborhoods|LowerIleum_int_LowerIleum_cell|Midazolam|P (interstitial->intracellular)",
           "TargetSimulations": [
-            "DDI Control - Midazolam - Backman 1994",
-            "DDI Treatment - Verapamil/Midazolam - Backman 1994",
-            "DDI Control - Midazolam - Wang 2005",
-            "DDI Treatment - Verapamil/Midazolam - Wang 2005"
+            "DDI_Verapamil-Midazolam 15 mg po, Control, Backman 1994, n=9",
+            "DDI_Verapamil-Midazolam 15 mg po, DDI, Backman 1994, n=9",
+            "DDI_Verapamil-Midazolam 0.05 mg/kg iv, Control, Wang 2005, n=8",
+            "DDI_Verapamil-Midazolam 0.05 mg/kg iv, DDI, Wang 2005, n=8",
+            "DDI_Verapamil-Midazolam 0.05 mg/kg iv, 4 mg po, Control, Wang 2005, n=8",
+            "DDI_Verapamil-Midazolam 0.05 mg/kg iv, 4 mg po, DDI, Wang 2005, n=8"
           ]
         },
         {
@@ -6775,10 +6780,12 @@
           "Simulation": "po 3 mg (solution)",
           "Path": "Neighborhoods|Caecum_int_Caecum_cell|Midazolam|P (interstitial->intracellular)",
           "TargetSimulations": [
-            "DDI Control - Midazolam - Backman 1994",
-            "DDI Treatment - Verapamil/Midazolam - Backman 1994",
-            "DDI Control - Midazolam - Wang 2005",
-            "DDI Treatment - Verapamil/Midazolam - Wang 2005"
+            "DDI_Verapamil-Midazolam 15 mg po, Control, Backman 1994, n=9",
+            "DDI_Verapamil-Midazolam 15 mg po, DDI, Backman 1994, n=9",
+            "DDI_Verapamil-Midazolam 0.05 mg/kg iv, Control, Wang 2005, n=8",
+            "DDI_Verapamil-Midazolam 0.05 mg/kg iv, DDI, Wang 2005, n=8",
+            "DDI_Verapamil-Midazolam 0.05 mg/kg iv, 4 mg po, Control, Wang 2005, n=8",
+            "DDI_Verapamil-Midazolam 0.05 mg/kg iv, 4 mg po, DDI, Wang 2005, n=8"
           ]
         },
         {
@@ -6786,10 +6793,12 @@
           "Simulation": "po 3 mg (solution)",
           "Path": "Neighborhoods|ColonAscendens_int_ColonAscendens_cell|Midazolam|P (interstitial->intracellular)",
           "TargetSimulations": [
-            "DDI Control - Midazolam - Backman 1994",
-            "DDI Treatment - Verapamil/Midazolam - Backman 1994",
-            "DDI Control - Midazolam - Wang 2005",
-            "DDI Treatment - Verapamil/Midazolam - Wang 2005"
+            "DDI_Verapamil-Midazolam 15 mg po, Control, Backman 1994, n=9",
+            "DDI_Verapamil-Midazolam 15 mg po, DDI, Backman 1994, n=9",
+            "DDI_Verapamil-Midazolam 0.05 mg/kg iv, Control, Wang 2005, n=8",
+            "DDI_Verapamil-Midazolam 0.05 mg/kg iv, DDI, Wang 2005, n=8",
+            "DDI_Verapamil-Midazolam 0.05 mg/kg iv, 4 mg po, Control, Wang 2005, n=8",
+            "DDI_Verapamil-Midazolam 0.05 mg/kg iv, 4 mg po, DDI, Wang 2005, n=8"
           ]
         },
         {
@@ -6797,10 +6806,12 @@
           "Simulation": "po 3 mg (solution)",
           "Path": "Neighborhoods|ColonTransversum_int_ColonTransversum_cell|Midazolam|P (interstitial->intracellular)",
           "TargetSimulations": [
-            "DDI Control - Midazolam - Backman 1994",
-            "DDI Treatment - Verapamil/Midazolam - Backman 1994",
-            "DDI Control - Midazolam - Wang 2005",
-            "DDI Treatment - Verapamil/Midazolam - Wang 2005"
+            "DDI_Verapamil-Midazolam 15 mg po, Control, Backman 1994, n=9",
+            "DDI_Verapamil-Midazolam 15 mg po, DDI, Backman 1994, n=9",
+            "DDI_Verapamil-Midazolam 0.05 mg/kg iv, Control, Wang 2005, n=8",
+            "DDI_Verapamil-Midazolam 0.05 mg/kg iv, DDI, Wang 2005, n=8",
+            "DDI_Verapamil-Midazolam 0.05 mg/kg iv, 4 mg po, Control, Wang 2005, n=8",
+            "DDI_Verapamil-Midazolam 0.05 mg/kg iv, 4 mg po, DDI, Wang 2005, n=8"
           ]
         },
         {
@@ -6808,10 +6819,12 @@
           "Simulation": "po 3 mg (solution)",
           "Path": "Neighborhoods|ColonDescendens_int_ColonDescendens_cell|Midazolam|P (interstitial->intracellular)",
           "TargetSimulations": [
-            "DDI Control - Midazolam - Backman 1994",
-            "DDI Treatment - Verapamil/Midazolam - Backman 1994",
-            "DDI Control - Midazolam - Wang 2005",
-            "DDI Treatment - Verapamil/Midazolam - Wang 2005"
+            "DDI_Verapamil-Midazolam 15 mg po, Control, Backman 1994, n=9",
+            "DDI_Verapamil-Midazolam 15 mg po, DDI, Backman 1994, n=9",
+            "DDI_Verapamil-Midazolam 0.05 mg/kg iv, Control, Wang 2005, n=8",
+            "DDI_Verapamil-Midazolam 0.05 mg/kg iv, DDI, Wang 2005, n=8",
+            "DDI_Verapamil-Midazolam 0.05 mg/kg iv, 4 mg po, Control, Wang 2005, n=8",
+            "DDI_Verapamil-Midazolam 0.05 mg/kg iv, 4 mg po, DDI, Wang 2005, n=8"
           ]
         },
         {
@@ -6819,10 +6832,12 @@
           "Simulation": "po 3 mg (solution)",
           "Path": "Neighborhoods|ColonSigmoid_int_ColonSigmoid_cell|Midazolam|P (interstitial->intracellular)",
           "TargetSimulations": [
-            "DDI Control - Midazolam - Backman 1994",
-            "DDI Treatment - Verapamil/Midazolam - Backman 1994",
-            "DDI Control - Midazolam - Wang 2005",
-            "DDI Treatment - Verapamil/Midazolam - Wang 2005"
+            "DDI_Verapamil-Midazolam 15 mg po, Control, Backman 1994, n=9",
+            "DDI_Verapamil-Midazolam 15 mg po, DDI, Backman 1994, n=9",
+            "DDI_Verapamil-Midazolam 0.05 mg/kg iv, Control, Wang 2005, n=8",
+            "DDI_Verapamil-Midazolam 0.05 mg/kg iv, DDI, Wang 2005, n=8",
+            "DDI_Verapamil-Midazolam 0.05 mg/kg iv, 4 mg po, Control, Wang 2005, n=8",
+            "DDI_Verapamil-Midazolam 0.05 mg/kg iv, 4 mg po, DDI, Wang 2005, n=8"
           ]
         },
         {
@@ -6830,10 +6845,12 @@
           "Simulation": "po 3 mg (solution)",
           "Path": "Neighborhoods|Rectum_int_Rectum_cell|Midazolam|P (interstitial->intracellular)",
           "TargetSimulations": [
-            "DDI Control - Midazolam - Backman 1994",
-            "DDI Treatment - Verapamil/Midazolam - Backman 1994",
-            "DDI Control - Midazolam - Wang 2005",
-            "DDI Treatment - Verapamil/Midazolam - Wang 2005"
+            "DDI_Verapamil-Midazolam 15 mg po, Control, Backman 1994, n=9",
+            "DDI_Verapamil-Midazolam 15 mg po, DDI, Backman 1994, n=9",
+            "DDI_Verapamil-Midazolam 0.05 mg/kg iv, Control, Wang 2005, n=8",
+            "DDI_Verapamil-Midazolam 0.05 mg/kg iv, DDI, Wang 2005, n=8",
+            "DDI_Verapamil-Midazolam 0.05 mg/kg iv, 4 mg po, Control, Wang 2005, n=8",
+            "DDI_Verapamil-Midazolam 0.05 mg/kg iv, 4 mg po, DDI, Wang 2005, n=8"
           ]
         },
         {
@@ -6841,10 +6858,12 @@
           "Simulation": "po 3 mg (solution)",
           "Path": "Neighborhoods|Duodenum_int_Duodenum_cell|Midazolam|P (intracellular->interstitial)",
           "TargetSimulations": [
-            "DDI Control - Midazolam - Backman 1994",
-            "DDI Treatment - Verapamil/Midazolam - Backman 1994",
-            "DDI Control - Midazolam - Wang 2005",
-            "DDI Treatment - Verapamil/Midazolam - Wang 2005"
+            "DDI_Verapamil-Midazolam 15 mg po, Control, Backman 1994, n=9",
+            "DDI_Verapamil-Midazolam 15 mg po, DDI, Backman 1994, n=9",
+            "DDI_Verapamil-Midazolam 0.05 mg/kg iv, Control, Wang 2005, n=8",
+            "DDI_Verapamil-Midazolam 0.05 mg/kg iv, DDI, Wang 2005, n=8",
+            "DDI_Verapamil-Midazolam 0.05 mg/kg iv, 4 mg po, Control, Wang 2005, n=8",
+            "DDI_Verapamil-Midazolam 0.05 mg/kg iv, 4 mg po, DDI, Wang 2005, n=8"
           ]
         },
         {
@@ -6852,10 +6871,12 @@
           "Simulation": "po 3 mg (solution)",
           "Path": "Neighborhoods|UpperJejunum_int_UpperJejunum_cell|Midazolam|P (intracellular->interstitial)",
           "TargetSimulations": [
-            "DDI Control - Midazolam - Backman 1994",
-            "DDI Treatment - Verapamil/Midazolam - Backman 1994",
-            "DDI Control - Midazolam - Wang 2005",
-            "DDI Treatment - Verapamil/Midazolam - Wang 2005"
+            "DDI_Verapamil-Midazolam 15 mg po, Control, Backman 1994, n=9",
+            "DDI_Verapamil-Midazolam 15 mg po, DDI, Backman 1994, n=9",
+            "DDI_Verapamil-Midazolam 0.05 mg/kg iv, Control, Wang 2005, n=8",
+            "DDI_Verapamil-Midazolam 0.05 mg/kg iv, DDI, Wang 2005, n=8",
+            "DDI_Verapamil-Midazolam 0.05 mg/kg iv, 4 mg po, Control, Wang 2005, n=8",
+            "DDI_Verapamil-Midazolam 0.05 mg/kg iv, 4 mg po, DDI, Wang 2005, n=8"
           ]
         },
         {
@@ -6863,10 +6884,12 @@
           "Simulation": "po 3 mg (solution)",
           "Path": "Neighborhoods|LowerJejunum_int_LowerJejunum_cell|Midazolam|P (intracellular->interstitial)",
           "TargetSimulations": [
-            "DDI Control - Midazolam - Backman 1994",
-            "DDI Treatment - Verapamil/Midazolam - Backman 1994",
-            "DDI Control - Midazolam - Wang 2005",
-            "DDI Treatment - Verapamil/Midazolam - Wang 2005"
+            "DDI_Verapamil-Midazolam 15 mg po, Control, Backman 1994, n=9",
+            "DDI_Verapamil-Midazolam 15 mg po, DDI, Backman 1994, n=9",
+            "DDI_Verapamil-Midazolam 0.05 mg/kg iv, Control, Wang 2005, n=8",
+            "DDI_Verapamil-Midazolam 0.05 mg/kg iv, DDI, Wang 2005, n=8",
+            "DDI_Verapamil-Midazolam 0.05 mg/kg iv, 4 mg po, Control, Wang 2005, n=8",
+            "DDI_Verapamil-Midazolam 0.05 mg/kg iv, 4 mg po, DDI, Wang 2005, n=8"
           ]
         },
         {
@@ -6874,10 +6897,12 @@
           "Simulation": "po 3 mg (solution)",
           "Path": "Neighborhoods|UpperIleum_int_UpperIleum_cell|Midazolam|P (intracellular->interstitial)",
           "TargetSimulations": [
-            "DDI Control - Midazolam - Backman 1994",
-            "DDI Treatment - Verapamil/Midazolam - Backman 1994",
-            "DDI Control - Midazolam - Wang 2005",
-            "DDI Treatment - Verapamil/Midazolam - Wang 2005"
+            "DDI_Verapamil-Midazolam 15 mg po, Control, Backman 1994, n=9",
+            "DDI_Verapamil-Midazolam 15 mg po, DDI, Backman 1994, n=9",
+            "DDI_Verapamil-Midazolam 0.05 mg/kg iv, Control, Wang 2005, n=8",
+            "DDI_Verapamil-Midazolam 0.05 mg/kg iv, DDI, Wang 2005, n=8",
+            "DDI_Verapamil-Midazolam 0.05 mg/kg iv, 4 mg po, Control, Wang 2005, n=8",
+            "DDI_Verapamil-Midazolam 0.05 mg/kg iv, 4 mg po, DDI, Wang 2005, n=8"
           ]
         },
         {
@@ -6885,10 +6910,12 @@
           "Simulation": "po 3 mg (solution)",
           "Path": "Neighborhoods|LowerIleum_int_LowerIleum_cell|Midazolam|P (intracellular->interstitial)",
           "TargetSimulations": [
-            "DDI Control - Midazolam - Backman 1994",
-            "DDI Treatment - Verapamil/Midazolam - Backman 1994",
-            "DDI Control - Midazolam - Wang 2005",
-            "DDI Treatment - Verapamil/Midazolam - Wang 2005"
+            "DDI_Verapamil-Midazolam 15 mg po, Control, Backman 1994, n=9",
+            "DDI_Verapamil-Midazolam 15 mg po, DDI, Backman 1994, n=9",
+            "DDI_Verapamil-Midazolam 0.05 mg/kg iv, Control, Wang 2005, n=8",
+            "DDI_Verapamil-Midazolam 0.05 mg/kg iv, DDI, Wang 2005, n=8",
+            "DDI_Verapamil-Midazolam 0.05 mg/kg iv, 4 mg po, Control, Wang 2005, n=8",
+            "DDI_Verapamil-Midazolam 0.05 mg/kg iv, 4 mg po, DDI, Wang 2005, n=8"
           ]
         },
         {
@@ -6896,10 +6923,12 @@
           "Simulation": "po 3 mg (solution)",
           "Path": "Neighborhoods|Caecum_int_Caecum_cell|Midazolam|P (intracellular->interstitial)",
           "TargetSimulations": [
-            "DDI Control - Midazolam - Backman 1994",
-            "DDI Treatment - Verapamil/Midazolam - Backman 1994",
-            "DDI Control - Midazolam - Wang 2005",
-            "DDI Treatment - Verapamil/Midazolam - Wang 2005"
+            "DDI_Verapamil-Midazolam 15 mg po, Control, Backman 1994, n=9",
+            "DDI_Verapamil-Midazolam 15 mg po, DDI, Backman 1994, n=9",
+            "DDI_Verapamil-Midazolam 0.05 mg/kg iv, Control, Wang 2005, n=8",
+            "DDI_Verapamil-Midazolam 0.05 mg/kg iv, DDI, Wang 2005, n=8",
+            "DDI_Verapamil-Midazolam 0.05 mg/kg iv, 4 mg po, Control, Wang 2005, n=8",
+            "DDI_Verapamil-Midazolam 0.05 mg/kg iv, 4 mg po, DDI, Wang 2005, n=8"
           ]
         },
         {
@@ -6907,10 +6936,12 @@
           "Simulation": "po 3 mg (solution)",
           "Path": "Neighborhoods|ColonAscendens_int_ColonAscendens_cell|Midazolam|P (intracellular->interstitial)",
           "TargetSimulations": [
-            "DDI Control - Midazolam - Backman 1994",
-            "DDI Treatment - Verapamil/Midazolam - Backman 1994",
-            "DDI Control - Midazolam - Wang 2005",
-            "DDI Treatment - Verapamil/Midazolam - Wang 2005"
+            "DDI_Verapamil-Midazolam 15 mg po, Control, Backman 1994, n=9",
+            "DDI_Verapamil-Midazolam 15 mg po, DDI, Backman 1994, n=9",
+            "DDI_Verapamil-Midazolam 0.05 mg/kg iv, Control, Wang 2005, n=8",
+            "DDI_Verapamil-Midazolam 0.05 mg/kg iv, DDI, Wang 2005, n=8",
+            "DDI_Verapamil-Midazolam 0.05 mg/kg iv, 4 mg po, Control, Wang 2005, n=8",
+            "DDI_Verapamil-Midazolam 0.05 mg/kg iv, 4 mg po, DDI, Wang 2005, n=8"
           ]
         },
         {
@@ -6918,10 +6949,12 @@
           "Simulation": "po 3 mg (solution)",
           "Path": "Neighborhoods|ColonTransversum_int_ColonTransversum_cell|Midazolam|P (intracellular->interstitial)",
           "TargetSimulations": [
-            "DDI Control - Midazolam - Backman 1994",
-            "DDI Treatment - Verapamil/Midazolam - Backman 1994",
-            "DDI Control - Midazolam - Wang 2005",
-            "DDI Treatment - Verapamil/Midazolam - Wang 2005"
+            "DDI_Verapamil-Midazolam 15 mg po, Control, Backman 1994, n=9",
+            "DDI_Verapamil-Midazolam 15 mg po, DDI, Backman 1994, n=9",
+            "DDI_Verapamil-Midazolam 0.05 mg/kg iv, Control, Wang 2005, n=8",
+            "DDI_Verapamil-Midazolam 0.05 mg/kg iv, DDI, Wang 2005, n=8",
+            "DDI_Verapamil-Midazolam 0.05 mg/kg iv, 4 mg po, Control, Wang 2005, n=8",
+            "DDI_Verapamil-Midazolam 0.05 mg/kg iv, 4 mg po, DDI, Wang 2005, n=8"
           ]
         },
         {
@@ -6929,10 +6962,12 @@
           "Simulation": "po 3 mg (solution)",
           "Path": "Neighborhoods|ColonDescendens_int_ColonDescendens_cell|Midazolam|P (intracellular->interstitial)",
           "TargetSimulations": [
-            "DDI Control - Midazolam - Backman 1994",
-            "DDI Treatment - Verapamil/Midazolam - Backman 1994",
-            "DDI Control - Midazolam - Wang 2005",
-            "DDI Treatment - Verapamil/Midazolam - Wang 2005"
+            "DDI_Verapamil-Midazolam 15 mg po, Control, Backman 1994, n=9",
+            "DDI_Verapamil-Midazolam 15 mg po, DDI, Backman 1994, n=9",
+            "DDI_Verapamil-Midazolam 0.05 mg/kg iv, Control, Wang 2005, n=8",
+            "DDI_Verapamil-Midazolam 0.05 mg/kg iv, DDI, Wang 2005, n=8",
+            "DDI_Verapamil-Midazolam 0.05 mg/kg iv, 4 mg po, Control, Wang 2005, n=8",
+            "DDI_Verapamil-Midazolam 0.05 mg/kg iv, 4 mg po, DDI, Wang 2005, n=8"
           ]
         },
         {
@@ -6940,10 +6975,12 @@
           "Simulation": "po 3 mg (solution)",
           "Path": "Neighborhoods|ColonSigmoid_int_ColonSigmoid_cell|Midazolam|P (intracellular->interstitial)",
           "TargetSimulations": [
-            "DDI Control - Midazolam - Backman 1994",
-            "DDI Treatment - Verapamil/Midazolam - Backman 1994",
-            "DDI Control - Midazolam - Wang 2005",
-            "DDI Treatment - Verapamil/Midazolam - Wang 2005"
+            "DDI_Verapamil-Midazolam 15 mg po, Control, Backman 1994, n=9",
+            "DDI_Verapamil-Midazolam 15 mg po, DDI, Backman 1994, n=9",
+            "DDI_Verapamil-Midazolam 0.05 mg/kg iv, Control, Wang 2005, n=8",
+            "DDI_Verapamil-Midazolam 0.05 mg/kg iv, DDI, Wang 2005, n=8",
+            "DDI_Verapamil-Midazolam 0.05 mg/kg iv, 4 mg po, Control, Wang 2005, n=8",
+            "DDI_Verapamil-Midazolam 0.05 mg/kg iv, 4 mg po, DDI, Wang 2005, n=8"
           ]
         },
         {
@@ -6951,10 +6988,12 @@
           "Simulation": "po 3 mg (solution)",
           "Path": "Neighborhoods|Rectum_int_Rectum_cell|Midazolam|P (intracellular->interstitial)",
           "TargetSimulations": [
-            "DDI Control - Midazolam - Backman 1994",
-            "DDI Treatment - Verapamil/Midazolam - Backman 1994",
-            "DDI Control - Midazolam - Wang 2005",
-            "DDI Treatment - Verapamil/Midazolam - Wang 2005"
+            "DDI_Verapamil-Midazolam 15 mg po, Control, Backman 1994, n=9",
+            "DDI_Verapamil-Midazolam 15 mg po, DDI, Backman 1994, n=9",
+            "DDI_Verapamil-Midazolam 0.05 mg/kg iv, Control, Wang 2005, n=8",
+            "DDI_Verapamil-Midazolam 0.05 mg/kg iv, DDI, Wang 2005, n=8",
+            "DDI_Verapamil-Midazolam 0.05 mg/kg iv, 4 mg po, Control, Wang 2005, n=8",
+            "DDI_Verapamil-Midazolam 0.05 mg/kg iv, 4 mg po, DDI, Wang 2005, n=8"
           ]
         }
       ]
@@ -12092,12 +12131,12 @@
       {
         "SectionReference": "verapamil-midazolam-ddi",
         "Title": "Backman 1994",
-        "SimulationDuration": 20,
+        "SimulationDuration": 17,
         "TimeUnit": "h",
         "OutputMappings": [
           {
             "Project": "Verapamil-Midazolam-DDI",
-            "Simulation": "DDI Control - Midazolam - Backman 1994",
+            "Simulation": "DDI_Verapamil-Midazolam 15 mg po, Control, Backman 1994, n=9",
             "Output": "Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
             "ObservedData": "Backman 1994 - Midazolam with placebo - Midazolam - PO - 15 mg - Plasma - agg. (n=9)",
             "StartTime": 0,
@@ -12108,7 +12147,7 @@
           },
           {
             "Project": "Verapamil-Midazolam-DDI",
-            "Simulation": "DDI Treatment - Verapamil/Midazolam - Backman 1994",
+            "Simulation": "DDI_Verapamil-Midazolam 15 mg po, DDI, Backman 1994, n=9",
             "Output": "Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
             "ObservedData": "Backman 1994 - Midazolam with verapamil - Midazolam - PO - 15 mg - Plasma - agg. (n=9)",
             "StartTime": 25,
@@ -12127,7 +12166,7 @@
         "OutputMappings": [
           {
             "Project": "Verapamil-Midazolam-DDI",
-            "Simulation": "DDI Control - Midazolam - Wang 2005",
+            "Simulation": "DDI_Verapamil-Midazolam 0.05 mg/kg iv, Control, Wang 2005, n=8",
             "Output": "Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
             "ObservedData": [],
             "StartTime": 0,
@@ -12138,7 +12177,7 @@
           },
           {
             "Project": "Verapamil-Midazolam-DDI",
-            "Simulation": "DDI Treatment - Verapamil/Midazolam - Wang 2005",
+            "Simulation": "DDI_Verapamil-Midazolam 0.05 mg/kg iv, DDI, Wang 2005, n=8",
             "Output": "Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
             "ObservedData": [],
             "StartTime": 168,
@@ -12157,7 +12196,7 @@
         "OutputMappings": [
           {
             "Project": "Verapamil-Midazolam-DDI",
-            "Simulation": "DDI Control - Midazolam - Wang 2005",
+            "Simulation": "DDI_Verapamil-Midazolam 0.05 mg/kg iv, 4 mg po, Control, Wang 2005, n=8",
             "Output": "Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
             "ObservedData": [],
             "StartTime": 24,
@@ -12168,7 +12207,7 @@
           },
           {
             "Project": "Verapamil-Midazolam-DDI",
-            "Simulation": "DDI Treatment - Verapamil/Midazolam - Wang 2005",
+            "Simulation": "DDI_Verapamil-Midazolam 0.05 mg/kg iv, 4 mg po, DDI, Wang 2005, n=8",
             "Output": "Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
             "ObservedData": [],
             "StartTime": 192,
@@ -15872,16 +15911,14 @@
                 "ObservedDataRecordId": 1111,
                 "SimulationControl": {
                   "Project": "Verapamil-Midazolam-DDI",
-                  "Simulation": "DDI Control - Midazolam - Wang 2005",
+                  "Simulation": "DDI_Verapamil-Midazolam 0.05 mg/kg iv, Control, Wang 2005, n=8",
                   "StartTime": 0,
-                  "EndTime": 24,
                   "TimeUnit": "h"
                 },
                 "SimulationDDI": {
                   "Project": "Verapamil-Midazolam-DDI",
-                  "Simulation": "DDI Treatment - Verapamil/Midazolam - Wang 2005",
+                  "Simulation": "DDI_Verapamil-Midazolam 0.05 mg/kg iv, DDI, Wang 2005, n=8",
                   "StartTime": 168,
-                  "EndTime": 192,
                   "TimeUnit": "h"
                 }
               }
@@ -15898,13 +15935,13 @@
                 "ObservedDataRecordId": 1108,
                 "SimulationControl": {
                   "Project": "Verapamil-Midazolam-DDI",
-                  "Simulation": "DDI Control - Midazolam - Backman 1994",
+                  "Simulation": "DDI_Verapamil-Midazolam 15 mg po, Control, Backman 1994, n=9",
                   "StartTime": 0,
                   "TimeUnit": "h"
                 },
                 "SimulationDDI": {
                   "Project": "Verapamil-Midazolam-DDI",
-                  "Simulation": "DDI Treatment - Verapamil/Midazolam - Backman 1994",
+                  "Simulation": "DDI_Verapamil-Midazolam 15 mg po, DDI, Backman 1994, n=9",
                   "StartTime": 25,
                   "TimeUnit": "h"
                 }
@@ -15915,13 +15952,13 @@
                 "ObservedDataRecordId": 1116,
                 "SimulationControl": {
                   "Project": "Verapamil-Midazolam-DDI",
-                  "Simulation": "DDI Control - Midazolam - Wang 2005",
+                  "Simulation": "DDI_Verapamil-Midazolam 0.05 mg/kg iv, 4 mg po, Control, Wang 2005, n=8",
                   "StartTime": 24,
                   "TimeUnit": "h"
                 },
                 "SimulationDDI": {
                   "Project": "Verapamil-Midazolam-DDI",
-                  "Simulation": "DDI Treatment - Verapamil/Midazolam - Wang 2005",
+                  "Simulation": "DDI_Verapamil-Midazolam 0.05 mg/kg iv, 4 mg po, DDI, Wang 2005, n=8",
                   "StartTime": 192,
                   "TimeUnit": "h"
                 }
