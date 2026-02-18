@@ -57,8 +57,13 @@
 **Friedman 1988** Friedman H,  Greenblatt DJ, Burstein ES, Scavone JM, Harmatz JS, Shader RI. Triazolam kinetics: interaction with cimetidine, propranolol, and the  combination. J Clin Pharmacol. 1988 Mar;28(3):228-33.
 
 ## Cimetidine-Verapamil-DDI
+**Abernethy 1985** Abernethy DR, Schwartz JB, Todd EL. Lack of interaction between verapamil and cimetidine. Clin Pharmacol Ther. 1985 Sep;38(3):342-9. doi: 10.1038/clpt.1985.183. PMID: 4028631.
+
+**Mikus 1990** Mikus G, Eichelbaum M, Fischer C, Gumulka S, Klotz U, Kroemer HK. Interaction of verapamil and cimetidine: stereochemical aspects of drug metabolism, drug disposition and drug action. J Pharmacol Exp Ther. 1990 Jun;253(3):1042-8. PMID: 2359015.
 
 **Smith 1984** Smith MS, Benyunes  MC, Bjornsson TD, Shand DG, Pritchett EL. Influence of cimetidine on  verapamil kinetics and dynamics. Clin Pharmacol Ther. 1984  Oct;36(4):551-4. 
+
+**Wing 1985** Wing LM, Miners JO, Lillywhite KJ. Verapamil disposition--effects of sulphinpyrazone and cimetidine. Br J Clin Pharmacol. 1985 Mar;19(3):385-91. doi: 10.1111/j.1365-2125.1985.tb02658.x. PMID: 3986090; PMCID: PMC1463741.
 
 ## Clarithromycin-Midazolam-DDI
 

@@ -10809,14 +10809,44 @@
       },
       {
         "SectionReference": "cimetidine-verapamil-ddi",
-        "Title": "Smith 1984 (verapamil IV)",
-        "SimulationDuration": 12,
+        "Title": "Abernethy 1985 (verapamil IV)",
+        "SimulationDuration": 6.5,
         "TimeUnit": "h",
         "OutputMappings": [
           {
             "Project": "Cimetidine-Verapamil-DDI",
-            "Simulation": "Smith 1984 - Verapamil 10 mg iv control",
-            "Output": "Organism|PeripheralVenousBlood|Verapamil|Plasma (Peripheral Venous Blood)",
+            "Simulation": "DDI_Cimetidine-Verapamil  10 mg iv, Control, Abernethy 1985, n=1",
+            "Output": "Organism|PeripheralVenousBlood|R-Verapamil|Sum-Verapamil Plasma (Peripheral Venous Blood)",
+            "ObservedData": "Abernethy et al. 1985 - 10mg Verapamil without cimetidine, IV - Verapamil - IV - 10 mg - Plasma - indiv.",
+            "StartTime": 0,
+            "TimeUnit": "h",
+            "Color": "#2166ac",
+            "Caption": "Control (without Cimetidine)",
+            "Symbol": "Circle"
+          },
+          {
+            "Project": "Cimetidine-Verapamil-DDI",
+            "Simulation": "DDI_Cimetidine-Verapamil  10 mg iv, DDI, Abernethy 1985, n=1",
+            "Output": "Organism|PeripheralVenousBlood|R-Verapamil|Sum-Verapamil Plasma (Peripheral Venous Blood)",
+            "ObservedData": "Abernethy et al. 1985 - 10mg Verapamil + cimetidine, IV - Verapamil - IV - 10 mg - Plasma - indiv.",
+            "StartTime": 12,
+            "TimeUnit": "h",
+            "Color": "#b2182b",
+            "Caption": "Treatment with Cimetidine",
+            "Symbol": "Square"
+          }
+        ]
+      },
+      {
+        "SectionReference": "cimetidine-verapamil-ddi",
+        "Title": "Smith 1984 (verapamil IV)",
+        "SimulationDuration": 5,
+        "TimeUnit": "h",
+        "OutputMappings": [
+          {
+            "Project": "Cimetidine-Verapamil-DDI",
+            "Simulation": "DDI_Cimetidine-Verapamil  10 mg iv, Control, Smith 1984, n=8",
+            "Output": "Organism|PeripheralVenousBlood|R-Verapamil|Sum-Verapamil Plasma (Peripheral Venous Blood)",
             "ObservedData": "Smith 1984 - IV 10 mg Verapamil control - Verapamil - IV - 10 mg - Plasma - agg. (n=8)",
             "StartTime": 0,
             "TimeUnit": "h",
@@ -10826,8 +10856,8 @@
           },
           {
             "Project": "Cimetidine-Verapamil-DDI",
-            "Simulation": "Smith 1984 - Verapamil 10 mg iv + cimetidine 300 mg qid",
-            "Output": "Organism|PeripheralVenousBlood|Verapamil|Plasma (Peripheral Venous Blood)",
+            "Simulation": "DDI_Cimetidine-Verapamil  10 mg iv, DDI, Smith 1984, n=8",
+            "Output": "Organism|PeripheralVenousBlood|R-Verapamil|Sum-Verapamil Plasma (Peripheral Venous Blood)",
             "ObservedData": "Smith 1984 - IV 10 mg Verapamil + Cimetidine - Verapamil - IV - 10 mg - Plasma - agg. (n=8)",
             "StartTime": 168,
             "TimeUnit": "h",
@@ -10839,14 +10869,134 @@
       },
       {
         "SectionReference": "cimetidine-verapamil-ddi",
-        "Title": "Smith 1984 (verapamil PO)",
-        "SimulationDuration": 12,
+        "Title": "Wing 1985 (verapamil IV)",
+        "SimulationDuration": 10.5,
         "TimeUnit": "h",
         "OutputMappings": [
           {
             "Project": "Cimetidine-Verapamil-DDI",
-            "Simulation": "Smith 1984 - Verapamil 120 mg po control",
-            "Output": "Organism|PeripheralVenousBlood|Verapamil|Plasma (Peripheral Venous Blood)",
+            "Simulation": "DDI_Cimetidine-Verapamil  10 mg iv, Control, Wing 1985, n=1",
+            "Output": "Organism|PeripheralVenousBlood|R-Verapamil|Sum-Verapamil Plasma (Peripheral Venous Blood)",
+            "ObservedData": "Wing et al. 1985 - 10mg Verapamil without cimetidine, IV - Verapamil - IV - 10 mg - Plasma - indiv.",
+            "StartTime": 0,
+            "TimeUnit": "h",
+            "Color": "#2166ac",
+            "Caption": "Control (without Cimetidine)",
+            "Symbol": "Circle"
+          },
+          {
+            "Project": "Cimetidine-Verapamil-DDI",
+            "Simulation": "DDI_Cimetidine-Verapamil  10 mg iv, DDI, Wing 1985, n=1",
+            "Output": "Organism|PeripheralVenousBlood|R-Verapamil|Sum-Verapamil Plasma (Peripheral Venous Blood)",
+            "ObservedData": "Wing et al. 1985 - 10mg Verapamil + cimetidine, IV - Verapamil - IV - 10 mg - Plasma - indiv.",
+            "StartTime": 168,
+            "TimeUnit": "h",
+            "Color": "#b2182b",
+            "Caption": "Treatment with Cimetidine",
+            "Symbol": "Square"
+          }
+        ]
+      },
+      {
+        "SectionReference": "cimetidine-verapamil-ddi",
+        "Title": "Abernethy 1985 (verapamil PO)",
+        "SimulationDuration": 15,
+        "TimeUnit": "h",
+        "OutputMappings": [
+          {
+            "Project": "Cimetidine-Verapamil-DDI",
+            "Simulation": "DDI_Cimetidine-Verapamil 120 mg po, Control, Abernethy 1985, n=1",
+            "Output": "Organism|PeripheralVenousBlood|R-Verapamil|Sum-Verapamil Plasma (Peripheral Venous Blood)",
+            "ObservedData": "Abernethy et al. 1985 - 120mg Verapamil without cimetidine, PO - Verapamil - PO - 120 mg - Plasma - indiv.",
+            "StartTime": 0,
+            "TimeUnit": "h",
+            "Color": "#2166ac",
+            "Caption": "Control (without Cimetidine)",
+            "Symbol": "Circle"
+          },
+          {
+            "Project": "Cimetidine-Verapamil-DDI",
+            "Simulation": "DDI_Cimetidine-Verapamil 120 mg po, DDI, Abernethy 1985, n=1",
+            "Output": "Organism|PeripheralVenousBlood|R-Verapamil|Sum-Verapamil Plasma (Peripheral Venous Blood)",
+            "ObservedData": "Abernethy et al. 1985 - 120mg Verapamil + cimetidine, PO - Verapamil - PO - 120 mg - Plasma - indiv.",
+            "StartTime": 12,
+            "TimeUnit": "h",
+            "Color": "#b2182b",
+            "Caption": "Treatment with Cimetidine",
+            "Symbol": "Square"
+          }
+        ]
+      },
+      {
+        "SectionReference": "cimetidine-verapamil-ddi",
+        "Title": "Mikus 1990 (verapamil PO), R-verapamil",
+        "SimulationDuration": 15,
+        "TimeUnit": "h",
+        "OutputMappings": [
+          {
+            "Project": "Cimetidine-Verapamil-DDI",
+            "Simulation": "DDI_Cimetidine-Verapamil 160 mg po, Control, Mikus 1990, n=1",
+            "Output": "Organism|PeripheralVenousBlood|R-Verapamil|Plasma (Peripheral Venous Blood)",
+            "ObservedData": "Mikus et al. 1990 - 160mg verapamil without cimetidine, PO - R-Verapamil - PO - 160 mg - Plasma - indiv.",
+            "StartTime": 0,
+            "TimeUnit": "h",
+            "Color": "#2166ac",
+            "Caption": "Control (without Cimetidine)",
+            "Symbol": "Circle"
+          },
+          {
+            "Project": "Cimetidine-Verapamil-DDI",
+            "Simulation": "DDI_Cimetidine-Verapamil 160 mg po, DDI, Mikus 1990, n=1",
+            "Output": "Organism|PeripheralVenousBlood|R-Verapamil|Plasma (Peripheral Venous Blood)",
+            "ObservedData": "Mikus et al. 1990 - 160mg verapamil + cimetidine, PO - R-Verapamil - PO - 160 mg - Plasma - indiv.",
+            "StartTime": 144.5,
+            "TimeUnit": "h",
+            "Color": "#b2182b",
+            "Caption": "Treatment with Cimetidine",
+            "Symbol": "Square"
+          }
+        ]
+      },
+      {
+        "SectionReference": "cimetidine-verapamil-ddi",
+        "Title": "Mikus 1990 (verapamil PO), S-verapamil",
+        "SimulationDuration": 15,
+        "TimeUnit": "h",
+        "OutputMappings": [
+          {
+            "Project": "Cimetidine-Verapamil-DDI",
+            "Simulation": "DDI_Cimetidine-Verapamil 160 mg po, Control, Mikus 1990, n=1",
+            "Output": "Organism|PeripheralVenousBlood|S-Verapamil|Plasma (Peripheral Venous Blood)",
+            "ObservedData": "Mikus et al. 1990 - 160mg verapamil without cimetidine, PO - S-Verapamil - PO - 160 mg - Plasma - indiv.",
+            "StartTime": 0,
+            "TimeUnit": "h",
+            "Color": "#2166ac",
+            "Caption": "Control (without Cimetidine)",
+            "Symbol": "Circle"
+          },
+          {
+            "Project": "Cimetidine-Verapamil-DDI",
+            "Simulation": "DDI_Cimetidine-Verapamil 160 mg po, DDI, Mikus 1990, n=1",
+            "Output": "Organism|PeripheralVenousBlood|S-Verapamil|Plasma (Peripheral Venous Blood)",
+            "ObservedData": "Mikus et al. 1990 - 160mg verapamil + cimetidine, PO - S-Verapamil - PO - 160 mg - Plasma - indiv.",
+            "StartTime": 144.5,
+            "TimeUnit": "h",
+            "Color": "#b2182b",
+            "Caption": "Treatment with Cimetidine",
+            "Symbol": "Square"
+          }
+        ]
+      },
+      {
+        "SectionReference": "cimetidine-verapamil-ddi",
+        "Title": "Smith 1984 (verapamil PO)",
+        "SimulationDuration": 7,
+        "TimeUnit": "h",
+        "OutputMappings": [
+          {
+            "Project": "Cimetidine-Verapamil-DDI",
+            "Simulation": "DDI_Cimetidine-Verapamil 120 mg po, Control, Smith 1984, n=8",
+            "Output": "Organism|PeripheralVenousBlood|R-Verapamil|Sum-Verapamil Plasma (Peripheral Venous Blood)",
             "ObservedData": "Smith 1984 - PO 120 mg Verapamil control - Verapamil - PO - 120 mg - Plasma - agg. (n=8)",
             "StartTime": 0,
             "TimeUnit": "h",
@@ -10856,9 +11006,39 @@
           },
           {
             "Project": "Cimetidine-Verapamil-DDI",
-            "Simulation": "Smith 1984 - Verapamil 120 mg po + 300 mg cimetidine qid",
-            "Output": "Organism|PeripheralVenousBlood|Verapamil|Plasma (Peripheral Venous Blood)",
+            "Simulation": "DDI_Cimetidine-Verapamil 120 mg po, DDI, Smith 1984, n=8",
+            "Output": "Organism|PeripheralVenousBlood|R-Verapamil|Sum-Verapamil Plasma (Peripheral Venous Blood)",
             "ObservedData": "Smith 1984 - PO 120 mg Verapamil + Cimetidine - Verapamil - PO - 120 mg - Plasma - agg. (n=8)",
+            "StartTime": 168,
+            "TimeUnit": "h",
+            "Color": "#b2182b",
+            "Caption": "Treatment with Cimetidine",
+            "Symbol": "Square"
+          }
+        ]
+      },
+      {
+        "SectionReference": "cimetidine-verapamil-ddi",
+        "Title": "Wing 1985 (verapamil PO)",
+        "SimulationDuration": 10,
+        "TimeUnit": "h",
+        "OutputMappings": [
+          {
+            "Project": "Cimetidine-Verapamil-DDI",
+            "Simulation": "DDI_Cimetidine-Verapamil  80 mg po, Control, Wing 1985, n=1",
+            "Output": "Organism|PeripheralVenousBlood|R-Verapamil|Sum-Verapamil Plasma (Peripheral Venous Blood)",
+            "ObservedData": "Wing et al. 1985 - 80mg Verapamil without cimetidine, PO - Verapamil - PO - 80 mg - Plasma - indiv.",
+            "StartTime": 0,
+            "TimeUnit": "h",
+            "Color": "#2166ac",
+            "Caption": "Control (without Cimetidine)",
+            "Symbol": "Circle"
+          },
+          {
+            "Project": "Cimetidine-Verapamil-DDI",
+            "Simulation": "DDI_Cimetidine-Verapamil  80 mg po, DDI, Wing 1985, n=1",
+            "Output": "Organism|PeripheralVenousBlood|R-Verapamil|Sum-Verapamil Plasma (Peripheral Venous Blood)",
+            "ObservedData": "Wing et al. 1985 - 80mg Verapamil + cimetidine, PO - Verapamil - PO - 80 mg - Plasma - indiv.",
             "StartTime": 168,
             "TimeUnit": "h",
             "Color": "#b2182b",
@@ -14936,18 +15116,52 @@
             "Symbol": "Square",
             "DDIRatios": [
               {
-                "Output": "Organism|PeripheralVenousBlood|Verapamil|Plasma (Peripheral Venous Blood)",
+                "Output": "Organism|PeripheralVenousBlood|R-Verapamil|Sum-Verapamil Plasma (Peripheral Venous Blood)",
                 "ObservedData": "DDI Ratios",
-                "ObservedDataRecordId": 1328,
+                "ObservedDataRecordId": 16149,
                 "SimulationControl": {
                   "Project": "Cimetidine-Verapamil-DDI",
-                  "Simulation": "Smith 1984 - Verapamil 10 mg iv control",
+                  "Simulation": "DDI_Cimetidine-Verapamil  10 mg iv, Control, Abernethy 1985, n=1",
                   "StartTime": 0,
                   "TimeUnit": "h"
                 },
                 "SimulationDDI": {
                   "Project": "Cimetidine-Verapamil-DDI",
-                  "Simulation": "Smith 1984 - Verapamil 10 mg iv + cimetidine 300 mg qid",
+                  "Simulation": "DDI_Cimetidine-Verapamil  10 mg iv, DDI, Abernethy 1985, n=1",
+                  "StartTime": 12,
+                  "TimeUnit": "h"
+                }
+              },
+              {
+                "Output": "Organism|PeripheralVenousBlood|R-Verapamil|Sum-Verapamil Plasma (Peripheral Venous Blood)",
+                "ObservedData": "DDI Ratios",
+                "ObservedDataRecordId": 1328,
+                "SimulationControl": {
+                  "Project": "Cimetidine-Verapamil-DDI",
+                  "Simulation": "DDI_Cimetidine-Verapamil  10 mg iv, Control, Smith 1984, n=8",
+                  "StartTime": 0,
+                  "TimeUnit": "h"
+                },
+                "SimulationDDI": {
+                  "Project": "Cimetidine-Verapamil-DDI",
+                  "Simulation": "DDI_Cimetidine-Verapamil  10 mg iv, DDI, Smith 1984, n=8",
+                  "StartTime": 168,
+                  "TimeUnit": "h"
+                }
+              },
+              {
+                "Output": "Organism|PeripheralVenousBlood|R-Verapamil|Sum-Verapamil Plasma (Peripheral Venous Blood)",
+                "ObservedData": "DDI Ratios",
+                "ObservedDataRecordId": 16155,
+                "SimulationControl": {
+                  "Project": "Cimetidine-Verapamil-DDI",
+                  "Simulation": "DDI_Cimetidine-Verapamil  10 mg iv, Control, Wing 1985, n=1",
+                  "StartTime": 0,
+                  "TimeUnit": "h"
+                },
+                "SimulationDDI": {
+                  "Project": "Cimetidine-Verapamil-DDI",
+                  "Simulation": "DDI_Cimetidine-Verapamil  10 mg iv, DDI, Wing 1985, n=1",
                   "StartTime": 168,
                   "TimeUnit": "h"
                 }
@@ -14960,18 +15174,86 @@
             "Symbol": "Circle",
             "DDIRatios": [
               {
-                "Output": "Organism|PeripheralVenousBlood|Verapamil|Plasma (Peripheral Venous Blood)",
+                "Output": "Organism|PeripheralVenousBlood|R-Verapamil|Sum-Verapamil Plasma (Peripheral Venous Blood)",
                 "ObservedData": "DDI Ratios",
-                "ObservedDataRecordId": 1330,
+                "ObservedDataRecordId": 16150,
                 "SimulationControl": {
                   "Project": "Cimetidine-Verapamil-DDI",
-                  "Simulation": "Smith 1984 - Verapamil 120 mg po control",
+                  "Simulation": "DDI_Cimetidine-Verapamil 120 mg po, Control, Abernethy 1985, n=1",
                   "StartTime": 0,
                   "TimeUnit": "h"
                 },
                 "SimulationDDI": {
                   "Project": "Cimetidine-Verapamil-DDI",
-                  "Simulation": "Smith 1984 - Verapamil 120 mg po + 300 mg cimetidine qid",
+                  "Simulation": "DDI_Cimetidine-Verapamil 120 mg po, DDI, Abernethy 1985, n=1",
+                  "StartTime": 12,
+                  "TimeUnit": "h"
+                }
+              },
+              {
+                "Output": "Organism|PeripheralVenousBlood|R-Verapamil|Plasma (Peripheral Venous Blood)",
+                "ObservedData": "DDI Ratios",
+                "ObservedDataRecordId": 16151,
+                "SimulationControl": {
+                  "Project": "Cimetidine-Verapamil-DDI",
+                  "Simulation": "DDI_Cimetidine-Verapamil 160 mg po, Control, Mikus 1990, n=1",
+                  "StartTime": 0,
+                  "TimeUnit": "h"
+                },
+                "SimulationDDI": {
+                  "Project": "Cimetidine-Verapamil-DDI",
+                  "Simulation": "DDI_Cimetidine-Verapamil 160 mg po, DDI, Mikus 1990, n=1",
+                  "StartTime": 144.5,
+                  "TimeUnit": "h"
+                }
+              },
+              {
+                "Output": "Organism|PeripheralVenousBlood|S-Verapamil|Plasma (Peripheral Venous Blood)",
+                "ObservedData": "DDI Ratios",
+                "ObservedDataRecordId": 16152,
+                "SimulationControl": {
+                  "Project": "Cimetidine-Verapamil-DDI",
+                  "Simulation": "DDI_Cimetidine-Verapamil 160 mg po, Control, Mikus 1990, n=1",
+                  "StartTime": 0,
+                  "TimeUnit": "h"
+                },
+                "SimulationDDI": {
+                  "Project": "Cimetidine-Verapamil-DDI",
+                  "Simulation": "DDI_Cimetidine-Verapamil 160 mg po, DDI, Mikus 1990, n=1",
+                  "StartTime": 144.5,
+                  "TimeUnit": "h"
+                }
+              },
+              {
+                "Output": "Organism|PeripheralVenousBlood|R-Verapamil|Sum-Verapamil Plasma (Peripheral Venous Blood)",
+                "ObservedData": "DDI Ratios",
+                "ObservedDataRecordId": 1330,
+                "SimulationControl": {
+                  "Project": "Cimetidine-Verapamil-DDI",
+                  "Simulation": "DDI_Cimetidine-Verapamil 120 mg po, Control, Smith 1984, n=8",
+                  "StartTime": 0,
+                  "TimeUnit": "h"
+                },
+                "SimulationDDI": {
+                  "Project": "Cimetidine-Verapamil-DDI",
+                  "Simulation": "DDI_Cimetidine-Verapamil 120 mg po, DDI, Smith 1984, n=8",
+                  "StartTime": 168,
+                  "TimeUnit": "h"
+                }
+              },
+              {
+                "Output": "Organism|PeripheralVenousBlood|R-Verapamil|Sum-Verapamil Plasma (Peripheral Venous Blood)",
+                "ObservedData": "DDI Ratios",
+                "ObservedDataRecordId": 16156,
+                "SimulationControl": {
+                  "Project": "Cimetidine-Verapamil-DDI",
+                  "Simulation": "DDI_Cimetidine-Verapamil  80 mg po, Control, Wing 1985, n=1",
+                  "StartTime": 0,
+                  "TimeUnit": "h"
+                },
+                "SimulationDDI": {
+                  "Project": "Cimetidine-Verapamil-DDI",
+                  "Simulation": "DDI_Cimetidine-Verapamil  80 mg po, DDI, Wing 1985, n=1",
                   "StartTime": 168,
                   "TimeUnit": "h"
                 }
