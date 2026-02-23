@@ -55,7 +55,7 @@
     },
     {
       "Id": "Verapamil",
-      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Verapamil-Model/v2.1/Verapamil-Model.json"
+      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Verapamil-Model/v2.2/Verapamil-Model.json"
     },
     {
       "Id": "Carbamazepine-Alprazolam-DDI",
@@ -1183,7 +1183,7 @@
     },
     {
       "Id": "Cimetidine-Carbamazepine-DDI",
-      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Cimetidine-Carbamazepine-DDI/v1.1/Cimetidine-Carbamazepine-DDI.json",
+      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Cimetidine-Carbamazepine-DDI/v1.2/Cimetidine-Carbamazepine-DDI.json",
       "BuildingBlocks": [
         {
           "Type": "Compound",
@@ -1992,7 +1992,7 @@
     },
     {
       "Id": "Cimetidine-Verapamil-DDI",
-      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Cimetidine-Verapamil-DDI/v1.2/Cimetidine-Verapamil-DDI.json",
+      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Cimetidine-Verapamil-DDI/v2.0/Cimetidine-Verapamil-DDI.json",
       "BuildingBlocks": [
         {
           "Type": "Compound",
@@ -6676,7 +6676,7 @@
     },
     {
       "Id": "Verapamil-Midazolam-DDI",
-      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Verapamil-Midazolam-DDI/v1.3/Verapamil-Midazolam-DDI.json",
+      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Verapamil-Midazolam-DDI/v2.0/Verapamil-Midazolam-DDI.json",
       "BuildingBlocks": [
         {
           "Type": "Compound",
@@ -10267,7 +10267,7 @@
     },
     {
       "Id": "Rifampicin-Verapamil-DDI",
-      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Rifampicin-Verapamil-DDI/v1.1/Rifampicin-Verapamil-DDI.json",
+      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Rifampicin-Verapamil-DDI/v2.0/Rifampicin-Verapamil-DDI.json",
       "BuildingBlocks": [
         {
           "Type": "Compound",
@@ -10300,7 +10300,7 @@
   "ObservedDataSets": [
     {
       "Id": "DDI Ratios",
-      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Database-for-observed-data/v1.8/DDI.csv",
+      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Database-for-observed-data/v1.9/DDI.csv",
       "Type": "DDIRatio"
     }
   ],
