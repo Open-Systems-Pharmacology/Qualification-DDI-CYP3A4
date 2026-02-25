@@ -1,5 +1,5 @@
 The release of the snapshot containing the respective simulations can be found here:
-[https://github.com/Open-Systems-Pharmacology/Cimetidine-Verapamil-DDI/releases/tag/v1.2](https://github.com/Open-Systems-Pharmacology/Cimetidine-Verapamil-DDI/releases/tag/v1.2)
+[https://github.com/Open-Systems-Pharmacology/Cimetidine-Verapamil-DDI/releases/tag/v2.0](https://github.com/Open-Systems-Pharmacology/Cimetidine-Verapamil-DDI/releases/tag/v2.0)
 
 The cimetidine-verapamil interaction was evaluated using four clinical DDI studies quantifying the interaction following seven different dosing regimens ([Abernethy 1985](#4-references), [Mikus 1990](#4-references), [Smith 1984](#4-references), [Wing 1985](#4-references)).
 
