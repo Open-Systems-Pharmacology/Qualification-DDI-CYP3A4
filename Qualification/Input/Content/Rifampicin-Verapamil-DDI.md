@@ -1,5 +1,5 @@
 The release of the snapshot containing the respective simulations can be found here:
-[https://github.com/Open-Systems-Pharmacology/Rifampicin-Verapamil-DDI/releases/tag/v1.1](https://github.com/Open-Systems-Pharmacology/Rifampicin-Verapamil-DDI/releases/tag/v1.1)
+[https://github.com/Open-Systems-Pharmacology/Rifampicin-Verapamil-DDI/releases/tag/v2.0](https://github.com/Open-Systems-Pharmacology/Rifampicin-Verapamil-DDI/releases/tag/v2.0)
 
 The  rifampicin / verapamil interaction was evaluated using 1 clinical DDI study including 2 different clinical settings ([Barbarash 1988](#4-references)).
 
