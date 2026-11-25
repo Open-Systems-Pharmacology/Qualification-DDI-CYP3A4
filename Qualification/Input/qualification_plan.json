@@ -8213,7 +8213,7 @@
     },
     {
       "Id": "Rifampicin-Alprazolam-DDI",
-      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Rifampicin-Alprazolam-DDI/v1.2/Rifampicin-Alprazolam-DDI.json",
+      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Rifampicin-Alprazolam-DDI/v1.3/Rifampicin-Alprazolam-DDI.json",
       "BuildingBlocks": [
         {
           "Type": "Compound",
